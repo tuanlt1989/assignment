@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Assignment
+
+  Created by Tuan on 14/06/2022.
+  
+*/
+"all" = "All";
+"incomplete" = "Incomplete";
+"complete" = "Complete";
+"processingError" = "Processing error";
+"cancel" = "Cancel";
+"warningContent" = "Please input content task";
+"create" = "Create";
+"writeNewTask" = "Write new task";
+"createTask" = "Create task";
+"notification" = "Notification";
+"noData" = "Data not found";
