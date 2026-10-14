@@ -1,0 +1,961 @@
+# Banco de preguntas de uñas — español. Mismos id y mismo orden de opciones que en.txt.
+
+[n001]
+¿Qué agencia federal registra los desinfectantes que se usan en los salones de uñas?
+- OSHA
+* EPA
+- FDA
+- CDC
+> La Agencia de Protección Ambiental (EPA) registra los desinfectantes. Usa solo productos con número de registro de la EPA en la etiqueta y exactamente como se indica.
+
+[n002]
+Quitar la suciedad visible de una superficie con jabón o detergente y agua se llama:
+* Limpieza
+- Desinfección
+- Esterilización
+- Antisepsia
+> La limpieza es el primer nivel de descontaminación. Elimina la suciedad visible y muchos gérmenes, y siempre se hace antes de desinfectar.
+
+[n003]
+¿Qué proceso destruye toda la vida microbiana, incluidas las esporas bacterianas?
+- Limpieza
+- Desinfección
+* Esterilización
+- Saneamiento
+> La esterilización (por ejemplo en autoclave) destruye todos los microorganismos, incluso las esporas. En el salón normalmente se limpia y luego se desinfecta.
+
+[n004]
+El desinfectante para las herramientas del salón debe indicar en la etiqueta que es:
+- Solo fungicida
+- Solo bactericida
+- Solo esporicida
+* Bactericida, virucida y fungicida
+> Los desinfectantes del salón deben eliminar bacterias, virus y hongos. Busca estas indicaciones y el número de registro de la EPA en la etiqueta.
+
+[n005]
+Las herramientas de uso múltiple, como empujadores de metal y alicates, deben:
+- Enjuagarse con agua entre clientes
+- Secarse con una toalla seca
+* Limpiarse y luego desinfectarse antes de cada cliente
+- Desecharse después de cada cliente
+> Las herramientas reutilizables son de material duro y no poroso. Límpialas y luego sumérgelas por completo en desinfectante antes de cada uso.
+
+[n006]
+Los artículos porosos de un solo uso, como palitos de naranjo y la mayoría de las limas de cartón, deben:
+* Desecharse después de un uso (o entregarse al cliente)
+- Desinfectarse y reutilizarse
+- Guardarse en un cajón cerrado para el siguiente cliente
+- Lavarse con jabón y reutilizarse
+> Los artículos porosos no se pueden desinfectar correctamente. Úsalos una vez y luego deséchalos o dáselos al cliente, según lo permita tu estado.
+
+[n007]
+Antes de colocar las herramientas en el desinfectante, primero debes:
+- Secarlas con una toalla
+* Limpiarlas para quitar toda la suciedad visible
+- Rociarlas con alcohol
+- Esterilizarlas
+> La suciedad protege a los gérmenes del desinfectante. Siempre limpia primero y luego desinfecta.
+
+[n008]
+¿Cuánto tiempo deben permanecer las herramientas completamente sumergidas en un desinfectante registrado por la EPA?
+- 30 segundos
+- 1 minuto
+* El tiempo de contacto completo que indica la etiqueta
+- Toda la noche, con cualquier producto
+> La etiqueta indica el tiempo de contacto requerido (a menudo unos 10 minutos). Un tiempo más corto puede no eliminar todos los gérmenes.
+
+[n009]
+Las bacterias patógenas son bacterias que:
+* Causan enfermedades
+- Siempre son inofensivas
+- Ayudan a digerir los alimentos
+- Solo viven en la tierra
+> Patógeno significa que causa enfermedad. Las bacterias no patógenas son inofensivas o incluso útiles.
+
+[n010]
+Las bacterias redondas que crecen en racimos como uvas y causan forúnculos y abscesos son:
+- Bacilos
+- Espirilos
+- Estreptococos
+* Estafilococos
+> Los estafilococos crecen en racimos y causan infecciones con pus, como forúnculos. Los estreptococos crecen en cadenas.
+
+[n011]
+Una infección local se describe mejor como:
+- Fiebre en todo el cuerpo
+* Una infección limitada a un área pequeña, como un forúnculo con pus
+- Una infección que se propaga por la sangre
+- Una decoloración inofensiva de la piel
+> Una infección local se queda en un área (enrojecimiento, calor, hinchazón, pus). Una infección sistémica afecta todo el cuerpo.
+
+[n012]
+Una clienta tiene enrojecimiento, hinchazón y pus alrededor de una uña. Debes:
+- Hacer el servicio con cuidado alrededor del área
+- Cubrir el área con esmalte
+* No hacer el servicio y sugerirle que vea a un médico
+- Aplicar desinfectante extra en su piel
+> Nunca trabajes sobre piel o uñas con señales de infección. Los técnicos de uñas no pueden diagnosticar ni tratar; refiere al cliente a un médico.
+
+[n013]
+Las Precauciones Estándar exigen que el técnico de uñas:
+* Trate toda la sangre y fluidos corporales como potencialmente infecciosos
+- Use guantes solo cuando el cliente dice que está enfermo
+- Ignore los cortes muy pequeños
+- Limpie solo las herramientas que se ven sucias
+> Muchas personas infectadas no tienen síntomas, por eso todos los clientes se tratan igual: guantes, limpieza y desinfección correctas y desecho seguro.
+
+[n014]
+Si accidentalmente cortas a un cliente durante el servicio, ¿qué debes hacer primero?
+- Terminar el servicio y luego limpiar
+* Detener el servicio y ponerte guantes
+- Aplicar esmalte para sellar el corte
+- Soplar el corte para secarlo
+> Detente, ponte guantes, limpia la herida con un antiséptico, cúbrela, luego limpia y desinfecta la estación y coloca los artículos contaminados en doble bolsa.
+
+[n015]
+El algodón o la gasa con sangre debe:
+- Enjuagarse y reutilizarse
+- Tirarse suelto a la basura
+* Sellarse en una bolsa plástica (doble bolsa) y desecharse según las normas locales
+- Dejarse en la mesa hasta el cierre
+> Los artículos contaminados se sellan en bolsas para que nadie más quede expuesto. Sigue las reglas de tu estado y localidad.
+
+[n016]
+Después de cada cliente de pedicura, la tina o spa de pies debe:
+- Enjuagarse solo con agua limpia
+* Vaciarse, limpiarse y desinfectarse con un desinfectante registrado por la EPA durante el tiempo de la etiqueta
+- Secarse con una toalla
+- Rociarse con aromatizante
+> Los spas de pies pueden criar bacterias peligrosas. Vacía, friega con jabón o detergente, enjuaga y desinfecta el tiempo completo después de cada cliente.
+
+[n017]
+La biopelícula dentro de los spas de pies con hidromasaje mal limpiados se ha relacionado con infecciones graves de la piel causadas por:
+- Piojos
+* Micobacterias (como Mycobacterium fortuitum)
+- Solo tiña
+- Alergia al jabón
+> Se han rastreado brotes de infecciones por micobacterias hasta spas de pies con hidromasaje. La limpieza diaria y semanal de tuberías y filtros evita la biopelícula.
+
+[n018]
+La solución desinfectante de un recipiente de inmersión debe cambiarse:
+- Una vez por semana
+- Una vez al mes
+* Diariamente, o antes si se ve contaminada (o según la etiqueta)
+- Solo cuando se evapora
+> La solución contaminada deja de funcionar. Prepara solución nueva según la etiqueta y cámbiala al menos a diario o cuando esté sucia.
+
+[n019]
+La manera más eficaz de evitar que se propaguen los gérmenes en el salón es:
+* Lavarse bien las manos con agua y jabón
+- Usar perfume
+- Mantener las ventanas cerradas
+- Usar crema de manos
+> Lavarse bien las manos antes y después de cada cliente elimina la mayoría de los gérmenes. El gel desinfectante no sustituye el lavado cuando las manos están sucias.
+
+[n020]
+La hepatitis B y el VIH son ejemplos de:
+- Hongos
+- Parásitos
+* Patógenos transmitidos por la sangre
+- Alérgenos en el aire
+> Estos patógenos viajan en la sangre y los fluidos corporales. La hepatitis B sobrevive fuera del cuerpo mucho más que el VIH; por eso la desinfección es clave.
+
+[n021]
+La lámina ungueal (placa de la uña) está formada principalmente por:
+- Calcio
+* Queratina
+- Melanina
+- Colágeno
+> La placa de la uña es queratina endurecida, la misma proteína del cabello y la piel. No está hecha de calcio.
+
+[n022]
+¿Qué parte de la unidad ungueal produce las células que forman la placa de la uña?
+* La matriz
+- El lecho ungueal
+- El hiponiquio
+- El borde libre
+> La matriz contiene nervios, linfa y vasos sanguíneos y produce células nuevas. Dañar la matriz puede cambiar el crecimiento de la uña para siempre.
+
+[n023]
+La media luna blanquecina en la base de la uña es la:
+- Hiponiquio
+- Cutícula
+* Lúnula
+- Borde libre
+> La lúnula es la parte visible de la matriz. Se ve blanca por cómo se refleja la luz donde se unen la matriz y el lecho ungueal.
+
+[n024]
+La piel viva en la base de la placa ungueal que cubre parcialmente la matriz es el:
+* Eponiquio
+- Hiponiquio
+- Cutícula
+- Lúnula
+> El eponiquio es tejido vivo y nunca debe cortarse. La cutícula es el tejido muerto que deja sobre la placa.
+
+[n025]
+El tejido muerto e incoloro adherido a la placa de la uña que se puede retirar con suavidad es la:
+- Eponiquio
+* Cutícula
+- Matriz
+- Lecho ungueal
+> La cutícula es tejido muerto pegado a la placa. Retírala con suavidad de la placa; nunca cortes piel viva.
+
+[n026]
+La capa de piel ligeramente engrosada debajo del borde libre es el:
+- Eponiquio
+- Perioniquio
+- Lúnula
+* Hiponiquio
+> El hiponiquio sella el área debajo del borde libre y ayuda a impedir la entrada de gérmenes.
+
+[n027]
+En promedio, las uñas de las manos de un adulto crecen aproximadamente:
+* 1/10 de pulgada (unos 2.5 mm) al mes
+- 1 pulgada al mes
+- 1/100 de pulgada al año
+- 1/2 pulgada por semana
+> El crecimiento promedio es de 1/10 de pulgada (2–3 mm) al mes, normalmente más rápido en verano y en personas jóvenes.
+
+[n028]
+Comparadas con las uñas de las manos, las uñas de los pies normalmente:
+- Crecen más rápido
+* Crecen más despacio
+- Crecen exactamente igual
+- No crecen
+> Las uñas de los pies crecen más lento y tardan mucho más en reemplazarse.
+
+[n029]
+¿Cuánto tiempo tarda aproximadamente en crecer una uña de la mano completamente nueva?
+- 2 semanas
+- 1 mes
+* De 4 a 6 meses
+- 2 años
+> Una uña de la mano se reemplaza en unos 4–6 meses; una del pie, en unos 9–12 meses.
+
+[n030]
+Los pliegues de piel a los lados de la placa ungueal se llaman:
+* Pliegues ungueales laterales (paredes laterales)
+- Bordes libres
+- Lúnulas
+- Bandas de la matriz
+> Los pliegues laterales enmarcan los lados de la placa. Los surcos ungueales están debajo de ellos.
+
+[n031]
+El lecho ungueal, sobre el que descansa la placa, es rico en:
+- Folículos pilosos
+* Vasos sanguíneos y nervios
+- Glándulas sebáceas
+- Solo melanina
+> El lecho ungueal es tejido vivo con muchos vasos sanguíneos (que dan el color rosado) y nervios.
+
+[n032]
+Los huesos de los dedos de las manos y de los pies se llaman:
+- Carpianos
+- Metacarpianos
+* Falanges
+- Tarsianos
+> Cada dedo tiene tres falanges y el pulgar tiene dos. Los dedos de los pies también son falanges.
+
+[n033]
+Los huesos de la muñeca son los:
+* Carpianos
+- Falanges
+- Metatarsianos
+- Cúbito y radio
+> La muñeca está formada por ocho huesos carpianos pequeños.
+
+[n034]
+Los huesos largos que forman la palma de la mano son los:
+- Carpianos
+* Metacarpianos
+- Tarsianos
+- Falanges
+> Los cinco metacarpianos unen la muñeca (carpianos) con los dedos (falanges).
+
+[n035]
+La capa más externa de la piel es la:
+- Dermis
+- Tejido subcutáneo
+* Epidermis
+- Capa muscular
+> La epidermis es la capa protectora externa y delgada. La dermis está debajo.
+
+[n036]
+¿En qué capa de la epidermis se producen las células nuevas de la piel?
+- Estrato córneo
+- Estrato lúcido
+* Estrato germinativo (capa basal)
+- Estrato granuloso
+> La capa basal (estrato germinativo) es la más profunda de la epidermis; ahí se forman las células y se produce la melanina.
+
+[n037]
+El pigmento que da color a la piel es la:
+* Melanina
+- Queratina
+- Sebo
+- Colágeno
+> La melanina se produce en la capa basal y ayuda a proteger la piel de los rayos UV.
+
+[n038]
+Las glándulas del sudor también se llaman:
+- Glándulas sebáceas
+* Glándulas sudoríparas
+- Ganglios linfáticos
+- Conductos de grasa
+> Las glándulas sudoríparas producen sudor, que regula la temperatura y elimina desechos.
+
+[n039]
+Las glándulas sebáceas producen:
+- Sudor
+- Melanina
+* Sebo (grasa)
+- Queratina
+> Las glándulas sebáceas producen sebo, que lubrica la piel y el cabello.
+
+[n040]
+El músculo que gira la mano hacia afuera para que la palma quede hacia arriba es el:
+- Pronador
+* Supinador
+- Flexor
+- Abductor
+> El supinador gira el antebrazo con la palma hacia arriba. El pronador la gira hacia abajo.
+
+[n041]
+La onicomicosis es:
+* Una infección por hongos de la uña
+- Una uña encarnada
+- Una uña con moretón
+- Morderse las uñas
+> La onicomicosis es un hongo en la uña. Es contagiosa; no trabajes esa uña y refiere al cliente a un médico.
+
+[n042]
+El término médico para la uña encarnada es:
+- Onicólisis
+- Onicofagia
+* Onicocriptosis
+- Onicorrexis
+> En la onicocriptosis la uña crece hacia la pared lateral. Los casos leves pueden tratarse con cuidado; si hay infección, refiere a un médico.
+
+[n043]
+La separación de la placa ungueal del lecho, sin que la uña se caiga, es la:
+* Onicólisis
+- Onicoptosis
+- Onicauxis
+- Leuconiquia
+> La onicólisis puede deberse a lesiones, químicos fuertes o enfermedad. No apliques uñas artificiales si hay infección.
+
+[n044]
+El hábito crónico de morderse las uñas se llama:
+- Onicorrexis
+* Onicofagia
+- Oniquia
+- Pterigión
+> La onicofagia es morderse las uñas. Las manicuras regulares y las uñas artificiales pueden ayudar a dejar el hábito.
+
+[n045]
+Las uñas quebradizas o partidas con estrías a lo largo se conocen como:
+- Paroniquia
+- Coiloniquia
+* Onicorrexis
+- Onicocriptosis
+> La onicorrexis puede mejorar con tratamientos acondicionadores, aceites y un limado suave.
+
+[n046]
+La inflamación bacteriana de la piel alrededor de la uña es la:
+* Paroniquia
+- Leuconiquia
+- Melanoniquia
+- Pterigión
+> La paroniquia causa enrojecimiento, hinchazón y a veces pus alrededor de la uña. No hagas el servicio; refiere a un médico.
+
+[n047]
+Las pequeñas manchas o líneas blancas en la uña, a menudo causadas por golpes leves, son:
+- Melanoniquia
+* Manchas de leuconiquia
+- Líneas de Beau
+- Hemorragias en astilla
+> Las manchas blancas suelen venir de un golpe leve en la matriz y salen con el crecimiento. Se puede hacer el servicio.
+
+[n048]
+Una banda oscura de pigmento que recorre la uña a lo largo es la:
+- Leuconiquia
+- Onicauxis
+* Melanoniquia
+- Coiloniquia
+> La melanoniquia es el oscurecimiento de la uña. Una banda oscura nueva o que cambia debe revisarla un médico.
+
+[n049]
+Las depresiones visibles que cruzan la uña de lado a lado, a menudo tras una enfermedad grave, son:
+* Líneas de Beau
+- Estrías
+- Picaduras (pitting)
+- Padrastros
+> Las líneas de Beau se forman cuando el crecimiento se interrumpe por enfermedad o lesión, y salen con el tiempo.
+
+[n050]
+Las líneas finas y oscuras bajo la uña, a lo largo, causadas por un golpe en el lecho ungueal, son:
+- Melanoniquia
+- Uñas en pinza
+- Leuconiquia
+* Hemorragias en astilla
+> Las hemorragias en astilla son pequeñas cantidades de sangre seca bajo la uña causadas por una lesión.
+
+[n051]
+El crecimiento anormal de piel hacia adelante que se pega a la placa ungueal se llama:
+- Padrastro
+* Pterigión
+- Oniquia
+- Agnail
+> No empujes ni cortes un pterigión; es tejido vivo. El acondicionamiento suave ayuda; los casos graves deben ir al médico.
+
+[n052]
+La mejor manera de tratar un padrastro durante una manicura es:
+- Arrancarlo rápido
+- Cubrirlo con esmalte
+* Suavizarlo con aceite y recortarlo con cuidado con alicates desinfectados
+- Dejarlo y limar encima
+> Arrancar un padrastro rompe piel viva y puede causar infección. Suavízalo y corta solo la parte muerta y suelta.
+
+[n053]
+Una decoloración verde o verde amarillenta entre la uña artificial y la natural suele ser:
+- Una mancha inofensiva del esmalte
+* Una infección bacteriana (a menudo Pseudomonas aeruginosa)
+- Una reacción normal al gel
+- Moho que se puede limar
+> Es una infección bacteriana, no "moho". No hagas el servicio y refiere al cliente a un médico.
+
+[n054]
+La tinea pedis se conoce comúnmente como:
+* Pie de atleta
+- Uña encarnada
+- Callo
+- Verruga plantar
+> La tinea pedis es una infección contagiosa por hongos en los pies. No hagas la pedicura; refiere al cliente a un médico.
+
+[n055]
+Las verrugas plantares en la planta del pie son causadas por:
+- Hongos
+- Bacterias
+* Un virus (virus del papiloma humano)
+- Piojos
+> Las verrugas plantares las causa el VPH y son contagiosas. No trabajes esa zona; refiere a un podólogo o médico.
+
+[n056]
+Las uñas con una curva exagerada en la que los lados se enrollan hacia adentro se llaman:
+- Uñas en cuchara
+* Uñas en pinza (en trompeta)
+- Uñas de cáscara de huevo
+- Líneas de Beau
+> Las uñas en pinza se curvan mucho hacia adentro. Lima con cuidado y refiere al médico si hay dolor.
+
+[n057]
+Las uñas en forma de cuchara, curvadas hacia arriba como un plato, se llaman:
+* Coiloniquia
+- Onicauxis
+- Onicorrexis
+- Leuconiquia
+> La coiloniquia suele relacionarse con falta de hierro u otras condiciones. Se puede trabajar, pero sugiere ver a un médico si es nueva.
+
+[n058]
+Una placa ungueal anormalmente engrosada se llama:
+- Onicólisis
+- Onicofagia
+* Onicauxis (hipertrofia)
+- Onicoptosis
+> La onicauxis se puede limar suavemente para reducir el grosor; es común en las uñas de los pies.
+
+[n059]
+Si sospechas que un cliente tiene una enfermedad en la uña, debes:
+- Diagnosticarla y sugerir un medicamento
+- Tratarla con desinfectante extra
+* No diagnosticar ni tratar y referir al cliente a un médico
+- Cubrirla con una uña artificial
+> Los técnicos de uñas no pueden diagnosticar, tratar ni recetar. Refiere al cliente a un médico.
+
+[n060]
+Las uñas de color azulado pueden ser señal de:
+- Infección por hongos
+* Mala circulación o un problema del corazón
+- Exceso de vitamina C
+- Uñas sanas normales
+> Las uñas azuladas pueden indicar mala circulación o problemas cardíacos. Evita el masaje vigoroso y sugiere ver a un médico.
+
+[n061]
+La escala de pH va de:
+- 1 a 10
+* 0 a 14
+- 0 a 100
+- 7 a 14
+> La escala de pH va de 0 (más ácido) a 14 (más alcalino). Cada paso es diez veces más fuerte que el anterior.
+
+[n062]
+Un pH de 7 es:
+- Ácido
+- Alcalino
+* Neutro
+- Corrosivo
+> El agua pura tiene un pH de 7, que es neutro.
+
+[n063]
+Una solución con pH menor de 7 es:
+* Ácida
+- Alcalina
+- Neutra
+- Básica
+> Por debajo de 7 es ácida; por encima de 7 es alcalina (básica).
+
+[n064]
+Las Hojas de Datos de Seguridad (SDS) de los productos del salón son exigidas por:
+- La FDA
+* La Norma de Comunicación de Peligros de OSHA
+- La EPA
+- Las reglas de publicidad del producto
+> OSHA exige que los fabricantes entreguen las SDS y que los empleadores las tengan disponibles para cada producto peligroso.
+
+[n065]
+¿Cuántas secciones tiene una Hoja de Datos de Seguridad estándar?
+- 4
+- 8
+- 12
+* 16
+> Las SDS siguen un formato estándar de 16 secciones, que incluye peligros, primeros auxilios, manejo, almacenamiento y control de exposición.
+
+[n066]
+¿Qué monómero líquido se considera inseguro para las uñas y está prohibido en muchos estados?
+- Metacrilato de etilo (EMA)
+* Metacrilato de metilo (MMA)
+- Acetona
+- Acetato de etilo
+> El MMA se adhiere demasiado, es difícil de retirar y puede dañar uñas y piel. Los productos profesionales usan monómeros tipo EMA.
+
+[n067]
+Los primers ácidos que contienen ácido metacrílico son:
+- Totalmente inofensivos para la piel
+* Corrosivos y pueden quemar la piel y los ojos
+- Usados para disolver el acrílico
+- Solo para uñas de los pies
+> Usa el primer con moderación, mantenlo fuera de la piel y usa gafas de seguridad. Existen primers sin ácido como alternativa.
+
+[n068]
+La mejor manera de reducir los vapores y el polvo que respiras en tu estación es:
+- Rociar perfume
+- Abrir los frascos para ventilarlos
+* Usar ventilación adecuada (como captura en la fuente) y mantener los envases cerrados
+- Trabajar más rápido
+> La extracción local (captura en la fuente) elimina vapores y polvo donde se generan. Mantén las tapas cerradas y tira los materiales empapados en un bote con tapa.
+
+[n069]
+La acetona es un:
+* Solvente
+- Primer
+- Monómero
+- Desinfectante
+> La acetona es un solvente que se usa para quitar esmalte y ablandar acrílicos y geles removibles (soak-off).
+
+[n070]
+La reacción química en la que moléculas pequeñas se unen para formar cadenas largas se llama:
+- Evaporación
+- Oxidación
+* Polimerización
+- Neutralización
+> La polimerización (curado) convierte monómeros en polímeros. Así se endurecen los acrílicos y los geles.
+
+[n071]
+Una molécula pequeña que puede unirse con otras para formar un polímero es un:
+- Polímero
+* Monómero
+- Solvente
+- Catalizador
+> "Mono" significa uno. Los monómeros se unen para formar polímeros ("muchas partes").
+
+[n072]
+El contacto repetido de gel o monómero sin curar con la piel puede causar:
+* Dermatitis alérgica por contacto (sensibilización)
+- Uñas más fuertes
+- Crecimiento más rápido
+- Ningún efecto
+> El contacto prolongado o repetido puede sensibilizar al cliente o al técnico de por vida. Evita que el producto toque la piel.
+
+[n073]
+Los geles UV y LED se endurecen con la luz adecuada porque contienen:
+- Solventes
+* Fotoiniciadores
+- Activadores
+- Primers
+> Los fotoiniciadores reaccionan a longitudes de onda específicas e inician la polimerización. Usa la lámpara que recomienda el fabricante del gel.
+
+[n074]
+Los productos para uñas deben guardarse:
+- Cerca de un calentador para que sigan líquidos
+- Bajo la luz directa del sol
+* En un lugar fresco y seco, lejos del calor y las llamas, con las tapas cerradas
+- En el mismo refrigerador que la comida
+> Muchos productos son inflamables y reaccionan al calor y la luz. Sigue la sección de almacenamiento de cada SDS.
+
+[n075]
+El deshidratador de uñas se usa para:
+- Hacer que la uña crezca más rápido
+* Quitar la humedad y la grasa de la superficie para mejorar la adherencia
+- Ablandar la cutícula
+- Dar brillo
+> Los deshidratadores quitan temporalmente la humedad y la grasa para que el esmalte y las uñas artificiales se adhieran mejor.
+
+[n076]
+En una solución, la sustancia que se disuelve se llama:
+- Solvente
+* Soluto
+- Emulsión
+- Suspensión
+> El soluto se disuelve en el solvente. Por ejemplo, la sal (soluto) se disuelve en el agua (solvente).
+
+[n077]
+Los ingredientes que permiten mezclar aceite y agua se llaman:
+* Surfactantes (emulsionantes)
+- Solventes
+- Catalizadores
+- Polímeros
+> Los surfactantes reducen la tensión superficial para que aceite y agua formen una emulsión, como en lociones y cremas.
+
+[n078]
+Como los removedores de esmalte y muchos productos para uñas son inflamables, debes:
+- Guardarlos junto a la secadora
+* Mantenerlos lejos de llamas y nunca fumar cerca
+- Calentarlos antes de usarlos
+- Mezclarlos con agua
+> Los líquidos inflamables se encienden con facilidad. No fumes ni tengas llamas cerca de tu estación.
+
+[n079]
+El formaldehído, el tolueno y el ftalato de dibutilo (DBP) en el esmalte se conocen como:
+- El trío de base
+* El "trío tóxico"
+- Ingredientes naturales
+- Primers
+> Muchos esmaltes ahora dicen "3-free" o más, es decir, que se fabrican sin estos tres ingredientes.
+
+[n080]
+¿Dónde debes buscar las medidas de primeros auxilios y el manejo seguro de un producto?
+- En la publicidad del producto
+* En su Hoja de Datos de Seguridad (SDS)
+- En la lista de precios del salón
+- En la ficha de admisión del cliente
+> La SDS indica peligros, primeros auxilios, combate de incendios, manejo, almacenamiento y protección personal de cada producto.
+
+[n081]
+La forma correcta de limar una uña natural es:
+- Limar de un lado a otro rápidamente
+* De la esquina hacia el centro, en una sola dirección
+- Del centro hacia afuera con mucha presión
+- Directo hacia la pared lateral
+> Limar en una sola dirección evita que la uña se parta o se pele. No limes profundo en las esquinas.
+
+[n082]
+La forma de uña recta en el borde libre con las esquinas ligeramente redondeadas es la:
+- Ovalada
+- Puntiaguda
+* Squoval (cuadrada redondeada)
+- Redonda
+> La forma squoval es resistente y popular porque las esquinas redondeadas se rompen menos.
+
+[n083]
+Para ayudar a prevenir uñas encarnadas, las uñas de los pies deben cortarse:
+* Rectas
+- Con una curva profunda en las esquinas
+- En punta
+- Lo más cortas posible hacia las paredes laterales
+> Cortarlas rectas y no demasiado cortas evita que las esquinas crezcan hacia la piel.
+
+[n084]
+El movimiento de masaje ligero y continuo, como una caricia, se llama:
+- Petrissage
+* Effleurage (roce)
+- Tapotement
+- Fricción
+> El effleurage es un movimiento deslizante y relajante que se usa para empezar y terminar el masaje.
+
+[n085]
+El movimiento de masaje de amasar, que levanta y aprieta el tejido, es:
+* Petrissage (amasamiento)
+- Effleurage
+- Vibración
+- Tapotement
+> El petrissage es más profundo y estimulante que el effleurage.
+
+[n086]
+El movimiento de masaje de golpecitos o percusión rápida se llama:
+- Effleurage
+- Petrissage
+- Fricción
+* Tapotement (percusión)
+> El tapotement es el movimiento más estimulante y se usa con moderación.
+
+[n087]
+Con un cliente con presión alta o un problema del corazón, debes:
+- Dar un masaje más vigoroso
+* Evitar el masaje vigoroso y pedirle que consulte a su médico si hay dudas
+- Omitir el lavado de manos
+- Usar agua más caliente
+> El masaje vigoroso puede afectar la circulación. Si tienes dudas, pide autorización médica antes del masaje.
+
+[n088]
+¿Qué herramienta está prohibida en muchos estados y nunca debe usarse para quitar callos?
+- Una lima para pies
+- Una piedra pómez
+* Una navaja de callos (credo blade)
+- Una toalla suave
+> Las navajas para callos cortan la piel con facilidad y causan infecciones. Solo alisa los callos con limas aprobadas.
+
+[n089]
+Se debe aconsejar al cliente que no se afeite las piernas:
+- Solo durante una semana después de la pedicura
+* Al menos 24 horas antes de la pedicura
+- El día después de la pedicura
+- Nunca
+> Afeitarse crea pequeños cortes por donde entran bacterias. Pide que no se afeiten al menos 24 horas antes.
+
+[n090]
+Los propósitos principales de la capa base son:
+* Ayudar a que el esmalte se adhiera y evitar que la uña se manche
+- Dar brillo al esmalte terminado
+- Secar el esmalte más rápido
+- Quitar la cutícula
+> La capa base crea una superficie adherente para el color y protege la placa de los pigmentos.
+
+[n091]
+La capa superior (top coat) se aplica para:
+- Ablandar la cutícula
+- Quitar la grasa de la uña
+* Proteger el color, dar brillo y ayudar a evitar que se descascare
+- Hacer crecer la uña
+> El top coat sella las capas de color y añade brillo.
+
+[n092]
+El orden habitual para aplicar esmalte es:
+- Color, capa base, capa superior
+* Capa base, dos capas de color, capa superior
+- Capa superior, color, capa base
+- Solo color
+> Primero la base, luego dos capas finas de color y al final la capa superior. Las capas finas secan mejor.
+
+[n093]
+Muchos removedores de cutícula contienen hidróxido de sodio o de potasio, por lo tanto:
+- Son ácidos y seguros para la piel
+* Son alcalinos y deben mantenerse lejos de la piel alrededor
+- Endurecen la placa ungueal
+- Deben dejarse toda la noche
+> Estos productos alcalinos disuelven el tejido muerto. Aplícalos solo en la placa y enjuaga bien.
+
+[n094]
+Los tratamientos con cera de parafina deben evitarse en clientes con:
+- Piel seca
+* Mala circulación, pérdida de sensibilidad o heridas abiertas
+- Uñas cortas
+- Uñas pintadas
+> Los clientes con mala circulación o sin sensibilidad (por ejemplo algunos diabéticos) pueden no sentir quemaduras. Nunca apliques cera sobre piel lastimada.
+
+[n095]
+La ficha de consulta del cliente debe:
+* Llenarse antes del primer servicio y actualizarse en cada visita
+- Llenarse solo una vez al año
+- Llenarse solo si el cliente se queja
+- Guardarse solo para clientes hombres
+> La ficha registra condiciones de salud, alergias, medicamentos y preferencias que pueden afectar el servicio.
+
+[n096]
+Los alicates deben usarse para cortar:
+- El eponiquio
+- La piel viva alrededor de la uña
+* Solo padrastros y cutícula muerta suelta
+- La lúnula
+> Nunca cortes tejido vivo. Los alicates son solo para tejido muerto suelto y padrastros.
+
+[n097]
+Los callos de los pies deben:
+- Quitarse por completo con una navaja
+* Alisarse y reducirse, sin quitarlos por completo, porque protegen el pie
+- No tocarse nunca
+- Remojarse en acetona
+> Los callos protegen los puntos de presión. Redúcelos con suavidad; quitarlos por completo puede causar dolor.
+
+[n098]
+Una manicura francesa normalmente tiene:
+* El borde libre blanco con la base natural o rosada
+- Todas las uñas negras
+- Solo esmalte transparente en los pies
+- Solo el borde libre rojo
+> El estilo francés clásico usa una base rosada o nude y la punta blanca.
+
+[n099]
+Antes de aplicar esmalte después de un masaje de manos, debes:
+- Poner más loción en la placa
+* Quitar todo rastro de aceite y loción de la placa ungueal
+- Remojar las uñas en agua 10 minutos
+- Pulir con una lima gruesa
+> La grasa que queda en la placa impide que el esmalte y las uñas artificiales se adhieran.
+
+[n100]
+¿Cuál de estos es un artículo de un solo uso en una manicura?
+- Empujador de metal
+- Cortaúñas
+* Bolitas de algodón
+- Recipiente para remojar los dedos
+> El algodón, las toallas de papel y otros materiales porosos se usan una vez y se desechan. Las herramientas de metal se limpian y desinfectan.
+
+[n101]
+En la aplicación de líquido y polvo (acrílico), una perla bien mezclada normalmente tiene:
+- Consistencia muy húmeda y líquida
+* Consistencia media: húmeda pero mantiene su forma
+- Consistencia seca y quebradiza
+- Consistencia totalmente líquida
+> Muy húmeda causa levantamiento y riesgo de sensibilidad; muy seca da una uña débil y porosa. Sigue la proporción del fabricante.
+
+[n102]
+En una uña artificial, el ápice (arco) debe ubicarse:
+- En la cutícula
+- En la punta del borde libre
+* Sobre el área de tensión, donde el borde libre se une con el lecho ungueal
+- Solo en las paredes laterales
+> El ápice da resistencia donde la uña tiene más probabilidad de romperse.
+
+[n103]
+El área de tensión de una uña artificial es:
+* Donde la uña natural crece más allá de la punta del dedo
+- El centro de la lúnula
+- El área de la cutícula
+- La punta del borde libre
+> Esta zona recibe más fuerza y necesita más grosor de producto.
+
+[n104]
+Al aplicar un tip, el pozo (well) del tip no debe cubrir más de:
+- Toda la placa ungueal
+* La mitad de la placa natural
+- El área de la cutícula
+- Un cuarto de pulgada más allá del borde libre
+> Cubrir más de la mitad de la placa debilita la adhesión. Muchos tips tienen pozo parcial o no tienen pozo.
+
+[n105]
+Después de aplicar un tip, la línea donde se une con la uña natural debe:
+- Dejarse como un borde visible
+* Difuminarse con cuidado hasta quedar lisa
+- Cubrirse con aceite de cutícula
+- Cortarse con alicates
+> Difumina la zona de contacto con un abrasivo fino sin dañar la uña natural.
+
+[n106]
+La capa pegajosa que queda en algunos geles después de curarlos se llama:
+* Capa de inhibición
+- Capa de primer
+- Capa de deshidratación
+- Capa base
+> El oxígeno impide que la superficie cure por completo. Retírala con el limpiador que recomiende el fabricante, si así se indica.
+
+[n107]
+¿Por qué debes usar la lámpara que recomienda el fabricante del gel?
+- Cualquier lámpara cura todos los geles igual
+* Los fotoiniciadores del gel están diseñados para la longitud de onda e intensidad de esa lámpara
+- Hace que el gel huela mejor
+- Solo es obligatorio en uñas de los pies
+> Una lámpara incorrecta puede dejar el gel sin curar del todo, causando levantamiento, roturas y sensibilización de la piel.
+
+[n108]
+Las telas que se usan comúnmente para las envolturas de uñas (wraps) incluyen:
+- Algodón y lana
+* Seda, fibra de vidrio y lino
+- Solo papel y papel aluminio
+- Cuero y vinilo
+> Las telas se adhieren a la uña con adhesivo o resina para reforzarla o reparar grietas.
+
+[n109]
+El mantenimiento (relleno o rebalanceo) de las uñas artificiales normalmente se necesita cada:
+- 2 a 3 días
+* 2 a 3 semanas
+- 2 a 3 meses
+- 6 meses
+> Al crecer la uña natural, el relleno equilibra de nuevo el ápice y cubre el crecimiento nuevo.
+
+[n110]
+La forma segura de retirar uñas acrílicas es:
+- Levantarlas con alicates
+- Arrancarlas rápido
+* Remojarlas en acetona y empujar con suavidad el producto ablandado
+- Limarlas hasta el lecho ungueal
+> Arrancar o hacer palanca quita capas de la uña natural. Remoja y retira con suavidad el producto ablandado.
+
+[n111]
+Una causa común de que las uñas artificiales se levanten es:
+* Mala preparación de la uña (grasa, humedad o cutícula en la placa)
+- Limar muy poco el borde libre
+- Usar deshidratador
+- Aplicar capa superior
+> Una buena preparación elimina grasa, humedad y cutícula para que el producto se adhiera a la placa.
+
+[n112]
+Los sistemas de polvo de inmersión (dip) usan una resina que es un tipo de:
+- Pegamento a base de agua
+* Adhesivo de cianoacrilato
+- Gel UV
+- Diluyente de esmalte
+> Las resinas son cianoacrilatos. El activador acelera el endurecimiento. Mantén la resina fuera de la piel.
+
+[n113]
+Los moldes (nail forms) se usan para:
+- Quitar esmalte
+* Extender el producto más allá de la punta del dedo sin usar tip
+- Guardar aceite de cutícula
+- Proteger la uña durante la pedicura
+> Los moldes sirven de soporte para esculpir el borde libre directamente con acrílico o gel.
+
+[n114]
+Antes de aplicar uñas artificiales, la preparación correcta de la uña natural incluye:
+- Aplicar aceite de cutícula en la placa
+* Retirar la cutícula de la placa, quitar el brillo ligeramente y deshidratar
+- Remojar las uñas en agua 10 minutos
+- Limar la placa hasta dejarla delgada
+> Una placa limpia, seca y ligeramente pulida permite que el producto se adhiera.
+
+[n115]
+¿Qué grano de abrasivo es el más fino?
+- Grano 80
+- Grano 100
+- Grano 180
+* Grano 240
+> Cuanto más alto el número de grano, más fino el abrasivo. Usa granos medios a finos en la uña natural.
+
+[n116]
+El producto de la uña artificial no debe tocar la piel ni la cutícula porque puede:
+- Hacer que la uña crezca más rápido
+* Causar levantamiento y provocar sensibilización
+- Hacer el color más brillante
+- Curar más rápido
+> Deja un pequeño margen alrededor de la cutícula y las paredes laterales para evitar levantamiento y alergias.
+
+[n117]
+Los "anillos de fuego" (surcos en la placa ungueal) suelen ser causados por:
+- Usar deshidratador
+* Uso incorrecto de la lima eléctrica
+- Aplicar esmalte muy grueso
+- Remojar demasiado tiempo
+> Mantén la broca en movimiento, plana sobre la uña y a la velocidad correcta. Quedarse en un punto genera calor y surcos.
+
+[n118]
+Una grieta en una uña artificial debe:
+- Ignorarse hasta la próxima cita
+* Repararse pronto para que no queden atrapadas humedad y bacterias
+- Cubrirse solo con esmalte
+- Rellenarse con aceite de cutícula
+> Las grietas pueden atrapar humedad y causar infección o rotura. Repáralas de inmediato.
+
+[n119]
+Los geles duros (que no se remojan) se retiran:
+- Remojándolos en acetona
+* Limándolos con cuidado
+- Despegándolos
+- Remojándolos en agua caliente
+> Los geles duros no se disuelven en acetona. Los geles soak-off se ablandan en acetona después de romper el sellado del top coat.
+
+[n120]
+Al curar el gel, la clienta siente ardor o un pico de calor. Debes:
+* Retirar brevemente la mano de la lámpara y luego continuar el curado
+- Mantener la mano en la lámpara pase lo que pase
+- Aplicar una capa más gruesa la próxima vez
+- Cambiar a un foco común
+> Los picos de calor vienen de una polimerización rápida. Aplicar capas finas y pausar brevemente protege a la clienta.

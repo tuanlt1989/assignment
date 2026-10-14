@@ -1,0 +1,135 @@
+{
+ "cosmoes": {
+  "id": "cosmoes",
+  "bank": "cosmetology",
+  "locales": [
+   "es",
+   "en"
+  ],
+  "title": {
+   "es": "Examen de Cosmetología",
+   "en": "Cosmetology Exam (Spanish)"
+  },
+  "color": "#E65100",
+  "exam": {
+   "questions": 50,
+   "minutes": 50,
+   "passPercent": 75
+  },
+  "freeRatio": 0.4,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+   "appId": "ca-app-pub-3940256099942544~3347511713",
+   "banner": "ca-app-pub-3940256099942544/6300978111",
+   "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/cosmoes.html",
+  "supportEmail": "CHANGE_ME@example.com"
+ },
+ "cosmovi": {
+  "id": "cosmovi",
+  "bank": "cosmetology",
+  "locales": [
+   "vi",
+   "en"
+  ],
+  "title": {
+   "vi": "Luyện Thi Cosmetology Tiếng Việt",
+   "en": "Cosmetology Exam Prep (Vietnamese)"
+  },
+  "color": "#00897B",
+  "exam": {
+   "questions": 50,
+   "minutes": 50,
+   "passPercent": 75
+  },
+  "freeRatio": 0.4,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+   "appId": "ca-app-pub-3940256099942544~3347511713",
+   "banner": "ca-app-pub-3940256099942544/6300978111",
+   "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/cosmovi.html",
+  "supportEmail": "CHANGE_ME@example.com"
+ },
+ "insurancelh": {
+  "id": "insurancelh",
+  "bank": "insurance_lh",
+  "locales": [
+   "en"
+  ],
+  "title": {
+   "en": "Life & Health Insurance Exam Prep"
+  },
+  "color": "#1565C0",
+  "exam": {
+   "questions": 60,
+   "minutes": 75,
+   "passPercent": 70
+  },
+  "freeRatio": 0.35,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+   "appId": "ca-app-pub-3940256099942544~3347511713",
+   "banner": "ca-app-pub-3940256099942544/6300978111",
+   "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/insurancelh.html",
+  "supportEmail": "CHANGE_ME@example.com"
+ },
+ "nailes": {
+  "id": "nailes",
+  "bank": "nail",
+  "locales": [
+   "es",
+   "en"
+  ],
+  "title": {
+   "es": "Examen de Uñas en Español",
+   "en": "Nail Tech Exam (Spanish)"
+  },
+  "color": "#7B1FA2",
+  "exam": {
+   "questions": 50,
+   "minutes": 50,
+   "passPercent": 75
+  },
+  "freeRatio": 0.4,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+   "appId": "ca-app-pub-3940256099942544~3347511713",
+   "banner": "ca-app-pub-3940256099942544/6300978111",
+   "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/nailes.html",
+  "supportEmail": "CHANGE_ME@example.com"
+ },
+ "nailvi": {
+  "id": "nailvi",
+  "bank": "nail",
+  "locales": [
+   "vi",
+   "en"
+  ],
+  "title": {
+   "vi": "Luyện Thi Nail Tiếng Việt",
+   "en": "Nail Exam Prep (Vietnamese)"
+  },
+  "color": "#C2185B",
+  "exam": {
+   "questions": 50,
+   "minutes": 50,
+   "passPercent": 75
+  },
+  "freeRatio": 0.4,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+   "appId": "ca-app-pub-3940256099942544~3347511713",
+   "banner": "ca-app-pub-3940256099942544/6300978111",
+   "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/nailvi.html",
+  "supportEmail": "CHANGE_ME@example.com"
+ }
+}

@@ -1,0 +1,37 @@
+name: exam_prep
+description: "Exam-prep app factory: one Flutter codebase, many license-exam apps."
+publish_to: 'none'
+
+# Bump the build number (+N) on every Play upload. All flavors share it.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.6
+  google_mobile_ads: ^9.1.0
+  in_app_purchase: ^3.3.1
+  in_app_review: ^2.0.12
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/apps.json
+    - assets/banks/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto-Italic.ttf
+          style: italic

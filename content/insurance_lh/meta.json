@@ -1,0 +1,11 @@
+{
+  "version": "2026.10.1",
+  "categories": [
+    {"id": "basics", "name": {"en": "Insurance Basics & Contracts"}},
+    {"id": "life", "name": {"en": "Life Insurance Policies & Riders"}},
+    {"id": "provisions", "name": {"en": "Life Provisions & Options"}},
+    {"id": "annuities", "name": {"en": "Annuities, Retirement & Taxes"}},
+    {"id": "health", "name": {"en": "Health & Disability Insurance"}},
+    {"id": "groupmed", "name": {"en": "Group, Medicare, LTC & Regulation"}}
+  ]
+}

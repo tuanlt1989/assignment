@@ -1,0 +1,962 @@
+# Nail technician theory bank — English master file.
+# Original practice questions covering published nail-technology exam topics.
+
+[n001] infection
+Which federal agency registers the disinfectants used in nail salons?
+- OSHA
+* EPA
+- FDA
+- CDC
+> The Environmental Protection Agency (EPA) registers disinfectants. Use only products with an EPA registration number on the label, exactly as directed.
+
+[n002] infection
+Removing visible dirt and debris from a surface with soap or detergent and water is called:
+* Cleaning
+- Disinfecting
+- Sterilizing
+- Antisepsis
+> Cleaning is the first level of decontamination. It removes visible debris and many germs, and it must be done before disinfecting.
+
+[n003] infection
+Which process destroys all microbial life, including bacterial spores?
+- Cleaning
+- Disinfecting
+* Sterilizing
+- Sanitizing
+> Sterilization (for example in an autoclave) destroys all microorganisms including spores. Salons normally clean and then disinfect.
+
+[n004] infection
+A disinfectant used on salon implements should be labeled as:
+- Fungicidal only
+- Bactericidal only
+- Sporicidal only
+* Bactericidal, virucidal and fungicidal
+> Salon disinfectants must kill bacteria, viruses and fungi. Look for these claims and the EPA registration number on the label.
+
+[n005] infection
+Multi-use implements such as metal pushers and nippers must be:
+- Rinsed in water between clients
+- Wiped with a dry towel
+* Cleaned and then disinfected before every client
+- Thrown away after each client
+> Multi-use (reusable) items are made of hard, non-porous material. Clean them, then fully immerse them in disinfectant before each use.
+
+[n006] infection
+Porous single-use items such as orangewood sticks and most emery boards should be:
+* Discarded after one use (or given to the client)
+- Disinfected and reused
+- Stored in a closed drawer for the next client
+- Washed with soap and reused
+> Porous items cannot be properly disinfected. Use them once, then discard them or give them to the client, as your state allows.
+
+[n007] infection
+Before placing implements into a disinfectant, you must first:
+- Dry them with a towel
+* Clean them to remove all visible debris
+- Spray them with alcohol
+- Sterilize them
+> Debris shields germs from the disinfectant. Always clean first, then disinfect.
+
+[n008] infection
+How long should implements stay fully immersed in an EPA-registered disinfectant?
+- 30 seconds
+- 1 minute
+* For the full contact time stated on the label
+- Overnight, for every product
+> The label states the required contact time (often around 10 minutes). Shorter times may not kill all the germs listed on the label.
+
+[n009] infection
+Pathogenic bacteria are bacteria that:
+* Cause disease
+- Are always harmless
+- Help digest food
+- Live only in soil
+> Pathogenic means disease-causing. Nonpathogenic bacteria are harmless or even helpful.
+
+[n010] infection
+Round bacteria that grow in grape-like clusters and cause boils and abscesses are:
+- Bacilli
+- Spirilla
+- Streptococci
+* Staphylococci
+> Staphylococci grow in clusters and cause pus-forming infections such as boils. Streptococci grow in chains.
+
+[n011] infection
+A localized infection is best described as:
+- A fever throughout the body
+* An infection confined to a small area, such as a boil with pus
+- An infection that spreads through the blood
+- A harmless skin discoloration
+> A local infection stays in one area (redness, heat, swelling, pus). A systemic infection affects the whole body.
+
+[n012] infection
+A client has redness, swelling and pus around one fingernail. You should:
+- Perform the service carefully around the area
+- Cover the area with nail polish
+* Not perform the service and suggest the client see a physician
+- Apply extra disinfectant to the client's skin
+> Never service skin or nails that show signs of infection. Nail technicians may not diagnose or treat; refer the client to a physician.
+
+[n013] infection
+Standard Precautions require nail technicians to:
+* Treat all blood and body fluids as potentially infectious
+- Use gloves only when a client says they are sick
+- Ignore very small cuts
+- Clean only visibly dirty tools
+> Many infected people show no symptoms, so every client is treated the same: gloves, proper cleaning and disinfection, and safe disposal.
+
+[n014] infection
+If you accidentally cut a client during a service, what should you do first?
+- Finish the service, then clean up
+* Stop the service and put on gloves
+- Apply polish to seal the cut
+- Blow on the cut to dry it
+> Stop, glove up, clean the injury with an antiseptic, cover it, then clean and disinfect the station and double-bag any contaminated items.
+
+[n015] infection
+Cotton or gauze contaminated with blood should be:
+- Reused after rinsing
+- Thrown loose into the trash
+* Sealed in a plastic bag (double-bagged) and discarded as required by local rules
+- Left on the table until closing
+> Contaminated items are sealed in bags so no one else is exposed. Follow your state and local disposal rules.
+
+[n016] infection
+After each pedicure client, a foot spa basin must be:
+- Rinsed with clean water only
+* Drained, cleaned, and disinfected with an EPA-registered disinfectant for the label contact time
+- Wiped dry with a towel
+- Sprayed with air freshener
+> Foot spas can grow dangerous bacteria. Drain, scrub with soap or detergent, rinse, then disinfect for the full contact time after every client.
+
+[n017] infection
+Biofilm inside poorly cleaned whirlpool foot spas has been linked to serious skin infections caused by:
+- Head lice
+* Mycobacteria (such as Mycobacterium fortuitum)
+- Ringworm only
+- Allergies to soap
+> Outbreaks of mycobacterial infections were traced to whirlpool foot spas. Strict daily and weekly cleaning of the pipes and screens prevents biofilm.
+
+[n018] infection
+Disinfectant solution in an immersion container should be changed:
+- Once a week
+- Once a month
+* Daily, or sooner if it becomes visibly contaminated (or as the label directs)
+- Only when it evaporates
+> Contaminated solution stops working. Mix fresh solution as the label directs and replace it at least daily or when dirty.
+
+[n019] infection
+The single most effective way to prevent the spread of germs in the salon is:
+* Washing your hands thoroughly with soap and water
+- Wearing perfume
+- Keeping the windows closed
+- Using hand lotion
+> Proper hand washing before and after every client removes most germs. Hand sanitizer does not replace washing when hands are visibly dirty.
+
+[n020] infection
+Hepatitis B and HIV are examples of:
+- Fungi
+- Parasites
+* Bloodborne pathogens
+- Airborne allergens
+> Bloodborne pathogens are carried in blood and body fluids. Hepatitis B is far more durable outside the body than HIV, which is why disinfection matters.
+
+[n021] anatomy
+The nail plate is made mainly of:
+- Calcium
+* Keratin
+- Melanin
+- Collagen
+> The nail plate is hardened keratin, the same protein found in hair and skin. It is not made of calcium.
+
+[n022] anatomy
+Which part of the nail unit produces the cells that form the nail plate?
+* The matrix
+- The nail bed
+- The hyponychium
+- The free edge
+> The matrix contains nerves, lymph and blood vessels and produces new nail cells. Damage to the matrix can permanently change nail growth.
+
+[n023] anatomy
+The whitish half-moon shape at the base of the nail is the:
+- Hyponychium
+- Cuticle
+* Lunula
+- Free edge
+> The lunula is the visible part of the matrix. It looks white because of the way light reflects where the matrix and nail bed meet.
+
+[n024] anatomy
+The living skin at the base of the nail plate that partially covers the matrix is the:
+* Eponychium
+- Hyponychium
+- Cuticle
+- Lunula
+> The eponychium is living tissue and must never be cut. The cuticle is the dead tissue it leaves on the nail plate.
+
+[n025] anatomy
+The dead, colorless tissue attached to the nail plate that can be gently removed is the:
+- Eponychium
+* Cuticle
+- Matrix
+- Nail bed
+> The cuticle is dead tissue that sticks to the nail plate. Remove it gently from the plate; never cut living skin.
+
+[n026] anatomy
+The slightly thickened layer of skin underneath the free edge is the:
+- Eponychium
+- Perionychium
+- Lunula
+* Hyponychium
+> The hyponychium seals the area under the free edge and helps keep out germs.
+
+[n027] anatomy
+On average, adult fingernails grow about:
+* 1/10 inch (about 2.5 mm) per month
+- 1 inch per month
+- 1/100 inch per year
+- 1/2 inch per week
+> Average growth is about 1/10 inch (2–3 mm) per month. Growth is usually faster in summer and in younger people.
+
+[n028] anatomy
+Compared with fingernails, toenails usually:
+- Grow faster
+* Grow more slowly
+- Grow at exactly the same rate
+- Do not grow
+> Toenails grow more slowly and take much longer to replace than fingernails.
+
+[n029] anatomy
+About how long does it take to grow a completely new fingernail?
+- 2 weeks
+- 1 month
+* 4 to 6 months
+- 2 years
+> A fingernail replaces itself in roughly 4–6 months; a toenail takes about 9–12 months.
+
+[n030] anatomy
+The folds of skin along the sides of the nail plate are called the:
+* Lateral nail folds (sidewalls)
+- Free edges
+- Lunulas
+- Matrix bands
+> The lateral nail folds (sidewalls) frame the sides of the nail plate. The nail grooves run beneath them.
+
+[n031] anatomy
+The nail bed, on which the nail plate rests, is rich in:
+- Hair follicles
+* Blood vessels and nerves
+- Oil glands
+- Melanin only
+> The nail bed is living tissue with many blood vessels (which give the pink color) and nerves.
+
+[n032] anatomy
+The bones of the fingers and toes are called:
+- Carpals
+- Metacarpals
+* Phalanges
+- Tarsals
+> Each finger has three phalanges and each thumb has two. The toes are phalanges as well.
+
+[n033] anatomy
+The bones of the wrist are the:
+* Carpals
+- Phalanges
+- Metatarsals
+- Ulna and radius
+> The wrist is made of eight small carpal bones.
+
+[n034] anatomy
+The long bones that form the palm of the hand are the:
+- Carpals
+* Metacarpals
+- Tarsals
+- Phalanges
+> The five metacarpals connect the wrist (carpals) to the fingers (phalanges).
+
+[n035] anatomy
+The outermost layer of the skin is the:
+- Dermis
+- Subcutaneous tissue
+* Epidermis
+- Muscle layer
+> The epidermis is the thin protective outer layer. The dermis lies beneath it.
+
+[n036] anatomy
+New skin cells are produced in which layer of the epidermis?
+- Stratum corneum
+- Stratum lucidum
+* Stratum germinativum (basal layer)
+- Stratum granulosum
+> The basal layer (stratum germinativum) is the deepest layer of the epidermis, where cells are formed and melanin is produced.
+
+[n037] anatomy
+The pigment that gives skin its color is:
+* Melanin
+- Keratin
+- Sebum
+- Collagen
+> Melanin is produced in the basal layer and helps protect the skin from UV damage.
+
+[n038] anatomy
+Sweat glands are also called:
+- Sebaceous glands
+* Sudoriferous glands
+- Lymph nodes
+- Oil ducts
+> Sudoriferous glands produce sweat, which helps regulate body temperature and eliminate waste.
+
+[n039] anatomy
+Sebaceous glands produce:
+- Sweat
+- Melanin
+* Sebum (oil)
+- Keratin
+> Sebaceous (oil) glands produce sebum, which lubricates the skin and hair.
+
+[n040] anatomy
+The muscle that turns the hand outward so the palm faces up is the:
+- Pronator
+* Supinator
+- Flexor
+- Abductor
+> The supinator rotates the forearm so the palm faces up. The pronator turns it palm-down.
+
+[n041] disorders
+Onychomycosis is:
+* A fungal infection of the nail
+- An ingrown nail
+- A bruised nail
+- Nail biting
+> Onychomycosis is a nail fungus. It is contagious; do not service the nail and refer the client to a physician.
+
+[n042] disorders
+The medical term for an ingrown nail is:
+- Onycholysis
+- Onychophagy
+* Onychocryptosis
+- Onychorrhexis
+> In onychocryptosis the nail grows into the sidewall. Mild cases may be serviced gently; infected ones must be referred to a physician.
+
+[n043] disorders
+Separation of the nail plate from the nail bed, without shedding the nail, is:
+* Onycholysis
+- Onychoptosis
+- Onychauxis
+- Leukonychia
+> Onycholysis can be caused by injury, harsh chemicals or illness. Do not apply enhancements if it is infected.
+
+[n044] disorders
+Chronic nail biting is called:
+- Onychorrhexis
+* Onychophagy
+- Onychia
+- Pterygium
+> Onychophagy is nail biting. Regular manicures and enhancements can help clients break the habit.
+
+[n045] disorders
+Split or brittle nails with lengthwise ridges are known as:
+- Paronychia
+- Koilonychia
+* Onychorrhexis
+- Onychocryptosis
+> Onychorrhexis can be improved with conditioning treatments, oils and gentle filing.
+
+[n046] disorders
+A bacterial inflammation of the skin around the nail is:
+* Paronychia
+- Leukonychia
+- Melanonychia
+- Pterygium
+> Paronychia shows redness, swelling and sometimes pus around the nail. Do not service; refer to a physician.
+
+[n047] disorders
+Small white spots or lines in the nail plate, often caused by minor injury, are:
+- Melanonychia
+* Leukonychia spots
+- Beau's lines
+- Splinter hemorrhages
+> Leukonychia spots usually come from minor trauma to the matrix and grow out with the nail. They can be serviced.
+
+[n048] disorders
+A dark band of pigment running lengthwise in the nail plate is:
+- Leukonychia
+- Onychauxis
+* Melanonychia
+- Koilonychia
+> Melanonychia is darkening of the nail. A new or changing dark band should be checked by a physician.
+
+[n049] disorders
+Visible depressions running across the width of the nail plate, often after a major illness, are:
+* Beau's lines
+- Ridges
+- Pitting
+- Hangnails
+> Beau's lines form when nail growth is interrupted by illness or injury, and they grow out over time.
+
+[n050] disorders
+Thin, dark lines under the nail plate running lengthwise, caused by trauma to the nail bed, are:
+- Melanonychia
+- Pincer nails
+- Leukonychia
+* Splinter hemorrhages
+> Splinter hemorrhages are small amounts of dried blood under the nail caused by injury.
+
+[n051] disorders
+Abnormal forward growth of skin that sticks to the nail plate is called:
+- Hangnail
+* Pterygium
+- Onychia
+- Agnail
+> Do not push or cut a pterygium; it is living tissue. Gentle conditioning can help; refer serious cases to a physician.
+
+[n052] disorders
+The best way to treat a hangnail (agnail) during a manicure is to:
+- Pull it off quickly
+- Cover it with polish
+* Soften it with oil and carefully trim it with disinfected nippers
+- Leave it and file over it
+> Pulling a hangnail tears living skin and can lead to infection. Soften it and trim only the loose dead piece.
+
+[n053] disorders
+A green or yellow-green discoloration between an enhancement and the natural nail is most often:
+- A harmless stain from polish
+* A bacterial infection (often Pseudomonas aeruginosa)
+- A normal reaction to gel
+- Mold that can be filed away
+> This is a bacterial infection, not "mold." Remove the enhancement only if allowed, do not service, and refer the client to a physician.
+
+[n054] disorders
+Tinea pedis is commonly known as:
+* Athlete's foot
+- An ingrown toenail
+- A corn
+- A plantar wart
+> Tinea pedis is a contagious fungal infection of the feet. Do not perform a pedicure; refer the client to a physician.
+
+[n055] disorders
+Plantar warts on the bottom of the foot are caused by:
+- Fungi
+- Bacteria
+* A virus (human papillomavirus)
+- Lice
+> Plantar warts are caused by HPV and are contagious. Do not service the area; refer to a podiatrist or physician.
+
+[n056] disorders
+Nails with an exaggerated curve where the sides curl in toward each other are called:
+- Spoon nails
+* Pincer (trumpet) nails
+- Eggshell nails
+- Beau's lines
+> Pincer or trumpet nails curve sharply inward. File carefully and refer painful cases to a physician.
+
+[n057] disorders
+Spoon-shaped nails that curve upward like a dish are called:
+* Koilonychia
+- Onychauxis
+- Onychorrhexis
+- Leukonychia
+> Koilonychia is often linked to iron deficiency or other conditions. It can be serviced, but suggest a physician if new.
+
+[n058] disorders
+An abnormally thickened nail plate is called:
+- Onycholysis
+- Onychophagy
+* Onychauxis (hypertrophy)
+- Onychoptosis
+> Onychauxis may be filed gently to reduce thickness; it is common on toenails.
+
+[n059] disorders
+If you suspect a client has a nail disease, you should:
+- Diagnose it and suggest a medicine
+- Treat it with extra disinfectant
+* Not diagnose or treat it and refer the client to a physician
+- Cover it with an enhancement
+> Nail technicians may not diagnose, treat or prescribe. Refer the client to a physician.
+
+[n060] disorders
+Nails with a bluish color can be a sign of:
+- Fungal infection
+* Poor blood circulation or a heart condition
+- Too much vitamin C
+- Normal healthy nails
+> Blue nails can indicate poor circulation or a heart problem. Avoid vigorous massage and suggest the client see a physician.
+
+[n061] chemistry
+The pH scale ranges from:
+- 1 to 10
+* 0 to 14
+- 0 to 100
+- 7 to 14
+> The pH scale runs from 0 (most acidic) to 14 (most alkaline). Each step is ten times stronger than the one before it.
+
+[n062] chemistry
+A pH of 7 is:
+- Acidic
+- Alkaline
+* Neutral
+- Corrosive
+> Pure water has a pH of 7, which is neutral.
+
+[n063] chemistry
+A solution with a pH below 7 is:
+* Acidic
+- Alkaline
+- Neutral
+- Basic
+> Below 7 is acidic; above 7 is alkaline (basic).
+
+[n064] chemistry
+Safety Data Sheets (SDS) for salon products are required by:
+- The FDA
+* OSHA's Hazard Communication Standard
+- The EPA
+- The product's advertising rules
+> OSHA requires manufacturers to provide SDS and employers to keep them available for every hazardous product.
+
+[n065] chemistry
+How many sections does a standard Safety Data Sheet have?
+- 4
+- 8
+- 12
+* 16
+> SDS follow a standard 16-section format, including hazards, first aid, handling and storage, and exposure controls.
+
+[n066] chemistry
+Which liquid monomer is considered unsafe for nail use and is banned in many states?
+- Ethyl methacrylate (EMA)
+* Methyl methacrylate (MMA)
+- Acetone
+- Ethyl acetate
+> MMA bonds too strongly, is hard to remove and can damage nails and skin. Professional products use EMA-type monomers.
+
+[n067] chemistry
+Acid-based primers that contain methacrylic acid are:
+- Completely harmless to skin
+* Corrosive and can burn skin and eyes
+- Used to dissolve acrylic
+- Only used on toenails
+> Use primer sparingly, keep it off the skin, and wear safety glasses. Acid-free primers are an alternative.
+
+[n068] chemistry
+The best way to reduce the vapors and dust you breathe at your station is:
+- Spraying perfume
+- Opening product bottles to air them out
+* Using proper ventilation (such as source capture) and keeping containers closed
+- Working faster
+> Local exhaust (source capture) ventilation removes vapors and dust at the source. Keep lids closed and dispose of soaked materials in a closed trash can.
+
+[n069] chemistry
+Acetone is a:
+* Solvent
+- Primer
+- Monomer
+- Disinfectant
+> Acetone is a solvent used to remove polish and to soften acrylics and soak-off gels.
+
+[n070] chemistry
+The chemical reaction in which small molecules join together to form long chains is called:
+- Evaporation
+- Oxidation
+* Polymerization
+- Neutralization
+> Polymerization (curing) turns monomers into polymers. It is how acrylics and gels harden.
+
+[n071] chemistry
+A single small molecule that can join with others to form a polymer is a:
+- Polymer
+* Monomer
+- Solvent
+- Catalyst
+> "Mono" means one. Monomers link together to form polymers ("many parts").
+
+[n072] chemistry
+Repeated contact of uncured gel or monomer with the skin can cause:
+* Allergic contact dermatitis (sensitization)
+- Stronger nails
+- Faster nail growth
+- No effect at all
+> Prolonged or repeated skin contact can sensitize a client or technician for life. Avoid touching the skin with product.
+
+[n073] chemistry
+UV and LED gels harden when exposed to the correct light because they contain:
+- Solvents
+* Photoinitiators
+- Activators
+- Primers
+> Photoinitiators react to specific light wavelengths and start polymerization. Use the lamp the gel manufacturer recommends.
+
+[n074] chemistry
+Nail products should be stored:
+- Near a heater to keep them liquid
+- In direct sunlight
+* In a cool, dry place away from heat and flame, with lids closed
+- In the same refrigerator as food
+> Many products are flammable and react to heat and light. Follow the storage section of each SDS.
+
+[n075] chemistry
+A nail dehydrator is used to:
+- Make the nail grow faster
+* Remove surface moisture and oil to improve adhesion
+- Soften the cuticle
+- Add shine
+> Dehydrators temporarily remove moisture and oil so polish and enhancements stick better.
+
+[n076] chemistry
+In a solution, the substance that is dissolved is called the:
+- Solvent
+* Solute
+- Emulsion
+- Suspension
+> The solute dissolves in the solvent. For example, salt (solute) dissolves in water (solvent).
+
+[n077] chemistry
+Ingredients that allow oil and water to mix are called:
+* Surfactants (emulsifiers)
+- Solvents
+- Catalysts
+- Polymers
+> Surfactants reduce surface tension so oil and water can blend into an emulsion, as in lotions and creams.
+
+[n078] chemistry
+Because nail polish removers and many nail products are flammable, you should:
+- Store them next to the dryer
+* Keep them away from open flames and never smoke near them
+- Heat them before use
+- Mix them with water
+> Flammable liquids can catch fire easily. No smoking or open flames near your station.
+
+[n079] chemistry
+Formaldehyde, toluene and dibutyl phthalate (DBP) in nail polish are often called the:
+- Base coat trio
+* "Toxic trio"
+- Natural ingredients
+- Primers
+> Many polishes are now labeled "3-free" or more, meaning they are made without these three ingredients.
+
+[n080] chemistry
+Where should you look to find first-aid measures and safe handling instructions for a product?
+- The product's advertisement
+* Its Safety Data Sheet (SDS)
+- The salon's price list
+- A client's intake form
+> The SDS lists hazards, first aid, firefighting, handling, storage and personal protection for each product.
+
+[n081] manipedi
+The correct way to file a natural nail is:
+- Sawing back and forth quickly
+* From the corner to the center, in one direction
+- From the center out with heavy pressure
+- Straight down into the sidewall
+> Filing in one direction prevents splitting and peeling. Avoid filing deep into the corners.
+
+[n082] manipedi
+A nail shape that is straight across the free edge with slightly rounded corners is the:
+- Oval
+- Pointed
+* Squoval
+- Round
+> The squoval is sturdy and popular because the rounded corners resist breaking.
+
+[n083] manipedi
+To help prevent ingrown toenails, toenails should be trimmed:
+* Straight across
+- In a deep curve at the corners
+- Into a point
+- As short as possible into the sidewalls
+> Cutting straight across and not too short keeps the corners from growing into the skin.
+
+[n084] manipedi
+A light, continuous stroking massage movement is called:
+- Petrissage
+* Effleurage
+- Tapotement
+- Friction
+> Effleurage is a gliding, relaxing movement used to start and finish a massage.
+
+[n085] manipedi
+A kneading massage movement that lifts and squeezes the tissue is:
+* Petrissage
+- Effleurage
+- Vibration
+- Tapotement
+> Petrissage is deeper and more stimulating than effleurage.
+
+[n086] manipedi
+A rapid tapping or striking massage movement is called:
+- Effleurage
+- Petrissage
+- Friction
+* Tapotement
+> Tapotement (percussion) is the most stimulating movement and is used sparingly.
+
+[n087] manipedi
+For a client with high blood pressure or a heart condition, you should:
+- Give an extra-vigorous massage
+* Avoid vigorous massage and ask the client to check with a physician if unsure
+- Skip handwashing
+- Use hotter water
+> Vigorous massage can affect circulation. When in doubt, get physician approval before a massage.
+
+[n088] manipedi
+Which tool is prohibited in many states and should never be used to remove calluses?
+- A foot file
+- A pumice stone
+* A credo blade (callus razor)
+- A soft towel
+> Callus razors can easily cut the skin and cause infection. Only smooth calluses with approved files.
+
+[n089] manipedi
+Clients should be advised not to shave their legs:
+- For one week after a pedicure only
+* For at least 24 hours before a pedicure
+- On the day after a pedicure
+- Ever
+> Shaving creates tiny cuts that let bacteria in. Ask clients not to shave for at least 24 hours before a pedicure.
+
+[n090] manipedi
+The main purposes of a base coat are to:
+* Help polish adhere and prevent staining of the nail
+- Add shine to the finished polish
+- Dry polish faster
+- Remove cuticle
+> Base coat creates a sticky surface for color and protects the nail plate from pigments.
+
+[n091] manipedi
+A top coat is applied to:
+- Soften the cuticle
+- Remove oils from the nail
+* Protect the color, add shine and help prevent chipping
+- Make the nail grow
+> Top coat seals the color layers and adds gloss.
+
+[n092] manipedi
+The usual order for a polish application is:
+- Color, base coat, top coat
+* Base coat, two coats of color, top coat
+- Top coat, color, base coat
+- Color only
+> Base coat first, two thin coats of color, then top coat. Thin coats dry better than thick ones.
+
+[n093] manipedi
+Many cuticle removers contain sodium or potassium hydroxide, so they:
+- Are acidic and safe on skin
+* Are alkaline and should be kept off the surrounding skin
+- Harden the nail plate
+- Must be left on overnight
+> These alkaline products dissolve dead tissue. Apply only to the nail plate and rinse thoroughly.
+
+[n094] manipedi
+Paraffin wax treatments should be avoided for clients with:
+- Dry skin
+* Impaired circulation, loss of feeling, or open cuts
+- Short nails
+- Polished nails
+> Clients with poor circulation or loss of sensation (for example some diabetics) may not feel heat damage. Never apply wax over broken skin.
+
+[n095] manipedi
+A client consultation (record) card should be:
+* Completed before the first service and updated at each visit
+- Filled out only once a year
+- Completed only if the client complains
+- Kept only for male clients
+> The record notes health conditions, allergies, medications and preferences that can affect the service.
+
+[n096] manipedi
+Nippers should be used to trim:
+- The eponychium
+- Living skin around the nail
+* Hangnails and loose dead cuticle tissue only
+- The lunula
+> Never cut living tissue. Nippers are only for loose, dead tissue and hangnails.
+
+[n097] manipedi
+Calluses on the feet should be:
+- Completely removed with a blade
+* Smoothed and reduced, not completely removed, because they protect the foot
+- Left untouched at all times
+- Soaked in acetone
+> Calluses protect pressure points. Reduce them gently; removing them completely can cause pain.
+
+[n098] manipedi
+A French manicure typically features:
+* A white free edge with a natural or pink nail bed
+- All black nails
+- Only clear polish on toes
+- A red free edge only
+> The classic French look uses a sheer pink or nude base and a white tip.
+
+[n099] manipedi
+Before applying polish after a hand massage, you must:
+- Add more lotion to the nail plate
+* Remove all traces of oil and lotion from the nail plate
+- Soak the nails in water for 10 minutes
+- Buff with a coarse file
+> Oil left on the nail plate prevents polish and enhancements from adhering.
+
+[n100] manipedi
+Which item is a single-use item in a manicure?
+- Metal pusher
+- Nail clippers
+* Cotton balls
+- Fingerbowl
+> Cotton, paper towels and other porous supplies are used once and discarded. Metal implements are cleaned and disinfected.
+
+[n101] enhancements
+For liquid-and-powder (acrylic) application, a correctly mixed bead is usually:
+- Very wet and runny
+* Medium consistency: moist but holding its shape
+- Dry and crumbly
+- Completely liquid
+> Too wet causes lifting and sensitivity risks; too dry makes a weak, porous nail. Follow the manufacturer's ratio.
+
+[n102] enhancements
+On a nail enhancement, the apex (arch) should be located:
+- At the cuticle
+- At the very tip of the free edge
+* Over the stress area, where the free edge meets the nail bed
+- Only on the sidewalls
+> The apex adds strength where the nail is most likely to break.
+
+[n103] enhancements
+The stress area of a nail enhancement is:
+* Where the natural nail grows beyond the fingertip
+- The center of the lunula
+- The cuticle area
+- The tip of the free edge
+> This area takes the most force and needs the most product thickness.
+
+[n104] enhancements
+When applying a nail tip, the well of the tip should cover no more than:
+- The entire nail plate
+* Half of the natural nail plate
+- The cuticle area
+- One quarter inch past the free edge
+> Covering more than half of the nail plate weakens adhesion. Many tips are made with partial or no wells.
+
+[n105] enhancements
+After applying a tip, the line where the tip meets the natural nail should be:
+- Left as a visible ridge
+* Carefully blended until smooth
+- Covered with cuticle oil
+- Cut with nippers
+> Blend the contact area with a fine abrasive without damaging the natural nail.
+
+[n106] enhancements
+The sticky layer left on some gels after curing is called the:
+* Inhibition layer
+- Primer layer
+- Dehydration layer
+- Base layer
+> Oxygen prevents the top surface from fully curing. Remove it with the cleanser the manufacturer recommends, if directed.
+
+[n107] enhancements
+Why should you use the lamp recommended by the gel manufacturer?
+- Any lamp cures every gel the same way
+* The photoinitiators in the gel are matched to that lamp's wavelength and intensity
+- It makes the gel smell better
+- It is required only for toenails
+> A mismatched lamp can under-cure gel, causing lifting, service breakdown and skin sensitization.
+
+[n108] enhancements
+Fabrics commonly used for nail wraps include:
+- Cotton and wool
+* Silk, fiberglass and linen
+- Paper and foil only
+- Leather and vinyl
+> Wrap fabrics are bonded to the nail with adhesive or resin to strengthen it or repair cracks.
+
+[n109] enhancements
+Maintenance (a fill or rebalance) on nail enhancements is usually needed every:
+- 2 to 3 days
+* 2 to 3 weeks
+- 2 to 3 months
+- 6 months
+> As the natural nail grows, a fill rebalances the apex and covers the new growth.
+
+[n110] enhancements
+The safe way to remove acrylic enhancements is to:
+- Pry them off with nippers
+- Pull them off quickly
+* Soak in acetone and gently push off the softened product
+- File down to the nail bed
+> Prying or pulling tears off layers of the natural nail. Soak, then gently remove softened product.
+
+[n111] enhancements
+A common cause of enhancement lifting is:
+* Improper nail preparation (oils, moisture or cuticle left on the plate)
+- Too little filing near the free edge
+- Using a dehydrator
+- Applying top coat
+> Proper prep removes oil, moisture and cuticle so product can bond to the nail plate.
+
+[n112] enhancements
+Dip powder systems use a resin that is a type of:
+- Water-based glue
+* Cyanoacrylate adhesive
+- UV gel
+- Polish thinner
+> Resins are cyanoacrylates. An activator speeds hardening. Keep resin off the skin.
+
+[n113] enhancements
+Nail forms are used to:
+- Remove polish
+* Extend product beyond the fingertip without using a tip
+- Hold cuticle oil
+- Protect the nail during a pedicure
+> Forms create a support for sculpting the free edge directly with acrylic or gel.
+
+[n114] enhancements
+Before applying enhancements, proper natural-nail preparation includes:
+- Applying cuticle oil to the plate
+* Removing cuticle tissue from the plate, lightly removing shine, and dehydrating
+- Soaking the nails in water for 10 minutes
+- Filing the nail plate until thin
+> Clean, dry and lightly etched nail plates allow the product to bond.
+
+[n115] enhancements
+Which abrasive grit is the finest?
+- 80 grit
+- 100 grit
+- 180 grit
+* 240 grit
+> The higher the grit number, the finer the abrasive. Use medium to fine grits on the natural nail.
+
+[n116] enhancements
+Enhancement product should not touch the skin or cuticle because it can:
+- Make the nail grow faster
+* Cause lifting and lead to sensitization
+- Make the color brighter
+- Cure faster
+> Leave a tiny margin around the cuticle and sidewalls to prevent lifting and allergic reactions.
+
+[n117] enhancements
+"Rings of fire" (grooves cut into the nail plate) are usually caused by:
+- Using a dehydrator
+* Improper use of an electric file
+- Applying polish too thickly
+- Soaking too long
+> Keep the e-file bit moving, flat to the nail, at the right speed. Holding it in one spot creates heat and grooves.
+
+[n118] enhancements
+A crack in a nail enhancement should be:
+- Ignored until the next appointment
+* Repaired promptly so moisture and bacteria are not trapped
+- Covered with polish only
+- Filled with cuticle oil
+> Cracks can trap moisture and lead to infection or breakage. Repair them right away.
+
+[n119] enhancements
+Hard (non-soak-off) gels are removed by:
+- Soaking in acetone
+* Filing them off carefully
+- Peeling them off
+- Soaking in hot water
+> Hard gels do not dissolve in acetone. Soak-off gels are softened in acetone after breaking the top coat seal.
+
+[n120] enhancements
+When curing gel, a client feels a burning or heat spike. You should:
+* Briefly remove the hand from the lamp, then continue curing
+- Keep the hand in the lamp no matter what
+- Apply a thicker layer next time
+- Switch to a regular light bulb
+> Heat spikes come from rapid polymerization. Applying thin layers and briefly pausing protects the client.

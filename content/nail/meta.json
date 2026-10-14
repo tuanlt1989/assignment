@@ -1,0 +1,11 @@
+{
+  "version": "2026.10.1",
+  "categories": [
+    {"id": "infection", "name": {"en": "Infection Control & Safety", "vi": "Kiểm soát nhiễm khuẩn & an toàn", "es": "Control de infecciones y seguridad"}},
+    {"id": "anatomy", "name": {"en": "Nail & Skin Anatomy", "vi": "Cấu tạo móng & da", "es": "Anatomía de uñas y piel"}},
+    {"id": "disorders", "name": {"en": "Nail Disorders & Diseases", "vi": "Rối loạn & bệnh về móng", "es": "Trastornos y enfermedades de las uñas"}},
+    {"id": "chemistry", "name": {"en": "Chemistry & Product Safety", "vi": "Hoá học & an toàn sản phẩm", "es": "Química y seguridad de productos"}},
+    {"id": "manipedi", "name": {"en": "Manicure & Pedicure", "vi": "Manicure & Pedicure", "es": "Manicura y pedicura"}},
+    {"id": "enhancements", "name": {"en": "Nail Enhancements", "vi": "Móng nhân tạo (Acrylic, Gel, Tip)", "es": "Uñas artificiales"}}
+  ]
+}

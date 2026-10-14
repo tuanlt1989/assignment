@@ -1,0 +1,54 @@
+{
+  "id": "nailvi",
+  "applicationId": "com.tuanlt.examprep.nailvi",
+  "launcherName": "Thi Nail",
+  "title": {
+    "vi": "Luyện Thi Nail Tiếng Việt",
+    "en": "Nail Exam Prep (Vietnamese)"
+  },
+  "bank": "nail",
+  "locales": [
+    "vi",
+    "en"
+  ],
+  "color": "#C2185B",
+  "icon": {
+    "label": "NAIL",
+    "badge": "VI",
+    "glyph": "nail"
+  },
+  "exam": {
+    "questions": 50,
+    "minutes": 50,
+    "passPercent": 75
+  },
+  "freeRatio": 0.4,
+  "suggestedPriceUsd": 14.99,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/nailvi.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "tagline": {
+    "vi": "Song ngữ Việt – Anh · Thi thử bấm giờ · Giải thích từng câu",
+    "en": "Vietnamese + English · Timed mock exams · Clear explanations"
+  },
+  "screenshotCaptions": {
+    "vi": [
+      "Biết ngay bạn đã sẵn sàng đi thi chưa",
+      "Song ngữ Việt – Anh, giải thích từng câu",
+      "Thi thử bấm giờ như thi thật",
+      "Xem điểm từng chủ đề, ôn đúng chỗ yếu"
+    ],
+    "en-US": [
+      "Know when you're ready to pass",
+      "Vietnamese questions, English on tap",
+      "Timed mock exams like test day",
+      "Score by topic, fix weak spots"
+    ]
+  }
+}

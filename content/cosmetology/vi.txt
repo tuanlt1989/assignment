@@ -1,0 +1,961 @@
+# Ngân hàng câu hỏi Cosmetology — bản tiếng Việt. Cùng id, cùng thứ tự đáp án với en.txt.
+
+[c001]
+Thứ tự đúng của các mức độ khử nhiễm, từ thấp đến cao là:
+* Làm sạch, khử trùng, tiệt trùng
+- Tiệt trùng, làm sạch, khử trùng
+- Khử trùng, làm sạch, tiệt trùng
+- Làm sạch, tiệt trùng, khử trùng
+> Làm sạch loại bỏ chất bẩn nhìn thấy được, khử trùng diệt hầu hết vi sinh vật trên bề mặt cứng, tiệt trùng diệt toàn bộ vi sinh vật kể cả bào tử.
+
+[c002]
+Hợp chất amoni bậc bốn ("quats") là một loại:
+- Chất sát trùng cho da
+* Chất khử trùng cho bề mặt cứng, không thấm
+- Dầu xả tóc
+- Chỉ là chất tạo bọt trong dầu gội
+> Quats là chất khử trùng phổ biến trong tiệm. Chỉ dùng cho dụng cụ và bề mặt, đúng tỷ lệ pha và thời gian tiếp xúc ghi trên nhãn.
+
+[c003]
+Lược và bàn chải phải được chuẩn bị cho khách tiếp theo bằng cách:
+- Xịt keo xịt tóc lên
+* Gỡ sạch tóc, rửa bằng xà phòng và nước, rồi khử trùng
+- Lau bằng khăn khô
+- Chỉ tráng nước nóng
+> Phải gỡ sạch tóc và chất bẩn trước khi khử trùng để dung dịch tiếp xúc được mọi bề mặt.
+
+[c004]
+Tuyệt đối không dùng chất khử trùng (disinfectant) trên:
+- Mặt bàn
+- Kéo
+- Lược
+* Da, tóc hoặc móng của người
+> Chất khử trùng dùng cho bề mặt không sống. Chất sát trùng (antiseptic) mới là sản phẩm dùng để giảm vi trùng trên da.
+
+[c005]
+Chất sát trùng (antiseptic) là sản phẩm dùng trên:
+* Da, để giảm vi sinh vật
+- Sàn nhà và mặt bàn
+- Chỉ dụng cụ kim loại
+- Dụng cụ điện
+> Chất sát trùng nhẹ hơn chất khử trùng và có thể bôi lên da. Nó không thay thế việc khử trùng dụng cụ.
+
+[c006]
+Tình trạng da đầu nào có thể lây, vì vậy không được làm dịch vụ?
+- Gàu (pityriasis)
+- Tóc bạc (canities)
+* Nấm da đầu / hắc lào da đầu (tinea capitis)
+- Tóc chẻ ngọn (trichoptilosis)
+> Tinea capitis là nhiễm nấm dễ lây. Không làm dịch vụ và khuyên khách đi bác sĩ.
+
+[c007]
+Tình trạng bị chấy (chí) trên đầu gọi là:
+- Ghẻ (scabies)
+* Pediculosis capitis
+- Tinea capitis
+- Rụng tóc từng mảng (alopecia areata)
+> Chấy là ký sinh trùng dễ lây. Không làm dịch vụ; giới thiệu khách đến bác sĩ hoặc dược sĩ.
+
+[c008]
+Ghẻ (scabies) là bệnh da dễ lây do:
+- Vi khuẩn
+- Vi-rút
+* Con ghẻ (mite) đào hang dưới da
+- Nấm
+> Ghẻ do con ghẻ gây ra. Phải giới thiệu khách đến bác sĩ và không làm dịch vụ.
+
+[c009]
+Miễn dịch có được sau khi khỏi bệnh hoặc nhờ tiêm vắc-xin gọi là:
+- Miễn dịch tự nhiên
+* Miễn dịch thu được (acquired immunity)
+- Miễn dịch cục bộ
+- Nhiễm trùng tạm thời
+> Miễn dịch thu được hình thành sau khi tiếp xúc mầm bệnh hoặc tiêm chủng. Miễn dịch tự nhiên một phần là bẩm sinh.
+
+[c010]
+Dụng cụ dính máu hoặc dịch cơ thể phải được:
+- Tráng dưới vòi nước
+* Làm sạch, rồi khử trùng bằng chất khử trùng đăng ký EPA theo quy định của tiểu bang
+- Lau khăn rồi dùng tiếp
+- Cất vào ngăn kéo
+> Làm sạch trước, sau đó ngâm ngập trong chất khử trùng EPA được phép dùng khi tiếp xúc máu. Làm đúng quy định của tiểu bang.
+
+[c011]
+Khăn và áo choàng đã dùng phải được:
+- Gấp lại và dùng cho khách tiếp theo
+* Bỏ vào thùng có nắp đậy cho đến khi giặt
+- Treo lên ghế làm việc
+- Giũ sạch rồi dùng lại
+> Dùng khăn sạch cho mỗi khách. Khăn bẩn để trong thùng có nắp và giặt đúng cách.
+
+[c012]
+Mục đích chính của OSHA là:
+- Đăng ký chất khử trùng
+- Cấp bằng cosmetology
+* Bảo vệ người lao động khỏi các mối nguy hiểm tại nơi làm việc
+- Phê duyệt mỹ phẩm
+> OSHA đặt ra và giám sát tiêu chuẩn an toàn lao động, kể cả Tiêu chuẩn truyền đạt nguy hiểm (SDS và nhãn mác).
+
+[c013]
+Khác với nhiều bệnh nhiễm khuẩn, bệnh do vi-rút:
+- Luôn chữa khỏi bằng kháng sinh
+* Không điều trị bằng kháng sinh
+- Không thể lây cho người khác
+- Chỉ ảnh hưởng đến tóc
+> Kháng sinh tác dụng lên vi khuẩn, không tác dụng lên vi-rút. Vắc-xin và thuốc kháng vi-rút được dùng cho vi-rút.
+
+[c014]
+Pha chất khử trùng đậm đặc hơn hướng dẫn trên nhãn sẽ:
+- Làm nó hiệu quả nhanh gấp đôi
+- Là bắt buộc khi có máu
+* Không làm tăng hiệu quả mà có thể làm hỏng dụng cụ và kích ứng da
+- Làm nó an toàn khi dùng trên da
+> Luôn đong đúng tỷ lệ. Pha đậm hơn không có nghĩa là khử trùng tốt hơn.
+
+[c015]
+Găng tay dùng một lần phải được:
+* Thay giữa các khách và bỏ đi sau khi dùng
+- Rửa sạch và dùng lại
+- Đeo cả ngày cho mọi khách
+- Chỉ dùng khi cắt tóc
+> Găng tay dùng một lần. Thay găng giữa các khách và rửa tay sau khi tháo găng.
+
+[c016]
+Khi pha chất khử trùng đậm đặc, bạn nên:
+- Dùng tay trần để khuấy
+* Đeo găng tay và kính bảo hộ
+- Pha trong hộp đựng thức ăn
+- Cho vào dụng cụ tạo kiểu đang nóng
+> Dung dịch đậm đặc có thể gây bỏng da và mắt. Bảo vệ bản thân và làm theo nhãn.
+
+[c017]
+Dấu UL (Underwriters Laboratories) trên thiết bị điện có nghĩa là:
+- Thiết bị chống nước
+* Thiết bị đã được kiểm định và chứng nhận an toàn
+- Có thể dùng không cần cắm điện
+- Không bao giờ cần kiểm tra
+> Chỉ dùng thiết bị có chứng nhận UL và kiểm tra dây điện trước mỗi lần dùng.
+
+[c018]
+Nếu hoá chất văng vào mắt khách, việc đầu tiên bạn nên làm là:
+- Dụi mắt bằng khăn
+- Nhỏ thuốc mắt rồi làm tiếp
+* Rửa mắt bằng thật nhiều nước sạch và đi khám nếu cần
+- Bôi thuốc trung hoà (neutralizer)
+> Rửa ngay bằng nước trong vài phút. Xem phần sơ cứu trong SDS của sản phẩm và tìm trợ giúp y tế.
+
+[c019]
+Vật dụng nào phải bỏ đi sau một lần dùng?
+* Giấy quấn cổ (neck strip)
+- Lược kim loại
+- Kéo
+- Kẹp chia tóc bằng nhựa
+> Giấy quấn cổ và các vật dụng xốp chỉ dùng một lần. Dụng cụ cứng, không thấm được làm sạch và khử trùng.
+
+[c020]
+Phiếu an toàn hoá chất (SDS) phải:
+- Chỉ lưu ở nhà sản xuất
+* Luôn có sẵn cho nhân viên với mọi sản phẩm nguy hiểm trong tiệm
+- Chỉ chủ tiệm được đọc
+- Bỏ đi sau một năm
+> OSHA yêu cầu SDS phải luôn sẵn sàng. SDS giải thích nguy hiểm, sơ cứu, bảo quản và đồ bảo hộ.
+
+[c021]
+Tóc được cấu tạo chủ yếu từ một loại protein gọi là:
+- Collagen
+- Melanin
+* Keratin
+- Elastin
+> Tóc có khoảng 90% là keratin. Keratin cũng có trong da và móng.
+
+[c022]
+Ba lớp của sợi tóc, từ ngoài vào trong, là:
+* Lớp biểu bì tóc, lớp vỏ, lớp tuỷ (cuticle, cortex, medulla)
+- Medulla, cortex, cuticle
+- Cortex, cuticle, medulla
+- Nang tóc, củ tóc, nhú bì (follicle, bulb, papilla)
+> Cuticle bảo vệ, cortex tạo độ chắc và màu, medulla (lớp trong cùng) có thể không có ở tóc mảnh.
+
+[c023]
+Lớp nào của tóc tạo độ chắc, độ đàn hồi và màu tự nhiên?
+- Cuticle
+* Cortex
+- Medulla
+- Nang tóc (follicle)
+> Cortex chứa melanin và phần lớn các liên kết mà dịch vụ hoá chất làm thay đổi.
+
+[c024]
+Lớp bảo vệ ngoài cùng của sợi tóc là:
+* Cuticle (lớp biểu bì tóc)
+- Cortex
+- Medulla
+- Nhú bì (dermal papilla)
+> Cuticle gồm các vảy xếp chồng lên nhau. Cuticle mịn, khép kín phản chiếu ánh sáng nên tóc bóng.
+
+[c025]
+Giai đoạn tóc đang mọc tích cực trong chu kỳ tóc là:
+- Catagen
+- Telogen
+* Anagen
+- Exogen
+> Anagen là giai đoạn mọc, catagen là giai đoạn chuyển tiếp ngắn, telogen là giai đoạn nghỉ.
+
+[c026]
+Trung bình tóc trên da đầu mọc khoảng:
+- 1/10 inch mỗi tháng
+* 1/2 inch (khoảng 1,25 cm) mỗi tháng
+- 2 inch mỗi tháng
+- 1/2 inch mỗi năm
+> Tóc mọc trung bình khoảng 1/2 inch mỗi tháng, tuỳ theo tuổi, sức khoẻ và di truyền.
+
+[c027]
+Độ xốp (porosity) của tóc là khả năng tóc:
+- Giãn ra và trở lại độ dài ban đầu
+* Hút ẩm (hút nước)
+- Mọc nhanh hơn
+- Giữ lọn xoăn khi trời ẩm
+> Tóc xốp hút chất lỏng nhanh. Độ xốp ảnh hưởng đến việc tóc ăn màu nhuộm, thuốc uốn và thuốc duỗi.
+
+[c028]
+Độ đàn hồi (elasticity) của tóc là khả năng tóc:
+* Giãn ra và trở lại độ dài ban đầu mà không bị đứt
+- Hút ẩm
+- Chống lại màu nhuộm
+- Mọc theo một chiều
+> Tóc khoẻ khi ướt có thể giãn đến khoảng 50% chiều dài và co lại. Độ đàn hồi kém nghĩa là tóc yếu.
+
+[c029]
+Kết cấu tóc (hair texture) chỉ:
+- Số sợi tóc trên mỗi inch vuông
+* Độ dày hoặc đường kính của một sợi tóc
+- Màu tóc
+- Hướng mọc của tóc
+> Kết cấu tóc gồm thô (coarse), trung bình (medium), mảnh (fine). Tóc thô thường cần thời gian xử lý lâu hơn.
+
+[c030]
+Mật độ tóc (hair density) chỉ:
+- Đường kính của mỗi sợi tóc
+* Số sợi tóc trên mỗi inch vuông da đầu
+- Tốc độ mọc của tóc
+- Lượng ẩm tóc hút vào
+> Mật độ được mô tả là thưa, trung bình hoặc dày, và ảnh hưởng đến cách chia tóc và cắt.
+
+[c031]
+Liên kết ngang nào bị phá vỡ bởi nước hoặc nhiệt và tái tạo khi tóc khô hoặc nguội?
+* Liên kết hydro (hydrogen bonds)
+- Liên kết disulfide
+- Liên kết peptide
+- Chỉ liên kết ion
+> Tạo kiểu ướt và tạo kiểu bằng nhiệt làm thay đổi tạm thời liên kết hydro. Chúng tái tạo khi tóc khô hoặc nguội.
+
+[c032]
+Liên kết disulfide trong tóc bị phá vỡ bởi:
+- Gội đầu
+- Chải tóc
+* Dịch vụ hoá chất như uốn và duỗi tóc
+- Nước lạnh
+> Liên kết disulfide là liên kết hoá học mạnh. Uốn và duỗi thay đổi chúng để thay đổi vĩnh viễn hình dạng tóc.
+
+[c033]
+Thuật ngữ y khoa của gàu là:
+- Canities
+* Pityriasis
+- Trichoptilosis
+- Monilethrix
+> Pityriasis (gàu) là tình trạng tế bào da đầu bong tróc quá nhiều. Trong tiệm, gàu không được coi là bệnh lây.
+
+[c034]
+Rụng tóc đột ngột thành từng mảng tròn hoặc không đều gọi là:
+* Alopecia areata
+- Androgenetic alopecia
+- Canities
+- Hypertrichosis
+> Alopecia areata là bệnh tự miễn. Giới thiệu khách đến bác sĩ và đối xử tế nhị.
+
+[c035]
+Rụng tóc do di truyền, kiểu hói ở nam hoặc nữ, gọi là:
+- Alopecia areata
+- Rụng tóc do kéo căng (traction alopecia)
+* Androgenetic alopecia
+- Tinea capitis
+> Androgenetic alopecia là kiểu rụng tóc phổ biến nhất, chịu ảnh hưởng của di truyền và hormone.
+
+[c036]
+Tóc bạc do mất sắc tố tự nhiên gọi là:
+- Hirsutism
+* Canities
+- Pityriasis
+- Fragilitas crinium
+> Canities là thuật ngữ chuyên môn của tóc bạc. Tóc bạc vẫn mọc bình thường nhưng thiếu melanin.
+
+[c037]
+Tóc chẻ ngọn có thuật ngữ chuyên môn là:
+- Monilethrix
+- Trichorrhexis nodosa
+* Trichoptilosis
+- Pediculosis
+> Trichoptilosis là tóc chẻ ngọn. Tỉa và dưỡng tóc giúp cải thiện; không thể phục hồi vĩnh viễn.
+
+[c038]
+Vùng nhỏ hình nón ở đáy nang tóc, cung cấp dưỡng chất cho củ tóc, là:
+- Cơ dựng lông (arrector pili)
+* Nhú bì (dermal papilla)
+- Tuyến bã nhờn
+- Cuticle
+> Nhú bì chứa mạch máu và dây thần kinh nuôi dưỡng củ tóc.
+
+[c039]
+Cơ nhỏ gắn vào nang tóc làm "nổi da gà" là:
+* Cơ dựng lông (arrector pili)
+- Cơ chẩm (occipitalis)
+- Cơ bám da cổ (platysma)
+- Cơ trán (frontalis)
+> Arrector pili co lại khi lạnh hoặc sợ, làm lông tóc dựng lên.
+
+[c040]
+Hai loại melanin trong tóc là:
+- Keratin và collagen
+* Eumelanin (nâu/đen) và pheomelanin (đỏ/vàng)
+- Bã nhờn và mồ hôi
+- Cortex và medulla
+> Tỷ lệ eumelanin và pheomelanin tạo nên màu tóc tự nhiên của mỗi người.
+
+[c041]
+Các màu cơ bản (primary colors) là:
+- Cam, xanh lá, tím
+* Đỏ, vàng, xanh dương
+- Đỏ, xanh lá, xanh dương
+- Đen, trắng, xám
+> Màu cơ bản không thể tạo ra bằng cách pha các màu khác. Mọi màu khác đều tạo ra từ chúng.
+
+[c042]
+Pha phần bằng nhau màu vàng và xanh dương sẽ được:
+- Cam
+- Tím
+* Xanh lá
+- Nâu
+> Xanh lá là màu cấp hai tạo từ vàng và xanh dương.
+
+[c043]
+Màu nào trung hoà (triệt tiêu) ánh đỏ không mong muốn?
+- Cam
+* Xanh lá
+- Đỏ tím
+- Vàng
+> Các màu bổ sung (complementary) trung hoà nhau. Xanh lá đối diện màu đỏ trên vòng tròn màu.
+
+[c044]
+Để trung hoà ánh cam (vàng đồng) không mong muốn, dùng toner hoặc màu có nền:
+* Xanh dương
+- Đỏ
+- Vàng
+- Cam
+> Xanh dương là màu bổ sung của cam. Tím trung hoà vàng; xanh lá trung hoà đỏ.
+
+[c045]
+Trong nhuộm tóc, hệ thống cấp độ (level system) đo:
+- Màu ấm hay lạnh
+* Màu sáng hay tối
+- Độ xốp của tóc
+- Màu giữ được bao lâu
+> Hầu hết hệ thống cấp độ từ 1 (đen, tối nhất) đến 10 (vàng sáng nhất).
+
+[c046]
+"Tông" (tone) của màu tóc mô tả:
+- Độ sáng hay tối
+* Độ ấm hay lạnh
+- Độ bền màu
+- Độ mạnh của thuốc oxy (developer)
+> Tông ấm (vàng ánh kim, đỏ, cam), tông lạnh (khói, xanh dương, tím, xanh lá) hoặc trung tính.
+
+[c047]
+Màu nhuộm tạm thời (temporary color):
+* Phủ bên ngoài sợi tóc và trôi sau một lần gội
+- Thấm vào cortex và giữ đến khi tóc mọc ra
+- Cần thuốc oxy 30 volume
+- Nâng màu tự nhiên lên hai cấp
+> Màu tạm thời có phân tử lớn, chỉ bám trên bề mặt cuticle. Thường không cần thử dị ứng.
+
+[c048]
+Màu nhuộm bán vĩnh viễn (semi-permanent) truyền thống:
+- Làm sáng tóc nhiều cấp
+* Lên màu mà không cần thuốc oxy và phai dần sau vài lần gội
+- Luôn pha với thuốc oxy 40 volume
+- Không phủ được tóc bạc chút nào
+> Màu bán vĩnh viễn chỉ lên màu (deposit-only) và phai dần. Nhiều loại vẫn cần thử dị ứng.
+
+[c049]
+Màu demi-permanent được pha với:
+- Hoàn toàn không có thuốc oxy
+* Thuốc oxy nồng độ thấp, lên màu mà không nâng tông
+- Thuốc oxy 40 volume để nâng tông tối đa
+- Bột tẩy
+> Màu demi-permanent dùng thuốc oxy nồng độ thấp, lên màu và hoà lẫn tóc bạc phần nào mà không làm sáng tóc.
+
+[c050]
+Màu nhuộm vĩnh viễn (oxy hoá):
+- Chỉ phủ lên cuticle
+- Trôi sau một lần gội
+* Có thể vừa làm sáng vừa lên màu trong cùng một lần
+- Không bao giờ cần thử dị ứng
+> Màu vĩnh viễn pha với thuốc oxy, thấm vào cortex, có thể nâng tông và lên màu cùng lúc.
+
+[c051]
+Thuốc oxy 20 volume chứa khoảng bao nhiêu phần trăm hydrogen peroxide?
+- 3%
+* 6%
+- 9%
+- 12%
+> 10 volume = 3%, 20 volume = 6%, 30 volume = 9%, 40 volume = 12%.
+
+[c052]
+Thử dị ứng (patch test / predisposition test) với thuốc nhuộm gốc aniline nên làm:
+- Ngay sau khi nhuộm
+* 24 đến 48 giờ trước khi nhuộm
+- Chỉ một lần trong đời khách
+- Chỉ với khách tóc bạc
+> Patch test kiểm tra dị ứng. Nếu bị đỏ, sưng, rát hoặc ngứa thì không được nhuộm.
+
+[c053]
+Thử trên lọn tóc (strand test) được dùng để:
+- Kiểm tra dị ứng
+* Xác định thời gian xử lý và màu sẽ lên như thế nào trước khi nhuộm toàn bộ
+- Làm sạch da đầu
+- Đo mật độ tóc
+> Strand test cho thấy kết quả trên một lọn nhỏ để bạn điều chỉnh công thức hoặc thời gian.
+
+[c054]
+Thuốc tẩy tóc (lightener / bleach) làm sáng tóc bằng cách:
+* Phân tán và hoà tan melanin thông qua oxy hoá
+- Phủ sắc tố trắng lên cuticle
+- Chỉ phá liên kết hydro
+- Loại bỏ medulla
+> Thuốc tẩy oxy hoá melanin tự nhiên. Tẩy càng lâu và càng mạnh thì càng mất nhiều sắc tố.
+
+[c055]
+Khi tóc tối màu được tẩy sáng, tóc lần lượt chuyển qua các giai đoạn nào?
+- Vàng, cam, đỏ, nâu
+* Đỏ, đỏ cam, cam, vàng ánh kim, vàng, vàng nhạt
+- Vàng nhạt, vàng ánh kim, đỏ, đen
+- Tím, xanh dương, xanh lá, vàng
+> Tóc tự nhiên sáng dần qua các tông ấm từ đỏ đến vàng nhạt. Sau đó dùng toner để chỉnh tông cuối cùng.
+
+[c056]
+Khi nhuộm vĩnh viễn lần đầu (virgin) để làm sáng hơn, thường bôi thuốc:
+- Ở vùng chân tóc trước
+* Ở thân và ngọn tóc trước, sau đó mới đến vùng chân tóc
+- Chỉ ở ngọn tóc
+- Toàn bộ cùng lúc trên tóc khô, không chia ngôi
+> Thân nhiệt làm vùng chân tóc lên màu nhanh hơn, nên bôi sau cùng để màu đều.
+
+[c057]
+Nhuộm chân tóc (retouch) chỉ bôi lên:
+* Phần tóc mới mọc
+- Phần ngọn tóc
+- Toàn bộ sợi tóc mỗi lần
+- Lông mày
+> Bôi chồng lên phần tóc đã nhuộm có thể gây gãy tóc và màu loang thành vệt. Chỉ bôi phần tóc mới mọc.
+
+[c058]
+Chất độn màu (color filler) được dùng để:
+- Tẩy màu nhân tạo
+* Cân bằng độ xốp và lên một lớp màu nền cho tóc hư tổn
+- Tẩy tóc nhanh hơn
+- Thay thế thử dị ứng
+> Filler giúp tóc hư tổn hoặc xốp ăn màu đều và tránh màu bị quá tối hoặc quá khói.
+
+[c059]
+Tóc trước đây đã nhuộm bằng thuốc nhuộm kim loại (metallic dyes) phải:
+- Tẩy ngay lập tức
+* Được thử tương thích trước bất kỳ dịch vụ hoá chất nào
+- Uốn mà không cần thử
+- Duỗi bằng thuốc duỗi hydroxide
+> Thuốc nhuộm kim loại có thể phản ứng với peroxide và hoá chất khác, gây nóng, gãy tóc hoặc biến màu.
+
+[c060]
+Để tẩy màu nhuộm nhân tạo (oxy hoá) khỏi tóc, bạn dùng:
+- Patch test
+* Dung dịch tẩy màu nhuộm (dye solvent / color remover)
+- Màu demi-permanent
+- Dầu gội trung hoà
+> Dung dịch tẩy màu làm nhỏ phân tử màu nhân tạo để có thể xả trôi.
+
+[c061]
+Thành phần hoạt tính chính của thuốc uốn kiềm (uốn lạnh - alkaline / cold wave) là:
+* Ammonium thioglycolate
+- Glyceryl monothioglycolate
+- Sodium hydroxide
+- Hydrogen peroxide
+> Thuốc uốn kiềm có pH cao hơn, xử lý nhanh ở nhiệt độ phòng và cho lọn xoăn chắc.
+
+[c062]
+Thành phần hoạt tính chính của thuốc uốn axit (acid wave) thật sự là:
+- Ammonium thioglycolate
+* Glyceryl monothioglycolate (GMTG)
+- Guanidine hydroxide
+- Sodium bicarbonate
+> Thuốc uốn axit có pH thấp hơn và cho lọn xoăn mềm hơn. GMTG dễ gây dị ứng nên cần bảo vệ da.
+
+[c063]
+Thuốc uốn làm mềm tóc bằng cách phá vỡ:
+- Chỉ liên kết hydro
+* Liên kết disulfide
+- Liên kết peptide
+- Chỉ liên kết muối
+> Thuốc uốn phá liên kết disulfide để tóc mang hình dạng của ống uốn (rod).
+
+[c064]
+Thuốc dập (neutralizer) trong uốn tóc chứa hydrogen peroxide để:
+- Phá thêm liên kết disulfide
+* Tái tạo liên kết disulfide theo hình dạng xoăn mới
+- Làm sáng tóc
+- Làm mềm cuticle
+> Dập thuốc (oxy hoá) tái tạo các liên kết disulfide đã bị phá và dừng quá trình xử lý.
+
+[c065]
+Khi uốn tóc, kích cỡ lọn xoăn chủ yếu do yếu tố nào quyết định?
+* Kích cỡ ống uốn (rod)
+- Hiệu thuốc uốn
+- Độ dài giấy uốn
+- Nhiệt độ nước
+> Ống nhỏ cho lọn nhỏ, chặt; ống lớn cho lọn lớn, lơi.
+
+[c066]
+Giấy uốn (end papers) được dùng khi cuốn tóc để:
+- Tăng tốc độ xử lý
+* Kiểm soát ngọn tóc và tránh ngọn bị gập (fishhook)
+- Bảo vệ da đầu khỏi thuốc dập
+- Đo kích cỡ lọn xoăn
+> Giấy uốn giữ ngọn tóc nằm phẳng quanh ống uốn để không bị gập hoặc gãy.
+
+[c067]
+Khi uốn tóc, lấy lọn thử (test curl) để:
+* Kiểm tra tóc đang xử lý ra sao và khi nào đã đủ
+- Kiểm tra dị ứng
+- Tháo giấy uốn
+- Đo mật độ tóc
+> Lọn thử giúp tránh xử lý chưa đủ hoặc quá mức.
+
+[c068]
+Tóc uốn bị xử lý quá mức (over-processed) thường trông:
+- Xoăn chặt, đàn hồi khi khô
+* Xù khi ướt và yếu hoặc thẳng khi khô
+- Đúng y kích cỡ ống uốn
+- Quá bóng
+> Xử lý quá mức phá quá nhiều liên kết. Tóc mất độ chắc và không giữ được lọn xoăn.
+
+[c069]
+Thuốc duỗi sodium hydroxide thường được gọi là:
+- Thuốc duỗi không lye (no-lye)
+* Thuốc duỗi lye (lye relaxers)
+- Thuốc duỗi thio
+- Thuốc duỗi axit
+> Thuốc duỗi sodium hydroxide có pH rất cao và tác dụng nhanh. Loại "no-lye" dùng hydroxide khác như guanidine.
+
+[c070]
+Thuốc duỗi hydroxide làm thẳng tóc vĩnh viễn qua quá trình gọi là:
+- Oxy hoá
+- Trung hoà
+* Lanthionization
+- Thuỷ phân liên kết hydro
+> Thuốc duỗi hydroxide biến liên kết disulfide thành liên kết lanthionine, không thể tạo lại lọn xoăn.
+
+[c071]
+Bôi kem bảo vệ (base cream) trước khi duỗi bằng thuốc duỗi có base để:
+* Bảo vệ da đầu khỏi kích ứng và bỏng
+- Làm thuốc duỗi xử lý nhanh hơn
+- Thêm màu cho tóc
+- Thay thế dầu gội trung hoà
+> Kem bảo vệ (gốc dầu khoáng) bảo vệ da đầu và chân tóc khỏi thuốc duỗi có pH cao.
+
+[c072]
+Sau khi xả sạch thuốc duỗi hydroxide, bạn phải:
+- Bôi thuốc dập thio
+* Gội bằng dầu gội trung hoà (neutralizing / normalizing shampoo) để đưa tóc về pH axit
+- Bôi thuốc uốn
+- Để nguyên tóc như vậy
+> Dầu gội trung hoà hạ pH và loại bỏ thuốc duỗi còn sót. Nhiều loại có chất chỉ thị màu.
+
+[c073]
+Tóc đã duỗi bằng thuốc duỗi hydroxide thì:
+- Có thể duỗi thio hoặc uốn an toàn
+* Không được duỗi bằng thuốc thio hoặc uốn tóc
+- Phải tẩy trước mọi dịch vụ
+- Sẽ xoăn lại sau khi gội
+> Hoá chất hydroxide và thio không tương thích. Dùng chồng lên nhau có thể làm tóc gãy nghiêm trọng.
+
+[c074]
+Nhiều sản phẩm phục hồi keratin (keratin smoothing) có thể sinh ra formaldehyde khi gặp nhiệt, vì vậy bạn nên:
+- Chỉ dùng trên tóc ướt với nhiệt tối đa
+* Đảm bảo thông gió tốt và làm theo hướng dẫn của nhà sản xuất và SDS
+- Không cần găng vì sản phẩm tự nhiên
+- Chỉ làm trong phòng kín
+> Chất sinh formaldehyde có thể kích ứng mắt và phổi. Thông gió và dùng đúng cách giúp giảm phơi nhiễm.
+
+[c075]
+Nếu khách bị trầy xước hoặc lở loét da đầu, bạn nên:
+- Dùng thuốc duỗi mạnh hơn cho nhanh
+* Không làm dịch vụ hoá chất
+- Bôi thêm kem bảo vệ rồi làm tiếp
+- Dùng nước nóng rửa chỗ đó
+> Hoá chất trên da bị tổn thương gây bỏng và nhiễm trùng. Hẹn lại khi da đầu đã lành.
+
+[c076]
+Độ pH trung bình của tóc và da khoảng:
+- 7,0
+* 4,5 đến 5,5
+- 9,0 đến 10,0
+- 13,0 đến 14,0
+> Tóc và da có tính axit nhẹ. Lớp màng axit này giúp bảo vệ chúng.
+
+[c077]
+Dung dịch kiềm tác động lên tóc bằng cách:
+* Làm sợi tóc trương phồng và mở cuticle
+- Đóng và làm cứng cuticle
+- Tạo bóng và đóng cuticle
+- Không có tác dụng gì
+> Sản phẩm kiềm giúp hoá chất thấm vào cortex. Sản phẩm axit giúp đóng cuticle.
+
+[c078]
+Nước xả và dầu xả cân bằng axit giúp:
+- Mở cuticle
+* Đóng (khép) cuticle và trả lại độ bóng
+- Phá liên kết disulfide
+- Nâng màu tự nhiên
+> pH thấp làm khít các vảy cuticle, giúp tóc mượt và bóng hơn.
+
+[c079]
+Phân tử dầu gội có "đầu" ưa nước và "đuôi" ưa dầu. Phần đầu được gọi là:
+- Ưa dầu (lipophilic)
+* Ưa nước (hydrophilic)
+- Kiềm
+- Không tan
+> Hydrophilic là ưa nước; lipophilic là ưa dầu. Hai phần cùng nhau kéo dầu và bụi bẩn ra để nước xả trôi.
+
+[c080]
+Với tóc mảnh, tóc đã nhuộm hoặc hư tổn, độ mạnh thuốc duỗi thường phù hợp là:
+* Nhẹ (mild)
+- Thường (regular)
+- Mạnh (super)
+- Mạnh nhất có dùng nhiệt
+> Tóc mảnh hoặc hư tổn xử lý nhanh hơn nên cần công thức nhẹ để tránh gãy tóc.
+
+[c081]
+Kiểu cắt mà toàn bộ tóc rơi ở cùng một mức, không nâng tóc, gọi là:
+* Cắt bằng (blunt / one-length) ở góc 0 độ
+- Cắt tầng thấp (graduated) ở 45 độ
+- Cắt tầng đều (uniform layers) ở 90 độ
+- Cắt tầng dài (long layers) ở 180 độ
+> Cắt ở góc 0 độ tạo đường cắt đặc, có trọng lượng, như kiểu tóc bob cổ điển.
+
+[c082]
+Kiểu cắt tầng thấp (graduated) thường được cắt với góc nâng khoảng:
+- 0 độ
+* 45 độ
+- 90 độ
+- 180 độ
+> Graduation (góc nâng thấp đến trung bình) tạo trọng lượng và dáng tóc xếp tầng.
+
+[c083]
+Kiểu cắt tầng đều (uniform layers) được cắt với tóc nâng ở góc:
+- 0 độ
+- 45 độ
+* 90 độ
+- 180 độ
+> Ở 90 độ, toàn bộ tóc được cắt cùng độ dài, theo đường cong của đầu.
+
+[c084]
+Kiểu cắt tầng dài (long layers) được tạo bằng cách nâng tóc lên:
+- 0 độ
+- 45 độ
+- 90 độ
+* 180 độ
+> Ở 180 độ, các tầng ngắn ở đỉnh đầu và dài dần ra vùng viền.
+
+[c085]
+Trong cắt tóc, đường chuẩn (guideline) là:
+- Đường ngôi tự nhiên của tóc
+* Một phần tóc quyết định độ dài sẽ cắt
+- Đường chân tóc ở gáy
+- Kiểu tóc khách thích
+> Đường chuẩn có thể cố định (mọi phần tóc đưa về đó) hoặc di chuyển (đi theo từng phần tóc).
+
+[c086]
+Khi cắt tóc rất xoăn, bạn cần nhớ rằng:
+* Tóc xoăn co lại khi khô, nên phải chừa thêm độ dài
+- Tóc xoăn dài ra khi khô
+- Luôn phải cắt bằng dao cạo
+- Kéo căng sẽ làm tóc ngắn lại khi khô
+> Tóc xoăn có thể co lại rất nhiều khi khô. Kéo căng nhẹ và chừa độ dài.
+
+[c087]
+Kéo tỉa (thinning shears) chủ yếu được dùng để:
+- Tạo đường viền bằng
+* Giảm độ dày mà không làm ngắn độ dài tổng thể
+- Cắt đường chuẩn
+- Chỉ cắt tóc giả
+> Kéo tỉa có răng ở một hoặc hai lưỡi và giảm bớt trọng lượng bên trong kiểu tóc.
+
+[c088]
+Cắt tóc bằng dao cạo (razor) thường nên làm trên:
+- Tóc khô, rối
+* Tóc ướt
+- Tóc đã xịt keo
+- Chỉ tóc rất ngắn
+> Dùng dao cạo trên tóc khô có thể giật tóc và làm xơ cuticle. Giữ tóc ướt và lưỡi dao sắc.
+
+[c089]
+Vùng rộng nhất của đầu, bắt đầu từ thái dương và kết thúc ở dưới đỉnh đầu, gọi là:
+- Gáy (nape)
+- Xương chẩm (occipital bone)
+* Đường đỉnh (parietal ridge)
+- Điểm cao nhất (apex)
+> Parietal ridge là điểm tham chiếu quan trọng, nơi đầu chuyển từ tròn sang phẳng.
+
+[c090]
+Xương nhô ra ở đáy hộp sọ là:
+* Xương chẩm (occipital bone)
+- Xương đỉnh (parietal bone)
+- Xương trán (frontal bone)
+- Xương thái dương (temporal bone)
+> Xương chẩm là điểm tham chiếu quan trọng khi cắt và tạo trọng lượng cho kiểu tóc.
+
+[c091]
+Khi sấy để tóc bóng, hướng luồng gió:
+- Từ ngọn tóc lên chân tóc
+* Từ chân tóc xuống ngọn tóc
+- Thẳng vào da đầu
+- Xoay vòng ngẫu nhiên
+> Sấy theo chiều các vảy cuticle giúp vảy nằm phẳng, giảm xù và tăng độ bóng.
+
+[c092]
+Phần nào của lọn kẹp (pin curl) quyết định hướng và độ chuyển động của lọn tóc?
+- Chân (base)
+* Thân (stem)
+- Vòng (circle)
+- Kẹp (clip)
+> Thân nằm giữa chân và vòng cung đầu tiên. Vòng quyết định kích cỡ lọn tóc.
+
+[c093]
+Để có độ phồng tối đa, lô cuốn (roller) nên đặt:
+* Trên chân (on base)
+- Lệch chân (off base)
+- Lệch nửa chân (half off base)
+- Dưới tóc
+> Lô đặt trên chân nằm ngay trên phần tóc của nó và cho độ phồng nhiều nhất. Lệch chân cho độ phồng ít nhất.
+
+[c094]
+Ép tóc mạnh (hard press) bằng lược ép nóng loại bỏ khoảng:
+- 25% độ xoăn
+- 50% độ xoăn
+- 75% độ xoăn
+* 100% độ xoăn
+> Ép nhẹ loại bỏ khoảng 50–60%, ép vừa 60–75%, ép mạnh khoảng 100% độ xoăn.
+
+[c095]
+Trước khi tạo kiểu bằng nhiệt, nên thử nhiệt độ của máy là (máy uốn/kẹp) trên:
+- Da khách
+* Khăn giấy trắng hoặc một lọn tóc thử
+- Tay của bạn
+- Lược kim loại
+> Tóc mảnh, tóc đã tẩy hoặc hư tổn cần ít nhiệt hơn. Luôn thử trước để tránh làm cháy tóc.
+
+[c096]
+Tóc giả sợi tổng hợp không ghi là chịu nhiệt thì KHÔNG được:
+- Gội
+- Chải nhẹ nhàng
+* Tạo kiểu bằng dụng cụ nhiệt
+- Cất trên đầu giả (wig block)
+> Hầu hết sợi tổng hợp thường sẽ chảy hoặc xù khi gặp nhiệt. Tóc giả bằng tóc thật có thể tạo kiểu bằng nhiệt.
+
+[c097]
+Kiểu tết sát da đầu (cornrows) được tạo bằng:
+* Tết ba sợi kiểu luồn dưới (tết ngược) sát da đầu
+- Tết luồn trên, xa da đầu
+- Một lọn xoắn đơn
+- Lô cuốn nhiệt
+> Các sợi được đan luồn dưới sợi giữa nên bím tóc nổi lên trên da đầu.
+
+[c098]
+Khi cầm kéo, ngón áp út đặt vào:
+- Lỗ ngón cái (thumb grip)
+* Lỗ ngón tay (finger grip)
+- Ốc vít trục (pivot screw)
+- Chỗ tựa ngón út (tang)
+> Ngón cái vào lỗ ngón cái, ngón áp út vào lỗ ngón tay; ngón út tựa vào chỗ tựa (tang).
+
+[c099]
+Kéo lệch (overdirection) trong cắt tóc nghĩa là:
+- Cắt tóc không có đường chuẩn
+* Chải tóc lệch khỏi vị trí rơi tự nhiên về phía đường chuẩn, làm tóc dài dần
+- Nâng toàn bộ tóc lên 180 độ
+- Cắt tóc khi tóc khô
+> Overdirection được dùng khi muốn tóc dài dần về một hướng, ví dụ dài dần về phía mặt.
+
+[c100]
+Trước khi cắt tóc, điều quan trọng là phải phân tích:
+- Cỡ giày của khách
+* Dáng mặt, mật độ, kết cấu và hướng mọc của tóc
+- Chỉ cách thanh toán
+- Chỉ màu khách thích
+> Tư vấn và phân tích kỹ giúp bạn chọn kiểu cắt hợp với khách và dễ vào nếp.
+
+[c101]
+Lớp bì (dermis) còn được gọi là:
+* Da thật (true skin)
+- Da ngoài
+- Lớp mỡ
+- Lớp da mỏng phía ngoài (scarf skin)
+> Lớp bì nằm dưới biểu bì, chứa mạch máu, dây thần kinh, các tuyến và nang lông.
+
+[c102]
+Sợi collagen và elastin chủ yếu nằm ở:
+- Lớp biểu bì
+* Lớp bì (dermis)
+- Lớp sừng (stratum corneum)
+- Chỉ lớp mỡ dưới da
+> Collagen làm da chắc, elastin làm da đàn hồi. Cả hai giảm dần theo tuổi và do tác hại của nắng.
+
+[c103]
+Loại da của một người chủ yếu được quyết định bởi:
+- Màu da
+* Lượng dầu (bã nhờn) da tiết ra
+- Lượng trang điểm sử dụng
+- Mùa trong năm
+> Các loại da gồm thường, khô, dầu và hỗn hợp, chủ yếu dựa trên hoạt động của tuyến bã nhờn.
+
+[c104]
+Nhân mụn mở (open comedone) thường gọi là:
+- Mụn đầu trắng
+* Mụn đầu đen
+- Mụn cóc
+- Nốt ruồi
+> Mụn đầu đen là nang lông chứa bã nhờn và chất bẩn, bị sẫm màu khi tiếp xúc không khí.
+
+[c105]
+Những nang nhỏ, cứng, màu trắng chứa keratin nằm ngay dưới bề mặt da gọi là:
+* Mụn thịt / hạt kê (milia)
+- Mụn mủ (pustules)
+- Mụn nước (vesicles)
+- Dát (macules)
+> Milia thường gặp quanh mắt và má. Ở một số tiểu bang, nặn lấy milia có thể vượt phạm vi hành nghề.
+
+[c106]
+Tình trạng mãn tính với đỏ da và mạch máu lộ rõ trên má và mũi là:
+- Chàm (eczema)
+- Vảy nến (psoriasis)
+* Rosacea (chứng đỏ mặt)
+- Nám (melasma)
+> Tránh nhiệt, tẩy da chết mạnh và các liệu pháp kích thích với rosacea; khuyên khách đi bác sĩ.
+
+[c107]
+Khách đang dùng thuốc như isotretinoin hoặc retinoid bôi ngoài da KHÔNG được:
+- Gội đầu
+* Wax (tẩy lông bằng sáp) ở vùng da bị ảnh hưởng
+- Cắt tóc
+- Làm móng tay
+> Các thuốc này làm da mỏng, sáp có thể lột cả da và gây tổn thương. Luôn hỏi khách về thuốc đang dùng.
+
+[c108]
+Khi dùng sáp mềm (soft wax) với miếng vải/giấy, miếng dán được giật:
+- Từ từ, theo chiều lông mọc
+* Thật nhanh, ngược chiều lông mọc
+- Bằng cách ngâm nước
+- Sau khi sáp cứng qua đêm
+> Bôi sáp theo chiều lông mọc và giật nhanh ngược chiều, giữ căng da.
+
+[c109]
+Khi nhổ lông mày bằng nhíp, phải nhổ:
+* Theo chiều lông mọc
+- Ngược chiều lông mọc
+- Chỉ ở vùng da trên mí mắt
+- Nhiều sợi cùng lúc bằng cách xoắn nhanh
+> Nhổ theo chiều mọc giúp đỡ đau và tránh làm đứt sợi lông.
+
+[c110]
+Se lông bằng chỉ (threading) là phương pháp tẩy lông dùng:
+- Dao cạo
+- Sáp và miếng dán
+* Sợi chỉ cotton được xoắn
+- Dòng điện
+> Threading xoắn sợi chỉ để kẹp và nhổ từng hàng lông ra khỏi nang lông.
+
+[c111]
+Chỉ số SPF trên kem chống nắng chủ yếu đo khả năng bảo vệ chống:
+- Chỉ tia UVA
+* Tia UVB (gây cháy nắng)
+- Tia hồng ngoại
+- Chỉ ánh sáng nhìn thấy
+> Kem chống nắng phổ rộng (broad-spectrum) bảo vệ cả UVA và UVB. SPF chỉ khả năng chống UVB.
+
+[c112]
+Loại tia UV nào thấm sâu hơn và chủ yếu gây lão hoá da sớm?
+* UVA
+- UVB
+- UVC
+- Hồng ngoại
+> Mẹo ghi nhớ: UVA = Aging (lão hoá), UVB = Burning (cháy nắng).
+
+[c113]
+Khi chọn màu kem nền (foundation), tốt nhất nên thử ở:
+- Mu bàn tay
+- Trán
+* Đường quai hàm
+- Mí mắt
+> Đường quai hàm cho thấy kem nền hoà giữa mặt và cổ như thế nào.
+
+[c114]
+Trong trang điểm chỉnh sửa, màu sáng hơn (highlight) được dùng để:
+- Làm một vùng trông nhỏ hơn
+* Làm nổi vùng đó lên và thu hút sự chú ý
+- Che hoàn toàn quầng thâm
+- Thay thế kem nền
+> Highlight làm nổi các đường nét; tạo khối (contour) bằng màu tối hơn làm chúng chìm xuống.
+
+[c115]
+Dòng điện galvanic là:
+* Dòng điện một chiều ổn định dùng để làm bong chất bẩn (desincrustation) và đẩy dưỡng chất vào da (iontophoresis)
+- Dòng xoay chiều tần số cao
+- Dòng điện làm nóng da
+- Một loại tia cực tím
+> Dòng galvanic tạo tác dụng hoá học: cực âm làm mềm chất bẩn (desincrustation) và giúp sản phẩm thấm vào da.
+
+[c116]
+Đơn vị đo cường độ dòng điện là:
+- Volt
+- Ohm
+* Ampere (amp)
+- Watt
+> Volt đo áp lực điện, ohm đo điện trở, amp đo cường độ, watt đo công suất tiêu thụ.
+
+[c117]
+Dòng điện chỉ chạy theo một chiều là:
+- Dòng xoay chiều (AC)
+* Dòng một chiều (DC)
+- Dòng tần số cao
+- Dòng Tesla
+> Pin tạo ra dòng một chiều. Ổ cắm điện trong nhà cung cấp dòng xoay chiều.
+
+[c118]
+Dòng điện cao tần (Tesla) dùng trong chăm sóc da mặt chủ yếu vì:
+- Có thể triệt lông vĩnh viễn
+* Tác dụng kích thích và sát khuẩn trên da
+- Làm sáng vết thâm nám
+- Tác dụng lên màu tóc
+> Dòng cao tần tạo cảm giác ấm, có tác dụng diệt khuẩn và thường dùng cho da dễ nổi mụn.
+
+[c119]
+Nên tránh xoa bóp mặt trên vùng:
+- Da khoẻ mạnh bình thường
+* Mụn đang viêm, da bị trầy hoặc vết thương hở
+- Trán
+- Da khô
+> Xoa bóp có thể làm lây lan nhiễm trùng và kích ứng da đang viêm. Giới thiệu khách đi khám khi cần.
+
+[c120]
+Loại ung thư da nguy hiểm nhất là:
+- Ung thư tế bào đáy (basal cell carcinoma)
+- Ung thư tế bào vảy (squamous cell carcinoma)
+* U hắc tố ác tính (malignant melanoma)
+- Milia
+> Melanoma có thể lan nhanh. Dùng dấu hiệu ABCDE (bất đối xứng, bờ, màu, đường kính, thay đổi) và giới thiệu khách đến bác sĩ.

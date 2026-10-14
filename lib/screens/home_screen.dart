@@ -1,0 +1,410 @@
+import 'package:flutter/material.dart';
+
+import '../app_state.dart';
+import '../models.dart';
+import '../monetization.dart';
+import 'paywall_screen.dart';
+import 'quiz_screen.dart';
+import 'settings_screen.dart';
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final app = AppState.of(context);
+    return ListenableBuilder(
+      listenable: Listenable.merge([app.progress, app.money]),
+      builder: (context, _) {
+        final s = app.s;
+        final p = app.progress;
+        final scheme = Theme.of(context).colorScheme;
+        return Scaffold(
+          appBar: AppBar(
+            title: Text(
+              app.config.titleFor(p.uiLang),
+              style: const TextStyle(fontWeight: FontWeight.w700),
+            ),
+            actions: [
+              IconButton(
+                icon: const Icon(Icons.settings_outlined),
+                onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const SettingsScreen()),
+                ),
+              ),
+            ],
+          ),
+          bottomNavigationBar: BannerSlot(money: app.money),
+          body: ListView(
+            padding: const EdgeInsets.fromLTRB(16, 4, 16, 24),
+            children: [
+              _ReadinessCard(app: app),
+              const SizedBox(height: 16),
+              GridView.count(
+                crossAxisCount: 2,
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                mainAxisSpacing: 12,
+                crossAxisSpacing: 12,
+                childAspectRatio: 1.55,
+                children: [
+                  _ActionTile(
+                    icon: Icons.timer_outlined,
+                    color: scheme.primary,
+                    title: s.t('mockExam'),
+                    subtitle: s.t('mockExamSub', {
+                      'q': app.examSize,
+                      'm': app.config.examMinutes,
+                      'p': app.config.passPercent,
+                    }),
+                    onTap: () => _start(
+                      context,
+                      app,
+                      app.pickExam(),
+                      exam: true,
+                      title: s.t('mockExam'),
+                    ),
+                  ),
+                  _ActionTile(
+                    icon: Icons.bolt_outlined,
+                    color: Colors.orange.shade700,
+                    title: s.t('quick10'),
+                    subtitle: s.t('quick10Sub'),
+                    onTap: () => _start(
+                      context,
+                      app,
+                      app.pickRandom(10),
+                      title: s.t('quick10'),
+                    ),
+                  ),
+                  _ActionTile(
+                    icon: Icons.replay_outlined,
+                    color: Colors.red.shade600,
+                    title: s.t('mistakes'),
+                    subtitle: s.t('mistakesSub', {'n': p.mistakes.length}),
+                    onTap: () => _start(
+                      context,
+                      app,
+                      app.visible(
+                        p.mistakes.map((id) => app.bank.byId[id]).nonNulls,
+                      ),
+                      title: s.t('mistakes'),
+                    ),
+                  ),
+                  _ActionTile(
+                    icon: Icons.bookmark_outline,
+                    color: Colors.teal.shade600,
+                    title: s.t('saved'),
+                    subtitle: s.t('savedSub', {'n': p.bookmarks.length}),
+                    onTap: () => _start(
+                      context,
+                      app,
+                      app.visible(
+                        p.bookmarks.map((id) => app.bank.byId[id]).nonNulls,
+                      ),
+                      title: s.t('saved'),
+                    ),
+                  ),
+                ],
+              ),
+              if (!app.premium) ...[
+                const SizedBox(height: 16),
+                _UnlockCard(app: app),
+              ],
+              const SizedBox(height: 24),
+              Text(
+                s.t('topics'),
+                style: Theme.of(
+                  context,
+                ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+              ),
+              const SizedBox(height: 8),
+              for (final c in app.bank.categories) ...[
+                _TopicTile(app: app, category: c),
+                const SizedBox(height: 8),
+              ],
+            ],
+          ),
+        );
+      },
+    );
+  }
+}
+
+void _start(
+  BuildContext context,
+  AppState app,
+  List<Question> qs, {
+  bool exam = false,
+  required String title,
+  int lockedLeft = 0,
+}) {
+  if (qs.isEmpty) {
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(app.s.t('nothingHere'))));
+    return;
+  }
+  Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (_) => QuizScreen(
+        title: title,
+        questions: qs,
+        exam: exam,
+        lockedLeft: lockedLeft,
+      ),
+    ),
+  );
+}
+
+class _ReadinessCard extends StatelessWidget {
+  const _ReadinessCard({required this.app});
+  final AppState app;
+
+  @override
+  Widget build(BuildContext context) {
+    final s = app.s;
+    final scheme = Theme.of(context).colorScheme;
+    final value = app.progress.readiness(app.bank);
+    final last = app.progress.exams.isEmpty ? null : app.progress.exams.first;
+    return Card(
+      color: scheme.primaryContainer,
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Row(
+          children: [
+            SizedBox(
+              width: 88,
+              height: 88,
+              child: Stack(
+                fit: StackFit.expand,
+                children: [
+                  CircularProgressIndicator(
+                    value: value,
+                    strokeWidth: 9,
+                    strokeCap: StrokeCap.round,
+                    backgroundColor: scheme.surface.withValues(alpha: 0.6),
+                  ),
+                  Center(
+                    child: Text(
+                      '${(value * 100).round()}%',
+                      style: TextStyle(
+                        fontSize: 22,
+                        fontWeight: FontWeight.w700,
+                        color: scheme.onPrimaryContainer,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(width: 20),
+            Expanded(
+              child: DefaultTextStyle.merge(
+                style: TextStyle(color: scheme.onPrimaryContainer),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      s.t('readiness'),
+                      style: const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      s.t('readinessHint', {
+                        'n': app.progress.masteredIn(app.bank.questions),
+                        'total': app.bank.questions.length,
+                      }),
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      last != null
+                          ? s.t('lastExam', {'p': last.percent})
+                          : s.t('studyDays', {'n': app.progress.studyDays}),
+                      style: const TextStyle(fontSize: 13),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ActionTile extends StatelessWidget {
+  const _ActionTile({
+    required this.icon,
+    required this.color,
+    required this.title,
+    required this.subtitle,
+    required this.onTap,
+  });
+
+  final IconData icon;
+  final Color color;
+  final String title;
+  final String subtitle;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return Card(
+      color: scheme.surfaceContainerHighest.withValues(alpha: 0.6),
+      child: InkWell(
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.all(14),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Icon(icon, color: color, size: 26),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                  Text(
+                    subtitle,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: scheme.onSurfaceVariant,
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _UnlockCard extends StatelessWidget {
+  const _UnlockCard({required this.app});
+  final AppState app;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return Card(
+      color: scheme.tertiaryContainer,
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+        leading: Icon(
+          Icons.workspace_premium,
+          color: scheme.tertiary,
+          size: 32,
+        ),
+        title: Text(
+          app.s.t('unlockAll'),
+          style: const TextStyle(fontWeight: FontWeight.w700),
+        ),
+        subtitle: Text(app.s.t('unlockAllSub')),
+        trailing: const Icon(Icons.chevron_right),
+        onTap: () => Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const PaywallScreen()),
+        ),
+      ),
+    );
+  }
+}
+
+class _TopicTile extends StatelessWidget {
+  const _TopicTile({required this.app, required this.category});
+  final AppState app;
+  final Category category;
+
+  @override
+  Widget build(BuildContext context) {
+    final s = app.s;
+    final all = app.bank.inCategory(category.id);
+    final open = app.visible(all);
+    final done = app.progress.masteredIn(all);
+    final scheme = Theme.of(context).colorScheme;
+    final locked = open.length < all.length;
+    final name = category.name(app.progress.uiLang);
+    return Card(
+      color: scheme.surfaceContainerLow,
+      child: InkWell(
+        onTap: () => _start(
+          context,
+          app,
+          open,
+          title: name,
+          lockedLeft: all.length - open.length,
+        ),
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(16, 14, 12, 14),
+          child: Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      name,
+                      style: const TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(4),
+                      child: LinearProgressIndicator(
+                        value: all.isEmpty ? 0 : done / all.length,
+                        minHeight: 6,
+                      ),
+                    ),
+                    const SizedBox(height: 6),
+                    Text(
+                      locked
+                          ? s.t('topicFree', {
+                              'free': open.length,
+                              'total': all.length,
+                            })
+                          : s.t('topicProgress', {
+                              'done': done,
+                              'total': all.length,
+                            }),
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: scheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 8),
+              Icon(
+                locked ? Icons.lock_outline : Icons.chevron_right,
+                color: scheme.onSurfaceVariant,
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

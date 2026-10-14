@@ -1,0 +1,213 @@
+#!/usr/bin/env python3
+"""App factory: turns apps/*.json into everything the Android build and the
+Play listing need.
+
+    python3 tool/factory.py            # regenerate everything
+    python3 tool/factory.py --release  # also fail on placeholders / test ad ids
+
+Generates (all derived files, never edit by hand):
+  assets/apps.json                              runtime config for every app
+  android/app/build.gradle.kts                  the productFlavors block
+  android/app/src/<id>/res/...                  app name + launcher icons
+  store/<id>/metadata/android/<locale>/images/  Play icon + feature graphic
+  docs/privacy/<id>.html                        privacy policy page
+"""
+from __future__ import annotations
+
+import html
+import json
+import re
+import sys
+from pathlib import Path
+from xml.sax.saxutils import escape
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graphics  # noqa: E402
+
+ROOT = Path(__file__).resolve().parent.parent
+GRADLE = ROOT / "android/app/build.gradle.kts"
+TEST_AD_PREFIX = "ca-app-pub-3940256099942544"
+DENSITIES = {"mdpi": 1.0, "hdpi": 1.5, "xhdpi": 2.0, "xxhdpi": 3.0, "xxxhdpi": 4.0}
+LIMITS = {"title.txt": 30, "short_description.txt": 80, "full_description.txt": 4000}
+RUNTIME_KEYS = [
+    "id", "bank", "locales", "title", "color", "exam", "freeRatio",
+    "premiumProductId", "admob", "privacyPolicyUrl", "supportEmail",
+]
+
+
+def load_apps() -> list[dict]:
+    apps = []
+    for p in sorted((ROOT / "apps").glob("*.json")):
+        app = json.loads(p.read_text())
+        if app["id"] != p.stem:
+            sys.exit(f"{p}: id '{app['id']}' must match the file name")
+        if not re.fullmatch(r"[a-z][a-z0-9]*", app["id"]):
+            sys.exit(f"{p}: id must be lowercase letters/digits (it is a Gradle flavor name)")
+        if not (ROOT / f"assets/banks/{app['bank']}.json").exists():
+            sys.exit(f"{p}: bank '{app['bank']}' not built — run tool/build_banks.py")
+        apps.append(app)
+    return apps
+
+
+def release_problems(app: dict) -> list[str]:
+    problems = []
+    for k in ("appId", "banner", "interstitial"):
+        if app["admob"][k].startswith(TEST_AD_PREFIX):
+            problems.append(f"admob.{k} is still Google's TEST id")
+    for k in ("supportEmail", "developerName"):
+        if "CHANGE_ME" in app[k]:
+            problems.append(f"{k} is a placeholder")
+    return problems
+
+
+def write_runtime(apps: list[dict]) -> None:
+    out = {a["id"]: {k: a[k] for k in RUNTIME_KEYS} for a in apps}
+    (ROOT / "assets/apps.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
+
+
+def kts_str(s: str) -> str:
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"').replace("$", "\\$") + '"'
+
+
+def write_gradle(apps: list[dict]) -> None:
+    lines = []
+    for a in apps:
+        lines += [
+            f'        create({kts_str(a["id"])}) {{',
+            '            dimension = "app"',
+            f'            applicationId = {kts_str(a["applicationId"])}',
+            f'            manifestPlaceholders["admobAppId"] = {kts_str(a["admob"]["appId"])}',
+            "        }",
+        ]
+    src = GRADLE.read_text()
+    begin = src.index("// BEGIN FLAVORS")
+    begin = src.index("\n", begin) + 1
+    end = src.index("        // END FLAVORS")
+    GRADLE.write_text(src[:begin] + "\n".join(lines) + "\n" + src[end:])
+
+
+def android_string(s: str) -> str:
+    return escape(s).replace("'", "\\'").replace('"', '\\"')
+
+
+def write_android_res(app: dict) -> None:
+    res = ROOT / f"android/app/src/{app['id']}/res"
+    (res / "values").mkdir(parents=True, exist_ok=True)
+    (res / "values/strings.xml").write_text(
+        '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n'
+        f'    <string name="app_name">{android_string(app["launcherName"])}</string>\n'
+        "</resources>\n"
+    )
+    (res / "values/ic_launcher_colors.xml").write_text(
+        '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n'
+        f'    <color name="ic_launcher_background">{app["color"]}</color>\n'
+        "</resources>\n"
+    )
+    (res / "mipmap-anydpi-v26").mkdir(exist_ok=True)
+    (res / "mipmap-anydpi-v26/ic_launcher.xml").write_text(
+        '<?xml version="1.0" encoding="utf-8"?>\n'
+        '<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">\n'
+        '    <background android:drawable="@color/ic_launcher_background"/>\n'
+        '    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>\n'
+        "</adaptive-icon>\n"
+    )
+    for name, scale in DENSITIES.items():
+        d = res / f"mipmap-{name}"
+        d.mkdir(exist_ok=True)
+        graphics.legacy_icon(app, int(48 * scale)).save(d / "ic_launcher.png", optimize=True)
+        graphics.adaptive_foreground(app, int(108 * scale)).save(d / "ic_launcher_foreground.png", optimize=True)
+
+
+def store_locales(app: dict) -> list[Path]:
+    base = ROOT / f"store/{app['id']}/metadata/android"
+    return sorted(p for p in base.glob("*") if p.is_dir())
+
+
+def write_store(app: dict) -> list[str]:
+    problems = []
+    locales = store_locales(app)
+    if not locales:
+        problems.append("no store listing in store/<id>/metadata/android/<locale>/")
+    for loc in locales:
+        for fname, limit in LIMITS.items():
+            f = loc / fname
+            if not f.exists():
+                problems.append(f"{loc.name}/{fname} missing")
+                continue
+            n = len(f.read_text().strip())
+            if n > limit:
+                problems.append(f"{loc.name}/{fname} is {n} chars (max {limit})")
+        lang = loc.name.split("-")[0]
+        title_file = loc / "title.txt"
+        title = app["title"].get(lang) or app["title"].get("en") or next(iter(app["title"].values()))
+        if title_file.exists():
+            title = title_file.read_text().strip()
+        tagline = app.get("tagline", {}).get(lang) or app.get("tagline", {}).get("en", "")
+        img = loc / "images"
+        img.mkdir(exist_ok=True)
+        graphics.play_icon(app).save(img / "icon.png", optimize=True)
+        graphics.feature_graphic(app, title, tagline).save(img / "featureGraphic.png", optimize=True)
+    return problems
+
+
+PRIVACY = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – {title}</title>
+<style>body{{font-family:system-ui,-apple-system,Roboto,sans-serif;max-width:720px;margin:32px auto;padding:0 16px;line-height:1.6;color:#222}}h1{{font-size:1.6em}}h2{{font-size:1.15em;margin-top:1.6em}}</style>
+</head><body>
+<h1>Privacy Policy</h1>
+<p><strong>{title}</strong> (Android package <code>{package}</code>) is published by {developer}. Last updated: {date}.</p>
+<h2>What the app stores</h2>
+<p>Your answers, saved questions, exam history and settings are stored only on your device. The app has no user accounts and we do not run servers that receive this data. Uninstalling the app or using “Reset progress” deletes it.</p>
+<h2>Advertising</h2>
+<p>The free version shows ads served by Google AdMob. To show and measure ads, the Google Mobile Ads SDK may collect device information such as the advertising ID, IP address, app interactions and diagnostic data. In regions where consent is required (for example the EEA, UK and Switzerland) the app asks for your consent using Google’s consent form, and you can change your choice anytime under Settings → Privacy &amp; ad choices. Learn more: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps that use its services</a>.</p>
+<h2>Purchases</h2>
+<p>The optional one-time purchase is processed by Google Play. We do not receive your payment details; Google Play tells the app only whether the purchase is active.</p>
+<h2>Children</h2>
+<p>The app is a study tool for adults preparing for a professional license exam and is not directed to children under 13.</p>
+<h2>Contact</h2>
+<p>Questions or deletion requests: <a href="mailto:{email}">{email}</a></p>
+<h2>Changes</h2>
+<p>We will post any changes to this policy on this page.</p>
+</body></html>
+"""
+
+
+def write_privacy(app: dict) -> None:
+    from datetime import date
+
+    out = ROOT / "docs/privacy"
+    out.mkdir(parents=True, exist_ok=True)
+    (out / f"{app['id']}.html").write_text(
+        PRIVACY.format(
+            title=html.escape(app["title"].get("en") or next(iter(app["title"].values()))),
+            package=html.escape(app["applicationId"]),
+            developer=html.escape(app["developerName"]),
+            email=html.escape(app["supportEmail"]),
+            date=date.today().isoformat(),
+        )
+    )
+
+
+def main() -> None:
+    release = "--release" in sys.argv
+    apps = load_apps()
+    write_runtime(apps)
+    write_gradle(apps)
+    failed = False
+    for app in apps:
+        write_android_res(app)
+        write_privacy(app)
+        problems = write_store(app)
+        if release:
+            problems += release_problems(app)
+        status = "ok" if not problems else "; ".join(problems)
+        print(f"{app['id']:<14} {app['applicationId']:<40} {status}")
+        failed |= bool(problems)
+    if failed and release:
+        sys.exit("\nNot ready for release. Fix the items above (see docs/02-LAUNCH-CHECKLIST.md).")
+
+
+if __name__ == "__main__":
+    main()

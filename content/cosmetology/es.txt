@@ -1,0 +1,961 @@
+# Banco de cosmetología — español. Mismos id y mismo orden de opciones que en.txt.
+
+[c001]
+¿Cuál es el orden correcto de los niveles de descontaminación, de menor a mayor?
+* Limpieza, desinfección, esterilización
+- Esterilización, limpieza, desinfección
+- Desinfección, limpieza, esterilización
+- Limpieza, esterilización, desinfección
+> La limpieza quita la suciedad visible, la desinfección elimina la mayoría de los microorganismos en superficies duras y la esterilización destruye toda la vida microbiana, incluso las esporas.
+
+[c002]
+Los compuestos de amonio cuaternario ("quats") son un tipo de:
+- Antiséptico para la piel
+* Desinfectante para superficies duras y no porosas
+- Acondicionador
+- Solo un surfactante de champú
+> Los quats son desinfectantes comunes en el salón. Úsalos solo en herramientas y superficies, con la dilución y el tiempo de contacto de la etiqueta.
+
+[c003]
+Los peines y cepillos se preparan para el siguiente cliente:
+- Rociándolos con laca
+* Quitando todo el cabello, lavándolos con agua y jabón y luego desinfectándolos
+- Secándolos con una toalla seca
+- Enjuagándolos solo con agua caliente
+> Hay que quitar el cabello y la suciedad antes de desinfectar para que el desinfectante llegue a toda la superficie.
+
+[c004]
+Los desinfectantes nunca deben usarse sobre:
+- Mostradores
+- Tijeras
+- Peines
+* La piel, el cabello o las uñas de las personas
+> Los desinfectantes son para superficies no vivas. Los antisépticos son los productos hechos para reducir gérmenes en la piel.
+
+[c005]
+Un antiséptico es un producto diseñado para usarse sobre:
+* La piel, para reducir microbios
+- Pisos y mostradores
+- Solo herramientas de metal
+- Herramientas eléctricas
+> Los antisépticos son más suaves que los desinfectantes y se pueden aplicar en la piel. No sustituyen la desinfección de herramientas.
+
+[c006]
+¿Qué condición del cuero cabelludo es contagiosa, por lo que no se debe hacer el servicio?
+- Caspa (pitiriasis)
+- Canas (canicie)
+* Tiña del cuero cabelludo (tinea capitis)
+- Puntas abiertas (tricoptilosis)
+> La tinea capitis es una infección por hongos contagiosa. No hagas el servicio y sugiere ver a un médico.
+
+[c007]
+La infestación de piojos en la cabeza se llama:
+- Sarna
+* Pediculosis capitis
+- Tinea capitis
+- Alopecia areata
+> Los piojos son parásitos contagiosos. No hagas el servicio; refiere al cliente a un médico o farmacéutico.
+
+[c008]
+La sarna es una enfermedad contagiosa de la piel causada por:
+- Bacterias
+- Un virus
+* Ácaros que excavan bajo la piel
+- Un hongo
+> La sarna la causan ácaros. El cliente debe ir al médico y no debe recibir servicios.
+
+[c009]
+La inmunidad que se obtiene después de recuperarse de una enfermedad o con una vacuna se llama:
+- Inmunidad natural
+* Inmunidad adquirida
+- Inmunidad local
+- Infección temporal
+> La inmunidad adquirida se desarrolla después de la exposición o la vacunación. La inmunidad natural es en parte heredada.
+
+[c010]
+Las herramientas que tocan sangre o fluidos corporales deben:
+- Enjuagarse bajo el chorro de agua
+* Limpiarse y luego desinfectarse con un desinfectante registrado por la EPA según exija tu estado
+- Secarse con una toalla y reutilizarse
+- Guardarse en un cajón
+> Primero limpia y luego sumerge por completo en un desinfectante de la EPA aprobado para exposición a sangre. Sigue exactamente las reglas de tu estado.
+
+[c011]
+Las toallas y capas usadas deben:
+- Doblarse y usarse con el siguiente cliente
+* Guardarse en un recipiente cerrado hasta lavarlas
+- Colgarse en la silla de la estación
+- Sacudirse y reutilizarse
+> Usa ropa limpia con cada cliente. Guarda la ropa sucia en un recipiente con tapa y lávala correctamente.
+
+[c012]
+El propósito principal de OSHA es:
+- Registrar desinfectantes
+- Otorgar licencias de cosmetología
+* Proteger a los empleados de los peligros en el lugar de trabajo
+- Aprobar productos cosméticos
+> OSHA establece y hace cumplir normas de seguridad laboral, incluida la Norma de Comunicación de Peligros (SDS y etiquetas).
+
+[c013]
+A diferencia de muchas infecciones bacterianas, las infecciones virales:
+- Siempre se curan con antibióticos
+* No se tratan con antibióticos
+- No se contagian a otras personas
+- Solo afectan el cabello
+> Los antibióticos funcionan contra bacterias, no contra virus. Contra los virus se usan vacunas y antivirales.
+
+[c014]
+Mezclar un desinfectante más concentrado de lo que indica la etiqueta:
+- Lo hace funcionar el doble de rápido
+- Es obligatorio cuando hay sangre
+* No lo mejora y puede dañar las herramientas e irritar la piel
+- Lo hace seguro para la piel
+> Mide siempre con exactitud. Más concentrado no significa mejor desinfección.
+
+[c015]
+Los guantes desechables deben:
+* Cambiarse entre clientes y desecharse después de usarse
+- Lavarse y reutilizarse
+- Usarse todo el día con todos los clientes
+- Usarse solo para cortes de cabello
+> Los guantes son de un solo uso. Cámbialos entre clientes y lávate las manos al quitártelos.
+
+[c016]
+Al mezclar desinfectante concentrado, debes:
+- Mezclar con las manos sin protección
+* Usar guantes y gafas de seguridad
+- Mezclarlo en un recipiente de comida
+- Ponerlo en herramientas de calor
+> Los concentrados pueden quemar la piel y los ojos. Protégete y sigue la etiqueta.
+
+[c017]
+La marca UL (Underwriters Laboratories) en un aparato eléctrico significa que:
+- Es a prueba de agua
+* Fue probado y certificado como seguro
+- Se puede usar sin enchufe
+- Nunca necesita inspección
+> Usa solo aparatos certificados por UL y revisa los cables antes de cada uso.
+
+[c018]
+Si un químico salpica los ojos de un cliente, primero debes:
+- Frotarle los ojos con una toalla
+- Ponerle gotas y continuar el servicio
+* Enjuagarle los ojos con abundante agua limpia y buscar ayuda médica si es necesario
+- Aplicar neutralizador
+> Enjuaga de inmediato con agua durante varios minutos. Revisa los primeros auxilios en la SDS del producto y busca ayuda médica.
+
+[c019]
+¿Qué artículo debe desecharse después de un solo uso?
+* Una tira para el cuello
+- Un peine de metal
+- Unas tijeras
+- Pinzas plásticas para seccionar
+> Las tiras para el cuello y otros artículos porosos son de un solo uso. Las herramientas duras y no porosas se limpian y desinfectan.
+
+[c020]
+Las Hojas de Datos de Seguridad (SDS) deben:
+- Guardarse solo en la fábrica
+* Estar disponibles para los empleados para cada producto peligroso del salón
+- Leerlas solo el dueño del salón
+- Tirarse después de un año
+> OSHA exige que las SDS estén disponibles. Explican peligros, primeros auxilios, almacenamiento y equipo de protección.
+
+[c021]
+El cabello está formado principalmente por una proteína llamada:
+- Colágeno
+- Melanina
+* Queratina
+- Elastina
+> El cabello es aproximadamente 90% queratina. La queratina también está en la piel y las uñas.
+
+[c022]
+Las tres capas del tallo del cabello, de afuera hacia adentro, son:
+* Cutícula, corteza, médula
+- Médula, corteza, cutícula
+- Corteza, cutícula, médula
+- Folículo, bulbo, papila
+> La cutícula protege, la corteza da fuerza y color, y la médula (la capa más interna) puede faltar en el cabello fino.
+
+[c023]
+¿Qué capa del cabello le da fuerza, elasticidad y color natural?
+- Cutícula
+* Corteza
+- Médula
+- Folículo
+> La corteza contiene melanina y la mayoría de los enlaces que cambian los servicios químicos.
+
+[c024]
+La capa protectora más externa del cabello es la:
+* Cutícula
+- Corteza
+- Médula
+- Papila dérmica
+> La cutícula está formada por escamas superpuestas. Una cutícula lisa y cerrada refleja la luz y se ve brillante.
+
+[c025]
+La fase de crecimiento activo del ciclo del cabello es:
+- Catágena
+- Telógena
+* Anágena
+- Exógena
+> La anágena es la fase de crecimiento, la catágena es la breve fase de transición y la telógena es la fase de reposo.
+
+[c026]
+En promedio, el cabello del cuero cabelludo crece aproximadamente:
+- 1/10 de pulgada al mes
+* 1/2 pulgada (unos 1.25 cm) al mes
+- 2 pulgadas al mes
+- 1/2 pulgada al año
+> El crecimiento promedio es de 1/2 pulgada al mes y varía con la edad, la salud y la genética.
+
+[c027]
+La porosidad del cabello es la capacidad del cabello para:
+- Estirarse y volver a su largo
+* Absorber humedad
+- Crecer más rápido
+- Mantener el rizo con humedad
+> El cabello poroso absorbe líquidos rápido. La porosidad influye en cómo toma el color, la permanente y el alisado.
+
+[c028]
+La elasticidad del cabello es su capacidad para:
+* Estirarse y volver a su largo original sin romperse
+- Absorber humedad
+- Resistir el color
+- Crecer en un patrón
+> El cabello sano mojado puede estirarse hasta aproximadamente un 50% y regresar. Poca elasticidad significa cabello débil.
+
+[c029]
+La textura del cabello se refiere a:
+- La cantidad de cabellos por pulgada cuadrada
+* El grosor o diámetro de un solo cabello
+- El color del cabello
+- La dirección de crecimiento
+> La textura se clasifica como gruesa, media o fina. El cabello grueso suele tardar más en procesar.
+
+[c030]
+La densidad del cabello se refiere a:
+- El diámetro de cada cabello
+* La cantidad de cabellos por pulgada cuadrada del cuero cabelludo
+- La rapidez con que crece
+- Cuánta humedad absorbe
+> La densidad se describe como baja, media o alta, y afecta cómo seccionas y cortas.
+
+[c031]
+¿Qué enlaces laterales se rompen con el agua o el calor y se vuelven a formar cuando el cabello se seca o se enfría?
+* Enlaces de hidrógeno
+- Enlaces disulfuro
+- Enlaces peptídicos
+- Solo enlaces iónicos
+> Los peinados en mojado y con calor cambian temporalmente los enlaces de hidrógeno, que se vuelven a formar al secarse o enfriarse.
+
+[c032]
+Los enlaces disulfuro del cabello se rompen con:
+- El champú
+- El cepillado
+* Servicios químicos como permanentes y alisadores
+- Agua fría
+> Los enlaces disulfuro son enlaces químicos fuertes. Las permanentes y los alisadores los cambian para modificar la forma del cabello de forma permanente.
+
+[c033]
+El término médico para la caspa es:
+- Canicie
+* Pitiriasis
+- Tricoptilosis
+- Monilétrix
+> La pitiriasis (caspa) es el desprendimiento excesivo de células del cuero cabelludo. En el salón no se considera contagiosa.
+
+[c034]
+La pérdida repentina de cabello en zonas redondas o irregulares se llama:
+* Alopecia areata
+- Alopecia androgenética
+- Canicie
+- Hipertricosis
+> La alopecia areata es una condición autoinmune. Refiere al cliente a un médico y muestra apoyo.
+
+[c035]
+La pérdida de cabello hereditaria, conocida como calvicie de patrón masculino o femenino, es:
+- Alopecia areata
+- Alopecia por tracción
+* Alopecia androgenética
+- Tinea capitis
+> La alopecia androgenética es el tipo de caída más común y está influida por la genética y las hormonas.
+
+[c036]
+Las canas causadas por la pérdida del pigmento natural se llaman:
+- Hirsutismo
+* Canicie
+- Pitiriasis
+- Fragilitas crinium
+> Canicie es el término técnico de las canas. El cabello canoso crece normal pero sin melanina.
+
+[c037]
+El término técnico de las puntas abiertas es:
+- Monilétrix
+- Tricorrexis nudosa
+* Tricoptilosis
+- Pediculosis
+> La tricoptilosis son las puntas abiertas. Cortar y acondicionar ayuda; no se pueden reparar de forma permanente.
+
+[c038]
+El área pequeña en forma de cono en la base del folículo que nutre el bulbo del cabello es la:
+- Arrector pili
+* Papila dérmica
+- Glándula sebácea
+- Cutícula
+> La papila dérmica contiene vasos sanguíneos y nervios que nutren el bulbo.
+
+[c039]
+El pequeño músculo unido al folículo que causa la "piel de gallina" es el:
+* Arrector pili (erector del pelo)
+- Occipital
+- Platisma
+- Frontal
+> El arrector pili se contrae con el frío o el miedo y hace que el vello se levante.
+
+[c040]
+Los dos tipos de melanina en el cabello son:
+- Queratina y colágeno
+* Eumelanina (marrón/negro) y feomelanina (rojo/amarillo)
+- Sebo y sudor
+- Corteza y médula
+> La mezcla de eumelanina y feomelanina crea el color natural de cada persona.
+
+[c041]
+Los colores primarios son:
+- Naranja, verde, violeta
+* Rojo, amarillo, azul
+- Rojo, verde, azul
+- Negro, blanco, gris
+> Los colores primarios no se pueden crear mezclando otros. Todos los demás colores salen de ellos.
+
+[c042]
+Mezclar partes iguales de amarillo y azul da:
+- Naranja
+- Violeta
+* Verde
+- Marrón
+> El verde es un color secundario hecho de amarillo y azul.
+
+[c043]
+¿Qué color neutraliza los tonos rojos no deseados?
+- Naranja
+* Verde
+- Rojo violeta
+- Amarillo
+> Los colores complementarios se neutralizan entre sí. El verde está frente al rojo en el círculo cromático.
+
+[c044]
+Para neutralizar los tonos naranjas (cobrizos) no deseados, usa un matizador o color con base:
+* Azul
+- Roja
+- Amarilla
+- Naranja
+> El azul es el complemento del naranja. El violeta neutraliza el amarillo; el verde neutraliza el rojo.
+
+[c045]
+En coloración, el sistema de niveles mide:
+- Qué tan cálido o frío es un color
+* Qué tan claro u oscuro es un color
+- Qué tan poroso es el cabello
+- Cuánto dura el color
+> La mayoría de los sistemas van del 1 (negro, el más oscuro) al 10 (rubio más claro).
+
+[c046]
+El "tono" de un color de cabello describe su:
+- Claridad u oscuridad
+* Calidez o frialdad
+- Permanencia
+- Fuerza del revelador
+> Los tonos son cálidos (dorado, rojo, naranja), fríos (ceniza, azul, violeta, verde) o neutros.
+
+[c047]
+El color temporal:
+* Cubre el exterior del cabello y se quita con un champú
+- Penetra la corteza y dura hasta que crece
+- Requiere revelador de 30 volúmenes
+- Aclara el color natural dos niveles
+> Los colores temporales tienen moléculas grandes que se quedan en la superficie de la cutícula. Normalmente no requieren prueba de parche.
+
+[c048]
+El color semipermanente tradicional:
+- Aclara el cabello varios niveles
+* Deposita color sin revelador y se desvanece con varios lavados
+- Siempre se mezcla con revelador de 40 volúmenes
+- No cubre nada de canas
+> El semipermanente solo deposita y se desvanece poco a poco. Muchos aún requieren prueba de parche.
+
+[c049]
+El color demipermanente se mezcla con:
+- Nada de revelador
+* Un revelador de bajo volumen; deposita color sin aclarar
+- Revelador de 40 volúmenes para aclarar al máximo
+- Polvo decolorante
+> El demipermanente usa revelador de bajo volumen, deposita color y difumina algo las canas sin aclarar.
+
+[c050]
+El color permanente (de oxidación):
+- Solo cubre la cutícula
+- Se quita con un champú
+* Puede aclarar y depositar color en el mismo proceso
+- Nunca necesita prueba de parche
+> El color permanente se mezcla con revelador, penetra la corteza y puede aclarar y depositar al mismo tiempo.
+
+[c051]
+El revelador de 20 volúmenes contiene aproximadamente qué porcentaje de peróxido de hidrógeno?
+- 3%
+* 6%
+- 9%
+- 12%
+> 10 volúmenes = 3%, 20 volúmenes = 6%, 30 volúmenes = 9%, 40 volúmenes = 12%.
+
+[c052]
+La prueba de parche (prueba de predisposición) para tintes derivados de anilina debe hacerse:
+- Justo después del servicio de color
+* De 24 a 48 horas antes del servicio de color
+- Solo una vez en la vida del cliente
+- Solo en clientes con canas
+> La prueba de parche detecta alergias. Si hay enrojecimiento, hinchazón, ardor o picazón, no apliques el color.
+
+[c053]
+La prueba de mechón se usa para:
+- Detectar alergias
+* Determinar el tiempo de proceso y el resultado del color antes de la aplicación completa
+- Limpiar el cuero cabelludo
+- Medir la densidad
+> La prueba de mechón muestra el resultado en una sección pequeña para ajustar la fórmula o el tiempo.
+
+[c054]
+El decolorante (aclarador) aclara el cabello:
+* Difundiendo y disolviendo la melanina mediante oxidación
+- Cubriendo la cutícula con pigmento blanco
+- Rompiendo solo los enlaces de hidrógeno
+- Eliminando la médula
+> Los decolorantes oxidan la melanina natural. Cuanto más largo y fuerte el proceso, más pigmento se elimina.
+
+[c055]
+Al aclarar el cabello oscuro, ¿por qué secuencia de etapas pasa?
+- Amarillo, naranja, rojo, marrón
+* Rojo, rojo naranja, naranja, dorado, amarillo, amarillo pálido
+- Amarillo pálido, dorado, rojo, negro
+- Violeta, azul, verde, amarillo
+> El cabello natural se aclara pasando por tonos cálidos del rojo al amarillo pálido. Luego los matizadores ajustan el tono final.
+
+[c056]
+En una aplicación virgen de color permanente para aclarar, normalmente aplicas el color:
+- Primero en la zona del cuero cabelludo
+* Primero en medios y puntas, y luego en la zona del cuero cabelludo
+- Solo en las puntas
+- Todo a la vez en cabello seco, sin secciones
+> El calor del cuerpo hace que la zona de la raíz procese más rápido, por eso se aplica al final para un resultado parejo.
+
+[c057]
+El retoque de color se aplica:
+* Solo al crecimiento nuevo
+- Solo a las puntas
+- A todo el cabello cada vez
+- A las cejas
+> Superponer color en cabello ya teñido puede causar rotura y bandas de color. Aplica solo al crecimiento nuevo.
+
+[c058]
+Los rellenos de color (fillers) se usan para:
+- Quitar el color artificial
+* Igualar la porosidad y depositar una base de color en cabello dañado
+- Aclarar el cabello más rápido
+- Sustituir la prueba de parche
+> Los rellenos ayudan a que el cabello dañado o poroso tome el color de forma pareja y evitan resultados demasiado oscuros o cenizos.
+
+[c059]
+El cabello teñido antes con tintes metálicos debe:
+- Decolorarse de inmediato
+* Probarse para ver su compatibilidad antes de cualquier servicio químico
+- Recibir permanente sin prueba
+- Alisarse con un alisador de hidróxido
+> Los tintes metálicos pueden reaccionar con el peróxido y otros químicos, causando calor, rotura o decoloración.
+
+[c060]
+Para quitar el color artificial (de oxidación) del cabello, usarías:
+- Una prueba de parche
+* Un solvente de tinte (removedor de color)
+- Un color demipermanente
+- Un champú neutralizante
+> Los solventes de tinte reducen las moléculas de color artificial para que se puedan enjuagar.
+
+[c061]
+El ingrediente activo principal de una permanente alcalina (en frío) es:
+* Tioglicolato de amonio
+- Monotioglicolato de glicerilo
+- Hidróxido de sodio
+- Peróxido de hidrógeno
+> Las permanentes alcalinas tienen un pH más alto, procesan rápido a temperatura ambiente y dan rizos firmes.
+
+[c062]
+El ingrediente activo principal de una verdadera permanente ácida es:
+- Tioglicolato de amonio
+* Monotioglicolato de glicerilo (GMTG)
+- Hidróxido de guanidina
+- Bicarbonato de sodio
+> Las permanentes ácidas tienen pH más bajo y dan rizos más suaves. El GMTG es un sensibilizante común; protege la piel.
+
+[c063]
+La solución de permanente ablanda el cabello rompiendo:
+- Solo enlaces de hidrógeno
+* Enlaces disulfuro
+- Enlaces peptídicos
+- Solo enlaces salinos
+> La solución rompe los enlaces disulfuro para que el cabello tome la forma del rulo (bigudí).
+
+[c064]
+El neutralizador de la permanente contiene peróxido de hidrógeno para:
+- Romper más enlaces disulfuro
+* Reconstruir los enlaces disulfuro en su nueva forma rizada
+- Aclarar el cabello
+- Ablandar la cutícula
+> La neutralización (oxidación) vuelve a formar los enlaces disulfuro rotos y detiene el proceso.
+
+[c065]
+En la permanente, el tamaño del rizo depende principalmente de:
+* El tamaño del rulo (bigudí)
+- La marca de la solución
+- El largo del papel para puntas
+- La temperatura del agua
+> Los rulos pequeños dan rizos más pequeños y apretados; los grandes, rizos más grandes y sueltos.
+
+[c066]
+Los papeles para puntas se usan al enrollar una permanente para:
+- Acelerar el proceso
+* Controlar las puntas y evitar que se doblen ("anzuelos")
+- Proteger el cuero cabelludo del neutralizador
+- Medir el tamaño del rizo
+> Los papeles mantienen las puntas lisas alrededor del rulo para que no se doblen.
+
+[c067]
+Durante la permanente se toma un rizo de prueba para:
+* Ver cómo procesa el cabello y cuándo está completamente procesado
+- Detectar alergias
+- Quitar los papeles
+- Medir la densidad
+> Los rizos de prueba ayudan a evitar el subprocesamiento y el sobreprocesamiento.
+
+[c068]
+Una permanente sobreprocesada normalmente se ve:
+- Apretada y elástica en seco
+* Encrespada en mojado y débil o lacia en seco
+- Igual al tamaño del rulo
+- Demasiado brillante
+> El sobreprocesamiento rompe demasiados enlaces. El cabello pierde fuerza y no sostiene el rizo.
+
+[c069]
+Los alisadores de hidróxido de sodio se conocen comúnmente como:
+- Alisadores sin lejía (no-lye)
+* Alisadores con lejía (lye)
+- Alisadores de tio
+- Alisadores ácidos
+> Los alisadores de hidróxido de sodio tienen un pH muy alto y actúan rápido. Los "no-lye" usan otros hidróxidos como el de guanidina.
+
+[c070]
+Los alisadores de hidróxido alisan el cabello de forma permanente mediante un proceso llamado:
+- Oxidación
+- Neutralización
+* Lantionización
+- Hidrólisis de enlaces de hidrógeno
+> Los alisadores de hidróxido convierten los enlaces disulfuro en enlaces de lantionina, que no pueden volver a formar rizos.
+
+[c071]
+Antes de un alisador con base se aplica una crema protectora para:
+* Proteger el cuero cabelludo de la irritación y las quemaduras
+- Hacer que el alisador procese más rápido
+- Dar color al cabello
+- Sustituir el champú neutralizante
+> La crema base (a base de petrolato) protege el cuero cabelludo y la línea del nacimiento del alisador de pH alto.
+
+[c072]
+Después de enjuagar bien un alisador de hidróxido, debes:
+- Aplicar un neutralizador de tio
+* Usar un champú neutralizante (normalizador) para devolver el pH ácido al cabello
+- Aplicar solución de permanente
+- Dejar el cabello así
+> El champú neutralizante baja el pH y elimina restos del alisador. Muchos tienen indicador de color.
+
+[c073]
+El cabello alisado con un alisador de hidróxido:
+- Puede recibir sin problema un alisador de tio o una permanente
+* No debe recibir un alisador de tio ni una permanente
+- Debe decolorarse antes de cualquier servicio
+- Se rizará de nuevo al lavarlo
+> Los químicos de hidróxido y de tio no son compatibles. Combinarlos puede causar rotura grave.
+
+[c074]
+Muchos tratamientos alisadores de queratina pueden liberar formaldehído al calentarse, por eso debes:
+- Usarlos solo en cabello mojado con calor máximo
+* Asegurar buena ventilación y seguir las instrucciones del fabricante y la SDS
+- No usar guantes porque el producto es natural
+- Aplicarlos solo en cuartos cerrados
+> Los liberadores de formaldehído pueden irritar ojos y pulmones. La ventilación y el uso correcto reducen la exposición.
+
+[c075]
+Si el cliente tiene raspones o llagas en el cuero cabelludo, debes:
+- Usar un alisador más fuerte para terminar rápido
+* No hacer el servicio químico
+- Aplicar más crema base y continuar
+- Limpiar la zona con agua caliente
+> Los químicos sobre piel lastimada causan quemaduras e infección. Reprograma cuando el cuero cabelludo haya sanado.
+
+[c076]
+El pH promedio del cabello y la piel es aproximadamente:
+- 7.0
+* 4.5 a 5.5
+- 9.0 a 10.0
+- 13.0 a 14.0
+> El cabello y la piel son ligeramente ácidos. Este manto ácido ayuda a protegerlos.
+
+[c077]
+Las soluciones alcalinas afectan el cabello:
+* Hinchándolo y abriendo la cutícula
+- Cerrando y endureciendo la cutícula
+- Dando brillo y cerrando la cutícula
+- Sin ningún efecto
+> Los productos alcalinos permiten que los químicos penetren la corteza. Los ácidos ayudan a cerrar la cutícula.
+
+[c078]
+Los enjuagues y acondicionadores de pH ácido ayudan a:
+- Abrir la cutícula
+* Cerrar (contraer) la cutícula y devolver el brillo
+- Romper enlaces disulfuro
+- Aclarar el color natural
+> Un pH más bajo cierra las escamas de la cutícula y deja el cabello más liso y brillante.
+
+[c079]
+La molécula de champú tiene una "cabeza" atraída por el agua y una "cola" atraída por el aceite. La cabeza se describe como:
+- Lipofílica
+* Hidrofílica
+- Alcalina
+- Insoluble
+> Hidrofílico significa que ama el agua; lipofílico, que ama el aceite. Juntas levantan la grasa y la suciedad para que el agua las enjuague.
+
+[c080]
+Para cabello fino, teñido o dañado, la fuerza de alisador normalmente adecuada es:
+* Suave
+- Regular
+- Súper
+- Máxima con calor
+> El cabello fino o dañado procesa más rápido y necesita una fórmula suave para evitar la rotura.
+
+[c081]
+Un corte en el que todo el cabello cae a un mismo nivel, sin elevación, es un:
+* Corte recto (de un solo largo) a 0 grados
+- Corte graduado a 45 grados
+- Corte en capas uniformes a 90 grados
+- Corte en capas largas a 180 grados
+> Un corte a 0 grados crea una línea sólida con peso, como un bob clásico.
+
+[c082]
+Un corte graduado normalmente se hace con una elevación de aproximadamente:
+- 0 grados
+* 45 grados
+- 90 grados
+- 180 grados
+> La graduación (elevación baja a media) acumula peso y crea una forma escalonada.
+
+[c083]
+Un corte en capas uniformes se hace con el cabello elevado a:
+- 0 grados
+- 45 grados
+* 90 grados
+- 180 grados
+> A 90 grados todo el cabello se corta al mismo largo siguiendo la curva de la cabeza.
+
+[c084]
+Un corte en capas largas se crea elevando el cabello a:
+- 0 grados
+- 45 grados
+- 90 grados
+* 180 grados
+> A 180 grados las capas quedan más cortas arriba y más largas hacia el perímetro.
+
+[c085]
+En el corte, una guía es:
+- La línea donde se parte el cabello naturalmente
+* Una sección de cabello que determina el largo al que se cortará
+- La línea del nacimiento en la nuca
+- El estilo preferido del cliente
+> Las guías pueden ser fijas (todo el cabello se lleva a ella) o móviles (avanzan con cada sección).
+
+[c086]
+Al cortar cabello muy rizado, debes recordar que:
+* El cabello rizado se encoge al secarse, así que deja largo extra
+- El cabello rizado se alarga al secarse
+- Siempre debe cortarse con navaja
+- La tensión lo hace más corto en seco
+> El cabello rizado puede encogerse mucho al secarse. Usa poca tensión y deja largo.
+
+[c087]
+Las tijeras de entresacar se usan principalmente para:
+- Crear un perímetro recto
+* Quitar volumen sin acortar el largo general
+- Cortar una guía
+- Cortar solo pelucas
+> Las tijeras de entresacar tienen dientes en una o ambas hojas y quitan peso dentro de la forma.
+
+[c088]
+El corte con navaja normalmente debe hacerse en:
+- Cabello seco y enredado
+* Cabello mojado
+- Cabello con laca
+- Solo cabello muy corto
+> Usar navaja en cabello seco puede jalar y abrir la cutícula. Mantén el cabello mojado y la hoja afilada.
+
+[c089]
+La zona más ancha de la cabeza, que empieza en las sienes y termina debajo de la coronilla, es la:
+- Nuca
+- Hueso occipital
+* Cresta parietal
+- Ápice
+> La cresta parietal es un punto de referencia importante donde la cabeza pasa de redonda a plana.
+
+[c090]
+El hueso que sobresale en la base del cráneo es el:
+* Hueso occipital
+- Hueso parietal
+- Hueso frontal
+- Hueso temporal
+> El hueso occipital es un punto clave de referencia para cortar y ubicar el peso.
+
+[c091]
+Al secar con secador para dar brillo, dirige el aire:
+- De las puntas hacia el cuero cabelludo
+* Del cuero cabelludo hacia las puntas
+- Directo solo al cuero cabelludo
+- En círculos al azar
+> Secar en la dirección de las escamas de la cutícula las mantiene planas, reduce el frizz y da brillo.
+
+[c092]
+La parte del rizo con horquilla (pin curl) que determina la dirección y el movimiento del rizo es el:
+- Base
+* Tallo
+- Círculo
+- Gancho
+> El tallo está entre la base y el primer arco del círculo. El círculo determina el tamaño del rizo.
+
+[c093]
+Para el máximo volumen, el rulo debe colocarse:
+* Sobre la base
+- Fuera de la base
+- A media base
+- Debajo del cabello
+> Los rulos sobre la base quedan directamente sobre su sección y dan el mayor levantamiento. Fuera de la base dan el menor.
+
+[c094]
+Un planchado fuerte (hard press) con peine caliente elimina aproximadamente:
+- 25% del rizo
+- 50% del rizo
+- 75% del rizo
+* 100% del rizo
+> Un planchado suave elimina 50–60%, uno medio 60–75% y uno fuerte alrededor del 100% del rizo.
+
+[c095]
+Antes de peinar con calor, debes probar la temperatura de la plancha en:
+- La piel del cliente
+* Un pañuelo de papel blanco o un mechón de prueba
+- Tu propia mano
+- Un peine de metal
+> El cabello fino, decolorado o dañado necesita menos calor. Prueba siempre primero para no quemarlo.
+
+[c096]
+Las pelucas sintéticas que no dicen "resistentes al calor" NO deben:
+- Lavarse
+- Cepillarse con suavidad
+* Peinarse con herramientas de calor
+- Guardarse en una cabeza de maniquí
+> La mayoría de las fibras sintéticas comunes se derriten o encrespan con el calor. Las pelucas de cabello humano sí se pueden peinar con calor.
+
+[c097]
+Las trenzas pegadas (cornrows) se hacen con:
+* Una trenza de tres cabos por debajo (invertida) pegada al cuero cabelludo
+- Una trenza por encima separada del cuero cabelludo
+- Un solo giro
+- Rulos calientes
+> Los cabos se cruzan por debajo del cabo central, así la trenza queda sobre el cuero cabelludo.
+
+[c098]
+Al sostener las tijeras, el dedo anular va en el:
+- Ojo del pulgar
+* Ojo del dedo
+- Tornillo pivote
+- Apoyadedo (tang)
+> El pulgar va en el ojo del pulgar y el anular en el ojo del dedo; el meñique descansa en el apoyadedo.
+
+[c099]
+La sobredirección en el corte significa:
+- Cortar sin guía
+* Peinar el cabello fuera de su caída natural hacia una guía, creando un largo creciente
+- Elevar todo el cabello a 180 grados
+- Cortar el cabello en seco
+> La sobredirección se usa cuando quieres que el cabello se alargue hacia un lado, por ejemplo hacia la cara.
+
+[c100]
+Antes de un corte, es importante analizar del cliente:
+- La talla de zapato
+* La forma de la cara, la densidad, la textura y los patrones de crecimiento
+- Solo el método de pago
+- Solo su color favorito
+> Una buena consulta y análisis ayudan a elegir un corte que favorezca al cliente y se comporte bien.
+
+[c101]
+La dermis también se conoce como:
+* Piel verdadera
+- Piel externa
+- Capa de grasa
+- Cutícula
+> La dermis está debajo de la epidermis y contiene vasos sanguíneos, nervios, glándulas y folículos.
+
+[c102]
+Las fibras de colágeno y elastina se encuentran principalmente en la:
+- Epidermis
+* Dermis
+- Capa córnea
+- Solo en la grasa subcutánea
+> El colágeno da fuerza a la piel y la elastina flexibilidad. Ambas disminuyen con la edad y el daño solar.
+
+[c103]
+El tipo de piel de una persona depende principalmente de:
+- El color de la piel
+* Cuánta grasa (sebo) produce la piel
+- Cuánto maquillaje usa
+- La estación del año
+> Los tipos de piel son normal, seca, grasa y mixta, basados sobre todo en la actividad sebácea.
+
+[c104]
+Un comedón abierto se conoce comúnmente como:
+- Punto blanco
+* Punto negro
+- Verruga
+- Lunar
+> El punto negro es un folículo lleno de sebo y residuos que se oscurece al contacto con el aire.
+
+[c105]
+Los pequeños quistes blancos y firmes de queratina justo debajo de la superficie de la piel se llaman:
+* Milia
+- Pústulas
+- Vesículas
+- Máculas
+> La milia es común alrededor de los ojos y las mejillas. En algunos estados, extraerla puede estar fuera del ámbito de práctica.
+
+[c106]
+Una condición crónica con enrojecimiento y vasos visibles en mejillas y nariz es la:
+- Eccema
+- Psoriasis
+* Rosácea
+- Melasma
+> Evita el calor, los exfoliantes fuertes y los tratamientos estimulantes en la rosácea; sugiere ver a un médico.
+
+[c107]
+Los clientes que usan medicamentos como isotretinoína o retinoides tópicos NO deben recibir:
+- Un lavado
+* Depilación con cera en las zonas afectadas
+- Un corte de cabello
+- Una manicura
+> Estos medicamentos adelgazan la piel y la cera puede levantarla y causar lesiones. Pregunta siempre por los medicamentos.
+
+[c108]
+Al usar cera suave con tira, la tira se retira:
+- Despacio, en la dirección del crecimiento del vello
+* Rápido, en contra de la dirección del crecimiento del vello
+- Remojándola en agua
+- Después de que la cera se endurezca toda la noche
+> La cera se aplica en la dirección del crecimiento y se retira rápido en contra, manteniendo la piel tensa.
+
+[c109]
+Al depilar las cejas con pinzas, los vellos deben retirarse:
+* En la dirección del crecimiento del vello
+- En contra del crecimiento del vello
+- Solo de la piel del párpado
+- Varios a la vez con un giro rápido
+> Depilar en la dirección del crecimiento reduce el dolor y ayuda a no romper el vello.
+
+[c110]
+El hilo (threading) es un método de depilación que usa:
+- Una navaja
+- Cera y tiras
+* Un hilo de algodón retorcido
+- Corriente eléctrica
+> El threading retuerce un hilo para atrapar y sacar filas de vello del folículo.
+
+[c111]
+El número SPF de un protector solar mide principalmente la protección contra:
+- Solo los rayos UVA
+* Los rayos UVB (que causan quemaduras)
+- La luz infrarroja
+- Solo la luz visible
+> Los protectores de amplio espectro protegen contra UVA y UVB. El SPF se refiere a la protección UVB.
+
+[c112]
+¿Qué rayos UV penetran más profundo y se asocian principalmente con el envejecimiento prematuro?
+* UVA
+- UVB
+- UVC
+- Infrarrojos
+> Un truco para recordarlo: UVA = Aging (envejecimiento), UVB = Burning (quemadura).
+
+[c113]
+Al elegir el color de la base de maquillaje, es mejor probarlo en:
+- El dorso de la mano
+- La frente
+* La línea de la mandíbula
+- El párpado
+> La línea de la mandíbula muestra cómo se integra la base entre la cara y el cuello.
+
+[c114]
+En el maquillaje correctivo, un tono más claro (iluminador) se usa para:
+- Hacer que un área se vea más pequeña
+* Resaltar un área y atraer la atención
+- Ocultar por completo las ojeras
+- Sustituir la base
+> El iluminador hace que los rasgos resalten; el contorno con tonos oscuros los hace retroceder.
+
+[c115]
+La corriente galvánica es:
+* Una corriente directa constante usada para la desincrustación y la iontoforesis
+- Una corriente alterna de alta frecuencia
+- Una corriente que calienta la piel
+- Un tipo de luz ultravioleta
+> La corriente galvánica produce efectos químicos: el polo negativo ablanda los residuos (desincrustación) y ayuda a que los productos penetren.
+
+[c116]
+La unidad que mide la intensidad de una corriente eléctrica es el:
+- Voltio
+- Ohmio
+* Amperio
+- Vatio
+> Los voltios miden presión, los ohmios resistencia, los amperios intensidad y los vatios la potencia usada.
+
+[c117]
+Una corriente eléctrica que fluye en una sola dirección es:
+- Corriente alterna (CA)
+* Corriente directa (CD)
+- Corriente de alta frecuencia
+- Corriente Tesla
+> Las baterías producen corriente directa. Los enchufes de casa dan corriente alterna.
+
+[c118]
+La corriente de alta frecuencia (Tesla) se usa en faciales principalmente por su:
+- Capacidad de eliminar el vello permanentemente
+* Efecto estimulante y antiséptico (germicida) en la piel
+- Capacidad de aclarar manchas
+- Efecto sobre el color del cabello
+> La alta frecuencia produce un efecto cálido y germicida, y se usa mucho en piel con tendencia al acné.
+
+[c119]
+El masaje facial debe evitarse sobre:
+- Piel normal y sana
+* Acné inflamado, piel lastimada o lesiones abiertas
+- La frente
+- Piel seca
+> El masaje puede propagar infecciones e irritar la piel inflamada. Refiere las condiciones que necesitan atención médica.
+
+[c120]
+¿Cuál es la forma más peligrosa de cáncer de piel?
+- Carcinoma de células basales
+- Carcinoma de células escamosas
+* Melanoma maligno
+- Milia
+> El melanoma puede propagarse rápido. Usa las señales ABCDE (asimetría, borde, color, diámetro, evolución) y refiere a un médico.

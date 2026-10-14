@@ -1,0 +1,962 @@
+# Cosmetology theory bank — English master file.
+# Original practice questions covering published cosmetology exam topics.
+
+[c001] infection
+What is the correct order of decontamination levels, from lowest to highest?
+* Cleaning, disinfecting, sterilizing
+- Sterilizing, cleaning, disinfecting
+- Disinfecting, cleaning, sterilizing
+- Cleaning, sterilizing, disinfecting
+> Cleaning removes visible debris, disinfecting kills most microorganisms on hard surfaces, and sterilizing destroys all microbial life including spores.
+
+[c002] infection
+Quaternary ammonium compounds ("quats") are a type of:
+- Antiseptic for the skin
+* Disinfectant for hard, non-porous surfaces
+- Hair conditioner
+- Shampoo surfactant only
+> Quats are common salon disinfectants. Use them only on tools and surfaces, at the dilution and contact time on the label.
+
+[c003] infection
+Combs and brushes should be prepared for the next client by:
+- Spraying them with hairspray
+* Removing all hair, washing with soap and water, then disinfecting
+- Wiping them with a dry towel
+- Rinsing them in hot water only
+> Hair and debris must be removed before disinfection so the disinfectant can reach every surface.
+
+[c004] infection
+Disinfectants should never be used on:
+- Countertops
+- Shears
+- Combs
+* Human skin, hair or nails
+> Disinfectants are for non-living surfaces. Antiseptics are the products made to reduce germs on skin.
+
+[c005] infection
+An antiseptic is a product designed to be used on:
+* Skin, to reduce microbes
+- Floors and countertops
+- Metal implements only
+- Electrical tools
+> Antiseptics are milder than disinfectants and can be applied to skin. They do not replace disinfecting tools.
+
+[c006] infection
+Which scalp condition is contagious, so the service should not be performed?
+- Dandruff (pityriasis)
+- Gray hair (canities)
+* Ringworm of the scalp (tinea capitis)
+- Split ends (trichoptilosis)
+> Tinea capitis is a contagious fungal infection. Do not service the client and suggest they see a physician.
+
+[c007] infection
+An infestation of head lice is called:
+- Scabies
+* Pediculosis capitis
+- Tinea capitis
+- Alopecia areata
+> Head lice are contagious parasites. Do not perform the service; refer the client to a physician or pharmacist.
+
+[c008] infection
+Scabies is a contagious skin disease caused by:
+- Bacteria
+- A virus
+* Itch mites burrowing under the skin
+- A fungus
+> Scabies is caused by mites. The client must be referred to a physician and should not receive services.
+
+[c009] infection
+Immunity gained after recovering from a disease or through vaccination is called:
+- Natural immunity
+* Acquired immunity
+- Local immunity
+- Temporary infection
+> Acquired immunity develops after exposure or vaccination. Natural immunity is partly inherited.
+
+[c010] infection
+Implements that touch blood or body fluids must be:
+- Rinsed under running water
+* Cleaned, then disinfected with an EPA-registered disinfectant as your state requires
+- Wiped with a towel and reused
+- Placed in a drawer
+> Clean first, then fully immerse in an EPA-registered disinfectant approved for blood exposure. Follow your state's rules exactly.
+
+[c011] infection
+Used towels and capes should be:
+- Folded and reused on the next client
+* Placed in a closed container until laundered
+- Hung on the station chair
+- Shaken out and reused
+> Use clean linens for every client. Store soiled linens in a covered container and launder them properly.
+
+[c012] infection
+The main purpose of OSHA is to:
+- Register disinfectants
+- Issue cosmetology licenses
+* Protect employees from hazards in the workplace
+- Approve cosmetic products
+> OSHA sets and enforces workplace safety standards, including the Hazard Communication Standard (SDS and labeling).
+
+[c013] infection
+Unlike many bacterial infections, viral infections:
+- Are always cured by antibiotics
+* Are not treated with antibiotics
+- Cannot be spread to other people
+- Only affect hair
+> Antibiotics work on bacteria, not viruses. Vaccines and antiviral medicines are used against viruses.
+
+[c014] infection
+Mixing a disinfectant stronger than the label directs:
+- Makes it work twice as fast
+- Is required for blood spills
+* Does not improve it and can damage tools and irritate skin
+- Makes it safe to use on skin
+> Always measure exactly. More concentrate does not mean better disinfection.
+
+[c015] infection
+Disposable gloves should be:
+* Changed between clients and discarded after use
+- Washed and reused
+- Worn all day for every client
+- Used only for haircuts
+> Gloves are single-use. Change them between clients and wash your hands after removing them.
+
+[c016] infection
+When mixing concentrated disinfectant, you should:
+- Use your bare hands to stir
+* Wear gloves and safety glasses
+- Mix it in a food container
+- Add it to hot styling tools
+> Concentrates can burn skin and eyes. Protect yourself and follow the label.
+
+[c017] infection
+A UL (Underwriters Laboratories) mark on an electrical appliance means:
+- It is waterproof
+* It has been tested and certified for safety
+- It can be used without a plug
+- It never needs inspection
+> Use only UL-certified appliances and check cords for damage before each use.
+
+[c018] infection
+If a chemical splashes into a client's eyes, you should first:
+- Rub the eyes with a towel
+- Apply eye drops and continue the service
+* Flush the eyes with plenty of clean water and seek medical help as needed
+- Apply neutralizer
+> Immediately flush with water for several minutes. Check the product's SDS first-aid section and get medical help.
+
+[c019] infection
+Which item must be thrown away after one use?
+* A neck strip
+- A metal comb
+- Shears
+- Plastic sectioning clips
+> Neck strips and other porous items are single-use. Hard, non-porous tools are cleaned and disinfected.
+
+[c020] infection
+Safety Data Sheets (SDS) must be:
+- Kept at the manufacturer only
+* Available to employees for every hazardous product in the salon
+- Read only by the salon owner
+- Thrown away after one year
+> OSHA requires SDS to be readily available. They explain hazards, first aid, storage and protective equipment.
+
+[c021] hair
+Hair is made mainly of a protein called:
+- Collagen
+- Melanin
+* Keratin
+- Elastin
+> Hair is about 90% keratin. Keratin is also found in skin and nails.
+
+[c022] hair
+The three layers of the hair shaft, from outside to inside, are:
+* Cuticle, cortex, medulla
+- Medulla, cortex, cuticle
+- Cortex, cuticle, medulla
+- Follicle, bulb, papilla
+> The cuticle protects, the cortex provides strength and color, and the medulla (the innermost layer) may be absent in fine hair.
+
+[c023] hair
+Which layer of the hair gives it strength, elasticity and natural color?
+- Cuticle
+* Cortex
+- Medulla
+- Follicle
+> The cortex contains melanin and most of the bonds that chemical services change.
+
+[c024] hair
+The outermost protective layer of the hair is the:
+* Cuticle
+- Cortex
+- Medulla
+- Dermal papilla
+> The cuticle is made of overlapping scales. A smooth, closed cuticle reflects light and looks shiny.
+
+[c025] hair
+The active growth phase of the hair cycle is:
+- Catagen
+- Telogen
+* Anagen
+- Exogen
+> Anagen is the growth phase, catagen is the short transition phase, and telogen is the resting phase.
+
+[c026] hair
+On average, scalp hair grows about:
+- 1/10 inch per month
+* 1/2 inch (about 1.25 cm) per month
+- 2 inches per month
+- 1/2 inch per year
+> Average growth is about 1/2 inch per month, varying with age, health and genetics.
+
+[c027] hair
+Hair porosity is the hair's ability to:
+- Stretch and return to its length
+* Absorb moisture
+- Grow faster
+- Hold a curl in humid weather
+> Porous hair absorbs liquids quickly. Porosity affects how hair takes color, perms and relaxers.
+
+[c028] hair
+Hair elasticity is the ability of hair to:
+* Stretch and return to its original length without breaking
+- Absorb moisture
+- Resist color
+- Grow in a pattern
+> Healthy wet hair can stretch roughly up to 50% of its length and return. Poor elasticity means weak hair.
+
+[c029] hair
+Hair texture refers to:
+- The number of hairs per square inch
+* The thickness or diameter of a single hair strand
+- The color of the hair
+- The direction of hair growth
+> Texture is classified as coarse, medium or fine. Coarse hair often takes longer to process.
+
+[c030] hair
+Hair density refers to:
+- The diameter of each hair
+* The number of hairs per square inch of scalp
+- How quickly hair grows
+- How much moisture hair absorbs
+> Density is described as thin, medium or thick, and it affects how you section and cut.
+
+[c031] hair
+Which side bonds are broken by water or heat and re-form when the hair dries or cools?
+* Hydrogen bonds
+- Disulfide bonds
+- Peptide bonds
+- Ionic bonds only
+> Wet sets and thermal styling change hydrogen bonds temporarily. They re-form as hair dries or cools.
+
+[c032] hair
+Disulfide bonds in the hair are broken by:
+- Shampooing
+- Brushing
+* Chemical services such as permanent waves and relaxers
+- Cool water
+> Disulfide bonds are strong chemical bonds. Perms and relaxers change them to permanently change the hair's shape.
+
+[c033] hair
+The medical term for dandruff is:
+- Canities
+* Pityriasis
+- Trichoptilosis
+- Monilethrix
+> Pityriasis (dandruff) is excessive shedding of scalp skin cells. It is not considered contagious for salon purposes.
+
+[c034] hair
+Sudden hair loss in round or irregular patches is called:
+* Alopecia areata
+- Androgenetic alopecia
+- Canities
+- Hypertrichosis
+> Alopecia areata is an autoimmune condition. Refer the client to a physician; be supportive.
+
+[c035] hair
+Hereditary hair loss known as male- or female-pattern baldness is:
+- Alopecia areata
+- Traction alopecia
+* Androgenetic alopecia
+- Tinea capitis
+> Androgenetic alopecia is the most common type of hair loss and is influenced by genetics and hormones.
+
+[c036] hair
+Gray hair caused by the loss of natural pigment is called:
+- Hirsutism
+* Canities
+- Pityriasis
+- Fragilitas crinium
+> Canities is the technical term for gray hair. Gray hair has normal growth but lacks melanin.
+
+[c037] hair
+Split ends are technically called:
+- Monilethrix
+- Trichorrhexis nodosa
+* Trichoptilosis
+- Pediculosis
+> Trichoptilosis is split ends. Trimming and conditioning help; they cannot be permanently repaired.
+
+[c038] hair
+The small cone-shaped area at the base of the follicle that supplies nourishment to the hair bulb is the:
+- Arrector pili
+* Dermal papilla
+- Sebaceous gland
+- Cuticle
+> The dermal papilla contains blood vessels and nerves that nourish the hair bulb.
+
+[c039] hair
+The tiny muscle attached to the hair follicle that causes "goosebumps" is the:
+* Arrector pili
+- Occipitalis
+- Platysma
+- Frontalis
+> The arrector pili contracts with cold or fear, making the hair stand up.
+
+[c040] hair
+The two types of melanin in hair are:
+- Keratin and collagen
+* Eumelanin (brown/black) and pheomelanin (red/yellow)
+- Sebum and sweat
+- Cortex and medulla
+> The mix of eumelanin and pheomelanin creates each person's natural hair color.
+
+[c041] color
+The primary colors are:
+- Orange, green, violet
+* Red, yellow, blue
+- Red, green, blue
+- Black, white, gray
+> Primary colors cannot be created by mixing other colors. All other colors come from them.
+
+[c042] color
+Mixing equal parts of yellow and blue creates:
+- Orange
+- Violet
+* Green
+- Brown
+> Green is a secondary color made from yellow and blue.
+
+[c043] color
+Which color neutralizes (cancels out) unwanted red tones?
+- Orange
+* Green
+- Red-violet
+- Yellow
+> Complementary colors neutralize each other. Green is opposite red on the color wheel.
+
+[c044] color
+To neutralize unwanted orange (brassy) tones, use a toner or color with a base of:
+* Blue
+- Red
+- Yellow
+- Orange
+> Blue is the complement of orange. Violet neutralizes yellow; green neutralizes red.
+
+[c045] color
+In haircoloring, the level system measures:
+- How warm or cool a color is
+* How light or dark a color is
+- How porous the hair is
+- How long color lasts
+> Most level systems range from 1 (black, darkest) to 10 (lightest blonde).
+
+[c046] color
+The "tone" of a hair color describes its:
+- Lightness or darkness
+* Warmth or coolness
+- Permanence
+- Developer strength
+> Tones are warm (gold, red, orange), cool (ash, blue, violet, green) or neutral.
+
+[c047] color
+Temporary hair color:
+* Coats the outside of the hair and is removed with one shampoo
+- Penetrates the cortex and lasts until it grows out
+- Requires 30-volume developer
+- Lifts natural color two levels
+> Temporary colors are large molecules that stay on the cuticle surface. No patch test is usually needed.
+
+[c048] color
+Traditional semi-permanent hair color:
+- Lightens hair several levels
+* Deposits color without developer and fades over several shampoos
+- Is always mixed with 40-volume developer
+- Cannot cover any gray
+> Semi-permanent color is deposit-only and gradually fades. Many still require a patch test.
+
+[c049] color
+Demi-permanent hair color is mixed with:
+- No developer at all
+* A low-volume developer, and it deposits color without lifting
+- 40-volume developer for maximum lift
+- Bleach powder
+> Demi-permanent color uses a low-volume developer, deposits color and gives some gray blending without lightening.
+
+[c050] color
+Permanent (oxidation) hair color:
+- Only coats the cuticle
+- Washes out in one shampoo
+* Can lighten and deposit color in the same process
+- Never needs a patch test
+> Permanent color is mixed with developer, penetrates the cortex, and can lift and deposit at the same time.
+
+[c051] color
+20-volume developer contains approximately what percentage of hydrogen peroxide?
+- 3%
+* 6%
+- 9%
+- 12%
+> 10 volume = 3%, 20 volume = 6%, 30 volume = 9%, 40 volume = 12%.
+
+[c052] color
+A patch test (predisposition test) for aniline-derivative tints should be done:
+- Right after the color service
+* 24 to 48 hours before the color service
+- Only once in a client's lifetime
+- Only on clients with gray hair
+> The patch test checks for allergies. If there is redness, swelling, burning or itching, do not apply the color.
+
+[c053] color
+A strand test is used to:
+- Check for allergies
+* Determine processing time and how the color will look before the full application
+- Clean the scalp
+- Measure density
+> The strand test shows the result on a small section so you can adjust the formula or timing.
+
+[c054] color
+Hair lightener (bleach) lightens hair by:
+* Diffusing and dissolving melanin through oxidation
+- Coating the cuticle with white pigment
+- Breaking hydrogen bonds only
+- Removing the medulla
+> Lighteners oxidize natural melanin. The longer and stronger the process, the more pigment is removed.
+
+[c055] color
+As dark hair is lightened, it passes through which sequence of stages?
+- Yellow, orange, red, brown
+* Red, red-orange, orange, gold, yellow, pale yellow
+- Pale yellow, gold, red, black
+- Violet, blue, green, yellow
+> Natural hair lightens through warm stages from red toward pale yellow. Toners then adjust the final tone.
+
+[c056] color
+For a virgin application of permanent color to go lighter, you usually apply color:
+- To the scalp area first
+* To the mid-shaft and ends first, then to the scalp area
+- To the ends only
+- All at once to dry hair, without sections
+> Body heat makes the scalp area process faster, so it is applied last to give even results.
+
+[c057] color
+A color retouch is applied to:
+* The new growth only
+- The ends only
+- The entire hair shaft every time
+- The eyebrows
+> Overlapping previously colored hair can cause breakage and color bands. Apply only to the regrowth.
+
+[c058] color
+Color fillers are used to:
+- Remove artificial color
+* Equalize porosity and deposit a color base in damaged hair
+- Lighten hair faster
+- Replace the patch test
+> Fillers help damaged or porous hair take color evenly and prevent results that are too dark or ashy.
+
+[c059] color
+Hair previously colored with metallic dyes should:
+- Be lightened immediately
+* Be tested for compatibility before any chemical service
+- Be permed without testing
+- Be relaxed with a hydroxide relaxer
+> Metallic dyes can react with peroxide and other chemicals, causing heat, breakage or discoloration.
+
+[c060] color
+To remove artificial (oxidative) color from the hair, you would use a:
+- Patch test
+* Dye solvent (color remover)
+- Demi-permanent color
+- Neutralizing shampoo
+> Dye solvents shrink artificial color molecules so they can be rinsed out.
+
+[c061] chemical
+The main active ingredient in an alkaline (cold) wave is:
+* Ammonium thioglycolate
+- Glyceryl monothioglycolate
+- Sodium hydroxide
+- Hydrogen peroxide
+> Alkaline waves have a higher pH, process quickly at room temperature and give firm curls.
+
+[c062] chemical
+The main active ingredient in a true acid wave is:
+- Ammonium thioglycolate
+* Glyceryl monothioglycolate (GMTG)
+- Guanidine hydroxide
+- Sodium bicarbonate
+> Acid waves have a lower pH and give softer curls. GMTG is a common sensitizer, so protect skin.
+
+[c063] chemical
+Permanent waving solution softens the hair by breaking:
+- Hydrogen bonds only
+* Disulfide bonds
+- Peptide bonds
+- Salt bonds only
+> The waving solution breaks disulfide bonds so the hair takes the shape of the rod.
+
+[c064] chemical
+Permanent wave neutralizer contains hydrogen peroxide to:
+- Break more disulfide bonds
+* Rebuild the disulfide bonds in their new curled shape
+- Lighten the hair
+- Soften the cuticle
+> Neutralizing (oxidation) re-forms the broken disulfide bonds and stops the processing.
+
+[c065] chemical
+In permanent waving, the size of the curl is mainly determined by:
+* The size of the rod
+- The brand of solution
+- The length of the end paper
+- The water temperature
+> Smaller rods make smaller, tighter curls; larger rods make larger, looser curls.
+
+[c066] chemical
+End papers are used during perm wrapping to:
+- Speed up processing
+* Control the ends and prevent fishhooks
+- Protect the scalp from neutralizer
+- Measure curl size
+> End papers keep the ends smooth around the rod so they do not bend or crimp.
+
+[c067] chemical
+A test curl is taken during a permanent wave to:
+* Check how the hair is processing and when it is fully processed
+- Check for allergies
+- Remove the end papers
+- Measure the hair's density
+> Test curls help prevent under- and over-processing.
+
+[c068] chemical
+An over-processed permanent wave usually looks:
+- Tight and springy when dry
+* Frizzy when wet and weak or straight when dry
+- Exactly the same as the rod size
+- Too shiny
+> Over-processing breaks too many bonds. The hair loses strength and cannot hold a firm curl.
+
+[c069] chemical
+Sodium hydroxide relaxers are commonly called:
+- No-lye relaxers
+* Lye relaxers
+- Thio relaxers
+- Acid relaxers
+> Sodium hydroxide relaxers have a very high pH and work quickly. "No-lye" relaxers use other hydroxides such as guanidine.
+
+[c070] chemical
+Hydroxide relaxers permanently straighten hair through a process called:
+- Oxidation
+- Neutralization
+* Lanthionization
+- Hydrolysis of hydrogen bonds
+> Hydroxide relaxers convert disulfide bonds to lanthionine bonds, which cannot be re-formed into curls.
+
+[c071] chemical
+A protective base cream is applied before a base relaxer to:
+* Protect the scalp from irritation and burns
+- Make the relaxer process faster
+- Add color to the hair
+- Replace the neutralizing shampoo
+> Base cream (petroleum-based) protects the scalp and hairline from the high-pH relaxer.
+
+[c072] chemical
+After thoroughly rinsing a hydroxide relaxer, you must:
+- Apply a thio neutralizer
+* Use a neutralizing (normalizing) shampoo to restore the hair's acid pH
+- Apply a perm solution
+- Leave the hair as it is
+> The neutralizing shampoo lowers the pH and removes any remaining relaxer. Many have a color indicator.
+
+[c073] chemical
+Hair that has been relaxed with a hydroxide relaxer:
+- Can safely be given a thio relaxer or perm
+* Should not receive a thio relaxer or permanent wave
+- Must be lightened before any service
+- Will curl again after shampooing
+> Hydroxide and thio chemicals are not compatible. Mixing them can cause severe breakage.
+
+[c074] chemical
+Many keratin smoothing treatments can release formaldehyde when heated, so you should:
+- Use them only on wet hair at maximum heat
+* Ensure good ventilation and follow the manufacturer's instructions and SDS
+- Skip gloves because the product is natural
+- Apply them only in closed rooms
+> Formaldehyde releasers can irritate eyes and lungs. Ventilation and correct use reduce exposure.
+
+[c075] chemical
+If a client has scalp abrasions or open sores, you should:
+- Use a stronger relaxer to finish quickly
+* Not perform a chemical service
+- Apply extra base cream and continue
+- Use hot water to clean the area
+> Chemicals on broken skin cause burns and infection. Reschedule once the scalp has healed.
+
+[c076] chemical
+The average pH of hair and skin is about:
+- 7.0
+* 4.5 to 5.5
+- 9.0 to 10.0
+- 13.0 to 14.0
+> Hair and skin are slightly acidic. This acid mantle helps protect them.
+
+[c077] chemical
+Alkaline solutions affect the hair by:
+* Swelling the hair and opening the cuticle
+- Closing and hardening the cuticle
+- Adding shine and closing the cuticle
+- Having no effect
+> Alkaline products allow chemicals to penetrate the cortex. Acidic products help close the cuticle.
+
+[c078] chemical
+Acid-balanced rinses and conditioners help to:
+- Open the cuticle
+* Close (contract) the cuticle and restore shine
+- Break disulfide bonds
+- Lift natural color
+> Lower pH tightens the cuticle scales, making hair smoother and shinier.
+
+[c079] chemical
+A shampoo molecule has a "head" that is attracted to water and a "tail" that is attracted to oil. The head is described as:
+- Lipophilic
+* Hydrophilic
+- Alkaline
+- Insoluble
+> Hydrophilic means water-loving; lipophilic means oil-loving. Together they lift oil and dirt so water can rinse them away.
+
+[c080] chemical
+For fine, color-treated or damaged hair, a relaxer strength that is usually appropriate is:
+* Mild
+- Regular
+- Super
+- Maximum strength with heat
+> Fine or damaged hair processes faster and needs a milder formula to avoid breakage.
+
+[c081] cutstyle
+A haircut in which all the hair is cut to fall at one level, with no elevation, is a:
+* Blunt (one-length) cut at 0 degrees
+- Graduated cut at 45 degrees
+- Uniform layered cut at 90 degrees
+- Long-layered cut at 180 degrees
+> A 0-degree cut creates a solid, weighted line, as in a classic bob.
+
+[c082] cutstyle
+A graduated haircut is usually created with about how much elevation?
+- 0 degrees
+* 45 degrees
+- 90 degrees
+- 180 degrees
+> Graduation (low to medium elevation) builds weight and creates a stacked shape.
+
+[c083] cutstyle
+A uniform layered haircut is cut with the hair elevated at:
+- 0 degrees
+- 45 degrees
+* 90 degrees
+- 180 degrees
+> At 90 degrees, all the hair is cut to the same length, following the curve of the head.
+
+[c084] cutstyle
+A long-layered haircut is created by elevating the hair to:
+- 0 degrees
+- 45 degrees
+- 90 degrees
+* 180 degrees
+> At 180 degrees, layers are shorter at the top and longer toward the perimeter.
+
+[c085] cutstyle
+In haircutting, a guideline is:
+- The line where the hair parts naturally
+* A section of hair that determines the length the hair will be cut
+- The hairline at the nape
+- The client's preferred style
+> Guidelines can be stationary (all hair brought to it) or traveling (moves with each section).
+
+[c086] cutstyle
+When cutting very curly hair, you should remember that:
+* Curly hair shrinks when it dries, so leave extra length
+- Curly hair grows longer when dry
+- It must always be cut with a razor
+- Tension makes it shorter when dry
+> Curly hair can shrink a lot when dry. Use minimal tension and leave length.
+
+[c087] cutstyle
+Thinning shears are mainly used to:
+- Create a blunt perimeter
+* Remove bulk without shortening the overall length
+- Cut a guideline
+- Cut wigs only
+> Thinning shears have teeth on one or both blades and remove weight inside the shape.
+
+[c088] cutstyle
+Razor cutting should normally be done on:
+- Dry, tangled hair
+* Wet hair
+- Hair with hairspray
+- Only very short hair
+> Razoring dry hair can pull and fray the cuticle. Keep the hair wet and the blade sharp.
+
+[c089] cutstyle
+The widest area of the head, starting at the temples and ending at the bottom of the crown, is the:
+- Nape
+- Occipital bone
+* Parietal ridge
+- Apex
+> The parietal ridge is an important reference point where the head changes from round to flat.
+
+[c090] cutstyle
+The bone that protrudes at the base of the skull is the:
+* Occipital bone
+- Parietal bone
+- Frontal bone
+- Temporal bone
+> The occipital bone is a key reference point for cutting and for placing weight.
+
+[c091] cutstyle
+When blow-drying for shine, direct the airflow:
+- From the ends toward the scalp
+* From the scalp toward the ends
+- Straight at the scalp only
+- In circles at random
+> Drying in the direction of the cuticle scales keeps them flat, reducing frizz and adding shine.
+
+[c092] cutstyle
+The part of a pin curl that determines the direction and movement of the curl is the:
+- Base
+* Stem
+- Circle
+- Clip
+> The stem is between the base and the first arc of the circle. The circle determines the curl's size.
+
+[c093] cutstyle
+For maximum volume, a roller should be placed:
+* On base
+- Off base
+- Half off base
+- Under the hair
+> On-base rollers sit directly on their base and give the most lift. Off-base gives the least.
+
+[c094] cutstyle
+A hard press with a pressing comb removes about:
+- 25% of the curl
+- 50% of the curl
+- 75% of the curl
+* 100% of the curl
+> A soft press removes about 50–60%, a medium press 60–75%, and a hard press about 100% of the curl.
+
+[c095] cutstyle
+Before thermal styling, you should test the temperature of the iron on:
+- The client's skin
+* A white tissue or test strand
+- Your own hand
+- A metal comb
+> Fine, lightened or damaged hair needs less heat. Always test first to avoid scorching.
+
+[c096] cutstyle
+Synthetic wigs that are not labeled heat-friendly should NOT be:
+- Shampooed
+- Brushed gently
+* Styled with hot tools
+- Stored on a wig block
+> Most standard synthetic fibers melt or frizz with heat. Human hair wigs can be heat-styled.
+
+[c097] cutstyle
+Cornrows are created using:
+* An underhand (inverted) three-strand braid close to the scalp
+- An overhand braid away from the scalp
+- A single twist
+- Heated rollers
+> Strands are crossed under the center strand, so the braid sits on top of the scalp.
+
+[c098] cutstyle
+When holding shears, the ring finger is placed in the:
+- Thumb grip
+* Finger grip
+- Pivot screw
+- Tang
+> The thumb goes in the thumb grip and the ring finger in the finger grip; the little finger rests on the finger brace (tang).
+
+[c099] cutstyle
+Overdirection in haircutting means:
+- Cutting the hair without a guideline
+* Combing the hair away from its natural falling position toward a guideline, creating increasing length
+- Elevating all the hair to 180 degrees
+- Cutting the hair while it is dry
+> Overdirection is used when you want the hair to get longer in one direction, for example toward the face.
+
+[c100] cutstyle
+Before a haircut, it is important to analyze the client's:
+- Shoe size
+* Face shape, hair density, texture and growth patterns
+- Payment method only
+- Favorite color only
+> A thorough consultation and analysis help you choose a cut that suits the client and behaves well.
+
+[c101] skin
+The dermis is also known as the:
+* True skin
+- Outer skin
+- Fat layer
+- Scarf skin
+> The dermis is beneath the epidermis and contains blood vessels, nerves, glands and follicles.
+
+[c102] skin
+Collagen and elastin fibers are found mainly in the:
+- Epidermis
+* Dermis
+- Stratum corneum
+- Subcutaneous fat only
+> Collagen gives skin strength and elastin gives it flexibility. Both decrease with age and sun damage.
+
+[c103] skin
+A person's skin type is determined mainly by:
+- The color of the skin
+* How much oil (sebum) the skin produces
+- The amount of makeup they use
+- The season of the year
+> Skin types include normal, dry, oily and combination, based mostly on sebaceous activity.
+
+[c104] skin
+An open comedone is commonly called a:
+- Whitehead
+* Blackhead
+- Wart
+- Mole
+> A blackhead is a follicle filled with sebum and debris that darkens when exposed to air.
+
+[c105] skin
+Small, firm, white cysts of keratin just under the skin's surface are called:
+* Milia
+- Pustules
+- Vesicles
+- Macules
+> Milia are common around the eyes and cheeks. Extraction may be outside the scope of practice in some states.
+
+[c106] skin
+A chronic condition with redness and visible blood vessels on the cheeks and nose is:
+- Eczema
+- Psoriasis
+* Rosacea
+- Melasma
+> Avoid heat, harsh scrubs and stimulating treatments on rosacea; suggest the client see a physician.
+
+[c107] skin
+Clients using medications such as isotretinoin or topical retinoids should NOT receive:
+- A shampoo
+* Waxing on the affected areas
+- A haircut
+- A manicure
+> These medications thin the skin, so wax can lift skin and cause injury. Always ask about medications.
+
+[c108] skin
+When using soft wax with a strip, the strip is removed:
+- Slowly, in the direction of hair growth
+* Quickly, against the direction of hair growth
+- By soaking it in water
+- After the wax hardens overnight
+> Wax is applied in the direction of growth and removed quickly against it, keeping the skin taut.
+
+[c109] skin
+When tweezing eyebrows, the hairs should be removed:
+* In the direction of hair growth
+- Against the direction of hair growth
+- From the skin above the eyelid only
+- Several at a time with a quick twist
+> Tweezing in the direction of growth reduces pain and helps avoid breaking the hair.
+
+[c110] skin
+Threading is a method of hair removal that uses:
+- A razor
+- Wax and strips
+* A twisted cotton thread
+- An electric current
+> Threading twists a thread to trap and lift rows of hairs from the follicle.
+
+[c111] skin
+The SPF number on a sunscreen mainly measures protection against:
+- UVA rays only
+* UVB rays (which cause burning)
+- Infrared light
+- Visible light only
+> Broad-spectrum sunscreens protect against both UVA and UVB. SPF refers to UVB protection.
+
+[c112] skin
+Which type of UV rays penetrate deeper and are mainly associated with premature aging?
+* UVA
+- UVB
+- UVC
+- Infrared
+> A helpful memory tip: UVA = aging, UVB = burning.
+
+[c113] skin
+When choosing a foundation color, it is best to test it:
+- On the back of the hand
+- On the forehead
+* On the jawline
+- On the eyelid
+> The jawline shows how the foundation blends between the face and the neck.
+
+[c114] skin
+In corrective makeup, a lighter shade (highlighter) is used to:
+- Make an area look smaller
+* Bring an area forward and draw attention to it
+- Hide dark circles completely
+- Replace foundation
+> Highlighting brings features forward; contouring with darker shades makes them recede.
+
+[c115] skin
+Galvanic current is a:
+* Constant direct current used for desincrustation and iontophoresis
+- High-frequency alternating current
+- Current that heats the skin
+- Type of ultraviolet light
+> Galvanic current produces chemical effects: the negative pole softens debris (desincrustation) and helps products penetrate.
+
+[c116] skin
+The unit that measures the strength of an electric current is the:
+- Volt
+- Ohm
+* Ampere (amp)
+- Watt
+> Volts measure pressure, ohms measure resistance, amps measure strength, and watts measure power used.
+
+[c117] skin
+An electric current that flows in one direction only is:
+- Alternating current (AC)
+* Direct current (DC)
+- High-frequency current
+- Tesla current
+> Batteries produce direct current. Household outlets supply alternating current.
+
+[c118] skin
+High-frequency (Tesla) current is used in facials mainly for its:
+- Ability to remove hair permanently
+* Stimulating and antiseptic (germicidal) effect on the skin
+- Ability to lighten pigmentation
+- Effect on hair color
+> High-frequency current creates a warming, germicidal effect and is often used on acne-prone skin.
+
+[c119] skin
+Facial massage should be avoided over:
+- Normal healthy skin
+* Inflamed acne, broken skin or open lesions
+- The forehead
+- Dry skin
+> Massage can spread infection and irritate inflamed skin. Refer conditions that need medical care.
+
+[c120] skin
+Which is the most dangerous form of skin cancer?
+- Basal cell carcinoma
+- Squamous cell carcinoma
+* Malignant melanoma
+- Milia
+> Melanoma can spread quickly. Use the ABCDE signs (asymmetry, border, color, diameter, evolving) and refer to a physician.

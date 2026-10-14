@@ -1,0 +1,45 @@
+{
+  "id": "insurancelh",
+  "applicationId": "com.tuanlt.examprep.insurancelh",
+  "launcherName": "Life & Health Exam",
+  "title": {
+    "en": "Life & Health Insurance Exam Prep"
+  },
+  "bank": "insurance_lh",
+  "locales": [
+    "en"
+  ],
+  "color": "#1565C0",
+  "icon": {
+    "label": "L&H",
+    "badge": "",
+    "glyph": "shield"
+  },
+  "exam": {
+    "questions": 60,
+    "minutes": 75,
+    "passPercent": 70
+  },
+  "freeRatio": 0.35,
+  "suggestedPriceUsd": 19.99,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/insurancelh.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "tagline": {
+    "en": "Timed mock exams · Clear explanations · Works offline"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Track your exam readiness",
+      "A clear explanation for every answer",
+      "Timed mock exams like test day",
+      "See your score by topic"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": "2026.10.1",
+  "categories": [
+    {"id": "infection", "name": {"en": "Infection Control & Safety", "vi": "Kiểm soát nhiễm khuẩn & an toàn", "es": "Control de infecciones y seguridad"}},
+    {"id": "hair", "name": {"en": "Hair & Scalp Science", "vi": "Cấu tạo tóc & da đầu", "es": "Ciencia del cabello y cuero cabelludo"}},
+    {"id": "color", "name": {"en": "Haircoloring", "vi": "Nhuộm tóc", "es": "Coloración del cabello"}},
+    {"id": "chemical", "name": {"en": "Perms, Relaxers & Chemistry", "vi": "Uốn, duỗi & hoá học", "es": "Permanentes, alisadores y química"}},
+    {"id": "cutstyle", "name": {"en": "Haircutting & Styling", "vi": "Cắt & tạo kiểu tóc", "es": "Corte y peinado"}},
+    {"id": "skin", "name": {"en": "Skin Care, Makeup & Electricity", "vi": "Chăm sóc da, trang điểm & điện", "es": "Cuidado de la piel, maquillaje y electricidad"}}
+  ]
+}

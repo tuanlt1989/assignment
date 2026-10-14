@@ -1,0 +1,962 @@
+# Life & Health insurance producer exam bank (national/general content).
+# Original practice questions. State-specific rules vary: always check your state's content outline.
+
+[i001] basics
+The basic purpose of insurance is to:
+* Transfer the risk of financial loss from an individual to an insurer
+- Eliminate all risk
+- Allow people to profit from a loss
+- Guarantee investment returns
+> Insurance transfers risk. The insurer pools many similar risks so the losses of a few are paid by the premiums of many.
+
+[i002] basics
+Which type of risk is insurable?
+- Speculative risk, where there is a chance of gain or loss
+* Pure risk, where there is only a chance of loss or no loss
+- Gambling risk
+- Market investment risk
+> Insurers cover pure risks (such as death or illness). Speculative risks, like gambling or investing, are not insurable.
+
+[i003] basics
+The law of large numbers states that:
+- Larger policies have lower premiums
+* The larger the group of similar risks, the more accurately losses can be predicted
+- Large insurers never become insolvent
+- All claims will be paid in full
+> Predictable losses let insurers set adequate premiums. That is why they insure large pools of similar risks.
+
+[i004] basics
+For life insurance, insurable interest must exist:
+- At the time of the claim only
+* At the time of application
+- Every year the policy is in force
+- Only for business policies
+> Insurable interest is required when the policy is applied for. It does not have to exist when the claim is paid.
+
+[i005] basics
+The tendency of people with higher risk to seek or keep insurance more than others is called:
+- Moral hazard
+* Adverse selection
+- Morale hazard
+- Indemnity
+> Underwriting protects the insurer against adverse selection by classifying and pricing risks correctly.
+
+[i006] basics
+The four essential elements of a legal insurance contract are:
+* Offer and acceptance, consideration, competent parties, and legal purpose
+- Application, premium, agent, and receipt
+- Policy, rider, endorsement, and beneficiary
+- Insurer, insured, owner, and beneficiary
+> All four elements are required for the contract to be legally enforceable.
+
+[i007] basics
+In an insurance contract, the applicant's consideration is:
+- The death benefit
+* The completed application and the payment of the initial premium
+- The agent's commission
+- The policy delivery receipt
+> Consideration is the value each party gives. The insurer's consideration is its promise to pay covered losses.
+
+[i008] basics
+Insurance contracts are called aleatory because:
+- Only the insurer signs them
+* The exchange of values is unequal and depends on an uncertain event
+- They are written by the insurer
+- They can be canceled at any time
+> A small premium may lead to a large payment, or no payment at all, depending on whether a loss occurs.
+
+[i009] basics
+Because the insurer writes the policy and the applicant can only accept or reject it, ambiguities are interpreted in favor of the insured. This makes the policy a contract of:
+- Indemnity
+- Utmost good faith
+* Adhesion
+- Conditional receipt
+> In a contract of adhesion, the drafter (the insurer) bears the risk of unclear wording.
+
+[i010] basics
+An insurance policy is a unilateral contract, which means:
+- Both parties make legally enforceable promises
+* Only the insurer makes a legally enforceable promise
+- The insured must pay premiums for life
+- The agent can change the terms
+> The insured is not legally required to keep paying premiums, but the insurer must pay covered claims while the policy is in force.
+
+[i011] basics
+Statements in an application that the applicant believes to be true to the best of their knowledge are:
+- Warranties
+* Representations
+- Concealments
+- Riders
+> Representations need only be true to the best of the applicant's knowledge. Warranties are guaranteed to be true.
+
+[i012] basics
+Intentionally withholding a material fact that would affect the insurer's decision is called:
+- Representation
+- Waiver
+* Concealment
+- Estoppel
+> Concealment of material facts can allow the insurer to void the contract, usually within the contestable period.
+
+[i013] basics
+The authority that the public reasonably believes an agent has, based on the insurer's actions, is:
+- Express authority
+- Implied authority
+* Apparent authority
+- Limited authority
+> Express authority is written in the agent contract; implied authority is what is needed to carry it out; apparent authority comes from appearances.
+
+[i014] basics
+Premiums collected by an agent on behalf of an insurer must be handled in a fiduciary capacity. Mixing them with personal funds is called:
+- Rebating
+- Twisting
+* Commingling
+- Sliding
+> Agents must keep premium funds separate and forward them promptly. Commingling is prohibited.
+
+[i015] basics
+The Medical Information Bureau (MIB) is used by insurers to:
+- Pay medical claims
+* Share underwriting information to help detect misrepresentation
+- Approve doctors
+- Sell health insurance
+> MIB information alone cannot be the sole reason to decline an applicant.
+
+[i016] basics
+Under the Fair Credit Reporting Act, if an applicant is declined based on a consumer report, the insurer must:
+* Notify the applicant and identify the reporting agency
+- Keep the reason secret
+- Charge a higher premium without notice
+- Cancel all of the applicant's other policies
+> Consumers have the right to know when a consumer report is used and to dispute inaccurate information.
+
+[i017] basics
+A mutual insurance company is owned by its:
+- Stockholders
+* Policyholders
+- Agents
+- State government
+> Mutual companies usually issue participating policies that may pay dividends to policyholders.
+
+[i018] basics
+An insurer incorporated in another U.S. state but doing business in your state is a:
+- Domestic insurer
+* Foreign insurer
+- Alien insurer
+- Fraternal insurer
+> Domestic: formed in this state. Foreign: formed in another state. Alien: formed in another country.
+
+[i019] basics
+A conditional receipt given with the initial premium generally provides coverage:
+- Only after the policy is delivered
+* From the date of application or medical exam (whichever is later), if the applicant is insurable as applied for
+- Even if the applicant is uninsurable
+- Only for accidental death
+> If the applicant qualifies as applied for, coverage is effective as of the application or exam date.
+
+[i020] basics
+When a new life insurance policy will replace an existing one, the agent generally must:
+- Hide the replacement from the existing insurer
+* Follow the state's replacement rules, including required notices and comparisons
+- Cancel the old policy first
+- Charge an extra fee
+> Replacement rules protect consumers from losing benefits. Unnecessary replacement may be twisting or churning.
+
+[i021] life
+Term life insurance provides:
+* Temporary protection for a specified period, with no cash value
+- Lifetime protection with cash value
+- Investment accounts only
+- Income for life
+> Term is pure protection. If the insured outlives the term, no benefit is paid.
+
+[i022] life
+In level term insurance, the:
+- Face amount decreases every year
+* Face amount stays the same during the term
+- Premium increases every month
+- Policy builds cash value
+> Level term keeps the same death benefit; premiums are often level for the term as well.
+
+[i023] life
+Decreasing term insurance is commonly used to:
+- Fund retirement
+* Cover a debt that decreases over time, such as a mortgage
+- Build cash value
+- Pay for long-term care
+> The face amount decreases over the term, matching a declining loan balance.
+
+[i024] life
+A renewable term policy allows the insured to:
+* Renew coverage without evidence of insurability, at a premium based on attained age
+- Convert to an annuity
+- Keep the original premium forever
+- Borrow against the cash value
+> Premiums increase at each renewal because the insured is older, but no new medical underwriting is required.
+
+[i025] life
+A convertible term policy allows the insured to:
+- Increase the face amount every year
+* Change to permanent insurance without evidence of insurability
+- Receive dividends
+- Skip premiums
+> Conversion protects insurability: the insured can switch to whole life even after becoming uninsurable.
+
+[i026] life
+Whole life insurance provides:
+- Coverage for 20 years only
+* Lifetime protection with level premiums and guaranteed cash values
+- Flexible premiums and investment choices
+- Coverage only for accidents
+> Whole life matures (endows) at a stated age such as 100 or 121 and builds guaranteed cash value.
+
+[i027] life
+In a limited-pay whole life policy, premiums are paid:
+* For a limited period (such as 20 years or to age 65), but coverage lasts for life
+- For life, but coverage ends at 65
+- Only once
+- Only in years the insured chooses
+> Because premiums are compressed into fewer years, they are higher and cash value builds faster.
+
+[i028] life
+A single premium whole life policy:
+- Requires monthly premiums for life
+* Is paid with one lump-sum premium and has immediate cash value
+- Has no cash value
+- Is a type of term insurance
+> A single large premium creates immediate cash value; such policies are often modified endowment contracts.
+
+[i029] life
+Universal life insurance is known for:
+- Fixed premiums and fixed death benefit
+* Flexible premiums and an adjustable death benefit, with cash value credited with current interest
+- Investment in mutual funds only
+- Having no cash value
+> The policyowner can change premium payments and the face amount within limits; there is a guaranteed minimum interest rate.
+
+[i030] life
+Under universal life death benefit Option B (Option 2), the death benefit equals:
+- The face amount only
+* The face amount plus the cash value
+- The cash value only
+- The premiums paid
+> Option A is level (face amount); Option B is increasing (face amount plus cash value).
+
+[i031] life
+To sell variable life insurance, an agent needs:
+- Only a life insurance license
+* A life insurance license and a securities registration (FINRA)
+- A property and casualty license
+- No license
+> Variable products invest in separate accounts and are considered securities.
+
+[i032] life
+In variable life insurance, the cash value is invested in:
+- The insurer's general account with a guaranteed rate
+* Separate accounts chosen by the policyowner, so values can rise or fall
+- Government bonds only
+- A savings account
+> The policyowner bears the investment risk. The death benefit typically has a guaranteed minimum.
+
+[i033] life
+A joint life (first-to-die) policy pays the death benefit:
+* When the first of the insureds dies
+- Only when both insureds die
+- When the youngest insured turns 65
+- Only for accidental deaths
+> Joint life covers two or more people and pays once, at the first death.
+
+[i034] life
+A survivorship (second-to-die) policy is often used for:
+- Mortgage protection
+* Estate tax planning, paying at the second death
+- Paying for college
+- Disability income
+> Survivorship life pays when the last insured dies, often when estate taxes are due.
+
+[i035] life
+Modified whole life insurance has:
+* Lower premiums for the first few years, then higher level premiums
+- Premiums that decrease every year
+- No premiums after the first year
+- No cash value
+> Modified whole life helps people whose income is expected to grow, such as young professionals.
+
+[i036] life
+An accelerated (living) benefit rider allows:
+- Premiums to be paid faster
+* The insured to receive part of the death benefit early if terminally or chronically ill
+- The beneficiary to be changed
+- The policy to be converted to term
+> Any amount paid early reduces the death benefit paid to the beneficiary.
+
+[i037] life
+A guaranteed insurability rider allows the insured to:
+* Buy additional coverage at specified ages or life events without proof of insurability
+- Skip premiums when disabled
+- Receive double the benefit for accidental death
+- Cover a spouse
+> Typical option dates include certain birthdays, marriage or the birth of a child.
+
+[i038] life
+Credit life insurance:
+- Pays the insured's family
+* Pays off the insured's loan balance to the creditor, and cannot exceed the debt
+- Builds large cash values
+- Is always permanent insurance
+> Credit life is usually decreasing term, with the creditor as beneficiary.
+
+[i039] life
+Most group life insurance is issued as:
+- Whole life
+* Annually renewable term
+- Variable universal life
+- Endowment
+> Group life is usually yearly renewable term; members often may convert to individual coverage when leaving the group.
+
+[i040] life
+In indexed universal life, interest credited to the cash value is:
+- Fixed for life at issue
+* Linked to the performance of a market index, usually with a minimum floor and a cap
+- Paid from separate accounts
+- Never credited
+> Indexed products offer some upside linked to an index while protecting against losses through a floor.
+
+[i041] provisions
+The entire contract provision states that:
+* The policy and a copy of the attached application make up the entire contract
+- The agent can add verbal promises later
+- The insurer may change the policy at any time
+- Only the application matters
+> Nothing outside the policy and attached application can be part of the contract, and the insurer cannot change it without the owner's consent.
+
+[i042] provisions
+After a life policy has been in force for a certain period (usually 2 years), the insurer cannot contest it for misstatements in the application. This is the:
+- Grace period
+* Incontestability clause
+- Free look provision
+- Reinstatement provision
+> After the contestable period, the insurer generally cannot void the policy because of misstatements, with limited exceptions.
+
+[i043] provisions
+During the grace period of a life insurance policy (commonly 30 or 31 days):
+- The policy is canceled
+* Coverage continues; if the insured dies, the unpaid premium is deducted from the benefit
+- No death benefit is paid
+- The premium doubles
+> The grace period prevents an unintended lapse for late payment.
+
+[i044] provisions
+If the insured's age was misstated on the application, the insurer will usually:
+- Void the policy
+* Adjust the benefit to what the premium paid would have bought at the correct age
+- Pay double the face amount
+- Refund all premiums with interest
+> The misstatement of age provision adjusts benefits instead of canceling the policy.
+
+[i045] provisions
+Under a typical suicide clause, if the insured commits suicide within the first two years, the insurer:
+- Pays the full death benefit
+* Refunds the premiums paid instead of paying the death benefit
+- Pays half the death benefit
+- Cancels coverage for the beneficiary only
+> After the suicide exclusion period, suicide is covered like any other cause of death.
+
+[i046] provisions
+To reinstate a lapsed life policy (often within 3 years), the owner usually must:
+* Provide evidence of insurability and pay back premiums with interest
+- Buy a new policy at a new age
+- Pay only the next premium
+- Wait 10 years
+> Reinstatement restores the original policy; a new contestable period may apply to the reinstatement application.
+
+[i047] provisions
+The free look provision allows a new policyowner to:
+- Skip the first premium
+* Return the policy within a set number of days for a full refund
+- Change the beneficiary without notice
+- Borrow the full face amount
+> Free look periods are set by state law and are often 10 days, longer for some products and replacements.
+
+[i048] provisions
+If a policyowner dies with an outstanding policy loan, the insurer will:
+- Collect the loan from the beneficiary's own funds
+* Deduct the loan balance plus interest from the death benefit
+- Cancel the loan
+- Refuse to pay the claim
+> Policy loans are not required to be repaid, but any balance reduces the benefit.
+
+[i049] provisions
+The automatic premium loan provision:
+* Prevents a lapse by paying an overdue premium with a loan against the cash value
+- Increases the face amount automatically
+- Pays premiums when the insured is disabled
+- Applies only to term insurance
+> It works only if the policy has enough cash value to cover the premium.
+
+[i050] provisions
+Which nonforfeiture option provides the same face amount as the original policy for a shorter period of time?
+- Cash surrender
+- Reduced paid-up
+* Extended term
+- Interest only
+> Extended term uses the cash value to buy term insurance for the full face amount. It is often the automatic option.
+
+[i051] provisions
+The reduced paid-up nonforfeiture option provides:
+- A lump sum of cash
+* A smaller amount of permanent coverage with no further premiums
+- The full face amount for a limited time
+- An annuity for life
+> The cash value buys a paid-up whole life policy with a lower face amount.
+
+[i052] provisions
+Dividends paid on participating life insurance policies are generally:
+- Taxable as ordinary income
+* Considered a return of excess premium and not taxable
+- Guaranteed every year
+- Paid only on term policies
+> Dividends are not guaranteed. Interest earned on accumulated dividends is taxable.
+
+[i053] provisions
+Under the interest only settlement option, the insurer:
+* Holds the death proceeds and pays the beneficiary only the interest earned
+- Pays the full amount immediately
+- Pays equal installments for a fixed number of years
+- Pays income for the beneficiary's life
+> The principal can be paid later, for example to a contingent beneficiary.
+
+[i054] provisions
+A settlement option that pays the proceeds plus interest in installments over a specified number of years is:
+- Life income
+* Fixed period
+- Fixed amount
+- Lump sum
+> With fixed period, the time is set and the payment size is calculated. With fixed amount, the payment size is set.
+
+[i055] provisions
+The life income settlement option:
+- Pays for 10 years only
+* Guarantees payments for as long as the beneficiary lives
+- Pays only interest
+- Is a lump sum
+> Life income works like an annuity for the beneficiary.
+
+[i056] provisions
+A contingent beneficiary receives the death benefit:
+- Before the primary beneficiary
+* Only if the primary beneficiary has died before the insured
+- Along with the primary beneficiary in all cases
+- Only if the insured is still alive
+> The contingent (secondary) beneficiary is the backup to the primary beneficiary.
+
+[i057] provisions
+An irrevocable beneficiary:
+- Can be changed by the policyowner at any time
+* Must consent before the policyowner can change the beneficiary or take certain actions, such as loans
+- Has no rights at all
+- Is always the insured's estate
+> An irrevocable beneficiary has a vested interest in the policy.
+
+[i058] provisions
+Under the Uniform Simultaneous Death Act, if the insured and the primary beneficiary die at the same time and the order cannot be determined, the proceeds are paid:
+* As if the insured survived the primary beneficiary (to the contingent beneficiary or the insured's estate)
+- To the primary beneficiary's estate
+- To the insurer
+- Equally to all relatives
+> This prevents the proceeds from passing through the primary beneficiary's estate.
+
+[i059] provisions
+A spendthrift clause protects:
+- The insurer from lawsuits
+* Death proceeds from the beneficiary's creditors before they are paid
+- The agent from losing commissions
+- The policyowner from paying premiums
+> It is used with installment settlement options to protect beneficiaries who may mismanage money.
+
+[i060] provisions
+The waiver of premium rider:
+- Doubles the death benefit for accidents
+* Waives premiums if the insured becomes totally disabled, after a waiting period
+- Lets the insured buy more coverage later
+- Pays the insured's medical bills
+> A typical waiting period is about six months, and premiums paid during it are often refunded.
+
+[i061] annuities
+The main purpose of an annuity is to:
+- Create an estate at death
+* Provide a stream of income, especially income that cannot be outlived
+- Pay medical expenses
+- Replace life insurance for young families
+> Life insurance creates an estate; an annuity systematically liquidates one.
+
+[i062] annuities
+During the accumulation period of a deferred annuity:
+* Premiums are paid and earnings grow tax-deferred
+- Income payments are made to the annuitant
+- The annuity cannot earn interest
+- Withdrawals are always tax-free
+> The annuitization (payout) period begins when the owner starts receiving income.
+
+[i063] annuities
+Under current federal law (SECURE 2.0), required minimum distributions from a traditional IRA generally must begin at age:
+- 59½
+- 65
+* 73
+- 80
+> RMDs generally start at 73 for people who reach age 72 after 2022, rising to 75 later under the same law. Roth IRAs have no RMDs for the original owner.
+
+[i064] annuities
+An immediate annuity:
+- Is paid for with monthly premiums for 30 years
+* Is bought with a single premium, and income payments begin within one year
+- Never pays income
+- Is a type of term life insurance
+> Immediate annuities are often called SPIAs (single premium immediate annuities).
+
+[i065] annuities
+Which annuity payout option pays the highest monthly income for a single annuitant?
+* Straight life (life only)
+- Life with 10-year period certain
+- Joint and survivor
+- Cash refund
+> Straight life pays only while the annuitant lives, with nothing left to beneficiaries, so it pays the most per month.
+
+[i066] annuities
+Under a life with period certain option, if the annuitant dies before the period ends:
+- Payments stop immediately
+* The beneficiary receives the remaining guaranteed payments
+- The insurer keeps all funds
+- The beneficiary receives double payments
+> Payments last for life, but are guaranteed for at least the period certain.
+
+[i067] annuities
+A joint and survivor annuity:
+- Stops when the first annuitant dies
+* Continues payments as long as either annuitant is alive
+- Pays only one lump sum
+- Covers more than ten annuitants
+> Payments to the survivor may be the full amount or a reduced percentage, as chosen.
+
+[i068] annuities
+In a fixed annuity, the investment risk is carried by:
+* The insurance company
+- The annuitant
+- The agent
+- The beneficiary
+> Fixed annuities credit a guaranteed minimum rate, and the insurer guarantees the payments.
+
+[i069] annuities
+In a variable annuity, the investment risk is carried by:
+- The insurance company
+* The annuitant (contract owner)
+- The state guaranty fund
+- The agent
+> Variable annuities invest in separate accounts, and values rise or fall with the investments.
+
+[i070] annuities
+Surrender charges on an annuity:
+- Are charged only after age 65
+* Apply to withdrawals or surrender during the early years of the contract
+- Are a tax penalty
+- Never apply to deferred annuities
+> Surrender charges usually decline each year until they disappear.
+
+[i071] annuities
+Withdrawals of earnings from a nonqualified annuity before age 59½ generally face:
+- No tax at all
+* Ordinary income tax on the earnings plus a 10% federal penalty, unless an exception applies
+- Capital gains tax only
+- A 50% penalty
+> Exceptions include death and disability. The 10% penalty applies to the taxable portion.
+
+[i072] annuities
+Partial withdrawals from a nonqualified deferred annuity are generally taxed:
+* As earnings first (taxable), then as a return of principal
+- As principal first (tax-free), then earnings
+- Never
+- At a flat 15% rate
+> This "last-in, first-out" treatment means gains come out first and are taxed as ordinary income.
+
+[i073] annuities
+The exclusion ratio determines:
+- The surrender charge
+* The portion of each annuity payment that is a tax-free return of principal
+- The amount of the death benefit
+- The agent's commission
+> The rest of each payment is interest (earnings) and is taxable.
+
+[i074] annuities
+Life insurance death benefits paid to a named beneficiary in a lump sum are generally:
+- Taxed as ordinary income
+* Not subject to federal income tax
+- Taxed as capital gains
+- Subject to a 10% penalty
+> Interest earned if proceeds are paid in installments is taxable, but the death benefit itself generally is not.
+
+[i075] annuities
+Premiums paid by an individual for personal life insurance are:
+- Fully tax-deductible
+* Not tax-deductible
+- Deductible only after age 65
+- Deductible as a business expense in all cases
+> Because premiums are not deductible, the death benefit is generally received income-tax free.
+
+[i076] annuities
+The growth of cash value inside a life insurance policy is:
+* Tax-deferred
+- Taxed every year
+- Taxed at a 50% rate
+- Taxed only if the insured dies
+> Gains are taxed only if the policy is surrendered for more than the owner's cost basis.
+
+[i077] annuities
+A life insurance policy that fails the "7-pay test" becomes a:
+- Term policy
+* Modified endowment contract (MEC)
+- Variable annuity
+- Group policy
+> Loans and withdrawals from a MEC are taxed as earnings first and may face a 10% penalty before 59½.
+
+[i078] annuities
+A Section 1035 exchange allows:
+- A tax-free exchange of an annuity for a life insurance policy
+* A tax-free exchange of a life insurance policy for another life policy or an annuity
+- Cashing out a policy without tax
+- Transferring a policy to a new beneficiary
+> Life to life, life to annuity, and annuity to annuity qualify. Annuity to life does not.
+
+[i079] annuities
+Qualified distributions from a Roth IRA are:
+- Fully taxable
+* Tax-free
+- Taxed at capital gains rates
+- Subject to a 10% penalty
+> Roth contributions are made with after-tax dollars, so qualified withdrawals are tax-free.
+
+[i080] annuities
+During the accumulation period, a variable annuity owner's account value is measured in:
+* Accumulation units
+- Annuity units
+- Shares of the insurer's stock
+- Dividend credits
+> During payout, the accumulation units are converted to annuity units.
+
+[i081] health
+Disability income insurance is designed to:
+- Pay hospital bills
+* Replace a portion of income lost because of a disability
+- Pay for nursing home care only
+- Provide a death benefit
+> Benefits are usually limited to a percentage of earnings to keep an incentive to return to work.
+
+[i082] health
+In disability income insurance, the elimination period is:
+* The waiting period after the disability begins before benefits are paid
+- The period after issue when sickness is not covered
+- The maximum time benefits are paid
+- The grace period for premiums
+> A longer elimination period lowers the premium. It works like a deductible measured in time.
+
+[i083] health
+Which definition of total disability is most favorable to the insured?
+- Any occupation
+* Own occupation
+- Any gainful employment
+- Presumptive disability only after 5 years
+> Under own occupation, the insured is disabled if they cannot perform the duties of their own job, even if they could do other work.
+
+[i084] health
+A residual disability benefit:
+- Pays only if the insured is totally disabled
+* Pays a partial benefit based on lost income when the insured returns to work with reduced earnings
+- Pays the full benefit forever
+- Is a type of life insurance
+> Residual benefits encourage returning to work by making up part of the income loss.
+
+[i085] health
+The probationary period in a health policy is:
+- The waiting period before disability benefits start
+* A period after the policy is issued during which sickness is not covered
+- The time the agent has to deliver the policy
+- The free look period
+> Probationary periods discourage people from buying coverage only after they know they are sick. Accidents are usually covered immediately.
+
+[i086] health
+An accidental death and dismemberment (AD&D) policy pays the:
+* Principal sum for accidental death and a capital sum for certain losses, such as a limb or sight
+- Full benefit for death from illness
+- Hospital bills only
+- Disability income for life
+> The capital sum is a percentage of the principal sum, depending on the loss.
+
+[i087] health
+Major medical insurance typically includes:
+- No deductibles or coinsurance
+* A deductible, coinsurance, and an out-of-pocket maximum
+- Coverage for dental care only
+- Fixed daily cash payments
+> Major medical covers a broad range of medical expenses with high benefit limits.
+
+[i088] health
+With an 80/20 coinsurance provision, after the deductible is met:
+- The insured pays 80% of covered expenses
+* The insurer pays 80% and the insured pays 20% of covered expenses
+- The insurer pays everything
+- The doctor pays 20%
+> Coinsurance continues until the out-of-pocket maximum is reached.
+
+[i089] health
+Once the out-of-pocket maximum (stop-loss) is reached:
+- Coverage ends
+* The insurer pays 100% of covered expenses for the rest of the period
+- The insured pays 100%
+- Coinsurance changes to 50/50
+> The out-of-pocket maximum limits the insured's total cost sharing for covered services.
+
+[i090] health
+In an HMO, members usually must:
+* Choose a primary care physician who acts as a gatekeeper and gives referrals to specialists
+- See any doctor without referrals
+- Pay full price for every visit
+- Use only out-of-network providers
+> HMOs emphasize preventive care and generally cover only in-network care except emergencies.
+
+[i091] health
+A PPO allows members to:
+- Use only in-network doctors
+* Use out-of-network providers, but at a higher cost than in-network providers
+- Avoid all deductibles
+- Skip premium payments
+> PPOs negotiate discounted fees with network providers; members pay less when they stay in-network.
+
+[i092] health
+A Health Savings Account (HSA) must be paired with:
+- Any HMO plan
+* A qualified high-deductible health plan (HDHP)
+- A long-term care policy
+- A disability income policy
+> HSA contributions are tax-advantaged and withdrawals for qualified medical expenses are tax-free.
+
+[i093] health
+Under the uniform mandatory provisions, the grace period for a health policy with monthly premiums is at least:
+- 7 days
+* 10 days
+- 31 days
+- 60 days
+> The minimum is 7 days for weekly premiums, 10 days for monthly premiums, and 31 days for all others.
+
+[i094] health
+Under the time limit on certain defenses provision, after a health policy has been in force for a set period (typically 2 years), the insurer:
+* Cannot void the policy or deny a claim based on misstatements in the application, except fraudulent ones
+- Can cancel the policy for any reason
+- Must double the benefits
+- Can change the premium at will
+> This is the health insurance counterpart of the life incontestability clause.
+
+[i095] health
+Under the notice of claim provision, the insured should notify the insurer of a claim within:
+- 24 hours
+* 20 days of the loss, or as soon as reasonably possible
+- 1 year
+- 3 years
+> Notice of claim is followed by claim forms from the insurer and then proof of loss.
+
+[i096] health
+Under the uniform provisions, written proof of loss should generally be submitted within:
+- 10 days
+- 30 days
+* 90 days after the loss
+- 5 years
+> If it is not reasonably possible, proof may be accepted later, generally up to one year, unless the claimant lacks legal capacity.
+
+[i097] health
+Under the legal actions provision, the insured cannot sue the insurer until:
+* 60 days after proof of loss is submitted, and not later than 3 years after proof is required
+- 10 days after the loss
+- The policy is canceled
+- 5 years after the loss
+> This gives the insurer time to process the claim before legal action.
+
+[i098] health
+Coordination of benefits is used to:
+- Increase the total benefits paid
+* Prevent overinsurance when a person is covered by more than one group plan, by naming a primary and a secondary plan
+- Cancel duplicate policies
+- Set the deductible
+> The total paid by both plans cannot exceed the covered expenses.
+
+[i099] health
+Under the physical examination and autopsy provision, the insurer may:
+- Require the insured to pay for exams
+* Examine the insured at its own expense while a claim is pending, and request an autopsy where not prohibited by law
+- Deny all claims without exams
+- Cancel the policy if the insured is sick
+> The insurer bears the cost of any examinations it requests.
+
+[i100] health
+Which provision allows the insurer to reduce benefits if the insured changes to a more hazardous occupation?
+- Grace period
+* Change of occupation
+- Reinstatement
+- Entire contract
+> If the insured moves to a less hazardous job, the insurer may reduce the premium instead.
+
+[i101] groupmed
+In group insurance, the contract is issued to the employer as a master policy, and each covered member receives a:
+- Separate individual policy
+* Certificate of insurance
+- Conditional receipt
+- Buyer's guide
+> The employer (or other sponsor) is the policyholder. Members receive certificates describing coverage.
+
+[i102] groupmed
+Group insurance underwriting generally:
+* Evaluates the group as a whole, usually without individual evidence of insurability
+- Requires a medical exam for every member
+- Is based only on the oldest member
+- Is not allowed by law
+> Underwriters look at the group's size, purpose, industry and makeup. Groups must not be formed just to buy insurance.
+
+[i103] groupmed
+COBRA generally allows employees of employers with 20 or more employees to continue group health coverage after termination of employment for up to:
+- 6 months
+* 18 months
+- 5 years
+- Life
+> Some qualifying events for dependents allow up to 36 months. The individual may be charged up to 102% of the premium.
+
+[i104] groupmed
+HIPAA is best known for:
+- Creating Medicare
+* Health coverage portability and protecting the privacy of health information
+- Regulating life insurance agents' commissions
+- Setting Social Security benefits
+> HIPAA restricts the use and disclosure of protected health information.
+
+[i105] groupmed
+Medicare Part A primarily covers:
+* Inpatient hospital care
+- Doctors' services
+- Prescription drugs
+- Dental care
+> Part A also covers skilled nursing facility care after a qualifying hospital stay, hospice, and some home health care.
+
+[i106] groupmed
+Medicare Part B primarily covers:
+- Inpatient hospital care
+* Doctors' services and outpatient care
+- Long-term custodial care
+- Prescription drugs only
+> Most people pay a monthly premium for Part B, plus an annual deductible and coinsurance.
+
+[i107] groupmed
+Medicare Part C (Medicare Advantage) plans are:
+- Run only by the federal government
+* Offered by private insurers approved by Medicare
+- The same as Medigap
+- Only for people under 65
+> Medicare Advantage plans provide Part A and B benefits, often with extra benefits and drug coverage.
+
+[i108] groupmed
+Medicare Part D provides:
+- Hospital insurance
+- Long-term care
+* Prescription drug coverage
+- Disability income
+> Part D is offered through private plans approved by Medicare.
+
+[i109] groupmed
+Which group of people is generally eligible for Medicare?
+* People 65 and older, certain people under 65 with disabilities, and people with end-stage renal disease
+- Only people with low income
+- Only veterans
+- Only people who have never worked
+> Low-income assistance is mainly through Medicaid, a joint federal and state program.
+
+[i110] groupmed
+Medicare supplement (Medigap) policies are designed to:
+- Replace Medicare entirely
+* Help pay costs that Original Medicare does not cover, such as deductibles and coinsurance
+- Cover only prescription drugs
+- Be sold to people under 18
+> Medigap plans are standardized and identified by letters, so the same letter has the same core benefits from any insurer.
+
+[i111] groupmed
+The Medigap open enrollment period is the:
+- First 30 days after age 70
+* Six-month period that starts the month a person is 65 or older and enrolled in Medicare Part B
+- Any time the insured chooses
+- One week each January
+> During open enrollment, insurers cannot deny coverage or charge more because of health conditions.
+
+[i112] groupmed
+Medicaid is:
+- A federal program only for people 65 and older
+* A joint federal and state program for people with limited income and resources
+- A private insurance plan
+- Another name for Medigap
+> Medicaid can pay for long-term care for people who meet its financial requirements.
+
+[i113] groupmed
+Long-term care insurance benefits are commonly triggered when the insured:
+* Cannot perform a certain number of activities of daily living (often 2 of 6) or has a cognitive impairment
+- Is admitted to the hospital for one day
+- Turns 65
+- Has a broken arm
+> Policies may cover nursing home care, assisted living, adult day care, and home health care.
+
+[i114] groupmed
+Which of the following is an activity of daily living (ADL)?
+- Driving a car
+- Managing investments
+* Bathing
+- Shopping online
+> Common ADLs are bathing, dressing, eating, toileting, transferring, and continence.
+
+[i115] groupmed
+Offering a prospect anything of value not stated in the policy as an inducement to buy is called:
+- Twisting
+* Rebating
+- Churning
+- Defamation
+> Rebating is illegal in most states, with limited exceptions allowed by some state laws.
+
+[i116] groupmed
+Using misrepresentation to persuade a policyowner to drop a policy with one insurer and buy one from another is:
+* Twisting
+- Rebating
+- Commingling
+- Controlled business
+> Twisting is an unfair trade practice. Churning is a similar practice within the same insurer.
+
+[i117] groupmed
+Repeatedly replacing a client's policies with the same insurer mainly to earn new commissions is called:
+- Rebating
+- Twisting
+* Churning
+- Sliding
+> Churning harms clients through new costs, new contestable periods and lost values.
+
+[i118] groupmed
+Making false or malicious statements about an insurer's financial condition is called:
+- Rebating
+* Defamation
+- Misrepresentation of benefits
+- Coercion
+> Defamation of insurers is an unfair trade practice.
+
+[i119] groupmed
+Which of the following is an unfair claims settlement practice?
+* Failing to promptly acknowledge and investigate claims
+- Paying a valid claim quickly
+- Requesting proof of loss
+- Explaining a claim denial in writing
+> State laws require insurers to handle claims promptly and in good faith.
+
+[i120] groupmed
+The purpose of a life insurance Buyer's Guide is to:
+- Advertise a specific insurer
+* Help consumers understand and compare types of life insurance
+- Replace the policy
+- Serve as a conditional receipt
+> State rules set when the Buyer's Guide and policy summary must be delivered to the applicant.

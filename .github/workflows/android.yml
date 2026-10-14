@@ -1,0 +1,78 @@
+name: Android build
+
+on:
+  push:
+  workflow_dispatch:
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      flavors: ${{ steps.flavors.outputs.list }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.47.7
+          channel: stable
+          cache: true
+      - name: Question banks are rebuilt and committed
+        run: |
+          python3 tool/build_banks.py
+          git diff --exit-code -- assets/banks || (echo "Run python3 tool/build_banks.py and commit assets/banks" && exit 1)
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+      - id: flavors
+        name: List apps (one build job per apps/*.json)
+        run: echo "list=$(ls apps/*.json | xargs -n1 basename | sed 's/\.json$//' | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: check
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        flavor: ${{ fromJSON(needs.check.outputs.flavors) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.47.7
+          channel: stable
+          cache: true
+      - name: Release signing (only if the upload key secrets are set)
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          if [ -n "$KEYSTORE_B64" ]; then
+            echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+            echo "ANDROID_KEYSTORE_PATH=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+            echo "Signing with the upload key."
+          else
+            echo "::warning::No ANDROID_KEYSTORE_BASE64 secret: builds are debug-signed (fine for testing, not for Play upload)."
+          fi
+      - name: Build AAB (for Google Play) and APK (for testing)
+        env:
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          # Every CI run gets a higher versionCode, so any run can be uploaded.
+          flutter build appbundle --release --flavor ${{ matrix.flavor }} --build-number ${{ github.run_number }}
+          flutter build apk --release --flavor ${{ matrix.flavor }} --build-number ${{ github.run_number }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.flavor }}-build${{ github.run_number }}
+          path: |
+            build/app/outputs/bundle/${{ matrix.flavor }}Release/*.aab
+            build/app/outputs/flutter-apk/app-${{ matrix.flavor }}-release.apk
+          if-no-files-found: error
