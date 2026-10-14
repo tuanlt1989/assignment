@@ -1,0 +1,92 @@
+{
+ "arrowout": {
+  "id": "arrowout",
+  "game": "arrow",
+  "title": {
+   "en": "Arrow Out: Escape Puzzle",
+   "es": "Arrow Out: Puzzle de Flechas",
+   "pt": "Arrow Out: Quebra-Cabeça de Setas",
+   "vi": "Arrow Out: Giải Đố Mũi Tên",
+   "id": "Arrow Out: Puzzle Panah",
+   "de": "Arrow Out: Pfeil-Rätsel"
+  },
+  "color": "#00897B",
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/arrowout.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
+ },
+ "blockcrush": {
+  "id": "blockcrush",
+  "game": "blocks",
+  "title": {
+   "en": "Block Crush: 8x8 Puzzle",
+   "es": "Block Crush: Puzzle 8x8",
+   "pt": "Block Crush: Quebra-Cabeça 8x8",
+   "vi": "Block Crush: Xếp Khối 8x8",
+   "id": "Block Crush: Puzzle 8x8",
+   "de": "Block Crush: 8x8-Puzzle"
+  },
+  "color": "#1E88E5",
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/blockcrush.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
+ },
+ "busjam": {
+  "id": "busjam",
+  "game": "bus",
+  "title": {
+   "en": "Bus Jam: Traffic Escape",
+   "es": "Bus Jam: Escape del Tráfico",
+   "pt": "Bus Jam: Fuga do Trânsito",
+   "vi": "Bus Jam: Giải Cứu Kẹt Xe",
+   "id": "Bus Jam: Lolos Macet",
+   "de": "Bus Jam: Stau-Rätsel"
+  },
+  "color": "#F57C00",
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/busjam.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
+ },
+ "meowqueens": {
+  "id": "meowqueens",
+  "game": "queens",
+  "title": {
+   "en": "Meow Queens: Cat Logic Puzzle",
+   "es": "Meow Queens: Lógica de Gatos",
+   "pt": "Meow Queens: Lógica de Gatos",
+   "vi": "Meow Queens: Giải Đố Mèo",
+   "id": "Meow Queens: Logika Kucing",
+   "de": "Meow Queens: Katzen-Logikrätsel"
+  },
+  "color": "#8E24AA",
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/meowqueens.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
+ },
+ "pixelmunch": {
+  "id": "pixelmunch",
+  "game": "munch",
+  "title": {
+   "en": "Pixel Munch: Color Sort Puzzle",
+   "es": "Pixel Munch: Ordena Colores",
+   "pt": "Pixel Munch: Ordenar Cores",
+   "vi": "Pixel Munch: Ăn Pixel Màu",
+   "id": "Pixel Munch: Sortir Warna",
+   "de": "Pixel Munch: Farb-Sortierrätsel"
+  },
+  "color": "#E53935",
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/pixelmunch.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
+ }
+}

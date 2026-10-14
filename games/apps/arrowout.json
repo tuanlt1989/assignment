@@ -1,0 +1,41 @@
+{
+  "id": "arrowout",
+  "applicationId": "com.tuanlt.puzzle.arrowout",
+  "launcherName": "Arrow Out",
+  "game": "arrow",
+  "title": {
+    "en": "Arrow Out: Escape Puzzle",
+    "es": "Arrow Out: Puzzle de Flechas",
+    "pt": "Arrow Out: Quebra-Cabeça de Setas",
+    "vi": "Arrow Out: Giải Đố Mũi Tên",
+    "id": "Arrow Out: Puzzle Panah",
+    "de": "Arrow Out: Pfeil-Rätsel"
+  },
+  "color": "#00897B",
+  "icon": {
+    "label": "",
+    "badge": "",
+    "glyph": "arrow"
+  },
+  "suggestedPriceUsd": 2.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/arrowout.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children.",
+  "tagline": {
+    "en": "Tap the arrows out · Hundreds of levels · No ads"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Tap arrows to slide them out",
+      "Plan your moves — every level is solvable",
+      "A new daily challenge every day",
+      "Relaxing, no timer, no ads"
+    ]
+  },
+  "markets": [
+    "ALL"
+  ]
+}

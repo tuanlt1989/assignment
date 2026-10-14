@@ -1,0 +1,1 @@
+Um gato por linha, coluna e cor. Os gatos não se tocam! Desafio diário.

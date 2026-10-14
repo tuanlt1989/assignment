@@ -1,0 +1,41 @@
+{
+  "id": "meowqueens",
+  "applicationId": "com.tuanlt.puzzle.meowqueens",
+  "launcherName": "Meow Queens",
+  "game": "queens",
+  "title": {
+    "en": "Meow Queens: Cat Logic Puzzle",
+    "es": "Meow Queens: Lógica de Gatos",
+    "pt": "Meow Queens: Lógica de Gatos",
+    "vi": "Meow Queens: Giải Đố Mèo",
+    "id": "Meow Queens: Logika Kucing",
+    "de": "Meow Queens: Katzen-Logikrätsel"
+  },
+  "color": "#8E24AA",
+  "icon": {
+    "label": "",
+    "badge": "",
+    "glyph": "cat"
+  },
+  "suggestedPriceUsd": 2.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/meowqueens.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children.",
+  "tagline": {
+    "en": "One cat per row, column & color · Daily puzzle · No ads"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "One cat in every row, column and color",
+      "Cats can never touch — not even diagonally",
+      "Unique solution in every puzzle",
+      "A fresh daily brain teaser"
+    ]
+  },
+  "markets": [
+    "ALL"
+  ]
+}

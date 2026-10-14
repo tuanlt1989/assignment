@@ -1,0 +1,1 @@
+Un gato por fila, columna y color. ¡Los gatos no se tocan! Reto diario.

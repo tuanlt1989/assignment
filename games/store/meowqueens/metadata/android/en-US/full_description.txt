@@ -1,0 +1,14 @@
+A cosy logic puzzle for cat lovers. Place exactly one cat in every row, every column and every colored area — and remember, cats never touch each other, not even diagonally.
+
+No numbers, no math, just pure deduction.
+
+FEATURES
+• Every puzzle has exactly one solution, checked by a solver
+• Boards from 5×5 up to 9×9 as you progress
+• Daily puzzle to keep your brain sharp
+• Tap to mark X, tap again to place a cat
+• Hints when you're stuck
+• No ads. Works offline.
+
+GO UNLIMITED
+A single one-time purchase unlocks unlimited lives and hints forever. No subscription.

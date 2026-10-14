@@ -1,0 +1,41 @@
+{
+  "id": "pixelmunch",
+  "applicationId": "com.tuanlt.puzzle.pixelmunch",
+  "launcherName": "Pixel Munch",
+  "game": "munch",
+  "title": {
+    "en": "Pixel Munch: Color Sort Puzzle",
+    "es": "Pixel Munch: Ordena Colores",
+    "pt": "Pixel Munch: Ordenar Cores",
+    "vi": "Pixel Munch: Ăn Pixel Màu",
+    "id": "Pixel Munch: Sortir Warna",
+    "de": "Pixel Munch: Farb-Sortierrätsel"
+  },
+  "color": "#E53935",
+  "icon": {
+    "label": "",
+    "badge": "",
+    "glyph": "pixel"
+  },
+  "suggestedPriceUsd": 2.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/pixelmunch.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children.",
+  "tagline": {
+    "en": "Send eaters to munch the pixel art · Satisfying color puzzle"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Send the eaters to munch pixel art",
+      "Only open pixels of the same color",
+      "Plan your slots or get stuck",
+      "Satisfying levels, no ads"
+    ]
+  },
+  "markets": [
+    "ALL"
+  ]
+}

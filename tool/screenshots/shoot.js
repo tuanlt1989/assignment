@@ -3,14 +3,16 @@
 //   (cd build/web && python3 -m http.server 8765) &
 //   cd tool/screenshots && npm install && node shoot.js
 //   python3 tool/frame_screenshots.py
+// Games: ROOT=games SCENES=home,play,play2,play3 node shoot.js
 const { chromium } = require('playwright-core');
 const fs = require('fs');
 const path = require('path');
-const OUT = path.join(__dirname, '../../build/raw_screenshots');
+const ROOT = path.join(__dirname, '../..', process.env.ROOT || '.');
+const OUT = path.join(ROOT, 'build/raw_screenshots');
 fs.mkdirSync(OUT, { recursive: true });
 const CHROME = process.env.CHROME_PATH; // optional; otherwise Playwright's own Chromium
-const apps = fs.readdirSync(path.join(__dirname, '../../apps')).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5));
-const scenes = ['home', 'practice', 'exam', 'result'];
+const apps = fs.readdirSync(path.join(ROOT, 'apps')).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5));
+const scenes = (process.env.SCENES || 'home,practice,exam,result').split(',');
 (async () => {
   const browser = await chromium.launch(CHROME ? { executablePath: CHROME } : {});
   for (const app of apps) {

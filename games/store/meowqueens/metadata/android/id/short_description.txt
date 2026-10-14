@@ -1,0 +1,1 @@
+Satu kucing per baris, kolom, dan warna. Kucing tak boleh bersentuhan!

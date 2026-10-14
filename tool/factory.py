@@ -2,8 +2,9 @@
 """App factory: turns apps/*.json into everything the Android build and the
 Play listing need.
 
-    python3 tool/factory.py            # regenerate everything
-    python3 tool/factory.py --release  # also fail on placeholders / test ad ids
+    python3 tool/factory.py                    # exam apps (repo root)
+    python3 tool/factory.py --root games       # puzzle games project
+    python3 tool/factory.py --release          # also fail on placeholders / test ad ids
 
 Generates (all derived files, never edit by hand):
   assets/apps.json                              runtime config for every app
@@ -24,16 +25,20 @@ from xml.sax.saxutils import escape
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import graphics  # noqa: E402
 
-ROOT = Path(__file__).resolve().parent.parent
+REPO = Path(__file__).resolve().parent.parent
+ROOT = REPO
+if "--root" in sys.argv:
+    ROOT = (REPO / sys.argv[sys.argv.index("--root") + 1]).resolve()
 GRADLE = ROOT / "android/app/build.gradle.kts"
 TEST_AD_PREFIX = "ca-app-pub-3940256099942544"
+TEST_APP_ID = TEST_AD_PREFIX + "~3347511713"
 DENSITIES = {"mdpi": 1.0, "hdpi": 1.5, "xhdpi": 2.0, "xxhdpi": 3.0, "xxxhdpi": 4.0}
 LIMITS = {"title.txt": 30, "short_description.txt": 80, "full_description.txt": 4000}
-RUNTIME_KEYS = [
-    "id", "bank", "locales", "title", "color", "exam", "freeRatio",
-    "premiumProductId", "admob", "privacyPolicyUrl", "supportEmail",
-    "ads", "examBodies",
-]
+# Store/build-only keys; everything else in apps/<id>.json is shipped to the app.
+NOT_RUNTIME = {
+    "applicationId", "launcherName", "icon", "suggestedPriceUsd", "developerName",
+    "tagline", "screenshotCaptions", "markets",
+}
 
 
 def load_apps() -> list[dict]:
@@ -44,7 +49,7 @@ def load_apps() -> list[dict]:
             sys.exit(f"{p}: id '{app['id']}' must match the file name")
         if not re.fullmatch(r"[a-z][a-z0-9]*", app["id"]):
             sys.exit(f"{p}: id must be lowercase letters/digits (it is a Gradle flavor name)")
-        if not (ROOT / f"assets/banks/{app['bank']}.json").exists():
+        if "bank" in app and not (ROOT / f"assets/banks/{app['bank']}.json").exists():
             sys.exit(f"{p}: bank '{app['bank']}' not built — run tool/build_banks.py")
         apps.append(app)
     return apps
@@ -57,7 +62,7 @@ def ads_on(app: dict) -> bool:
 def release_problems(app: dict) -> list[str]:
     problems = []
     for k in ("appId", "banner", "interstitial"):
-        if ads_on(app) and app["admob"][k].startswith(TEST_AD_PREFIX):
+        if ads_on(app) and app.get("admob", {}).get(k, TEST_AD_PREFIX).startswith(TEST_AD_PREFIX):
             problems.append(f"admob.{k} is still Google's TEST id (or set \"ads\": false)")
     for k in ("supportEmail", "developerName"):
         if "CHANGE_ME" in app[k]:
@@ -66,7 +71,7 @@ def release_problems(app: dict) -> list[str]:
 
 
 def write_runtime(apps: list[dict]) -> None:
-    out = {a["id"]: {k: a[k] for k in RUNTIME_KEYS if k in a} for a in apps}
+    out = {a["id"]: {k: v for k, v in a.items() if k not in NOT_RUNTIME} for a in apps}
     (ROOT / "assets/apps.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
 
 
@@ -81,7 +86,7 @@ def write_gradle(apps: list[dict]) -> None:
             f'        create({kts_str(a["id"])}) {{',
             '            dimension = "app"',
             f'            applicationId = {kts_str(a["applicationId"])}',
-            f'            manifestPlaceholders["admobAppId"] = {kts_str(a["admob"]["appId"])}',
+            f'            manifestPlaceholders["admobAppId"] = {kts_str(a.get("admob", {}).get("appId", TEST_APP_ID))}',
             "        }",
         ]
     src = GRADLE.read_text()
@@ -185,7 +190,7 @@ PRIVACY = """<!doctype html>
 <h2>Purchases</h2>
 <p>The optional one-time purchase is processed by Google Play. We do not receive your payment details; Google Play tells the app only whether the purchase is active.</p>
 <h2>Children</h2>
-<p>The app is a study tool for adults preparing for a professional license exam and is not directed to children under 13.</p>
+<p>{children}</p>
 <h2>Contact</h2>
 <p>Questions or deletion requests: <a href="mailto:{email}">{email}</a></p>
 <h2>Changes</h2>
@@ -213,6 +218,7 @@ def write_privacy(app: dict) -> None:
             email=html.escape(app["supportEmail"]),
             date=date.today().isoformat(),
             ads_section=ADS_SECTION if ads_on(app) else NO_ADS_SECTION,
+            children=html.escape(app.get("childrenNote", "The app is a study tool for adults preparing for a professional license exam and is not directed to children under 13.")),
         )
     )
 

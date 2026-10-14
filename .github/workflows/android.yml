@@ -24,12 +24,19 @@ jobs:
         run: |
           python3 tool/build_banks.py
           git diff --exit-code -- assets/banks || (echo "Run python3 tool/build_banks.py and commit assets/banks" && exit 1)
-      - run: flutter pub get
-      - run: flutter analyze
-      - run: flutter test
+      - name: Exam apps - analyze and test
+        run: flutter pub get && flutter analyze && flutter test
+      - name: Puzzle games - analyze and test
+        working-directory: games
+        run: flutter pub get && flutter analyze && flutter test
       - id: flavors
-        name: List apps (one build job per apps/*.json)
-        run: echo "list=$(ls apps/*.json | xargs -n1 basename | sed 's/\.json$//' | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+        name: List apps (one build job per apps/*.json and games/apps/*.json)
+        run: |
+          {
+            for f in apps/*.json; do jq -nc --arg f "$(basename "$f" .json)" '{dir: ".", flavor: $f}'; done
+            for f in games/apps/*.json; do jq -nc --arg f "$(basename "$f" .json)" '{dir: "games", flavor: $f}'; done
+          } | jq -sc . > flavors.json
+          echo "list=$(cat flavors.json)" >> "$GITHUB_OUTPUT"
 
   build:
     needs: check
@@ -37,7 +44,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        flavor: ${{ fromJSON(needs.check.outputs.flavors) }}
+        app: ${{ fromJSON(needs.check.outputs.flavors) }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
@@ -61,18 +68,19 @@ jobs:
             echo "::warning::No ANDROID_KEYSTORE_BASE64 secret: builds are debug-signed (fine for testing, not for Play upload)."
           fi
       - name: Build AAB (for Google Play) and APK (for testing)
+        working-directory: ${{ matrix.app.dir }}
         env:
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
           # Every CI run gets a higher versionCode, so any run can be uploaded.
-          flutter build appbundle --release --flavor ${{ matrix.flavor }} --build-number ${{ github.run_number }}
-          flutter build apk --release --flavor ${{ matrix.flavor }} --build-number ${{ github.run_number }}
+          flutter build appbundle --release --flavor ${{ matrix.app.flavor }} --build-number ${{ github.run_number }}
+          flutter build apk --release --flavor ${{ matrix.app.flavor }} --build-number ${{ github.run_number }}
       - uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.flavor }}-build${{ github.run_number }}
+          name: ${{ matrix.app.flavor }}-build${{ github.run_number }}
           path: |
-            build/app/outputs/bundle/${{ matrix.flavor }}Release/*.aab
-            build/app/outputs/flutter-apk/app-${{ matrix.flavor }}-release.apk
+            ${{ matrix.app.dir }}/build/app/outputs/bundle/${{ matrix.app.flavor }}Release/*.aab
+            ${{ matrix.app.dir }}/build/app/outputs/flutter-apk/app-${{ matrix.app.flavor }}-release.apk
           if-no-files-found: error

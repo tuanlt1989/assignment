@@ -85,6 +85,37 @@ def _glyph(d: ImageDraw.ImageDraw, kind: str, cx: float, cy: float, s: float, fg
             x = cx - s * 0.72 + i * s * 0.48
             d.rectangle([x - s * 0.1, cy - s * 0.38, x + s * 0.1, cy + s * 0.55], fill=fg)
         d.rectangle([cx - s * 1.0, cy + s * 0.62, cx + s * 1.0, cy + s * 0.82], fill=fg)
+    elif kind == "arrow":
+        w = s * 0.28
+        d.rectangle([cx - w, cy - s * 0.2, cx + w, cy + s * 1.0], fill=fg)
+        d.polygon([(cx, cy - s * 1.0), (cx + s * 0.85, cy - s * 0.1), (cx - s * 0.85, cy - s * 0.1)], fill=fg)
+    elif kind == "cat":
+        # Cat head with ears and eyes.
+        d.ellipse([cx - s * 0.9, cy - s * 0.6, cx + s * 0.9, cy + s * 0.95], fill=fg)
+        d.polygon([(cx - s * 0.85, cy - s * 0.2), (cx - s * 0.75, cy - s * 1.0), (cx - s * 0.2, cy - s * 0.55)], fill=fg)
+        d.polygon([(cx + s * 0.85, cy - s * 0.2), (cx + s * 0.75, cy - s * 1.0), (cx + s * 0.2, cy - s * 0.55)], fill=fg)
+        for ex in (-0.35, 0.35):
+            d.ellipse([cx + s * ex - s * 0.13, cy - s * 0.05, cx + s * ex + s * 0.13, cy + s * 0.25], fill=accent)
+        d.polygon([(cx - s * 0.1, cy + s * 0.38), (cx + s * 0.1, cy + s * 0.38), (cx, cy + s * 0.5)], fill=accent)
+    elif kind == "blocks":
+        g = s * 0.62
+        for (i, j) in [(-1, -1), (0, -1), (-1, 0), (0, 0), (1, 0), (0, 1)]:
+            x, y = cx + i * g - g / 2 + g * 0.5 * 0, cy + j * g - g / 2
+            d.rounded_rectangle([x + g * 0.06, y + g * 0.06, x + g * 0.94, y + g * 0.94], radius=g * 0.18, fill=fg)
+    elif kind == "pixel":
+        g = s * 0.5
+        heart = [".XX.XX.", "XXXXXXX", "XXXXXXX", ".XXXXX.", "..XXX..", "...X..."]
+        for j, row in enumerate(heart):
+            for i, ch in enumerate(row):
+                if ch == "X":
+                    x, y = cx + (i - 3.5) * g * 0.6, cy + (j - 3) * g * 0.6
+                    d.rectangle([x, y, x + g * 0.55, y + g * 0.55], fill=fg)
+    elif kind == "bus":
+        d.rounded_rectangle([cx - s * 0.85, cy - s * 0.95, cx + s * 0.85, cy + s * 0.75], radius=s * 0.25, fill=fg)
+        d.rounded_rectangle([cx - s * 0.65, cy - s * 0.7, cx + s * 0.65, cy - s * 0.1], radius=s * 0.1, fill=accent)
+        for wx in (-0.5, 0.5):
+            d.ellipse([cx + s * wx - s * 0.2, cy + s * 0.6, cx + s * wx + s * 0.2, cy + s * 1.0], fill=fg)
+            d.ellipse([cx + s * wx - s * 0.1, cy + s * 0.3, cx + s * wx + s * 0.1, cy + s * 0.5], fill=accent)
     else:
         d.ellipse([cx - s, cy - s, cx + s, cy + s], fill=fg)
 
@@ -108,8 +139,9 @@ def draw_mark(size: int, app: dict, transparent: bool, safe: float = 1.0) -> Ima
     icon = app["icon"]
     label = icon.get("label", "")
     glyph_cy = c - k * 0.1 if label else c
-    _glyph(d, icon.get("glyph", ""), c, glyph_cy, k * 0.24, (255, 255, 255), shade(base, 0.85))
-    _check_badge(d, c + k * 0.22, glyph_cy + k * 0.2, k * 0.1, shade(base, 0.9))
+    _glyph(d, icon.get("glyph", ""), c, glyph_cy, k * (0.24 if label else 0.3), (255, 255, 255), shade(base, 0.85))
+    if label:
+        _check_badge(d, c + k * 0.22, glyph_cy + k * 0.2, k * 0.1, shade(base, 0.9))
     if label:
         f = font(int(k * 0.13))
         tw = d.textlength(label, font=f)

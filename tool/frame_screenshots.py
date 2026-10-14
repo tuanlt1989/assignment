@@ -17,8 +17,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import graphics  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
+if "--root" in sys.argv:
+    ROOT = (ROOT / sys.argv[sys.argv.index("--root") + 1]).resolve()
 RAW = ROOT / "build/raw_screenshots"
 SCENES = ["home", "practice", "exam", "result"]
+if "--scenes" in sys.argv:
+    SCENES = sys.argv[sys.argv.index("--scenes") + 1].split(",")
 W, H = 1080, 1920
 
 

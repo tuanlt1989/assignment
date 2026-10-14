@@ -1,0 +1,1 @@
+Eine Katze pro Zeile, Spalte und Farbe. Katzen berühren sich nie!

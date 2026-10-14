@@ -1,0 +1,1 @@
+Mỗi hàng, cột, vùng màu một con mèo. Mèo không được chạm nhau!

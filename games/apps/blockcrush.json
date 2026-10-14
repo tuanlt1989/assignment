@@ -1,0 +1,41 @@
+{
+  "id": "blockcrush",
+  "applicationId": "com.tuanlt.puzzle.blockcrush",
+  "launcherName": "Block Crush",
+  "game": "blocks",
+  "title": {
+    "en": "Block Crush: 8x8 Puzzle",
+    "es": "Block Crush: Puzzle 8x8",
+    "pt": "Block Crush: Quebra-Cabeça 8x8",
+    "vi": "Block Crush: Xếp Khối 8x8",
+    "id": "Block Crush: Puzzle 8x8",
+    "de": "Block Crush: 8x8-Puzzle"
+  },
+  "color": "#1E88E5",
+  "icon": {
+    "label": "",
+    "badge": "",
+    "glyph": "blocks"
+  },
+  "suggestedPriceUsd": 2.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/blockcrush.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children.",
+  "tagline": {
+    "en": "Drag, drop, clear lines · Combos · Beat your best"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Drag blocks onto the 8×8 board",
+      "Clear rows and columns for big combos",
+      "Beat your best score",
+      "Simple to learn, hard to master"
+    ]
+  },
+  "markets": [
+    "ALL"
+  ]
+}
