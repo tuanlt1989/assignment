@@ -3,7 +3,9 @@
 Một codebase Flutter → nhiều app luyện thi chứng chỉ hành nghề trên Google Play.
 Mỗi app = **1 file cấu hình** (`apps/<id>.json`) + **1 ngân hàng câu hỏi** (`content/<bank>/`) + **1 bộ nội dung cửa hàng** (`store/<id>/`).
 
-## 5 app đầu tiên
+## 10 app
+
+**Đợt 1 — thị trường Mỹ** (nghề làm đẹp, bảo hiểm):
 
 | id | App | Ngân hàng câu hỏi | Ngôn ngữ | Giá gợi ý (trả 1 lần) |
 |---|---|---|---|---|
@@ -12,6 +14,18 @@ Mỗi app = **1 file cấu hình** (`apps/<id>.json`) + **1 ngân hàng câu h�
 | `cosmovi` | Thi Cosmetology Tiếng Việt | `cosmetology` (120 câu) | Việt + Anh | $14.99 |
 | `cosmoes` | Examen de Cosmetología | `cosmetology` (120 câu) | Tây Ban Nha + Anh | $12.99 |
 | `insurancelh` | Life & Health Insurance Exam | `insurance_lh` (120 câu) | Anh | $19.99 |
+
+**Đợt 2 — thị trường quốc tế, nơi đa số dùng Android** (lao động và người đi làm việc ở nước ngoài, những người sẵn sàng trả tiền để thi đậu):
+
+| id | App | Thị trường | Ngân hàng câu hỏi | Ngôn ngữ | Giá gợi ý |
+|---|---|---|---|---|---|
+| `nursegulf` | Gulf Nursing Exam Prep (DHA/DOH/MOHAP/SCFHS/QCHP) | Điều dưỡng Ấn Độ, Philippines… đi làm ở Trung Đông | `nursing_gulf` (100 câu) | Anh | $14.99 (₹499, ₱599) |
+| `cscsro` | Test CSCS în Română | Thợ xây Romania tại Anh | `cscs` (100 câu) | Romania + Anh | £7.99 |
+| `cscspl` | Test CSCS po polsku | Thợ xây Ba Lan tại Anh | `cscs` (100 câu) | Ba Lan + Anh | £7.99 |
+| `sachkunde` | Sachkunde §34a Prüfung | Nhân viên bảo vệ ở Đức (nhiều người nhập cư) | `sachkunde34a` (100 câu) | Đức + Anh | €14.99 |
+| `civilserviceph` | Civil Service Exam Reviewer PH | Philippines, khoảng 240 nghìn người thi mỗi đợt, tỷ lệ đậu khoảng 14% | `cse_ph` (100 câu) | Anh | ₱249 |
+
+**Hiện cả 10 app đều đặt `"ads": false`: không quảng cáo, chỉ bán gói một lần.** Muốn bật quảng cáo, xem `docs/07-ADMOB.md`.
 
 Toàn bộ câu hỏi là **câu tự biên soạn** theo các chủ đề thi đã được công bố. Không có câu nào sao chép từ đề thi thật hay sách giáo trình.
 
@@ -22,9 +36,10 @@ Toàn bộ câu hỏi là **câu tự biên soạn** theo các chủ đề thi �
 - **Song ngữ**: câu hỏi, đáp án và giải thích hiện bằng ngôn ngữ chính, chạm một lần để xem tiếng Anh.
 - Xáo thứ tự đáp án mỗi lần làm, để người học không thuộc lòng vị trí đáp án.
 - Điểm "mức độ sẵn sàng", số ngày học. Giao diện đổi được giữa ngôn ngữ chính và tiếng Anh.
-- **Kiếm tiền**:
-  - Bản miễn phí mở khoảng 35–40% câu hỏi của mỗi chủ đề, có banner và quảng cáo xen kẽ (tối đa 1 lần sau mỗi 2 lượt làm bài).
-  - **Gói mua một lần `premium_lifetime`** mở khoá toàn bộ câu hỏi và tắt quảng cáo. Có nút khôi phục giao dịch.
+- **Kiếm tiền (ưu tiên bán gói)**:
+  - Bản miễn phí mở khoảng 30–40% câu hỏi của mỗi chủ đề. Sau mỗi 2 lượt làm bài, app gợi ý mở khoá.
+  - **Gói mua một lần `premium_lifetime`** mở khoá toàn bộ câu hỏi. Có khôi phục giao dịch và xử lý thanh toán đang chờ.
+  - Quảng cáo AdMob là tuỳ chọn, bật riêng cho từng app.
 - Tự hỏi người dùng đánh giá app trên Play ngay sau khi họ **thi thử đậu** (tối đa 30 ngày một lần).
 - Hiện form đồng ý quảng cáo của Google (UMP) ở những nơi luật yêu cầu (EU, Anh…). Chạy được không cần mạng, không cần tài khoản.
 
@@ -64,9 +79,11 @@ Nếu đã cài secrets của khoá ký thì file AAB tải về đưa thẳng l
 3. [docs/03-ANDROID-GROWTH-PLAYBOOK.md](docs/03-ANDROID-GROWTH-PLAYBOOK.md): kế hoạch marketing trên Android
 4. [docs/04-ADD-NEW-APP.md](docs/04-ADD-NEW-APP.md): thêm app thứ 6 đến thứ 100
 5. [docs/05-CONTENT-GUIDE.md](docs/05-CONTENT-GUIDE.md): cách soạn, dịch và kiểm tra câu hỏi
+6. [docs/06-IN-APP-PURCHASE.md](docs/06-IN-APP-PURCHASE.md): **cấu hình mua trong app từng bước**, bảng giá và cách sửa lỗi
+7. [docs/07-ADMOB.md](docs/07-ADMOB.md): lỗi đăng ký AdMob và cách bật quảng cáo (không bắt buộc)
 
 ## ⚠️ Phải sửa trước lần upload đầu tiên
 
 - `applicationId` trong `apps/*.json`: hiện là `com.tuanlt.examprep.*`. **Sau khi đã upload lên Play thì không đổi được nữa.**
 - `supportEmail`, `developerName`, `privacyPolicyUrl`.
-- `admob.*`: hiện là **ID TEST của Google**. Đổi sang ID thật lấy từ AdMob thì quảng cáo mới ra tiền.
+- Gói mua trong app `premium_lifetime`: tạo theo `docs/06-IN-APP-PURCHASE.md`.

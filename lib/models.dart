@@ -17,10 +17,12 @@ class AppConfig {
     required this.passPercent,
     required this.freeRatio,
     required this.premiumProductId,
+    required this.adsEnabled,
     required this.bannerAdUnit,
     required this.interstitialAdUnit,
     required this.privacyPolicyUrl,
     required this.supportEmail,
+    required this.examBodies,
   });
 
   final String id;
@@ -36,10 +38,20 @@ class AppConfig {
   final int passPercent;
   final double freeRatio;
   final String premiumProductId;
+
+  /// False: no ads at all, free users are upsold to premium instead.
+  final bool adsEnabled;
   final String bannerAdUnit;
   final String interstitialAdUnit;
   final String privacyPolicyUrl;
   final String supportEmail;
+
+  /// Organizations named in the "not affiliated with" disclaimer, per UI
+  /// language.
+  final Map<String, String> examBodies;
+
+  String examBodiesFor(String lang) =>
+      examBodies[lang] ?? examBodies['en'] ?? 'any exam provider';
 
   String get primary => locales.first;
   String? get secondary => locales.length > 1 ? locales[1] : null;
@@ -62,10 +74,12 @@ class AppConfig {
       passPercent: exam['passPercent'] as int,
       freeRatio: (j['freeRatio'] as num).toDouble(),
       premiumProductId: j['premiumProductId'] as String,
+      adsEnabled: j['ads'] as bool? ?? true,
       bannerAdUnit: admob['banner'] as String,
       interstitialAdUnit: admob['interstitial'] as String,
       privacyPolicyUrl: j['privacyPolicyUrl'] as String,
       supportEmail: j['supportEmail'] as String,
+      examBodies: Map<String, String>.from(j['examBodies'] as Map? ?? {}),
     );
   }
 

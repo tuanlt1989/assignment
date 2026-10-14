@@ -1,0 +1,822 @@
+# Philippine Civil Service Exam (CSE-PPT Professional / Subprofessional) practice bank.
+# Original practice items. Not official CSC questions.
+
+[p001] verbal
+Choose the word closest in meaning to METICULOUS.
+- Careless
+* Very careful and precise
+- Quick
+- Generous
+> A meticulous worker pays close attention to every detail.
+
+[p002] verbal
+Choose the word opposite in meaning to BENEVOLENT.
+- Kind
+- Generous
+* Malevolent
+- Friendly
+> Benevolent means well-meaning and kind; malevolent means wishing harm.
+
+[p003] verbal
+Choose the word closest in meaning to UBIQUITOUS.
+* Found everywhere
+- Very rare
+- Extremely old
+- Hard to understand
+> Smartphones have become ubiquitous.
+
+[p004] verbal
+Choose the word opposite in meaning to FRUGAL.
+- Thrifty
+- Careful
+* Extravagant
+- Economical
+> Frugal means careful with money; extravagant means spending too much.
+
+[p005] verbal
+Neither the manager nor the employees ___ present at the meeting.
+- was
+* were
+- is
+- has been
+> With "neither...nor," the verb agrees with the nearer subject ("employees").
+
+[p006] verbal
+Each of the applicants ___ required to submit a valid ID.
+* is
+- are
+- were
+- have been
+> "Each" is singular, so it takes a singular verb.
+
+[p007] verbal
+Which sentence is correct?
+- Between you and I, the report is late.
+* Between you and me, the report is late.
+- Between yourself and I, the report is late.
+- Between me and I, the report is late.
+> "Between" is a preposition, so it takes the object pronoun "me."
+
+[p008] verbal
+DOCTOR is to HOSPITAL as TEACHER is to:
+- Student
+- Book
+* School
+- Lesson
+> A doctor works in a hospital; a teacher works in a school.
+
+[p009] verbal
+PEN is to WRITE as KNIFE is to:
+* Cut
+- Kitchen
+- Sharp
+- Steel
+> The relationship is tool to function.
+
+[p010] verbal
+BIRD is to FLOCK as FISH is to:
+- Herd
+- Pack
+* School
+- Pride
+> A group of fish is a school.
+
+[p011] verbal
+What does the idiom "burn the midnight oil" mean?
+- Waste resources
+* Work or study late into the night
+- Start a fire
+- Arrive late
+> Example: She burned the midnight oil to review for the exam.
+
+[p012] verbal
+What does "break the ice" mean?
+- Damage something valuable
+* Ease tension and start a conversation
+- Stop a project
+- Cool down a drink
+> A joke can help break the ice in a meeting.
+
+[p013] verbal
+Which word is spelled correctly?
+- Acommodate
+- Accomodate
+* Accommodate
+- Acomodate
+> Accommodate has a double "c" and a double "m."
+
+[p014] verbal
+Which word is spelled correctly?
+- Occurence
+* Occurrence
+- Ocurrence
+- Occurrance
+> Occurrence: double "c," double "r," and "-ence."
+
+[p015] verbal
+Choose the word closest in meaning to CANDID.
+- Secretive
+* Frank
+- Sweet
+- Shy
+> A candid answer is honest and direct.
+
+[p016] verbal
+Choose the word opposite in meaning to OBSOLETE.
+- Outdated
+- Old-fashioned
+* Current
+- Broken
+> Obsolete means no longer in use.
+
+[p017] verbal
+He is very good ___ mathematics.
+* at
+- in
+- on
+- with
+> We say "good at" a subject or skill.
+
+[p018] verbal
+By next year, she ___ in the agency for ten years.
+- works
+- worked
+- will work
+* will have worked
+> The future perfect describes an action completed by a future time.
+
+[p019] verbal
+Choose the word closest in meaning to ABROGATE.
+- Approve
+* Repeal
+- Extend
+- Explain
+> To abrogate a law is to repeal or abolish it.
+
+[p020] verbal
+Which sentence uses the correct word?
+- The new policy will effect all employees.
+* The new policy will affect all employees.
+- The new policy will affects all employees.
+- The new policy will effecting all employees.
+> "Affect" is usually the verb; "effect" is usually the noun (the result).
+
+[p021] reading
+"Public servants must perform their duties with integrity. Integrity means being honest and consistent even when no one is watching."
+According to the passage, integrity means:
+- Working quickly
+* Being honest and consistent even without supervision
+- Following the most popular opinion
+- Avoiding all mistakes
+> The second sentence defines integrity directly.
+
+[p022] reading
+"Mangroves protect coastal communities by reducing the force of waves during storms. They also serve as breeding grounds for fish."
+What is the main idea?
+- Fish breed only in mangroves.
+* Mangroves benefit coastal communities in several ways.
+- Storms are becoming stronger.
+- Coastal communities should move inland.
+> The passage gives two benefits of mangroves.
+
+[p023] reading
+"The office will shift to online appointments next month. Walk-in clients will still be served, but those with appointments will be prioritized."
+What can be inferred?
+- Walk-in clients will no longer be served.
+* Clients with online appointments will be served first.
+- The office will close next month.
+- Appointments will cost more.
+> The passage says appointment holders will be prioritized.
+
+[p024] reading
+"Although the project was delayed by heavy rains, the bridge was completed within the approved budget."
+Which statement is true according to the sentence?
+* The project finished within budget despite the delay.
+- The project went over budget.
+- The rains did not affect the project.
+- The bridge was never completed.
+> "Although" introduces the delay; the main clause says it stayed within budget.
+
+[p025] reading
+"Volunteerism strengthens communities. When citizens give their time, they build trust and solve local problems together."
+The word "strengthens" most nearly means:
+- Weakens
+* Makes stronger
+- Divides
+- Ignores
+> Volunteerism makes communities stronger.
+
+[p026] reading
+"Reading every day improves vocabulary. Students who read for 20 minutes daily encounter thousands of new words each year."
+What is the author's purpose?
+- To criticize students
+* To encourage daily reading
+- To sell books
+- To describe a library
+> The passage presents a benefit of reading every day.
+
+[p027] reading
+"The memo instructs all personnel to submit their leave applications at least five working days before the intended leave."
+When should leave applications be submitted?
+- On the day of the leave
+- One day before the leave
+* At least five working days before the leave
+- After returning from leave
+> The memo states the five-working-day rule.
+
+[p028] reading
+"Plastic waste clogs drainage systems, which can worsen flooding during heavy rain."
+What is the cause-and-effect relationship?
+* Plastic waste blocks drains, making flooding worse.
+- Flooding produces plastic waste.
+- Heavy rain removes plastic waste.
+- Drainage systems create plastic.
+> The cause is plastic waste; the effect is worse flooding.
+
+[p029] reading
+"Maria was the first to arrive and the last to leave. She checked every document twice before signing."
+Which word best describes Maria?
+- Lazy
+* Diligent
+- Careless
+- Late
+> Her actions show hard work and care.
+
+[p030] reading
+Arrange the sentences to form a logical paragraph:
+(1) Finally, submit the form at window 3. (2) First, get a queue number. (3) Next, fill out the application form.
+- 1, 2, 3
+* 2, 3, 1
+- 3, 2, 1
+- 2, 1, 3
+> The transition words "First," "Next" and "Finally" show the order.
+
+[p031] reading
+"Not all criticism is negative. Constructive criticism helps people improve their work."
+What does the passage suggest?
+- All criticism should be avoided.
+* Some criticism can be helpful.
+- Criticism is always negative.
+- People never improve.
+> "Not all criticism is negative" introduces helpful criticism.
+
+[p032] reading
+"The town's population doubled in ten years, but the number of public schools stayed the same."
+What problem is most likely implied?
+- Too many schools
+* Overcrowded schools
+- Fewer students
+- Lower population
+> More people with the same number of schools suggests overcrowding.
+
+[p033] reading
+"Tourism brings income to the province; however, it can also damage fragile natural sites if not managed well."
+The word "however" signals:
+- An example
+* A contrast
+- A conclusion
+- A time sequence
+> "However" introduces an opposing idea.
+
+[p034] reading
+"Early detection of diseases through regular check-ups can save lives and reduce medical costs."
+Which is the best title?
+- The Cost of Hospitals
+* The Value of Regular Check-ups
+- How Diseases Spread
+- Doctors in the Philippines
+> The sentence focuses on the benefits of regular check-ups.
+
+[p035] reading
+"The applicant's explanation was plausible, so the panel accepted it."
+"Plausible" most nearly means:
+- Unbelievable
+* Reasonable or believable
+- Funny
+- Rude
+> The panel accepted it because it seemed believable.
+
+[p036] reading
+"Only employees who have completed the training may operate the new system."
+Ana has not completed the training. What follows?
+- Ana may operate the system.
+* Ana may not operate the system yet.
+- Ana must lead the training.
+- The system is broken.
+> Completing the training is a requirement.
+
+[p037] reading
+"Rice prices rose sharply after typhoons damaged farms in several provinces."
+Why did rice prices rise?
+- Farmers planted more rice.
+* Typhoons damaged farms and reduced supply.
+- Imports increased.
+- Demand fell.
+> Damaged farms reduced the supply of rice.
+
+[p038] reading
+"Respect for others, punctuality and accountability are expected of every government employee."
+Which is NOT mentioned as expected behavior?
+- Punctuality
+- Accountability
+- Respect for others
+* Seniority
+> Seniority is not listed in the sentence.
+
+[p039] reading
+"Water is essential to life. Yet millions of people still lack access to safe drinking water."
+The tone of the passage is mainly:
+- Humorous
+* Concerned
+- Angry
+- Indifferent
+> The contrast highlights a serious problem.
+
+[p040] reading
+"The committee postponed the hearing indefinitely."
+"Indefinitely" means:
+- For exactly one week
+* Without a fixed end date
+- Permanently cancelled
+- Immediately
+> An indefinite postponement has no set new date.
+
+[p041] numerical
+What is 25% of 480?
+- 100
+* 120
+- 140
+- 160
+> 0.25 × 480 = 120.
+
+[p042] numerical
+An item costs ₱1,200. After a 15% discount, what is the price?
+- ₱1,000
+* ₱1,020
+- ₱1,050
+- ₱1,180
+> 15% of 1,200 = 180; 1,200 − 180 = 1,020.
+
+[p043] numerical
+What is the average of 85, 90, 78 and 87?
+* 85
+- 84
+- 86
+- 88
+> (85 + 90 + 78 + 87) ÷ 4 = 340 ÷ 4 = 85.
+
+[p044] numerical
+What comes next in the series 2, 6, 12, 20, 30, ___?
+- 38
+- 40
+* 42
+- 44
+> The differences are 4, 6, 8, 10, so the next difference is 12.
+
+[p045] numerical
+What comes next in the series 3, 9, 27, 81, ___?
+- 162
+* 243
+- 324
+- 108
+> Each term is multiplied by 3.
+
+[p046] numerical
+₱64 is divided between two people in the ratio 3:5. How much is the larger share?
+- ₱24
+- ₱32
+* ₱40
+- ₱48
+> 3 + 5 = 8 parts; 64 ÷ 8 = 8; 5 × 8 = 40.
+
+[p047] numerical
+What is the simple interest on ₱10,000 at 5% per year for 3 years?
+- ₱500
+- ₱1,000
+* ₱1,500
+- ₱3,000
+> I = P × r × t = 10,000 × 0.05 × 3 = 1,500.
+
+[p048] numerical
+A can finish a job in 6 days and B in 3 days. How long will they take working together?
+* 2 days
+- 3 days
+- 4.5 days
+- 9 days
+> Rates: 1/6 + 1/3 = 1/2 job per day, so 2 days.
+
+[p049] numerical
+A bus travels 240 km in 4 hours. What is its average speed?
+- 40 km/h
+* 60 km/h
+- 80 km/h
+- 96 km/h
+> 240 ÷ 4 = 60 km/h.
+
+[p050] numerical
+What is 3/4 + 2/3?
+- 5/7
+- 5/12
+* 17/12
+- 6/7
+> 9/12 + 8/12 = 17/12.
+
+[p051] numerical
+Express 0.375 as a fraction in lowest terms.
+- 3/4
+* 3/8
+- 5/8
+- 1/3
+> 0.375 = 375/1000 = 3/8.
+
+[p052] numerical
+A father is three times as old as his son. The sum of their ages is 48. How old is the son?
+- 10
+* 12
+- 14
+- 16
+> s + 3s = 48, so 4s = 48 and s = 12.
+
+[p053] numerical
+A salary increased from ₱20,000 to ₱25,000. What is the percentage increase?
+- 20%
+* 25%
+- 30%
+- 50%
+> Increase 5,000 ÷ 20,000 = 0.25 = 25%.
+
+[p054] numerical
+What is the area of a rectangle 12 m long and 8 m wide?
+- 40 m²
+* 96 m²
+- 20 m²
+- 80 m²
+> Area = length × width = 12 × 8 = 96.
+
+[p055] numerical
+If 5 pencils cost ₱60, how much do 12 pencils cost?
+- ₱120
+* ₱144
+- ₱150
+- ₱132
+> One pencil costs ₱12; 12 × 12 = 144.
+
+[p056] numerical
+Solve for x: 2x + 7 = 25.
+- 8
+* 9
+- 10
+- 16
+> 2x = 18, so x = 9.
+
+[p057] numerical
+Twelve coins of ₱5 and ₱10 total ₱85. How many ₱5 coins are there?
+- 5
+* 7
+- 8
+- 9
+> 5x + 10(12 − x) = 85 → 120 − 5x = 85 → x = 7.
+
+[p058] numerical
+A meeting starts at 2:45 p.m. and lasts 3 hours and 30 minutes. When does it end?
+- 5:45 p.m.
+- 6:00 p.m.
+* 6:15 p.m.
+- 6:30 p.m.
+> 2:45 + 3:30 = 6:15 p.m.
+
+[p059] numerical
+The sum of three consecutive integers is 87. What is the largest?
+- 28
+- 29
+* 30
+- 31
+> n + (n + 1) + (n + 2) = 87 → n = 28, so the largest is 30.
+
+[p060] numerical
+What is 0.4 × 0.25?
+* 0.1
+- 1.0
+- 0.01
+- 0.65
+> 0.4 × 0.25 = 0.10.
+
+[p061] analytical
+All managers are employees. Some employees work part-time. Which conclusion is certain?
+- Some managers work part-time.
+- No managers work part-time.
+* None of these conclusions can be drawn with certainty.
+- All employees are managers.
+> The part-time employees may or may not include managers.
+
+[p062] analytical
+"If it rains, the event will be cancelled." The event was not cancelled. What follows?
+* It did not rain.
+- It rained.
+- The event was moved indoors.
+- Nothing can be concluded.
+> If the result did not happen, the condition did not happen (modus tollens).
+
+[p063] analytical
+Which word does not belong: apple, banana, carrot, mango?
+- Apple
+- Banana
+* Carrot
+- Mango
+> Carrot is a vegetable; the others are fruits.
+
+[p064] analytical
+If CAT is coded as DBU, how is DOG coded?
+- EPF
+* EPH
+- CNF
+- FQI
+> Each letter moves one step forward: D→E, O→P, G→H.
+
+[p065] analytical
+Ben walks 5 km north, 3 km east, then 5 km south. How far is he from his starting point?
+- 0 km
+* 3 km
+- 8 km
+- 13 km
+> The north and south walks cancel out, leaving 3 km east.
+
+[p066] analytical
+A is taller than B. B is taller than C. D is taller than A. Who is the tallest?
+- A
+- B
+- C
+* D
+> D > A > B > C.
+
+[p067] analytical
+What comes next: A, C, F, J, O, ___?
+- S
+- T
+* U
+- V
+> The gaps increase: +2, +3, +4, +5, +6 (O + 6 = U).
+
+[p068] analytical
+If today is Wednesday, what day is it 100 days from now?
+- Wednesday
+- Thursday
+* Friday
+- Saturday
+> 100 ÷ 7 leaves a remainder of 2; two days after Wednesday is Friday.
+
+[p069] analytical
+No fish are mammals. All whales are mammals. Therefore:
+* No whales are fish.
+- Some whales are fish.
+- All fish are whales.
+- Some mammals are fish.
+> Whales belong to mammals, and no mammals are fish.
+
+[p070] analytical
+Pointing to Ana, Ben says, "Her mother is the only daughter of my mother." How is Ben related to Ana?
+- Father
+- Brother
+* Uncle
+- Cousin
+> The only daughter of Ben's mother is Ben's sister, who is Ana's mother. So Ben is Ana's uncle.
+
+[p071] analytical
+What comes next: 1, 1, 2, 3, 5, 8, ___?
+- 11
+- 12
+* 13
+- 15
+> Each number is the sum of the two before it.
+
+[p072] analytical
+4 is to 16 as 7 is to:
+- 14
+- 28
+* 49
+- 56
+> The relationship is squaring: 4² = 16, 7² = 49.
+
+[p073] analytical
+In a survey of 50 people, 30 like coffee, 25 like tea and 10 like both. How many like neither?
+* 5
+- 10
+- 15
+- 0
+> Coffee or tea: 30 + 25 − 10 = 45; 50 − 45 = 5.
+
+[p074] analytical
+What is the angle between the hands of a clock at exactly 3:00?
+- 45°
+* 90°
+- 120°
+- 180°
+> Each hour mark is 30°, and 3 × 30° = 90°.
+
+[p075] analytical
+Which year is a leap year?
+- 1900
+- 2100
+* 2024
+- 2023
+> Century years must be divisible by 400 to be leap years.
+
+[p076] analytical
+What is the missing number: 5, 11, 23, 47, ___?
+- 71
+- 94
+* 95
+- 96
+> Each term is doubled plus 1.
+
+[p077] analytical
+"Only employees with an ID may enter the building." Jose entered the building, and the rule was followed. What follows?
+* Jose has an ID.
+- Jose is a visitor.
+- Jose has no ID.
+- Jose is the manager.
+> If only ID holders may enter and the rule was followed, Jose has an ID.
+
+[p078] analytical
+Which number does not belong: 121, 144, 169, 175?
+- 121
+- 144
+- 169
+* 175
+> The others are perfect squares (11², 12², 13²).
+
+[p079] analytical
+Statement: "Use public transport to reduce traffic congestion." Which assumption is implied?
+- Public transport is always free.
+* More people using public transport means fewer private vehicles on the road.
+- Traffic is caused only by buses.
+- People dislike public transport.
+> The advice assumes public transport reduces the number of vehicles.
+
+[p080] analytical
+Five friends sit in a row. Carlo is to the left of Dina. Dina is to the left of Ella. Ana is at the far left. Ben is at the far right. Who sits in the middle?
+- Carlo
+* Dina
+- Ella
+- Ana
+> Order: Ana, Carlo, Dina, Ella, Ben.
+
+[p081] general
+Under the 1987 Philippine Constitution, sovereignty resides in:
+- The President
+- Congress
+* The people
+- The Supreme Court
+> Article II, Section 1: sovereignty resides in the people, and all government authority emanates from them.
+
+[p082] general
+The three branches of the Philippine government are:
+* Executive, legislative and judicial
+- Executive, military and judicial
+- National, regional and local
+- Senate, House and President
+> Separation of powers divides authority among these branches.
+
+[p083] general
+The term of office of the President of the Philippines is:
+- 4 years with one re-election
+* 6 years without re-election
+- 5 years with one re-election
+- 3 years
+> The President is not eligible for any re-election.
+
+[p084] general
+How many senators are there in the Philippine Senate?
+- 12
+* 24
+- 30
+- 36
+> Senators serve 6-year terms and may not serve more than two consecutive terms.
+
+[p085] general
+Members of the House of Representatives serve terms of:
+* 3 years, up to three consecutive terms
+- 6 years, up to two terms
+- 4 years, no limit
+- 2 years, up to four terms
+> Voluntary renunciation of office does not interrupt the term count.
+
+[p086] general
+Republic Act No. 6713 is also known as the:
+- Anti-Graft and Corrupt Practices Act
+* Code of Conduct and Ethical Standards for Public Officials and Employees
+- Civil Service Law
+- Data Privacy Act
+> RA 6713 sets the norms of conduct for public officials and employees.
+
+[p087] general
+Which is NOT among the norms of conduct under RA 6713?
+- Commitment to public interest
+- Professionalism
+- Simple living
+* Seniority in service
+> The norms include commitment to public interest, professionalism, justness and sincerity, political neutrality, responsiveness to the public, nationalism and patriotism, commitment to democracy, and simple living.
+
+[p088] general
+SALN stands for:
+* Statement of Assets, Liabilities and Net Worth
+- Summary of Annual Leave and Notices
+- Schedule of Allowances, Leaves and Nominations
+- Statement of Accounts, Loans and Notes
+> Public officials and employees file it under oath, generally every year.
+
+[p089] general
+The central personnel agency of the Philippine government is the:
+- Department of Labor and Employment
+* Civil Service Commission
+- Commission on Audit
+- Office of the Ombudsman
+> The CSC is one of the three independent constitutional commissions.
+
+[p090] general
+The three independent constitutional commissions are:
+- CHR, CSC and DILG
+* CSC, COMELEC and COA
+- COA, NBI and DOJ
+- COMELEC, PNP and CHED
+> Article IX of the Constitution creates these commissions.
+
+[p091] general
+Which office investigates and prosecutes erring public officials?
+- Commission on Elections
+* Office of the Ombudsman
+- Department of Education
+- Commission on Higher Education
+> The Ombudsman acts on complaints against public officials and employees.
+
+[p092] general
+Under the Ease of Doing Business Act (RA 11032), simple transactions must be completed within:
+* 3 working days
+- 7 working days
+- 20 working days
+- 30 working days
+> Complex transactions: 7 working days; highly technical: 20 working days.
+
+[p093] general
+The Bill of Rights is found in which article of the 1987 Constitution?
+- Article I
+- Article II
+* Article III
+- Article VII
+> Article III protects rights such as due process and free speech.
+
+[p094] general
+The writ of habeas corpus protects a person against:
+- Unpaid debts
+* Unlawful detention
+- Tax collection
+- Defamation
+> It requires authorities to show the legal basis for holding a person.
+
+[p095] general
+The national language of the Philippines is:
+- English
+- Tagalog
+* Filipino
+- Cebuano
+> Filipino and English are the official languages for communication and instruction.
+
+[p096] general
+Republic Act No. 9003 is the:
+- Clean Air Act
+- Clean Water Act
+* Ecological Solid Waste Management Act
+- Climate Change Act
+> It promotes waste segregation, reduction and recycling.
+
+[p097] general
+The Philippine Clean Air Act of 1999 is:
+* Republic Act No. 8749
+- Republic Act No. 9275
+- Republic Act No. 9003
+- Republic Act No. 6713
+> RA 9275 is the Clean Water Act of 2004.
+
+[p098] general
+The Universal Declaration of Human Rights was adopted by the United Nations in:
+- 1898
+- 1935
+* 1948
+- 1987
+> It sets out fundamental human rights to be universally protected.
+
+[p099] general
+The Commission on Human Rights in the Philippines is:
+- A department under the President
+* An independent office created by the Constitution
+- A private organization
+- A branch of the PNP
+> It investigates human rights violations.
+
+[p100] general
+Under RA 6713, public officials and employees should:
+- Accept gifts from people with pending transactions
+* Refrain from soliciting or accepting gifts in the course of their official duties
+- Prioritize relatives in hiring
+- Use office supplies for personal business
+> Gifts connected with official duties are generally prohibited, with limited exceptions.

@@ -1,0 +1,52 @@
+{
+  "id": "civilserviceph",
+  "applicationId": "com.tuanlt.examprep.civilserviceph",
+  "launcherName": "CSE Reviewer",
+  "title": {
+    "en": "Civil Service Exam Reviewer PH"
+  },
+  "bank": "cse_ph",
+  "locales": [
+    "en"
+  ],
+  "color": "#1E3A8A",
+  "icon": {
+    "label": "CSE",
+    "badge": "PH",
+    "glyph": "columns"
+  },
+  "exam": {
+    "questions": 60,
+    "minutes": 70,
+    "passPercent": 80
+  },
+  "freeRatio": 0.35,
+  "suggestedPriceUsd": 4.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "admob": {
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/civilserviceph.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "examBodies": {
+    "en": "the Civil Service Commission or any government agency"
+  },
+  "tagline": {
+    "en": "Verbal · Reading · Numerical · Analytical · General Information · Mock exams"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Know when you're ready for the CSE",
+      "Step-by-step explanations for every item",
+      "Timed mock exams like the real one",
+      "See your score per subtest"
+    ]
+  },
+  "markets": [
+    "PH"
+  ]
+}

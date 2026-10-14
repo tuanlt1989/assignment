@@ -83,3 +83,18 @@ Chỉ nhân rộng **ngách nào đã có doanh thu**. Các hướng dễ làm n
 - **Bất động sản** (real estate): thị trường lớn nhưng cạnh tranh mạnh, cần chất lượng nội dung cao.
 
 ⚠️ **Chính sách spam của Google Play**: không đăng hàng loạt app gần như giống hệt nhau. Mỗi app phải có nội dung thật sự khác (ngân hàng câu hỏi khác, ngôn ngữ khác, kỳ thi khác), có icon, ảnh màn hình và mô tả riêng. Nhà máy này được thiết kế để mỗi app khác nhau ở **nội dung**, không chỉ đổi màu và đổi tên.
+
+## 8. Kênh tiếp cận cho 5 app thị trường quốc tế
+
+| App | Người dùng | Kênh tiếp cận hiệu quả |
+|---|---|---|
+| `nursegulf` | Điều dưỡng Ấn Độ (Kerala), Philippines, Pakistan, Ai Cập… chuẩn bị đi làm ở vùng Vịnh | Nhóm Facebook và Telegram như "DHA exam nurses", "Prometric reviewer"; trung tâm tuyển dụng điều dưỡng; YouTube Shorts dạng "1 câu Prometric mỗi ngày". Ở Ấn Độ và Philippines nên đặt giá theo sức mua địa phương (₹499, ₱599). |
+| `cscsro` / `cscspl` | Thợ xây Romania và Ba Lan mới sang Anh | Nhóm Facebook "Români în UK – construcții", "Polacy w UK – praca budowa"; agency giới thiệu việc làm; TikTok bằng tiếng Romania/Ba Lan. Điểm bán hàng: được nghe đọc đề bằng tiếng mẹ đẻ khi thi (voiceover theo yêu cầu) nhưng phải hiểu thuật ngữ tiếng Anh trên công trường. |
+| `sachkunde` | Người học bảo vệ ở Đức, nhiều người nhập cư (Ả Rập, Thổ Nhĩ Kỳ, Ukraina) | Nhóm Facebook "Sachkunde 34a", trung tâm đào tạo bảo vệ, Jobcenter/kurs. Có thể dịch thêm sang tiếng Ả Rập, Thổ Nhĩ Kỳ, Ukraina (chỉ cần thêm file `ar.txt`/`tr.txt`/`uk.txt`) để nhân thành nhiều app. |
+| `civilserviceph` | Khoảng 240 nghìn người thi mỗi đợt, 2 đợt/năm, tỷ lệ đậu khoảng 14% | Nhóm Facebook "Civil Service Exam Reviewer" (rất đông thành viên), TikTok giải đề, chia sẻ trong group của các trường. Giá thấp (₱199–249) để bán được số lượng lớn. |
+
+Thứ tự ưu tiên chạy quảng cáo trả phí (khi app đã có ≥ 4.3 sao):
+1. `sachkunde` (Đức trả tiền cao)
+2. `cscsro` / `cscspl` (Anh)
+3. `nursegulf`
+4. `civilserviceph`: chủ yếu chỉ nên làm kênh miễn phí, vì chi phí quảng cáo ở Philippines rẻ nhưng giá bán cũng thấp.

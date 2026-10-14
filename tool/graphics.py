@@ -68,6 +68,23 @@ def _glyph(d: ImageDraw.ImageDraw, kind: str, cx: float, cy: float, s: float, fg
         d.polygon(pts, fill=fg)
         w = max(4, int(s * 0.18))
         d.line([(cx - s * 0.4, cy), (cx - s * 0.08, cy + s * 0.32), (cx + s * 0.45, cy - s * 0.3)], fill=accent, width=w, joint="curve")
+    elif kind == "cross":
+        # Medical cross inside a rounded badge.
+        w = s * 0.34
+        d.rounded_rectangle([cx - w, cy - s * 0.95, cx + w, cy + s * 0.95], radius=s * 0.1, fill=fg)
+        d.rounded_rectangle([cx - s * 0.95, cy - w, cx + s * 0.95, cy + w], radius=s * 0.1, fill=fg)
+    elif kind == "helmet":
+        # Hard hat: dome + brim + ridge.
+        d.pieslice([cx - s * 0.85, cy - s * 0.95, cx + s * 0.85, cy + s * 0.75], 180, 360, fill=fg)
+        d.rounded_rectangle([cx - s * 1.05, cy - s * 0.15, cx + s * 1.05, cy + s * 0.12], radius=s * 0.08, fill=fg)
+        d.rectangle([cx - s * 0.12, cy - s * 0.95, cx + s * 0.12, cy - s * 0.25], fill=accent)
+    elif kind == "columns":
+        # Government building: roof, columns, base.
+        d.polygon([(cx, cy - s * 1.0), (cx + s * 1.0, cy - s * 0.5), (cx - s * 1.0, cy - s * 0.5)], fill=fg)
+        for i in range(4):
+            x = cx - s * 0.72 + i * s * 0.48
+            d.rectangle([x - s * 0.1, cy - s * 0.38, x + s * 0.1, cy + s * 0.55], fill=fg)
+        d.rectangle([cx - s * 1.0, cy + s * 0.62, cx + s * 1.0, cy + s * 0.82], fill=fg)
     else:
         d.ellipse([cx - s, cy - s, cx + s, cy + s], fill=fg)
 

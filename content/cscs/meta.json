@@ -1,0 +1,10 @@
+{
+  "version": "2026.10.1",
+  "categories": [
+    {"id": "general", "name": {"en": "Legal Duties & Site Rules", "ro": "Obligații legale și reguli de șantier", "pl": "Obowiązki prawne i zasady na budowie"}},
+    {"id": "health", "name": {"en": "Health & Welfare", "ro": "Sănătate și bunăstare", "pl": "Zdrowie i warunki socjalne"}},
+    {"id": "safety", "name": {"en": "PPE, Electricity, Fire & Work at Height", "ro": "EIP, electricitate, incendiu și lucru la înălțime", "pl": "ŚOI, prąd, pożar i praca na wysokości"}},
+    {"id": "worksite", "name": {"en": "Plant, Lifting, Excavations & Confined Spaces", "ro": "Utilaje, ridicări, excavații și spații închise", "pl": "Maszyny, podnoszenie, wykopy i przestrzenie zamknięte"}},
+    {"id": "environment", "name": {"en": "Environment & Good Practice", "ro": "Mediu și bune practici", "pl": "Środowisko i dobre praktyki"}}
+  ]
+}

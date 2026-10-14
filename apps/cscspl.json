@@ -1,0 +1,62 @@
+{
+  "id": "cscspl",
+  "applicationId": "com.tuanlt.examprep.cscspl",
+  "launcherName": "CSCS Polski",
+  "title": {
+    "pl": "Test CSCS po polsku",
+    "en": "CSCS Test in Polish"
+  },
+  "bank": "cscs",
+  "locales": [
+    "pl",
+    "en"
+  ],
+  "color": "#C62828",
+  "icon": {
+    "label": "CSCS",
+    "badge": "PL",
+    "glyph": "helmet"
+  },
+  "exam": {
+    "questions": 50,
+    "minutes": 45,
+    "passPercent": 90
+  },
+  "freeRatio": 0.3,
+  "suggestedPriceUsd": 9.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "admob": {
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/cscspl.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "examBodies": {
+    "pl": "CITB, CSCS, Pearson VUE ani innym organizatorem testu",
+    "en": "CITB, CSCS, Pearson VUE or any other test provider"
+  },
+  "tagline": {
+    "pl": "Pytania po polsku, angielski jednym kliknięciem · Egzaminy próbne",
+    "en": "Polish + English · Timed mock tests · Explanations"
+  },
+  "screenshotCaptions": {
+    "pl-PL": [
+      "Sprawdź, czy jesteś gotowy na test CSCS",
+      "Polski + angielski, z wyjaśnieniami",
+      "Egzaminy próbne z limitem czasu",
+      "Wynik według tematów, powtarzaj braki"
+    ],
+    "en-US": [
+      "Know when you're ready for the CSCS test",
+      "Polish questions, English on tap",
+      "Timed mock tests like test day",
+      "Score by topic, fix weak spots"
+    ]
+  },
+  "markets": [
+    "GB"
+  ]
+}

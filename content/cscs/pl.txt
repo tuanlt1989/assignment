@@ -1,0 +1,801 @@
+# Baza pytań CSCS — polski. Te same id i ta sama kolejność odpowiedzi co w en.txt.
+
+[s001]
+Jaki jest główny cel szkolenia wstępnego na budowie (site induction)?
+* Wyjaśnienie zasad obowiązujących na budowie, zagrożeń i procedur awaryjnych przed rozpoczęciem pracy
+- Sprawdzenie twoich umiejętności zawodowych
+- Ustalenie stawki wynagrodzenia
+- Wydanie karty CSCS
+> Każdy musi przejść szkolenie wstępne przed rozpoczęciem pracy na nowej budowie.
+
+[s002]
+Zgodnie z przepisami BHP pracownicy muszą:
+- Przestrzegać zasad tylko wtedy, gdy patrzy kierownik
+* Dbać o bezpieczeństwo własne i innych oraz współpracować z pracodawcą
+- Kupować własny sprzęt ochronny
+- Ustalać własne zasady bezpieczeństwa
+> Ustawa Health and Safety at Work etc. Act nakłada obowiązki zarówno na pracodawców, jak i na pracowników.
+
+[s003]
+Zgodnie z RIDDOR uraz, przez który pracownik nie może wykonywać normalnych obowiązków przez ile dni, trzeba zgłosić do HSE?
+- Ponad 1 dzień
+- Ponad 3 dni
+* Ponad 7 dni
+- Ponad 30 dni
+> Urazy „powyżej siedmiu dni” są zgłaszane (nie licząc dnia wypadku). Urazy powyżej trzech dni trzeba nadal rejestrować.
+
+[s004]
+Kto ma obowiązek zgłosić do HSE wypadek podlegający zgłoszeniu według RIDDOR?
+- Poszkodowany pracownik
+* Pracodawca lub osoba kierująca budową
+- Sąsiad klienta
+- Urząd gminy
+> Pracownicy powinni zgłaszać każdy wypadek przełożonemu, aby osoba odpowiedzialna mogła go zgłosić.
+
+[s005]
+Które zdarzenia należy wpisać do książki wypadków na budowie?
+- Tylko wypadki wymagające leczenia w szpitalu
+* Wszystkie wypadki i urazy, nawet drobne
+- Tylko wypadki spowodowane przez maszyny
+- Tylko wypadki osób odwiedzających
+> Rejestrowanie każdego urazu pomaga zapobiegać kolejnym i chroni prawa poszkodowanego.
+
+[s006]
+„Near miss” (zdarzenie potencjalnie wypadkowe) to:
+- Wypadek, który spowodował drobny uraz
+* Zdarzenie, które mogło spowodować uraz lub szkodę, ale nie spowodowało
+- Spóźniona dostawa
+- Nieobecność na toolbox talk
+> Zgłaszanie takich zdarzeń pozwala usunąć zagrożenie, zanim ktoś zostanie ranny.
+
+[s007]
+Instrukcja wykonania pracy (method statement) opisuje:
+- Twoją stawkę godzinową
+* Jak bezpiecznie wykonać daną pracę, krok po kroku
+- Godziny otwarcia budowy
+- Zysk firmy
+> Przeczytaj instrukcję dla swojego zadania i jej przestrzegaj. Jeśli praca się zmienia, przerwij i zapytaj.
+
+[s008]
+Celem oceny ryzyka jest:
+* Rozpoznanie zagrożeń i ustalenie, jak kontrolować ryzyko
+- Znalezienie winnego po wypadku
+- Zastąpienie szkolenia
+- Obliczenie kosztu pracy
+> Środki kontroli z oceny ryzyka muszą stosować wszyscy wykonujący daną pracę.
+
+[s009]
+Co należy rozważyć w pierwszej kolejności w hierarchii środków kontroli?
+- Środki ochrony indywidualnej
+- Znaki ostrzegawcze
+* Całkowite usunięcie zagrożenia
+- Szkolenie
+> Eliminacja, zastąpienie, środki techniczne, organizacyjne, a ŚOI jako ostateczność.
+
+[s010]
+Widzisz kolegę, który pracuje w niebezpieczny sposób. Co robisz?
+- Ignorujesz, to nie twoja sprawa
+* Zwracasz uwagę lub przerywasz pracę, jeśli to bezpieczne, i zgłaszasz przełożonemu
+- Robisz zdjęcie do mediów społecznościowych
+- Czekasz do końca tygodnia, żeby o tym powiedzieć
+> Każdy ma obowiązek dbać o innych. Większość budów zachęca do przerywania niebezpiecznej pracy.
+
+[s011]
+Bierzesz przepisany lek, po którym jesteś senny. Co powinieneś zrobić?
+- Pracować normalnie
+* Powiedzieć przełożonemu przed rozpoczęciem pracy
+- Wypić więcej kawy i obsługiwać maszynę
+- Odstawić lek bez porady lekarza
+> Leki, narkotyki i alkohol mogą wpływać na zdolność do bezpiecznej pracy.
+
+[s012]
+Jakie zaplecze socjalne musi być zapewnione na budowie?
+- Siłownia i stołówka
+* Toalety, umywalki, woda pitna i miejsce do odpoczynku
+- Miejsce parkingowe dla każdego pracownika
+- Prysznice tylko dla kierowników
+> W razie potrzeby także miejsce do przebierania się i suszenia ubrań.
+
+[s013]
+Znak bezpieczeństwa z czerwonym kołem i czerwoną ukośną kreską oznacza:
+* Zakaz robienia czegoś
+- Nakaz robienia czegoś
+- Ostrzeżenie przed zagrożeniem
+- Warunki bezpieczne lub pierwszą pomoc
+> Przykład: „Zakaz palenia”.
+
+[s014]
+Niebieski okrągły znak bezpieczeństwa oznacza:
+- Zakaz
+* Nakaz (musisz coś zrobić)
+- Ostrzeżenie
+- Sprzęt przeciwpożarowy
+> Przykład: „Nakaz noszenia kasku”.
+
+[s015]
+Żółty trójkątny znak z czarną obwódką oznacza:
+- Wyjście ewakuacyjne
+- Nakaz
+* Ostrzeżenie przed zagrożeniem
+- Wodę pitną
+> Przykład: „Uwaga: linie napowietrzne”.
+
+[s016]
+Zielony prostokątny lub kwadratowy znak pokazuje:
+- Zakaz
+- Ostrzeżenie
+* Warunki bezpieczne, np. punkt pierwszej pomocy lub wyjście ewakuacyjne
+- Sprzęt przeciwpożarowy
+> Czerwone prostokątne znaki pokazują sprzęt przeciwpożarowy.
+
+[s017]
+Ktoś został ranny na budowie, a ty nie masz przeszkolenia z pierwszej pomocy. Co robisz?
+- Wsadzasz go do samochodu i wieziesz do szpitala
+* Wzywasz ratownika z budowy lub służby ratunkowe i postępujesz według instrukcji
+- Podajesz mu leki przeciwbólowe
+- Zostawiasz go i pracujesz dalej
+> Nie podejmuj działań, do których nie jesteś przeszkolony. Jeśli możesz, zabezpiecz miejsce.
+
+[s018]
+Gdy rozlegnie się alarm pożarowy, należy:
+* Przerwać pracę, najbezpieczniejszą drogą przejść do punktu zbiórki i czekać na sprawdzenie obecności
+- Najpierw dokończyć zadanie
+- Zabrać narzędzia i busa
+- Pójść do domu
+> Nigdy nie wracaj do budynku, dopóki nie usłyszysz, że jest bezpiecznie.
+
+[s019]
+Dlaczego korzystanie z telefonu podczas chodzenia po ruchliwej części budowy jest niebezpieczne?
+- Rozładowuje baterię
+* Odwraca uwagę od zagrożeń, takich jak jadące maszyny i przeszkody
+- Zawsze jest nielegalne
+- Zakłóca pracę dźwigów
+> Zatrzymaj się w bezpiecznym miejscu, zanim użyjesz telefonu.
+
+[s020]
+„Toolbox talk” to:
+- Naprawa narzędzi
+* Krótki instruktaż BHP na konkretny temat, zwykle prowadzony na budowie
+- Prezentacja handlowa
+- Spotkanie związkowe
+> Toolbox talk informuje zespół o aktualnych zagrożeniach.
+
+[s021]
+Cięcie betonu lub kamienia może wytwarzać pył krzemionkowy. Najlepszy sposób kontroli to:
+- Pracować szybko i wstrzymywać oddech
+* Zraszanie wodą lub odciąg pyłu na narzędziu oraz odpowiednia, dopasowana maska (RPE)
+- Papierowa maska noszona z brodą
+- Cięcie tylko po południu
+> Respirabilna krystaliczna krzemionka może powodować krzemicę i raka płuc.
+
+[s022]
+Dlaczego szczelnie przylegające maski przeciwpyłowe muszą mieć test dopasowania (face-fit)?
+- Żeby kolor pasował do ubrania
+* Żeby sprawdzić, czy maska dobrze uszczelnia się na twarzy
+- Ze względów modowych
+- Bo są drogie
+> Zarost pod uszczelnieniem sprawia, że maska nie działa. Bądź ogolony albo używaj maski z kapturem i nawiewem.
+
+[s023]
+Jeśli musisz krzyczeć, żeby usłyszała cię osoba stojąca około 2 metry od ciebie, poziom hałasu jest prawdopodobnie:
+- Całkowicie bezpieczny
+* Na tyle wysoki, że prawdopodobnie potrzebna jest ochrona słuchu
+- Niższy niż zwykła rozmowa
+- Problemem tylko dla kierowników
+> Uszkodzenie słuchu przez hałas narasta z czasem i jest trwałe.
+
+[s024]
+Od jakiego dziennego poziomu narażenia na hałas pracodawca musi zapewnić ochronniki słuchu i wyznaczyć strefy obowiązkowej ochrony słuchu?
+- 70 dB(A)
+- 75 dB(A)
+- 80 dB(A)
+* 85 dB(A)
+> Przy 80 dB(A) (dolny próg) ochronniki muszą być dostępne; przy 85 dB(A) (górny próg) trzeba je nosić.
+
+[s025]
+Pierwsze objawy zespołu wibracyjnego rąk i ramion to:
+* Mrowienie, drętwienie i bielenie palców
+- Ból głowy i kichanie
+- Tylko ból pleców
+- Swędzenie oczu
+> HAVS powoduje regularne używanie wibrujących narzędzi, np. młotów wyburzeniowych i szlifierek.
+
+[s026]
+Co pomaga zmniejszyć ryzyko wibracji przenoszonych na ręce?
+- Trzymanie narzędzia jak najmocniej
+* Narzędzia o niskich wibracjach, ograniczony czas pracy nimi i ciepłe dłonie
+- Tępe wiertła, żeby mocniej naciskać
+- Praca podczas przerw
+> Zgłaszaj objawy wcześnie. Może zostać zapewniony nadzór medyczny.
+
+[s027]
+Leptospirozą (chorobą Weila) zaraża się głównie przez:
+- Mokry cement
+* Wodę lub ziemię zanieczyszczoną moczem szczurów
+- Azbest
+- Spaliny diesla
+> Zakrywaj rany, noś rękawice i myj ręce przed jedzeniem, piciem i paleniem.
+
+[s028]
+Kontaktowe zapalenie skóry na budowie jest często spowodowane przez:
+- Tylko słońce
+* Mokry cement, rozpuszczalniki i inne chemikalia na skórze
+- Hałas
+- Wibracje
+> Noś rękawice, myj skórę, stosuj krem nawilżający i wcześnie zgłaszaj wysypki.
+
+[s029]
+Mokry cement pozostawiony na skórze może spowodować:
+- Brak szkód
+* Poważne oparzenia chemiczne, bo jest silnie zasadowy
+- Leptospirozę
+- Zespół białych palców
+> Natychmiast zmyj go czystą wodą. Klęczenie w mokrym betonie może spowodować głębokie oparzenia.
+
+[s030]
+Skrót COSHH oznacza:
+* Control of Substances Hazardous to Health (kontrola substancji niebezpiecznych dla zdrowia)
+- Budowę bezpiecznych domów i hal
+- Kontrolę zagrożeń i higieny na budowie
+- Kodeks bezpiecznego przenoszenia ciężarów
+> Oceny COSHH wyjaśniają zagrożenia substancji i środki kontroli, które musisz stosować.
+
+[s031]
+Podejrzewasz, że podczas pracy odsłoniłeś azbest. Co robisz?
+- Odłamujesz kawałek, żeby sprawdzić
+* Natychmiast przerywasz pracę, trzymasz innych z daleka i informujesz przełożonego
+- Zamiatasz go do kontenera
+- Malujesz go farbą
+> Włókna azbestu mogą powodować międzybłoniaka, azbestozę i raka płuc, często po dziesięcioleciach.
+
+[s032]
+Choroby wywołane azbestem pojawiają się zwykle:
+- W ciągu kilku godzin
+- W ciągu tygodnia
+* Wiele lat po narażeniu
+- Tylko u palaczy
+> Nie ma lekarstwa, dlatego najważniejsza jest profilaktyka.
+
+[s033]
+Zanim podniesiesz ręcznie ciężki ładunek, najpierw zastanów się:
+* Czy ładunek można przemieścić za pomocą urządzenia lub sprzętu do podnoszenia
+- Jak szybko możesz go podnieść
+- Nad podnoszeniem ze skręconymi plecami
+- Czy ktoś może ci go rzucić
+> Unikaj ręcznego przenoszenia, gdy to możliwe; w przeciwnym razie oceń ładunek, zadanie i swoje możliwości.
+
+[s034]
+Prawidłowa technika ręcznego podnoszenia ładunku to:
+- Proste nogi i pochylone plecy
+* Ugięte kolana, proste plecy i ładunek trzymany blisko ciała
+- Ładunek trzymany na wyprostowanych rękach
+- Skręcanie tułowia podczas podnoszenia
+> Zaplanuj drogę, dobrze chwyć ładunek i unikaj skręcania.
+
+[s035]
+Praca na zewnątrz w silnym słońcu bez ochrony zwiększa ryzyko:
+- Krzemicy
+* Raka skóry i przegrzania
+- Leptospirozy
+- Utraty słuchu
+> Zakrywaj ciało, używaj kremu z filtrem, pij wodę i rób przerwy w cieniu.
+
+[s036]
+Celem nadzoru zdrowotnego, np. badań słuchu, jest:
+- Ustalanie podwyżek
+* Wczesne wykrywanie objawów chorób związanych z pracą
+- Zastąpienie ŚOI
+- Sprawdzenie kondycji do sportu
+> Wczesne wykrycie pozwala działać, zanim problem się pogłębi.
+
+[s037]
+Jesteś bardzo zmęczony i nie możesz skupić się na zadaniu wysokiego ryzyka. Co robisz?
+- Pracujesz dalej, żeby zdążyć
+* Mówisz przełożonemu i robisz przerwę
+- Pijesz napój energetyczny i pracujesz dalej
+- Przechodzisz do obsługi maszyny
+> Zmęczenie zwiększa ryzyko wypadków.
+
+[s038]
+Jeśli zmagasz się ze stresem lub problemami ze zdrowiem psychicznym w pracy, dobrym krokiem jest:
+* Rozmowa z przełożonym, osobą udzielającą pierwszej pomocy psychologicznej lub lekarzem rodzinnym
+- Zachowanie tego dla siebie
+- Picie alkoholu w przerwie, żeby się zrelaksować
+- Opuszczenie budowy bez informowania kogokolwiek
+> Wiele budów ma przeszkolone osoby i linie wsparcia w zakresie zdrowia psychicznego.
+
+[s039]
+Woda pitna na budowie powinna być:
+- Pobierana z każdego kranu, także oznaczonego „woda niezdatna do picia”
+* Wyraźnie oznaczona i łatwo dostępna
+- Dostępna tylko w biurze
+- Przechowywana w starych pojemnikach po chemikaliach
+> Nigdy nie przechowuj napojów w pojemnikach po chemikaliach.
+
+[s040]
+Jak najbezpieczniej postępować z substancją niebezpieczną, której wcześniej nie używałeś?
+- Powąchać, żeby rozpoznać
+* Przeczytać ocenę COSHH lub kartę charakterystyki i stosować środki kontroli
+- Wymieszać z wodą
+- Poprosić kolegę, żeby spróbował pierwszy
+> Jeśli brak informacji, nie używaj jej. Zapytaj przełożonego.
+
+[s041]
+Kto musi zapłacić za środki ochrony indywidualnej (ŚOI) potrzebne do bezpiecznej pracy?
+* Twój pracodawca
+- Ty
+- Klient
+- HSE
+> ŚOI wymagane do pracy muszą być zapewnione bezpłatnie, a ty musisz ich używać i o nie dbać.
+
+[s042]
+Twój kask ma pęknięcie skorupy. Co robisz?
+- Zaklejasz pęknięcie taśmą
+* Przestajesz go używać i bierzesz nowy
+- Zamalowujesz pęknięcie
+- Używasz, dopóki się nie rozpadnie
+> Nie maluj go też i nie przyklejaj niezatwierdzonych naklejek, bo niektóre substancje osłabiają skorupę.
+
+[s043]
+Odzież o wysokiej widoczności (hi-vis) nosi się po to, żeby:
+- Wyglądać profesjonalnie
+* Być widocznym dla operatorów maszyn i kierowców
+- Było ci ciepło
+- Przełożeni łatwo cię znaleźli na nadgodziny
+> Utrzymuj hi-vis w czystości i zapinaj ją.
+
+[s044]
+Kiedy należy nosić ochronę oczu?
+* Gdy istnieje ryzyko odpryskujących cząstek, pyłu, chemikaliów lub iskier, np. przy szlifowaniu
+- Tylko w słoneczne dni
+- Tylko w nocy
+- Nigdy, jeśli nosisz okulary korekcyjne
+> Używaj rodzaju ochrony oczu wskazanego w ocenie ryzyka.
+
+[s045]
+Na większości brytyjskich budów używa się żółtych elektronarzędzi 110V, ponieważ:
+- Są mocniejsze
+* Obniżone napięcie znacznie zmniejsza ryzyko śmiertelnego porażenia prądem
+- Są tańsze
+- Nie trzeba ich sprawdzać
+> Systemy 110V z uziemionym punktem środkowym ograniczają napięcie względem ziemi do około 55V.
+
+[s046]
+Zauważasz uszkodzony przewód elektronarzędzia. Co robisz?
+- Owijasz go taśmą izolacyjną i pracujesz dalej
+* Przestajesz go używać, oznaczasz jako uszkodzony i zgłaszasz
+- Używasz go tylko na zewnątrz
+- Dajesz koledze
+> Sprawdzaj narzędzia przed każdym użyciem i używaj tylko sprawdzonego sprzętu.
+
+[s047]
+Przed kopaniem podziemne instalacje należy zlokalizować przez:
+- Zgadywanie na podstawie układu drogi
+* Sprawdzenie planów instalacji i użycie wykrywacza kabli (CAT i Genny)
+- Szybkie kopanie koparką
+- Pytanie sąsiadów
+> Następnie kop ostrożnie ręcznie w pobliżu znalezionych instalacji.
+
+[s048]
+Pracując w pobliżu napowietrznych linii energetycznych, należy:
+- Zakładać, że nie są pod napięciem
+* Trzymać maszyny i materiały w bezpiecznej odległości oraz przestrzegać pozwolenia i barier
+- Używać pod nimi metalowych drabin
+- Dotknąć ich, żeby sprawdzić
+> Kontakt lub łuk elektryczny mogą być śmiertelne. Do oznaczenia stref bezpiecznych używa się bramek i barier.
+
+[s049]
+Trzy elementy potrzebne do powstania pożaru to:
+- Woda, paliwo i wiatr
+* Ciepło, paliwo i tlen
+- Dym, ciepło i światło
+- Gaz, iskry i woda
+> Usunięcie dowolnego boku trójkąta ognia gasi pożar.
+
+[s050]
+Która gaśnica nadaje się do pożarów urządzeń elektrycznych?
+- Wodna (czerwona etykieta)
+* Śniegowa CO2 (czarna etykieta)
+- Pianowa na urządzenia pod napięciem
+- Na mokre chemikalia (żółta etykieta)
+> Nigdy nie używaj wody na urządzeniach pod napięciem.
+
+[s051]
+Prace pożarowo niebezpieczne, np. spawanie lub cięcie, zwykle wymagają:
+* Pozwolenia na prace pożarowe i dozoru miejsca po ich zakończeniu
+- Żadnych środków, jeśli prace są na zewnątrz
+- Tylko gaśnic wodnych
+- Pracy w pojedynkę
+> Pożar może wybuchnąć długo po zakończeniu pracy, dlatego miejsce sprawdza się przez określony czas.
+
+[s052]
+Drabin na budowie należy używać:
+- Do każdej pracy trwającej cały dzień
+* Tylko do krótkich, lekkich prac, gdy nie da się rozsądnie zastosować bezpieczniejszej opcji
+- Do wnoszenia i znoszenia ciężkich materiałów
+- Bez sprawdzania przez kogokolwiek
+> Zachowuj trzy punkty podparcia i nie wychylaj się.
+
+[s053]
+Prawidłowe ustawienie drabiny przystawnej to około:
+- 1 w poziomie na każdy 1 w pionie
+* 1 w poziomie na każde 4 w pionie (około 75 stopni)
+- 1 w poziomie na każde 10 w pionie
+- Pionowo przy ścianie
+> To tzw. zasada „1 do 4”.
+
+[s054]
+Drabina używana do wejścia na pomost roboczy powinna wystawać ponad miejsce zejścia o około:
+- 10 cm
+* 1 metr (około trzech szczebli)
+- 3 metry
+- Nie musi wystawać
+> Daje to pewny uchwyt przy wchodzeniu i schodzeniu.
+
+[s055]
+Kto może przerabiać rusztowanie?
+- Każdy, kto potrzebuje lepszego dostępu
+* Tylko kompetentny, przeszkolony monter rusztowań
+- Osoba sprzątająca
+- Klient
+> Nigdy nie usuwaj poręczy, kotew ani podestów. Przed użyciem sprawdź tabliczkę kontroli rusztowania.
+
+[s056]
+Minimalna wysokość górnej poręczy na pomoście roboczym wynosi:
+- 500 mm
+- 750 mm
+* 950 mm
+- 1500 mm
+> Zabezpieczenie krawędzi wymaga też poręczy pośredniej i krawężnika.
+
+[s057]
+Szelki bezpieczeństwa używane do powstrzymywania upadku muszą być:
+- Noszone luźno dla wygody
+* Przypięte do odpowiedniego punktu kotwiczenia, a użytkownik przeszkolony i z planem ratunkowym
+- Używane bez sprawdzenia
+- Pożyczane bez sprawdzenia dopasowania
+> Sprawdzaj szelki i linki przed każdym użyciem.
+
+[s058]
+Przed użyciem jezdnego rusztowania wieżowego trzeba upewnić się, że:
+- Ludzie zostają na nim podczas przesuwania
+* Zamontowane są stabilizatory, a hamulce kół są zaciągnięte
+- Jest zbudowane jak najwyżej
+- Brakuje podestów, żeby było lżejsze
+> Przesuwaj wieżę tylko wtedy, gdy nikogo na niej nie ma, a droga jest wolna.
+
+[s059]
+Rusztowanie powinno być sprawdzane przez kompetentną osobę:
+- Raz w roku
+* Przed pierwszym użyciem, co najmniej co 7 dni i po każdym zdarzeniu mogącym wpłynąć na jego bezpieczeństwo
+- Tylko po wypadku
+- Nigdy po zmontowaniu
+> Szukaj aktualnej tabliczki lub protokołu kontroli.
+
+[s060]
+Spadaniu materiałów z wysokości można zapobiegać przez:
+* Krawężniki, osłony na cegły, siatki i porządek na pomostach
+- Szybszą pracę
+- Ostrożne zrzucanie materiałów
+- Noszenie nauszników
+> Nigdy nie zrzucaj materiałów z wysokości. Używaj zsypów lub opuszczaj je bezpiecznie.
+
+[s061]
+Poruszając się po budowie, należy:
+- Iść najkrótszą drogą przez strefę maszyn
+* Korzystać z wyznaczonych ciągów pieszych
+- Iść za cofającymi pojazdami
+- Stać przy łyżce koparki, żeby obserwować
+> Oddzielenie ludzi od pojazdów to jeden z najlepszych sposobów, by uniknąć potrącenia.
+
+[s062]
+Zanim podejdziesz do pracującej maszyny, należy:
+- Głośno krzyknąć i podejść od tyłu
+* Nawiązać kontakt wzrokowy z operatorem i otrzymać wyraźny sygnał, że jest bezpiecznie
+- Wejść na maszynę, żeby porozmawiać z operatorem
+- Czekać w martwym polu
+> Operatorzy często nie widzą osób stojących blisko maszyny.
+
+[s063]
+Cofające pojazdy na budowie powinny być kierowane przez:
+- Dowolną osobę w pobliżu
+* Przeszkolonego sygnalistę (banksman)
+- Samego kierowcę w każdej sytuacji
+- Tylko znak
+> Cofania należy unikać, gdzie to możliwe, np. stosując ruch jednokierunkowy.
+
+[s064]
+Kto może obsługiwać maszyny, takie jak koparki czy ładowarki teleskopowe?
+* Tylko przeszkoleni, kompetentni i upoważnieni operatorzy
+- Każdy z prawem jazdy na samochód
+- Każdy powyżej 18 lat
+- Pomocnicy, gdy operator ma przerwę
+> Operatorzy zwykle mają uznaną kartę, np. CPCS lub NPORS.
+
+[s065]
+Jazda na maszynie jako pasażer jest dozwolona tylko wtedy, gdy:
+- Przejazd jest krótki
+* Jest zamontowane odpowiednie siedzenie dla pasażera
+- Łyżka jest pusta
+- Przełożonego nie ma
+> Upadki z maszyn powodują poważne urazy.
+
+[s066]
+Dlaczego urobek i materiały należy trzymać z dala od krawędzi wykopu?
+- Żeby budowa wyglądała schludnie
+* Żeby zmniejszyć ryzyko osunięcia się ścian i wpadania rzeczy do wykopu
+- Żeby były suche
+- Bo tak chciał klient
+> Stosuj też zabezpieczenie krawędzi, żeby ludzie i pojazdy nie wpadli do wykopu.
+
+[s067]
+Wykopy muszą być sprawdzane przez kompetentną osobę:
+- Raz w miesiącu
+* Na początku każdej zmiany i po każdym zdarzeniu, które może wpłynąć na ich stateczność
+- Tylko gdy pada deszcz
+- Tylko na końcu prac
+> Ściany muszą być podparte lub wykonane ze skarpami, aby się nie osunęły.
+
+[s068]
+Dlaczego nigdy nie wolno używać agregatu benzynowego w wykopie lub zamkniętym pomieszczeniu?
+- Jest za głośny
+* Spaliny, np. tlenek węgla, mogą się gromadzić i zabić
+- Zamoknie
+- Jest za ciężki
+> Tlenek węgla jest bezbarwny i bezwonny.
+
+[s069]
+Kto może wejść do przestrzeni zamkniętej, np. studzienki lub zbiornika?
+- Każdy, jeśli zrobi to szybko
+* Tylko przeszkolone osoby z pozwoleniem, pomiarem gazów i planem ratunkowym
+- Pierwsza dostępna osoba
+- Każdy w masce przeciwpyłowej
+> W przestrzeniach zamkniętych mogą być gazy toksyczne lub za mało tlenu.
+
+[s070]
+Kolega zemdlał w przestrzeni zamkniętej. Co robisz?
+* Podnosisz alarm i nie wchodzisz, jeśli nie jesteś przeszkolony i wyposażony do akcji ratunkowej
+- Natychmiast wchodzisz, żeby go wyciągnąć
+- Wstrzymujesz oddech i wchodzisz
+- Czekasz, aż się ocknie
+> Wiele ofiar w przestrzeniach zamkniętych to nieprzeszkoleni ratujący.
+
+[s071]
+Podczas podnoszenia ładunku dźwigiem należy:
+- Przejść pod ładunkiem, jeśli zrobisz to szybko
+* Trzymać się z dala od ładunku i wykonywać polecenia hakowego/sygnalisty
+- Prowadzić ładunek rękami, gdy jest nad tobą
+- Samemu dawać sygnały operatorowi dźwigu
+> Tylko wyznaczony hakowy/sygnalista daje sygnały operatorowi dźwigu.
+
+[s072]
+Przed użyciem zawiesia lub innego osprzętu do podnoszenia sprawdź, czy:
+- Jest najtańsze
+* Ma oznaczony dopuszczalny udźwig, aktualny przegląd i nie jest uszkodzone
+- Jest wystarczająco długie, żeby owinąć je dwa razy wokół ręki
+- Zostało pomalowane
+> Uszkodzonego lub nieoznakowanego osprzętu nie wolno używać.
+
+[s073]
+Strefa wykluczenia wokół prac, takich jak podnoszenie lub rozbiórka, oznacza, że:
+- Mogą wejść tylko kierownicy
+* Nikt nie wchodzi, jeśli nie jest upoważniony do tej pracy
+- To strefa dla palących
+- To strefa odpoczynku
+> Szanuj bariery i znaki.
+
+[s074]
+Przed pracą przy maszynach lub instalacjach elektrycznych odłączenie należy wykonać przez:
+- Poproszenie kogoś o pilnowanie wyłącznika
+* Zablokowanie kłódką i oznakowanie źródła energii (lock-out/tag-out)
+- Wyjęcie wtyczki i zostawienie jej na podłodze
+- Wyłączenie tylko na narzędziu
+> Kłódkę może zdjąć tylko osoba, która ją założyła.
+
+[s075]
+Tarcze ścierne w szlifierkach powinny być wymieniane:
+- Przez każdego, kto ma odpowiedni klucz
+* Tylko przez przeszkolone i kompetentne osoby, ze sprawdzeniem maksymalnej prędkości tarczy
+- Tylko gdy tarcza pękła
+- Przy szlifierce podłączonej do prądu
+> Tarcza obracająca się szybciej niż jej dopuszczalna prędkość może się rozpaść.
+
+[s076]
+Prowadząc wozidło (dumper) na budowie, należy:
+- Wozić pasażerów w skrzyni
+* Zapinać pas, jeśli maszyna ma konstrukcję chroniącą przy przewróceniu
+- Jeździć z podniesioną skrzynią
+- Jeździć wzdłuż krawędzi wykopów
+> Większość śmiertelnych wypadków z wozidłami to przewrócenia.
+
+[s077]
+Pracując obok wody lub nad wodą, należy:
+- Pracować samemu
+* Nosić kamizelkę ratunkową i upewnić się, że dostępny jest sprzęt ratunkowy
+- Zdjąć kamizelkę hi-vis
+- Wskoczyć do wody, żeby się ochłodzić
+> Utonięcie może nastąpić szybko, nawet w płytkiej wodzie.
+
+[s078]
+Pracując na drodze obok ruchu pojazdów, należy:
+* Pozostawać w strefie bezpieczeństwa wyznaczonej pachołkami i nosić odzież o wysokiej widoczności
+- Przestawiać pachołki, gdy przeszkadzają
+- Wchodzić na jezdnię, żeby zaoszczędzić czas
+- Pracować w nocy bez oświetlenia
+> Organizację ruchu muszą przygotować przeszkolone osoby.
+
+[s079]
+Narzędzia nabojowe (osadzaki) mogą obsługiwać tylko:
+- Wszyscy na budowie
+* Osoby przeszkolone i upoważnione, zgodnie z instrukcją producenta
+- Praktykanci bez nadzoru
+- Odwiedzający
+> Takie narzędzia mogą przestrzelić gwóźdź przez materiał i spowodować śmiertelne obrażenia.
+
+[s080]
+Dlaczego przed rozpoczęciem pracy w nowym miejscu należy sprawdzić system pozwoleń na pracę?
+- Żeby zarezerwować urlop
+* Bo niektóre prace wysokiego ryzyka mogą się zacząć dopiero po wydaniu pozwolenia i wdrożeniu jego środków kontroli
+- Żeby sprawdzić menu w stołówce
+- Żeby rozliczyć nadgodziny
+> Pozwolenia stosuje się m.in. przy przestrzeniach zamkniętych, pracach pożarowych i pracach pod napięciem.
+
+[s081]
+Na budowie rozlało się paliwo lub olej. Co robisz?
+- Spłukujesz je do najbliższej studzienki
+* Zatrzymujesz je zestawem sorpcyjnym, nie dopuszczasz do kanalizacji i wody i zgłaszasz
+- Przysypujesz ziemią i zostawiasz
+- Podpalasz
+> Incydenty zanieczyszczenia mogą wymagać zgłoszenia do organu ochrony środowiska.
+
+[s082]
+Kanalizacja deszczowa na budowie zwykle prowadzi do:
+- Oczyszczalni, która usuwa całe zanieczyszczenie
+* Strumieni i rzek
+- Kontenera
+- Biura budowy
+> Nigdy nie wylewaj do kanalizacji wody po myciu betoniarek, farb ani chemikaliów.
+
+[s083]
+Dlaczego odpady na budowie segreguje się do różnych kontenerów?
+* Aby więcej odpadów można było poddać recyklingowi i mniej trafiało na wysypisko
+- Żeby kontenery były cięższe
+- Żeby zmylić złodziei
+- Bo kontenery są darmowe
+> Wrzucaj odpady do właściwego, oznaczonego kontenera.
+
+[s084]
+Odpady niebezpieczne, takie jak azbest, oleje i niektóre farby, muszą być:
+- Mieszane z odpadami zwykłymi
+* Przechowywane osobno i odbierane przez uprawnionego przewoźnika
+- Spalane na budowie
+- Zakopywane na budowie
+> Zapytaj przełożonego, jeśli nie wiesz, jak się czegoś pozbyć.
+
+[s085]
+Która opcja jest najbardziej pożądana w hierarchii postępowania z odpadami?
+- Składowanie na wysypisku
+- Recykling
+* Zapobieganie (wytwarzanie mniej odpadów od początku)
+- Spalanie
+> Dalej: ponowne użycie, recykling, odzysk i na końcu unieszkodliwienie.
+
+[s086]
+Pył z budowy jest nawiewany na pobliskie domy. Dobrym środkiem jest:
+- Szybsza praca
+* Zraszanie powierzchni i przykrywanie hałd materiałów
+- Ignorowanie, bo ludzi z zewnątrz nie ma na budowie
+- Użycie dmuchawy do liści
+> Pył może szkodzić zdrowiu sąsiadów i powodować skargi.
+
+[s087]
+Aby ograniczyć uciążliwy hałas dla sąsiadów, należy:
+- Zaczynać głośne prace wcześnie rano
+* Pracować w dozwolonych godzinach i wyłączać nieużywane maszyny
+- Głośno puszczać radio, żeby zagłuszyć hałas
+- Zdejmować tłumiki z maszyn
+> Władze lokalne mogą ustalać ograniczenia godzin pracy.
+
+[s088]
+W żywopłocie, który masz usunąć, znajdujesz gniazdo z jajami. Co robisz?
+- Ostrożnie je usuwasz i pracujesz dalej
+* Przerywasz pracę w tym miejscu i mówisz przełożonemu
+- Przenosisz gniazdo na inne drzewo
+- Ignorujesz je
+> Gniazda dzikich ptaków są chronione prawem, gdy są używane.
+
+[s089]
+Rdestowiec japoński (Japanese knotweed) znaleziony na budowie należy:
+- Ściąć i wrzucić do zwykłego kontenera
+* Zostawić nienaruszony i zgłosić, bo to roślina inwazyjna objęta przepisami
+- Rozrzucić po budowie
+- Od razu spalić
+> Nawet małe kawałki mogą odrosnąć. Potrzebne jest specjalistyczne usunięcie.
+
+[s090]
+Zbiorniki paliwa na budowie powinny być:
+- Ustawione przy studzienkach
+* Przechowywane w zbiorniku z wanną wychwytową lub na tacy ociekowej
+- Zostawiane otwarte na noc
+- Napełniane do przelania
+> Wanny wychwytowe zwykle mieszczą co najmniej 110% pojemności zbiornika.
+
+[s091]
+Gdzie należy myć betoniarki i taczki?
+- W najbliższej studzience
+* W wyznaczonym miejscu do mycia
+- W strumieniu
+- Gdziekolwiek na budowie
+> Woda po myciu betonu jest silnie zasadowa i szkodzi życiu w wodach.
+
+[s092]
+Jaki jest prosty sposób oszczędzania energii na budowie?
+* Wyłączanie maszyn, oświetlenia i grzejników, gdy nie są potrzebne
+- Zostawianie agregatów włączonych na noc
+- Otwarte drzwi kontenerów socjalnych przy włączonym ogrzewaniu
+- Silniki na wolnych obrotach
+> To ogranicza też spaliny i hałas.
+
+[s093]
+Ogrodzone strefy wokół drzew na budowie służą do:
+- Składowania materiałów
+* Ochrony korzeni drzew przed uszkodzeniem
+- Parkowania pojazdów
+- Cienia w czasie przerw
+> Nie składuj materiałów i nie wjeżdżaj w strefy ochrony korzeni.
+
+[s094]
+Podczas kopania odsłaniasz coś, co wygląda na stare kości lub zabytkowe pozostałości. Co robisz?
+- Zatrzymujesz na pamiątkę
+* Przerywasz pracę w tym miejscu i mówisz przełożonemu
+- Kopiesz dalej i wrzucasz to do kontenera
+- Najpierw robisz zdjęcia i publikujesz je w internecie
+> Znaleziska archeologiczne i możliwe szczątki ludzkie trzeba zgłosić.
+
+[s095]
+Palenie na budowie jest dozwolone:
+- Wszędzie na zewnątrz
+* Tylko w wyznaczonych miejscach
+- W kontenerach socjalnych
+- Przy magazynach paliwa
+> Palenie przy materiałach łatwopalnych powoduje pożary.
+
+[s096]
+Wygłupy i żarty na budowie:
+- Budują ducha zespołu i są mile widziane
+* Są niebezpieczne i mogą prowadzić do poważnych urazów oraz kar dyscyplinarnych
+- Są w porządku w przerwach przy maszynach
+- Są dozwolone na rusztowaniach
+> Wiele poważnych wypadków zaczyna się od wygłupów.
+
+[s097]
+Porządek na budowie pomaga przede wszystkim zapobiegać:
+- Kradzieżom
+* Poślizgnięciom, potknięciom i upadkom
+- Hałasowi
+- Wibracjom
+> Utrzymuj przejścia w czystości i sprzątaj na bieżąco.
+
+[s098]
+Poślizgnięciom i potknięciom na budowie najlepiej zapobiega:
+- Bieganie między zadaniami
+* Utrzymywanie wolnych przejść, porządkowanie przewodów i sprzątanie rozlanych płynów
+- Noszenie rękawic
+- Praca przy słabym oświetleniu
+> Poślizgnięcia i potknięcia należą do najczęstszych przyczyn urazów w budownictwie.
+
+[s099]
+Spowodowałeś incydent środowiskowy, np. zanieczyściłeś strumień. Co robisz?
+* Natychmiast zgłaszasz to przełożonemu
+- Liczysz, że nikt nie zauważy
+- Czekasz do następnego dnia
+- Mówisz tylko kolegom
+> Szybkie zgłoszenie pozwala ograniczyć szkody i w razie potrzeby powiadomić odpowiedni organ.
+
+[s100]
+Dlaczego nie należy zostawiać włączonego silnika zaparkowanego pojazdu na budowie?
+- Niszczy to opony
+* Marnuje się paliwo, powstają spaliny i rośnie hałas
+- Prawo wymaga, aby silnik pracował
+- Rozładowuje to akumulator
+> Wyłączenie silnika zmniejsza emisje i oszczędza pieniądze.

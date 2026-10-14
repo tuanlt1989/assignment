@@ -1,0 +1,802 @@
+# Gulf nursing licensure (DHA / DOH / MOH / SCFHS / QCHP Prometric-style) practice bank.
+# Original items covering general registered-nurse knowledge. Not official exam content.
+
+[g001] fundamentals
+What is the single most effective way to prevent healthcare-associated infections?
+- Wearing gloves for every patient contact
+* Performing hand hygiene at the right moments
+- Giving prophylactic antibiotics
+- Keeping the patient in a private room
+> Hand hygiene (WHO "5 moments") is the most effective measure. Gloves never replace hand hygiene.
+
+[g002] fundamentals
+A nurse's hands are visibly soiled with body fluids. The nurse should:
+- Use an alcohol-based hand rub
+* Wash hands with soap and water
+- Put on gloves without cleaning
+- Wipe hands with a dry paper towel
+> Alcohol rubs do not remove visible dirt or organic material. Wash with soap and water when hands are visibly soiled.
+
+[g003] fundamentals
+A patient has Clostridioides difficile diarrhea. Which measures are correct?
+* Contact precautions and hand washing with soap and water
+- Airborne precautions and alcohol hand rub only
+- Droplet precautions only
+- Standard precautions only
+> C. difficile spores are not reliably killed by alcohol. Use contact precautions, gloves and gown, and wash with soap and water.
+
+[g004] fundamentals
+A patient with suspected pulmonary tuberculosis requires:
+- A surgical mask for staff and a regular room
+* Airborne precautions with an N95 (or higher) respirator and a negative-pressure room
+- Contact precautions only
+- No special precautions until culture results
+> TB spreads by airborne droplet nuclei. Place the patient in an airborne infection isolation room and wear a fit-tested respirator.
+
+[g005] fundamentals
+Which infection requires droplet precautions?
+- Measles
+- Varicella
+* Influenza
+- Clostridioides difficile
+> Influenza, pertussis and meningococcal disease need droplet precautions. Measles and varicella need airborne precautions.
+
+[g006] fundamentals
+What is the recommended order for putting on (donning) PPE?
+- Gloves, gown, mask, goggles
+* Gown, mask or respirator, goggles or face shield, gloves
+- Mask, gloves, gown, goggles
+- Goggles, gloves, mask, gown
+> Gloves go on last so they cover the gown cuffs. When removing PPE, gloves (the most contaminated) usually come off first.
+
+[g007] fundamentals
+Before giving a medication, the nurse must identify the patient using:
+- The room and bed number
+* At least two identifiers, such as full name and date of birth
+- The patient's diagnosis
+- The name on the door sign
+> Two patient identifiers are an international patient safety goal. Room numbers are never used as identifiers.
+
+[g008] fundamentals
+Which action best reduces the risk of falls for an older patient at night?
+- Raising all four side rails
+* Keeping the bed in the lowest position with the call bell within reach
+- Giving a sedative at bedtime
+- Turning off all lights
+> Low bed, call bell, non-slip footwear, night light and regular rounding reduce falls. Four raised rails can increase injury.
+
+[g009] fundamentals
+A patient in physical restraints should have restraints released for skin care and range of motion at least every:
+- 30 minutes
+* 2 hours
+- 8 hours
+- 24 hours
+> Monitor frequently, and release restraints at least every 2 hours (or per policy) to check skin, circulation and offer fluids and toileting.
+
+[g010] fundamentals
+A pressure injury with partial-thickness skin loss and exposed pink dermis is classified as:
+- Stage 1
+* Stage 2
+- Stage 3
+- Stage 4
+> Stage 1 is intact skin with non-blanchable redness. Stage 3 involves full-thickness loss into fat; stage 4 exposes muscle, tendon or bone.
+
+[g011] fundamentals
+Which nursing action best prevents pressure injuries in an immobile patient?
+- Massaging bony prominences vigorously
+* Repositioning at least every 2 hours and using a pressure-redistributing surface
+- Keeping the head of the bed at 90 degrees all day
+- Using a donut-shaped cushion
+> Regular repositioning, skin assessment, nutrition and moisture control prevent pressure injuries. Donut cushions and massage are not recommended.
+
+[g012] fundamentals
+When caring for several patients, which need is the nurse's first priority?
+* Airway
+- Pain
+- Anxiety
+- Hygiene
+> Use the ABC priority framework: airway, breathing, circulation, then other needs.
+
+[g013] fundamentals
+The normal resting respiratory rate for an adult is:
+- 6 to 10 breaths per minute
+* 12 to 20 breaths per minute
+- 24 to 30 breaths per minute
+- 30 to 40 breaths per minute
+> Adults normally breathe 12–20 times a minute. Report persistent rates outside this range in context.
+
+[g014] fundamentals
+A fire starts in a patient's room. Following RACE, the nurse's first action is to:
+* Rescue patients in immediate danger
+- Activate the alarm
+- Contain the fire by closing doors
+- Extinguish the fire
+> RACE = Rescue, Alarm, Contain, Extinguish/Evacuate. To use an extinguisher, remember PASS: Pull, Aim, Squeeze, Sweep.
+
+[g015] fundamentals
+Which task can a registered nurse delegate to an unlicensed assistant?
+- Assessing a newly admitted patient
+- Teaching a patient to self-inject insulin
+* Measuring vital signs of a stable patient
+- Evaluating a patient's response to a new medication
+> Assessment, teaching and evaluation stay with the RN. Routine tasks for stable patients may be delegated.
+
+[g016] fundamentals
+In obtaining informed consent for surgery, the nurse's role is usually to:
+- Explain the risks and benefits of the procedure
+* Witness the patient's signature and confirm the patient understands
+- Decide whether the patient needs surgery
+- Sign the form on behalf of the patient
+> The surgeon explains the procedure, risks and alternatives. The nurse witnesses and reports if the patient seems uninformed.
+
+[g017] fundamentals
+In the SBAR communication tool, "A" stands for:
+- Allergies
+* Assessment
+- Action
+- Airway
+> SBAR = Situation, Background, Assessment, Recommendation. It structures handover and calls to physicians.
+
+[g018] fundamentals
+After giving an injection, the nurse should:
+- Recap the needle using both hands
+- Bend the needle before disposal
+* Discard the uncapped needle immediately in a puncture-resistant sharps container
+- Place the needle in the regular trash
+> Never recap used needles with two hands. Immediate disposal prevents needlestick injuries.
+
+[g019] fundamentals
+The normal oxygen saturation (SpO2) range for a healthy adult is about:
+- 80% to 85%
+- 85% to 89%
+* 95% to 100%
+- 100% to 110%
+> Targets may be lower for some patients, such as those with chronic CO2 retention (often 88–92%).
+
+[g020] fundamentals
+A patient refuses a prescribed medication. The nurse should first:
+- Hide the medication in food
+- Give it anyway because it was prescribed
+* Explore the reason for refusal, document it and inform the prescriber
+- Ask a family member to give it
+> Competent adults have the right to refuse treatment. Explore concerns, educate, document and notify.
+
+[g021] medsurg
+A diabetic patient is shaky, sweaty and confused, with a blood glucose of 50 mg/dL (2.8 mmol/L). The patient is awake and can swallow. The nurse should first:
+* Give 15 g of fast-acting carbohydrate, then recheck glucose in 15 minutes
+- Give the scheduled insulin dose
+- Give a high-protein meal only
+- Wait one hour and recheck
+> This is the "rule of 15." If the patient cannot swallow, give IV dextrose or glucagon per protocol.
+
+[g022] medsurg
+Which finding is typical of diabetic ketoacidosis (DKA)?
+- Bradycardia and hypothermia
+* Deep, rapid (Kussmaul) respirations and fruity breath odor
+- Blood glucose below 70 mg/dL
+- Weight gain and edema
+> DKA causes hyperglycemia, ketosis and metabolic acidosis. Treatment includes IV fluids, insulin infusion and potassium monitoring.
+
+[g023] medsurg
+Which insulin can be given intravenously?
+- Insulin glargine
+- NPH insulin
+* Regular insulin
+- Insulin detemir
+> Regular (short-acting) insulin is the type used in IV insulin infusions.
+
+[g024] medsurg
+Which finding is most consistent with left-sided heart failure?
+- Jugular vein distension
+- Ascites
+* Crackles in the lungs and dyspnea
+- Ankle edema
+> Left-sided failure backs fluid into the lungs. Right-sided failure causes systemic congestion such as edema, JVD and hepatomegaly.
+
+[g025] medsurg
+Which blood test is most specific for myocardial injury?
+- Serum potassium
+- Hemoglobin
+* Troponin
+- Albumin
+> Cardiac troponins rise within hours of myocardial injury and are the preferred biomarker.
+
+[g026] medsurg
+A patient with an acute ischemic stroke may receive IV thrombolysis (alteplase) if:
+- Symptoms started more than 24 hours ago
+* A CT scan rules out hemorrhage and treatment can start within about 4.5 hours of symptom onset
+- The patient has a recent major surgery
+- Blood pressure is 220/130 mmHg and untreated
+> Time is brain. Hemorrhage must be excluded first, and eligibility criteria and blood pressure limits must be met.
+
+[g027] medsurg
+For a patient with COPD and chronic CO2 retention, oxygen is usually titrated to a target SpO2 of:
+- 100%
+- 96% to 100%
+* 88% to 92%
+- 75% to 80%
+> Controlled oxygen avoids worsening hypercapnia while preventing hypoxemia.
+
+[g028] medsurg
+In a chest drainage system, continuous bubbling in the water-seal chamber usually indicates:
+- Normal function
+* An air leak in the system or from the patient
+- Re-expansion of the lung is complete
+- The suction is turned off
+> Gentle tidaling is normal. Continuous bubbling suggests an air leak; check connections from the patient to the unit.
+
+[g029] medsurg
+After a thyroidectomy, the patient reports tingling around the mouth and fingers. The nurse should suspect:
+- Hyperkalemia
+* Hypocalcemia from parathyroid injury
+- Hypernatremia
+- Thyroid storm only
+> Check for Chvostek's and Trousseau's signs and have IV calcium gluconate available.
+
+[g030] medsurg
+Which ECG change is classic for hyperkalemia?
+* Tall, peaked T waves
+- Prominent U waves
+- ST depression only
+- Prolonged QT from hypocalcemia only
+> Hyperkalemia causes peaked T waves and can progress to wide QRS and dangerous arrhythmias. U waves suggest hypokalemia.
+
+[g031] medsurg
+The normal serum potassium range for an adult is approximately:
+- 1.5 to 2.5 mmol/L
+* 3.5 to 5.0 mmol/L
+- 5.5 to 7.0 mmol/L
+- 135 to 145 mmol/L
+> Normal potassium is about 3.5–5.0 mmol/L. (135–145 mmol/L is the normal sodium range.)
+
+[g032] medsurg
+Which intervention best helps prevent atelectasis after abdominal surgery?
+- Keeping the patient flat in bed
+* Incentive spirometry, deep breathing and early ambulation
+- Withholding all analgesics
+- Restricting fluids
+> Adequate pain control allows effective deep breathing and coughing.
+
+[g033] medsurg
+Which finding most suggests deep vein thrombosis?
+- Bilateral cool, pale feet
+* Unilateral calf swelling, warmth and pain
+- Generalized itching
+- A weak radial pulse
+> Report suspected DVT. Do not massage the leg. Diagnosis is usually confirmed by ultrasound.
+
+[g034] medsurg
+A post-operative patient suddenly develops chest pain, shortness of breath and tachycardia. The nurse should suspect:
+- Constipation
+* Pulmonary embolism
+- Urinary retention
+- Wound infection
+> Raise the head of the bed, give oxygen, stay with the patient and notify the provider urgently.
+
+[g035] medsurg
+Lactulose is given to a patient with cirrhosis and hepatic encephalopathy mainly to:
+- Increase serum ammonia
+* Reduce ammonia absorption from the bowel
+- Stop bleeding varices
+- Treat hypoglycemia
+> Lactulose traps ammonia in the colon and causes 2–3 soft stools a day.
+
+[g036] medsurg
+The most common causes of peptic ulcer disease are:
+- Spicy foods and stress only
+* Helicobacter pylori infection and NSAID use
+- Viral hepatitis
+- Lactose intolerance
+> Treatment often includes eradication therapy for H. pylori and stopping NSAIDs.
+
+[g037] medsurg
+For a patient with an arteriovenous fistula for hemodialysis, the nurse should:
+- Take blood pressure on the fistula arm
+- Draw blood from the fistula
+* Avoid BP and venipuncture on that arm and check for a thrill and bruit
+- Apply a tight bandage over the fistula
+> A palpable thrill and audible bruit show the fistula is patent.
+
+[g038] medsurg
+Which precaution is appropriate for a patient with severe neutropenia?
+- Allowing fresh flowers in the room
+* Strict hand hygiene and avoiding visitors who are ill
+- Encouraging raw salads
+- Taking rectal temperatures
+> Neutropenic patients are at high risk of infection. Avoid rectal procedures and sources of pathogens.
+
+[g039] medsurg
+A Glasgow Coma Scale score of 8 or less usually indicates:
+- Full consciousness
+- Mild confusion only
+* Severe brain injury, with a need to protect the airway
+- Normal sleep
+> GCS ranges from 3 to 15. "Eight, intubate" is a common teaching phrase.
+
+[g040] medsurg
+Which is an early sign of increasing intracranial pressure?
+* A change in level of consciousness
+- Fixed, dilated pupils
+- Cushing's triad
+- Decerebrate posturing
+> Changes in LOC (restlessness, confusion) are the earliest signs. Cushing's triad and fixed pupils are late signs.
+
+[g041] pharm
+Before giving digoxin to an adult, the nurse should:
+- Check the radial pulse for 15 seconds
+* Check the apical pulse for one full minute and withhold if below 60 (or per order)
+- Give it with potassium supplements always
+- Give it only at night
+> Also monitor potassium levels, because hypokalemia increases the risk of digoxin toxicity.
+
+[g042] pharm
+Which symptoms suggest digoxin toxicity?
+- Increased appetite and weight gain
+* Nausea, vomiting and visual disturbances such as yellow-green halos
+- High fever and rash
+- Excessive thirst and urination
+> Bradycardia and dysrhythmias may also occur. Check serum digoxin and potassium levels.
+
+[g043] pharm
+Warfarin therapy is monitored using:
+- aPTT
+* INR (PT)
+- Platelet count only
+- Serum digoxin
+> Vitamin K is the antidote. Teach consistent intake of vitamin K–rich foods.
+
+[g044] pharm
+The antidote for heparin overdose is:
+- Vitamin K
+* Protamine sulfate
+- Naloxone
+- Flumazenil
+> Unfractionated heparin is monitored with aPTT (or anti-Xa levels).
+
+[g045] pharm
+A patient taking furosemide should be monitored especially for:
+- Hyperkalemia
+* Hypokalemia
+- Hypercalcemia
+- Weight gain
+> Loop diuretics cause loss of potassium. Monitor electrolytes, BP, weight and intake and output.
+
+[g046] pharm
+A patient taking spironolactone should be taught to avoid:
+- Bananas only when sick
+* Potassium supplements and salt substitutes that contain potassium
+- All fluids
+- Calcium-rich foods
+> Spironolactone is a potassium-sparing diuretic and can cause hyperkalemia.
+
+[g047] pharm
+A common side effect of ACE inhibitors such as lisinopril is:
+* A persistent dry cough
+- Hypoglycemia
+- Tachycardia
+- Hair growth
+> Angioedema is a rare but serious reaction. Hyperkalemia can also occur.
+
+[g048] pharm
+Beta blockers such as metoprolol should be used with caution in patients with:
+- Hypertension
+* Asthma or bradycardia
+- Angina
+- Atrial fibrillation with rapid rate
+> Beta blockers slow the heart and non-selective ones can cause bronchospasm. Check pulse and BP before giving.
+
+[g049] pharm
+The antidote for opioid overdose is:
+* Naloxone
+- Flumazenil
+- Atropine
+- Acetylcysteine
+> Naloxone may wear off before the opioid, so continue to monitor respirations.
+
+[g050] pharm
+The antidote for benzodiazepine overdose is:
+- Naloxone
+* Flumazenil
+- Protamine sulfate
+- Vitamin K
+> Use flumazenil cautiously; it can trigger seizures in long-term benzodiazepine users.
+
+[g051] pharm
+The antidote for acetaminophen (paracetamol) overdose is:
+- Activated vitamin D
+* Acetylcysteine
+- Naloxone
+- Calcium gluconate
+> Acetylcysteine protects the liver and works best when started early.
+
+[g052] pharm
+A patient receiving IV magnesium sulfate for preeclampsia has a respiratory rate of 10 and absent reflexes. The nurse should stop the infusion and prepare:
+- Oxytocin
+* Calcium gluconate
+- Terbutaline
+- Potassium chloride
+> These are signs of magnesium toxicity. Calcium gluconate is the antidote.
+
+[g053] pharm
+Which statement about IV potassium chloride is correct?
+- It may be given by IV push in emergencies
+* It must be diluted and given by infusion, never by IV push
+- It should be given faster when urine output is low
+- It does not require cardiac monitoring at any rate
+> Undiluted or IV push potassium can cause fatal arrhythmias. Confirm adequate urine output.
+
+[g054] pharm
+The order is amoxicillin 500 mg orally. The suspension contains 250 mg per 5 mL. How many mL should the nurse give?
+- 2.5 mL
+- 5 mL
+* 10 mL
+- 20 mL
+> 500 ÷ 250 × 5 mL = 10 mL.
+
+[g055] pharm
+1,000 mL of normal saline is to be infused over 8 hours. What is the hourly rate?
+- 100 mL/h
+* 125 mL/h
+- 150 mL/h
+- 200 mL/h
+> 1,000 mL ÷ 8 h = 125 mL/h.
+
+[g056] pharm
+An infusion is to run at 100 mL/h using a set with a drop factor of 20 drops/mL. How many drops per minute?
+- 20
+* 33
+- 50
+- 100
+> 100 mL × 20 drops ÷ 60 minutes = 33.3, about 33 drops/min.
+
+[g057] pharm
+A child weighing 20 kg is prescribed 15 mg/kg of a drug. What is the dose?
+- 150 mg
+* 300 mg
+- 35 mg
+- 3,000 mg
+> 15 mg × 20 kg = 300 mg. Always check that the dose is within the safe range.
+
+[g058] pharm
+Heparin 25,000 units in 500 mL is ordered at 1,000 units per hour. What is the pump rate?
+* 20 mL/h
+- 25 mL/h
+- 40 mL/h
+- 50 mL/h
+> 25,000 ÷ 500 = 50 units/mL. 1,000 ÷ 50 = 20 mL/h.
+
+[g059] pharm
+Aminoglycosides such as gentamicin can cause:
+- Hepatotoxicity only
+* Nephrotoxicity and ototoxicity
+- Hyperglycemia
+- Weight gain
+> Monitor kidney function, hearing and peak and trough drug levels.
+
+[g060] pharm
+Flushing and a red rash on the face and neck during a vancomycin infusion usually means:
+- An expected therapeutic effect
+* The infusion is too fast (vancomycin infusion reaction)
+- The drug has expired
+- The patient has hypoglycemia
+> Slow the infusion. Vancomycin is usually given over at least 60 minutes.
+
+[g061] maternal
+The normal fetal heart rate baseline is:
+- 80 to 100 bpm
+* 110 to 160 bpm
+- 160 to 200 bpm
+- 60 to 100 bpm
+> Persistent rates outside this range need evaluation.
+
+[g062] maternal
+Late decelerations on the fetal monitor indicate:
+- Head compression
+- Cord compression
+* Uteroplacental insufficiency
+- Normal fetal sleep
+> Turn the mother to her side, stop oxytocin, give IV fluids and oxygen per protocol, and notify the provider.
+
+[g063] maternal
+Variable decelerations are most often caused by:
+- Head compression
+* Umbilical cord compression
+- Maternal fever
+- Fetal movement
+> Repositioning the mother is usually the first action.
+
+[g064] maternal
+Early decelerations that mirror contractions are caused by:
+* Fetal head compression and are usually benign
+- Placental insufficiency
+- Cord prolapse
+- Maternal hypotension
+> Early decelerations are common during descent and need no intervention.
+
+[g065] maternal
+A postpartum woman has heavy bleeding and a soft, boggy uterus. The nurse's first action is to:
+- Give a sedative
+* Massage the fundus
+- Encourage ambulation
+- Apply ice to the perineum
+> Uterine atony is the leading cause of postpartum hemorrhage. Fundal massage and uterotonic drugs help the uterus contract.
+
+[g066] maternal
+About 24 hours after birth, the fundus is normally found:
+- At the level of the xiphoid process
+* At or about 1 cm below the umbilicus
+- At the symphysis pubis
+- Not palpable
+> The fundus then descends about 1 cm per day.
+
+[g067] maternal
+Preeclampsia is defined as new hypertension after 20 weeks of gestation with:
+- Low blood pressure
+* Proteinuria or signs of organ dysfunction
+- Weight loss
+- Fetal macrosomia
+> Warning signs include headache, visual changes and epigastric pain.
+
+[g068] maternal
+An Rh-negative mother who gives birth to an Rh-positive baby should receive anti-D immunoglobulin:
+- Only during the next pregnancy
+* Within 72 hours after birth
+- Only if the baby is jaundiced
+- Never
+> It is also commonly given at about 28 weeks of gestation to prevent sensitization.
+
+[g069] maternal
+The APGAR score is assessed at:
+* 1 and 5 minutes after birth
+- 30 minutes and 1 hour after birth
+- Only at discharge
+- 24 hours after birth
+> It assesses heart rate, respiratory effort, muscle tone, reflex irritability and color.
+
+[g070] maternal
+Newborns receive an IM injection of vitamin K to:
+- Prevent jaundice
+* Prevent vitamin K deficiency bleeding
+- Prevent eye infection
+- Boost immunity
+> Newborns have low vitamin K levels and a sterile gut at birth.
+
+[g071] maternal
+Jaundice that appears within the first 24 hours of life is:
+- Normal physiologic jaundice
+* Pathologic and needs prompt evaluation
+- Caused by breastfeeding only
+- Expected in every newborn
+> Physiologic jaundice usually appears after 24 hours.
+
+[g072] maternal
+A healthy infant usually doubles birth weight by about:
+- 1 month
+* 5 to 6 months
+- 12 months
+- 2 years
+> Birth weight usually triples by about 12 months.
+
+[g073] maternal
+A child with suspected epiglottitis is drooling and sitting in the tripod position. The nurse should:
+- Inspect the throat with a tongue depressor
+* Avoid examining the throat and prepare for emergency airway management
+- Lay the child flat
+- Give oral fluids
+> Examining the throat can cause complete airway obstruction.
+
+[g074] maternal
+Which sign suggests dehydration in an infant?
+- A bulging fontanelle
+* A sunken fontanelle and fewer wet diapers
+- Weight gain
+- Moist mucous membranes
+> Other signs include dry mouth, no tears and lethargy.
+
+[g075] maternal
+Children with cystic fibrosis usually take pancreatic enzyme supplements:
+- At bedtime only
+* With meals and snacks
+- Once a week
+- Only when they have diarrhea
+> Enzymes help digest fats and proteins. Diets are usually high-calorie.
+
+[g076] maternal
+The MMR vaccine is:
+* A live attenuated vaccine, usually first given at 12–15 months
+- An inactivated vaccine given at birth
+- Safe for severely immunocompromised children
+- Given only to adults
+> Live vaccines are generally avoided in pregnancy and severe immunodeficiency.
+
+[g077] maternal
+Lochia rubra (bright red discharge) normally lasts about:
+* 1 to 3 days after birth
+- 2 to 3 weeks after birth
+- 6 weeks after birth
+- Only a few hours
+> It is followed by lochia serosa (pinkish-brown) and then lochia alba (whitish).
+
+[g078] maternal
+Which statement about breastfeeding is correct?
+- Newborns should be fed only every 6 hours
+* Feeding on demand, about 8–12 times in 24 hours, is recommended
+- Formula must be given after each breastfeed
+- Breastfeeding should stop if the mother has sore nipples
+> Exclusive breastfeeding for about the first six months is recommended by WHO.
+
+[g079] maternal
+When calculating a pediatric medication dose, the nurse should always:
+- Use the adult dose
+* Verify the dose against the child's weight (mg/kg) and the safe range
+- Estimate the child's weight
+- Round the dose up
+> Weight-based checks are essential to prevent pediatric dosing errors.
+
+[g080] maternal
+A child with croup typically presents with:
+- A productive cough and high fever
+* A barking, seal-like cough and inspiratory stridor
+- Wheezing on expiration only
+- Painful swallowing with drooling
+> Cool mist, steroids and nebulized epinephrine are common treatments. Watch for respiratory distress.
+
+[g081] critical
+For an adult in cardiac arrest, chest compressions should be given at a rate of:
+- 60 to 80 per minute
+* 100 to 120 per minute
+- 140 to 160 per minute
+- 30 per minute
+> Push at least 5 cm (2 inches) deep, allow full recoil and minimize interruptions.
+
+[g082] critical
+For adult CPR with one rescuer, the compression-to-ventilation ratio is:
+- 15:2
+* 30:2
+- 5:1
+- 50:2
+> 30:2 is used for adults. It changes once an advanced airway is placed.
+
+[g083] critical
+The first-line drug for anaphylaxis is:
+- Oral antihistamine
+* Intramuscular epinephrine
+- IV antibiotics
+- Oral steroids
+> Give IM epinephrine (often into the anterolateral thigh) promptly, then support airway, breathing and circulation.
+
+[g084] critical
+In mass-casualty triage, a patient who can walk to the treatment area is usually tagged:
+* Green (minor)
+- Red (immediate)
+- Yellow (delayed)
+- Black (expectant)
+> "Walking wounded" are triaged as minor.
+
+[g085] critical
+Using the rule of nines, an adult with burns to the entire right arm has burns to about what percentage of body surface area?
+- 4.5%
+* 9%
+- 18%
+- 27%
+> Each arm is 9%; each leg 18%; front and back of the trunk 18% each; head 9%; perineum 1%.
+
+[g086] critical
+Using the Parkland formula, half of the 24-hour fluid requirement is given:
+* In the first 8 hours after the burn
+- In the first hour
+- Over the last 16 hours only
+- After 24 hours
+> Parkland: 4 mL × body weight (kg) × %TBSA. The time counts from the burn, not from arrival.
+
+[g087] critical
+Which findings suggest hypovolemic shock?
+- Bradycardia, warm dry skin and high urine output
+* Tachycardia, hypotension, cool clammy skin and low urine output
+- Hypertension and bounding pulses
+- Fever and flushed skin only
+> Restore volume and find the cause of fluid or blood loss.
+
+[g088] critical
+For a patient with suspected sepsis, broad-spectrum antibiotics should be started:
+- After 24 hours of observation
+* As soon as possible, ideally within 1 hour, after blood cultures are taken
+- Only after culture results return
+- Only if the patient has a fever
+> Early antibiotics and fluid resuscitation improve survival.
+
+[g089] critical
+Cushing's triad, a late sign of increased intracranial pressure, consists of:
+* Hypertension with widening pulse pressure, bradycardia and irregular respirations
+- Hypotension, tachycardia and fever
+- Tachypnea, tachycardia and hypotension
+- Hyperglycemia, polyuria and polydipsia
+> Cushing's triad suggests impending brain herniation and is a medical emergency.
+
+[g090] critical
+An ABG shows pH 7.30, PaCO2 52 mmHg and HCO3 24 mEq/L. This indicates:
+* Respiratory acidosis
+- Respiratory alkalosis
+- Metabolic acidosis
+- Metabolic alkalosis
+> Low pH with high PaCO2 means respiratory acidosis. Normal ranges: pH 7.35–7.45, PaCO2 35–45, HCO3 22–26.
+
+[g091] critical
+A patient's monitor shows ventricular fibrillation and the patient is pulseless. The priority is:
+- Give oral amiodarone
+* Start CPR and defibrillate as soon as possible
+- Perform a 12-lead ECG
+- Check blood glucose
+> Early defibrillation is the most important treatment for VF arrest.
+
+[g092] critical
+A patient says, "I don't see the point of living anymore." The best response is:
+- "Don't talk like that. You have a lot to live for."
+* "Are you thinking about killing yourself?"
+- "Let's talk about something more cheerful."
+- "Everyone feels that way sometimes."
+> Asking directly about suicide does not increase risk. It opens communication and allows assessment and safety measures.
+
+[g093] critical
+A patient taking lithium should be taught to:
+- Restrict salt and fluids strictly
+* Keep a normal, consistent salt and fluid intake and have blood levels checked
+- Stop the drug if they feel well
+- Take extra doses when anxious
+> Low sodium or dehydration raises lithium levels and the risk of toxicity. Early toxicity includes vomiting, diarrhea and tremor.
+
+[g094] critical
+A patient taking an MAO inhibitor should avoid:
+- Fresh fruits
+* Tyramine-rich foods such as aged cheese and cured meats
+- Rice and bread
+- Fresh milk
+> Tyramine can trigger a hypertensive crisis in patients taking MAOIs.
+
+[g095] critical
+Alcohol withdrawal symptoms typically begin:
+* 6 to 24 hours after the last drink
+- 1 to 2 weeks after the last drink
+- Only after 72 hours
+- Immediately while drinking
+> Delirium tremens usually appears around 48–72 hours. Benzodiazepines are commonly used.
+
+[g096] critical
+Which is an example of therapeutic communication?
+- "Why did you do that?"
+* "Tell me more about what happened."
+- "I know exactly how you feel."
+- "You should stop worrying."
+> Open-ended questions encourage the patient to share. "Why" questions can sound judgmental.
+
+[g097] critical
+A patient with schizophrenia says the television is sending him messages. The best response is:
+- "That's impossible. Stop saying that."
+* "That must be frightening. I don't hear messages, but I'm here with you."
+- "What are the messages telling you to buy?"
+- Ignore the statement
+> Acknowledge the feelings, do not argue with or reinforce the delusion, and present reality calmly.
+
+[g098] critical
+A patient taking clozapine needs regular monitoring of:
+- Serum potassium only
+* White blood cell and absolute neutrophil counts
+- Thyroid hormones only
+- Bone density
+> Clozapine can cause agranulocytosis, a life-threatening fall in white blood cells.
+
+[g099] critical
+High fever, severe muscle rigidity and altered consciousness in a patient taking an antipsychotic suggests:
+- Tardive dyskinesia
+* Neuroleptic malignant syndrome
+- Serotonin deficiency
+- Hypoglycemia
+> Stop the antipsychotic, cool the patient and provide urgent medical care.
+
+[g100] critical
+The first step when approaching an unresponsive adult in a hospital corridor is to:
+* Check that the scene is safe, then check responsiveness and call for help
+- Start rescue breaths immediately
+- Move the patient to a bed
+- Leave to find a doctor
+> Scene safety, responsiveness, call for help/AED, then check breathing and pulse, and start CPR if needed.

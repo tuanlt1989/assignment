@@ -1,0 +1,62 @@
+{
+  "id": "cscsro",
+  "applicationId": "com.tuanlt.examprep.cscsro",
+  "launcherName": "CSCS Română",
+  "title": {
+    "ro": "Test CSCS în Română",
+    "en": "CSCS Test in Romanian"
+  },
+  "bank": "cscs",
+  "locales": [
+    "ro",
+    "en"
+  ],
+  "color": "#EF6C00",
+  "icon": {
+    "label": "CSCS",
+    "badge": "RO",
+    "glyph": "helmet"
+  },
+  "exam": {
+    "questions": 50,
+    "minutes": 45,
+    "passPercent": 90
+  },
+  "freeRatio": 0.3,
+  "suggestedPriceUsd": 9.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "admob": {
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/cscsro.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "examBodies": {
+    "ro": "CITB, CSCS, Pearson VUE sau orice alt organizator al testului",
+    "en": "CITB, CSCS, Pearson VUE or any other test provider"
+  },
+  "tagline": {
+    "ro": "Întrebări în română, engleza la un click · Teste simulate · Explicații",
+    "en": "Romanian + English · Timed mock tests · Explanations"
+  },
+  "screenshotCaptions": {
+    "ro": [
+      "Află dacă ești gata pentru testul CSCS",
+      "Română + engleză, cu explicații",
+      "Teste simulate cu cronometru",
+      "Scor pe teme, recapitulezi ce nu știi"
+    ],
+    "en-US": [
+      "Know when you're ready for the CSCS test",
+      "Romanian questions, English on tap",
+      "Timed mock tests like test day",
+      "Score by topic, fix weak spots"
+    ]
+  },
+  "markets": [
+    "GB"
+  ]
+}

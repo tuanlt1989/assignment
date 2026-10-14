@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:exam_prep/app_state.dart';
+import 'package:exam_prep/i18n.dart';
 import 'package:exam_prep/main.dart';
 import 'package:exam_prep/models.dart';
 import 'package:exam_prep/monetization.dart';
@@ -36,6 +37,14 @@ void main() {
         expect(config.examQuestions, lessThanOrEqualTo(bank.questions.length));
       });
     }
+
+    test('every UI language has every string', () {
+      for (final app in _apps().values) {
+        for (final lang in List<String>.from(app['locales'] as List)) {
+          expect(S.missingKeys(lang), isEmpty, reason: lang);
+        }
+      }
+    });
 
     test('free tier covers every category but not everything', () {
       final bank = _bank('nail');

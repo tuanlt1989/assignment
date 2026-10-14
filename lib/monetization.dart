@@ -9,8 +9,9 @@ import 'package:in_app_review/in_app_review.dart';
 import 'models.dart';
 import 'progress.dart';
 
-/// Ads for free users, one non-consumable "premium" product that removes ads
-/// and unlocks the whole bank, and the review prompt.
+/// One non-consumable "premium" product that unlocks the whole bank (and
+/// removes ads), optional AdMob ads for free users, and the review prompt.
+/// Apps with `"ads": false` never touch the ads SDK and upsell instead.
 class Monetization extends ChangeNotifier {
   Monetization(this.config, this.progress);
 
@@ -30,12 +31,13 @@ class Monetization extends ChangeNotifier {
   ProductDetails? product;
   bool storeAvailable = false;
   String? purchaseError;
+  bool purchasePending = false;
   StreamSubscription<List<PurchaseDetails>>? _sub;
 
   Future<void> init() async {
     if (!_mobile) return;
     unawaited(_initPurchases());
-    if (_noAds) return;
+    if (_noAds || !config.adsEnabled) return;
     // Google's consent form (shown only where the law requires it, e.g. EEA/UK).
     final params = ConsentRequestParameters();
     ConsentInformation.instance.requestConsentInfoUpdate(
@@ -56,7 +58,7 @@ class Monetization extends ChangeNotifier {
   }
 
   Future<bool> privacyOptionsRequired() async {
-    if (!_mobile) return false;
+    if (!_mobile || !config.adsEnabled) return false;
     return await ConsentInformation.instance
             .getPrivacyOptionsRequirementStatus() ==
         PrivacyOptionsRequirementStatus.required;
@@ -78,12 +80,14 @@ class Monetization extends ChangeNotifier {
     );
   }
 
-  /// Called when a practice session or exam ends. Shows an interstitial every
-  /// second session so free users are not punished on every quiz.
-  void onSessionFinished() {
+  /// Called when a practice session or exam ends. Every second session a free
+  /// user sees an interstitial, or, when no ad is shown, the caller should
+  /// show the paywall (returns true).
+  bool onSessionFinished() {
     progress.finishSession();
+    if (progress.premium || progress.finishedSessions % 2 != 0) return false;
     final ad = _interstitial;
-    if (!showAds || ad == null || progress.finishedSessions % 2 != 0) return;
+    if (!showAds || ad == null) return true;
     ad.fullScreenContentCallback = FullScreenContentCallback(
       onAdDismissedFullScreenContent: (ad) {
         ad.dispose();
@@ -96,6 +100,7 @@ class Monetization extends ChangeNotifier {
     );
     _interstitial = null;
     ad.show();
+    return false;
   }
 
   Future<void> _initPurchases() async {
@@ -112,15 +117,23 @@ class Monetization extends ChangeNotifier {
       notifyListeners();
       return;
     }
-    final resp = await iap.queryProductDetails({config.premiumProductId});
-    product = resp.productDetails.isEmpty ? null : resp.productDetails.first;
-    notifyListeners();
+    await loadProduct();
     // Picks up purchases made before a reinstall or on another device.
     if (!progress.premium) await iap.restorePurchases();
   }
 
+  /// Fetches the price from Play. Retried from the paywall if it failed.
+  Future<void> loadProduct() async {
+    final resp = await InAppPurchase.instance.queryProductDetails({
+      config.premiumProductId,
+    });
+    product = resp.productDetails.isEmpty ? null : resp.productDetails.first;
+    notifyListeners();
+  }
+
   void _onPurchases(List<PurchaseDetails> purchases) {
     for (final p in purchases) {
+      purchasePending = p.status == PurchaseStatus.pending;
       if (p.productID == config.premiumProductId &&
           (p.status == PurchaseStatus.purchased ||
               p.status == PurchaseStatus.restored)) {

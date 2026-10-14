@@ -17,7 +17,7 @@ const scenes = ['home', 'practice', 'exam', 'result'];
     for (const scene of scenes) {
       const ctx = await browser.newContext({ viewport: { width: 400, height: 760 }, deviceScaleFactor: 2.7 });
       const page = await ctx.newPage();
-      await page.goto(`http://127.0.0.1:8765/?app=${app}&demo=${scene}`);
+      await page.goto(`http://127.0.0.1:${process.env.PORT || 8765}/?app=${app}&demo=${scene}`);
       await page.waitForTimeout(4500);
       await page.screenshot({ path: path.join(OUT, `${app}_${scene}.png`) });
       await ctx.close();

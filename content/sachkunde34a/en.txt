@@ -1,0 +1,802 @@
+# German security-guard competence exam (Sachkundeprüfung §34a GewO) — English helper/master.
+# Original practice items. The IHK exam is in German; de.txt is the primary text in the app.
+
+[k001] oeffrecht
+Who grants the permit to run a security business under §34a of the German Trade Regulation Act (GewO)?
+- The IHK
+* The competent authority, usually the local trade office
+- The police
+- The employer's association
+> The IHK conducts the competence exam; the trade authority grants the business permit.
+
+[k002] oeffrecht
+Who conducts the §34a competence exam (Sachkundeprüfung)?
+- The local court
+- The police academy
+* The Chamber of Industry and Commerce (IHK)
+- The security company itself
+> The exam has a written part and an oral part.
+
+[k003] oeffrecht
+Which activity requires the full competence exam, not just the shorter instruction course (Unterrichtung)?
+- Reception service in an office building
+* Door control at discotheques and similar venues
+- Night watch in a closed warehouse
+- Key holding without patrols
+> Patrols in public spaces, store detectives, door staff and guarding of refugee accommodation require the competence exam.
+
+[k004] oeffrecht
+Since 2019, security staff in Germany must be registered in:
+- The commercial register
+* The central security register (Bewacherregister)
+- The population register only
+- The vehicle register
+> The authorities check reliability before staff may be employed.
+
+[k005] oeffrecht
+Who is generally considered unreliable under §34a GewO?
+* A person convicted with final effect in the last five years of a crime or of certain offences such as theft or assault
+- Anyone with a parking fine
+- Anyone who changed employers
+- Anyone without a driving licence
+> Membership of banned or extremist organisations can also make a person unreliable.
+
+[k006] oeffrecht
+During duty, security staff must:
+- Wear police-style uniforms
+* Carry a service ID card and show it on request
+- Carry a firearm
+- Keep their name secret at all times
+> The Security Regulation (BewachV) sets rules for ID cards and clothing.
+
+[k007] oeffrecht
+Uniforms of security staff must:
+* Not be confusable with uniforms of the police or armed forces
+- Look exactly like police uniforms
+- Always be black
+- Be approved by the IHK
+> Confusion with state uniforms is not allowed.
+
+[k008] oeffrecht
+The state monopoly on the use of force means that:
+- Security staff may use force as police do
+* Only the state may use force as a sovereign power; private staff only have rights everyone has
+- Security staff may arrest anyone at any time
+- Companies may set their own penal rules
+> Private security works with "everyone's rights" (Jedermannsrechte) and rights transferred by the client, such as house rights.
+
+[k009] oeffrecht
+"Jedermannsrechte" are rights that:
+- Only police officers have
+* Every person has, such as self-defence, necessity and provisional arrest
+- Only security companies have
+- Only property owners have
+> Security staff have no more powers than other citizens unless rights are transferred to them, such as house rights.
+
+[k010] oeffrecht
+A security business must take out:
+- Car insurance only
+* Liability insurance as required by the Security Regulation
+- Life insurance for every customer
+- No insurance
+> The insurance covers damage caused during guarding activities.
+
+[k011] oeffrecht
+Under the GDPR, the principle of data minimisation means:
+* Only the personal data needed for the purpose may be processed
+- All available data should be collected
+- Data may be shared freely
+- Data must be stored forever
+> Other principles include purpose limitation, accuracy, storage limitation and integrity.
+
+[k012] oeffrecht
+Video surveillance of publicly accessible areas:
+- Is always forbidden
+* Is allowed only under legal conditions and must be indicated by signs
+- Needs no notice
+- May be published online
+> Signs must inform people of the surveillance and the controller.
+
+[k013] oeffrecht
+Which is personal data?
+- The weather report
+* A vehicle licence plate or a video image of an identifiable person
+- The company's opening hours
+- The number of parking spaces
+> Personal data is any information relating to an identified or identifiable person.
+
+[k014] oeffrecht
+Under the GDPR, a person whose data is processed has the right to:
+- Nothing
+* Information about the data stored about them
+- Free security services
+- See all other people's data
+> Further rights include correction, deletion and objection.
+
+[k015] oeffrecht
+Security staff must keep confidential:
+- Nothing at all
+* Business and operational secrets they learn about on duty
+- Only their own salary
+- Only the weather
+> Breaching confidentiality can have consequences under employment and criminal law.
+
+[k016] oeffrecht
+May a security guard force a person to show an ID card, as the police can?
+- Yes, always
+* No; private security has no police power to establish identity by force
+- Yes, but only at night
+- Yes, if the person looks suspicious
+> The guard may ask, and may call the police. Provisional arrest under §127 StPO has its own conditions.
+
+[k017] oeffrecht
+House rights (Hausrecht) on a client's premises come from:
+* The owner or occupier, who can transfer them to the security company by contract
+- The IHK
+- The police
+- The guard personally
+> The guard then exercises house rights on behalf of the client.
+
+[k018] oeffrecht
+A ban from the premises (Hausverbot) may be issued by:
+- Any visitor
+* The holder of house rights or staff authorised by them
+- Only a court
+- Only the police
+> Someone who stays despite a ban may commit trespass (§123 StGB).
+
+[k019] oeffrecht
+Who monitors compliance with the Security Regulation (BewachV)?
+- The customer
+* The competent trade authority
+- The fire brigade
+- The tax office
+> The authority may inspect records and staff lists.
+
+[k020] oeffrecht
+Which fundamental right is stated in Article 1 of the German Basic Law?
+- Freedom of the press
+* Human dignity is inviolable
+- The right to own property
+- Freedom of assembly
+> Security staff must respect the dignity of every person.
+
+[k021] bgb
+According to §227 BGB, an act required in self-defence is:
+* Not unlawful
+- Always punishable
+- Only allowed for police
+- Allowed only against children
+> Self-defence is the defence needed to avert a present unlawful attack on oneself or another.
+
+[k022] bgb
+Under §228 BGB (defensive necessity), a person may damage or destroy:
+- Any object nearby
+* An object from which the danger comes, such as an attacking dog, if necessary and proportionate
+- Only their own property
+- Public property only
+> The damage must not be out of proportion to the danger.
+
+[k023] bgb
+§904 BGB (aggressive necessity) allows using another person's property to avert a danger. The owner:
+- Has no rights
+* Can claim compensation for the damage
+- Must pay a fine
+- Loses ownership
+> Example: using someone else's fire extinguisher to fight a fire.
+
+[k024] bgb
+Self-help under §229 BGB is allowed when:
+- It is quicker than calling the police
+* Official help cannot be obtained in time and the claim would otherwise be frustrated or made much more difficult
+- The guard wants to punish someone
+- The person is a known offender
+> Self-help must not go further than needed (§230 BGB).
+
+[k025] bgb
+§859 (1) BGB allows the possessor to:
+* Defend themselves with force against unlawful interference with possession
+- Punish the offender
+- Search anyone's bag
+- Detain anyone for 24 hours
+> This is called defence of possession (Besitzwehr).
+
+[k026] bgb
+Under §859 (2) BGB, a possessor may take back a movable item:
+- At any time later
+* From an offender caught in the act or pursued immediately
+- Only with a court order
+- Only with police present
+> This is called recovery of possession (Besitzkehr).
+
+[k027] bgb
+In German civil law, possession means:
+- Legal ownership
+* Actual control over an item
+- A right registered with a notary
+- A bank account
+> Ownership is the legal right to an item; possession is the actual physical control.
+
+[k028] bgb
+A security guard who controls items for the client (as a "Besitzdiener"):
+- Has no right to protect them
+* May exercise the possessor's rights under §859 BGB (§860 BGB)
+- Becomes the owner
+- Must call a court first
+> The guard acts on behalf of the possessor.
+
+[k029] bgb
+Under §823 BGB, a person who intentionally or negligently injures another's life, body, health, freedom or property unlawfully must:
+- Pay a state fine only
+* Compensate the damage caused
+- Leave the country
+- Do nothing
+> This is the central rule of tort liability.
+
+[k030] bgb
+Under §831 BGB, an employer may be liable for damage caused by an employee while carrying out work, unless:
+* The employer can prove that the employee was carefully selected and supervised
+- The employee was on time
+- The damage was small
+- The client agrees
+> This is liability for vicarious agents (Verrichtungsgehilfen).
+
+[k031] bgb
+Full legal capacity to enter into contracts begins at age:
+- 7
+- 14
+- 16
+* 18
+> From 7 to 17, people have limited legal capacity.
+
+[k032] bgb
+A 12-year-old has:
+- No legal capacity
+* Limited legal capacity
+- Full legal capacity
+- Criminal liability
+> Children under 7 have no legal capacity.
+
+[k033] bgb
+Negligence (§276 BGB) means:
+- Acting with intent
+* Failing to exercise the care required in everyday dealings
+- Acting in self-defence
+- Following instructions
+> Intent and negligence are the two forms of fault.
+
+[k034] bgb
+A guarding contract between a client and a security company is usually a:
+- Purchase contract
+* Service contract
+- Rental contract
+- Gift
+> The company owes the guarding service, not a specific result.
+
+[k035] bgb
+A guard finds a wallet on the client's premises. The guard should:
+- Keep it after six months
+* Record the find and hand it over according to the instructions (e.g., to the client or lost property office)
+- Throw it away
+- Take the money as a reward
+> The finder must report and hand over found property.
+
+[k036] bgb
+According to §230 BGB, if a person is detained by self-help:
+- They can be held for as long as needed
+* They must be brought before the court (in practice, handed to the police) without delay
+- They must pay a fine
+- They may be searched at will
+> Self-help must stop as soon as official help is available.
+
+[k037] bgb
+House rights are mainly based on:
+* Ownership or possession of the premises
+- The guard's employment contract only
+- The IHK certificate
+- Police orders
+> The owner can demand that disturbances stop (§1004 BGB).
+
+[k038] bgb
+§1004 BGB gives the owner the right to demand:
+- Imprisonment of the disturber
+* Removal of the disturbance and that it not be repeated
+- A higher rent
+- A police uniform
+> This includes, for example, ending unwanted presence on the property.
+
+[k039] bgb
+The standard limitation period for claims under German civil law is:
+- 6 months
+- 1 year
+* 3 years
+- 30 years
+> The period usually starts at the end of the year in which the claim arose.
+
+[k040] bgb
+Children under seven are:
+* Not responsible for damage they cause (§828 BGB)
+- Fully liable
+- Liable only for intentional damage
+- Liable through the police
+> Parents or supervisors may be liable for breach of their duty of supervision.
+
+[k041] straf
+According to §32 StGB, self-defence is:
+* The defence required to avert a present unlawful attack from oneself or another
+- Any revenge for an earlier attack
+- Using force to collect a debt
+- Punishing a thief later
+> The defence must be necessary: the mildest effective means.
+
+[k042] straf
+Defending another person against an attack is called:
+- Self-help
+* Defence of others (Nothilfe), covered by §32 StGB
+- Necessity
+- Arrest
+> The same conditions as self-defence apply.
+
+[k043] straf
+Under §33 StGB, a person who exceeds the limits of self-defence out of confusion, fear or fright:
+- Is always punished more severely
+* Is not punished
+- Loses all rights
+- Must pay double compensation
+> This is called excessive self-defence.
+
+[k044] straf
+Justifying necessity under §34 StGB requires that:
+- Any interest may be sacrificed
+* The protected interest substantially outweighs the interest that is harmed, and the act is an appropriate means
+- The danger is in the past
+- The person acts for money
+> Example: breaking a window to rescue someone from a fire.
+
+[k045] straf
+Under §127 (1) StPO, anyone may provisionally arrest a person who is caught in the act or being pursued if:
+- The person is rude
+* The person is suspected of fleeing or their identity cannot be established immediately
+- The person refuses to buy something
+- The person is a foreigner
+> The arrest must be proportionate.
+
+[k046] straf
+After a provisional arrest, the guard must:
+* Inform the police without delay and hand the person over
+- Release the person after one day
+- Question the person for hours
+- Take the person home
+> The guard must not punish or interrogate the person.
+
+[k047] straf
+A provisional arrest under §127 StPO is allowed for:
+- Administrative offences such as parking violations
+* Criminal offences (Straftaten)
+- Rude behaviour only
+- Any rule violation in the house rules
+> It does not apply to administrative offences (Ordnungswidrigkeiten).
+
+[k048] straf
+Bodily harm under §223 StGB means:
+- Insulting someone
+* Physically abusing someone or damaging their health
+- Taking someone's property
+- Entering a building without permission
+> The attempt is also punishable.
+
+[k049] straf
+Trespass (§123 StGB) is committed by someone who:
+* Unlawfully enters protected premises or stays despite being asked to leave
+- Walks on a public street
+- Enters a shop during opening hours
+- Calls the police
+> Trespass is generally only prosecuted on complaint (Antragsdelikt).
+
+[k050] straf
+Theft (§242 StGB) is the taking of:
+- One's own property
+* A movable item belonging to another, with the intention of unlawfully appropriating it
+- Real estate
+- Information only
+> The attempt is punishable.
+
+[k051] straf
+Robbery (§249 StGB) is:
+- Theft without force
+* Theft with violence against a person or threats of present danger to life or limb
+- Damage to property
+- Fraud
+> Robbery is a felony (Verbrechen).
+
+[k052] straf
+Robbery-like theft (§252 StGB) is committed by a thief who:
+* Is caught in the act and uses violence or threats to keep the stolen goods
+- Steals at night
+- Steals from a relative
+- Returns the goods
+> The thief is punished like a robber.
+
+[k053] straf
+Coercion (§240 StGB) means:
+- Asking someone politely
+* Unlawfully forcing someone to act, tolerate or omit something by force or threat of serious harm
+- Arresting someone legally
+- Refusing service
+> Unlawfully forcing customers to do things can be coercion.
+
+[k054] straf
+Locking a person in a room without legal grounds can be:
+- Allowed under house rights
+* Deprivation of liberty (§239 StGB)
+- Self-help in every case
+- Coercion only if at night
+> Detaining someone is only allowed under strict conditions such as §127 StPO.
+
+[k055] straf
+Failure to render assistance (§323c StGB) is committed by someone who:
+* Does not help in an accident or emergency although help is necessary and reasonable
+- Calls an ambulance
+- Gives first aid incorrectly
+- Waits for professional help after calling 112
+> Calling for help can be sufficient assistance.
+
+[k056] straf
+Under §12 StGB, a felony (Verbrechen) is an unlawful act punishable by a minimum of:
+- A fine
+- 3 months imprisonment
+* 1 year imprisonment
+- 5 years imprisonment
+> Offences with a lower minimum penalty are misdemeanours (Vergehen).
+
+[k057] straf
+An offence prosecuted only on complaint (Antragsdelikt) is, for example:
+- Murder
+- Robbery
+* Trespass
+- Arson
+> The victim (or the holder of house rights) must file a complaint.
+
+[k058] straf
+The deadline to file a criminal complaint (Strafantrag) is:
+- 1 week
+- 1 month
+* 3 months
+- 1 year
+> The period begins when the person entitled learns of the act and the offender.
+
+[k059] straf
+Children under 14 are:
+- Fully criminally liable
+* Not criminally liable (§19 StGB)
+- Liable only for theft
+- Liable if their parents agree
+> Young people aged 14 to 17 fall under juvenile criminal law.
+
+[k060] straf
+Damaging or destroying someone else's property is called:
+- Theft
+* Criminal damage (§303 StGB)
+- Fraud
+- Trespass
+> Graffiti can also be criminal damage.
+
+[k061] waffen
+To carry a gas/blank-firing pistol (with PTB mark) in public, a person needs:
+- No permit
+* A minor firearms licence (Kleiner Waffenschein)
+- A hunting licence
+- Only an ID card
+> Carrying at public events is generally prohibited even with the licence.
+
+[k062] waffen
+A firearms ownership card (Waffenbesitzkarte) allows:
+* Acquiring and owning a firearm, but not carrying it in public
+- Carrying it everywhere
+- Selling weapons commercially
+- Using it at events
+> Carrying in public requires a firearms licence (Waffenschein).
+
+[k063] waffen
+Carrying a weapon (Führen) means:
+- Keeping it locked at home
+* Having actual control over it outside one's own home, business premises or enclosed property
+- Owning it on paper
+- Cleaning it
+> Carrying in public generally needs a licence.
+
+[k064] waffen
+Animal-defence pepper spray may be used against people:
+- At any time
+* Only in a self-defence situation
+- To enforce house rules
+- To punish thieves
+> Using it outside self-defence can be bodily harm.
+
+[k065] waffen
+Which item is a prohibited weapon under the German Weapons Act?
+- A torch
+* Brass knuckles
+- A whistle
+- A notebook
+> Prohibited items include knuckle dusters and certain knives.
+
+[k066] waffen
+May a security guard carry a firearm on duty?
+- Yes, any guard may
+* Only with official permission and on the employer's instructions, after checks of reliability and competence
+- Only at night
+- Only if the client asks
+> The security company needs permission, and the authority must agree to the use of the guard.
+
+[k067] waffen
+Firearms and ammunition must be stored:
+* In approved security containers according to the Weapons Act
+- In a car
+- In an open locker
+- At the client's reception
+> Unauthorised persons must not have access.
+
+[k068] waffen
+Using a firearm on duty is only allowed:
+- To warn people at events
+* In self-defence or necessity as a last resort
+- To stop someone leaving with goods
+- To threaten someone
+> Any use of a weapon must be necessary and proportionate.
+
+[k069] waffen
+Carrying weapons at public events (§42 WaffG) is:
+- Always allowed
+* Generally prohibited
+- Allowed with a ticket
+- Allowed for everyone over 18
+> Exceptions exist for authorised persons, for example with official permission.
+
+[k070] waffen
+Which accident insurance institution is responsible for the security industry?
+- The health insurance fund
+* The employers' liability insurance association (VBG)
+- The tax office
+- The IHK
+> The statutory accident insurance covers work accidents and commuting accidents.
+
+[k071] waffen
+The accident prevention regulation for guarding and security services is:
+* DGUV Regulation 23
+- The Road Traffic Act
+- The Building Code
+- The Tax Code
+> It contains rules on equipment, dogs, weapons and dangerous lone work.
+
+[k072] waffen
+A work accident must be reported to the accident insurer if the employee is unable to work for more than:
+- 1 day
+* 3 calendar days
+- 6 weeks
+- 1 year
+> The employer submits the accident report.
+
+[k073] waffen
+An accident on the direct way to or from work is:
+* Insured as a commuting accident
+- Never insured
+- Only insured by car insurance
+- Only insured on Sundays
+> Detours for private reasons may interrupt the cover.
+
+[k074] waffen
+For dangerous lone work, a guard should have:
+- No equipment
+* A personal emergency signal device or regular check-in contact
+- A second job
+- A guard dog in every case
+> Lone workers must be able to call for help.
+
+[k075] waffen
+Fire class B includes fires of:
+- Solid materials such as wood
+* Liquids or liquefiable substances such as petrol
+- Metals
+- Cooking oils and fats
+> A: solids, B: liquids, C: gases, D: metals, F: cooking oils/fats.
+
+[k076] waffen
+When you discover a fire, what should you generally do first?
+* Keep calm and raise the alarm (call 112)
+- Collect your belongings
+- Open all windows
+- Use the lift
+> Then bring people to safety and attempt extinguishing only if it is safe.
+
+[k077] waffen
+An unconscious person who is breathing normally should be placed:
+- On their back with legs raised
+* In the recovery position
+- Sitting upright
+- Face down
+> Keep checking breathing and call emergency services.
+
+[k078] waffen
+An unconscious person who is not breathing normally needs:
+- A glass of water
+* CPR (chest compressions) and an AED as soon as available, after calling 112
+- The recovery position only
+- To be left alone
+> Push hard and fast in the centre of the chest.
+
+[k079] waffen
+Guard dogs used in security work must:
+- Be any family pet
+* Be tested and handled only by qualified dog handlers
+- Be released freely in public areas
+- Wear no muzzle ever
+> DGUV Regulation 23 sets requirements for dogs and handlers.
+
+[k080] waffen
+Personal protective equipment for guards must be:
+* Provided by the employer and used as instructed
+- Bought by the guard
+- Used only when convenient
+- Shared without cleaning
+> Examples include high-visibility vests, safety shoes and torches.
+
+[k081] umgang
+Which behaviour helps to de-escalate a conflict?
+- Shouting louder than the other person
+* Speaking calmly, keeping distance and letting the other person save face
+- Touching the person immediately
+- Laughing at the person
+> Calm body language and clear words reduce aggression.
+
+[k082] umgang
+According to Schulz von Thun's communication model, every message has four sides. Which is one of them?
+- Volume
+* Appeal
+- Grammar
+- Punctuation
+> The four sides: factual content, self-revelation, relationship and appeal.
+
+[k083] umgang
+"I-messages" (such as "I can't let you in like this") help because they:
+- Blame the other person
+* Express your own view without attacking the other person
+- End all conversations
+- Are commands
+> "You-messages" are often heard as accusations.
+
+[k084] umgang
+Active listening includes:
+* Paraphrasing what was said and asking questions
+- Interrupting often
+- Looking at your phone
+- Thinking about your answer only
+> It shows the other person they are taken seriously.
+
+[k085] umgang
+In a confrontation, a safe distance from an agitated person is about:
+- 10 cm
+* 1 to 1.5 metres (at least an arm's length)
+- 10 metres
+- No distance needed
+> Distance gives you time to react.
+
+[k086] umgang
+Under high stress, a person's perception often becomes:
+- Wider
+* Narrower ("tunnel vision")
+- Unchanged
+- Better at details
+> Breathing techniques and training help to stay in control.
+
+[k087] umgang
+When dealing with people under the influence of alcohol, you should:
+- Provoke them to leave
+* Stay calm, keep distance and avoid provocation
+- Give them more alcohol
+- Argue about details
+> Alcohol lowers inhibitions and can increase aggression.
+
+[k088] umgang
+In case of panic at a large event, security staff should:
+* Give short, clear instructions and keep escape routes open
+- Lock all exits
+- Run away
+- Turn off all lights
+> Crowd management relies on calm, visible staff and clear signage.
+
+[k089] umgang
+Refusing entry to a person because of their ethnic origin violates:
+- The Road Traffic Act
+* The General Equal Treatment Act (AGG)
+- The Weapons Act
+- The Tax Code
+> Entry decisions must be based on objective reasons.
+
+[k090] umgang
+A guest makes a complaint. The best reaction is to:
+- Ignore them
+* Listen politely, document the issue and pass it on
+- Argue loudly
+- Ask them to leave immediately
+> Professional behaviour protects the client's reputation.
+
+[k091] umgang
+A hold-up alarm system is mainly used to:
+- Detect smoke
+* Silently call for help during a robbery or attack
+- Open doors automatically
+- Record working hours
+> Intrusion alarms detect break-ins; hold-up alarms are triggered by people.
+
+[k092] umgang
+What is the main difference between mechanical and electronic security?
+* Mechanical security prevents or delays entry; electronic security detects and reports
+- There is no difference
+- Electronic security always prevents entry
+- Mechanical security sends alarms
+> Effective protection combines both with an organised response.
+
+[k093] umgang
+A passive infrared (PIR) motion detector reacts to:
+- Sound
+* Changes in heat radiation in its detection area
+- Light switches
+- Wi-Fi signals
+> PIR detectors are common in intrusion alarm systems.
+
+[k094] umgang
+CCTV systems are used mainly for:
+- Heating buildings
+* Deterrence, observation and securing evidence
+- Opening gates
+- Counting money
+> Data protection rules apply to video surveillance.
+
+[k095] umgang
+Access control can be based on:
+- Only the weather
+* Knowledge (PIN), possession (card) or biometrics (fingerprint)
+- The guard's mood
+- The time of day only
+> Combining two factors increases security.
+
+[k096] umgang
+Escape routes must:
+- Be used as storage
+* Be kept clear and usable at all times
+- Be locked at night when people are inside
+- Be blocked during events
+> Blocked escape routes can be deadly in an emergency.
+
+[k097] umgang
+A manual call point in a fire alarm system is used to:
+* Raise a fire alarm by hand
+- Unlock doors
+- Turn on lights
+- Stop sprinklers
+> It is usually red and marked "Feuer".
+
+[k098] umgang
+Patrol routes and times are usually documented with:
+- A diary at home
+* A guard tour (watchman) control system
+- Social media
+- Nothing
+> Documentation proves that patrols were carried out.
+
+[k099] umgang
+Keys entrusted to the security service must be:
+- Lent to friends
+* Managed and documented carefully, and any loss reported immediately
+- Copied for convenience
+- Left in the car
+> Lost keys can make costly lock changes necessary.
+
+[k100] umgang
+The service instruction (Dienstanweisung) for a guard:
+- Is optional reading
+* Defines the guard's tasks at the site; deviations only after consultation
+- Is written by the guard
+- Replaces the law
+> It never gives more rights than the law allows.

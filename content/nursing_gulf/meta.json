@@ -1,0 +1,10 @@
+{
+  "version": "2026.10.1",
+  "categories": [
+    {"id": "fundamentals", "name": {"en": "Fundamentals & Patient Safety"}},
+    {"id": "medsurg", "name": {"en": "Medical-Surgical Nursing"}},
+    {"id": "pharm", "name": {"en": "Pharmacology & Dosage Calculation"}},
+    {"id": "maternal", "name": {"en": "Maternal & Child Health"}},
+    {"id": "critical", "name": {"en": "Emergency, Critical Care & Mental Health"}}
+  ]
+}

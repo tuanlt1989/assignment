@@ -1,0 +1,10 @@
+{
+  "version": "2026.10.1",
+  "categories": [
+    {"id": "oeffrecht", "name": {"en": "Trade Law, Security Regulations & Data Protection", "de": "Gewerberecht, BewachV & Datenschutz"}},
+    {"id": "bgb", "name": {"en": "Civil Law (BGB)", "de": "Bürgerliches Recht (BGB)"}},
+    {"id": "straf", "name": {"en": "Criminal Law & Procedure", "de": "Straf- und Strafverfahrensrecht"}},
+    {"id": "waffen", "name": {"en": "Weapons Law, Accident Prevention & First Aid", "de": "Waffenrecht, UVV & Erste Hilfe"}},
+    {"id": "umgang", "name": {"en": "Dealing with People & Security Technology", "de": "Umgang mit Menschen & Sicherheitstechnik"}}
+  ]
+}

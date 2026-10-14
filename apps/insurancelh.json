@@ -41,5 +41,9 @@
       "Timed mock exams like test day",
       "See your score by topic"
     ]
+  },
+  "ads": false,
+  "examBodies": {
+    "en": "any state department of insurance, Pearson VUE, PSI, Prometric or other exam provider"
   }
 }

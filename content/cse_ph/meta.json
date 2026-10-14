@@ -1,0 +1,10 @@
+{
+  "version": "2026.10.1",
+  "categories": [
+    {"id": "verbal", "name": {"en": "Verbal Ability"}},
+    {"id": "reading", "name": {"en": "Reading Comprehension"}},
+    {"id": "numerical", "name": {"en": "Numerical Ability"}},
+    {"id": "analytical", "name": {"en": "Analytical Ability"}},
+    {"id": "general", "name": {"en": "General Information & Constitution"}}
+  ]
+}

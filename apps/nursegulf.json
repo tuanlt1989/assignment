@@ -1,0 +1,64 @@
+{
+  "id": "nursegulf",
+  "applicationId": "com.tuanlt.examprep.nursegulf",
+  "launcherName": "Gulf Nursing Exam",
+  "title": {
+    "en": "Gulf Nursing Exam Prep"
+  },
+  "bank": "nursing_gulf",
+  "locales": [
+    "en"
+  ],
+  "color": "#00838F",
+  "icon": {
+    "label": "RN",
+    "badge": "",
+    "glyph": "cross"
+  },
+  "exam": {
+    "questions": 60,
+    "minutes": 72,
+    "passPercent": 60
+  },
+  "freeRatio": 0.3,
+  "suggestedPriceUsd": 14.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "admob": {
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/nursegulf.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "examBodies": {
+    "en": "DHA, DOH Abu Dhabi, MOHAP, SCFHS, QCHP, Prometric or any other licensing authority"
+  },
+  "tagline": {
+    "en": "DHA · DOH · MOHAP · SCFHS · QCHP practice · Rationales · Dosage calculations"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Know when you're ready for your Prometric exam",
+      "A clear rationale for every answer",
+      "Timed mock exams like test day",
+      "See your score by nursing area"
+    ]
+  },
+  "markets": [
+    "IN",
+    "PH",
+    "AE",
+    "SA",
+    "QA",
+    "KW",
+    "OM",
+    "BH",
+    "PK",
+    "EG",
+    "NG",
+    "KE",
+    "JO"
+  ]
+}

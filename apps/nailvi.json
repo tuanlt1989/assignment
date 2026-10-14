@@ -50,5 +50,9 @@
       "Timed mock exams like test day",
       "Score by topic, fix weak spots"
     ]
+  },
+  "ads": false,
+  "examBodies": {
+    "en": "any state board, PSI, Pearson VUE, Prometric, NIC or other exam provider"
   }
 }

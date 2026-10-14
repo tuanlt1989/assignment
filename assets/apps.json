@@ -1,4 +1,33 @@
 {
+ "civilserviceph": {
+  "id": "civilserviceph",
+  "bank": "cse_ph",
+  "locales": [
+   "en"
+  ],
+  "title": {
+   "en": "Civil Service Exam Reviewer PH"
+  },
+  "color": "#1E3A8A",
+  "exam": {
+   "questions": 60,
+   "minutes": 70,
+   "passPercent": 80
+  },
+  "freeRatio": 0.35,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+   "appId": "ca-app-pub-3940256099942544~3347511713",
+   "banner": "ca-app-pub-3940256099942544/6300978111",
+   "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/civilserviceph.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "ads": false,
+  "examBodies": {
+   "en": "the Civil Service Commission or any government agency"
+  }
+ },
  "cosmoes": {
   "id": "cosmoes",
   "bank": "cosmetology",
@@ -24,7 +53,11 @@
    "interstitial": "ca-app-pub-3940256099942544/1033173712"
   },
   "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/cosmoes.html",
-  "supportEmail": "CHANGE_ME@example.com"
+  "supportEmail": "CHANGE_ME@example.com",
+  "ads": false,
+  "examBodies": {
+   "en": "any state board, PSI, Pearson VUE, Prometric, NIC or other exam provider"
+  }
  },
  "cosmovi": {
   "id": "cosmovi",
@@ -51,7 +84,75 @@
    "interstitial": "ca-app-pub-3940256099942544/1033173712"
   },
   "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/cosmovi.html",
-  "supportEmail": "CHANGE_ME@example.com"
+  "supportEmail": "CHANGE_ME@example.com",
+  "ads": false,
+  "examBodies": {
+   "en": "any state board, PSI, Pearson VUE, Prometric, NIC or other exam provider"
+  }
+ },
+ "cscspl": {
+  "id": "cscspl",
+  "bank": "cscs",
+  "locales": [
+   "pl",
+   "en"
+  ],
+  "title": {
+   "pl": "Test CSCS po polsku",
+   "en": "CSCS Test in Polish"
+  },
+  "color": "#C62828",
+  "exam": {
+   "questions": 50,
+   "minutes": 45,
+   "passPercent": 90
+  },
+  "freeRatio": 0.3,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+   "appId": "ca-app-pub-3940256099942544~3347511713",
+   "banner": "ca-app-pub-3940256099942544/6300978111",
+   "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/cscspl.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "ads": false,
+  "examBodies": {
+   "pl": "CITB, CSCS, Pearson VUE ani innym organizatorem testu",
+   "en": "CITB, CSCS, Pearson VUE or any other test provider"
+  }
+ },
+ "cscsro": {
+  "id": "cscsro",
+  "bank": "cscs",
+  "locales": [
+   "ro",
+   "en"
+  ],
+  "title": {
+   "ro": "Test CSCS în Română",
+   "en": "CSCS Test in Romanian"
+  },
+  "color": "#EF6C00",
+  "exam": {
+   "questions": 50,
+   "minutes": 45,
+   "passPercent": 90
+  },
+  "freeRatio": 0.3,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+   "appId": "ca-app-pub-3940256099942544~3347511713",
+   "banner": "ca-app-pub-3940256099942544/6300978111",
+   "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/cscsro.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "ads": false,
+  "examBodies": {
+   "ro": "CITB, CSCS, Pearson VUE sau orice alt organizator al testului",
+   "en": "CITB, CSCS, Pearson VUE or any other test provider"
+  }
  },
  "insurancelh": {
   "id": "insurancelh",
@@ -76,7 +177,11 @@
    "interstitial": "ca-app-pub-3940256099942544/1033173712"
   },
   "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/insurancelh.html",
-  "supportEmail": "CHANGE_ME@example.com"
+  "supportEmail": "CHANGE_ME@example.com",
+  "ads": false,
+  "examBodies": {
+   "en": "any state department of insurance, Pearson VUE, PSI, Prometric or other exam provider"
+  }
  },
  "nailes": {
   "id": "nailes",
@@ -103,7 +208,11 @@
    "interstitial": "ca-app-pub-3940256099942544/1033173712"
   },
   "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/nailes.html",
-  "supportEmail": "CHANGE_ME@example.com"
+  "supportEmail": "CHANGE_ME@example.com",
+  "ads": false,
+  "examBodies": {
+   "en": "any state board, PSI, Pearson VUE, Prometric, NIC or other exam provider"
+  }
  },
  "nailvi": {
   "id": "nailvi",
@@ -130,6 +239,71 @@
    "interstitial": "ca-app-pub-3940256099942544/1033173712"
   },
   "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/nailvi.html",
-  "supportEmail": "CHANGE_ME@example.com"
+  "supportEmail": "CHANGE_ME@example.com",
+  "ads": false,
+  "examBodies": {
+   "en": "any state board, PSI, Pearson VUE, Prometric, NIC or other exam provider"
+  }
+ },
+ "nursegulf": {
+  "id": "nursegulf",
+  "bank": "nursing_gulf",
+  "locales": [
+   "en"
+  ],
+  "title": {
+   "en": "Gulf Nursing Exam Prep"
+  },
+  "color": "#00838F",
+  "exam": {
+   "questions": 60,
+   "minutes": 72,
+   "passPercent": 60
+  },
+  "freeRatio": 0.3,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+   "appId": "ca-app-pub-3940256099942544~3347511713",
+   "banner": "ca-app-pub-3940256099942544/6300978111",
+   "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/nursegulf.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "ads": false,
+  "examBodies": {
+   "en": "DHA, DOH Abu Dhabi, MOHAP, SCFHS, QCHP, Prometric or any other licensing authority"
+  }
+ },
+ "sachkunde": {
+  "id": "sachkunde",
+  "bank": "sachkunde34a",
+  "locales": [
+   "de",
+   "en"
+  ],
+  "title": {
+   "de": "Sachkunde §34a Prüfung",
+   "en": "Security Exam §34a (Germany)"
+  },
+  "color": "#37474F",
+  "exam": {
+   "questions": 72,
+   "minutes": 120,
+   "passPercent": 50
+  },
+  "freeRatio": 0.3,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+   "appId": "ca-app-pub-3940256099942544~3347511713",
+   "banner": "ca-app-pub-3940256099942544/6300978111",
+   "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/sachkunde.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "ads": false,
+  "examBodies": {
+   "de": "IHKs, dem DIHK oder Behörden",
+   "en": "any IHK, the DIHK or any public authority"
+  }
  }
 }

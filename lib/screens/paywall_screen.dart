@@ -21,7 +21,9 @@ class PaywallScreen extends StatelessWidget {
           ),
           (Icons.timer_outlined, s.t('pwExam')),
           if (app.helperLang != null) (Icons.translate, s.t('pwBilingual')),
-          (Icons.block, s.t('pwNoAds')),
+          app.config.adsEnabled
+              ? (Icons.block, s.t('pwNoAds'))
+              : (Icons.wifi_off, s.t('pwOffline')),
         ];
         return Scaffold(
           appBar: AppBar(),
@@ -80,7 +82,7 @@ class PaywallScreen extends StatelessWidget {
                       style: const TextStyle(fontSize: 17),
                     ),
                   ),
-                  if (money.product == null)
+                  if (money.product == null) ...[
                     Padding(
                       padding: const EdgeInsets.only(top: 8),
                       child: Text(
@@ -88,6 +90,18 @@ class PaywallScreen extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(color: scheme.error),
                       ),
+                    ),
+                    TextButton(
+                      onPressed: money.storeAvailable
+                          ? money.loadProduct
+                          : null,
+                      child: Text(s.t('retry')),
+                    ),
+                  ],
+                  if (money.purchasePending)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 8),
+                      child: Text(s.t('pending'), textAlign: TextAlign.center),
                     ),
                   if (money.purchaseError != null)
                     Padding(

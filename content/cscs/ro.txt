@@ -1,0 +1,801 @@
+# Banca de întrebări CSCS — română. Aceleași id-uri și aceeași ordine a variantelor ca în en.txt.
+
+[s001]
+Care este scopul principal al instructajului de șantier (site induction)?
+* Să explice regulile șantierului, pericolele și procedurile de urgență înainte de a începe lucrul
+- Să îți verifice abilitățile de meserie
+- Să stabilească salariul
+- Să îți elibereze cardul CSCS
+> Toată lumea trebuie să participe la instructaj înainte de a începe lucrul pe un șantier nou.
+
+[s002]
+Conform legii privind sănătatea și securitatea, angajații trebuie:
+- Să respecte regulile doar când îi vede supraveghetorul
+* Să aibă grijă de propria siguranță și a celorlalți și să coopereze cu angajatorul
+- Să își cumpere singuri echipamentul de protecție
+- Să își stabilească singuri regulile de siguranță
+> Legea Health and Safety at Work etc. Act impune obligații atât angajatorilor, cât și angajaților.
+
+[s003]
+Conform RIDDOR, o accidentare care ține un muncitor departe de sarcinile normale mai mult de câte zile trebuie raportată la HSE?
+- 1 zi
+- 3 zile
+* 7 zile
+- 30 de zile
+> Accidentările de peste șapte zile se raportează (fără ziua accidentului). Cele de peste trei zile trebuie totuși înregistrate.
+
+[s004]
+Cine are obligația de a raporta la HSE un accident care trebuie raportat conform RIDDOR?
+- Muncitorul accidentat
+* Angajatorul sau persoana care controlează șantierul
+- Vecinul clientului
+- Primăria
+> Muncitorii trebuie să raporteze orice accident șefului, ca persoana responsabilă să îl poată raporta.
+
+[s005]
+Ce incidente trebuie trecute în registrul de accidente al șantierului?
+- Doar accidentele care necesită spitalizare
+* Toate accidentele și accidentările, oricât de minore
+- Doar accidentele cauzate de utilaje
+- Doar accidentele vizitatorilor
+> Înregistrarea fiecărei accidentări ajută la prevenirea repetării și protejează drepturile persoanei accidentate.
+
+[s006]
+Un „near miss” (incident fără urmări) este:
+- Un accident care a produs o accidentare minoră
+* Un eveniment care ar fi putut produce o accidentare sau pagube, dar nu a produs
+- O livrare întârziată
+- Lipsa de la un toolbox talk
+> Raportarea incidentelor fără urmări ajută la eliminarea pericolelor înainte să se rănească cineva.
+
+[s007]
+O declarație de metodă (method statement) descrie:
+- Tariful tău pe oră
+* Cum se va executa în siguranță o anumită lucrare, pas cu pas
+- Programul șantierului
+- Profitul firmei
+> Citește și respectă declarația de metodă pentru lucrarea ta. Dacă lucrarea se schimbă, oprește-te și întreabă.
+
+[s008]
+Scopul unei evaluări a riscurilor este:
+* Să identifice pericolele și să stabilească cum se controlează riscurile
+- Să găsească un vinovat după un accident
+- Să înlocuiască instruirea
+- Să calculeze costul lucrării
+> Măsurile de control din evaluarea riscurilor trebuie respectate de toți cei care fac lucrarea.
+
+[s009]
+În ierarhia măsurilor de control, ce trebuie luat în considerare mai întâi?
+- Echipamentul individual de protecție
+- Semnele de avertizare
+* Eliminarea completă a pericolului
+- Instruirea
+> Eliminare, înlocuire, măsuri tehnice, măsuri organizatorice și, ca ultimă soluție, EIP.
+
+[s010]
+Vezi un coleg care lucrează într-un mod periculos. Ce faci?
+- Ignori, nu e treaba ta
+* Îi spui sau oprești lucrul dacă se poate face în siguranță și raportezi șefului
+- Faci o poză pentru rețelele sociale
+- Aștepți până la sfârșitul săptămânii ca să spui
+> Fiecare are datoria de a avea grijă de ceilalți. Majoritatea șantierelor te încurajează să oprești lucrul periculos.
+
+[s011]
+Iei un medicament prescris care te face somnoros. Ce trebuie să faci?
+- Lucrezi normal
+* Îi spui șefului înainte să începi lucrul
+- Bei mai multă cafea și conduci utilajul
+- Oprești medicamentul fără sfatul medicului
+> Medicamentele, drogurile și alcoolul îți pot afecta capacitatea de a lucra în siguranță.
+
+[s012]
+Ce facilități sociale trebuie asigurate pe un șantier?
+- O sală de sport și o cantină
+* Toalete, chiuvete pentru spălat, apă potabilă și un spațiu de odihnă
+- Parcare pentru fiecare muncitor
+- Dușuri doar pentru șefi
+> Acolo unde e nevoie, trebuie și spații pentru schimbat și uscat hainele.
+
+[s013]
+Un semn de siguranță cu un cerc roșu și o linie roșie diagonală înseamnă:
+* Este interzis să faci ceva (interdicție)
+- Este obligatoriu să faci ceva
+- Avertizare asupra unui pericol
+- Condiție de siguranță sau prim ajutor
+> Exemplu: „Fumatul interzis”.
+
+[s014]
+Un semn de siguranță rotund și albastru înseamnă:
+- Interdicție
+* Trebuie să faci ceva (obligație)
+- Avertizare
+- Echipament de stingere a incendiilor
+> Exemplu: „Purtarea căștii de protecție este obligatorie”.
+
+[s015]
+Un semn triunghiular galben cu margine neagră înseamnă:
+- Ieșire în caz de incendiu
+- Acțiune obligatorie
+* Avertizare asupra unui pericol
+- Apă potabilă
+> Exemplu: „Pericol: cabluri aeriene”.
+
+[s016]
+Un semn verde, dreptunghiular sau pătrat, arată:
+- O interdicție
+- O avertizare
+* O condiție de siguranță, de exemplu un punct de prim ajutor sau o ieșire de urgență
+- Echipament de stingere a incendiilor
+> Semnele dreptunghiulare roșii arată echipamentele de stingere a incendiilor.
+
+[s017]
+Cineva s-a accidentat pe șantier și tu nu ai pregătire de prim ajutor. Ce faci?
+- Îl urci într-o mașină și îl duci la spital
+* Chemi persoana de prim ajutor a șantierului sau serviciile de urgență și urmezi instrucțiunile
+- Îi dai calmante
+- Îl lași și continui lucrul
+> Nu încerca tratamente pentru care nu ești pregătit. Asigură zona dacă poți.
+
+[s018]
+Când sună alarma de incendiu trebuie:
+* Să oprești lucrul, să mergi la punctul de adunare pe drumul cel mai sigur și să aștepți apelul
+- Să termini mai întâi ce ai de făcut
+- Să îți iei sculele și duba
+- Să pleci acasă
+> Nu te întoarce niciodată în clădire până nu ți se spune că este sigur.
+
+[s019]
+De ce este periculos să folosești telefonul mobil când mergi printr-o zonă aglomerată a șantierului?
+- Se descarcă bateria
+* Te distrage de la pericole, cum ar fi utilajele în mișcare și obstacolele de împiedicare
+- Este întotdeauna ilegal
+- Bruiază macaralele
+> Oprește-te într-un loc sigur înainte să folosești telefonul.
+
+[s020]
+Un „toolbox talk” este:
+- O sesiune de reparat scule
+* O scurtă instruire de siguranță pe o anumită temă, ținută de obicei pe șantier
+- O prezentare de vânzări
+- O ședință de sindicat
+> Toolbox talk-urile țin echipa informată despre riscurile actuale.
+
+[s021]
+Tăierea betonului sau a pietrei poate produce praf de silice. Cel mai bun mod de a-l controla este:
+- Să lucrezi repede și să îți ții respirația
+* Folosirea apei pentru umezire sau a aspirației pe unealtă, plus o mască (RPE) potrivită și testată pe față
+- O mască de hârtie purtată cu barbă
+- Să tai doar după-amiaza
+> Silicea cristalină respirabilă poate provoca silicoză și cancer pulmonar.
+
+[s022]
+De ce trebuie testate pe față (face-fit) măștile de praf care se mulează strâns?
+- Ca să se asorteze culoarea cu uniforma
+* Ca să se verifice că masca etanșează bine pe fața ta
+- Din motive de modă
+- Pentru că sunt scumpe
+> Barba de sub zona de etanșare împiedică masca să funcționeze. Fii proaspăt bărbierit sau folosește o mască cu glugă și aer filtrat.
+
+[s023]
+Dacă trebuie să strigi ca să te audă cineva aflat la aproximativ 2 metri, nivelul zgomotului este probabil:
+- Complet sigur
+* Suficient de mare încât probabil e nevoie de protecție auditivă
+- Mai mic decât vorbirea normală
+- O problemă doar pentru șefi
+> Afectarea auzului de la zgomot se acumulează în timp și este permanentă.
+
+[s024]
+De la ce nivel zilnic de expunere la zgomot angajatorii trebuie să asigure protecție auditivă și să impună zone cu protecție auditivă obligatorie?
+- 70 dB(A)
+- 75 dB(A)
+- 80 dB(A)
+* 85 dB(A)
+> La 80 dB(A) (pragul inferior) protecția trebuie pusă la dispoziție; la 85 dB(A) (pragul superior) trebuie purtată.
+
+[s025]
+Primele simptome ale sindromului vibrațiilor mână-braț includ:
+* Furnicături, amorțeală și degete care se albesc
+- Durere de cap și strănut
+- Doar dureri de spate
+- Mâncărimi la ochi
+> Sindromul (HAVS) este cauzat de folosirea regulată a uneltelor care vibrează, cum ar fi picamerele și polizoarele.
+
+[s026]
+Ce ajută la reducerea riscului de vibrații mână-braț?
+- Să ții unealta cât mai strâns
+* Unelte cu vibrații reduse, timp limitat de lucru cu ele și mâini ținute calde
+- Burghie tocite ca să apeși mai tare
+- Să lucrezi și în pauze
+> Raportează simptomele din timp. Este posibil să ți se ofere supraveghere medicală.
+
+[s027]
+Leptospiroza (boala Weil) se ia în principal de la:
+- Betonul umed
+* Apă sau pământ contaminat cu urină de șobolan
+- Azbest
+- Gazele de motorină
+> Acoperă tăieturile, poartă mănuși și spală-te pe mâini înainte să mănânci, să bei sau să fumezi.
+
+[s028]
+Dermatita de contact pe șantier este cauzată adesea de:
+- Doar de soare
+* Ciment umed, solvenți și alte substanțe chimice pe piele
+- Zgomot
+- Vibrații
+> Poartă mănuși, spală pielea, folosește cremă hidratantă și raportează iritațiile din timp.
+
+[s029]
+Cimentul umed lăsat pe piele poate provoca:
+- Nicio problemă
+* Arsuri chimice grave, pentru că este puternic alcalin
+- Leptospiroză
+- Degete albe de la vibrații
+> Spală-l imediat cu apă curată. Îngenuncherea în beton umed poate provoca arsuri adânci.
+
+[s030]
+COSHH înseamnă:
+* Control of Substances Hazardous to Health (Controlul substanțelor periculoase pentru sănătate)
+- Construcția de case și săli sigure
+- Controlul pericolelor și igienei pe șantier
+- Codul de manipulare sigură a greutăților
+> Evaluările COSHH explică pericolele unei substanțe și măsurile de control pe care trebuie să le folosești.
+
+[s031]
+Crezi că ai descoperit azbest în timp ce lucrai. Ce faci?
+- Rupi o bucată ca să verifici
+* Oprești imediat lucrul, ții oamenii departe și îi spui șefului
+- Îl mături într-un container
+- Îl vopsești
+> Fibrele de azbest pot provoca mezoteliom, azbestoză și cancer pulmonar, adesea după zeci de ani.
+
+[s032]
+Bolile cauzate de azbest apar de obicei:
+- În câteva ore
+- Într-o săptămână
+* La mulți ani după expunere
+- Doar dacă fumezi
+> Nu există vindecare, de aceea prevenirea este esențială.
+
+[s033]
+Înainte să ridici manual o greutate mare, trebuie să te gândești mai întâi:
+* Dacă greutatea poate fi mutată cu un dispozitiv de ridicare sau un utilaj
+- Cât de repede o poți ridica
+- La ridicarea cu spatele răsucit
+- Să ceri cuiva să ți-o arunce
+> Evită manipularea manuală acolo unde se poate; altfel, evaluează greutatea, sarcina și propriile posibilități.
+
+[s034]
+Tehnica corectă de ridicare manuală a unei greutăți presupune:
+- Picioare drepte și spatele aplecat
+* Genunchi îndoiți, spatele drept și greutatea ținută aproape de corp
+- Greutatea ținută cu brațele întinse
+- Răsucirea corpului în timpul ridicării
+> Planifică traseul, prinde bine greutatea și evită răsucirea.
+
+[s035]
+Lucrul afară în soare puternic fără protecție crește riscul de:
+- Silicoză
+* Cancer de piele și stres termic
+- Leptospiroză
+- Pierderea auzului
+> Acoperă-te, folosește cremă de soare, bea apă și ia pauze la umbră.
+
+[s036]
+Scopul supravegherii medicale, de exemplu testele de auz, este:
+- Să stabilească mărirea salariului
+* Să descopere din timp semnele unor boli legate de muncă
+- Să înlocuiască EIP
+- Să îți verifice condiția pentru sport
+> Depistarea timpurie permite luarea de măsuri înainte ca problema să se agraveze.
+
+[s037]
+Ești foarte obosit și nu te poți concentra pe o sarcină cu risc ridicat. Ce faci?
+- Continui ca să termini la timp
+* Îi spui șefului și iei o pauză
+- Bei o băutură energizantă și continui
+- Treci la condusul unui utilaj
+> Oboseala crește riscul de accidente.
+
+[s038]
+Dacă te confrunți cu stres sau probleme de sănătate mintală la muncă, un pas bun este:
+* Să vorbești cu șeful, cu persoana de prim ajutor pentru sănătate mintală sau cu medicul de familie
+- Să nu spui nimănui
+- Să bei alcool în pauza de prânz ca să te relaxezi
+- Să pleci de pe șantier fără să anunți
+> Multe șantiere au persoane instruite pentru prim ajutor în sănătatea mintală și linii de sprijin.
+
+[s039]
+Apa potabilă pe șantier trebuie să fie:
+- Luată de la orice robinet, inclusiv cele marcate „apă nepotabilă”
+* Marcată clar și ușor de găsit
+- Disponibilă doar în birou
+- Păstrată în recipiente vechi de chimicale
+> Nu păstra niciodată băuturi în recipiente care au conținut chimicale.
+
+[s040]
+Care este cel mai sigur mod de a lucra cu o substanță periculoasă pe care nu ai mai folosit-o?
+- O miroși ca să afli ce este
+* Citești evaluarea COSHH sau fișa cu date de securitate și respecți măsurile de control
+- O amesteci cu apă
+- Îl pui pe un coleg să o încerce primul
+> Dacă nu există informații, nu o folosi. Întreabă-l pe șef.
+
+[s041]
+Cine trebuie să plătească echipamentul de protecție (EIP) de care ai nevoie ca să lucrezi în siguranță?
+* Angajatorul tău
+- Tu
+- Clientul
+- HSE
+> EIP necesar pentru lucrare trebuie oferit gratuit, iar tu trebuie să îl folosești și să ai grijă de el.
+
+[s042]
+Casca ta de protecție are o fisură în carcasă. Ce faci?
+- Lipești fisura cu bandă adezivă
+* Nu o mai folosești și ceri una nouă
+- Vopsești peste fisură
+- O folosești până se rupe
+> De asemenea, nu o vopsi și nu lipi autocolante neaprobate, pentru că unele substanțe slăbesc carcasa.
+
+[s043]
+Îmbrăcămintea reflectorizantă (hi-vis) se poartă pentru ca:
+- Să arăți profesionist
+* Să fii văzut de operatorii de utilaje și de șoferi
+- Să îți țină de cald
+- Șefii să te găsească ușor pentru ore suplimentare
+> Ține hi-vis-ul curat și încheiat.
+
+[s044]
+Când trebuie purtați ochelarii de protecție?
+* Când există risc de particule care zboară, praf, chimicale sau scântei, de exemplu la polizare
+- Doar în zilele însorite
+- Doar noaptea
+- Niciodată dacă porți ochelari de vedere
+> Folosește tipul de protecție a ochilor indicat în evaluarea riscurilor.
+
+[s045]
+Majoritatea șantierelor din Marea Britanie folosesc scule electrice portabile galbene de 110V pentru că:
+- Sunt mai puternice
+* Tensiunea redusă scade mult riscul unui șoc electric mortal
+- Sunt mai ieftine
+- Nu trebuie verificate
+> Sistemele de 110V cu punct median legat la pământ limitează tensiunea față de pământ la aproximativ 55V.
+
+[s046]
+Observi un cablu deteriorat la o sculă electrică. Ce faci?
+- Îl înfășori cu bandă izolatoare și lucrezi mai departe
+* Nu o mai folosești, o etichetezi ca defectă și raportezi
+- O folosești doar afară
+- O dai unui coleg
+> Verifică sculele înainte de fiecare folosire și folosește doar echipament verificat.
+
+[s047]
+Înainte de a săpa, rețelele îngropate trebuie localizate prin:
+- Ghicit după forma drumului
+* Verificarea planurilor rețelelor și folosirea unui detector de cabluri (CAT și Genny)
+- Săpat rapid cu excavatorul
+- Întrebatul vecinilor
+> Apoi sapă manual, cu grijă, în apropierea rețelelor găsite.
+
+[s048]
+Când lucrezi lângă linii electrice aeriene trebuie:
+- Să presupui că nu sunt sub tensiune
+* Să ții utilajele și materialele la distanță și să respecți permisul și barierele
+- Să folosești scări metalice sub ele
+- Să le atingi ca să verifici
+> Contactul sau arcul electric pot fi mortale. Pentru marcarea zonelor sigure se pot folosi porți de gabarit și bariere.
+
+[s049]
+Cele trei elemente necesare pentru un incendiu sunt:
+- Apa, combustibilul și vântul
+* Căldura, combustibilul și oxigenul
+- Fumul, căldura și lumina
+- Gazul, scânteile și apa
+> Elimină oricare latură a triunghiului focului și incendiul se stinge.
+
+[s050]
+Ce stingător este potrivit pentru incendiile la echipamente electrice?
+- Cu apă (etichetă roșie)
+* Cu dioxid de carbon (CO2, etichetă neagră)
+- Cu spumă pe echipament sub tensiune
+- Cu agent chimic umed (etichetă galbenă)
+> Nu folosi niciodată apă pe echipamente electrice sub tensiune.
+
+[s051]
+Lucrările cu foc deschis, cum ar fi sudura sau tăierea, necesită de obicei:
+* Un permis pentru lucru cu foc și supravegherea zonei după terminarea lucrului
+- Nicio măsură dacă se lucrează afară
+- Doar stingătoare cu apă
+- Lucru de unul singur
+> Incendiile pot porni mult după terminarea lucrului, de aceea zona se verifică o anumită perioadă după.
+
+[s052]
+Pe șantier, scările trebuie folosite:
+- Pentru orice lucrare care durează toată ziua
+* Doar pentru lucrări scurte și ușoare, când nu se poate folosi în mod rezonabil o variantă mai sigură
+- Pentru urcat și coborât materiale grele
+- Fără să le verifice nimeni
+> Păstrează trei puncte de sprijin și nu te întinde prea mult.
+
+[s053]
+Unghiul corect pentru o scară sprijinită este aproximativ:
+- 1 în afară la fiecare 1 în sus
+* 1 în afară la fiecare 4 în sus (aproximativ 75 de grade)
+- 1 în afară la fiecare 10 în sus
+- Vertical, lipită de perete
+> Aceasta este regula „1 la 4”.
+
+[s054]
+O scară folosită pentru acces la o platformă de lucru trebuie să depășească punctul de aterizare cu aproximativ:
+- 10 cm
+* 1 metru (cam trei trepte)
+- 3 metri
+- Nu trebuie să depășească
+> Astfel ai de ce să te ții când urci și cobori de pe ea.
+
+[s055]
+Cine are voie să modifice o schelă?
+- Oricine are nevoie de acces mai bun
+* Doar un schelar competent și instruit
+- Persoana care face curățenie
+- Clientul
+> Nu scoate niciodată balustrade, ancore sau podine. Verifică eticheta de inspecție a schelei înainte de folosire.
+
+[s056]
+Înălțimea minimă a balustradei superioare la o platformă de lucru este:
+- 500 mm
+- 750 mm
+* 950 mm
+- 1.500 mm
+> Protecția marginilor mai are nevoie de o balustradă intermediară și de o plintă.
+
+[s057]
+Un ham complet folosit pentru oprirea căderii trebuie:
+- Purtat larg, ca să fie comod
+* Prins de un punct de ancorare potrivit, utilizatorul să fie instruit și să existe un plan de salvare
+- Folosit fără verificare
+- Împrumutat fără să verifici dacă se potrivește
+> Verifică hamurile și lonjele înainte de fiecare folosire.
+
+[s058]
+Înainte de a folosi un turn de schelă mobil trebuie să te asiguri că:
+- Oamenii rămân pe el când este mutat
+* Stabilizatoarele sunt montate și frânele roților sunt puse
+- Este construit cât mai înalt
+- Lipsesc podine ca să fie mai ușor
+> Mută turnul doar când nu e nimeni pe el și traseul este liber.
+
+[s059]
+O schelă trebuie inspectată de o persoană competentă:
+- O dată pe an
+* Înainte de prima folosire, cel puțin o dată la 7 zile și după orice eveniment care îi poate afecta siguranța
+- Doar după un accident
+- Niciodată după ce a fost montată
+> Caută o etichetă sau o evidență de inspecție valabilă.
+
+[s060]
+Căderea materialelor de la înălțime poate fi prevenită prin:
+* Plinte, grilaje pentru cărămizi, plase și platforme ținute ordonate
+- Lucru mai rapid
+- Aruncarea atentă a materialelor jos
+- Purtarea antifoanelor
+> Nu arunca niciodată materiale de la înălțime. Folosește tobogane de moloz sau coboară-le în siguranță.
+
+[s061]
+Când te deplasezi pe șantier trebuie:
+- Să tai pe drumul cel mai scurt prin zona utilajelor
+* Să folosești căile marcate pentru pietoni
+- Să mergi în spatele vehiculelor care dau înapoi
+- Să stai lângă cupa excavatorului ca să te uiți
+> Separarea oamenilor de vehicule este una dintre cele mai bune metode de a evita lovirea.
+
+[s062]
+Înainte să te apropii de un utilaj care lucrează trebuie:
+- Să strigi tare și să vii din spate
+* Să stabilești contact vizual cu operatorul și să primești un semnal clar că e sigur
+- Să urci pe utilaj ca să vorbești cu operatorul
+- Să aștepți în unghiul mort
+> Adesea operatorii nu văd oamenii aflați aproape de utilaj.
+
+[s063]
+Vehiculele care dau înapoi pe șantier trebuie dirijate de:
+- Orice persoană din apropiere
+* Un semnalizator (banksman) sau dirijor de vehicule instruit
+- Șoferul singur, în orice situație
+- Doar un semn
+> Mersul cu spatele trebuie evitat acolo unde se poate, de exemplu prin trasee cu sens unic.
+
+[s064]
+Cine poate conduce utilaje precum excavatoarele sau încărcătoarele telescopice?
+* Doar operatori instruiți, competenți și autorizați
+- Oricine are permis auto
+- Oricine are peste 18 ani
+- Muncitorii necalificați când operatorul e în pauză
+> De obicei operatorii au un card recunoscut, cum ar fi CPCS sau NPORS.
+
+[s065]
+Este permis să mergi pe un utilaj ca pasager doar când:
+- Drumul este scurt
+* Există un scaun special pentru pasager
+- Cupa este goală
+- Șeful nu este acolo
+> Căderile de pe utilaje provoacă accidentări grave.
+
+[s066]
+De ce pământul săpat și materialele trebuie ținute departe de marginea unei excavații?
+- Ca să arate ordonat șantierul
+* Ca să scadă riscul ca pereții să se surpe și ca lucrurile să cadă în groapă
+- Ca să rămână uscate
+- Pentru că așa a cerut clientul
+> Folosește și protecție la margini ca să nu cadă oameni sau vehicule în groapă.
+
+[s067]
+Excavațiile trebuie inspectate de o persoană competentă:
+- O dată pe lună
+* La începutul fiecărui schimb și după orice eveniment care le poate afecta stabilitatea
+- Doar când plouă
+- Doar la sfârșitul lucrării
+> Pereții trebuie sprijiniți sau taluzați ca să nu se surpe.
+
+[s068]
+De ce nu trebuie folosit niciodată un generator pe benzină într-o excavație sau într-un spațiu închis?
+- Face prea mult zgomot
+* Gazele de eșapament, cum ar fi monoxidul de carbon, se pot acumula și pot ucide
+- Se udă
+- Este prea greu
+> Monoxidul de carbon nu are culoare și nici miros.
+
+[s069]
+Cine poate intra într-un spațiu închis, cum ar fi un cămin de vizitare sau un rezervor?
+- Oricine, dacă e rapid
+* Doar persoane instruite, cu permis, monitorizare a gazelor și plan de salvare
+- Primul om disponibil
+- Oricine poartă mască de praf
+> Spațiile închise pot conține gaze toxice sau prea puțin oxigen.
+
+[s070]
+Un coleg a leșinat într-un spațiu închis. Ce faci?
+* Dai alarma și nu intri decât dacă ești instruit și echipat pentru salvare
+- Intri imediat să îl scoți
+- Îți ții respirația și intri
+- Aștepți să își revină
+> Multe decese în spații închise sunt ale unor salvatori neinstruiți.
+
+[s071]
+În timpul unei ridicări cu macaraua trebuie:
+- Să treci pe sub sarcină dacă ești rapid
+* Să stai departe de sarcină și să urmezi instrucțiunile legătorului/semnalizatorului
+- Să ghidezi sarcina cu mâinile când e deasupra ta
+- Să dai tu semnale macaragiului
+> Doar legătorul/semnalizatorul desemnat dă semnale operatorului macaralei.
+
+[s072]
+Înainte să folosești un accesoriu de ridicare, cum ar fi o chingă, verifici că:
+- Este cea mai ieftină
+* Are marcată sarcina maximă de lucru, are inspecția la zi și nu este deteriorată
+- Este destul de lungă cât să o înfășori de două ori pe braț
+- A fost vopsită
+> Accesoriile deteriorate sau nemarcate nu trebuie folosite.
+
+[s073]
+O zonă de excludere în jurul unor lucrări, cum ar fi ridicările sau demolările, înseamnă că:
+- Pot intra doar șefii
+* Nu intră nimeni care nu este autorizat pentru acea lucrare
+- Este zonă de fumat
+- Este zonă de odihnă
+> Respectă barierele și semnele.
+
+[s074]
+Înainte de a lucra la utilaje sau instalații electrice, izolarea se face prin:
+- Rugarea cuiva să păzească întrerupătorul
+* Blocarea cu lacăt și etichetarea sursei de energie (lock-out/tag-out)
+- Scoaterea din priză și lăsarea ștecărului pe jos
+- Oprirea doar de la buton
+> Doar persoana care a pus lacătul are voie să îl scoată.
+
+[s075]
+Discurile abrazive ale polizoarelor trebuie schimbate:
+- De oricine are cheia potrivită
+* Doar de persoane instruite și competente, verificând turația maximă a discului
+- Doar când discul s-a rupt
+- Cu polizorul încă în priză
+> Un disc care se rotește mai repede decât turația lui maximă se poate sparge.
+
+[s076]
+Când conduci un dumper pe șantier trebuie:
+- Să transporți pasageri în bena
+* Să porți centura dacă are structură de protecție la răsturnare
+- Să conduci cu bena ridicată
+- Să conduci pe marginea excavațiilor
+> Cele mai multe decese cu dumpere sunt cauzate de răsturnare.
+
+[s077]
+Când lucrezi lângă apă sau deasupra apei trebuie:
+- Să lucrezi singur
+* Să porți vestă de salvare și să te asiguri că există echipament de salvare
+- Să îți scoți hi-vis-ul
+- Să sari în apă ca să te răcorești
+> Înecul se poate produce rapid, chiar și în apă mică.
+
+[s078]
+Când lucrezi pe drum, lângă trafic, trebuie:
+* Să stai în zona de siguranță delimitată de conuri și să porți îmbrăcăminte reflectorizantă
+- Să muți conurile când te încurcă
+- Să ieși pe carosabil ca să câștigi timp
+- Să lucrezi noaptea fără lumini
+> Organizarea traficului trebuie făcută de persoane instruite.
+
+[s079]
+Sculele cu cartuș (pistoale de bătut cuie) trebuie folosite doar de:
+- Oricine de pe șantier
+* Persoane instruite și autorizate, după instrucțiunile producătorului
+- Ucenici nesupravegheați
+- Vizitatori
+> Aceste scule pot trage cuie prin materiale și pot provoca accidentări mortale.
+
+[s080]
+De ce trebuie să verifici sistemul de permise de lucru înainte de a începe într-o zonă nouă?
+- Ca să îți rezervi concediul
+* Pentru că unele lucrări cu risc ridicat pot începe doar după emiterea permisului și cu măsurile lui de control aplicate
+- Ca să afli meniul de la cantină
+- Ca să ceri ore suplimentare
+> Permisele se folosesc pentru spații închise, lucru cu foc, lucru la instalații electrice sub tensiune și altele.
+
+[s081]
+S-a vărsat combustibil sau ulei pe șantier. Ce faci?
+- Îl speli spre cea mai apropiată gură de canal
+* Îl oprești cu kitul pentru scurgeri, împiedici să ajungă în canale sau în apă și raportezi
+- Îl acoperi cu pământ și îl lași
+- Îi dai foc
+> Incidentele de poluare pot trebui raportate autorității de mediu.
+
+[s082]
+Canalele pentru apa pluvială de pe șantier duc de obicei:
+- La o stație de epurare care elimină toată poluarea
+* În pâraie și râuri
+- Într-un container
+- La biroul șantierului
+> Nu turna niciodată în canale apă de la spălarea betonului, vopsea sau chimicale.
+
+[s083]
+De ce se separă deșeurile în containere diferite pe șantier?
+* Ca să se poată recicla mai multe deșeuri și să ajungă mai puține la groapa de gunoi
+- Ca să fie containerele mai grele
+- Ca să îi încurce pe hoți
+- Pentru că containerele sunt gratuite
+> Pune deșeurile în containerul corect, etichetat.
+
+[s084]
+Deșeurile periculoase, cum ar fi azbestul, uleiurile și unele vopsele, trebuie:
+- Amestecate cu deșeurile obișnuite
+* Ținute separat și ridicate de un transportator autorizat
+- Arse pe șantier
+- Îngropate pe șantier
+> Întreabă-l pe șef dacă nu știi sigur cum să arunci ceva.
+
+[s085]
+În ierarhia deșeurilor, care este varianta cea mai preferată?
+- Depozitarea la groapa de gunoi
+- Reciclarea
+* Prevenirea (să produci mai puține deșeuri de la început)
+- Arderea
+> Urmează reutilizarea, reciclarea, valorificarea și, la final, eliminarea.
+
+[s086]
+Praful de pe șantier este suflat spre casele din apropiere. O măsură bună este:
+- Să lucrezi mai repede
+* Să uzi suprafețele și să acoperi grămezile de material
+- Să ignori, pentru că publicul nu e pe șantier
+- Să folosești o suflantă de frunze
+> Praful poate afecta sănătatea vecinilor și poate duce la reclamații.
+
+[s087]
+Ca să reduci zgomotul care îi deranjează pe vecini trebuie:
+- Să începi lucrările zgomotoase dis-de-dimineață
+* Să lucrezi în orele permise și să oprești utilajele când nu le folosești
+- Să dai radioul tare ca să acoperi zgomotul
+- Să scoți tobele de eșapament de la utilaje
+> Autoritățile locale pot impune limite de program.
+
+[s088]
+Găsești un cuib de pasăre cu ouă într-un gard viu pe care trebuia să îl scoți. Ce faci?
+- Îl scoți cu grijă și continui
+* Oprești lucrul în acea zonă și îi spui șefului
+- Muți cuibul în alt copac
+- Ignori
+> Cuiburile păsărilor sălbatice sunt protejate prin lege cât timp sunt folosite.
+
+[s089]
+Troscotul japonez (Japanese knotweed) găsit pe șantier trebuie:
+- Tăiat și pus în containerul obișnuit
+* Lăsat neatins și raportat, pentru că este o plantă invazivă reglementată prin lege
+- Împrăștiat pe șantier
+- Ars imediat
+> Chiar și bucăți mici pot crește din nou. Este nevoie de îndepărtare specializată.
+
+[s090]
+Rezervoarele de combustibil de pe șantier trebuie:
+- Ținute lângă gurile de canal
+* Ținute într-un rezervor cu cuvă de retenție sau pe o tavă de colectare pentru scurgeri
+- Lăsate descuiate peste noapte
+- Umplute până dau pe dinafară
+> Cuvele de retenție pot ține de obicei cel puțin 110% din capacitatea rezervorului.
+
+[s091]
+Unde trebuie spălate betonierele și roabele?
+- În cea mai apropiată gură de canal
+* Într-o zonă special amenajată pentru spălare
+- Într-un pârâu
+- Oriunde pe șantier
+> Apa de la spălarea betonului este foarte alcalină și dăunează vieții din cursurile de apă.
+
+[s092]
+Care este un mod simplu de a economisi energie pe șantier?
+* Să oprești utilajele, luminile și caloriferele când nu e nevoie de ele
+- Să lași generatoarele pornite peste noapte
+- Să ții ușile barăcilor deschise cu încălzirea pornită
+- Să lași motoarele la ralanti
+> Asta reduce și gazele de eșapament și zgomotul.
+
+[s093]
+Zonele îngrădite din jurul copacilor de pe șantier există pentru:
+- Depozitarea materialelor
+* Protejarea rădăcinilor copacilor de deteriorare
+- Parcarea vehiculelor
+- Umbră în pauze
+> Nu depozita materiale și nu conduce în zonele de protecție a rădăcinilor.
+
+[s094]
+Dai peste ceva ce pare a fi oase vechi sau rămășițe istorice în timp ce sapi. Ce faci?
+- Le păstrezi ca suvenir
+* Oprești lucrul în acea zonă și îi spui șefului
+- Continui și le pui în container
+- Faci întâi poze și le postezi online
+> Descoperirile arheologice și posibilele rămășițe umane trebuie raportate.
+
+[s095]
+Fumatul pe șantier este permis:
+- Oriunde afară
+* Doar în zonele special amenajate pentru fumat
+- În barăcile de șantier
+- Lângă depozitele de combustibil
+> Fumatul lângă materiale inflamabile provoacă incendii.
+
+[s096]
+Glumele și joaca pe șantier:
+- Ajută spiritul de echipă și sunt încurajate
+* Sunt periculoase și pot duce la accidentări grave și sancțiuni disciplinare
+- Sunt în regulă în pauze lângă utilaje
+- Sunt permise pe schele
+> Multe accidente grave încep cu cineva care face glume.
+
+[s097]
+Ordinea și curățenia pe șantier ajută în principal la prevenirea:
+- Furturilor
+* Alunecărilor, împiedicărilor și căderilor
+- Zgomotului
+- Vibrațiilor
+> Ține căile de acces libere și fă curat pe măsură ce lucrezi.
+
+[s098]
+Alunecările și împiedicările pe șantier se previn cel mai bine prin:
+- Alergatul între sarcini
+* Căi de acces libere, cabluri aranjate și curățarea scurgerilor
+- Purtarea mănușilor
+- Lucrul în lumină slabă
+> Alunecările și împiedicările sunt printre cele mai frecvente cauze de accidentare în construcții.
+
+[s099]
+Ai provocat un incident de mediu, de exemplu ai poluat un pârâu. Ce faci?
+* Îi spui imediat șefului
+- Speri că nu observă nimeni
+- Aștepți până a doua zi
+- Le spui doar prietenilor
+> Raportarea rapidă permite limitarea pagubelor și anunțarea autorității, dacă e nevoie.
+
+[s100]
+De ce nu trebuie să lași motorul pornit când vehiculul e parcat pe șantier?
+- Se strică anvelopele
+* Se irosește combustibil, se produc gaze de eșapament și crește zgomotul
+- Legea cere să fie lăsat pornit
+- Se descarcă bateria
+> Oprirea motorului reduce emisiile și economisește bani.

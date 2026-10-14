@@ -1,0 +1,62 @@
+{
+  "id": "sachkunde",
+  "applicationId": "com.tuanlt.examprep.sachkunde",
+  "launcherName": "Sachkunde 34a",
+  "title": {
+    "de": "Sachkunde §34a Prüfung",
+    "en": "Security Exam §34a (Germany)"
+  },
+  "bank": "sachkunde34a",
+  "locales": [
+    "de",
+    "en"
+  ],
+  "color": "#37474F",
+  "icon": {
+    "label": "§34a",
+    "badge": "",
+    "glyph": "shield"
+  },
+  "exam": {
+    "questions": 72,
+    "minutes": 120,
+    "passPercent": 50
+  },
+  "freeRatio": 0.3,
+  "suggestedPriceUsd": 14.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "admob": {
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/sachkunde.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "examBodies": {
+    "de": "IHKs, dem DIHK oder Behörden",
+    "en": "any IHK, the DIHK or any public authority"
+  },
+  "tagline": {
+    "de": "Prüfungsfragen mit Erklärungen · Probeprüfung mit Zeit · Englisch zuschaltbar",
+    "en": "German + English · Timed mock exams · Explanations"
+  },
+  "screenshotCaptions": {
+    "de-DE": [
+      "Wissen, wann du bereit für die IHK-Prüfung bist",
+      "Jede Antwort verständlich erklärt",
+      "Probeprüfung mit Zeitlimit",
+      "Ergebnis nach Themen – gezielt lernen"
+    ],
+    "en-US": [
+      "Know when you're ready for the IHK exam",
+      "German questions, English on tap",
+      "Timed mock exams",
+      "Score by topic, fix weak spots"
+    ]
+  },
+  "markets": [
+    "DE"
+  ]
+}

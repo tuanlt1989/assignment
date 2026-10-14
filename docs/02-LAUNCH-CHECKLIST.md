@@ -51,12 +51,13 @@ Làm theo `docs/01-SIGNING-AND-BUILD.md`. Kết quả là có AAB đã ký cho t
    - Loại: App. Hình thức: **Free** (vì có mua trong app).
 2. **Dashboard → Set up your app**, trả lời từng mục:
    - **App access**: All functionality is available without special access.
-   - **Ads**: **Yes, my app contains ads**.
+   - **Ads**: hiện cả 10 app đặt `"ads": false`, nên khai báo **No, my app does not contain ads**. Chỉ khi bật AdMob (`docs/07`) mới đổi thành Yes.
    - **Content rating**: chọn danh mục Reference/Education. Không có bạo lực hay nội dung người lớn, thường ra mức **Everyone**.
    - **Target audience**: chọn **18 and over**. App dành cho người đi thi chứng chỉ; chọn nhóm dưới 13 tuổi sẽ bị áp chính sách Families rất chặt.
    - **News app**: No. **Government app**: No. **Financial features**: No. **Health**: chọn mục không thuộc nhóm nào. Với app bảo hiểm cũng chọn No vì app chỉ dạy học, không bán bảo hiểm.
-   - **Advertising ID**: Yes, dùng cho mục đích Advertising/Analytics (thư viện Google Mobile Ads tự thêm quyền `AD_ID`).
-   - **Data safety**, trả lời theo những gì AdMob thu thập:
+   - **Advertising ID**: với app `"ads": false`, chọn **No** (factory đã gỡ quyền `AD_ID`). Với app bật quảng cáo, chọn Yes, mục đích Advertising/Analytics.
+   - **Data safety** cho app `"ads": false`: **"No, we do not collect or share user data"**, vì dữ liệu học chỉ lưu trên máy và thanh toán do Google Play xử lý.
+   - **Data safety** cho app bật quảng cáo, trả lời theo những gì AdMob thu thập:
      - Có thu thập dữ liệu: **Yes**. Dữ liệu được mã hoá khi truyền: **Yes**. Có cách xoá dữ liệu: dữ liệu học chỉ nằm trên máy, người dùng xoá bằng "Xoá tiến độ" hoặc gỡ app.
      - Loại dữ liệu (do AdMob): **Device or other IDs**, **App interactions**, **Diagnostics**, **Approximate location** (suy ra từ IP).
      - Mục đích: Advertising or marketing, Analytics, Fraud prevention/security. Dữ liệu được chia sẻ (shared) với Google AdMob.
@@ -84,10 +85,15 @@ Làm theo `docs/01-SIGNING-AND-BUILD.md`. Kết quả là có AAB đã ký cho t
    - Tạo **Closed testing**, thêm ≥12 tester (Google Group hoặc danh sách email), gửi link opt-in.
    - Chờ đủ **14 ngày liên tục**, sau đó bấm **Apply for production** và trả lời các câu hỏi về quá trình test.
 4. **Production → Create release**:
-   - Chọn quốc gia: **United States** là chính. App tiếng Tây Ban Nha thêm Puerto Rico; app bảo hiểm chỉ chọn United States.
+   - Chọn quốc gia theo trường `markets` trong `apps/<id>.json`:
+     - Đợt 1 (nail, cosmetology, bảo hiểm): **United States**. App tiếng Tây Ban Nha thêm Puerto Rico.
+     - `nursegulf`: Ấn Độ, Philippines, các nước vùng Vịnh…
+     - `cscsro` / `cscspl`: United Kingdom.
+     - `sachkunde`: Germany.
+     - `civilserviceph`: Philippines.
    - Bật rollout. Thời gian duyệt từ vài giờ đến vài ngày.
 
-## G. Tạo sản phẩm mua trong app
+## G. Tạo sản phẩm mua trong app (chi tiết đầy đủ: `docs/06-IN-APP-PURCHASE.md`)
 
 Play chỉ cho tạo sản phẩm sau khi đã upload ít nhất một AAB có quyền BILLING. Thư viện `in_app_purchase` đã tự thêm quyền này.
 
@@ -99,7 +105,7 @@ Play chỉ cho tạo sản phẩm sau khi đã upload ít nhất một AAB có q
 2. **Setup → License testing**: thêm email của bạn để mua thử miễn phí.
 3. Mở app (bản cài từ Play) → Mở khoá → mua thử. Kiểm tra quảng cáo biến mất và toàn bộ câu hỏi được mở. Gỡ app, cài lại, bấm "Khôi phục giao dịch" để kiểm tra khôi phục.
 
-## H. Bật quảng cáo thật (AdMob)
+## H. Bật quảng cáo thật (AdMob) — KHÔNG BẮT BUỘC, xem `docs/07-ADMOB.md`
 
 1. Tạo tài khoản tại admob.google.com và điền thông tin thanh toán và thuế (W-8BEN nếu bạn không phải người Mỹ).
 2. **Apps → Add app** → chọn Android → liên kết với app trên Play (sau khi app đã được duyệt).

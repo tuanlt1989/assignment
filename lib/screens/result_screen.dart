@@ -50,8 +50,11 @@ class _ResultScreenState extends State<ResultScreen> {
       if (widget.exam && passed) {
         app.progress.finishSession();
         app.money.maybeAskReview();
-      } else {
-        app.money.onSessionFinished();
+      } else if (app.money.onSessionFinished() && mounted) {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const PaywallScreen()),
+        );
       }
     });
   }

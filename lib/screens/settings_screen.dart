@@ -146,7 +146,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
                 child: Text(
-                  s.t('disclaimer'),
+                  s.t('disclaimer', {
+                    'orgs': app.config.examBodiesFor(p.uiLang),
+                  }),
                   style: TextStyle(
                     fontSize: 13,
                     color: Theme.of(context).colorScheme.onSurfaceVariant,
