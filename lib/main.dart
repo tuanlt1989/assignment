@@ -8,6 +8,7 @@ import 'models.dart';
 import 'monetization.dart';
 import 'progress.dart';
 import 'screens/home_screen.dart';
+import 'screens/onboarding_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,6 +24,8 @@ Future<void> main() async {
   if (demo != null) DemoScene.seed(app);
   runApp(ExamApp(app: app, demo: demo));
   await money.init();
+  // Refresh the reminder text/time (language or goal may have changed).
+  await app.syncReminder();
 }
 
 class ExamApp extends StatelessWidget {
@@ -41,7 +44,11 @@ class ExamApp extends StatelessWidget {
           title: app.config.titleFor(app.progress.uiLang),
           theme: _theme(app.config.color, Brightness.light),
           darkTheme: _theme(app.config.color, Brightness.dark),
-          home: demo == null ? const HomeScreen() : DemoScene(scene: demo!),
+          home: demo != null
+              ? DemoScene(scene: demo!)
+              : app.progress.onboarded
+              ? const HomeScreen()
+              : const OnboardingScreen(),
         ),
       ),
     );

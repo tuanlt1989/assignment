@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../app_state.dart';
 import '../models.dart';
 import '../monetization.dart';
+import 'flashcard_screen.dart';
 import 'paywall_screen.dart';
 import 'quiz_screen.dart';
 import 'settings_screen.dart';
@@ -40,6 +41,8 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(16, 4, 16, 24),
             children: [
               _ReadinessCard(app: app),
+              const SizedBox(height: 12),
+              _TodayRow(app: app),
               const SizedBox(height: 16),
               GridView.count(
                 crossAxisCount: 2,
@@ -77,6 +80,41 @@ class HomeScreen extends StatelessWidget {
                       app.pickRandom(10),
                       title: s.t('quick10'),
                     ),
+                  ),
+                  _ActionTile(
+                    icon: Icons.style_outlined,
+                    color: Colors.indigo.shade400,
+                    title: s.t('flashcards'),
+                    subtitle: s.t('flashcardsSub'),
+                    onTap: () {
+                      final cards = app.studyQueue(app.bank.questions, 20);
+                      if (cards.isEmpty) return;
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => FlashcardScreen(cards: cards),
+                        ),
+                      );
+                    },
+                  ),
+                  _ActionTile(
+                    icon: Icons.trending_down,
+                    color: Colors.deepPurple.shade400,
+                    title: s.t('weakTopic'),
+                    subtitle:
+                        app.weakestCategory?.name(p.uiLang) ??
+                        s.t('weakTopicSub'),
+                    onTap: () {
+                      final c = app.weakestCategory;
+                      _start(
+                        context,
+                        app,
+                        c == null
+                            ? const []
+                            : app.studyQueue(app.bank.inCategory(c.id), 15),
+                        title: c?.name(p.uiLang) ?? s.t('weakTopic'),
+                      );
+                    },
                   ),
                   _ActionTile(
                     icon: Icons.replay_outlined,
@@ -229,6 +267,82 @@ class _ReadinessCard extends StatelessWidget {
                       style: const TextStyle(fontSize: 13),
                     ),
                   ],
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Streak, today's goal and exam countdown: small daily reasons to come back.
+class _TodayRow extends StatelessWidget {
+  const _TodayRow({required this.app});
+  final AppState app;
+
+  @override
+  Widget build(BuildContext context) {
+    final s = app.s;
+    final p = app.progress;
+    final days = p.daysToExam;
+    final goalDone = p.answeredToday >= p.dailyGoal;
+    return Row(
+      children: [
+        _Pill(
+          icon: Icons.local_fire_department,
+          color: Colors.deepOrange,
+          text: s.t('streakDays', {'n': p.currentStreak}),
+        ),
+        const SizedBox(width: 8),
+        _Pill(
+          icon: goalDone ? Icons.check_circle : Icons.flag_outlined,
+          color: goalDone ? Colors.green.shade600 : Colors.blue.shade600,
+          text: s.t('todayGoal', {'n': p.answeredToday, 'goal': p.dailyGoal}),
+        ),
+        if (days != null && days >= 0) ...[
+          const SizedBox(width: 8),
+          _Pill(
+            icon: Icons.event,
+            color: Colors.purple.shade400,
+            text: days == 0 ? s.t('examToday') : s.t('examIn', {'d': days}),
+          ),
+        ],
+      ],
+    );
+  }
+}
+
+class _Pill extends StatelessWidget {
+  const _Pill({required this.icon, required this.color, required this.text});
+  final IconData icon;
+  final Color color;
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+        decoration: BoxDecoration(
+          color: color.withValues(alpha: 0.10),
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(icon, size: 18, color: color),
+            const SizedBox(width: 4),
+            Flexible(
+              child: Text(
+                text,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w700,
+                  color: color,
                 ),
               ),
             ),

@@ -7,6 +7,7 @@ import 'package:exam_prep/main.dart';
 import 'package:exam_prep/models.dart';
 import 'package:exam_prep/monetization.dart';
 import 'package:exam_prep/progress.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -77,6 +78,25 @@ void main() {
     await tester.pumpWidget(ExamApp(app: app));
     await tester.pumpAndSettle();
 
+    // First launch: onboarding (date -> goal -> plan), then the soft paywall.
+    expect(find.text('Bạn thi ngày nào?'), findsOneWidget);
+    await tester.tap(find.text('Chưa có lịch thi'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('30 câu mỗi ngày'));
+    await tester.tap(find.text('Tiếp tục'));
+    await tester.pumpAndSettle();
+    expect(find.text('Kế hoạch ôn thi của bạn'), findsOneWidget);
+    // No notification plugin in widget tests: turn the reminder off.
+    await tester.tap(find.byType(Switch));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Bắt đầu học'));
+    await tester.pumpAndSettle();
+    expect(progress.onboarded, isTrue);
+    expect(progress.dailyGoal, 30);
+    expect(find.text('Đầy đủ'), findsOneWidget); // paywall comparison table
+    await tester.tap(find.byIcon(Icons.close));
+    await tester.pumpAndSettle();
+
     expect(find.text('Luyện Thi Nail Tiếng Việt'), findsWidgets);
     expect(find.text('Luyện nhanh 10 câu'), findsOneWidget);
 
@@ -89,5 +109,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.textContaining(RegExp('Chính xác!|Chưa đúng')), findsOneWidget);
     expect(progress.lastResult.length, 1);
+    expect(progress.answeredToday, 1);
+    expect(progress.currentStreak, 1);
   });
 }

@@ -3,6 +3,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../app_state.dart';
 import '../i18n.dart';
+import '../reminders.dart';
 import 'paywall_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -62,6 +63,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   value: p.showHelperLang,
                   onChanged: p.setShowHelperLang,
                 ),
+              ..._planTiles(context, app),
+              const Divider(),
               if (!app.premium)
                 ListTile(
                   leading: const Icon(Icons.workspace_premium),
@@ -170,5 +173,110 @@ class _SettingsScreenState extends State<SettingsScreen> {
         );
       },
     );
+  }
+
+  List<Widget> _planTiles(BuildContext context, AppState app) {
+    final s = app.s;
+    final p = app.progress;
+    final loc = MaterialLocalizations.of(context);
+    final date = p.examDate.isEmpty ? null : DateTime.tryParse(p.examDate);
+    final time = TimeOfDay(
+      hour: p.reminderMinutes ~/ 60,
+      minute: p.reminderMinutes % 60,
+    );
+    return [
+      Padding(
+        padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
+        child: Text(
+          s.t('studyPlan'),
+          style: TextStyle(
+            fontWeight: FontWeight.w700,
+            color: Theme.of(context).colorScheme.primary,
+          ),
+        ),
+      ),
+      ListTile(
+        leading: const Icon(Icons.event),
+        title: Text(s.t('examDateLabel')),
+        subtitle: Text(
+          date == null ? s.t('notSet') : loc.formatMediumDate(date),
+        ),
+        trailing: date == null
+            ? null
+            : TextButton(
+                onPressed: () => p.setPlan(examDate: ''),
+                child: Text(s.t('clear')),
+              ),
+        onTap: () async {
+          final now = DateTime.now();
+          final picked = await showDatePicker(
+            context: context,
+            initialDate: date != null && date.isAfter(now)
+                ? date
+                : now.add(const Duration(days: 30)),
+            firstDate: now,
+            lastDate: now.add(const Duration(days: 730)),
+          );
+          if (picked != null) {
+            p.setPlan(examDate: picked.toIso8601String().substring(0, 10));
+          }
+        },
+      ),
+      ListTile(
+        leading: const Icon(Icons.flag_outlined),
+        title: Text(s.t('dailyGoalLabel')),
+        subtitle: Text(s.t('obGoalOpt', {'n': p.dailyGoal})),
+        onTap: () async {
+          final goal = await showDialog<int>(
+            context: context,
+            builder: (c) => SimpleDialog(
+              title: Text(s.t('dailyGoalLabel')),
+              children: [
+                for (final g in const [10, 20, 30, 50])
+                  SimpleDialogOption(
+                    onPressed: () => Navigator.pop(c, g),
+                    child: Text(s.t('obGoalOpt', {'n': g})),
+                  ),
+              ],
+            ),
+          );
+          if (goal != null) {
+            p.setPlan(dailyGoal: goal);
+            await app.syncReminder();
+          }
+        },
+      ),
+      if (Reminders.supported) ...[
+        SwitchListTile(
+          secondary: const Icon(Icons.notifications_active_outlined),
+          title: Text(s.t('reminderLabel')),
+          value: p.reminderOn,
+          onChanged: (v) async {
+            final ok = !v || await Reminders.requestPermission();
+            p.setReminder(on: v && ok);
+            await app.syncReminder();
+          },
+        ),
+        if (p.reminderOn)
+          ListTile(
+            leading: const Icon(Icons.schedule),
+            title: Text(s.t('reminderTime')),
+            subtitle: Text(loc.formatTimeOfDay(time)),
+            onTap: () async {
+              final picked = await showTimePicker(
+                context: context,
+                initialTime: time,
+              );
+              if (picked != null) {
+                p.setReminder(
+                  on: true,
+                  minutes: picked.hour * 60 + picked.minute,
+                );
+                await app.syncReminder();
+              }
+            },
+          ),
+      ],
+    ];
   }
 }

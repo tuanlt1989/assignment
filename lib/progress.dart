@@ -51,6 +51,42 @@ class Progress extends ChangeNotifier {
   int studyDays = 0;
   String lastStudyDay = '';
 
+  // Study plan (set in onboarding, editable in settings).
+  bool onboarded = false;
+
+  /// Exam date as yyyy-mm-dd, or '' when the user has no date yet.
+  String examDate = '';
+  int dailyGoal = 20;
+  int todayCount = 0;
+  int streak = 0;
+  bool reminderOn = false;
+  int reminderMinutes = 20 * 60;
+
+  static String _day(DateTime d) => d.toIso8601String().substring(0, 10);
+
+  /// Answers given today (resets at midnight).
+  int get answeredToday =>
+      lastStudyDay == _day(DateTime.now()) ? todayCount : 0;
+
+  /// Consecutive study days, counting today or yesterday as still alive.
+  int get currentStreak {
+    final now = DateTime.now();
+    final yesterday = _day(now.subtract(const Duration(days: 1)));
+    return lastStudyDay == _day(now) || lastStudyDay == yesterday ? streak : 0;
+  }
+
+  int? get daysToExam {
+    if (examDate.isEmpty) return null;
+    final d = DateTime.tryParse(examDate);
+    if (d == null) return null;
+    final today = DateTime.now();
+    return DateTime(
+      d.year,
+      d.month,
+      d.day,
+    ).difference(DateTime(today.year, today.month, today.day)).inDays;
+  }
+
   void _load() {
     final raw = _prefs.getString('state');
     uiLang = defaultUiLang;
@@ -70,6 +106,13 @@ class Progress extends ChangeNotifier {
     lastReviewAskMs = j['ra'] as int? ?? 0;
     studyDays = j['sd'] as int? ?? 0;
     lastStudyDay = j['lsd'] as String? ?? '';
+    onboarded = j['ob'] as bool? ?? false;
+    examDate = j['ed'] as String? ?? '';
+    dailyGoal = j['dg'] as int? ?? 20;
+    todayCount = j['tc'] as int? ?? 0;
+    streak = j['st'] as int? ?? 0;
+    reminderOn = j['ro'] as bool? ?? false;
+    reminderMinutes = j['rm'] as int? ?? 20 * 60;
   }
 
   Future<void> _save() async {
@@ -88,6 +131,13 @@ class Progress extends ChangeNotifier {
         'ra': lastReviewAskMs,
         'sd': studyDays,
         'lsd': lastStudyDay,
+        'ob': onboarded,
+        'ed': examDate,
+        'dg': dailyGoal,
+        'tc': todayCount,
+        'st': streak,
+        'ro': reminderOn,
+        'rm': reminderMinutes,
       }),
     );
   }
@@ -95,11 +145,33 @@ class Progress extends ChangeNotifier {
   void recordAnswer(String id, bool correct) {
     lastResult[id] = correct;
     attempts[id] = (attempts[id] ?? 0) + 1;
-    final today = DateTime.now().toIso8601String().substring(0, 10);
+    final now = DateTime.now();
+    final today = _day(now);
     if (today != lastStudyDay) {
+      final yesterday = _day(now.subtract(const Duration(days: 1)));
+      streak = lastStudyDay == yesterday ? streak + 1 : 1;
       lastStudyDay = today;
       studyDays++;
+      todayCount = 0;
     }
+    todayCount++;
+    _save();
+  }
+
+  void setPlan({String? examDate, int? dailyGoal}) {
+    if (examDate != null) this.examDate = examDate;
+    if (dailyGoal != null) this.dailyGoal = dailyGoal;
+    _save();
+  }
+
+  void setReminder({required bool on, int? minutes}) {
+    reminderOn = on;
+    if (minutes != null) reminderMinutes = minutes;
+    _save();
+  }
+
+  void finishOnboarding() {
+    onboarded = true;
     _save();
   }
 

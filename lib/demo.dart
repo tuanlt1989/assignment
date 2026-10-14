@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'app_state.dart';
 import 'progress.dart';
 import 'screens/home_screen.dart';
+import 'screens/onboarding_screen.dart';
 import 'screens/paywall_screen.dart';
 import 'screens/quiz_screen.dart';
 import 'screens/result_screen.dart';
@@ -22,6 +23,14 @@ class DemoScene extends StatelessWidget {
     }
     p.bookmarks.addAll(qs.take(7).map((q) => q.id));
     p.studyDays = 9;
+    p.onboarded = true;
+    p.streak = 6;
+    p.lastStudyDay = DateTime.now().toIso8601String().substring(0, 10);
+    p.todayCount = 14;
+    p.examDate = DateTime.now()
+        .add(const Duration(days: 23))
+        .toIso8601String()
+        .substring(0, 10);
     p.exams.add(ExamRecord(DateTime.now(), 41, 50, true));
     p.showHelperLang = app.helperLang != null;
   }
@@ -59,6 +68,8 @@ class DemoScene extends StatelessWidget {
         );
       case 'paywall':
         return const PaywallScreen();
+      case 'onboarding':
+        return const OnboardingScreen();
       default:
         return const HomeScreen();
     }
