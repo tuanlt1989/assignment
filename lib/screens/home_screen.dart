@@ -288,28 +288,32 @@ class _TodayRow extends StatelessWidget {
     final p = app.progress;
     final days = p.daysToExam;
     final goalDone = p.answeredToday >= p.dailyGoal;
-    return Row(
-      children: [
-        _Pill(
-          icon: Icons.local_fire_department,
-          color: Colors.deepOrange,
-          text: s.t('streakDays', {'n': p.currentStreak}),
-        ),
-        const SizedBox(width: 8),
-        _Pill(
-          icon: goalDone ? Icons.check_circle : Icons.flag_outlined,
-          color: goalDone ? Colors.green.shade600 : Colors.blue.shade600,
-          text: s.t('todayGoal', {'n': p.answeredToday, 'goal': p.dailyGoal}),
-        ),
-        if (days != null && days >= 0) ...[
+    // Equal-height pills even when one label wraps.
+    return IntrinsicHeight(
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          _Pill(
+            icon: Icons.local_fire_department,
+            color: Colors.deepOrange,
+            text: s.t('streakDays', {'n': p.currentStreak}),
+          ),
           const SizedBox(width: 8),
           _Pill(
-            icon: Icons.event,
-            color: Colors.purple.shade400,
-            text: days == 0 ? s.t('examToday') : s.t('examIn', {'d': days}),
+            icon: goalDone ? Icons.check_circle : Icons.flag_outlined,
+            color: goalDone ? Colors.green.shade600 : Colors.blue.shade600,
+            text: s.t('todayGoal', {'n': p.answeredToday, 'goal': p.dailyGoal}),
           ),
+          if (days != null && days >= 0) ...[
+            const SizedBox(width: 8),
+            _Pill(
+              icon: Icons.event,
+              color: Colors.purple.shade400,
+              text: days == 0 ? s.t('examToday') : s.t('examIn', {'d': days}),
+            ),
+          ],
         ],
-      ],
+      ),
     );
   }
 }
@@ -324,26 +328,28 @@ class _Pill extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+        padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 8),
         decoration: BoxDecoration(
           color: color.withValues(alpha: 0.10),
           borderRadius: BorderRadius.circular(12),
         ),
-        child: Row(
+        // Icon above the text, so long labels ("Còn 23 ngày đến kỳ thi")
+        // get two lines instead of being cut off.
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(icon, size: 18, color: color),
-            const SizedBox(width: 4),
-            Flexible(
-              child: Text(
-                text,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.w700,
-                  color: color,
-                ),
+            const SizedBox(height: 2),
+            Text(
+              text,
+              maxLines: 2,
+              textAlign: TextAlign.center,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                fontSize: 12,
+                height: 1.15,
+                fontWeight: FontWeight.w700,
+                color: color,
               ),
             ),
           ],

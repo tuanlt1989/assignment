@@ -4,16 +4,16 @@
 [s001] general
 What is the main purpose of a site induction?
 * To explain the site rules, hazards and emergency procedures before you start work
-- To check your trade skills
+- To check your trade qualifications and test your practical skills before you start work
 - To agree your pay rate
-- To issue your CSCS card
+- To issue your CSCS card and register your details on the site's access control system
 > Everyone must attend the induction before starting work on a new site.
 
 [s002] general
 Under health and safety law, employees must:
-- Only follow rules when a supervisor is watching
+- Follow safety rules only while a supervisor or site manager is present to check on them
 * Take reasonable care of themselves and others and cooperate with their employer
-- Buy their own safety equipment
+- Buy their own safety equipment, including the hard hats and harnesses the job requires
 - Decide their own safety rules
 > The Health and Safety at Work etc. Act places duties on both employers and employees.
 
@@ -27,15 +27,15 @@ Under RIDDOR, an injury that keeps a worker off normal duties for more than how 
 
 [s004] general
 Who is responsible for reporting a reportable accident to the HSE under RIDDOR?
-- The injured worker
+- The injured worker, within 10 days of the accident happening
 * The employer or person in control of the site
-- The client's neighbour
+- The hospital that treated the injury, as part of its patient records
 - The local council
 > Workers should report all accidents to their supervisor so the responsible person can report them.
 
 [s005] general
 Which incidents should be written in the site accident book?
-- Only accidents that need hospital treatment
+- Only accidents that need hospital treatment or time off work
 * All accidents and injuries, however minor
 - Only accidents caused by plant
 - Only accidents to visitors
@@ -43,32 +43,32 @@ Which incidents should be written in the site accident book?
 
 [s006] general
 A near miss is:
-- An accident that caused a minor injury
+- An accident that caused a minor injury treated with the site first-aid kit
 * An event that could have caused injury or damage but did not
 - A late delivery
-- Missing a toolbox talk
+- Missing a toolbox talk without telling your supervisor beforehand
 > Reporting near misses helps fix hazards before someone gets hurt.
 
 [s007] general
 A method statement describes:
 - Your hourly rate
 * How a particular task will be carried out safely, step by step
-- The site opening hours
-- The company's profit
+- The site's working hours and the times when deliveries are allowed
+- A summary of the company's accident statistics over the last five years
 > Read and follow the method statement for your task. If the job changes, stop and ask.
 
 [s008] general
 The purpose of a risk assessment is to:
 * Identify hazards and decide how to control the risks
-- Find someone to blame after an accident
+- Record who was to blame after an accident so insurers can be told
 - Replace training
-- Calculate the cost of the job
+- Calculate the cost of the job, including the price of any safety equipment
 > Control measures from the risk assessment must be followed by everyone doing the work.
 
 [s009] general
 In the hierarchy of control, what should be considered first?
-- Personal protective equipment
-- Warning signs
+- Issuing personal protective equipment to everyone
+- Putting up warning signs around the hazard
 * Eliminating the hazard altogether
 - Training
 > Eliminate, substitute, engineering controls, administrative controls, and PPE as the last resort.
@@ -77,24 +77,24 @@ In the hierarchy of control, what should be considered first?
 You see a colleague working in an unsafe way. You should:
 - Ignore it because it is not your job
 * Speak up or stop the work if safe to do so, and report it to your supervisor
-- Take a photo for social media
-- Wait until the end of the week to mention it
+- Take a photo of it and post it in the site group chat so everyone can see what went wrong
+- Wait and mention it at the next weekly toolbox talk so the whole team hears about it
 > Everyone has a duty to look out for others. Most sites encourage you to stop unsafe work.
 
 [s011] general
 You are taking prescribed medicine that makes you drowsy. You should:
 - Keep working as normal
 * Tell your supervisor before you start work
-- Take more coffee and operate plant
-- Stop taking the medicine without advice
+- Drink plenty of strong coffee so that you stay alert when operating plant
+- Stop taking the medicine for the day without asking your doctor
 > Medicines, drugs and alcohol can affect your ability to work safely.
 
 [s012] general
 Which welfare facilities must be provided on a construction site?
 - A gym and canteen
 * Toilets, washing facilities, drinking water and a rest area
-- Parking for every worker
-- Showers only for managers
+- A parking space for every worker and a canteen serving hot meals
+- Showers and a drying room, but only for managers and site visitors
 > Facilities for changing and drying clothes are also needed where appropriate.
 
 [s013] general
@@ -102,46 +102,46 @@ A safety sign with a red circle and a diagonal red line means:
 * You must not do something (prohibition)
 - You must do something (mandatory)
 - Warning of a hazard
-- Safe condition or first aid
+- A safe condition, such as a first-aid point
 > Example: "No smoking."
 
 [s014] general
 A blue circular safety sign means:
 - Prohibition
 * You must do something (mandatory)
-- Warning
-- Fire equipment
+- Warning of a hazard nearby, such as a trip hazard
+- The location of fire-fighting equipment
 > Example: "Hard hats must be worn."
 
 [s015] general
 A yellow triangular sign with a black border means:
-- Fire exit
-- Mandatory action
+- Fire exit or escape route
+- A mandatory action you must carry out
 * Warning of a hazard
 - Drinking water
 > Example: "Danger: overhead cables."
 
 [s016] general
 A green rectangular or square sign shows:
-- A prohibition
+- A prohibition, such as no entry for anyone who is not authorised
 - A warning
 * A safe condition, such as a first-aid point or emergency exit
-- Fire-fighting equipment
+- The location of fire-fighting equipment such as extinguishers and hose reels
 > Red rectangular signs show fire-fighting equipment.
 
 [s017] general
 Someone is injured on site and you are not a trained first aider. You should:
-- Move them to a vehicle and drive them to hospital
+- Help them into a vehicle and drive them straight to the nearest hospital A&E department
 * Call for the site first aider or emergency services and follow instructions
-- Give them painkillers
+- Give them painkillers and a hot sweet drink, then let them rest in the cabin
 - Leave them and carry on working
 > Do not try treatment beyond your training. Make the area safe if you can.
 
 [s018] general
 When the fire alarm sounds you should:
 * Stop work, go to the assembly point by the safest route and wait for the roll call
-- Finish your task first
-- Collect your tools and van
+- Finish the task you are on first, then leave by the route you normally use to the canteen
+- Collect your tools and move your van away from the building before going to the assembly point
 - Go home
 > Never go back into the building until you are told it is safe.
 
@@ -149,40 +149,40 @@ When the fire alarm sounds you should:
 Using a mobile phone while walking through a busy area of site is dangerous because:
 - It drains the battery
 * It distracts you from hazards such as moving plant and trip hazards
-- It is always illegal
-- It interferes with cranes
+- It is a criminal offence to use a phone anywhere on a construction site
+- Its radio signal can interfere with tower crane controls and site radios
 > Stop in a safe place before using your phone.
 
 [s020] general
 A toolbox talk is:
-- A tool repair session
+- A session where damaged hand tools are collected and repaired on site
 * A short safety briefing on a specific topic, usually given on site
-- A sales presentation
+- A formal written test that must be passed before you can get a CSCS card
 - A union meeting
 > Toolbox talks keep the team informed about current risks.
 
 [s021] health
 Cutting concrete or stone can create silica dust. The best way to control it is:
-- Work quickly and hold your breath
-* Use water suppression or on-tool extraction, plus suitable face-fitted RPE
-- Wear a paper mask with a beard
+- Work quickly and stand upwind so that the dust is blown away from your face
+* Water suppression or on-tool extraction, plus suitable face-fitted RPE
+- Wear a disposable paper dust mask, which seals well enough over a short beard
 - Cut only in the afternoon
 > Respirable crystalline silica can cause silicosis and lung cancer.
 
 [s022] health
 Why must tight-fitting dust masks be face-fit tested?
-- To check the colour matches your uniform
+- To check the mask's colour code matches the type of dust on site
 * To make sure the mask seals properly on your face
 - To meet a fashion rule
-- Because they are expensive
+- To record the mask's serial number in the site's PPE register
 > Facial hair under the seal stops a tight-fitting mask from working. Be clean-shaven or use powered RPE with a hood.
 
 [s023] health
 If you have to shout to be heard by someone about 2 metres away, the noise level is probably:
-- Completely safe
+- Completely safe, as hearing is only damaged by sudden bangs
 * High enough that hearing protection is likely needed
 - Lower than normal speech
-- Only a problem for supervisors
+- Only a problem if you are exposed to it for more than 12 hours a day
 > Noise damage builds up over time and is permanent.
 
 [s024] health
@@ -196,63 +196,63 @@ At what daily noise exposure level must employers provide hearing protection and
 [s025] health
 Early symptoms of hand-arm vibration syndrome include:
 * Tingling, numbness and fingers turning white
-- Headache and sneezing
-- Back pain only
+- Headaches, sneezing and a runny nose after using the tool
+- Back pain and stiffness only, mostly first thing in the morning
 - Itchy eyes
 > HAVS is caused by regular use of vibrating tools such as breakers and grinders.
 
 [s026] health
 Which action helps reduce the risk of hand-arm vibration?
-- Gripping the tool as tightly as possible
+- Gripping the tool as tightly as possible so that it cannot kick back or slip
 * Using low-vibration tools, limiting trigger time and keeping hands warm
-- Using blunt bits so you push harder
+- Using worn or blunt bits so you have to press the tool harder against the work
 - Working through breaks
 > Report symptoms early. Health surveillance may be provided.
 
 [s027] health
 Leptospirosis (Weil's disease) is mainly caught from:
-- Wet cement
+- Skin contact with wet cement or lime mortar
 * Water or soil contaminated by rat urine
 - Asbestos
-- Diesel fumes
+- Breathing diesel fumes from plant in poorly ventilated areas
 > Cover cuts, wear gloves, and wash your hands before eating, drinking or smoking.
 
 [s028] health
 Contact dermatitis on site is often caused by:
-- Sunlight only
+- Working outdoors in strong sunlight without wearing any sunscreen
 * Wet cement, solvents and other chemicals on the skin
-- Noise
+- Exposure to loud noise from breakers, saws and other plant
 - Vibration
 > Wear gloves, wash skin, use moisturiser and report rashes early.
 
 [s029] health
 Wet cement left on the skin can cause:
-- No harm
+- Only mild dryness, as cement is harmless once it has been mixed with water
 * Serious chemical burns because it is strongly alkaline
-- Leptospirosis
+- Leptospirosis, from bacteria that grow in the wet cement mix
 - Vibration white finger
 > Wash it off immediately with clean water. Kneeling in wet concrete can cause deep burns.
 
 [s030] health
 COSHH stands for:
 * Control of Substances Hazardous to Health
-- Construction of Safe Houses and Halls
+- Control of Safety at Heights and Hoisting operations
 - Control of Site Hazards and Hygiene
 - Code of Safe Handling Heavy loads
 > COSHH assessments explain the hazards of a substance and the controls you must use.
 
 [s031] health
 You think you have uncovered asbestos while working. You should:
-- Break off a piece to check it
+- Break off a small piece and take it to the site office so it can be checked
 * Stop work immediately, keep others away and tell your supervisor
-- Sweep it into a skip
+- Dampen it down, then sweep it up and put it in the general waste skip
 - Spray it with paint
 > Asbestos fibres can cause mesothelioma, asbestosis and lung cancer, often decades later.
 
 [s032] health
 Diseases caused by asbestos usually appear:
-- Within a few hours
-- Within a week
+- Within a few hours of breathing in the fibres
+- Within a week or two of the exposure
 * Many years after exposure
 - Only if you smoke
 > There is no cure, so prevention is essential.
@@ -260,33 +260,33 @@ Diseases caused by asbestos usually appear:
 [s033] health
 Before lifting a heavy load by hand, you should first consider:
 * Whether the load can be moved with a lifting aid or mechanical equipment
-- How fast you can lift it
+- How quickly you can lift it, so that the weight spends less time in your hands
 - Lifting it with a twisted back
-- Asking someone to throw it to you
+- Whether a workmate can throw it up to you to save carrying it up the ladder
 > Avoid manual handling where possible; otherwise assess the load, the task and your capability.
 
 [s034] health
 The correct technique for lifting a load by hand includes:
-- Keeping your legs straight and bending your back
-* Bending your knees, keeping your back straight and holding the load close to your body
-- Holding the load at arm's length
+- Keeping your legs straight and bending from the waist so your back takes the weight
+* Bending your knees, keeping your back straight and the load close to your body
+- Holding the load out at arm's length so that it does not dirty or snag your clothing
 - Twisting while lifting
 > Plan the route, get a good grip and avoid twisting.
 
 [s035] health
 Working outdoors in strong sun without protection increases the risk of:
-- Silicosis
+- Silicosis from breathing in hot, dusty air
 * Skin cancer and heat stress
-- Leptospirosis
+- Leptospirosis, carried by insects in hot weather
 - Hearing loss
 > Cover up, use sunscreen, drink water and take breaks in the shade.
 
 [s036] health
 The purpose of health surveillance, such as hearing tests, is to:
-- Decide pay rises
+- Decide which workers are entitled to a pay rise for good attendance
 * Detect early signs of work-related ill health
 - Replace PPE
-- Check your fitness for sport
+- Prove you are fit enough to stop wearing hearing protection
 > Early detection allows action before the damage gets worse.
 
 [s037] health
@@ -294,15 +294,15 @@ You are feeling very tired and unable to concentrate on a high-risk task. You sh
 - Keep going to finish on time
 * Tell your supervisor and take a break
 - Drink an energy drink and carry on
-- Swap to operating plant instead
+- Swap to operating plant instead, as it needs less effort
 > Fatigue increases the risk of accidents.
 
 [s038] health
 If you are struggling with stress or poor mental health at work, a good step is to:
 * Talk to your supervisor, a mental health first aider or your GP
-- Keep it to yourself
+- Keep it to yourself until your annual review, then raise it with the HR department
 - Use alcohol to relax at lunch
-- Leave site without telling anyone
+- Leave site without telling anyone and come back when you feel better
 > Many sites have trained mental health first aiders and support lines.
 
 [s039] health
@@ -317,71 +317,71 @@ Drinking water on site should be:
 Which is the safest way to deal with a hazardous substance you have not used before?
 - Smell it to identify it
 * Read the COSHH assessment or safety data sheet and follow the controls
-- Mix it with water
-- Ask a colleague to try it first
+- Assume it is safe if it has no smell and use it as you would any similar product
+- Ask a colleague to try it first and tell you if it causes any irritation
 > If there is no information, do not use it. Ask your supervisor.
 
 [s041] safety
 Who must pay for the PPE you need to do your job safely?
 * Your employer
-- You
-- The client
+- You, through a deduction from your wages
+- The client, as part of the contract
 - The HSE
 > PPE required for the job must be provided free of charge, and you must use and look after it.
 
 [s042] safety
 Your hard hat has a crack in the shell. You should:
-- Cover the crack with tape
+- Seal the crack with strong tape and keep using it
 * Stop using it and get a replacement
 - Paint over the crack
-- Keep using it until it breaks
+- Keep using it until your next PPE check, then report it
 > Also do not paint or add unapproved stickers, as some chemicals weaken the shell.
 
 [s043] safety
 High-visibility clothing is worn so that:
 - You look professional
 * You can be seen by plant and vehicle operators
-- It keeps you warm
-- Supervisors can find you easily for overtime
+- It keeps you warm and dry in cold or wet weather
+- Supervisors can easily spot you when they need you for overtime work
 > Keep hi-vis clean and fastened.
 
 [s044] safety
 When should eye protection be worn?
-* When there is a risk from flying particles, dust, chemicals or sparks, such as when grinding
+* When there is a risk from flying particles, dust, chemicals or sparks
 - Only on sunny days
-- Only when working at night
-- Never if you wear glasses
+- Only when working at night or in poor light, when it is harder to see hazards
+- Not needed if you already wear prescription glasses with plastic lenses
 > Use the type of eye protection stated in the risk assessment.
 
 [s045] safety
 Most UK sites use yellow 110V portable power tools because:
-- They are more powerful
+- They are more powerful than 230V tools, so that jobs can be finished faster
 * Reduced voltage greatly lowers the risk of a fatal electric shock
 - They are cheaper
-- They do not need inspection
+- They do not need regular inspection or PAT testing like 230V tools do
 > 110V centre-tapped systems limit the voltage to earth to about 55V.
 
 [s046] safety
 You notice a damaged cable on a power tool. You should:
-- Wrap it with insulation tape and keep working
+- Wrap the damaged part with insulation tape and keep working carefully
 * Stop using it, label it as faulty and report it
-- Use it outside only
+- Use it outdoors only, where the ground is dry, until it can be repaired
 - Give it to a colleague
 > Check tools before each use and use only tested equipment.
 
 [s047] safety
 Before digging, buried services should be located by:
-- Guessing from the road layout
+- Working out where services run from the position of street lights and manhole covers
 * Checking service drawings and using a cable avoidance tool (CAT and Genny)
 - Digging quickly with a machine
-- Asking the neighbours
+- Asking the client or the neighbours where they think the buried pipes and cables run
 > Then hand dig carefully near the services that were found.
 
 [s048] safety
 When working near overhead power lines, you should:
-- Assume they are dead
+- Assume the lines are dead unless there is a warning sign fixed to the nearest pole
 * Keep plant and materials well clear and follow the permit and barrier controls
-- Use metal ladders underneath them
+- Use metal ladders underneath them, as long as you wear rubber-soled boots and gloves
 - Touch them to test
 > Contact or arcing can be fatal. Goal posts and barriers may be used to mark safe zones.
 
@@ -390,38 +390,38 @@ The three elements needed for a fire are:
 - Water, fuel and wind
 * Heat, fuel and oxygen
 - Smoke, heat and light
-- Gas, sparks and water
+- Flammable gas, sparks and running water
 > Remove any one side of the fire triangle to put out a fire.
 
 [s050] safety
 Which fire extinguisher is suitable for fires in electrical equipment?
 - Water (red label)
 * Carbon dioxide (CO2, black label)
-- Foam on live equipment
+- Foam (cream label), sprayed onto the live equipment
 - Wet chemical (yellow label)
 > Never use water on live electrical equipment.
 
 [s051] safety
 Hot work such as welding or cutting usually requires:
 * A hot work permit and a fire watch after the work has finished
-- No controls if done outside
-- Water extinguishers only
+- No special controls, provided the work is done outdoors in the open air
+- A single water extinguisher kept somewhere within 50 metres of the work
 - Working alone
 > Fires can start long after the work ends, so the area is checked for a set period afterward.
 
 [s052] safety
 Ladders on construction sites should be used:
-- For any job lasting all day
-* Only for short-duration, light work when a safer option is not reasonably practicable
-- For carrying heavy materials up and down
+- For any job lasting up to a full working day, as long as someone foots the ladder
+* Only for short, light work where a safer option is not reasonably practicable
+- For carrying heavy materials up and down, provided you keep one hand free at all times
 - Without anyone checking them
 > Keep three points of contact and never overreach.
 
 [s053] safety
 The correct angle for a leaning ladder is about:
-- 1 out for every 1 up
+- 1 out for every 1 up (about 45 degrees)
 * 1 out for every 4 up (about 75 degrees)
-- 1 out for every 10 up
+- 1 out for every 10 up (about 84 degrees)
 - Vertical against the wall
 > This is known as the 1-in-4 rule.
 
@@ -430,14 +430,14 @@ A ladder used to access a working platform should extend above the landing point
 - 10 cm
 * 1 metre (about three rungs)
 - 3 metres
-- It does not need to extend
+- It does not need to extend if the ladder is tied
 > This gives a secure handhold when stepping on and off.
 
 [s055] safety
 Who is allowed to alter a scaffold?
-- Anyone who needs better access
+- Any trade that needs better access, if they put it back afterwards
 * Only a competent, trained scaffolder
-- The site cleaner
+- The site manager, if the client has agreed to the change
 - The client
 > Never remove guardrails, ties or boards. Check the scaffold inspection tag before use.
 
@@ -451,24 +451,24 @@ The minimum height of the top guardrail on a working platform is:
 
 [s057] safety
 A full-body harness used for fall arrest must be:
-- Worn loosely for comfort
-* Attached to a suitable anchor point, with the user trained and a rescue plan in place
+- Worn loosely for comfort, with the leg straps left undone when you are not near an edge
+* Attached to a suitable anchor point, used by a trained person, with a rescue plan
 - Used without inspection
-- Shared without checking the fit
+- Clipped to the nearest handrail or scaffold tube, with the lanyard kept as long as possible
 > Check harnesses and lanyards before every use.
 
 [s058] safety
 Before using a mobile tower scaffold, you should make sure that:
-- People stay on it while it is moved
+- Workers stay on the top platform while it is pushed, to save climbing down
 * Outriggers or stabilisers are fitted and the wheel brakes are on
 - It is built as high as possible
-- Boards are missing to save weight
+- Some platform boards are left out to keep the tower light enough to move
 > Only move a tower when nobody is on it and the route is clear.
 
 [s059] safety
 A scaffold should be inspected by a competent person:
-- Once a year
-* Before first use, at least every 7 days, and after anything that could affect its safety
+- Once when it is first erected, and then every three months for as long as it stays up
+* Before first use, at least every 7 days, and after anything affecting its safety
 - Only after an accident
 - Never once it is up
 > Look for a current inspection tag or record.
@@ -477,8 +477,8 @@ A scaffold should be inspected by a competent person:
 Falling materials from height can be prevented by:
 * Toe boards, brick guards, netting and keeping platforms tidy
 - Working faster
-- Throwing materials down carefully
-- Wearing ear defenders
+- Throwing waste down carefully after shouting a warning to people below
+- Wearing ear defenders so that you can concentrate on the work in hand
 > Never throw materials from height. Use chutes or lower them safely.
 
 [s061] worksite
@@ -491,57 +491,57 @@ When walking around site, you should:
 
 [s062] worksite
 Before approaching operating plant, you should:
-- Shout loudly and walk up behind it
+- Shout loudly and walk up from behind so you do not distract the operator from the work
 * Make eye contact with the operator and get a clear signal that it is safe
-- Climb on to talk to the operator
+- Climb onto the machine's step so the operator can hear you over the engine
 - Wait in the blind spot
 > Operators often cannot see people close to the machine.
 
 [s063] worksite
 Reversing vehicles on site should be guided by:
-- Any person nearby
+- Any person nearby who can see behind the vehicle
 * A trained banksman or vehicle marshal
-- The driver alone in all cases
+- The driver alone in all cases, relying on the mirrors
 - A sign only
 > Reversing should be avoided where possible, for example with one-way systems.
 
 [s064] worksite
 Who may operate plant such as excavators or telehandlers?
 * Only trained, competent and authorised operators
-- Anyone with a car driving licence
+- Anyone with a full car driving licence and a week's experience
 - Anyone over 18
-- Labourers when the operator is on a break
+- A labourer who has watched the operator, while the operator is on a break
 > Operators usually hold a recognised card such as CPCS or NPORS.
 
 [s065] worksite
 Riding on plant is allowed only when:
-- The ride is short
+- The ride is short and you hold on to the cab or a handrail
 * There is a proper seat provided for a passenger
 - The bucket is empty
-- The supervisor is away
+- The supervisor has given permission for a short trip
 > Falls from plant cause serious injuries.
 
 [s066] worksite
 Why should spoil and materials be kept back from the edge of an excavation?
-- To make the site look tidy
+- To keep the site looking tidy for the client and any visitors who come on site
 * To reduce the risk of the sides collapsing and things falling in
 - To keep them dry
-- Because the client asked
+- To leave room for dumpers to drive right up to the edge to tip into it
 > Also use edge protection to stop people and vehicles falling in.
 
 [s067] worksite
 Excavations must be inspected by a competent person:
-- Once a month
+- Once a week, plus a check whenever someone reports that the sides look unsafe
 * At the start of each shift and after any event that could affect stability
 - Only when it rains
-- Only at the end of the job
+- Only once, at the end of the job, before the excavation is backfilled and compacted
 > Sides must be supported or battered back to prevent collapse.
 
 [s068] worksite
 Why must a petrol generator never be used inside an excavation or enclosed area?
 - It is too noisy
 * Exhaust gases such as carbon monoxide can build up and kill
-- It will get wet
+- It will overheat without a breeze to cool it, which voids the warranty
 - It is too heavy
 > Carbon monoxide has no colour or smell.
 
@@ -549,15 +549,15 @@ Why must a petrol generator never be used inside an excavation or enclosed area?
 Who may enter a confined space such as a manhole or tank?
 - Anyone, if they are quick
 * Only trained people with a permit, gas monitoring and a rescue plan in place
-- The first person available
-- Anyone wearing a dust mask
+- The first person available, as long as they are wearing a harness and a hard hat
+- Anyone wearing a dust mask, as long as a colleague waits at the entrance to call for help
 > Confined spaces can contain toxic gases or too little oxygen.
 
 [s070] worksite
 A colleague has collapsed inside a confined space. You should:
 * Raise the alarm and not enter unless you are trained and equipped for rescue
-- Go in immediately to pull them out
-- Hold your breath and go in
+- Go in straight away and pull them out before the fumes or lack of air do more harm
+- Take a deep breath, hold it and go in quickly to drag them out into the fresh air
 - Wait for them to wake up
 > Many deaths in confined spaces are untrained would-be rescuers.
 
@@ -565,37 +565,37 @@ A colleague has collapsed inside a confined space. You should:
 During a crane lift, you should:
 - Walk under the load if you are quick
 * Stay clear of the load and follow the slinger/signaller's instructions
-- Guide the load with your hands while it is overhead
-- Signal the crane yourself
+- Steady the load with your hands while it is overhead, to stop it swinging
+- Give signals to the crane operator yourself whenever the slinger/signaller is busy
 > Only the appointed slinger/signaller gives signals to the crane operator.
 
 [s072] worksite
 Before using a lifting accessory such as a sling, you should check that it:
 - Is the cheapest available
-* Is marked with its safe working load, has a current inspection record and is undamaged
-- Is long enough to wrap twice around your arm
+* Shows its safe working load, has an in-date inspection record and is undamaged
+- Is long enough to be wrapped twice around the crane hook so it cannot slip off
 - Has been painted
 > Damaged or unmarked accessories must not be used.
 
 [s073] worksite
 An exclusion zone around work such as lifting or demolition means:
-- Only managers may enter
+- Only managers, and visitors escorted by site staff, may enter
 * Nobody may enter unless authorised for that work
-- It is a smoking area
+- It is a designated smoking area, away from the main work
 - It is a rest area
 > Respect barriers and signs.
 
 [s074] worksite
 Before working on machinery or electrical systems, isolation should be done by:
-- Asking someone to watch the switch
+- Asking a colleague to stand by the switch and stop anyone turning it back on
 * Locking off and tagging the energy source (lock-out/tag-out)
-- Unplugging and leaving it on the floor
+- Unplugging the supply and leaving the plug on the floor beside the machine
 - Switching off at the tool only
 > Only the person who applied the lock should remove it.
 
 [s075] worksite
 Abrasive wheels on grinders should be changed:
-- By anyone who has the right spanner
+- By any operative who has the correct spanner and has read the label on the guard
 * Only by trained and competent people, checking the wheel's speed rating
 - Only when the wheel has broken
 - With the grinder still plugged in
@@ -603,49 +603,49 @@ Abrasive wheels on grinders should be changed:
 
 [s076] worksite
 When driving a site dumper, you should:
-- Carry passengers in the skip
+- Carry a passenger in the skip, as long as they sit down and hold on tightly
 * Wear the seat belt if a roll-over protective structure is fitted
 - Drive with the skip raised
-- Drive along the edge of excavations
+- Drive close along the edge of excavations so the load can be tipped straight in
 > Most dumper deaths involve overturning.
 
 [s077] worksite
 When working next to or over water, you should:
-- Work alone
+- Work alone, so that fewer people are at risk of falling into the water
 * Wear a lifejacket and make sure rescue equipment is available
 - Remove your hi-vis
-- Jump in to cool down
+- Take off your lifejacket in hot weather so that you do not overheat
 > Drowning can happen quickly, even in shallow water.
 
 [s078] worksite
 When working on roads next to live traffic, you should:
 * Stay within the coned safety zone and wear high-visibility clothing
-- Move cones when they are in your way
+- Move cones into the live lane when they are in your way, then put them back later
 - Step into the road to save time
 - Work without lights at night
 > Traffic management must be set up by trained people.
 
 [s079] worksite
 Cartridge-operated (nail gun) tools should only be used by:
-- Anyone on site
+- Anyone on site who has used a similar tool before, even without formal training
 * Trained and authorised people following the manufacturer's instructions
-- Apprentices without supervision
+- Apprentices on their own, once they have watched a demonstration of the tool
 - Visitors
 > These tools can fire nails through materials and cause fatal injuries.
 
 [s080] worksite
 Before starting work in a new area, why should you check the permit-to-work system?
 - To book holiday
-* Because some high-risk work can only start when a permit has been issued and its controls are in place
+* Some high-risk work can only start once a permit is issued and its controls are in place
 - To find out the canteen menu
-- To claim overtime
+- Because every task of any kind needs its own signed permit before it can start in a new area
 > Permits are used for confined spaces, hot work, live electrical work and more.
 
 [s081] environment
 Fuel or oil is spilt on site. You should:
-- Wash it into the nearest drain
+- Hose it into the nearest drain with plenty of water so that it is diluted quickly
 * Contain it with a spill kit, stop it reaching drains or water, and report it
-- Cover it with soil and leave it
+- Cover it with soil, leave it to soak in and tell your supervisor at the end of the day
 - Set it on fire
 > Pollution incidents may need to be reported to the environmental regulator.
 
@@ -660,23 +660,23 @@ Surface water drains on site usually lead to:
 [s083] environment
 Why is waste segregated into different skips on site?
 * To allow more waste to be recycled and reduce what goes to landfill
-- To make skips heavier
+- So that each skip is filled to its maximum weight before it is collected
 - To confuse thieves
-- Because skips are free
+- Because the law requires a separate skip for every trade working on site
 > Put waste into the correct, labelled skip.
 
 [s084] environment
 Hazardous waste such as asbestos, oils and some paints must be:
-- Mixed with general waste
+- Mixed with general waste so it is diluted to a safe level
 * Kept separate and removed by a licensed carrier
-- Burned on site
+- Burned on site in a metal drum to reduce its volume
 - Buried on site
 > Ask your supervisor if you are unsure how to dispose of something.
 
 [s085] environment
 In the waste hierarchy, what is the most preferred option?
-- Disposal to landfill
-- Recycling
+- Disposal to landfill (burying waste at a licensed site)
+- Recycling (turning waste into new products or materials)
 * Prevention (reducing waste in the first place)
 - Burning
 > Then reuse, recycle, recover and, last, dispose.
@@ -685,45 +685,45 @@ In the waste hierarchy, what is the most preferred option?
 Dust from site is blowing onto nearby homes. A good control is to:
 - Work faster
 * Damp down surfaces and cover stockpiles
-- Ignore it because the public are not on site
-- Use a leaf blower
+- Ignore it, because members of the public are not on site
+- Use a leaf blower to clear the dust off the paths
 > Dust can affect neighbours' health and lead to complaints.
 
 [s087] environment
 To reduce noise nuisance to neighbours you should:
-- Start noisy work early in the morning
+- Start noisy work early in the morning so it is finished before people get home
 * Work within permitted hours and switch off plant when not in use
-- Use radios loudly to cover noise
+- Play site radios loudly so that the machinery noise is less noticeable next door
 - Remove silencers from plant
 > Local authorities may set working hour limits.
 
 [s088] environment
 You find a bird's nest with eggs in a hedge you were told to remove. You should:
-- Remove it carefully and carry on
+- Remove it carefully, put it on the ground nearby and carry on
 * Stop work in that area and tell your supervisor
-- Move the nest to another tree
+- Move the nest to another hedge nearby and carry on with the job
 - Ignore it
 > Wild birds' nests are protected by law while in use.
 
 [s089] environment
 Japanese knotweed found on site should be:
-- Cut down and put in the general skip
+- Cut down to ground level and put in the general skip along with other green waste
 * Left undisturbed and reported, as it is an invasive plant controlled by law
 - Spread around the site
-- Burned straight away
+- Sprayed with general weedkiller and dug out straight away by the groundworkers
 > Even small pieces can regrow. Specialist removal is required.
 
 [s090] environment
 Fuel tanks on site should be:
-- Stored next to drains
+- Stored next to a drain so any leaks can be washed away quickly
 * Stored in a bunded tank or on a drip tray to contain leaks
-- Left unlocked overnight
+- Left unlocked overnight so that plant can be refuelled first thing
 - Filled to overflowing
 > Bunds are usually able to hold at least 110% of the tank's capacity.
 
 [s091] environment
 Where should concrete mixers and wheelbarrows be washed out?
-- In the nearest drain
+- In the nearest surface water drain
 * In a designated washout area
 - In a stream
 - Anywhere on site
@@ -732,32 +732,32 @@ Where should concrete mixers and wheelbarrows be washed out?
 [s092] environment
 Which is a simple way to save energy on site?
 * Switch off plant, lights and heaters when they are not needed
-- Leave generators running overnight
-- Keep site cabin doors open with heaters on
+- Leave generators running overnight so they do not need restarting
+- Keep site cabin doors propped open with the heaters turned up to full
 - Leave engines idling
 > This also reduces fumes and noise.
 
 [s093] environment
 Fenced areas around trees on site are there to:
-- Store materials
+- Store materials away from the main walkways
 * Protect the tree roots from damage
 - Park vehicles
-- Provide shade for breaks
+- Provide a shaded area for workers to take breaks in
 > Do not store materials or drive inside root protection areas.
 
 [s094] environment
 You uncover what looks like old bones or historic remains while digging. You should:
 - Keep them as a souvenir
 * Stop work in that area and tell your supervisor
-- Carry on and put them in the skip
+- Carry on digging and put them in the skip for the waste carrier
 - Take photos and post them online first
 > Archaeological finds and possible human remains must be reported.
 
 [s095] environment
 Smoking on site is allowed:
-- Anywhere outside
+- Anywhere outdoors, as long as you stay away from the site entrance
 * Only in designated smoking areas
-- Inside site cabins
+- Inside site cabins, if a window is open
 - Near fuel stores
 > Smoking near flammable materials causes fires.
 
@@ -765,23 +765,23 @@ Smoking on site is allowed:
 Horseplay or practical jokes on site:
 - Help team spirit and are encouraged
 * Are dangerous and can lead to serious injury and disciplinary action
-- Are fine during breaks near plant
+- Are fine during breaks, as long as nobody is operating plant close by at the time
 - Are allowed on scaffolds
 > Many serious accidents start with someone messing around.
 
 [s097] environment
 Good housekeeping on site helps mainly to prevent:
-- Theft
+- Theft of tools and materials
 * Slips, trips and falls
 - Noise
-- Vibration
+- Vibration from hand-held power tools
 > Keep walkways clear and tidy as you go.
 
 [s098] environment
 Slips and trips on site are best prevented by:
-- Running between tasks
+- Running between tasks so that you spend less time walking around site
 * Keeping walkways clear, managing cables and cleaning up spills
-- Wearing gloves
+- Wearing gloves and knee pads so that any falls cause less injury
 - Working in poor lighting
 > Slips and trips are among the most common causes of injury in construction.
 
@@ -789,14 +789,1214 @@ Slips and trips on site are best prevented by:
 You cause an environmental incident, such as polluting a stream. You should:
 * Report it to your supervisor immediately
 - Hope nobody notices
-- Wait until the next day
+- Wait until the next day to see if the water clears by itself
 - Tell only your friends
 > Quick reporting allows the damage to be contained and the regulator to be informed if needed.
 
 [s100] environment
 Why should you not leave vehicle engines running when parked on site?
-- It damages the tyres
+- It overheats the tyres and wears them out more quickly
 * It wastes fuel, creates fumes and adds to noise
 - It is required by law to keep them running
-- It keeps the battery flat
+- Idling runs the battery flat, so the vehicle will need a jump start
 > Switching off reduces emissions and saves money.
+
+[s101] general
+Which organisation enforces health and safety law on most construction sites in Great Britain?
+- The Construction Industry Training Board (CITB)
+* The Health and Safety Executive (HSE)
+- The Environment Agency
+- The local planning department
+> HSE inspectors can visit sites without warning, give advice, serve notices and prosecute.
+
+[s102] general
+An HSE inspector serves a prohibition notice on an activity. What does this mean?
+- The work can carry on as long as a fine is paid
+- The activity can carry on for another 21 days while an appeal is made
+- Only the site manager may now do the work
+* The activity must stop until the danger has been dealt with
+> A prohibition notice is used where there is a risk of serious personal injury. Ignoring a notice is a criminal offence.
+
+[s103] general
+What does an improvement notice from an HSE inspector require?
+* A breach of health and safety law to be put right within a set time
+- The whole site to close until an HSE inspector visits again
+- Every worker on site to be retrained by the HSE on the same day the notice is served
+- The employer to pay compensation to each worker
+> The notice gives at least 21 days to fix the problem. A prohibition notice is used when the work must stop.
+
+[s104] general
+Under the Health and Safety at Work etc. Act, it is an offence for anyone to:
+- Refuse to work overtime when the job is behind schedule
+- Take a rest break agreed with the employer while the rest of the gang carries on working
+* Intentionally or recklessly interfere with or misuse anything provided for health and safety
+- Stop work to ask their supervisor how to do the job safely
+> Examples include removing guardrails, disabling machine guards or using fire extinguishers as door stops.
+
+[s105] general
+Under CDM 2015, who plans, manages and coordinates the construction phase when more than one contractor is working on a project?
+- The client's solicitor
+- The most experienced worker on site at the time
+* The principal contractor
+- The HSE inspector
+> The principal contractor also prepares the construction phase plan and makes sure workers receive a suitable site induction.
+
+[s106] general
+What is the construction phase plan?
+* A document setting out the health and safety arrangements and site rules for the work
+- The client's design drawings showing what is to be built
+- A list of the workers on the project with their holiday dates, working hours and pay rates
+- The client's budget and payment timetable for the whole project
+> Under CDM 2015 every construction project needs one before the construction phase begins.
+
+[s107] general
+Your supervisor asks you to do a task you have never been trained to do. What should you do?
+- Start the task and ask a more experienced worker to check your work properly when you have finished
+- Watch a video about the task online and then start, taking extra care
+- Ask a labourer to do it instead
+* Explain that you are not trained and do not start until you are shown how to do it safely
+> You must only do work you are competent to do. Your employer must give you the training and instruction you need.
+
+[s108] general
+Conditions on site have changed and the method statement for your task no longer matches the work. What should you do?
+- Ignore the method statement from now on
+* Stop and speak to your supervisor before carrying on
+- Carry on and update the method statement at the end of the week
+- Make up your own way of doing the job
+> The method statement must be reviewed so that the right controls are in place for the new conditions.
+
+[s109] general
+You did not fully understand the site induction because of the language used. What should you do?
+* Tell whoever gave the induction, or your supervisor, so it can be explained clearly
+- Sign the induction form anyway and ask your workmates to explain the rules to you later
+- Copy whatever the other workers do
+- Say nothing, because the induction is only a formality and the rules are common sense
+> You must understand the site rules, hazards and emergency arrangements before you start. Many sites can provide translated material or an interpreter.
+
+[s110] general
+Why must you sign in when you arrive on site and sign out when you leave?
+- It is only needed on your first day
+* So that everyone can be accounted for in an emergency
+- So that you are paid for any overtime
+- So that the canteen knows how much food to order for the day
+> If the site is evacuated, the signing-in record is used for the roll call.
+
+[s111] general
+A colleague arrives for work smelling strongly of alcohol and seems unsteady on their feet. What should you do?
+- Let them sleep it off in the site cabin until they feel well enough to work
+- Give them a strong coffee and let them start work
+- Suggest they only do work at height today
+* Tell your supervisor so that they can be stopped from working
+> Someone under the influence of alcohol or drugs puts themselves and others at risk. Most sites have strict drug and alcohol policies.
+
+[s112] general
+You see someone you do not recognise, with no hi-vis or hard hat, walking through a work area. What should you do?
+- Let them carry on, as they are probably a visitor who has already signed in at the office
+- Ask them to help you carry some materials
+* Stop work if necessary, politely direct them to the site office and tell your supervisor
+- Ignore them because it is not your business
+> Visitors and members of the public must be inducted or escorted. An unknown person in a work area could be hurt or could be an intruder.
+
+[s113] general
+You notice a gap in the site perimeter fence next to a public footpath. What should you do?
+- Put up a "Keep out" sign and do nothing else
+* Report it straight away so that it can be repaired
+- Leave it, as it makes a useful shortcut
+- Block it with a pile of loose bricks and leave a note for the gang
+> Members of the public, especially children, could get onto the site and be seriously hurt. The site boundary must be kept secure.
+
+[s114] general
+Which telephone number should you call for the fire, ambulance or police services in an emergency in the UK?
+- 101
+- 111
+- 911
+* 999
+> 112 also works in the UK. 101 is the police non-emergency number and 111 is the NHS number for urgent but non-emergency medical help.
+
+[s115] general
+Personal information written in the accident book should be:
+- Pinned on the site notice board
+- Shared in the site group chat so everyone knows what happened
+- Thrown away after one week
+* Kept confidential and stored securely
+> Accident records contain personal details, so they must be protected under data protection law.
+
+[s116] general
+Which of these injuries must be reported under RIDDOR as a "specified injury"?
+* A broken arm or leg
+- A small cut that needed a plaster
+- A bruise on the arm
+- A splinter in a finger
+> Specified injuries include most fractures (other than to fingers, thumbs and toes), amputations and serious burns. They are reported whatever the time off work.
+
+[s117] general
+A crane overturns on site but nobody is hurt. Under RIDDOR this is:
+- Only a matter for the crane hire company
+- Only reportable if the damage costs more than £10,000
+* A dangerous occurrence that must be reported
+- Not reportable, because nobody was injured
+> Some events must be reported even when nobody is injured, such as the collapse or overturning of lifting equipment.
+
+[s118] general
+You have a concern about the safety of the work you are doing. What is the best way to raise it?
+- Wait until the job is finished and mention it at the next toolbox talk
+- Complain to the neighbours
+* Speak to your supervisor, the site manager or a safety representative
+- Post about it on social media
+> Employers must consult workers on health and safety. Raising concerns early helps put problems right before anyone is hurt.
+
+[s119] general
+You reported a serious safety problem, but nothing has been done and the danger remains. What else can you do?
+* Raise it with a more senior manager or your safety representative, or contact the HSE
+- Nothing more, because once you have reported it, it is no longer your responsibility at all
+- Fix it yourself, even though you are not trained
+- Leave an anonymous note in the canteen and hope someone sees it
+> Workers can contact the HSE about serious health and safety concerns. You must not be treated unfairly for raising a genuine safety concern.
+
+[s120] general
+Under the Health and Safety at Work etc. Act, your employer must provide you with:
+- Free transport to and from site each day, or a mileage allowance if you use your own car
+- Your own personal set of hand tools and a van to carry them in
+- A bonus for every week without an accident
+* The information, instruction, training and supervision you need to work safely
+> This is one of the employer's main duties, together with providing safe equipment and a safe place of work.
+
+[s121] general
+In health and safety terms, a "competent person" is someone who:
+- Holds a full car driving licence
+* Has the right training, skills, knowledge and experience for the task
+- Has worked on the site the longest and knows all the other workers by name
+- Is the oldest member of the gang
+> Inspections of scaffolds, excavations and lifting equipment must be carried out by competent people.
+
+[s122] general
+What does a CSCS card show?
+* That you have passed the HS&E test and have the training or qualifications for your job
+- That you are allowed to operate any item of plant on site without further checks or tests
+- That you are a qualified first aider
+- That you may work at height or in confined spaces without any supervision
+> The card shows your occupation and level. It does not allow you to do work outside your training.
+
+[s123] general
+A friend without a CSCS card asks to borrow yours to get onto a site. What should you do?
+- Lend it if the site manager is not checking cards that day
+* Refuse, because the card is personal to you and must not be used by anyone else
+- Lend it, as long as they give it back at the end of the shift
+- Lend it for one day only, while they wait for their own card to arrive in the post
+> Using someone else's card is dishonest and means an untrained person could be working on site. A card can be cancelled if it is misused.
+
+[s124] general
+You are asked to work alone in a remote part of the site. Before you start, you should make sure that:
+- You have music playing through headphones so that the time passes more quickly
+- Nobody knows where you are, so you will not be disturbed
+- Your mobile phone is switched off to save the battery in case you need to call for help later
+* Someone knows where you are, you can call for help and there is an agreed check-in system
+> Lone working is only allowed where the risks have been assessed. High-risk work, such as entering a confined space, must not be done alone.
+
+[s125] general
+Where are you most likely to find the site's emergency arrangements, such as the assembly point and first-aid contacts?
+- On the back of your payslip
+- On the client's website, under health and safety news
+* In the site induction and on the site notice boards
+- In the client's contract
+> Check the notice boards regularly, because arrangements can change as the site develops.
+
+[s126] general
+Employers must display the "Health and Safety Law" poster or give workers the matching leaflet. What does it tell you?
+- The minimum rates of pay and holiday entitlement for each trade working on the site
+* The basics of health and safety law and who to contact about health and safety
+- The site's working hours
+- How to apply for or renew a CSCS card and book the HS&E test
+> It explains the duties of employers and workers in simple terms.
+
+[s127] general
+Who is responsible for health and safety on a construction site?
+- Only the site manager and supervisors
+- Only the HSE
+- Only the client who is paying for the work
+* Everyone on site, including you
+> Employers have the main duties, but every worker must take reasonable care and follow the site rules.
+
+[s128] general
+Can a worker be prosecuted for breaking health and safety law?
+* Yes, individuals can be prosecuted if they fail in their legal duties
+- No, only the company can be prosecuted, because it is the one that employs the worker
+- No, only managers can be prosecuted
+- Only if they are self-employed or working as a subcontractor
+> Workers have legal duties too, for example not to put others at risk and not to misuse safety equipment.
+
+[s129] general
+Which of these is a reportable occupational disease under RIDDOR when a doctor diagnoses it and links it to the work?
+- Hay fever made worse by working outdoors
+- Mild sunburn
+* Hand-arm vibration syndrome
+- A common cold caught from a workmate
+> Other reportable diseases include occupational dermatitis, occupational asthma and carpal tunnel syndrome linked to vibrating tools.
+
+[s130] general
+What is the main reason for investigating an accident on site?
+- To find the person at fault so that they can be punished
+- To fill the time while work is stopped
+* To find out what caused it so that it does not happen again
+- To decide who should pay for the damage, repairs and any lost time
+> Investigations look at both the immediate and the underlying causes, such as poor planning or a lack of training.
+
+[s131] health
+Under the Control of Noise at Work Regulations, what is the daily exposure limit that must not be exceeded, taking into account the hearing protection worn?
+- 80 dB(A)
+- 85 dB(A)
+* 87 dB(A)
+- 100 dB(A)
+> 80 dB(A) and 85 dB(A) are the lower and upper exposure action values. The 87 dB(A) limit takes account of the reduction given by hearing protection.
+
+[s132] health
+After a day of noisy work, your ears are ringing and sounds seem muffled. What does this suggest?
+* Your hearing may be damaged and your hearing protection may not be good enough
+- Your ears are simply tired and there is nothing to worry about
+- You have an ear infection caused by dust getting into your ear canals during the day
+- You should wear your ear defenders less often
+> Ringing in the ears (tinnitus) is an early warning sign. Report it, because repeated damage leads to permanent hearing loss.
+
+[s133] health
+Foam ear plugs only give good protection when they are:
+- Pushed in only halfway so that you can still hear the radio and your workmates
+- Shared with a colleague to save money
+- Taken out every few minutes to rest your ears
+* Inserted correctly and worn the whole time you are in the noisy area
+> Removing hearing protection even for short periods in a noisy area greatly reduces the protection it gives. Fit plugs with clean hands.
+
+[s134] health
+Under the Control of Vibration at Work Regulations, what is the daily exposure action value for hand-arm vibration?
+- 0.5 m/s² A(8)
+* 2.5 m/s² A(8)
+- 5 m/s² A(8)
+- 10 m/s² A(8)
+> Above 2.5 m/s² A(8) the employer must act to reduce exposure and provide health surveillance. 5 m/s² A(8) is the exposure limit value, which must not be exceeded.
+
+[s135] health
+As well as hand-arm vibration syndrome, regular use of vibrating tools can cause:
+- Silicosis
+* Carpal tunnel syndrome
+- Leptospirosis
+- Contact dermatitis on the palms
+> Carpal tunnel syndrome causes pain, tingling and numbness in the hand. Report symptoms early to your supervisor or health surveillance provider.
+
+[s136] health
+Which of these materials can give off harmful silica dust when it is cut, drilled or ground?
+* Concrete, brick and stone
+- Softwood timber
+- Copper pipe
+- uPVC plastic drainage pipe
+> Many construction materials contain crystalline silica. Use water suppression or on-tool extraction and the correct RPE.
+
+[s137] health
+Breathing in wood dust, especially from hardwoods, can cause:
+- Silicosis, as all wood contains crystalline silica that builds up in the lungs
+* Asthma and, in the case of hardwood dust, cancer of the nose
+- Hand-arm vibration syndrome
+- Leptospirosis
+> Use extraction on saws and sanders, clean up with a vacuum rather than sweeping, and wear suitable RPE.
+
+[s138] health
+Which type of disposable mask is generally recommended for high-risk construction dust such as silica?
+- A nuisance dust mask with a single strap
+- A cotton scarf tied over the nose and mouth
+- A surgical mask
+* An FFP3 mask that has been face-fit tested
+> Nuisance dust masks and surgical masks do not protect against harmful dust. RPE must suit the hazard and fit the wearer.
+
+[s139] health
+Before using a reusable half-mask respirator, you should:
+- Loosen the straps so that it is more comfortable to wear for a full shift
+- Swap filters with a colleague's mask if theirs are newer than yours
+* Check it is clean and undamaged, fit the correct in-date filters and carry out a pre-use seal check
+- Clean it with a solvent-based cleaner so that it is free of grease
+> A mask that is damaged, dirty or poorly fitted lets dust leak in around the seal.
+
+[s140] health
+Asbestos may be found in any building that was built or refurbished:
+- Only if it was a factory
+* Before the year 2000
+- Only before 1950
+- Only after 2010
+> Asbestos was widely used until it was banned in the UK in 1999. Always check the asbestos information before disturbing the building fabric.
+
+[s141] health
+Before work starts in an older building, how can you find out whether asbestos is present where you will be working?
+- Look for any white or grey fibrous material, as asbestos is always one of those colours
+- Break off a sample and smell it
+- Assume there is none if the building looks modern inside
+* Ask your supervisor and check the asbestos survey or register for the building
+> Refurbishment and demolition work needs a survey of the areas to be disturbed. If you find suspect material that is not on the survey, stop and report it.
+
+[s142] health
+Which of these could contain asbestos in a building constructed in the 1970s?
+* Textured ceiling coatings, cement roof sheets and pipe lagging
+- Newly fitted plastic window frames
+- Steel beams installed last year when the building was extended by one storey
+- Plasterboard fitted last year
+> Asbestos can look like many ordinary materials, so it cannot be identified by eye. Treat suspect materials as asbestos until they have been tested.
+
+[s143] health
+What is the safest way to clean up fine dust after cutting or drilling?
+- Blow it away with compressed air
+- Leave it to settle overnight and let it be carried away on people's boots
+* Use an M or H class industrial vacuum or wet methods
+- Dry sweep it with a stiff brush
+> Dry sweeping and compressed air throw fine dust back into the air, where it can be breathed in.
+
+[s144] health
+Which statement about barrier creams is true?
+- They make it safe to kneel in wet concrete
+- They only need to be applied once a week, as they soak deep into the skin
+* They do not replace gloves and do not protect reliably on their own
+- They give the same protection as chemical-resistant gloves
+> Wear gloves where needed, wash your skin properly and use an after-work moisturising cream to keep your skin in good condition.
+
+[s145] health
+Why should you wash your hands before eating, drinking or smoking on site?
+* To avoid swallowing harmful substances such as lead, cement or germs
+- So that your gloves stay clean and give better grip when you go back to work
+- It is only necessary after using the toilet
+- To keep your tools clean
+> Harmful substances on your hands are easily swallowed. Use the washing facilities provided, not a bucket or a hose.
+
+[s146] health
+Burning off or sanding old lead paint can cause:
+- Silicosis, from the fine paint particles getting deep into the lungs over time
+- Leptospirosis
+- Skin cancer caused by the heat from the hot air gun
+* Lead poisoning from breathing in the fumes or dust, or from swallowing it
+> Lead work needs a risk assessment, controls such as RPE and good hygiene, and medical surveillance where exposure is significant.
+
+[s147] health
+A container label shows a hazard pictogram of liquid dripping onto a hand and a surface and eating into them. What does it mean?
+- The substance is safe to handle once it has been diluted with plenty of cold water
+* The substance is corrosive and can cause severe skin burns and eye damage
+- The substance is flammable
+- The substance is harmful to fish and other wildlife in rivers
+> Read the safety data sheet and COSHH assessment, and wear the gloves and eye protection they specify.
+
+[s148] health
+A hazard pictogram shows the outline of a person with a star-shaped mark on their chest. What does it warn about?
+* A serious longer-term health hazard, such as cancer or breathing problems
+- An explosive substance
+- A gas under pressure
+- A substance that may cause mild skin irritation, but no lasting harm to your health
+> Examples include substances that cause cancer or asthma. Exposure must be controlled as set out in the COSHH assessment.
+
+[s149] health
+When assessing a manual handling task, what does TILE stand for?
+- Training, Inspection, Labour, Equipment
+* Task, Individual, Load, Environment
+- Time, Injury, Lifting, Equipment
+- Tools, Instructions, Location, Effort
+> Thinking about each of these helps you find ways to make the job safer, such as splitting the load or using a trolley.
+
+[s150] health
+When two or more people lift a heavy load together, they should:
+- Each lift whenever they feel ready
+- Choose people of very different heights
+- Lift as fast as possible so that the load is held for as short a time as possible
+* Plan the lift and agree beforehand who will give the instructions
+> Team lifting needs coordination so that everyone lifts, moves and lowers at the same time.
+
+[s151] health
+You are asked to move a load that you think is too heavy for you to lift safely. What should you do?
+- Drag it along while twisting your back
+- Lift it quickly in one jerky movement
+* Stop and ask for help or for a suitable lifting aid
+- Lift it anyway so that you do not look weak in front of the gang
+> Never attempt a lift that is beyond your capability. Many manual handling injuries happen when people try to manage alone.
+
+[s152] health
+Doing the same task for long periods without a break, such as tying rebar, can lead to:
+- Silicosis
+* Musculoskeletal disorders, such as back, joint and muscle problems
+- Occupational asthma caused by breathing in rust and mill scale from the steel bars
+- Noise-induced hearing loss
+> Take regular breaks, vary tasks where possible and use tools that reduce bending, such as rebar tying tools.
+
+[s153] health
+Kneeling on hard surfaces for long periods, as floor layers often do, can cause:
+- Leptospirosis
+- Vibration white finger, from leaning on the hands
+- Tinnitus
+* Bursitis of the knee ("beat knee")
+> Wear good-quality knee pads and take regular breaks from kneeling.
+
+[s154] health
+On a very hot day you start to feel dizzy and sick and have a headache. What should you do?
+* Stop work, move to a cool, shaded place, drink water and tell someone how you feel
+- Keep working, but have an energy drink and a salty snack to boost your energy levels
+- Take off your safety boots and carry on
+- Lie down in the sun to rest
+> These can be signs of heat exhaustion, which can quickly become dangerous. Get first aid if you do not recover quickly.
+
+[s155] health
+Washing facilities on a construction site must include:
+- Hand sanitiser only, as long as it is refilled every day
+- A hose pipe by the site entrance that everyone can use to wash at the end of the day
+* Running hot and cold, or warm, water, with soap and a way of drying your hands
+- A bucket of cold water for everyone to share
+> Washing facilities must be next to the toilets and changing areas, and be kept clean and properly lit.
+
+[s156] health
+Where should you eat your food on site?
+- Sitting on materials in the plant yard
+- In the toilet block
+* In the rest area or canteen provided
+- In the work area, so you can keep an eye on your tools and materials
+> Eating in work areas can lead to swallowing harmful substances. Wash your hands before you eat.
+
+[s157] health
+Cement or a chemical splashes into your eye. What should you do first?
+* Rinse it with clean water or eyewash for at least 10 minutes, then get medical help
+- Rub your eye gently to get the grit out, then carry on if it feels better
+- Wait to see whether it gets better on its own
+- Cover it with a dry cloth and wait until the end of your shift before going to see a doctor
+> Cement is strongly alkaline and can cause serious eye damage, so rinsing must start straight away.
+
+[s158] health
+You find a used hypodermic needle on site. What should you do?
+- Pick it up carefully with gloves on and put it in the general waste skip with the lid shut
+- Bend the needle and leave it where it is
+- Kick it under some materials
+* Do not touch it, keep others away and report it so that it can be removed safely
+> Needles can carry blood-borne infections such as hepatitis. Only trained people with a sharps kit should remove them.
+
+[s159] health
+Using solvent-based products, such as some adhesives or paints, in a poorly ventilated room can cause:
+- Silicosis, because the vapours settle in the lungs as a fine dust
+* Dizziness, headaches and, at high levels, unconsciousness
+- Hand-arm vibration syndrome
+- Leptospirosis
+> Ventilate the area, follow the COSHH assessment and use the RPE specified. Solvent vapours can also be flammable.
+
+[s160] health
+Which of these could be a sign that a colleague is struggling with their mental health?
+* Changes in behaviour, such as becoming withdrawn, irritable or often late
+- Asking questions about the method statement before starting a new task
+- Wearing their PPE correctly
+- Taking their normal breaks and chatting with the rest of the team at lunch as usual
+> Ask them how they are and listen. Encourage them to talk to someone who can help, such as a mental health first aider or their GP.
+
+[s161] safety
+Where should you not leave your safety helmet when it is not in use?
+- In a clean bag inside your locker or the site storage area
+* On a vehicle dashboard or rear shelf in direct sunlight
+- In a cool, dry place out of the sun
+- Hanging on a peg in the welfare cabin
+> Heat and sunlight can weaken the shell, even when there is no visible damage.
+
+[s162] safety
+Oxy-fuel cutting and welding equipment must be fitted with:
+- Water sprinklers
+- Reversing alarms
+- 110V transformers
+* Flashback arrestors
+> Flashback arrestors stop a flame travelling back through the hoses into the cylinders, which could cause an explosion.
+
+[s163] safety
+Safety footwear on a construction site should normally have:
+- Smooth, lightweight soles so that your feet do not get tired
+- Raised heels for extra grip on ladder rungs
+* Protective toecaps and soles that resist nails and other sharp objects
+- Open toes to keep your feet cool
+> Choose footwear that suits the job and keep it in good condition. Tie laces properly to prevent trips.
+
+[s164] safety
+Why should you not wear gloves when using a pillar drill or another machine with an exposed rotating part?
+- The drill will not start if you wear gloves
+* The glove could be caught and pull your hand into the machine
+- Gloves make it harder to feel when the drill bit is going blunt
+- Gloves are only for cold weather
+> Loose clothing, jewellery and long hair can be caught in the same way. Tie hair back and remove jewellery.
+
+[s165] safety
+What does a residual current device (RCD) do?
+- It changes the 230V mains supply down to 110V so that tools are safe to use outdoors
+- It limits the current so that tools cannot overheat, which removes the need for pre-use checks
+- It stops cables from being cut
+* It quickly cuts off the power if it detects current leaking to earth, reducing the risk of a fatal shock
+> An RCD gives extra protection but is not a substitute for checking tools and cables before use.
+
+[s166] safety
+You are using 230V equipment protected by a portable RCD. When should you check the RCD using its test button?
+* Every time before you use the equipment
+- Once a year
+- Only after the equipment has given someone a shock
+- Never, because the test button is only for electricians
+> If the RCD does not trip when tested, do not use it. Report it so it can be replaced.
+
+[s167] safety
+Where it is suitable for the job, which type of power tool is the safest choice on a construction site?
+- A 400V tool
+- Any tool whose damaged plug has been repaired with tape
+* A battery-powered (cordless) tool
+- A 230V mains tool with a long extension lead
+> Battery tools remove the risks from trailing cables and mains voltage. If mains tools are needed, 110V is preferred.
+
+[s168] safety
+What colour are 110V plugs and sockets on UK construction sites?
+- Red
+- Green
+* Yellow
+- Blue
+> Blue industrial plugs are used for 230V and red ones for 400V.
+
+[s169] safety
+Extension leads and cables on site should be run:
+* Along walls or at high level, where they will not be damaged or cause trips
+- Across walkways and doorways by the shortest route
+- Through puddles to keep them cool
+- Under doors and hatches, so that they are hidden from view
+> Damaged cables can cause shocks, and trailing cables are a common cause of trips. Many sites use cable hooks to keep leads off the floor.
+
+[s170] safety
+Why should a cable reel be fully unwound before you use it for a high-power tool or heater?
+- It makes the tool more powerful
+- It stops the RCD from working
+- It is easier to roll it up afterwards
+* A coiled cable can overheat and catch fire
+> Heat cannot escape from a tightly wound cable when a heavy current flows through it.
+
+[s171] safety
+A portable power tool has an out-of-date inspection label. What should you do?
+- Use it only for small jobs until it can be tested again
+* Not use it, and report it so that it can be inspected and tested
+- Use it carefully, as it has been tested before
+- Change the date on the label
+> Tools must be inspected and tested at the intervals set by the site. An out-of-date label means their safety has not been confirmed.
+
+[s172] safety
+While hand digging, your spade strikes a buried electricity cable. What should you do?
+* Treat it as live, move away, keep others clear and report it straight away
+- Pull the cable clear of the trench to see whether it has been damaged
+- Wrap the damaged part in insulation tape and carry on digging
+- Carry on digging carefully around it
+> A damaged cable can still be live and can flash or explode. Do not go back until the cable owner confirms it is safe.
+
+[s173] safety
+You see a machine whose jib or boom is touching an overhead power line. What should you do?
+- Use a dry wooden ladder to push the line away from the machine
+* Keep well away, stop others from approaching and raise the alarm so that the line can be switched off
+- Run over and help the operator climb down from the cab as quickly as possible
+- Touch the machine to check whether it is live
+> The machine and the ground around it may be live. The operator should normally stay in the cab until the network operator confirms the line is dead.
+
+[s174] safety
+Who may carry out electrical installation work or repairs on site?
+- Anyone with a screwdriver and insulation tape
+- The person who uses the equipment most
+- Any labourer, as long as the power is off
+* Only a competent, authorised electrician
+> Electrical work done by unqualified people can cause shocks, burns and fires that put you and others at risk.
+
+[s175] safety
+A water fire extinguisher (red label) is suitable for fires involving:
+- Live electrical equipment
+- Cooking oil or fat
+* Wood, paper and fabric
+- Burning petrol or diesel
+> Never use water on electrical fires or burning liquids. Check the label before using any extinguisher.
+
+[s176] safety
+A foam fire extinguisher (cream label) can be used on fires involving:
+- Gas leaking from a cylinder whose valve has been left open
+* Wood and paper, and flammable liquids such as petrol
+- Live electrical equipment only
+- Burning metals, such as magnesium swarf
+> Foam smothers the fire and stops flammable vapours escaping.
+
+[s177] safety
+Which type of fire extinguisher has a blue label?
+- Water
+- Carbon dioxide (CO2)
+- Wet chemical
+* Dry powder
+> Dry powder works on many types of fire but should be avoided in small enclosed spaces, because it can be breathed in and reduces visibility.
+
+[s178] safety
+You discover a small fire. When should you try to put it out?
+* Only after raising the alarm, if you are trained, it is safe to do so and you have a clear escape route
+- Always, and before raising the alarm, so that the fire does not have time to spread
+- Only if the fire is between you and the exit
+- Only if you have already collected your tools
+> If the fire grows or the extinguisher does not work, leave immediately and close doors behind you if you can.
+
+[s179] safety
+Fire extinguishers on site should be:
+- Moved to the site store at the end of each day so that they are not stolen
+- Removed when they get in the way of work
+* Kept in their correct place, unobstructed, and reported if they have been used or damaged
+- Used to prop doors open
+> An empty, damaged or missing extinguisher could cost lives in a fire.
+
+[s180] safety
+How should LPG cylinders be stored on site?
+- Inside a basement or store room, where they are kept cool and out of the sun
+- Next to a drain so that any leak is washed away
+* Upright, in a secure, ventilated compound outside, away from drains, excavations and sources of ignition
+- Lying down inside a locked site cabin, so that they cannot be stolen or knocked over
+> LPG is heavier than air, so leaking gas can collect in low places such as drains, basements and excavations and then explode.
+
+[s181] safety
+You find that a fire escape route is blocked with materials. What should you do?
+* Clear it if you can do so safely, or report it immediately so that it is cleared
+- Leave it, because there is probably another exit
+- Climb over the materials and carry on
+- Put a "Do not use" sign on the exit so that people use a different route
+> Escape routes must be kept clear at all times so that everyone can get out quickly in an emergency.
+
+[s182] safety
+Under the Work at Height Regulations, "work at height" means:
+- Only work carried out more than 2 metres above the ground, as lower work is not covered
+- Only work above 6 metres
+- Only work on scaffolds, ladders and roofs, but not work next to excavations
+* Working anywhere a person could fall a distance liable to cause injury, including below ground level
+> There is no minimum height. Working next to an open excavation or on a low platform can still be work at height.
+
+[s183] safety
+Under the Work at Height Regulations, what should be considered first?
+- Whether someone could catch you if you fall
+* Whether the work at height can be avoided, for example by doing it from the ground
+- Which type of harness and lanyard everyone working at height will wear
+- How many ladders are available
+> If it cannot be avoided, use equipment that prevents falls, and then measures that reduce the distance and consequences of a fall.
+
+[s184] safety
+When work at height cannot be avoided, which type of protection should be chosen in preference to personal fall protection such as a harness?
+* Collective protection, such as guardrails, scaffolds and safety nets
+- Warning signs only
+- Working faster to cut the time spent at height
+- Tool lanyards and a hard hat with a chin strap
+> Collective protection protects everyone without relying on each person to use it correctly.
+
+[s185] safety
+You need to cross a roof that may be fragile, such as one covered with old cement sheets or with rooflights. What should you do?
+- Walk on it only when it is dry and not windy, wearing boots with good grip
+* Do not go onto it unless a safe system of work is in place, such as staging with guardrails or protection underneath
+- Walk only along the lines of bolts or fixings, because the sheets are supported there
+- Step carefully and quickly, keeping low to spread your weight
+> People are killed every year falling through fragile roofs and rooflights. Treat all roofs as fragile until a competent person confirms otherwise.
+
+[s186] safety
+Which is a safe way to use a stepladder?
+- Stand on the very top of it to get extra height
+- Work side-on to the steps and lean out so that you do not have to move the ladder
+- Stand it on a scaffold platform to reach higher
+* Make sure all four feet are on firm, level ground and the locking device is fully open and engaged
+> Avoid overreaching and keep facing the steps. Keep a hand free to hold on where possible.
+
+[s187] safety
+Who should erect, alter or dismantle a mobile access tower?
+- Any two people working together, so that one can hold the frame steady
+- The site security guard, as part of the morning site checks
+* Only people who are trained and competent to do so, following the manufacturer's instructions
+- Whoever needs to use it, as long as they have used a tower before
+> Towers built by untrained people can collapse or overturn. Training such as a PASMA course is commonly required.
+
+[s188] safety
+An unprotected hole in a floor should be:
+- Marked with a traffic cone and warning tape so that people know to walk around it
+* Covered with a fixed, clearly marked cover strong enough to take any load, or protected by guardrails
+- Covered with a sheet of plywood laid loosely over it so that it can be lifted easily
+- Left open so that people can see it
+> A loose or weak cover can be moved or give way. Never remove a hole cover without permission.
+
+[s189] safety
+You go to use a scaffold and its tag shows that it is not safe to use, or there is no tag at all. What should you do?
+- Use it carefully for a short job
+- Check it yourself and then use it
+- Put up a tag of your own
+* Do not use it, and tell your supervisor
+> Only use a scaffold that a competent person has inspected and confirmed as safe.
+
+[s190] safety
+When working from a boom-type mobile elevating work platform (MEWP), operatives normally wear:
+* A harness with a short restraint lanyard attached to the anchor point in the basket
+- No harness, because the guardrails around the basket give full protection
+- A harness clipped to a nearby part of the building
+- A harness clipped to the top guardrail of the basket
+> The restraint lanyard stops you being thrown out if the basket is jolted. Only trained people may operate a MEWP.
+
+[s191] worksite
+Why must you keep out of the area around an excavator where its upper body swings round (slews)?
+- The operator needs this space kept clear to store materials and attachments
+- It is only to keep the area tidy
+* The counterweight at the back can swing round and crush you against an object
+- The tracks give off harmful fumes
+> Operators cannot always see behind the machine. Barriers are often used to mark the slew area.
+
+[s192] worksite
+Why is it important that an excavator's quick hitch is properly locked?
+- It stops the bucket rattling, which reduces noise for the neighbours
+- It stops the tracks wearing out
+* An unlocked bucket or attachment can fall off and kill someone nearby
+- It makes the machine travel faster
+> The operator must check the locking pin or device every time an attachment is changed. Stay clear of the bucket while the machine is working.
+
+[s193] worksite
+When an operator leaves a machine unattended, they should:
+* Lower any attachments to the ground, apply the brake, switch off and remove the key
+- Leave the engine running so that it is ready to use
+- Leave the bucket raised so that other vehicles can see the machine
+- Leave the key in so that others can move it
+> This stops the machine moving on its own and prevents unauthorised use.
+
+[s194] worksite
+How often should a plant operator carry out checks on their machine?
+- Only when it breaks down
+- Once a month, when the plant hire company visits
+- Only when the site manager asks
+* Before use each day, reporting any defects
+> Defects such as faulty brakes, lights or alarms must be reported, and the machine must not be used if they affect safety.
+
+[s195] worksite
+A plant operator should only use a mobile phone:
+- When the banksman is not watching
+* When the machine has been stopped in a safe place
+- While driving slowly across an empty part of the site
+- While lifting a light load
+> Using a phone distracts the operator and is a common cause of accidents.
+
+[s196] worksite
+Why can even a fairly shallow trench be deadly if its sides collapse?
+* A cubic metre of soil can weigh more than a tonne, enough to crush or bury someone
+- Soil is light and only causes bruises
+- Trenches only collapse in winter
+- Only trenches deeper than 5 metres can collapse, because shallow sides hold themselves up
+> Excavations must be supported, battered back or stepped to prevent collapse. Never enter an excavation unless it has been made safe and inspected.
+
+[s197] worksite
+How should you get into and out of an excavation?
+- By sliding down the spoil heap
+* By a secured ladder or another properly provided means of access
+- By climbing down the trench supports
+- By jumping in and climbing out on the excavator bucket
+> Ladders should be tied and extend about 1 metre above the top of the excavation.
+
+[s198] worksite
+Why are stop blocks placed near the edge of an excavation where dumpers tip their loads?
+- To mark the site boundary
+- To hold the sides of the excavation up where the ground is soft
+- To give workers somewhere to sit
+* To stop vehicles going too close to the edge and falling in
+> Stop blocks must be placed a safe distance back from the edge so that the vehicle does not overload the sides.
+
+[s199] worksite
+You notice cracks appearing in the ground along the edge of a trench while people are working in it. What should you do?
+- Fill the cracks with sand
+- Stand on the edge to see whether it moves
+* Warn everyone to get out immediately and report it
+- Carry on and keep an eye on the cracks
+> Cracks can be a sign that the sides are about to collapse. Nobody should go back in until a competent person says it is safe.
+
+[s200] worksite
+When excavating close to a buried service that has been located, the safest method is:
+- Using a breaker to dig quickly
+* Careful hand digging, using a spade or shovel rather than a pick or fork
+- Using an excavator bucket at full speed
+- Driving a steel bar into the ground to find the service
+> Keep powered tools and machine buckets away from the line of the service. Once exposed, services should be supported and protected.
+
+[s201] worksite
+Which of these is a typical example of a confined space?
+- A large open-plan office on the ground floor
+- A scaffold platform at roof level
+- An open-air car park
+* A sewer, manhole, tank or silo
+> A confined space is an enclosed place where there is a serious risk from things like dangerous gases, lack of oxygen, flooding or fire.
+
+[s202] worksite
+You are working in a confined space and your personal gas monitor alarm sounds. What should you do?
+* Leave the space immediately and raise the alarm
+- Switch the monitor off and carry on
+- Finish your task quickly, then leave
+- Move further into the space to check the reading
+> The alarm warns of dangerous gas or low oxygen. Do not go back in until the space has been made safe.
+
+[s203] worksite
+What is the main role of the person stationed outside the entrance to a confined space?
+- To guard the tools
+- To time the work for the payroll
+* To stay in contact with those inside and raise the alarm if something goes wrong
+- To go in straight away and help anyone inside who shouts or stops answering
+> The attendant must not go in to attempt a rescue unless they are trained, equipped and part of the rescue plan.
+
+[s204] worksite
+Under LOLER, how often must lifting accessories such as slings and shackles be thoroughly examined by a competent person?
+- Only when they are first bought
+* At least every 6 months
+- At least every 2 years
+- At least every 5 years
+> Equipment for lifting people must also be examined at least every 6 months, and other lifting equipment at least every 12 months, unless an examination scheme sets different intervals.
+
+[s205] worksite
+Why are tag lines sometimes attached to a load being lifted by a crane?
+- To measure the height of the lift
+- To pull the crane closer to the load
+* To control the load and stop it swinging while keeping people at a safe distance
+- To allow a second, smaller load to be lifted underneath the main load
+> Never stand under a suspended load, and only handle a load once it has been lowered close to its landing point.
+
+[s206] worksite
+Under LOLER, every lifting operation must be:
+* Properly planned by a competent person, appropriately supervised and carried out safely
+- Carried out as quickly as possible to reduce the time the load is in the air
+- Approved in advance by the HSE and recorded on a notification form
+- Done only at weekends
+> The lift plan covers things such as the weight of the load, the equipment, the ground conditions and the people involved.
+
+[s207] worksite
+A sling has to pass around a load with sharp edges. What should be done?
+- Pull the sling as tight as possible
+- Use a thinner sling
+- Hold the sling in place with your hand during the lift
+* Use packing or edge protectors to stop the sling being cut or damaged
+> Sharp edges can cut through a sling and cause the load to fall.
+
+[s208] worksite
+A load to be lifted is heavier than the safe working load marked on the lifting equipment. What should happen?
+- The lift can go ahead if the load is only raised a short distance
+* The lift must not go ahead until suitable equipment is used
+- The lift can go ahead if it is done slowly
+- Two people should hold the load to share the weight
+> Lifting equipment and accessories must never be overloaded, because they can fail suddenly.
+
+[s209] worksite
+Why might crane lifting be stopped on a windy day?
+* Strong wind can make the load swing and the crane unstable, so lifting stops above the safe limit
+- Wind makes the crane engine use more fuel
+- The slinger cannot hear the radio in the wind
+- Wind only matters for very light loads, because heavy loads cannot be moved by it
+> Large flat loads, such as panels, are affected most by wind. The lift supervisor and crane operator decide when lifting must stop.
+
+[s210] worksite
+A hoist is marked "goods only". Who may ride on it?
+- Anyone, if the load is small
+* Nobody
+- Only the hoist operator
+- Only one person at a time
+> Goods-only hoists do not have the safety features needed to carry people.
+
+[s211] worksite
+Your supervisor asks you to take the guard off a saw to speed up the job. What should you do?
+- Remove it and make sure you put it back on at the end of the day
+- Remove it, but only for this job and while you work extra carefully
+- Ask a colleague to remove it so that you are not to blame
+* Refuse, explain that the saw must not be used without its guard, and report it if necessary
+> Guards stop you touching dangerous moving parts. Using a machine without its guard breaks the law and is a common cause of serious hand injuries.
+
+[s212] worksite
+Under the Provision and Use of Work Equipment Regulations (PUWER), work equipment must be:
+- Painted yellow
+- Available to anyone on site who is over 18 and has watched the operator use it
+* Suitable for the job, properly maintained and used only by people who have been trained
+- Bought new for each project so that it never needs to be inspected or maintained
+> Report any defect and do not use equipment that is damaged or unsuitable for the task.
+
+[s213] worksite
+Before a tipper lorry raises its body to unload, the driver must check:
+- That the banksman is standing right behind the lorry to watch the load come out
+* That there are no overhead power lines or obstructions and that the ground is firm and level
+- That the radio is switched on
+- That the load is wet
+> A raised tipper body can touch overhead lines, or the lorry can overturn on soft or sloping ground.
+
+[s214] worksite
+Why must compressed air never be used to blow dust off your clothes or skin?
+- It wastes energy and makes the compressor run for longer than necessary
+- It makes your clothes wet
+- It damages the compressor
+* It can force air or particles into the body and cause serious injury
+> Use a suitable vacuum or wash the dust off, and never point an air line at anyone.
+
+[s215] worksite
+Materials stored on site should be stacked:
+* On firm, level ground, stable and not too high, away from edges and walkways
+- As high as possible to save space, as long as the stack leans against a wall
+- Leaning against the temporary fencing
+- Across pedestrian routes
+> Badly stacked materials can collapse, fall from height or block escape routes.
+
+[s216] worksite
+An excavation next to a public footpath should be protected by:
+- A warning sign only
+- Nothing, if the excavation is shallow
+* Barriers strong enough to stop people falling in, with lighting at night where needed
+- A strip of warning tape at waist height, so people can see where the edge is
+> Members of the public, including children and people with poor sight, may not notice a hazard that is obvious to site workers.
+
+[s217] worksite
+Where should a vehicle marshal (banksman) stand when guiding a reversing vehicle?
+- In the cab next to the driver
+- Wherever is most comfortable for them
+* In a safe position out of the vehicle's path, where the driver can see them at all times
+- Directly behind the vehicle, so that they can stop it before it hits anything
+> If the driver loses sight of the marshal, the driver must stop immediately.
+
+[s218] worksite
+Why must pure oxygen never be used to "freshen up" the air in a confined space or excavation?
+* Air with extra oxygen makes materials, including clothing, burn very fiercely
+- Oxygen is too expensive
+- Oxygen is poisonous to breathe at any level
+- Oxygen cylinders are too heavy to lower safely into a confined space
+> Use proper ventilation equipment to supply fresh air, as set out in the safe system of work.
+
+[s219] worksite
+Why must a telehandler be used on firm, level ground?
+- So that the tyres do not wear unevenly and need replacing early
+- Because the engine will not start on a slope
+- So that the operator has a better view
+* Because it can overturn, especially when the boom is raised or extended with a load
+> Operators must stay within the load chart limits and check the ground before lifting.
+
+[s220] worksite
+A forward-tipping dumper has been loaded so high that the driver cannot see ahead. What should happen?
+- The driver should lean out of the side and carry on
+* The load should be reduced so that the driver has a clear view before moving
+- The driver should drive faster to spend less time on the move
+- A worker should ride on top of the load to give directions
+> Many dumper accidents involve pedestrians being struck by a driver who could not see them.
+
+[s221] environment
+In England, which organisation regulates pollution of rivers and streams?
+* The Environment Agency
+- The Health and Safety Executive
+- The Met Office
+- The DVLA
+> In Scotland this is SEPA, and in Wales it is Natural Resources Wales.
+
+[s222] environment
+Under the waste duty of care, site waste may only be handed over to:
+- Whoever offers the lowest price
+* A registered waste carrier
+- Anyone who has a van
+- A neighbour who wants the materials
+> The business producing the waste stays responsible for making sure it is disposed of legally.
+
+[s223] environment
+Which document must go with non-hazardous waste when it is taken off site?
+- A delivery note for materials
+- A hot work permit
+- A timesheet
+* A waste transfer note
+> Hazardous waste needs a consignment note instead. These records show where the waste went.
+
+[s224] environment
+A man offers to take site waste away cheaply in his van and says no paperwork is needed. What is the risk?
+- Only the man with the van is responsible
+- The waste will be recycled, because small carriers do not use landfill
+* The waste may be fly-tipped, and the site could be prosecuted
+- There is no risk if it is cheaper
+> Always use registered carriers through the site's agreed waste arrangements.
+
+[s225] environment
+Burning waste on a construction site is:
+- Allowed for timber and packaging, as long as a fire extinguisher is nearby
+* Generally not allowed, because it causes pollution and nuisance and may break the law
+- A good way to save on skip costs
+- Allowed at night or at weekends, when fewer neighbours are around to complain
+> Burning waste releases harmful smoke and can spread fire. Use the site's waste skips.
+
+[s226] environment
+Muddy water is being pumped out of an excavation. Where should it go?
+- Straight into the nearest surface water drain, as rainwater drains are designed for muddy water
+- Into the nearby stream
+- Across the public road
+* Through a settlement tank or silt bag, then only to a discharge point that has been approved
+> Silt smothers plants and fish in watercourses. Discharges may need consent from the water company or environmental regulator.
+
+[s227] environment
+Absorbent pads and granules used to clean up an oil spill should be:
+* Bagged and disposed of as hazardous waste
+- Put in the general waste skip once they are dry
+- Wrung out and reused on the next spill
+- Buried on site
+> Report the spill and make sure the spill kit is restocked.
+
+[s228] environment
+To catch leaks, a generator or pump on site should be placed:
+- On bare soil so that any oil soaks away
+- In a stream to keep it cool
+* On a drip tray or plant nappy
+- Next to a drain
+> Check and empty drip trays regularly, especially after rain, and dispose of oily water properly.
+
+[s229] environment
+Where should plant be refuelled on site?
+- On the bank of a stream
+- Anywhere, as long as it is done quickly
+* In a designated area away from drains and watercourses, with a spill kit nearby
+- Next to a surface water drain so that spills can be washed away
+> Never leave refuelling unattended, and stop immediately if fuel is spilt.
+
+[s230] environment
+On many sites, drain covers are painted to show where they lead. A blue mark usually means:
+* A surface water drain, which flows to a river or stream
+- A foul sewer that goes for treatment
+- A drain that is safe for concrete washout
+- A drain set aside for chemicals and paint washings
+> Red usually marks a foul drain. Nothing except clean rainwater should go into a surface water drain.
+
+[s231] environment
+You find bats roosting in a roof space that you are about to strip. What should you do?
+- Scare them away and carry on
+- Wait until they fly out at dusk, then block the entrance so that they cannot come back
+- Carry on, as bats are only protected in summer
+* Stop work in that area and tell your supervisor, as bats and their roosts are protected by law
+> Specialist advice, and possibly a licence, is needed before work can continue.
+
+[s232] environment
+While clearing ground, you discover what looks like an active badger sett. What should you do?
+- Ignore it, as badgers are not protected
+* Stop work nearby and report it, because badgers and their setts are protected by law
+- Fill the holes in with soil so that the badgers move somewhere else
+- Drive plant over it to collapse it
+> Specialist advice, and possibly a licence, is needed before work near a sett can continue.
+
+[s233] environment
+What can contact with the sap of giant hogweed cause?
+* Severe burns and blisters on skin that is exposed to sunlight
+- Hand-arm vibration syndrome
+- Breathing problems from the pollen, but only if the plant is in flower
+- Silicosis
+> Do not cut or touch it. Report it, as it is an invasive plant that needs specialist removal.
+
+[s234] environment
+Site lighting used at night should be:
+- As bright as possible in every direction
+* Directed down onto the work area and away from homes and roads
+- Pointed upwards to light up the sky
+- Aimed at drivers on the road so that they can see the site
+> Badly positioned lights can dazzle drivers and disturb neighbours and wildlife.
+
+[s235] environment
+Why do many sites have a wheel wash at the exit?
+- To clean vehicles so that their number plates and lights can be checked at the gate
+- To check the tyre pressures
+- To cool the brakes and tyres of lorries after driving over rough ground
+* To stop mud being carried onto public roads, where it causes accidents and pollution
+> Dirty water from wheel washes must be managed so that it does not enter drains.
+
+[s236] environment
+How should you behave when working near members of the public?
+- Play loud music to cover the noise of the work
+- Ignore them completely, even if they are in danger
+* Be polite and considerate, and avoid offensive language or behaviour
+- Shout at them to keep away from the site entrance
+> How you behave affects the reputation of the site and the company.
+
+[s237] environment
+What is a simple way to cut water use on site?
+- Washing vehicles every hour
+* Fixing leaks quickly and turning off hoses and taps when they are not in use
+- Leaving hoses running all day so that the water in the pipes does not go stale
+- Using drinking water for every cleaning job
+> Water costs money, and wasting it puts pressure on local supplies.
+
+[s238] environment
+Which of these helps to reduce waste on site?
+- Ordering about 20% extra of every material in case some gets damaged
+- Leaving bags of cement uncovered in the rain
+- Stacking materials where vehicles drive over them
+* Ordering the right quantities and storing materials so that they are not damaged
+> Damaged and surplus materials are a major source of construction waste.
+
+[s239] environment
+Offcuts of timber that are still in good condition should be:
+* Reused on site where possible, or put in the timber recycling skip
+- Burned in a brazier on site to keep the team warm in winter
+- Thrown into the general waste skip
+- Left lying around the site
+> Reuse comes before recycling in the waste hierarchy.
+
+[s240] environment
+Why should plasterboard waste be kept separate from general waste?
+- Because it is radioactive
+- Because gypsum dust in a mixed skip can explode if it comes into contact with water
+* Because, mixed with biodegradable waste in landfill, it can produce toxic hydrogen sulphide gas
+- Because it can be sold back to the supplier for more than the cost of a skip
+> Clean, separated plasterboard can also be recycled into new products.
+
+[s241] environment
+Fluorescent light tubes removed during a strip-out should be:
+- Put in the glass recycling bin with bottles
+- Buried on site
+* Kept unbroken and disposed of as hazardous waste, because they contain mercury
+- Broken up inside a bag to save space in the general waste skip
+> Broken tubes can release mercury vapour. Store them safely until they are collected.
+
+[s242] environment
+While digging, you uncover what looks like an old bomb or shell. What should you do?
+* Stop work, move away, keep others away and tell your supervisor immediately
+- Lift it out carefully and take it to the site office so that it can be collected
+- Tap it to see whether it is solid
+- Carry on digging around it
+> Unexploded bombs and shells can still go off. The police and bomb disposal experts will deal with it.
+
+[s243] environment
+While excavating, you find soil that is discoloured and smells strongly of fuel or chemicals. What should you do?
+- Mix it with clean soil
+- Spread it out thinly across the site so that the smell goes away
+- Take some home to test it
+* Stop work and report it, as the ground may be contaminated
+> Contaminated land can harm health and the environment, and must be dealt with in a planned way.
+
+[s244] environment
+You find a piece of discarded timber with nails sticking out of it lying in a walkway. What should you do?
+- Leave it for the cleaners
+* Remove or bend over the nails and put the timber in the correct skip, or report it
+- Step over it carefully and carry on with your own work
+- Kick it to the edge of the walkway, where people are less likely to step on it
+> Protruding nails cause puncture wounds and trips. Tidy up as you go.
+
+[s245] environment
+Why should you not wear headphones to listen to music while working on site?
+* You may not hear alarms, warnings or approaching plant
+- Dust will get into them and damage the speakers
+- It drains your phone battery
+- Music is only allowed in the canteen
+> Music headphones are not hearing protection and can add to your noise exposure.
+
+[s246] environment
+Why should you not dry wet clothes over a heater in a site cabin?
+- It makes the cabin too cold
+* The clothes could catch fire
+- The clothes will shrink
+- The heater will use less power
+> Use the drying room provided, and keep heaters clear of anything that can burn.
+
+[s247] environment
+Why should excavations left open overnight have a way for animals to get out, such as a sloping plank?
+- So that workers can climb out quickly
+- To support the sides of the excavation and stop them collapsing overnight
+- To keep rainwater out
+* Because animals such as badgers and hedgehogs can fall in and become trapped
+> Check excavations for trapped animals before starting work each day.
+
+[s248] environment
+A member of the public complains to you about dust coming from the site. What should you do?
+- Tell them it is not your problem and that they should write to the council
+- Give them your personal phone number
+* Be polite and pass the complaint on to your supervisor or the site manager
+- Argue with them
+> Complaints help the site find and fix problems such as dust, noise and mud on the road.
+
+[s249] environment
+Work with liquids or fine powders is planned next to a surface water drain. How can the drain be protected?
+- Put a cone next to it so that people know not to pour anything into it
+* Cover it with a drain cover or mat and keep a spill kit close by
+- Pour some water down it first
+- Take the grating off
+> Anything that gets into a surface water drain can reach a river untreated.
+
+[s250] environment
+Empty containers that held hazardous substances should be:
+- Rinsed out with water and then used for carrying drinking water to the work area
+- Put in the general waste skip
+- Burned on site so that any harmful residue is destroyed
+* Disposed of as instructed, often as hazardous waste, and never reused for food or drink
+> Residues left inside can still be harmful or flammable. Follow the safety data sheet.

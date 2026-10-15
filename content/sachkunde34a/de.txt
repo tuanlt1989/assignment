@@ -2,10 +2,10 @@
 
 [k001]
 Wer erteilt die Erlaubnis zum Betrieb eines Bewachungsgewerbes nach § 34a GewO?
-- Die IHK
+- Die IHK, nachdem der Antragsteller die Sachkundeprüfung bestanden hat
 * Die zuständige Behörde, meist das Gewerbeamt
-- Die Polizei
-- Der Arbeitgeberverband
+- Das Landespolizeipräsidium nach einer Zuverlässigkeitsprüfung
+- Der Arbeitgeberverband der Sicherheitswirtschaft (BDSW)
 > Die IHK nimmt die Sachkundeprüfung ab; die Gewerbebehörde erteilt die Erlaubnis.
 
 [k002]
@@ -26,10 +26,10 @@ Für welche Tätigkeit ist die Sachkundeprüfung erforderlich und die Unterricht
 
 [k004]
 Seit 2019 müssen Bewachungspersonen erfasst sein im:
-- Handelsregister
+- Handelsregister beim Amtsgericht
 * Bewacherregister
-- Nur im Melderegister
-- Fahrzeugregister
+- Nur im örtlichen Melderegister
+- Zentralen Fahrzeugregister in Flensburg
 > Die Behörden prüfen dort die Zuverlässigkeit, bevor Personal eingesetzt werden darf.
 
 [k005]
@@ -51,24 +51,24 @@ Wachpersonen müssen während des Dienstes:
 [k007]
 Die Dienstkleidung von Wachpersonen muss:
 * Sich deutlich von Uniformen der Polizei und der Bundeswehr unterscheiden
-- Genau wie Polizeiuniformen aussehen
+- Genau wie Polizeiuniformen aussehen, damit die Wachpersonen mehr Respekt einflößen
 - Immer schwarz sein
-- Von der IHK genehmigt werden
+- Vorher von der IHK genehmigt werden, die die Sachkundeprüfung abgenommen hat
 > Eine Verwechslung mit staatlichen Uniformen ist unzulässig.
 
 [k008]
 Das Gewaltmonopol des Staates bedeutet:
-- Wachpersonen dürfen Gewalt wie die Polizei anwenden
+- Wachpersonen dürfen Gewalt wie die Polizei anwenden, sobald ihnen der Auftraggeber das Hausrecht übertragen hat
 * Nur der Staat darf hoheitlich Gewalt ausüben; private Wachpersonen haben nur Jedermannsrechte
-- Wachpersonen dürfen jeden jederzeit festnehmen
+- Wachpersonen dürfen jeden jederzeit festnehmen, sofern sie die Person danach der Polizei übergeben
 - Unternehmen dürfen eigene Strafen festlegen
 > Private Sicherheit arbeitet mit Jedermannsrechten und übertragenen Rechten wie dem Hausrecht.
 
 [k009]
 „Jedermannsrechte“ sind Rechte, die:
-- Nur Polizeibeamte haben
+- Nur Polizeibeamte und andere Amtsträger im Rahmen ihrer hoheitlichen Befugnisse haben
 * Jeder Mensch hat, z. B. Notwehr, Notstand und vorläufige Festnahme
-- Nur Sicherheitsunternehmen haben
+- Nur Sicherheitsunternehmen haben, sobald das Gewerbeamt die Erlaubnis nach § 34a erteilt hat
 - Nur Eigentümer haben
 > Wachpersonen haben nicht mehr Befugnisse als andere Bürger, außer ihnen werden Rechte wie das Hausrecht übertragen.
 
@@ -83,25 +83,25 @@ Ein Bewachungsunternehmen muss abschließen:
 [k011]
 Der Grundsatz der Datenminimierung nach DSGVO bedeutet:
 * Es dürfen nur die für den Zweck erforderlichen personenbezogenen Daten verarbeitet werden
-- Alle verfügbaren Daten sollen gesammelt werden
+- Alle verfügbaren Daten sollen gesammelt werden, falls sie später für einen anderen Zweck nützlich sind
 - Daten dürfen frei weitergegeben werden
-- Daten müssen für immer gespeichert werden
+- Daten müssen für immer gespeichert werden, damit sie für spätere Ermittlungen zur Verfügung stehen
 > Weitere Grundsätze sind Zweckbindung, Richtigkeit, Speicherbegrenzung und Integrität.
 
 [k012]
 Videoüberwachung öffentlich zugänglicher Räume:
-- Ist immer verboten
+- Ist privaten Unternehmen immer verboten und darf ausschließlich von der Polizei durchgeführt werden
 * Ist nur unter gesetzlichen Voraussetzungen erlaubt und muss durch Hinweisschilder erkennbar sein
 - Braucht keinen Hinweis
-- Darf im Internet veröffentlicht werden
+- Darf im Internet veröffentlicht werden, damit Verdächtige von der Öffentlichkeit schneller erkannt werden
 > Schilder müssen auf die Überwachung und den Verantwortlichen hinweisen.
 
 [k013]
 Was sind personenbezogene Daten?
 - Der Wetterbericht
 * Ein Kfz-Kennzeichen oder das Videobild einer erkennbaren Person
-- Die Öffnungszeiten des Unternehmens
-- Die Anzahl der Parkplätze
+- Die allgemeinen Öffnungszeiten des Unternehmens laut Website und Eingangstür
+- Die Anzahl freier Parkplätze auf der Anzeigetafel an der Einfahrt des Parkhauses
 > Personenbezogen sind alle Informationen, die sich auf eine bestimmte oder bestimmbare Person beziehen.
 
 [k014]
@@ -114,10 +114,10 @@ Nach der DSGVO hat eine betroffene Person das Recht auf:
 
 [k015]
 Wachpersonen müssen Verschwiegenheit wahren über:
-- Gar nichts
+- Gar nichts, solange sie den Namen des Auftraggebers nicht nennen
 * Betriebs- und Geschäftsgeheimnisse, die sie im Dienst erfahren
-- Nur ihr eigenes Gehalt
-- Nur das Wetter
+- Nur ihr eigenes Gehalt, nicht aber interne Angelegenheiten des Kunden
+- Nur Dinge, die der Auftraggeber schriftlich als geheim gekennzeichnet hat
 > Ein Verstoß kann arbeitsrechtliche und strafrechtliche Folgen haben.
 
 [k016]
@@ -125,7 +125,7 @@ Darf eine Wachperson wie die Polizei zwangsweise die Vorlage eines Personalauswe
 - Ja, immer
 * Nein, private Wachpersonen haben keine polizeiliche Befugnis zur zwangsweisen Identitätsfeststellung
 - Ja, aber nur nachts
-- Ja, wenn die Person verdächtig aussieht
+- Ja, wenn die Person verdächtig aussieht und die Hausordnung des Auftraggebers Ausweiskontrollen vorsieht
 > Die Wachperson darf fragen und die Polizei rufen. Für die vorläufige Festnahme nach § 127 StPO gelten eigene Voraussetzungen.
 
 [k017]
@@ -133,15 +133,15 @@ Das Hausrecht auf dem Gelände eines Auftraggebers stammt:
 * Vom Eigentümer oder Besitzer, der es vertraglich auf das Sicherheitsunternehmen übertragen kann
 - Von der IHK
 - Von der Polizei
-- Von der Wachperson selbst
+- Von der Wachperson selbst, sobald sie die Sachkundeprüfung bestanden hat und dort im Dienst ist
 > Die Wachperson übt das Hausrecht dann im Auftrag des Kunden aus.
 
 [k018]
 Ein Hausverbot darf aussprechen:
-- Jeder Besucher
+- Jeder Besucher, der sich durch eine andere Person auf dem Gelände gestört fühlt
 * Der Inhaber des Hausrechts oder von ihm beauftragtes Personal
-- Nur ein Gericht
-- Nur die Polizei
+- Nur ein Zivilgericht auf schriftlichen Antrag des Grundstückseigentümers
+- Nur die Polizei, nach einer schriftlichen Anzeige des Grundstückseigentümers
 > Wer trotz Hausverbot bleibt, kann Hausfriedensbruch (§ 123 StGB) begehen.
 
 [k019]
@@ -172,7 +172,7 @@ Nach § 227 BGB ist eine durch Notwehr gebotene Handlung:
 Nach § 228 BGB (defensiver Notstand) darf man beschädigen oder zerstören:
 - Jede beliebige Sache in der Nähe
 * Eine Sache, von der die Gefahr ausgeht, z. B. einen angreifenden Hund, wenn es erforderlich und verhältnismäßig ist
-- Nur eigene Sachen
+- Nur eigene Sachen, aber niemals fremde Tiere oder fremde Sachen, selbst wenn von ihnen unmittelbar die Gefahr ausgeht
 - Nur öffentliches Eigentum
 > Der Schaden darf nicht außer Verhältnis zur Gefahr stehen.
 
@@ -196,32 +196,32 @@ Selbsthilfe nach § 229 BGB ist erlaubt, wenn:
 § 859 Abs. 1 BGB erlaubt dem Besitzer:
 * Sich verbotener Eigenmacht mit Gewalt zu erwehren
 - Den Täter zu bestrafen
-- Jede Tasche zu durchsuchen
-- Jeden 24 Stunden festzuhalten
+- Die Taschen aller Personen auf dem Gelände zu durchsuchen, die des Diebstahls verdächtig sind
+- Jeden auf dem Gelände Angetroffenen bis zu 24 Stunden festzuhalten, bis der Eigentümer eintrifft
 > Man spricht von Besitzwehr.
 
 [k026]
 Nach § 859 Abs. 2 BGB darf der Besitzer eine bewegliche Sache zurücknehmen:
-- Jederzeit später
+- Jederzeit später, solange er nachweisen kann, dass sie ihm gehört
 * Dem auf frischer Tat betroffenen oder verfolgten Täter
-- Nur mit Gerichtsbeschluss
-- Nur in Anwesenheit der Polizei
+- Nur mit einem Gerichtsbeschluss, den der Eigentümer vorher erwirkt hat
+- Nur in Anwesenheit der Polizei und nachdem der Diebstahl angezeigt wurde
 > Man spricht von Besitzkehr.
 
 [k027]
 Besitz bedeutet im Zivilrecht:
-- Rechtliches Eigentum
+- Rechtliches Eigentum an einer Sache oder einem Grundstück
 * Die tatsächliche Herrschaft über eine Sache
-- Ein beim Notar eingetragenes Recht
-- Ein Bankkonto
+- Ein beim Notar oder im Grundbuch eingetragenes Recht
+- Ein Bankkonto mit dem auf den eigenen Namen angelegten Vermögen
 > Eigentum ist die rechtliche Herrschaft, Besitz die tatsächliche Sachherrschaft.
 
 [k028]
 Eine Wachperson, die für den Auftraggeber die tatsächliche Gewalt über Sachen ausübt (Besitzdiener):
-- Darf diese nicht schützen
+- Darf diese nicht schützen, da sie weder Eigentümerin noch Besitzerin ist
 * Darf die Rechte des Besitzers aus § 859 BGB ausüben (§ 860 BGB)
 - Wird Eigentümer
-- Muss zuerst ein Gericht anrufen
+- Muss vor jedem Eingreifen zuerst einen Gerichtsbeschluss beantragen
 > Die Wachperson handelt für den Besitzer.
 
 [k029]
@@ -235,8 +235,8 @@ Wer nach § 823 BGB vorsätzlich oder fahrlässig das Leben, den Körper, die Ge
 [k030]
 Nach § 831 BGB haftet ein Arbeitgeber für Schäden, die ein Mitarbeiter in Ausführung der Verrichtung verursacht, es sei denn:
 * Er weist nach, dass er den Mitarbeiter sorgfältig ausgewählt und überwacht hat
-- Der Mitarbeiter war pünktlich
-- Der Schaden war gering
+- Der Mitarbeiter war pünktlich zum Dienst erschienen und schon über ein Jahr im Unternehmen beschäftigt
+- Der Schaden lag unter 500 Euro und entstand während der Probezeit des Mitarbeiters
 - Der Kunde ist einverstanden
 > Man spricht von der Haftung für Verrichtungsgehilfen.
 
@@ -258,10 +258,10 @@ Ein 12-Jähriger ist:
 
 [k033]
 Fahrlässigkeit (§ 276 BGB) bedeutet:
-- Vorsätzliches Handeln
+- Vorsätzliches Handeln, also wissentliches und willentliches Schädigen
 * Außerachtlassen der im Verkehr erforderlichen Sorgfalt
-- Handeln in Notwehr
-- Befolgen von Anweisungen
+- Handeln in Notwehr gegen einen gegenwärtigen rechtswidrigen Angriff
+- Anweisungen eines Vorgesetzten befolgen, ohne sie vorher zu prüfen
 > Vorsatz und Fahrlässigkeit sind die beiden Formen des Verschuldens.
 
 [k034]
@@ -274,7 +274,7 @@ Ein Bewachungsvertrag zwischen Kunde und Sicherheitsunternehmen ist in der Regel
 
 [k035]
 Eine Wachperson findet auf dem Gelände des Kunden eine Geldbörse. Sie sollte:
-- Sie nach sechs Monaten behalten
+- Sie im eigenen Spind aufbewahren und mit nach Hause nehmen, wenn sie binnen sechs Monaten niemand abholt
 * Den Fund dokumentieren und nach Dienstanweisung abgeben (z. B. beim Auftraggeber oder Fundbüro)
 - Sie wegwerfen
 - Das Geld als Finderlohn nehmen
@@ -282,7 +282,7 @@ Eine Wachperson findet auf dem Gelände des Kunden eine Geldbörse. Sie sollte:
 
 [k036]
 Wird eine Person im Wege der Selbsthilfe festgehalten, so muss sie nach § 230 BGB:
-- So lange wie nötig festgehalten werden
+- Sie dürfen auf dem Gelände festgehalten werden, bis der Auftraggeber entscheidet, höchstens aber 48 Stunden
 * Unverzüglich dem Gericht vorgeführt werden (in der Praxis: der Polizei übergeben)
 - Ein Bußgeld zahlen
 - Beliebig durchsucht werden
@@ -298,9 +298,9 @@ Das Hausrecht beruht im Wesentlichen auf:
 
 [k038]
 § 1004 BGB gibt dem Eigentümer das Recht zu verlangen:
-- Die Inhaftierung des Störers
+- Die Inhaftierung des Störers durch die Polizei für die Dauer der Beeinträchtigung
 * Die Beseitigung der Beeinträchtigung und die Unterlassung weiterer Störungen
-- Eine höhere Miete
+- Eine höhere Miete oder Nutzungsgebühr vom Störer als Ausgleich für die Unannehmlichkeiten
 - Eine Polizeiuniform
 > Dazu gehört z. B. die Beendigung unerwünschten Aufenthalts auf dem Grundstück.
 
@@ -315,25 +315,25 @@ Die regelmäßige Verjährungsfrist im Zivilrecht beträgt:
 [k040]
 Kinder unter sieben Jahren sind:
 * Für Schäden, die sie verursachen, nicht verantwortlich (§ 828 BGB)
-- Voll haftbar
-- Nur für vorsätzliche Schäden haftbar
-- Über die Polizei haftbar
+- Für jeden von ihnen verursachten Schaden voll haftbar, genau wie Erwachsene
+- Nur für vorsätzlich verursachte Schäden haftbar, nicht für fahrlässige
+- Über das Jugendamt haftbar, das stellvertretend für sie den Schaden bezahlt
 > Eltern oder Aufsichtspersonen können bei Verletzung der Aufsichtspflicht haften.
 
 [k041]
 Notwehr nach § 32 StGB ist:
 * Die Verteidigung, die erforderlich ist, um einen gegenwärtigen rechtswidrigen Angriff von sich oder einem anderen abzuwenden
 - Jede Rache für einen früheren Angriff
-- Gewalt zum Eintreiben von Schulden
+- Gewalt zum Eintreiben einer Geldforderung, die bereits gerichtlich festgestellt wurde, die der Schuldner aber trotzdem nicht bezahlt
 - Spätere Bestrafung eines Diebes
 > Die Verteidigung muss erforderlich sein: das mildeste wirksame Mittel.
 
 [k042]
 Die Verteidigung eines anderen gegen einen Angriff heißt:
-- Selbsthilfe
+- Selbsthilfe nach § 229 BGB zugunsten eines Dritten
 * Nothilfe, geregelt in § 32 StGB
-- Notstand
-- Festnahme
+- Rechtfertigender Notstand nach § 34 StGB
+- Vorläufige Festnahme nach § 127 StPO
 > Es gelten dieselben Voraussetzungen wie bei der Notwehr.
 
 [k043]
@@ -346,7 +346,7 @@ Wer nach § 33 StGB die Grenzen der Notwehr aus Verwirrung, Furcht oder Schrecke
 
 [k044]
 Rechtfertigender Notstand nach § 34 StGB setzt voraus, dass:
-- Jedes Interesse geopfert werden darf
+- Jedes beliebige Interesse geopfert werden darf, sofern der Handelnde selbst in Gefahr war und diese nicht verursacht hat
 * Das geschützte Interesse das beeinträchtigte wesentlich überwiegt und die Tat ein angemessenes Mittel ist
 - Die Gefahr in der Vergangenheit liegt
 - Die Person für Geld handelt
@@ -357,7 +357,7 @@ Nach § 127 Abs. 1 StPO darf jedermann eine auf frischer Tat betroffene oder ver
 - Die Person unhöflich ist
 * Sie der Flucht verdächtig ist oder ihre Identität nicht sofort festgestellt werden kann
 - Die Person nichts kaufen will
-- Die Person Ausländer ist
+- Die Person ausländischer Staatsangehöriger ist, auch wenn Identität und Anschrift bereits feststehen
 > Die Festnahme muss verhältnismäßig sein.
 
 [k046]
@@ -380,15 +380,15 @@ Eine vorläufige Festnahme nach § 127 StPO ist zulässig bei:
 Körperverletzung nach § 223 StGB bedeutet:
 - Jemanden beleidigen
 * Jemanden körperlich misshandeln oder an der Gesundheit schädigen
-- Jemandem eine Sache wegnehmen
-- Ein Gebäude unerlaubt betreten
+- Jemandem ohne sein Wissen oder seine Zustimmung eine Sache wegnehmen
+- Ein umzäuntes Gebäude oder Gelände ohne Erlaubnis des Eigentümers betreten
 > Auch der Versuch ist strafbar.
 
 [k049]
 Hausfriedensbruch (§ 123 StGB) begeht, wer:
 * Widerrechtlich in geschützte Räume eindringt oder trotz Aufforderung nicht verlässt
-- Auf einer öffentlichen Straße geht
-- Während der Öffnungszeiten ein Geschäft betritt
+- Spät in der Nacht auf einer öffentlichen Straße direkt vor einem fremden Privathaus entlanggeht
+- Während der regulären Öffnungszeiten ein Geschäft betritt, ohne dort etwas kaufen zu wollen
 - Die Polizei ruft
 > Hausfriedensbruch wird grundsätzlich nur auf Antrag verfolgt (Antragsdelikt).
 
@@ -396,13 +396,13 @@ Hausfriedensbruch (§ 123 StGB) begeht, wer:
 Diebstahl (§ 242 StGB) ist die Wegnahme:
 - Einer eigenen Sache
 * Einer fremden beweglichen Sache in der Absicht, sie sich rechtswidrig zuzueignen
-- Eines Grundstücks
+- Eines Grundstücks, etwa durch Besetzen eines fremden Grundstücks ohne Zustimmung des Eigentümers
 - Nur von Informationen
 > Der Versuch ist strafbar.
 
 [k051]
 Raub (§ 249 StGB) ist:
-- Diebstahl ohne Gewalt
+- Jeder Diebstahl, der nachts oder von mehreren Personen gemeinschaftlich begangen wird, auch ohne Gewalt oder Drohung
 * Diebstahl mit Gewalt gegen eine Person oder unter Drohung mit gegenwärtiger Gefahr für Leib oder Leben
 - Sachbeschädigung
 - Betrug
@@ -412,7 +412,7 @@ Raub (§ 249 StGB) ist:
 Räuberischen Diebstahl (§ 252 StGB) begeht ein Dieb, der:
 * Auf frischer Tat betroffen Gewalt anwendet oder droht, um sich im Besitz der Beute zu erhalten
 - Nachts stiehlt
-- Bei Verwandten stiehlt
+- Bei Verwandten oder Haushaltsangehörigen stiehlt und die Beute auch später nicht freiwillig zurückgibt
 - Die Beute zurückgibt
 > Er wird gleich einem Räuber bestraft.
 
@@ -421,7 +421,7 @@ Nötigung (§ 240 StGB) bedeutet:
 - Jemanden höflich bitten
 * Jemanden rechtswidrig mit Gewalt oder durch Drohung mit einem empfindlichen Übel zu einer Handlung, Duldung oder Unterlassung zwingen
 - Jemanden rechtmäßig festnehmen
-- Eine Bedienung verweigern
+- Einem Kunden die Bedienung oder einem Gast den Einlass ohne Angabe von Gründen verweigern, auch wenn dabei weder Gewalt noch eine Drohung eingesetzt wird
 > Kunden rechtswidrig zu etwas zu zwingen, kann Nötigung sein.
 
 [k054]
@@ -436,7 +436,7 @@ Eine Person ohne rechtliche Grundlage in einem Raum einzuschließen, kann sein:
 Unterlassene Hilfeleistung (§ 323c StGB) begeht, wer:
 * Bei Unglücksfällen oder gemeiner Not nicht hilft, obwohl Hilfe erforderlich und zumutbar ist
 - Einen Rettungswagen ruft
-- Erste Hilfe fehlerhaft leistet
+- Trotz redlichen Bemühens fehlerhaft Erste Hilfe leistet, etwa durch eine falsche Lagerung des Verletzten
 - Nach dem Notruf auf den Rettungsdienst wartet
 > Schon der Notruf kann ausreichende Hilfe sein.
 
@@ -469,7 +469,7 @@ Kinder unter 14 Jahren sind:
 - Voll strafmündig
 * Schuldunfähig (§ 19 StGB)
 - Nur bei Diebstahl strafbar
-- Strafbar, wenn die Eltern zustimmen
+- Strafbar, wenn die Eltern oder Vormünder zustimmen
 > Für Jugendliche von 14 bis 17 Jahren gilt das Jugendstrafrecht.
 
 [k060]
@@ -482,17 +482,17 @@ Das Beschädigen oder Zerstören einer fremden Sache heißt:
 
 [k061]
 Um eine Schreckschusswaffe (mit PTB-Zeichen) in der Öffentlichkeit zu führen, braucht man:
-- Keine Erlaubnis
+- Keine Erlaubnis, solange die Waffe ungeladen in der Jackentasche steckt
 * Den Kleinen Waffenschein
 - Einen Jagdschein
-- Nur einen Personalausweis
+- Nur einen Personalausweis als Nachweis der Volljährigkeit
 > Bei öffentlichen Veranstaltungen ist das Führen auch mit Kleinem Waffenschein grundsätzlich verboten.
 
 [k062]
 Eine Waffenbesitzkarte berechtigt:
 * Zum Erwerb und Besitz einer Waffe, nicht aber zum Führen in der Öffentlichkeit
-- Zum Führen überall
-- Zum gewerblichen Waffenhandel
+- Zum Führen der geladenen Waffe überall in der Öffentlichkeit, ohne weitere Erlaubnis
+- Zum gewerblichen Waffenhandel mit allen anderen Inhabern einer Waffenbesitzkarte
 - Zur Verwendung bei Veranstaltungen
 > Zum Führen in der Öffentlichkeit ist ein Waffenschein erforderlich.
 
@@ -500,21 +500,21 @@ Eine Waffenbesitzkarte berechtigt:
 Eine Waffe „führen“ bedeutet:
 - Sie zu Hause verschlossen aufbewahren
 * Die tatsächliche Gewalt über sie außerhalb der eigenen Wohnung, Geschäftsräume oder des befriedeten Besitztums ausüben
-- Sie nur auf dem Papier besitzen
+- Als Eigentümer in einer Waffenbesitzkarte eingetragen sein, auch wenn die Waffe bei einem Waffenhändler zur Reparatur verwahrt wird
 - Sie reinigen
 > Für das Führen in der Öffentlichkeit ist grundsätzlich eine Erlaubnis nötig.
 
 [k064]
 Tierabwehrspray (Pfefferspray) darf gegen Menschen eingesetzt werden:
-- Jederzeit
+- Jederzeit, da es rechtlich keine Waffe ist
 * Nur in einer Notwehrsituation
-- Zur Durchsetzung der Hausordnung
-- Zur Bestrafung von Dieben
+- Zur Durchsetzung der Hausordnung gegen eine Person, die nicht gehen will
+- Zur Bestrafung von auf frischer Tat ertappten Dieben
 > Der Einsatz außerhalb der Notwehr kann Körperverletzung sein.
 
 [k065]
 Welcher Gegenstand ist nach dem Waffengesetz eine verbotene Waffe?
-- Eine Taschenlampe
+- Eine Stabtaschenlampe
 * Ein Schlagring
 - Eine Trillerpfeife
 - Ein Notizbuch
@@ -532,15 +532,15 @@ Darf eine Wachperson im Dienst eine Schusswaffe tragen?
 Schusswaffen und Munition müssen aufbewahrt werden:
 * In zugelassenen Sicherheitsbehältnissen nach dem Waffengesetz
 - Im Auto
-- In einem offenen Spind
-- Am Empfang des Kunden
+- In einem offenen Spind im Wachraum, solange Besucher ihn nicht sehen können
+- Am Empfang des Kunden, in einer gewöhnlichen abschließbaren Schublade
 > Unbefugte dürfen keinen Zugriff haben.
 
 [k068]
 Der Schusswaffengebrauch im Dienst ist nur erlaubt:
 - Zur Warnung von Besuchern bei Veranstaltungen
 * In Notwehr oder Notstand als letztes Mittel
-- Um jemanden am Verlassen mit Ware zu hindern
+- Um einen Dieb am Verlassen des Geschäfts mit gestohlener Ware zu hindern
 - Zum Bedrohen einer Person
 > Jeder Waffeneinsatz muss erforderlich und verhältnismäßig sein.
 
@@ -554,18 +554,18 @@ Das Führen von Waffen bei öffentlichen Veranstaltungen (§ 42 WaffG) ist:
 
 [k070]
 Welcher Unfallversicherungsträger ist für das Bewachungsgewerbe zuständig?
-- Die Krankenkasse
+- Die gesetzliche Krankenkasse des Beschäftigten
 * Die Verwaltungs-Berufsgenossenschaft (VBG)
-- Das Finanzamt
-- Die IHK
+- Das für den Firmensitz zuständige örtliche Finanzamt
+- Die für den Sitz des Unternehmens zuständige IHK
 > Die gesetzliche Unfallversicherung deckt Arbeits- und Wegeunfälle.
 
 [k071]
 Die Unfallverhütungsvorschrift für Wach- und Sicherungsdienste ist:
 * Die DGUV Vorschrift 23
 - Die Straßenverkehrsordnung
-- Das Baugesetzbuch
-- Die Abgabenordnung
+- Das Baugesetzbuch (BauGB)
+- Die Abgabenordnung (AO)
 > Sie enthält Regeln zu Ausrüstung, Hunden, Waffen und gefährlicher Alleinarbeit.
 
 [k072]
@@ -579,25 +579,25 @@ Ein Arbeitsunfall muss dem Unfallversicherungsträger gemeldet werden, wenn der 
 [k073]
 Ein Unfall auf dem direkten Weg zur Arbeit oder nach Hause ist:
 * Als Wegeunfall versichert
-- Nie versichert
-- Nur über die Kfz-Versicherung versichert
-- Nur sonntags versichert
+- Nie versichert, da er außerhalb der Arbeitszeit geschieht
+- Nur über die eigene Kfz-Versicherung versichert
+- Nur an Sonn- und Feiertagen versichert
 > Umwege aus privaten Gründen können den Schutz unterbrechen.
 
 [k074]
 Bei gefährlicher Alleinarbeit sollte eine Wachperson verfügen über:
-- Keine Ausrüstung
+- Keine besondere Ausrüstung, solange die Wachperson ein privates Handy dabeihat
 * Ein Personen-Notsignal-Gerät oder regelmäßige Kontaktmeldungen
 - Einen Zweitjob
-- In jedem Fall einen Wachhund
+- In jedem Fall einen Wachhund, unabhängig vom Objekt und von der Aufgabe
 > Allein arbeitende Personen müssen Hilfe rufen können.
 
 [k075]
 Zur Brandklasse B gehören Brände von:
-- Festen Stoffen wie Holz
+- Festen Stoffen wie Holz, Papier, Textilien und Kohle
 * Flüssigen oder flüssig werdenden Stoffen wie Benzin
 - Metallen
-- Speiseölen und -fetten
+- Speiseölen und -fetten in Fritteusen und Küchengeräten
 > A: feste Stoffe, B: Flüssigkeiten, C: Gase, D: Metalle, F: Speiseöle/-fette.
 
 [k076]
@@ -612,15 +612,15 @@ Was ist bei Entdeckung eines Brandes in der Regel zuerst zu tun?
 Eine bewusstlose Person mit normaler Atmung wird gelagert:
 - Auf dem Rücken mit erhöhten Beinen
 * In der stabilen Seitenlage
-- Aufrecht sitzend
-- Auf dem Bauch
+- Aufrecht sitzend an eine Wand gelehnt
+- Auf dem Bauch mit zur Seite gedrehtem Kopf
 > Atmung weiter kontrollieren und den Notruf absetzen.
 
 [k078]
 Eine bewusstlose Person ohne normale Atmung braucht:
 - Ein Glas Wasser
 * Nach dem Notruf eine Herz-Lungen-Wiederbelebung (Herzdruckmassage) und so schnell wie möglich einen AED
-- Nur die stabile Seitenlage
+- Nur die stabile Seitenlage, wobei die Atmung alle paar Minuten bis zum Eintreffen des Rettungsdienstes kontrolliert wird
 - Ruhe
 > Fest und schnell in der Mitte des Brustkorbs drücken.
 
@@ -628,8 +628,8 @@ Eine bewusstlose Person ohne normale Atmung braucht:
 Wachhunde im Sicherheitsdienst müssen:
 - Beliebige Haustiere sein
 * Geprüft sein und dürfen nur von qualifizierten Hundeführern geführt werden
-- In öffentlichen Bereichen frei laufen
-- Niemals einen Maulkorb tragen
+- In öffentlichen Bereichen frei laufen gelassen werden, um Eindringlinge aufzuspüren
+- Niemals einen Maulkorb tragen, auch nicht in Menschenmengen, damit sie wirksam abschrecken
 > Die DGUV Vorschrift 23 stellt Anforderungen an Hunde und Hundeführer.
 
 [k080]
@@ -642,9 +642,9 @@ Persönliche Schutzausrüstung für Wachpersonen muss:
 
 [k081]
 Welches Verhalten hilft, einen Konflikt zu deeskalieren?
-- Lauter schreien als das Gegenüber
+- Lauter schreien als das Gegenüber, damit dieses merkt, wer hier eigentlich das Sagen hat
 * Ruhig sprechen, Abstand halten und dem Gegenüber ermöglichen, das Gesicht zu wahren
-- Die Person sofort anfassen
+- Die Person sofort am Arm anfassen, um zu zeigen, dass man die Lage fest im Griff hat
 - Die Person auslachen
 > Ruhige Körpersprache und klare Worte verringern Aggression.
 
@@ -658,9 +658,9 @@ Nach dem Kommunikationsmodell von Schulz von Thun hat jede Nachricht vier Seiten
 
 [k083]
 „Ich-Botschaften“ (z. B. „So kann ich Sie nicht hereinlassen“) helfen, weil sie:
-- Dem anderen die Schuld geben
+- Dem anderen auf höfliche Weise die Schuld geben, damit er sich verantwortlich fühlt
 * Die eigene Sicht ausdrücken, ohne den anderen anzugreifen
-- Jedes Gespräch beenden
+- Jedes Gespräch schnell beenden, damit kein Konflikt entstehen kann
 - Befehle sind
 > „Du-Botschaften“ werden oft als Vorwurf verstanden.
 
@@ -699,9 +699,9 @@ Im Umgang mit alkoholisierten Personen sollte man:
 [k088]
 Bei Panik auf einer Großveranstaltung sollten Sicherheitskräfte:
 * Kurze, klare Anweisungen geben und Fluchtwege freihalten
-- Alle Ausgänge verschließen
+- Alle Ausgänge verschließen, damit die Menge nicht unkontrolliert hinausdrängt
 - Weglaufen
-- Das Licht ausschalten
+- Das Licht ausschalten, damit die Menschen stehen bleiben und sich beruhigen
 > Crowd-Management setzt auf ruhiges, sichtbares Personal und klare Beschilderung.
 
 [k089]
@@ -714,58 +714,58 @@ Einer Person wegen ihrer ethnischen Herkunft den Einlass zu verweigern, verstö�
 
 [k090]
 Ein Gast beschwert sich. Die beste Reaktion ist:
-- Ihn ignorieren
+- Ihn ignorieren, bis er sich beruhigt hat und von selbst wieder geht
 * Höflich zuhören, das Anliegen dokumentieren und weiterleiten
-- Laut streiten
-- Ihn sofort des Hauses verweisen
+- Laut mit dem Gast streiten, bis er zugibt, dass er im Unrecht ist
+- Ihn sofort des Hauses verweisen, um jede weitere Diskussion zu vermeiden
 > Professionelles Verhalten schützt den Ruf des Auftraggebers.
 
 [k091]
 Eine Überfallmeldeanlage dient hauptsächlich dazu:
-- Rauch zu erkennen
+- Rauch zu erkennen und einen Brand an die Feuerwehr zu melden
 * Bei einem Überfall oder Angriff still Hilfe anzufordern
-- Türen automatisch zu öffnen
-- Arbeitszeiten zu erfassen
+- Türen für eintreffende Rettungskräfte automatisch zu öffnen
+- Die Arbeitszeiten der Beschäftigten am Eingangsterminal zu erfassen
 > Einbruchmeldeanlagen erkennen Einbrüche; Überfallmeldeanlagen werden von Personen ausgelöst.
 
 [k092]
 Was ist der Hauptunterschied zwischen mechanischer und elektronischer Sicherung?
 * Mechanik verhindert oder verzögert das Eindringen; Elektronik erkennt und meldet
-- Es gibt keinen Unterschied
-- Elektronik verhindert immer das Eindringen
+- Es gibt keinen echten Unterschied, da beide Arten Einbruchsversuche nur nachträglich dokumentieren
+- Elektronik verhindert immer das Eindringen, während Mechanik es nur erkennt und aufzeichnet
 - Mechanik sendet Alarme
 > Wirksamer Schutz kombiniert beides mit einer organisierten Intervention.
 
 [k093]
 Ein Passiv-Infrarot-Bewegungsmelder (PIR) reagiert auf:
-- Geräusche
+- Geräusche ab einer bestimmten Lautstärke, etwa Glasbruch
 * Veränderungen der Wärmestrahlung im Erfassungsbereich
-- Lichtschalter
-- WLAN-Signale
+- Das Betätigen von Lichtschaltern irgendwo im überwachten Raum
+- WLAN-Signale von Handys, die durch den Raum bewegt werden
 > PIR-Melder sind in Einbruchmeldeanlagen weit verbreitet.
 
 [k094]
 Videoanlagen (CCTV) dienen hauptsächlich:
-- Dem Heizen von Gebäuden
+- Dem Heizen von Gebäuden durch Messen der Raumtemperatur
 * Der Abschreckung, Beobachtung und Beweissicherung
-- Dem Öffnen von Toren
-- Dem Zählen von Geld
+- Dem automatischen Öffnen von Toren bei herannahenden Fahrzeugen
+- Dem automatischen Zählen von Geld in der Geldbearbeitung
 > Für die Videoüberwachung gelten die Datenschutzvorschriften.
 
 [k095]
 Eine Zutrittskontrolle kann beruhen auf:
 - Nur dem Wetter
 * Wissen (PIN), Besitz (Karte) oder Biometrie (Fingerabdruck)
-- Der Laune der Wachperson
-- Nur der Uhrzeit
+- Dem persönlichen Eindruck der Wachperson von Aussehen und Kleidung des Besuchers
+- Nur der Uhrzeit, wobei alle Türen während der Geschäftszeiten offen sind
 > Die Kombination zweier Merkmale erhöht die Sicherheit.
 
 [k096]
 Flucht- und Rettungswege müssen:
-- Als Lagerfläche genutzt werden
+- Als Lagerfläche genutzt werden, wenn kein anderer Raum frei ist
 * Jederzeit frei und benutzbar gehalten werden
 - Nachts verschlossen werden, wenn Personen im Gebäude sind
-- Bei Veranstaltungen versperrt werden
+- Bei Veranstaltungen zur Einlasskontrolle versperrt werden
 > Versperrte Fluchtwege können im Notfall tödlich sein.
 
 [k097]
@@ -786,16 +786,1216 @@ Kontrollgänge (Route und Zeit) werden in der Regel dokumentiert mit:
 
 [k099]
 Dem Sicherheitsdienst anvertraute Schlüssel müssen:
-- An Freunde verliehen werden
+- An Freunde oder Familienangehörige verliehen werden, aber nur, wenn diese als vertrauenswürdig bekannt sind
 * Sorgfältig verwaltet und dokumentiert werden; ein Verlust ist sofort zu melden
-- Der Einfachheit halber nachgemacht werden
+- Der Einfachheit halber nachgemacht werden, damit jede Wachperson der Schicht einen eigenen Satz hat
 - Im Auto liegen bleiben
 > Verlorene Schlüssel können teure Schließanlagenwechsel nötig machen.
 
 [k100]
 Die Dienstanweisung für eine Wachperson:
-- Ist freiwillige Lektüre
+- Ist freiwillige Lektüre, die die Wachperson vor Ort nach eigenem Ermessen befolgen kann
 * Legt die Aufgaben am Einsatzort fest; Abweichungen nur nach Rücksprache
-- Wird von der Wachperson selbst geschrieben
+- Wird von der Wachperson zu Beginn jedes neuen Einsatzes selbst geschrieben
 - Ersetzt das Gesetz
 > Sie gibt nie mehr Rechte, als das Gesetz erlaubt.
+
+[k101]
+Welchen Grundsatz müssen Bewachungspersonen nach § 34a Abs. 5 GewO bei der Inanspruchnahme von Notwehr-, Notstands- oder Selbsthilferechten besonders beachten?
+- Den Grundsatz der größtmöglichen Wirksamkeit
+* Den Grundsatz der Erforderlichkeit
+- Den Grundsatz der wirksamen Abschreckung
+- Das Opportunitätsprinzip (Ermessen)
+> § 34a Abs. 5 GewO beschränkt das Bewachungspersonal auf Jedermannsrechte und vertraglich übertragene Selbsthilferechte; bei deren Ausübung ist der Grundsatz der Erforderlichkeit zu beachten.
+
+[k102]
+Wer führt das bundesweite Bewacherregister?
+- Die örtliche IHK
+* Das Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)
+- Das Bundesamt für Verfassungsschutz
+- Das Bundeskriminalamt (BKA)
+> Das Bewacherregister (§ 11b GewO) ist seit dem 1. Juni 2019 in Betrieb. Gewerbebehörden, Bewachungsunternehmen und IHKs übermitteln dorthin Daten.
+
+[k103]
+Was muss geschehen, bevor ein Bewachungsunternehmen eine neue Wachperson einsetzen darf?
+- Die Wachperson muss dem Auftraggeber lediglich ein polizeiliches Führungszeugnis zeigen, das nicht älter als drei Monate sein darf
+* Das Unternehmen meldet die Wachperson über das Bewacherregister an, und die Gewerbebehörde prüft ihre Zuverlässigkeit
+- Eine einwöchige Probeschicht genügt
+- Die IHK muss eine Arbeitserlaubnis ausstellen
+> Der Gewerbetreibende darf nur zuverlässige Wachpersonen beschäftigen; die Behörde prüft die Zuverlässigkeit nach der Anmeldung über das Bewacherregister (§ 34a Abs. 1a GewO).
+
+[k104]
+Wie viel Zeit darf höchstens vergehen, bis die Behörde die Zuverlässigkeit von Gewerbetreibenden und Wachpersonen erneut überprüft?
+- Ein Jahr, gerechnet ab dem Jahrestag der Anmeldung
+- Drei Jahre, gerechnet ab der letzten Prüfung
+* Fünf Jahre
+- Gar keine, die Zuverlässigkeit wird nur einmal zu Beginn geprüft
+> Nach § 34a GewO überprüft die Behörde die Zuverlässigkeit in regelmäßigen Abständen, spätestens nach Ablauf von fünf Jahren.
+
+[k105]
+Die Zuverlässigkeitsprüfung im Bewachungsgewerbe umfasst in der Regel eine Abfrage bei:
+- Dem Kraftfahrt-Bundesamt zur Prüfung des Fahreignungsregisters in Flensburg
+- Der Krankenkasse der Person zur Prüfung der gesundheitlichen Eignung
+* Der Landesbehörde für Verfassungsschutz
+- Der Bundesagentur für Arbeit
+> Neben der Auskunft aus dem Bundeszentralregister und einer Stellungnahme der Polizei fragt die Behörde regelmäßig beim Verfassungsschutz an (§ 34a Abs. 1 GewO).
+
+[k106]
+Wie viele Unterrichtseinheiten umfasst die Unterrichtung für Wachpersonen bei der IHK?
+- 8 Unterrichtseinheiten
+* 40 Unterrichtseinheiten
+- 80 Unterrichtseinheiten
+- 120 Unterrichtseinheiten
+> Die Unterrichtung genügt für einfache Bewachungstätigkeiten; bestimmte Tätigkeiten erfordern die Sachkundeprüfung.
+
+[k107]
+Eine Wachperson soll bei einer zugangsgeschützten Großveranstaltung die Leitung des Sicherheitsteams übernehmen. Welcher Qualifikationsnachweis ist erforderlich?
+- Nur ein Erste-Hilfe-Kurs
+- Keiner, da sie im Rahmen des Hausrechts des Veranstalters tätig wird
+- Die Unterrichtung genügt
+* Die bestandene Sachkundeprüfung
+> Nach § 34a Abs. 1a GewO ist für die Bewachung zugangsgeschützter Großveranstaltungen in leitender Funktion die Sachkundeprüfung erforderlich.
+
+[k108]
+Eine Wachperson soll als Ladendetektiv in einem Kaufhaus arbeiten. Welchen Nachweis verlangt § 34a Abs. 1a GewO mindestens?
+- Eine abgeschlossene Ausbildung im Einzelhandel
+- Den Unterrichtungsnachweis (40 Unterrichtseinheiten)
+* Die bestandene Sachkundeprüfung
+- Keinen, da das Kaufhaus Privatgelände ist
+> Der Schutz vor Ladendieben gehört zu den Tätigkeiten, für die die Sachkundeprüfung vorgeschrieben ist.
+
+[k109]
+Eine Wachperson hat die Ausbildung zur Fachkraft für Schutz und Sicherheit (IHK) abgeschlossen. Für die Einlasskontrolle in einer Diskothek:
+- Braucht sie zusätzlich nur die Unterrichtung
+- Benötigt sie vor jedem Einsatz in der Diskothek eine Sondergenehmigung der örtlichen Polizeidienststelle
+* Braucht sie keine Sachkundeprüfung, weil ihr Abschluss an deren Stelle anerkannt ist
+- Muss sie trotzdem die Sachkundeprüfung ablegen, weil Berufsabschlüsse nie anerkannt werden
+> Die BewachV erkennt bestimmte Abschlüsse, etwa Fachkraft für Schutz und Sicherheit oder Geprüfte Schutz- und Sicherheitskraft, anstelle der Sachkundeprüfung an.
+
+[k110]
+Türsteher einer Diskothek müssen nach der BewachV sichtbar tragen:
+- Ihre Wohnanschrift
+* Ein Schild mit ihrem Namen oder einer Kennnummer sowie dem Namen des Bewachungsunternehmens
+- Polizeiähnliche Dienstgradabzeichen
+- Keinerlei Kennzeichnung, damit ihre Privatsphäre und Sicherheit vor aggressiven Gästen geschützt sind
+> Die BewachV schreibt dieses Schild zusätzlich zum Dienstausweis vor, z. B. für Türsteher und bei Kontrollgängen im öffentlichen Verkehrsraum.
+
+[k111]
+Welche Angabe muss NICHT auf dem Dienstausweis einer Wachperson stehen?
+- Name und Vorname der Wachperson
+* Die private Wohnanschrift der Wachperson
+- Name und Anschrift des Bewachungsunternehmens
+- Ein Lichtbild der Wachperson
+> Der Dienstausweis enthält u. a. Name, Lichtbild und Unterschrift der Wachperson sowie Name und Anschrift des Gewerbetreibenden. Er muss sich deutlich von amtlichen Ausweisen unterscheiden.
+
+[k112]
+Nach der BewachV muss die Dienstanweisung ausdrücklich den Hinweis enthalten, dass die Wachperson:
+* Nicht die Eigenschaft und die Befugnisse eines Polizeivollzugsbeamten oder sonstigen Bediensteten einer Behörde besitzt
+- Bei jedem Auftrag eine Schusswaffe führen darf
+- Ihre Arbeitszeit selbst festlegen darf
+- Während des Dienstes auf dem Gelände des Auftraggebers die Befugnisse eines Hilfspolizeibeamten oder Ordnungsamtsmitarbeiters besitzt
+> Die Wachperson erhält vor Dienstantritt eine Abschrift der Dienstanweisung.
+
+[k113]
+Welche Mindestversicherungssumme für Personenschäden schreibt die BewachV für die Haftpflichtversicherung eines Bewachungsunternehmens vor?
+- 15.000 Euro
+- 100.000 Euro
+- 250.000 Euro
+* 1.000.000 Euro
+> Weitere Mindestsummen gelten für Sachschäden (250.000 Euro), das Abhandenkommen bewachter Sachen (15.000 Euro) und reine Vermögensschäden (12.500 Euro).
+
+[k114]
+Ein Industrieunternehmen lässt sein Werksgelände durch eigene Angestellte bewachen (betriebseigener Werkschutz). Braucht es dafür eine Erlaubnis nach § 34a GewO?
+- Ja, aber nur, wenn die Mitarbeiter Dienstkleidung tragen
+- Ja, jede Bewachungstätigkeit ist erlaubnispflichtig, gleich ob sie eigenes oder fremdes Eigentum schützt
+* Nein, § 34a GewO erfasst nur die gewerbsmäßige Bewachung von Leben oder Eigentum fremder Personen
+- Nein, aber nur, solange das Unternehmen in seinem Werkschutz weniger als 50 eigene Beschäftigte einsetzt
+> Der betriebseigene Werkschutz ist kein Bewachungsgewerbe im Sinne des § 34a GewO; erlaubnispflichtig ist die gewerbsmäßige Bewachung für Dritte.
+
+[k115]
+Was ist KEINE Voraussetzung für die Erlaubnis nach § 34a GewO für den Gewerbetreibenden?
+* Mindestens fünf Jahre Berufserfahrung im Bewachungsgewerbe
+- Geordnete Vermögensverhältnisse (z. B. kein laufendes Insolvenzverfahren)
+- Zuverlässigkeit
+- Nachweis einer Haftpflichtversicherung mit den Mindestsummen der BewachV
+> Außerdem muss der Antragsteller die Sachkundeprüfung bestanden haben.
+
+[k116]
+Bei einem Kontrollgang in einer öffentlichen Fußgängerzone hält sich eine lärmende Gruppe Jugendlicher auf. Darf die Wachperson einen Platzverweis erteilen?
+* Nein, ein Platzverweis im öffentlichen Raum ist eine polizeiliche Maßnahme; die Wachperson kann nur bitten und ggf. die Polizei verständigen
+- Ja, jede Wachperson darf im öffentlichen Raum Platzverweise erteilen
+- Ja, wenn der Auftraggeber es verlangt
+- Ja, aber erst ab 22 Uhr
+> Das Hausrecht gilt nur auf dem Gelände des Auftraggebers; im öffentlichen Raum haben private Sicherheitskräfte keine hoheitlichen Befugnisse.
+
+[k117]
+Das Schutzgut „öffentliche Sicherheit“ im Polizei- und Ordnungsrecht umfasst:
+- Nur das Eigentum des Staates
+* Die Unversehrtheit der Rechtsordnung, die Individualrechte und -rechtsgüter sowie den Bestand des Staates und seiner Einrichtungen
+- Nur Anstand und gute Sitten
+- Nur die Interessen von Unternehmen
+> Die „öffentliche Ordnung“ bezeichnet dagegen die ungeschriebenen Regeln für das Zusammenleben.
+
+[k118]
+Eine Privatperson, der durch oder aufgrund eines Gesetzes hoheitliche Befugnisse übertragen wurden, bezeichnet man als:
+- Hilfsperson des Hausrechtsinhabers
+* Beliehenen
+- Verrichtungsgehilfen
+- Besitzdiener
+> Gewöhnliche Wachpersonen sind keine Beliehenen; sie haben nur Jedermannsrechte und vertraglich übertragene Rechte.
+
+[k119]
+Im Rahmen der Gewaltenteilung gehört die Polizei zur:
+- Rechtsprechung des Bundesverfassungsgerichts
+- Rechtsprechenden Gewalt (Judikative)
+- Gesetzgebenden Gewalt (Legislative)
+* Vollziehenden Gewalt (Exekutive)
+> Die Legislative beschließt Gesetze, die Exekutive führt sie aus, die Judikative spricht Recht (Art. 20 Abs. 2 GG).
+
+[k120]
+Nach Art. 1 Abs. 3 GG binden die Grundrechte unmittelbar:
+- Nur den Bundespräsidenten
+- Nur private Unternehmen
+* Gesetzgebung, vollziehende Gewalt und Rechtsprechung
+- Nur die Bürger untereinander
+> Zwischen Privatpersonen, etwa Wachperson und Besucher, wirken die Grundrechte mittelbar, z. B. über die Auslegung des Zivilrechts.
+
+[k121]
+Welcher Artikel des Grundgesetzes schützt die Unverletzlichkeit der Wohnung?
+- Art. 5 GG
+- Art. 8 GG
+- Art. 12 GG
+* Art. 13 GG
+> Art. 5 GG schützt die Meinungsfreiheit, Art. 8 GG die Versammlungsfreiheit und Art. 12 GG die Berufsfreiheit.
+
+[k122]
+Das Recht auf Leben und körperliche Unversehrtheit sowie die Freiheit der Person garantiert:
+* Art. 2 Abs. 2 GG
+- Art. 3 GG
+- Art. 14 GG
+- Art. 20 GG
+> In diese Rechte darf nur aufgrund eines Gesetzes eingegriffen werden, z. B. bei der vorläufigen Festnahme nach § 127 StPO.
+
+[k123]
+Eine Wachperson verliert einen USB-Stick mit Besucherlisten. Innerhalb welcher Frist muss das Unternehmen diese Datenpanne grundsätzlich der Aufsichtsbehörde melden?
+- Innerhalb von 7 Tagen
+- Innerhalb von 30 Tagen
+* Unverzüglich und möglichst binnen 72 Stunden, nachdem sie bekannt wurde
+- Nur, wenn sich einer der betroffenen Besucher schriftlich beim Unternehmen beschwert
+> Art. 33 DSGVO; eine Meldung entfällt nur, wenn die Verletzung voraussichtlich nicht zu einem Risiko für die Betroffenen führt.
+
+[k124]
+Schwere Verstöße gegen die DSGVO können mit Geldbußen geahndet werden von bis zu:
+- 5.000 Euro
+- 50.000 Euro
+- 500.000 Euro oder 1 % des Jahresumsatzes in Deutschland, je nachdem, welcher Betrag niedriger ist
+* 20 Millionen Euro oder 4 % des weltweiten Jahresumsatzes, je nachdem, welcher Betrag höher ist
+> Die Geldbußen verhängen die Datenschutzaufsichtsbehörden (Art. 83 DSGVO).
+
+[k125]
+Nach § 38 BDSG muss ein Unternehmen jedenfalls dann einen Datenschutzbeauftragten benennen, wenn in der Regel mindestens wie viele Personen ständig mit der automatisierten Verarbeitung personenbezogener Daten beschäftigt sind?
+- 5
+* 20
+- 50
+- 250
+> Unabhängig von dieser Zahl kann sich die Pflicht auch aus Art. 37 DSGVO ergeben, etwa bei umfangreicher systematischer Überwachung von Personen.
+
+[k126]
+Aufzeichnungen aus der Videoanlage eines Auftraggebers sind zu löschen:
+- Nach genau einem Jahr
+- Nie, da sie später nützlich sein könnten
+* Unverzüglich, sobald sie für den Zweck nicht mehr erforderlich sind oder schutzwürdige Interessen der Betroffenen überwiegen
+- Erst wenn Polizei oder Staatsanwaltschaft schriftlich bestätigt haben, dass die Aufnahmen nicht mehr als Beweismittel benötigt werden
+> Das folgt aus dem Grundsatz der Speicherbegrenzung (Art. 5 Abs. 1 Buchst. e DSGVO) und dem Recht auf Löschung (Art. 17 DSGVO).
+
+[k127]
+Welche Daten gehören zu den besonderen Kategorien personenbezogener Daten nach Art. 9 DSGVO?
+* Gesundheitsdaten, z. B. aus einem Erste-Hilfe-Bericht
+- Das Kennzeichen eines Firmenwagens aus dem Fuhrpark
+- Die Schuh- und Kleidergröße einer Person für die Dienstkleidung
+- Die Uhrzeit, zu der ein Besucher das Gebäude betreten hat
+> Die Verarbeitung besonderer Kategorien wie Gesundheitsdaten, religiöser Überzeugungen oder biometrischer Daten zur Identifizierung ist grundsätzlich untersagt und nur ausnahmsweise erlaubt.
+
+[k128]
+Ein Besucher hält die Videoüberwachung eines Unternehmens für datenschutzwidrig. Wo kann er sich beschweren?
+- Bei der IHK, die die Bewachungsunternehmen ihres Bezirks beaufsichtigt und deren Datenschutz kontrolliert
+- Beim Amtsgericht am Sitz des Sicherheitsunternehmens
+- Beim Gewerbeamt
+* Bei der Datenschutzaufsichtsbehörde, z. B. der oder dem Landesbeauftragten für den Datenschutz
+> Jede betroffene Person hat das Recht auf Beschwerde bei einer Aufsichtsbehörde (Art. 77 DSGVO).
+
+[k129]
+Nach der DSGVO ist die Verarbeitung personenbezogener Daten nur rechtmäßig, wenn:
+- Die Daten nur auf Papier gespeichert werden
+- Die betroffene Person nicht informiert wird
+* Mindestens eine Rechtsgrundlage nach Art. 6 DSGVO vorliegt, z. B. Einwilligung, Vertragserfüllung oder berechtigtes Interesse
+- Das Unternehmen mehr als zwanzig Beschäftigte hat, einen Datenschutzbeauftragten bestellt und seine Anlagen bei der IHK angemeldet hat
+> Ohne Rechtsgrundlage ist die Verarbeitung unzulässig („Verbot mit Erlaubnisvorbehalt“).
+
+[k130]
+Jemand betreibt ein Bewachungsgewerbe ohne die erforderliche Erlaubnis nach § 34a GewO. Das ist:
+* Eine Ordnungswidrigkeit, die mit einer Geldbuße geahndet werden kann, bei beharrlicher Wiederholung sogar eine Straftat
+- Im ersten Jahr erlaubt
+- Nur eine zivilrechtliche Angelegenheit zwischen dem Unternehmen und seinen Kunden, ohne Bußgeld oder andere staatliche Sanktion
+- Zulässig, wenn die Kunden einverstanden sind
+> Die Behörde kann zudem die Fortsetzung des Betriebs verhindern (§ 15 Abs. 2 GewO).
+
+[k131]
+Eine Wachperson verletzt nach § 228 BGB einen angreifenden Hund. Wann muss sie trotzdem Schadensersatz leisten?
+* Wenn sie die Gefahr verschuldet hat, z. B. indem sie den Hund gereizt hat
+- Nur, wenn der Halter anwesend war
+- Immer, weil der Hund fremdes Eigentum ist und der Halter entschädigt werden muss
+- Nie, weil § 228 BGB jede Haftung ausschließt, selbst wenn sie den Hund gereizt hat
+> Nach § 228 Satz 2 BGB ist zum Schadensersatz verpflichtet, wer die Gefahr verschuldet hat.
+
+[k132]
+Ein Mann hetzt seinen Hund gezielt auf eine Wachperson. Bei der Abwehr des Hundes handelt die Wachperson in:
+- Aggressivem Notstand nach § 904 BGB mit Ersatzpflicht gegenüber dem Halter
+- Selbsthilfe nach § 229 BGB
+* Notwehr, weil der Hund als Werkzeug eines menschlichen Angriffs eingesetzt wird
+- Keiner Rechtfertigung, da Tiere nicht angreifen können
+> Greift ein Tier dagegen von sich aus an, gilt der defensive Notstand nach § 228 BGB.
+
+[k133]
+Nach § 90a BGB sind Tiere:
+* Keine Sachen; die für Sachen geltenden Vorschriften sind aber entsprechend anzuwenden, soweit nichts anderes bestimmt ist
+- Juristische Personen
+- Kraft Gesetzes herrenlos
+- In jeder Hinsicht gewöhnliche Sachen, die nur wie sonstiges Eigentum und nicht durch besondere Tierschutzgesetze geschützt sind
+> Tiere werden daher etwa bei § 228 BGB wie Sachen behandelt, sind aber durch besondere Gesetze geschützt.
+
+[k134]
+Eine Wachperson nimmt irrtümlich an, die Voraussetzungen der Selbsthilfe lägen vor, und hält eine unbeteiligte Person fest. Nach § 231 BGB:
+- Ist sie durch das Hausrecht des Auftraggebers geschützt, solange sie dabei im Dienst gehandelt hat
+- Haftet sie nur bei Vorsatz
+* Ist sie zum Schadensersatz verpflichtet, auch wenn der Irrtum nicht auf Fahrlässigkeit beruht
+- Haftet sie nicht, weil sie gutgläubig und auf ausdrückliche Anweisung des Auftraggebers gehandelt hat
+> Selbsthilfe ist riskant: Wer sich über ihre Voraussetzungen irrt, haftet verschuldensunabhängig.
+
+[k135]
+Welche Maßnahme gehört NICHT zu den nach § 229 BGB zulässigen Selbsthilfehandlungen?
+- Wegnahme, Zerstörung oder Beschädigung einer Sache
+- Festnahme des Verpflichteten, der der Flucht verdächtig ist
+- Beseitigung des Widerstands des Verpflichteten gegen eine Handlung, die er zu dulden hat
+* Verhängung einer Geldbuße gegen den Verpflichteten
+> Selbsthilfe dient nur der Sicherung eines Anspruchs, niemals der Bestrafung.
+
+[k136]
+Ein Gast im Hotelrestaurant will ohne Bezahlung einer Rechnung über 80 Euro gehen. Er verweigert seine Personalien, die Polizei ist nicht rechtzeitig erreichbar. Was darf die für das Hotel tätige Wachperson nach § 229 BGB?
+- Seine Geldbörse nehmen und das Geld als Bezahlung behalten
+- Nichts, da Zahlungsansprüche nie durch Selbsthilfe gesichert werden dürfen
+* Den Gast mit dem erforderlichen Mindestmaß an Gewalt bis zum Eintreffen der Polizei festhalten
+- Ihn im Keller einschließen, bis er zahlt
+> Selbsthilfe sichert den Anspruch nur; der Festgenommene ist unverzüglich den Behörden zu übergeben (§ 230 BGB). Geld darf nicht als Bezahlung einbehalten werden.
+
+[k137]
+Ein Fremder parkt unerlaubt auf einem privaten Firmenparkplatz und blockiert die Einfahrt. Aus Sicht des Besitzers ist das:
+- Nur ein Verstoß gegen die Straßenverkehrs-Ordnung, für den die Polizei zuständig ist
+- Ein Diebstahl des Parkplatzes
+- Eine zulässige Nutzung des öffentlichen Raums
+* Verbotene Eigenmacht (§ 858 BGB)
+> Der Besitzer kann sich nach § 859 BGB dagegen wehren, etwa indem er das Fahrzeug – verhältnismäßig – abschleppen lässt.
+
+[k138]
+Wird dem Besitzer eines Grundstücks der Besitz durch verbotene Eigenmacht entzogen, darf er nach § 859 Abs. 3 BGB:
+- Verlangen, dass die Polizei den Täter spätestens binnen 24 Stunden von seinem Grundstück räumt
+* Sich sofort nach der Entziehung des Besitzes durch Entsetzung des Täters wieder bemächtigen
+- Ihn nur mit Gerichtsbeschluss zurückerlangen
+- Ihn jederzeit innerhalb eines Jahres nach dem Besitzverlust ohne Gerichtsbeschluss zurückholen
+> Auch bei Grundstücken muss die Besitzkehr also unmittelbar nach der Tat erfolgen.
+
+[k139]
+Ein Dieb fährt mit einem gestohlenen Fahrrad davon. Rechtlich ist er:
+* Besitzer, aber nicht Eigentümer
+- Weder Eigentümer noch Besitzer
+- Eigentümer, aber nicht Besitzer
+- Eigentümer und Besitzer
+> Besitz ist die tatsächliche Sachherrschaft; das Eigentum bleibt beim Bestohlenen. Gestohlene Sachen kann grundsätzlich auch ein gutgläubiger Dritter nicht erwerben (§ 935 BGB).
+
+[k140]
+Ein Unternehmen mietet Büroräume. Wer ist unmittelbarer Besitzer dieser Räume und Inhaber des Hausrechts?
+* Der Mieter (das Unternehmen); der Vermieter ist nur mittelbarer Besitzer
+- Der Vermieter, weil er Eigentümer ist
+- Das Sicherheitsunternehmen, weil es das Gebäude bewacht
+- Die Gemeinde
+> Das Hausrecht an gemieteten Räumen steht dem Mieter zu, der die Ausübung einem Sicherheitsunternehmen übertragen kann.
+
+[k141]
+Wer ist nach § 855 BGB Besitzdiener?
+- Wer sich eine Sache ausleiht
+- Der Eigentümer einer vermieteten Wohnung
+- Wer eine verlorene Sache gefunden hat
+* Wer die tatsächliche Gewalt über eine Sache für einen anderen in dessen Haushalt, Erwerbsgeschäft oder einem ähnlichen Verhältnis ausübt und dessen Weisungen folgen muss
+> Besitzer ist nur der Geschäftsherr; der Besitzdiener darf den Besitz aber nach § 860 BGB verteidigen.
+
+[k142]
+Eine Wachperson erkennt in einem Café den Mann wieder, der am Vortag einen Laptop aus dem bewachten Objekt gestohlen hat. Darf sie den Laptop nach § 859 Abs. 2 BGB mit Gewalt zurücknehmen?
+- Ja, weil der Auftraggeber Eigentümer bleibt
+- Ja, die Besitzkehr ist bis zu einer Woche nach dem Diebstahl möglich, sofern die Sache eindeutig erkannt wird
+* Nein, der Täter ist nicht mehr auf frischer Tat betroffen oder verfolgt; sie sollte die Polizei rufen
+- Ja, wenn sie absolut sicher ist, dass es derselbe Laptop ist, etwa wegen einer sichtbaren Seriennummer
+> Die Besitzkehr setzt voraus, dass der Täter auf frischer Tat betroffen oder unmittelbar verfolgt wird.
+
+[k143]
+Nach § 965 BGB muss ein Finder den Fund nicht bei der Behörde anzeigen, wenn die Sache nicht mehr wert ist als:
+* 10 Euro
+- 50 Euro
+- 100 Euro
+- 500 Euro
+> Wertvollere Funde sind unverzüglich dem Verlierer oder Eigentümer bzw. – wenn diese unbekannt sind – der zuständigen Behörde anzuzeigen.
+
+[k144]
+Wie hoch ist der gesetzliche Finderlohn nach § 971 BGB für eine Sache im Wert von bis zu 500 Euro?
+- 1 % des Wertes
+- 3 % des Wertes
+* 5 % des Wertes
+- 10 % des Wertes
+> Vom Mehrwert über 500 Euro beträgt der Finderlohn 3 %, bei Tieren 3 % des Wertes.
+
+[k145]
+Ein Achtjähriger fährt mit dem Fahrrad plötzlich auf die Straße und stößt mit einem fahrenden Auto zusammen, das dabei beschädigt wird. Nach § 828 Abs. 2 BGB ist das Kind:
+- Voll verantwortlich
+- Nur verantwortlich, wenn die Eltern zustimmen, den Schaden an seiner Stelle zu bezahlen
+- Zur Hälfte verantwortlich, weil beide Beteiligten gleichermaßen zum Unfall beigetragen haben
+* Nicht verantwortlich, sofern es den Schaden nicht vorsätzlich herbeigeführt hat
+> Wer das siebente, aber nicht das zehnte Lebensjahr vollendet hat, haftet für Unfälle mit einem Kraftfahrzeug, einer Schienenbahn oder einer Schwebebahn nur bei Vorsatz.
+
+[k146]
+Eine Wachperson verletzt rechtswidrig einen Besucher. Neben den Behandlungskosten kann dieser nach § 253 Abs. 2 BGB verlangen:
+- Lebenslang freien Eintritt in die Einrichtung oder auf das Gelände, wo die Verletzung geschah
+- Nur eine Entschuldigung
+- Eine Geldstrafe, die nicht an die Staatskasse, sondern an ihn persönlich gezahlt wird
+* Eine billige Entschädigung in Geld für den immateriellen Schaden (Schmerzensgeld)
+> Schmerzensgeld gibt es bei Verletzung des Körpers, der Gesundheit, der Freiheit oder der sexuellen Selbstbestimmung.
+
+[k147]
+Wer nach § 249 BGB zum Schadensersatz verpflichtet ist, muss grundsätzlich:
+- Eine Geldbuße an den Staat zahlen
+- Den doppelten Wert des Schadens zahlen, damit die geschädigte Person vollständig entschädigt wird
+- Sich lediglich schriftlich entschuldigen
+* Den Zustand herstellen, der bestehen würde, wenn das schädigende Ereignis nicht eingetreten wäre
+> Statt der Herstellung kann der Geschädigte häufig den dafür erforderlichen Geldbetrag verlangen, z. B. für eine Reparatur.
+
+[k148]
+Ein Besucher missachtet deutliche Warnschilder, klettert über eine Absperrung und verletzt sich. Welche Folge hat sein Mitverschulden nach § 254 BGB?
+- Es schließt jeden Anspruch stets aus, weil er die Warnschilder selbst missachtet hat
+* Es mindert den Anspruch entsprechend seinem Anteil an der Verursachung des Schadens
+- Es ist unbeachtlich
+- Es verdoppelt den Anspruch, weil der Betreiber die Absperrung besser hätte sichern müssen
+> Das Mitverschulden des Geschädigten wird gegen das Verschulden des Schädigers abgewogen.
+
+[k149]
+Eine Wachperson lässt fahrlässig das Lagertor eines Kunden offen, Waren werden gestohlen. Für dieses Verschulden haftet das Sicherheitsunternehmen dem Kunden aus dem Vertrag:
+* Wie für eigenes Verschulden, ohne Entlastungsmöglichkeit (§ 278 BGB)
+- Nur, wenn die Wachperson vorsätzlich handelte und der Kunde dies vor Gericht beweisen kann
+- Nur, wenn der Geschäftsführer zum Zeitpunkt des Vorfalls persönlich vor Ort war
+- Gar nicht, weil nur die Wachperson persönlich für ihre eigene Fahrlässigkeit haftet
+> Im Rahmen des Vertrags ist die Wachperson Erfüllungsgehilfe des Unternehmens. Bei der unerlaubten Handlung gilt dagegen § 831 BGB mit Entlastungsmöglichkeit.
+
+[k150]
+Eine Wachperson beschädigt im Dienst durch leichteste Fahrlässigkeit ein Firmenfahrzeug. Nach den Grundsätzen des innerbetrieblichen Schadensausgleichs haftet sie in der Regel:
+- Nur, wenn der Schaden 1.000 Euro übersteigt
+- Voll
+- Zur Hälfte
+* Gar nicht
+> Bei mittlerer Fahrlässigkeit wird der Schaden meist geteilt, bei grober Fahrlässigkeit und Vorsatz haftet der Arbeitnehmer in der Regel voll.
+
+[k151]
+Der Hund einer Privatperson beißt einen Passanten. Nach § 833 BGB haftet der Halter:
+- Nur, wenn der Hund schon einmal gebissen hat
+- Nur, wenn er den Biss selbst verursacht oder provoziert hat
+* Grundsätzlich auch ohne eigenes Verschulden
+- Für Tiere nie
+> Bei Haustieren, die dem Beruf, der Erwerbstätigkeit oder dem Unterhalt des Halters dienen, kann er sich durch den Nachweis ordnungsgemäßer Beaufsichtigung entlasten (§ 833 Satz 2 BGB).
+
+[k152]
+Die Ausübung eines Rechts ist nach § 226 BGB unzulässig, wenn:
+- Sie den Berechtigten Geld kostet
+- Sie nachts erfolgt
+* Sie nur den Zweck haben kann, einem anderen Schaden zuzufügen
+- Sie durch ein Sicherheitsunternehmen erfolgt
+> Dieses Schikaneverbot begrenzt auch die Ausübung des Hausrechts.
+
+[k153]
+Ein Anspruch ist nach § 194 BGB:
+- Die tatsächliche Herrschaft über eine Sache, wie sie der Besitzer ausübt
+- Eine Erlaubnis des Gewerbeamts, die zur Ausübung eines bestimmten Gewerbes berechtigt
+* Das Recht, von einem anderen ein Tun oder Unterlassen zu verlangen
+- Ein Strafantrag, der gegen einen Täter bei der Polizei gestellt wird
+> Die Selbsthilfe nach § 229 BGB dient der Sicherung eines solchen Anspruchs.
+
+[k154]
+Ein 15-Jähriger kauft mit Taschengeld, das ihm zur freien Verfügung überlassen wurde, eine Handyhülle für 15 Euro. Der Vertrag ist:
+- Nichtig, weil er minderjährig ist
+* Nach § 110 BGB von Anfang an wirksam
+- Erst nach gerichtlicher Genehmigung wirksam
+- Bis zur Volljährigkeit schwebend unwirksam
+> Der „Taschengeldparagraf“ erfasst Verträge, die der Minderjährige mit Mitteln bewirkt, die ihm zu diesem Zweck oder zur freien Verfügung überlassen wurden.
+
+[k155]
+Nach § 903 BGB kann der Eigentümer einer Sache:
+- Sie niemals an andere übertragen
+- Sie nur mit behördlicher Zustimmung nutzen
+- Sie nur während der Geschäftszeiten nutzen
+* Mit ihr nach Belieben verfahren und andere von jeder Einwirkung ausschließen, soweit nicht das Gesetz oder Rechte Dritter entgegenstehen
+> Das Hausrecht ist Ausdruck dieser Befugnisse des Eigentümers bzw. Besitzers.
+
+[k156]
+Nach § 823 Abs. 2 BGB haftet auch auf Schadensersatz, wer schuldhaft verstößt gegen:
+* Ein Gesetz, das den Schutz eines anderen bezweckt, z. B. eine Vorschrift des StGB
+- Eine betriebliche Gewohnheit
+- Eine allgemeine Höflichkeitsregel, die in der Region üblich ist, in der der Schaden entstand
+- Eine unverbindliche Empfehlung eines Branchenverbands, etwa einen Verhaltenskodex der Branche
+> Beispiel: Wer als Wachperson eine Körperverletzung (§ 223 StGB) begeht, haftet nach § 823 Abs. 1 und Abs. 2 BGB.
+
+[k157]
+Um zu verhindern, dass ein Brand auf das Lager des Auftraggebers übergreift, bricht eine Wachperson das Tor des Nachbargrundstücks auf, um an einen dortigen Hydranten zu gelangen. Welche Vorschrift rechtfertigt die Beschädigung des Tores?
+* § 904 BGB (aggressiver Notstand); der Nachbar kann Schadensersatz verlangen
+- § 228 BGB, weil die Gefahr für das Lager des Auftraggebers vom Tor des Nachbarn ausgeht
+- § 859 BGB (Besitzwehr), weil der Besitz des Auftraggebers am Lager bedroht ist
+- § 227 BGB (Notwehr)
+> Beim aggressiven Notstand wird auf eine fremde Sache eingewirkt, von der die Gefahr nicht ausgeht.
+
+[k158]
+Ein Angriff ist im Sinne der Notwehr „gegenwärtig“, wenn er:
+- Bereits vollständig beendet ist
+* Unmittelbar bevorsteht, gerade stattfindet oder noch fortdauert
+- Irgendwann in der Zukunft geschehen könnte
+- Gestern stattgefunden hat
+> Die Abwehr eines vergangenen Angriffs ist Rache, keine Notwehr.
+
+[k159]
+Eine stark betrunkene Person unterschreibt im Zustand vorübergehender Störung der Geistestätigkeit einen Vertrag. Ihre Willenserklärung ist nach § 105 Abs. 2 BGB:
+* Nichtig
+- Voll wirksam
+- Wirksam, wenn ein Zeuge anwesend war
+- Wirksam, sobald die Person wieder nüchtern ist
+> Willenserklärungen, die im Zustand der Bewusstlosigkeit oder vorübergehender Störung der Geistestätigkeit abgegeben werden, sind nichtig.
+
+[k160]
+Grobe Fahrlässigkeit bedeutet:
+- Auf Weisung eines Vorgesetzten handeln
+* Die erforderliche Sorgfalt in ungewöhnlich hohem Maße verletzen und nicht beachten, was jedem einleuchten muss
+- Jede kleine Unachtsamkeit
+- Bewusst einen Schaden herbeiführen wollen, also mit der direkten Absicht handeln, eine andere Person oder deren Eigentum zu schädigen
+> Beispiel: Eine Wachperson lässt den Generalschlüssel über Nacht in der Außentür stecken.
+
+[k161]
+Ein erkennbar stark betrunkener, schwankender Mann versucht, eine Wachperson zu schlagen; diese könnte leicht ausweichen. Was gilt für ihre Verteidigung?
+- Sie darf jedes Mittel ohne Einschränkung einsetzen, weil das Recht dem Unrecht nie zu weichen braucht, auch nicht gegenüber Betrunkenen
+- Sie muss sich zuerst schlagen lassen
+* Das Notwehrrecht ist eingeschränkt: Die Wachperson soll nach Möglichkeit ausweichen oder sich auf Schutzwehr beschränken
+- Notwehr gegen Betrunkene ist völlig ausgeschlossen
+> Gegenüber erkennbar schuldlos oder vermindert schuldhaft Handelnden, etwa Kindern oder stark Berauschten, ist die Notwehr durch das Merkmal der Gebotenheit eingeschränkt.
+
+[k162]
+Jemand stiehlt an einem Obststand einen Apfel im Wert von 50 Cent und rennt weg. Aufhalten könnte die Wachperson ihn nur mit einem lebensgefährlichen Schlag. Sie:
+- Darf zuschlagen, weil die Notwehr keine Güterabwägung kennt, auch nicht bei Sachen von ganz geringem Wert
+* Darf das nicht, weil ein krasses Missverhältnis zwischen geschütztem und verletztem Rechtsgut besteht
+- Darf zuschlagen, wenn der Dieb erwachsen ist
+- Muss einen Warnschuss abgeben
+> Notwehr verlangt zwar grundsätzlich keine Güterabwägung, ist aber bei einem krassen Missverhältnis nicht geboten.
+
+[k163]
+Eine Wachperson hält nachts einen harmlosen Passanten mit einem Handy in der Hand für einen bewaffneten Angreifer und schlägt ihn nieder. Man spricht von:
+- Notwehrexzess (§ 33 StGB), der wegen des Schreckens der Wachperson jede Strafbarkeit ausschließt
+- Rechtfertigendem Notstand
+* Putativnotwehr: keine Strafbarkeit wegen einer Vorsatztat, ggf. aber wegen Fahrlässigkeit
+- Rechtmäßiger Notwehr
+> Bei der Putativnotwehr nimmt der Täter irrig eine Notwehrlage an; war der Irrtum vermeidbar, kommt eine Strafbarkeit wegen Fahrlässigkeit in Betracht.
+
+[k164]
+Wer nach § 35 StGB eine rechtswidrige Tat begeht, um eine gegenwärtige Gefahr für Leben, Leib oder Freiheit von sich, einem Angehörigen oder einer anderen ihm nahestehenden Person abzuwenden:
+* Handelt ohne Schuld, obwohl die Tat rechtswidrig bleibt
+- Ist gerechtfertigt, die Tat ist also rechtmäßig
+- Handelt nur mit Zustimmung der Polizei rechtmäßig
+- Wird stets härter bestraft
+> Das gilt nicht, wenn ihm die Hinnahme der Gefahr zuzumuten war, etwa weil er sie selbst verursacht hat oder in einem besonderen Rechtsverhältnis steht (z. B. Feuerwehr).
+
+[k165]
+Ein Ladendieb wird auf frischer Tat ertappt. Er ist ein Nachbar der Wachperson, die seinen Namen und seine Anschrift kennt; Fluchtanzeichen gibt es nicht. Darf sie ihn nach § 127 Abs. 1 StPO festnehmen?
+- Ja, wenn der Filialleiter darauf besteht
+- Ja, aber nur für 24 Stunden
+- Ja, jeder auf frischer Tat ertappte Dieb darf festgenommen werden, auch wenn seine Identität bekannt ist
+* Nein, es fehlt ein Festnahmegrund, da seine Identität bekannt ist und keine Fluchtgefahr besteht
+> § 127 Abs. 1 StPO verlangt neben dem Betreffen auf frischer Tat Fluchtverdacht oder die Unmöglichkeit, die Identität sofort festzustellen.
+
+[k166]
+Ein auf frischer Tat ertappter Dieb versucht, sich bei einer rechtmäßigen vorläufigen Festnahme loszureißen. Welche Maßnahme ist grundsätzlich zulässig?
+- Ihn mit einem Messer bedrohen
+- Ihn zur Strafe für den Diebstahl schlagen
+* Ihn festhalten und, falls nötig, mit verhältnismäßiger Gewalt an der Flucht hindern
+- Ihn stundenlang mit Kabelbindern fesseln und allein lassen
+> Das Festnahmemittel muss erforderlich und verhältnismäßig sein; schwere Verletzungen oder Lebensgefahr dürfen zur bloßen Fluchtverhinderung nicht in Kauf genommen werden.
+
+[k167]
+Ein Ladendetektiv hat einen Ladendieb rechtmäßig festgehalten. Darf er die Kleidung des Mannes gegen dessen Willen nach weiterem Diebesgut durchsuchen?
+* Nein, eine Durchsuchung gegen den Willen des Betroffenen ist Sache der Polizei; er wartet auf deren Eintreffen
+- Ja, wenn die Hausordnung des Geschäfts dies vorsieht
+- Ja, § 127 StPO gibt jedem, der einen Verdächtigen rechtmäßig festnimmt, das Recht, dessen Kleidung nach weiterem Diebesgut zu durchsuchen
+- Ja, aber nur in Anwesenheit eines zweiten Mitarbeiters
+> Durchsuchungen nach §§ 102 ff. StPO sind den Strafverfolgungsbehörden vorbehalten. Private dürfen nur mit Einwilligung nachsehen, sofern nicht Notwehr – etwa wegen einer Waffe – vorliegt.
+
+[k168]
+Auf dem Heimweg findet eine Wachperson auf dem Gehweg ein Smartphone und beschließt, es zu behalten. Welche Straftat begeht sie?
+- Raub (§ 249 StGB)
+- Betrug (§ 263 StGB)
+* Unterschlagung (§ 246 StGB)
+- Diebstahl (§ 242 StGB)
+> Anders als beim Diebstahl ist keine Wegnahme erforderlich; es genügt, dass sich der Täter eine fremde bewegliche Sache, die er bereits in Händen hat, rechtswidrig zueignet.
+
+[k169]
+Ein Einbrecher bricht nachts die verschlossene Tür einer Lagerhalle auf und stiehlt Werkzeuge. Nach § 243 StGB liegt in der Regel vor:
+- Nur ein Hausfriedensbruch
+* Ein besonders schwerer Fall des Diebstahls
+- Nur ein einfacher Diebstahl
+- Eine Ordnungswidrigkeit
+> Das Einbrechen in ein Gebäude oder das Eindringen mit einem falschen Schlüssel ist ein Regelbeispiel des § 243 Abs. 1 Nr. 1 StGB.
+
+[k170]
+Ein Angreifer schlägt eine Wachperson mit einem Baseballschläger. Welche Tat liegt mindestens vor?
+- Nötigung (§ 240 StGB)
+- Einfache Körperverletzung (§ 223 StGB), weil ein Baseballschläger keine Waffe im Rechtssinne ist
+* Gefährliche Körperverletzung (§ 224 StGB), weil ein gefährliches Werkzeug benutzt wurde
+- Fahrlässige Körperverletzung (§ 229 StGB), weil der Angreifer niemanden schwer verletzen wollte
+> § 224 StGB erfasst auch die gemeinschaftliche Begehung mit einem anderen Beteiligten, den hinterlistigen Überfall und die lebensgefährdende Behandlung.
+
+[k171]
+Eine einfache Körperverletzung (§ 223 StGB) wird verfolgt:
+- Nur, wenn das Opfer minderjährig ist
+- Nie, da sie nur eine Ordnungswidrigkeit ist
+- Immer von Amts wegen, unabhängig vom Willen des Opfers, weil Körperverletzung nach deutschem Recht nie ein Antragsdelikt ist
+* Nur auf Strafantrag, es sei denn, die Staatsanwaltschaft bejaht ein besonderes öffentliches Interesse
+> Es handelt sich um ein relatives Antragsdelikt (§ 230 StGB).
+
+[k172]
+Eine Wachperson verbreitet wider besseres Wissen, ein Kollege bestehle den Auftraggeber. Das ist:
+- Nur eine Beleidigung (§ 185 StGB) des Kollegen
+- Fahrlässige Ehrverletzung
+* Verleumdung (§ 187 StGB)
+- Nötigung (§ 240 StGB)
+> Bei der üblen Nachrede (§ 186 StGB) ist die Tatsache nicht erweislich wahr; die Verleumdung setzt voraus, dass der Täter die Unwahrheit kennt.
+
+[k173]
+Um einen uneinsichtigen Besucher zu beeindrucken, gibt sich eine Wachperson als Polizist in Zivil aus. Das kann strafbar sein als:
+- Missbrauch von Notrufen und Nothilfemitteln (§ 145 StGB)
+* Amtsanmaßung (§ 132 StGB)
+- Unterlassene Hilfeleistung (§ 323c StGB)
+- Hausfriedensbruch (§ 123 StGB)
+> Wachpersonen dürfen nie den Eindruck erwecken, mit staatlicher Hoheitsgewalt zu handeln.
+
+[k174]
+Ist eine Privatperson – auch eine Wachperson – grundsätzlich verpflichtet, einen bereits begangenen Diebstahl bei der Polizei anzuzeigen?
+- Ja, aber nur innerhalb von 24 Stunden
+- Nein, Privatpersonen dürfen Straftaten nie anzeigen
+- Ja, jede Straftat muss bei Strafe angezeigt werden
+* Nein, eine allgemeine Anzeigepflicht besteht nicht; § 138 StGB verlangt nur die Anzeige bestimmter geplanter schwerer Straftaten, solange sie noch verhindert werden können
+> Vertragliche Pflichten gegenüber Arbeitgeber und Auftraggeber, etwa Meldepflichten aus der Dienstanweisung, bleiben unberührt.
+
+[k175]
+Seit 2017 stellt § 323c Abs. 2 StGB zusätzlich unter Strafe:
+* Eine Person zu behindern, die bei einem Unglücksfall oder einer Notlage Hilfe leistet oder leisten will
+- Als Zeuge eines Unfalls einem Sanitäter oder Polizisten den eigenen Namen und die Anschrift zu verweigern
+- Eine Unfallstelle aus der Ferne zu filmen
+- Keinen Verbandkasten mitzuführen
+> Schaulustige, die Rettungskräfte behindern, können daher bestraft werden.
+
+[k176]
+Eine Wachperson sieht, wie ein Eindringling Waren vom bewachten Gelände stiehlt, unternimmt aber bewusst nichts, weil sie den Auftraggeber nicht mag. Wie ist ihr Verhalten strafrechtlich zu beurteilen?
+- Nur als Ordnungswidrigkeit
+* Sie kann sich durch Unterlassen strafbar machen (§ 13 StGB), weil sie vertraglich den Schutz des Eigentums übernommen hat (Garantenstellung)
+- Straflos, weil nur aktives Tun bestraft wird und die Pflichten der Wachperson gegenüber dem Auftraggeber rein vertraglicher, nicht strafrechtlicher Natur sind
+- Nur als unterlassene Hilfeleistung
+> Ein Garant, der die Tat nicht verhindert, kann z. B. wegen Beihilfe zum Diebstahl durch Unterlassen bestraft werden.
+
+[k177]
+Wann ist der Versuch eines Vergehens strafbar?
+- Nur bei erwachsenen Tätern
+- Immer
+* Nur, wenn das Gesetz es ausdrücklich bestimmt
+- Nie
+> Der Versuch eines Verbrechens ist stets strafbar (§ 23 Abs. 1 StGB); beim Diebstahl ordnet z. B. § 242 Abs. 2 StGB die Strafbarkeit des Versuchs ausdrücklich an.
+
+[k178]
+Eine Wachperson lässt nachts absichtlich die Hintertür offen, damit ein Bekannter im Lager stehlen kann. Sie macht sich mindestens strafbar wegen:
+* Beihilfe zum Diebstahl (§ 27 StGB)
+- Nur Hausfriedensbruchs (§ 123 StGB)
+- Fahrlässigen Diebstahls (§ 242 StGB)
+- Nichts, weil sie selbst nichts weggenommen hat
+> Wer vorsätzlich einem anderen zu dessen vorsätzlicher rechtswidriger Tat Hilfe leistet, ist Gehilfe; je nach Tatbeitrag kommt auch Mittäterschaft in Betracht.
+
+[k179]
+Ein 19-jähriger Täter ist nach dem Jugendgerichtsgesetz (JGG):
+- Kind
+* Heranwachsender, auf den unter Umständen Jugendstrafrecht angewendet wird
+- Noch strafunmündig, da die Strafmündigkeit erst mit Vollendung des 21. Lebensjahres beginnt
+- Jugendlicher
+> Jugendliche sind 14 bis 17 Jahre alt, Heranwachsende 18 bis 20 Jahre.
+
+[k180]
+Jemand klettert ohne Eintrittskarte über einen Zaun auf ein Konzertgelände. Welche Straftat kommt neben dem Hausfriedensbruch in Betracht?
+- Nötigung (§ 240 StGB) der Ordner, die die Eintrittskarten kontrollieren sollen
+- Unterschlagung
+* Erschleichen von Leistungen (§ 265a StGB)
+- Betrug (§ 263 StGB) zulasten des Veranstalters, weil keine Eintrittskarte gekauft wurde
+> § 265a StGB erfasst u. a. das „Schwarzfahren“ und das Erschleichen des Zutritts zu Veranstaltungen in der Absicht, das Entgelt nicht zu entrichten.
+
+[k181]
+Welche Merkmale kennzeichnen den Betrug (§ 263 StGB)?
+* Täuschung, dadurch verursachter Irrtum, Vermögensverfügung und Vermögensschaden, verbunden mit Bereicherungsabsicht
+- Unbefugtes Betreten von Räumen
+- Drohung mit einem empfindlichen Übel
+- Gewalt gegen eine Person und Wegnahme einer fremden beweglichen Sache in der Absicht, sie sich rechtswidrig zuzueignen
+> Beispiel: Ein Gast bestellt im Restaurant, obwohl er von Anfang an nicht zahlen will (Zechbetrug).
+
+[k182]
+Eine Wachperson nimmt heimlich mit dem Smartphone ein privates Gespräch zweier Mitarbeiter im Pausenraum auf. Das kann strafbar sein als:
+* Verletzung der Vertraulichkeit des Wortes (§ 201 StGB)
+- Betrug
+- Verletzung des Briefgeheimnisses (§ 202 StGB)
+- Unterschlagung
+> Wer das nichtöffentlich gesprochene Wort eines anderen unbefugt aufnimmt, macht sich strafbar.
+
+[k183]
+Das Legalitätsprinzip im Strafverfahren bedeutet:
+- Privatpersonen müssen Straftaten selbst verfolgen
+- Gerichte werden nur auf Antrag des Opfers tätig
+- Sicherheitsunternehmen entscheiden, ob Straftaten angezeigt werden
+* Die Staatsanwaltschaft ist grundsätzlich verpflichtet, bei zureichenden tatsächlichen Anhaltspunkten wegen aller verfolgbaren Straftaten einzuschreiten
+> § 152 Abs. 2 StPO; auch die Polizei muss Straftaten erforschen (§ 163 StPO).
+
+[k184]
+Wo kann eine Strafanzeige erstattet werden?
+- Nur durch einen Rechtsanwalt
+- Nur schriftlich beim Amtsgericht, in dessen Bezirk die Tat begangen wurde, mit Unterschrift des Opfers
+- Nur bei der IHK
+* Bei der Staatsanwaltschaft, der Polizei oder dem Amtsgericht, mündlich oder schriftlich
+> § 158 Abs. 1 StPO. Ein Strafantrag muss dagegen schriftlich oder zu Protokoll gestellt werden (§ 158 Abs. 2 StPO).
+
+[k185]
+Ein Gast, gegen den der Hausrechtsinhaber ein Hausverbot für ein Fitnessstudio ausgesprochen hat, kommt wieder und weigert sich trotz Aufforderung der Wachperson zu gehen. Was darf die Wachperson tun?
+- Ihn bis zum nächsten Tag in der Umkleidekabine einschließen, bis der Hausrechtsinhaber über das weitere Vorgehen entscheiden kann
+- Sein Handy als Pfand einbehalten
+- Nichts, da Hausfriedensbruch keine Straftat ist
+* Ihn erneut zum Gehen auffordern und ihn bei Weigerung mit verhältnismäßigem Zwang hinausbegleiten oder die Polizei rufen
+> Der andauernde Hausfriedensbruch ist ein gegenwärtiger rechtswidriger Angriff auf das Hausrecht, gegen den Notwehr zulässig ist; es ist das mildeste wirksame Mittel zu wählen.
+
+[k186]
+Ein Dieb rennt mit gestohlenen Waren im Wert von 300 Euro aus einem Geschäft. Ist zur Rückgewinnung der Beute noch Notwehr (§ 32 StGB) möglich?
+* Ja, der Angriff auf das Eigentum dauert an, solange der Dieb die Beute noch nicht gesichert hat
+- Nein, der Angriff endete mit dem Verlassen des Geschäfts, sodass jetzt nur noch die Polizei eingreifen darf
+- Erst nachdem die Polizei telefonisch informiert wurde und der Wachperson das Eingreifen erlaubt hat
+- Nur, wenn der Dieb bewaffnet ist
+> Der Angriff bleibt gegenwärtig, solange er noch abgewehrt werden kann, etwa bei unmittelbarer Verfolgung.
+
+[k187]
+Fahrlässiges Handeln ist nach § 15 StGB strafbar:
+* Nur, wenn das Gesetz es ausdrücklich mit Strafe bedroht, z. B. die fahrlässige Körperverletzung (§ 229 StGB)
+- Nur bei Bewachungspersonal
+- Immer, genauso wie vorsätzliches Handeln, jedoch muss das Gericht die Strafe in jedem Fall um die Hälfte mildern
+- Nie
+> Ohne ausdrückliche Anordnung ist nur vorsätzliches Handeln strafbar.
+
+[k188]
+Ein abgewiesener Gast ruft dem Türsteher zu: „Ich komme wieder und bringe dich um!“ Welche Straftat kommt in Betracht?
+- Hausfriedensbruch
+- Nur Beleidigung
+- Raub
+* Bedrohung (§ 241 StGB)
+> § 241 StGB erfasst die Drohung mit bestimmten rechtswidrigen Taten gegen eine Person, insbesondere mit einem Verbrechen wie einer Tötung.
+
+[k189]
+Auf einem Parkplatz bricht eine Person zusammen. Um schnell den nächsten Defibrillator zu holen, fährt eine Wachperson ungefragt mit dem unverschlossenen Fahrrad eines Fremden los. Wie ist das zu beurteilen?
+* Gerechtfertigt durch Notstand nach § 34 StGB, weil die Rettung eines Lebens die kurze Benutzung des Fahrrads wesentlich überwiegt
+- Strafbar als unbefugter Gebrauch eines Fahrzeugs (§ 248b StGB), da für das Ausleihen eines fremden Fahrrads keine Rechtfertigung greift
+- Gerechtfertigt durch das Festnahmerecht
+- Gerechtfertigt durch Notwehr nach § 32 StGB
+> Ein Angriff liegt nicht vor, Notwehr scheidet daher aus; § 34 StGB setzt eine gegenwärtige Gefahr und ein wesentliches Überwiegen des geschützten Interesses voraus.
+
+[k190]
+Am Einlass einer Veranstaltung kontrolliert eine Wachperson Taschen. Auf welcher Rechtsgrundlage geschieht das?
+* Einwilligung des Besuchers, die der Veranstalter kraft Hausrechts zur Bedingung für den Einlass machen kann
+- § 127 StPO
+- § 34 StGB
+- Polizeiliche Durchsuchungsbefugnisse, die die IHK jeder Wachperson mit bestandener Sachkundeprüfung überträgt
+> Wer die Kontrolle verweigert, kann abgewiesen, aber nicht zwangsweise durchsucht werden.
+
+[k191]
+Welche Voraussetzungen gelten nach § 4 WaffG grundsätzlich für eine waffenrechtliche Erlaubnis?
+- Ein Mindestalter von 25 Jahren für alle
+- In jedem Fall die Mitgliedschaft in einem Schützenverein sowie ein Attest des Vereinsarztes über die Eignung
+* Mindestalter 18 Jahre, Zuverlässigkeit, persönliche Eignung, Sachkunde und ein nachgewiesenes Bedürfnis
+- Nur ein polizeiliches Führungszeugnis
+> Für einen Waffenschein ist zusätzlich eine Haftpflichtversicherung über 1 Million Euro pauschal für Personen- und Sachschäden nachzuweisen.
+
+[k192]
+Welche Voraussetzungen gelten für den Kleinen Waffenschein?
+- Ein Nachweis von Bedürfnis und Sachkunde, genau wie beim regulären Waffenschein, sowie zusätzlich ein Mindestalter von 21 Jahren
+- Ein Jagdschein
+- Beschäftigung bei einem Sicherheitsunternehmen
+* Mindestalter 18 Jahre, Zuverlässigkeit und persönliche Eignung; Bedürfnis und Sachkunde müssen nicht nachgewiesen werden
+> Er berechtigt zum Führen von Schreckschuss-, Reizstoff- und Signalwaffen mit PTB-Zeichen, nicht von scharfen Schusswaffen.
+
+[k193]
+Darf eine Wachperson im Dienst eine täuschend echt aussehende Spielzeugpistole führen, um Eindringlinge abzuschrecken?
+* Nein, das Führen von Anscheinswaffen ist nach § 42a WaffG verboten
+- Ja, weil es keine echte Waffe ist
+- Ja, mit Erlaubnis des Auftraggebers, sofern die Wachperson auch einen Kleinen Waffenschein besitzt
+- Ja, wenn sie offen im Holster an der Dienstkleidung getragen und mit dem Firmenlogo gekennzeichnet wird
+> Ausnahmen gelten z. B. für Film- und Theateraufführungen. Anscheinswaffen können mit echten Schusswaffen verwechselt werden und gefährliche Reaktionen – auch der Polizei – auslösen.
+
+[k194]
+Wann wird einem Bewachungsunternehmer nach § 28 WaffG ein Bedürfnis für Schusswaffen anerkannt?
+- Wenn das Unternehmen mehr als 50 Wachpersonen beschäftigt
+- Wenn die Wachpersonen überwiegend nachts arbeiten
+* Wenn er glaubhaft macht, dass Bewachungsaufträge zur Sicherung einer gefährdeten Person oder eines gefährdeten Objekts Schusswaffen erfordern
+- Wenn ein Auftraggeber aus Imagegründen bewaffnete Wachpersonen wünscht, obwohl keine besondere Gefährdung besteht, und dies der Behörde schriftlich bestätigt
+> Auch dann dürfen Wachpersonen Schusswaffen nur mit Zustimmung der Behörde und nur bei der Durchführung des konkreten Auftrags führen.
+
+[k195]
+Wer im Sinne des Waffengesetzes eine Waffe „erwirbt“:
+* Erlangt die tatsächliche Gewalt über sie
+- Führt sie außerhalb seiner Wohnung
+- Gibt sie an einen anderen weiter
+- Betrachtet sie nur im Geschäft
+> Besitzen heißt, die tatsächliche Gewalt auszuüben; Überlassen heißt, einem anderen die tatsächliche Gewalt einzuräumen.
+
+[k196]
+Eine Schusswaffe ist im Sinne des Waffengesetzes „schussbereit“, wenn:
+* Sie geladen ist, also Munition im Patronenlager, in der Trommel oder im eingeführten Magazin steckt, auch wenn sie nicht gespannt ist
+- Sie sich in einem verschlossenen Koffer befindet
+- Sie in eine Waffenbesitzkarte eingetragen ist und zu Hause zusammen mit der zugehörigen Munition im selben unverschlossenen Schrank aufbewahrt wird
+- Sie gereinigt wurde
+> Wer eine Waffe ohne Waffenschein transportiert, darf sie nur nicht schussbereit und nicht zugriffsbereit mitführen.
+
+[k197]
+Eine Wachperson darf für einen bestimmten Auftrag eine Schusswaffe des Unternehmens führen. Darf sie die Waffe nach Dienstende mit nach Hause nehmen?
+- Ja, damit sie für die nächste Schicht bereit ist, sofern sie die Waffe zu Hause in einem abschließbaren Schrank aufbewahrt
+- Ja, wenn sie die Waffe entlädt
+* Nein, Schusswaffen dürfen nur bei der tatsächlichen Durchführung des konkreten Bewachungsauftrags geführt werden
+- Ja, wenn sie allein wohnt
+> § 28 WaffG begrenzt das Führen von Schusswaffen im Bewachungsgewerbe streng auf den konkreten Auftrag; danach ist die Waffe vorschriftsmäßig aufzubewahren.
+
+[k198]
+Eine Schusswaffe oder eine Waffenbesitzkarte ist abhandengekommen. Was muss der Inhaber tun?
+- Den Verlust erst bei der nächsten jährlichen Kontrolle durch die Behörde melden
+- Eine Ersatzwaffe kaufen und auf derselben Karte eintragen lassen
+* Den Verlust unverzüglich der zuständigen Behörde anzeigen
+- Nichts, wenn die Waffe gegen Diebstahl und Verlust versichert war
+> Das Abhandenkommen ist nach dem Waffengesetz unverzüglich anzuzeigen; bei Diebstahl ist zudem die Polizei zu informieren.
+
+[k199]
+Was gilt nach § 15 DGUV Vorschrift 1 für Alkohol und andere berauschende Mittel im Dienst?
+- Ein kleines Bier vor jeder Nachtschicht ist erlaubt
+- Alkohol ist erlaubt, wenn der Auftraggeber schriftlich zustimmt und die Wachperson weder eine Waffe führt noch einen Hund
+* Versicherte dürfen sich dadurch nicht in einen Zustand versetzen, in dem sie sich selbst oder andere gefährden können
+- Beruhigungsmittel dürfen im Dienst nach Belieben eingenommen werden, weil sie helfen, in belastenden Konfliktsituationen ruhig zu bleiben
+> Viele Unternehmen verbieten Alkohol im Dienst vollständig; erst recht gilt das beim Einsatz von Waffen oder Hunden.
+
+[k200]
+Wie oft müssen Beschäftigte nach DGUV Vorschrift 1 mindestens unterwiesen werden?
+- Nur einmal bei der Einstellung, sofern sie im selben Objekt eingesetzt bleiben
+* Vor Aufnahme der Tätigkeit und danach mindestens einmal jährlich
+- Alle fünf Jahre
+- Nur nach einem Unfall oder einem gemeldeten Beinaheunfall im bewachten Objekt
+> Die Unterweisung über Sicherheit und Gesundheitsschutz ist zu dokumentieren.
+
+[k201]
+Nach § 5 Arbeitsschutzgesetz (ArbSchG) muss der Arbeitgeber vor dem Einsatz von Wachpersonen in einem neuen Objekt:
+- Die Wachpersonen einen Haftungsverzicht für alle vorhersehbaren Risiken im neuen Objekt unterschreiben lassen
+* Eine Gefährdungsbeurteilung durchführen und die erforderlichen Schutzmaßnahmen festlegen
+- Nur die Polizei informieren
+- Nur neue Dienstkleidung kaufen
+> Das Ergebnis ist zu dokumentieren (§ 6 ArbSchG), und die Wachpersonen sind entsprechend zu unterweisen.
+
+[k202]
+In welchen Abständen müssen betriebliche Ersthelfer in der Regel fortgebildet werden?
+* Alle 2 Jahre
+- Alle 5 Jahre
+- Alle 10 Jahre
+- Nie, ein Kurs genügt
+> Ersthelfer werden in einem Lehrgang mit 9 Unterrichtseinheiten ausgebildet und regelmäßig fortgebildet (DGUV Vorschrift 1).
+
+[k203]
+Erste-Hilfe-Leistungen im Betrieb sind zu dokumentieren, z. B. im Verbandbuch. Wie lange sind diese Aufzeichnungen verfügbar zu halten?
+- 1 Monat
+- 1 Jahr
+* 5 Jahre
+- 30 Jahre
+> Die Dokumentation kann später nachweisen, dass eine Verletzung auf die Arbeit zurückgeht (DGUV Vorschrift 1).
+
+[k204]
+Eine Wachperson kommt bei einem Arbeitsunfall ums Leben. Wie muss der Arbeitgeber den Unfallversicherungsträger benachrichtigen?
+- Innerhalb von 3 Tagen mit dem üblichen Formular, wie jeden anderen meldepflichtigen Arbeitsunfall
+* Sofort, z. B. telefonisch, zusätzlich zur schriftlichen Unfallanzeige
+- Nur auf Wunsch der Angehörigen, ansonsten genügt die monatliche Sammelmeldung
+- Zum Monatsende
+> Tödliche Unfälle und Massenunfälle sind dem Unfallversicherungsträger sofort zu melden.
+
+[k205]
+Nach einem Arbeitsunfall ist eine Wachperson über den Unfalltag hinaus arbeitsunfähig. Welchen Arzt sollte sie grundsätzlich aufsuchen?
+- Nur den Betriebsarzt
+* Einen Durchgangsarzt (D-Arzt) der gesetzlichen Unfallversicherung
+- Einen beliebigen Heilpraktiker, den die Wachperson frei auswählen kann
+- Den Amtsarzt des örtlichen Gesundheitsamts zur amtlichen Untersuchung
+> Der D-Arzt entscheidet über die weitere Heilbehandlung zulasten des Unfallversicherungsträgers (z. B. der VBG).
+
+[k206]
+Wie beendet man einen Notruf über die 112 richtig?
+- Auflegen, sobald man die Sirene hört
+- Zur Bestätigung von einem anderen Telefon noch einmal anrufen
+- Sofort nach Nennung der genauen Adresse und des eigenen Namens auflegen
+* Auf Rückfragen warten; die Leitstelle beendet das Gespräch
+> Die W-Fragen: Wo? Was ist passiert? Wie viele Verletzte? Welche Verletzungen? Warten auf Rückfragen!
+
+[k207]
+Bei einem Erwachsenen führen Laienhelfer die Herz-Lungen-Wiederbelebung im Verhältnis durch:
+- 5 Herzdruckmassagen zu 1 Beatmung
+- 15 Herzdruckmassagen zu 2 Beatmungen
+* 30 Herzdruckmassagen zu 2 Beatmungen
+- 50 Herzdruckmassagen zu 5 Beatmungen
+> Drucktiefe 5–6 cm, Frequenz 100–120 pro Minute; wer nicht beatmen kann oder will, drückt ununterbrochen.
+
+[k208]
+Welche Anzeichen deuten auf einen Schock hin?
+- Rotes Gesicht und langsamer, kräftiger Puls
+- Warme, trockene Haut und ruhige Atmung
+- Hohes Fieber mit Schüttelfrost
+* Blasse, kalte, schweißige Haut, schneller, schwacher Puls und Unruhe
+> Notruf 112, die Person beruhigen, zudecken und – wenn keine Gegenanzeigen wie Kopf- oder Brustverletzungen vorliegen – flach mit erhöhten Beinen lagern.
+
+[k209]
+Eine Wachperson findet einen Kollegen mit einer stark blutenden Wunde am Unterarm. Was ist die richtige Erste-Hilfe-Maßnahme?
+- Salbe auftragen und die Wunde offen lassen
+* Einmalhandschuhe anziehen, den Arm möglichst hochhalten und einen Druckverband anlegen
+- Die Wunde gründlich mit Wasser und Desinfektionsmittel auswaschen und dann locker abdecken
+- Warten, bis die Blutung von selbst aufhört
+> Blutet der Druckverband durch, wird ein zweites Druckpolster darüber angelegt; zudem Notruf 112 und auf Schockanzeichen achten.
+
+[k210]
+Wie wird eine kleine Brandwunde an der Hand versorgt?
+- Mit Mehl bestreuen
+* Einige Minuten unter handwarmem fließendem Wasser kühlen und dann keimfrei abdecken
+- Die Brandblasen aufstechen
+- Mit Butter oder Speiseöl bestreichen, damit die Haut weich bleibt, und dann fest mit Frischhaltefolie umwickeln
+> Keine Hausmittel und kein Eis verwenden; an der Haut festklebende Kleidung nicht entfernen.
+
+[k211]
+Ein Besucher hat einen Krampfanfall mit Zuckungen. Was soll die Wachperson tun?
+- Arme und Beine fest umklammern, damit sich die Person während der Zuckungen nicht selbst verletzen kann
+- Einen Beißkeil zwischen die Zähne schieben
+* Die Person vor Verletzungen schützen, z. B. gefährliche Gegenstände entfernen, und sie nicht festhalten
+- Ihr Wasser ins Gesicht gießen
+> Nach dem Anfall die Atmung prüfen, ggf. stabile Seitenlage und Notruf 112.
+
+[k212]
+Ein bewusstloser Motorradfahrer liegt mit Helm auf der Straße. Was sollen Ersthelfer tun?
+- Den Helm erst nach Eintreffen des Rettungsdienstes abnehmen
+- Den Helm allein ruckartig abziehen, ohne den Nacken zu stützen, damit vor der Atemkontrolle keine Zeit verloren geht
+* Den Helm vorsichtig abnehmen, möglichst zu zweit unter Stabilisierung von Kopf und Hals, um die Atmung zu prüfen
+- Den Helm keinesfalls abnehmen
+> Bei Bewusstlosigkeit müssen die Atemwege frei gehalten werden – mit Helm ist das kaum möglich.
+
+[k213]
+Ein Mann klagt über starke Brustschmerzen, die in den linken Arm ausstrahlen, und über Atemnot. Wie wird er bis zum Eintreffen des Rettungsdienstes gelagert?
+* Mit erhöhtem Oberkörper; beengende Kleidung öffnen und ihn beruhigen
+- In stabiler Seitenlage
+- Flach auf dem Rücken mit erhöhten Beinen, um den Blutrückfluss zum Herzen zu verbessern
+- Stehend; er soll langsam auf und ab gehen, um den Kreislauf in Gang zu halten
+> Das sind Anzeichen eines Herzinfarkts: sofort Notruf 112, Atmung und Bewusstsein überwachen.
+
+[k214]
+Welche Voraussetzungen müssen für eine Verbrennung gleichzeitig vorliegen?
+* Brennbarer Stoff, Sauerstoff und Zündenergie im richtigen Mengenverhältnis
+- Metall, Öl und Luft in einem geschlossenen Raum, wobei das Metall als Zündquelle dient
+- Wasser, Licht und Wind
+- Rauch, Hitze und ein elektrischer Strom, der durch das brennende Material fließt
+> Gelöscht wird, indem man eine dieser Voraussetzungen beseitigt, z. B. durch Kühlen oder Ersticken.
+
+[k215]
+Brennendes Speiseöl in einer Pfanne darf nie mit Wasser gelöscht werden, weil:
+- Wasser nur für Metallbrände geeignet ist
+- Wasser bei Fettbränden schlicht wirkungslos bleibt, weil es sich nicht mit Öl mischt und es nicht kühlen kann
+- Wasser nur bei Bränden der Brandklasse B zulässig ist, Speiseöl aber zur Brandklasse A gehört
+* Das Wasser schlagartig verdampft und brennendes Fett mitreißt (Fettexplosion)
+> Geeignet sind ein Fettbrandlöscher (Brandklasse F) oder das Ersticken der Flammen mit einem Deckel.
+
+[k216]
+Welche Löschtechnik ist beim Einsatz eines Feuerlöschers richtig?
+- Mehrere Feuerlöscher nacheinander statt gleichzeitig einsetzen
+* In Windrichtung löschen und Flächenbrände von vorn beginnend ablöschen
+- Auf den Rauch statt auf das Brandgut zielen
+- Gegen den Wind von oben in die Flammen spritzen
+> Wandbrände werden von unten nach oben, Tropf- und Fließbrände von oben nach unten gelöscht; ausreichend Löscher gleichzeitig einsetzen, nicht nacheinander.
+
+[k217]
+Welche Farbe haben Rettungszeichen wie das Schild „Notausgang“?
+- Gelb mit schwarzem Symbol
+* Grün mit weißem Symbol
+- Blau mit weißem Symbol
+- Rot mit weißem Symbol
+> Rot: Brandschutzzeichen (z. B. Feuerlöscher); Blau: Gebotszeichen; Gelb: Warnzeichen.
+
+[k218]
+Tragbare Feuerlöscher müssen von einer fachkundigen Person mindestens geprüft werden alle:
+- 6 Monate
+* 2 Jahre
+- 5 Jahre
+- 10 Jahre
+> Bei Kontrollgängen sollte die Wachperson zudem darauf achten, dass Feuerlöscher vorhanden, zugänglich und verplombt sind.
+
+[k219]
+Eine Wachperson muss einen verrauchten Flur verlassen. Wie verhält sie sich richtig?
+- Den Aufzug benutzen, weil es schneller geht und die geschlossene Kabine vor dem Rauch schützt
+- Alle Türen weit öffnen, damit der Rauch abziehen und frische Luft in den Flur nachströmen kann
+- Möglichst schnell aufrecht gehen
+* Sich in Bodennähe bewegen, wo die Luft meist am besten ist, und Türen hinter sich schließen
+> Rauchgasvergiftung ist die häufigste Todesursache bei Bränden; geschlossene Türen bremsen die Ausbreitung von Rauch und Feuer.
+
+[k220]
+Für welche Brände ist ein Kohlendioxidlöscher (CO₂-Löscher) besonders geeignet?
+- Große Brände im Freien bei starkem Wind, weil sich die Gaswolke schnell über eine weite Fläche ausbreitet
+* Brände der Brandklasse B sowie Brände in Elektro- und EDV-Räumen, da er rückstandsfrei löscht
+- Metallbrände
+- Brennende Personen, da der CO₂-Löscher schnell löscht und keine Rückstände auf der Haut hinterlässt
+> CO₂ verdrängt den Sauerstoff: In kleinen Räumen nach dem Löschen den Raum verlassen und lüften. Nie auf Personen richten (Erfrierungsgefahr).
+
+[k221]
+Nach dem ersten Axiom von Paul Watzlawick gilt: „Man kann nicht nicht kommunizieren.“ Was bedeutet das für eine Wachperson?
+- Kommunikation im Dienst ist nur per Funk oder Telefon möglich, nie im direkten Gespräch
+- Nur gesprochene Worte zählen
+- Wachpersonen sollen möglichst viel reden, damit kein unangenehmes Schweigen entsteht
+* Auch Schweigen, Körperhaltung und Mimik senden Botschaften an andere
+> Nonverbale Signale prägen stark, wie eine Wachperson wahrgenommen wird.
+
+[k222]
+Welche Frage ist eine offene Frage (W-Frage), die zum Erzählen anregt?
+- „Haben Sie eine Eintrittskarte?“
+- „Ist das Ihre Tasche?“
+* „Was genau ist am Eingang passiert?“
+- „Haben Sie den Mann gesehen?“
+> Geschlossene Fragen lassen sich mit Ja oder Nein beantworten; sie eignen sich, um konkrete Fakten schnell zu klären.
+
+[k223]
+Das Eskalationsmodell von Friedrich Glasl beschreibt:
+- Drei Phasen der körperlichen Stressreaktion, von der Alarmphase über den Widerstand bis zur Erschöpfung
+- Fünf Stufen der Bedürfnisse
+- Vier Seiten einer Nachricht
+* Neun Eskalationsstufen, von der Verhärtung bis zum gemeinsamen Gang in den Abgrund
+> Je früher ein Konflikt bearbeitet wird, desto größer ist die Chance auf eine Lösung, bei der beide Seiten gewinnen.
+
+[k224]
+Welche Bedürfnisse bilden nach Maslow die Basis der Bedürfnispyramide?
+- Soziale Zugehörigkeit zu einer Familie, einem Team oder einem Freundeskreis
+- Selbstverwirklichung durch Arbeit und persönliche Entwicklung
+- Anerkennung und Wertschätzung durch Kollegen, Freunde und Familie
+* Körperliche Grundbedürfnisse wie Essen, Trinken und Schlaf
+> Darauf folgen Sicherheit, soziale Bedürfnisse, Wertschätzung und Selbstverwirklichung. Wer seine Grundbedürfnisse bedroht sieht, reagiert oft emotionaler.
+
+[k225]
+Dringt eine Wachperson ohne Anlass in die Intimdistanz (bis etwa einen halben Meter) einer fremden Person ein, wird das häufig empfunden als:
+- Zeichen von Respekt und Aufmerksamkeit gegenüber der anderen Person
+* Bedrohung oder Provokation, die die Lage verschärfen kann
+- Freundliche Begrüßung, wie sie in vielen Dienstleistungsberufen üblich ist
+- Neutral und ohne Wirkung, solange die Wachperson Dienstkleidung trägt
+> Wachpersonen sollten die Distanzzonen respektieren und nur bei Bedarf näherkommen, etwa bei einer rechtmäßigen Festnahme.
+
+[k226]
+Welche Körperhaltung empfiehlt sich im Gespräch mit einer möglicherweise aggressiven Person?
+- Hände in den Hosentaschen, um entspannt zu wirken
+- Der Person den Rücken zuwenden, um Vertrauen zu zeigen
+* Leicht seitlich versetzt, offene Hände sichtbar in Brusthöhe, Abstand halten
+- Arme verschränkt, frontal und dicht vor der Person
+> Diese Haltung wirkt nicht bedrohlich und erlaubt dennoch eine schnelle Reaktion.
+
+[k227]
+Warum sollte eine Wachperson einer aufgebrachten Person bei einer Konfrontation einen Ausweg lassen?
+- Weil das Gesetz in jedem von Besuchern genutzten Raum ausdrücklich einen zweiten Ausgang vorschreibt
+* Weil Menschen, die sich in die Enge getrieben fühlen, oft panisch oder gewalttätig reagieren
+- Damit die Person besser gefilmt werden kann
+- Damit die Wachperson hinter der Person die Tür abschließen und sie dauerhaft aus dem Gebäude aussperren kann
+> Auch der eigene Rückzugsweg sollte stets frei bleiben.
+
+[k228]
+Zwei Wachpersonen sprechen gemeinsam einen Störer an. Welche Regel fördert die Deeskalation?
+- Beide stellen sich dicht links und rechts neben ihn
+- Beide reden gleichzeitig, um den Druck zu erhöhen
+- Die Wachperson mit der lauteren Stimme schreit
+* Nur eine Wachperson spricht, die andere sichert und beobachtet
+> Reden mehrere gleichzeitig, wirkt das verwirrend und provozierend.
+
+[k229]
+Ein verwirrter Mann behauptet, Außerirdische würden ihn verfolgen, und will sich im Gebäude verstecken. Wie verhält sich die Wachperson?
+- Lachen, um die Stimmung zu lockern
+- Ihn in einem Raum einschließen, bis er sich beruhigt hat
+* Ruhig bleiben, in kurzen, einfachen Sätzen sprechen, nicht über seine Vorstellungen streiten und ggf. ärztliche Hilfe holen
+- Ihm deutlich und bestimmt sagen, dass er Unsinn redet, damit er endlich versteht, dass ihn in Wirklichkeit niemand verfolgt
+> Diskussionen über Wahnvorstellungen steigern meist die Erregung; die Würde der Person ist zu achten.
+
+[k230]
+Eine Wachperson hält einen gut gekleideten Mann für vertrauenswürdig und kontrolliert seine Tasche nicht, einen jungen Mann im Trainingsanzug dagegen sehr genau. Welcher Wahrnehmungsfehler liegt vor?
+- Aktives Zuhören
+- Tunnelblick: Unter Stress nimmt die Wachperson nur einen engen Ausschnitt der Situation wahr
+- Selbstoffenbarung
+* Halo-Effekt: Ein auffälliges Merkmal überstrahlt das Gesamturteil
+> Kontrollen müssen nach sachlichen Kriterien und für alle gleich erfolgen.
+
+[k231]
+Interkulturelle Kompetenz bedeutet für Wachpersonen u. a. zu wissen, dass:
+- Alle Menschen Gesten genau gleich verstehen, sodass Piktogramme und einfache Sprache nie nötig sind
+* Gesten, Blickkontakt und Abstand in verschiedenen Kulturen unterschiedlich gedeutet werden können
+- Bei Kontrollen nur Deutsch gesprochen werden darf
+- Ausländische Besucher stets strenger kontrolliert werden müssen, weil sie die Hausordnung womöglich nicht kennen
+> Missverständnisse lassen sich durch respektvolles Auftreten, einfache Sprache und ggf. Gesten oder Piktogramme vermeiden.
+
+[k232]
+Warum verhalten sich Menschen in einer Menge oft aggressiver als allein?
+- Wegen des Wetters
+- Weil Menschenmengen immer aus Straftätern bestehen
+- Weil Menschenmengen stets gut organisiert sind
+* Weil Anonymität und Gruppendruck die persönliche Hemmschwelle senken
+> Sicherheitskräfte sollten Rädelsführer früh erkennen und die Gruppe als Ganzes nicht provozieren.
+
+[k233]
+Was passiert bei einer akuten Stressreaktion im Körper?
+* Stresshormone wie Adrenalin werden ausgeschüttet, Puls und Atmung beschleunigen sich, die Feinmotorik lässt nach
+- Konzentration und Feinmotorik verbessern sich deutlich, während Puls und Atmung sich verlangsamen, damit der Körper Energie spart
+- Der Körper entspannt sich vollständig
+- Die Herzfrequenz sinkt stark ab
+> Regelmäßiges Training hilft, trotz dieser „Kampf-oder-Flucht“-Reaktion kontrolliert zu handeln.
+
+[k234]
+Ein Anrufer behauptet, im Gebäude sei eine Bombe deponiert. Wie reagiert die Wachperson?
+- Die Drohung ohne Rücksprache über Lautsprecher durchsagen
+* Ruhig bleiben, den Anrufer möglichst lange reden lassen, alle Einzelheiten (Wortlaut, Stimme, Hintergrundgeräusche) notieren und sofort Polizei und Verantwortliche informieren
+- Sofort auflegen und weiterarbeiten
+- Allein das Gebäude absuchen und die Bombe entfernen
+> Viele Unternehmen nutzen eine Checkliste für Drohanrufe; über eine Räumung entscheiden die Verantwortlichen nach dem Notfallplan.
+
+[k235]
+Bei einem Kontrollgang findet eine Wachperson einen herrenlosen Koffer, aus dem Drähte ragen. Was ist richtig?
+- Ihn ins Freie tragen
+* Ihn nicht berühren, Personen fernhalten, in unmittelbarer Nähe nicht funken oder telefonieren und die Polizei alarmieren
+- Ihn aus nächster Nähe mit Blitz fotografieren
+- Ihn vorsichtig öffnen, um den Inhalt zu prüfen, damit der Polizei genaue Angaben über die mögliche Gefahr gemacht werden können
+> Verdächtige Gegenstände dürfen nur von Spezialkräften der Polizei untersucht werden.
+
+[k236]
+Bei einem Überfall wird eine Wachperson an einer Kasse mit einer Pistole bedroht. Wie verhält sie sich richtig?
+* Keinen Widerstand leisten, den Anweisungen folgen, sich Merkmale des Täters genau einprägen und Alarm auslösen, sobald es gefahrlos möglich ist
+- Den Täter sofort angreifen
+- Dem Fluchtfahrzeug hinterherfahren
+- Die Herausgabe des Geldes verweigern
+> Leben und Gesundheit haben immer Vorrang vor Sachwerten.
+
+[k237]
+Nach einem Einbruch trifft die Wachperson als Erste am Tatort ein. Was soll sie tun?
+- Alle Gegenstände einsammeln, die der Täter berührt hat
+- Die Mitarbeiter hineinlassen, damit sie nach fehlenden Gegenständen suchen und der Polizei eine vollständige Liste geben können
+* Nichts verändern, Unbefugte fernhalten und auf die Polizei warten – außer wenn Verletzten geholfen werden muss
+- Aufräumen, damit der Auftraggeber nicht erschrickt
+> Jede Veränderung kann Spuren vernichten; unvermeidbare Veränderungen sollten notiert werden.
+
+[k238]
+In welcher Reihenfolge sollte eine Täterbeschreibung erfolgen?
+* Von allgemeinen Merkmalen (Geschlecht, Alter, Größe, Statur) zu Einzelheiten, vom Kopf bis zu den Füßen
+- Mit den Schuhen beginnen, da diese selten gewechselt werden, dann beliebige Einzelheiten in beliebiger Reihenfolge
+- Nur die vermutete Herkunft des Täters
+- Nur die Farben der Kleidung
+> Besondere Merkmale wie Narben, Tätowierungen oder ein auffälliger Gang sind besonders wertvoll.
+
+[k239]
+Welche Regel gilt für den Sprechfunk im Dienst?
+* Kurz und sachlich sprechen, warten, bis der Kanal frei ist, und vertrauliche Daten nicht unnötig übermitteln
+- Bei ruhigem Dienst sind lange Privatgespräche erlaubt
+- Mehrere Personen dürfen gleichzeitig sprechen
+- Funkverkehr auf einer Firmenfrequenz kann von Dritten nicht abgehört werden, daher dürfen Namen und vertrauliche Daten frei übermittelt werden
+> Funkverkehr kann von Dritten mitgehört werden; Namen und sensible Angaben sparsam verwenden.
+
+[k240]
+Welcher Melder überwacht, ob eine Tür oder ein Fenster geöffnet wird?
+- Rauchmelder
+- Passiv-Infrarot-Melder
+- Glasbruchmelder
+* Magnetkontakt (Reedkontakt)
+> Magnetkontakte sind typisch für die Außenhautüberwachung eines Gebäudes.
+
+[k241]
+Was versteht man bei einer Einbruchmeldeanlage unter „Fallenüberwachung“?
+- Die Überwachung ausschließlich der Außenwände, Fenster und Türen, sodass ein Täter stets vor dem eigentlichen Betreten des Gebäudes erkannt wird
+* Die Überwachung von Bereichen im Gebäude, die ein Täter wahrscheinlich durchquert, z. B. mit Bewegungsmeldern in Fluren
+- Die Kameraüberwachung des Parkplatzes
+- Das Aufstellen von Fallen, um Einbrecher zu fangen
+> Die Außenhautüberwachung meldet den Täter schon beim Eindringen, die Fallenüberwachung erst im Gebäude.
+
+[k242]
+„Zwangsläufigkeit“ bei Einbruchmeldeanlagen bedeutet:
+- Die Anlage schaltet sich nachts selbst ab
+- Die Anlage löst stündlich einen Probealarm aus
+- Die Wachperson muss beim Rundgang eine feste Reihenfolge einhalten
+* Die Anlage lässt sich nur scharf schalten, wenn alle überwachten Türen und Fenster geschlossen sind, und der scharf geschaltete Bereich kann nicht versehentlich betreten werden
+> So werden Falschalarme durch Bedienfehler verhindert.
+
+[k243]
+Welcher Brandmelder wird typischerweise in einer Küche eingesetzt, um Fehlalarme durch Wasserdampf und Kochdünste zu vermeiden?
+* Wärmemelder
+- Magnetkontakt
+- Optischer Rauchmelder
+- Handfeuermelder
+> Wärmemelder reagieren auf eine festgelegte Höchsttemperatur oder einen schnellen Temperaturanstieg.
+
+[k244]
+Wozu dienen Feuerwehr-Laufkarten in einem Gebäude mit Brandmeldeanlage?
+* Um die Einsatzkräfte schnell von der Brandmelderzentrale zum auslösenden Melder zu führen
+- Um Besuchern den Weg zur Kantine zu zeigen
+- Zur Dokumentation der Kontrollgänge, wobei jeder beim nächtlichen Rundgang geprüfte Melder auf der Karte abgehakt wird
+- Zur Planung der Dienstpläne
+> Die Wachperson sollte wissen, wo sich Brandmelderzentrale, Laufkarten und Feuerwehr-Schlüsseldepot befinden.
+
+[k245]
+Wie lösen die Sprinklerköpfe einer üblichen Sprinkleranlage aus?
+- Nur von Hand durch die Wachperson
+- Per Funk durch die Feuerwehr
+* Einzeln durch Hitze, z. B. wenn eine Glasampulle platzt, sodass nur die Sprinkler in Brandnähe öffnen
+- Alle gleichzeitig, sobald irgendwo im Gebäude ein Rauchmelder anspricht, damit der Brand sofort geflutet wird
+> Das begrenzt Wasserschäden. Die Absperrventile der Sprinkleranlage darf eine Wachperson nie eigenmächtig schließen.
+
+[k246]
+Bei einem Kontrollgang findet eine Wachperson eine Brandschutztür, die mit einem Holzkeil offen gehalten wird. Was ist zu tun?
+- Ein Schild aufhängen, dass sie nachts geschlossen werden soll, und den Keil tagsüber stecken lassen
+- Nichts, denn so ist die Belüftung besser und die Beschäftigten kommen leichter hindurch
+- Die Tür abschließen
+* Den Keil entfernen, damit die Tür selbsttätig schließen kann, und den Mangel melden
+> Brandschutztüren müssen selbsttätig schließen, um Feuer und Rauch aufzuhalten; offen gehalten werden dürfen sie nur mit zugelassenen Feststellanlagen, die bei Rauch auslösen.
+
+[k247]
+Solange sich Personen im Gebäude aufhalten, müssen Notausgangstüren:
+- Bei Platzmangel mit Waren zugestellt werden dürfen
+- Mit einem Vorhängeschloss gesichert sein, damit keine Diebe eindringen
+- Nur mit einem Schlüssel zu öffnen sein, der in der Sicherheitszentrale liegt
+* Jederzeit von innen ohne Hilfsmittel leicht zu öffnen sein
+> Panikschlösser und Notausgangsverschlüsse ermöglichen das Verlassen, verhindern aber das Eindringen von außen.
+
+[k248]
+Die Widerstandsklassen RC 1 bis RC 6 (DIN EN 1627) geben an:
+- Die Feuerwiderstandsdauer einer Wand in Minuten
+- Die Reichweite eines Funkgeräts
+* Wie gut Türen, Fenster und Rollläden Einbruchsversuchen widerstehen
+- Die Lautstärke einer Alarmsirene
+> Je höher die Klasse, desto länger widersteht das Bauteil einem Angriff mit Werkzeugen.
+
+[k249]
+Wohin werden Alarme von Einbruch- und Überfallmeldeanlagen in der Regel rund um die Uhr übertragen?
+- Nur auf das private Handy der diensthabenden Wachperson, das Tag und Nacht eingeschaltet sein muss
+- An die IHK
+- An den Hersteller der Anlage, dessen Service-Hotline dann entscheidet, ob die Polizei verständigt wird
+* An eine Notruf- und Serviceleitstelle (NSL) oder direkt an die Polizei
+> Die Leitstelle alarmiert dann nach festgelegtem Maßnahmenplan Interventionskräfte oder die Polizei.
+
+[k250]
+Welchen Zweck hat eine Vereinzelungsanlage (z. B. Drehkreuz oder Personenschleuse) am Eingang?
+* Sicherzustellen, dass jeweils nur eine berechtigte Person passiert und keine weiteren mitschlüpfen
+- Die Körpertemperatur der Besucher zu messen
+- Gespräche am Eingang aufzuzeichnen
+- Die Räumung im Brandfall zu beschleunigen, da mehrere Personen gleichzeitig nebeneinander hindurchgehen können
+> In Verbindung mit Ausweiskarten oder Biometrie erhöht sie die Wirksamkeit der Zutrittskontrolle.
