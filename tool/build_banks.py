@@ -18,6 +18,7 @@ Question format (blank line between questions, '#' starts a comment):
 but if present it must match). '>' lines are the explanation.
 
     python3 tool/build_banks.py          # build all banks, report problems
+    python3 tool/build_banks.py nail     # build and check one bank only
 """
 from __future__ import annotations
 
@@ -117,8 +118,9 @@ def build(bank_dir: Path) -> list[str]:
 
 def main() -> None:
     problems = []
+    only = set(sys.argv[1:])
     for d in sorted((ROOT / "content").iterdir()):
-        if (d / "meta.json").exists():
+        if (d / "meta.json").exists() and (not only or d.name in only):
             problems += [f"{d.name}: {p}" for p in build(d)]
     if problems:
         print("\n".join(problems))

@@ -1,0 +1,42 @@
+{
+  "id": "wordweave",
+  "applicationId": "com.tuanlt.puzzle.wordweave",
+  "launcherName": "Word Weave",
+  "game": "weave",
+  "title": {
+    "en": "Word Weave: Hidden Words",
+    "es": "Word Weave: Palabras Ocultas",
+    "pt": "Word Weave: Palavras Ocultas",
+    "vi": "Word Weave: Tìm Từ Ẩn",
+    "id": "Word Weave: Kata Tersembunyi",
+    "de": "Word Weave: Versteckte Wörter",
+    "ja": "Word Weave: かくれ単語パズル"
+  },
+  "color": "#6D4C41",
+  "icon": {
+    "label": "",
+    "badge": "",
+    "glyph": "weave"
+  },
+  "suggestedPriceUsd": 2.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/wordweave.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children.",
+  "tagline": {
+    "en": "Trace hidden words · Use every letter once · Daily puzzle"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Trace the hidden words",
+      "Every letter is used exactly once",
+      "4 levels from Easy to Expert",
+      "Daily puzzle, streaks & trophies"
+    ]
+  },
+  "markets": [
+    "ALL"
+  ]
+}

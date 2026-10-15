@@ -1,0 +1,16 @@
+Coloca dominós para cumplir la regla de cada zona de color. Puzle diario.
+
+CÓMO JUGAR
+Coloca cada ficha de dominó en dos casillas vecinas. Cada región de color debe cumplir su etiqueta: Σ = suma de puntos, = todos iguales, ≠ todos distintos, < o > suma menor o mayor que el número.
+
+CARACTERÍSTICAS
+• Puzles ilimitados en 4 niveles: Fácil, Medio, Difícil y Experto
+• Cada puzle tiene una sola solución: lógica pura, sin adivinar
+• Puzle diario nuevo, rachas y archivo de 60 días
+• Gana de 1 a 3 estrellas, desbloquea 8 temas y 12 trofeos
+• Cronómetro, mejores tiempos y estadísticas
+• Pistas cuando te atascas
+• Sin anuncios. Funciona sin internet. Sin cuenta.
+
+PÁSATE A ILIMITADO
+Un único pago pequeño: puzles difíciles y expertos ilimitados, pistas ilimitadas, archivo diario completo y todos los temas. Sin suscripción.

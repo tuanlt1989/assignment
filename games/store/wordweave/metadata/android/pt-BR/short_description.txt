@@ -1,0 +1,1 @@
+Encontre as palavras ocultas na grade. Cada letra é usada uma vez.

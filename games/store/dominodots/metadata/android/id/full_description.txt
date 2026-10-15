@@ -1,0 +1,16 @@
+Letakkan domino agar tiap area warna sesuai aturannya. Teka-teki harian.
+
+CARA BERMAIN
+Letakkan setiap kartu domino di dua kotak yang bersebelahan. Setiap area berwarna harus sesuai labelnya: Σ = jumlah titik, = semua sama, ≠ semua berbeda, < atau > jumlah kurang atau lebih dari angkanya.
+
+FITUR
+• Teka-teki tanpa batas di 4 level: Mudah, Sedang, Sulit, Ahli
+• Setiap teka-teki punya tepat satu solusi – murni logika
+• Teka-teki harian baru, beruntun, dan arsip 60 hari
+• Raih 1–3 bintang, buka 8 tema warna, kumpulkan 12 trofi
+• Timer, waktu terbaik, dan statistik
+• Petunjuk saat kamu buntu
+• Tanpa iklan. Bisa offline. Tanpa akun.
+
+BUKA TANPA BATAS
+Sekali bayar: teka-teki Sulit & Ahli tanpa batas, petunjuk tanpa batas, arsip harian lengkap, dan semua tema. Tanpa langganan.

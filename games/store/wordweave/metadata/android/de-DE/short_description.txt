@@ -1,0 +1,1 @@
+Finde die versteckten Wörter im Raster. Jeder Buchstabe zählt genau einmal.

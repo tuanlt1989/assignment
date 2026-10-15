@@ -1,0 +1,1 @@
+Split the grid into rectangles – one clue each, right size and shape.

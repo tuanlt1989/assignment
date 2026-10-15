@@ -959,3 +959,1043 @@ Khi hơ đèn gel, khách thấy nóng rát đột ngột. Bạn nên:
 - Lần sau đắp lớp dày hơn
 - Đổi sang bóng đèn thường
 > Nóng đột ngột là do phản ứng trùng hợp diễn ra nhanh. Đắp lớp mỏng và tạm dừng một chút giúp bảo vệ khách.
+
+[n121]
+Chất sát trùng da (antiseptic) được dùng trên:
+- Dụng cụ làm móng
+- Ống và bồn ngâm chân (foot spa)
+- Sàn nhà và mặt bàn làm việc
+* Da, để giảm bớt vi trùng
+> Chất sát trùng đủ dịu để dùng trên da nhưng không đủ mạnh để khử trùng dụng cụ hay bề mặt. Dùng chất khử trùng đăng ký EPA cho dụng cụ và bề mặt.
+
+[n122]
+Vi khuẩn hình que, gây ra các bệnh như uốn ván (tetanus) và lao (tuberculosis), gọi là:
+- Cầu khuẩn (cocci)
+* Trực khuẩn (bacilli)
+- Song cầu khuẩn (diplococci)
+- Xoắn khuẩn (spirilla)
+> Trực khuẩn có hình que và là loại vi khuẩn phổ biến nhất. Chúng gây các bệnh như uốn ván, thương hàn, lao và bạch hầu.
+
+[n123]
+Vi khuẩn hình cầu mọc thành từng cặp và có thể gây viêm phổi là:
+* Song cầu khuẩn (diplococci)
+- Liên cầu khuẩn (streptococci)
+- Tụ cầu khuẩn (staphylococci)
+- Trực khuẩn (bacilli)
+> "Diplo" nghĩa là hai. Song cầu mọc thành cặp, liên cầu mọc thành chuỗi, còn tụ cầu mọc thành chùm.
+
+[n124]
+Thợ nail làm rơi cây kềm (nippers) đã khử trùng xuống sàn khi đang làm dịch vụ. Cô ấy nên làm gì?
+- Lau kềm vào khăn sạch rồi làm tiếp
+- Xịt cồn lên kềm rồi làm tiếp
+* Dùng một cây kềm khác đã khử trùng, còn cây bị rơi thì làm sạch và khử trùng lại
+- Rửa kềm dưới vòi nước rồi làm tiếp
+> Dụng cụ bị rơi xuống sàn đã bị nhiễm bẩn. Phải làm sạch và khử trùng đủ thời gian tiếp xúc ghi trên nhãn trước khi dùng lại cho bất kỳ khách nào.
+
+[n125]
+Vi khuẩn sinh sôi bằng cách lớn đến kích thước đầy đủ rồi tách đôi. Quá trình này gọi là:
+- Nảy chồi (budding)
+* Phân đôi (binary fission)
+- Tạo bào tử (sporulation)
+- Đột biến (mutation)
+> Trong quá trình phân đôi, một tế bào tách thành hai tế bào giống hệt nhau. Ở nơi ấm, ẩm và dơ, vi khuẩn có thể sinh sôi rất nhanh.
+
+[n126]
+Vi-rút khác vi khuẩn ở điểm nào?
+- Vi-rút lớn hơn vi khuẩn rất nhiều
+- Vi-rút dễ bị thuốc kháng sinh tiêu diệt
+* Vi-rút chỉ sinh sản được bằng cách chiếm lấy tế bào của cơ thể sống (vật chủ)
+- Vi-rút tự sống và sinh sôi trong đất
+> Vi-rút phải xâm nhập tế bào vật chủ mới sinh sôi được. Thuốc kháng sinh không có tác dụng với vi-rút, vì vậy vắc-xin rất quan trọng.
+
+[n127]
+MRSA được mô tả đúng nhất là:
+* Một loại vi khuẩn tụ cầu (staph) kháng một số thuốc kháng sinh
+- Một loại vi khuẩn vô hại có trên hầu hết dụng cụ làm móng
+- Một loại vi-rút chỉ lây qua không khí
+- Một loại nấm mọc dưới móng nhân tạo
+> Tụ cầu vàng kháng methicillin (MRSA) rất khó chữa. Rửa tay, làm sạch và khử trùng giúp ngăn MRSA lây lan trong tiệm.
+
+[n128]
+Bệnh hắc lào / nấm da (ringworm, tinea) do tác nhân nào gây ra?
+- Một loại giun ký sinh
+- Một loại vi khuẩn
+- Một loại vi-rút
+* Một loại nấm
+> Dù tên tiếng Anh có chữ "worm" (giun), ringworm là bệnh nhiễm nấm có thể lây, không phải do giun. Không làm trên vùng bị nhiễm; giới thiệu khách đến bác sĩ.
+
+[n129]
+Bệnh ghẻ (scabies), một bệnh da dễ lây gây ngứa dữ dội, do tác nhân nào gây ra?
+* Một loại con ve (mite) ký sinh đào hang dưới da
+- Một loại nấm mọc trên móng chân
+- Dị ứng với nước sơn móng
+- Vi khuẩn sống trong ống bồn ngâm chân
+> Bệnh ghẻ do con ve ghẻ, một loại ký sinh trùng, gây ra. Không làm dịch vụ cho khách bị ghẻ; giới thiệu khách đến bác sĩ.
+
+[n130]
+Khả năng miễn dịch có được sau khi tiêm vắc-xin gọi là:
+- Miễn dịch tự nhiên (natural immunity)
+* Miễn dịch thu được (acquired immunity)
+- Miễn dịch một phần
+- Miễn dịch di truyền
+> Miễn dịch tự nhiên một phần là do di truyền. Miễn dịch thu được hình thành sau khi cơ thể vượt qua một bệnh hoặc nhờ tiêm vắc-xin.
+
+[n131]
+Tiêu chuẩn nào của OSHA được đặt ra để bảo vệ người lao động khỏi tiếp xúc với máu và các chất có khả năng lây nhiễm khác?
+* Tiêu chuẩn về mầm bệnh lây qua đường máu (Bloodborne Pathogens Standard)
+- Tiêu chuẩn về tiếp xúc tiếng ồn nghề nghiệp (Occupational Noise Exposure Standard)
+- Tiêu chuẩn bảo vệ hô hấp (Respiratory Protection Standard)
+- Tiêu chuẩn thông tin về hoá chất nguy hiểm (Hazard Communication Standard)
+> Bloodborne Pathogens Standard đặt ra quy định phòng ngừa và xử lý khi tiếp xúc với máu, như đeo găng tay và bỏ vật dụng dính máu đúng cách.
+
+[n132]
+Hợp chất amoni bậc bốn ("quats") thường được dùng trong tiệm làm:
+- Chất dưỡng ẩm trong kem dưỡng da quanh móng
+- Primer cho móng bột (acrylic)
+- Dung môi để tẩy sơn móng
+* Chất khử trùng cho dụng cụ và bề mặt
+> Nhiều chất khử trùng đăng ký EPA dùng trong tiệm là quats. Như mọi chất khử trùng, phải pha và dùng đúng theo hướng dẫn trên nhãn.
+
+[n133]
+Tại sao không bao giờ được pha thuốc tẩy clo (bleach) với amoniac hoặc các chất tẩy rửa khác?
+- Thuốc tẩy sẽ tác dụng quá chậm
+- Dụng cụ kim loại sẽ bị ố
+* Có thể sinh ra khí độc
+- Dung dịch sẽ biến thành chất sát trùng da
+> Pha thuốc tẩy với amoniac hoặc axit sẽ tạo ra khí nguy hiểm. Chỉ dùng thuốc tẩy theo hướng dẫn trên nhãn và chỉ pha loãng với nước.
+
+[n134]
+Một nhược điểm của chất khử trùng phenolic là chúng có thể:
+- Chỉ diệt được nấm
+- Bay hơi hết trong vài giây
+* Gây kích ứng da và làm hỏng một số đồ nhựa và cao su
+- Làm móng nhân tạo bị hở (lifting)
+> Phenolic khử trùng hiệu quả nhưng cần đeo găng và kính bảo hộ, và chúng có thể làm mềm hoặc đổi màu một số đồ nhựa và cao su.
+
+[n135]
+Khi dùng chất khử trùng dạng xịt hoặc khăn lau trên bàn làm móng, bề mặt phải:
+- Được lau khô ngay sau khi xịt
+* Còn ướt thấy rõ trong suốt thời gian tiếp xúc (contact time) ghi trên nhãn
+- Được xịt nhẹ một lần rồi phủ khăn lên
+- Được rửa bằng nước trước khi xịt chất khử trùng
+> Chất khử trùng chỉ có tác dụng khi còn ướt trên bề mặt. Nếu khô trước khi đủ thời gian tiếp xúc ghi trên nhãn, phải xịt thêm.
+
+[n136]
+Sau khi dụng cụ đã được khử trùng và lau khô, phải cất chúng:
+- Trong túi áo của thợ cho tiện lấy
+- Để rời trên mặt bàn làm móng
+* Trong hộp sạch, có nắp đậy cho đến khi dùng
+- Chung hộp với dụng cụ đã dùng
+> Dụng cụ đã khử trùng phải được bảo vệ khỏi nhiễm bẩn. Cất trong hộp sạch có nắp và không bao giờ để chung với đồ đã dùng.
+
+[n137]
+Đầu nhám dùng một lần (sanding bands / sleeves) gắn trên máy dũa điện (e-file) phải:
+- Khử trùng rồi dùng lại cho khách sau
+- Rửa nước rồi gắn lại vào trục (mandrel)
+- Rửa xà phòng và dùng lại trong một tuần
+* Chỉ dùng cho một khách rồi bỏ đi
+> Đầu nhám là vật liệu xốp, không thể khử trùng. Đầu mũi kim loại và kim cương (bits) có thể làm sạch và khử trùng, nhưng sanding band chỉ dùng một lần.
+
+[n138]
+Thợ nail bị dị ứng latex nên chọn găng tay dùng một lần làm bằng:
+* Nitrile
+- Cao su tự nhiên
+- Vải cotton
+- Len
+> Găng nitrile không chứa latex và chịu được nhiều hoá chất trong tiệm. Găng cao su tự nhiên chính là latex.
+
+[n139]
+Khi rửa tay, bạn nên chà xà phòng với nước ấm ít nhất:
+- 2 giây
+- 5 giây
+* 20 giây
+- 10 phút
+> Chà ít nhất 20 giây, kể cả kẽ ngón tay và dưới móng, sẽ loại bỏ phần lớn vi trùng. Lau khô bằng khăn giấy sạch dùng một lần.
+
+[n140]
+Lưỡi dao dùng một lần đã sử dụng hoặc vật sắc nhọn khác phải được bỏ vào:
+- Thùng rác thường ở bàn làm việc
+- Túi giấy
+- Ống thoát nước bồn rửa
+* Hộp đựng vật sắc nhọn chống đâm thủng (sharps container)
+> Hộp đựng vật sắc nhọn bảo vệ mọi người khỏi bị cắt hoặc đâm. Làm theo quy định của tiểu bang khi bỏ hộp đã đầy.
+
+[n141]
+Cuối mỗi ngày, lưới lọc tháo rời được (screen / inlet) của bồn ngâm chân có máy xoáy nước phải được:
+* Tháo ra chà sạch, và làm sạch cả phần phía sau lưới
+- Chỉ thay mỗi năm một lần
+- Xịt nước hoa xịt phòng
+- Để nguyên chỗ cho ống được kín
+> Chất bẩn kẹt phía sau lưới lọc nuôi lớp màng vi khuẩn (biofilm). Làm sạch lưới và phần phía sau mỗi ngày, rồi khử trùng hệ thống theo hướng dẫn.
+
+[n142]
+Khăn và đồ vải đã dùng phải được:
+- Để trên ghế pedicure đến cuối tuần
+- Gấp lại và dùng cho khách sau
+* Cho vào thùng có nắp đậy cho đến khi giặt bằng bột giặt
+- Giũ sạch rồi cất lại vào tủ đồ sạch
+> Khăn chạm vào da và có thể mang vi trùng. Dùng khăn mới cho mỗi khách và để khăn bẩn trong thùng có nắp cho đến khi giặt.
+
+[n143]
+Giường móng (nail bed) và mầm móng (matrix) được gắn vào xương bên dưới nhờ:
+- Gân (tendons)
+- Lưỡi liềm móng (lunula)
+* Các dây chằng chuyên biệt (specialized ligaments)
+- Tuyến bã nhờn
+> Các dây chằng chuyên biệt neo giường móng và mầm móng vào xương, giúp giữ cố định bộ phận móng.
+
+[n144]
+Các rãnh dọc hai bên móng, nơi móng trượt theo khi mọc ra, gọi là:
+- Đầu móng (free edges)
+* Rãnh móng (nail grooves)
+- Lưỡi liềm móng (lunula)
+- Hyponychium
+> Rãnh móng là đường ray mà mặt móng đi theo khi mọc về phía trước, nằm bên dưới nếp móng bên.
+
+[n145]
+Phần da bao quanh viền mặt móng gọi là:
+* Perionychium
+- Hyponychium
+- Mầm móng (matrix)
+- Lưỡi liềm móng (lunula)
+> "Peri" nghĩa là xung quanh, nên perionychium là phần da viền quanh mặt móng. Nhiễm trùng ở vùng này, như paronychia, phải được giới thiệu đến bác sĩ.
+
+[n146]
+Phần mặt móng mọc dài ra khỏi đầu ngón tay hoặc ngón chân gọi là:
+- Giường móng (nail bed)
+- Eponychium
+* Đầu móng (free edge)
+- Nếp móng bên (lateral nail fold)
+> Bên dưới đầu móng không có giường móng. Dũa dáng phù hợp với công việc, sinh hoạt của khách và giữ mép móng trơn để không bị vướng.
+
+[n147]
+Hình dáng và độ dày của mặt móng chủ yếu do bộ phận nào quyết định?
+- Giường móng (nail bed)
+* Mầm móng (matrix)
+- Da chết (cuticle)
+- Hyponychium
+> Mầm móng sinh ra tế bào tạo nên mặt móng, nên kích thước và hình dạng của mầm móng quyết định độ rộng và độ dày của mặt móng.
+
+[n148]
+Mặt móng tự nhiên khoẻ mạnh thường:
+* Trơn láng, chắc nhưng dẻo, có màu hơi hồng
+- Bị rỗ với các rãnh sâu
+- Dày, vàng và dễ vỡ vụn
+- Mềm đến mức gập đôi được
+> Móng khoẻ thì trơn láng, cong đều, không có đốm hay chỗ lõm. Màu hồng là do mạch máu ở giường móng nhìn xuyên qua mặt móng trong mờ.
+
+[n149]
+Lớp bì (dermis) còn được gọi là:
+* Da thật (true skin)
+- Da ngoài
+- Lớp mỡ
+- Lớp đáy
+> Lớp bì (derma hoặc corium) nằm dưới lớp biểu bì, chứa mạch máu, dây thần kinh, tuyến mồ hôi, tuyến dầu và nang lông.
+
+[n150]
+Lớp mỡ nằm dưới lớp bì, tạo đường nét cho cơ thể và làm lớp đệm bảo vệ, gọi là:
+* Mô dưới da / mô mỡ (subcutaneous / adipose tissue)
+- Lớp nhú (papillary layer)
+- Lớp sừng (stratum corneum)
+- Lớp biểu bì (epidermis)
+> Mô dưới da dự trữ mỡ làm năng lượng, giúp cơ thể có đường nét mềm mại và bảo vệ các cấu trúc bên dưới.
+
+[n151]
+Lớp ngoài cùng của biểu bì, gồm các tế bào sừng hoá xếp sát nhau và liên tục bong ra, gọi là:
+- Stratum germinativum (lớp đáy)
+- Lớp lưới (reticular layer)
+* Stratum corneum (lớp sừng)
+- Stratum granulosum (lớp hạt)
+> Lớp sừng là bề mặt bảo vệ cứng chắc. Tế bào chết ở đây bong ra và được thay thế bằng tế bào từ bên dưới đẩy lên.
+
+[n152]
+Các sợi protein trong lớp bì giúp da chắc khoẻ và đàn hồi là:
+- Bạch huyết và huyết tương
+- Keratin và melanin
+- Bã nhờn và mồ hôi
+* Collagen và elastin
+> Collagen giúp da chắc và giữ hình dạng; elastin giúp da co giãn rồi trở lại như cũ. Cả hai đều suy giảm theo tuổi tác và do ánh nắng.
+
+[n153]
+Khi da tiết mồ hôi, mồ hôi bay hơi và làm mát cơ thể, da đang thực hiện chức năng nào?
+* Điều hoà thân nhiệt
+- Tiết bã nhờn
+- Hấp thụ
+- Cảm giác
+> Da giúp giữ thân nhiệt ở khoảng 98.6°F (37°C). Mồ hôi mang nhiệt ra khỏi cơ thể khi bay hơi.
+
+[n154]
+Đầu ngón tay đặc biệt nhạy cảm với cảm giác chạm, nóng, lạnh và đau vì có nhiều:
+- Tuyến bã nhờn
+- Nang lông
+* Đầu dây thần kinh cảm giác
+- Tế bào mỡ
+> Đầu dây thần kinh cảm giác gửi tín hiệu về não về cảm giác chạm, đau, nóng và lạnh. Chúng tập trung đặc biệt nhiều ở đầu ngón tay.
+
+[n155]
+Hai xương của cẳng chân là:
+* Xương chày và xương mác (tibia, fibula)
+- Xương trụ và xương quay (ulna, radius)
+- Xương đùi và xương bánh chè (femur, patella)
+- Xương sên và xương gót (talus, calcaneus)
+> Xương chày (tibia) là xương lớn hơn ở phía ngón chân cái; xương mác (fibula) là xương mảnh hơn ở mặt ngoài cẳng chân.
+
+[n156]
+Xương nằm ở phía ngón cái của cẳng tay là:
+- Xương trụ (ulna)
+- Xương bả vai (scapula)
+- Xương cánh tay (humerus)
+* Xương quay (radius)
+> Xương quay nằm ở phía ngón cái của cẳng tay, còn xương trụ nằm ở phía ngón út.
+
+[n157]
+Năm xương dài của bàn chân nối cổ chân với các ngón chân là:
+* Xương bàn chân (metatarsals)
+- Xương đốt ngón (phalanges)
+- Xương bàn tay (metacarpals)
+- Xương cổ chân (tarsals)
+> Bàn chân có 26 xương: 7 xương cổ chân (tarsals), 5 xương bàn chân (metatarsals) và 14 xương đốt ngón (phalanges).
+
+[n158]
+Bàn tay người, tính cả cổ tay, có bao nhiêu xương?
+- 14
+- 19
+* 27
+- 33
+> Bàn tay và cổ tay có 27 xương: 8 xương cổ tay (carpals), 5 xương bàn tay (metacarpals) và 14 xương đốt ngón (phalanges).
+
+[n159]
+Các cơ làm duỗi thẳng cổ tay, bàn tay và ngón tay là:
+- Cơ khép (adductors)
+- Cơ gấp (flexors)
+- Cơ sấp (pronators)
+* Cơ duỗi (extensors)
+> Cơ duỗi (extensors) làm duỗi thẳng cổ tay và ngón tay; cơ gấp (flexors) làm chúng co lại.
+
+[n160]
+Các cơ ở gốc ngón tay giúp khép các ngón tay lại với nhau là:
+- Cơ duỗi (extensors)
+- Cơ dạng (abductors)
+- Cơ ngửa (supinators)
+* Cơ khép (adductors)
+> Cơ khép (adductors) kéo các ngón tay sát lại với nhau; cơ dạng (abductors) tách các ngón ra.
+
+[n161]
+Cơ bắp chân lớn giúp kéo bàn chân xuống và duỗi mũi chân là:
+- Cơ chày trước (tibialis anterior)
+- Cơ duỗi ngón cái dài (extensor hallucis longus)
+* Cơ bụng chân (gastrocnemius)
+- Cơ duỗi các ngón dài (extensor digitorum longus)
+> Cơ gastrocnemius tạo nên phần lớn bắp chân và bám vào gót chân. Massage khi làm pedicure thường gồm nhào nặn nhẹ cơ này.
+
+[n162]
+Dây thần kinh chi phối phía ngón út của cánh tay và lòng bàn tay là:
+- Thần kinh quay (radial nerve)
+- Thần kinh giữa (median nerve)
+- Thần kinh toạ (sciatic nerve)
+* Thần kinh trụ (ulnar nerve)
+> Thần kinh trụ chạy dọc phía ngón út của cánh tay và bàn tay; thần kinh quay chi phối phía ngón cái.
+
+[n163]
+Mạch máu đưa máu trở về tim là:
+* Tĩnh mạch (veins)
+- Tiểu động mạch (arterioles)
+- Hạch bạch huyết
+- Động mạch (arteries)
+> Động mạch đưa máu đi khỏi tim, tĩnh mạch đưa máu trở về. Tĩnh mạch có van giúp máu chảy theo hướng về tim.
+
+[n164]
+Tình trạng viêm mầm móng (matrix), có thể dẫn đến bong móng, gọi là:
+- Onychauxis
+* Onychia
+- Leukonychia
+- Pterygium
+> Onychia thường bắt đầu khi vi trùng xâm nhập qua vết thương nhỏ hoặc từ dụng cụ không sạch. Không làm trên móng đó; giới thiệu khách đến bác sĩ.
+
+[n165]
+Tình trạng một hoặc nhiều móng bong ra từng đợt, toàn bộ hoặc một phần, gọi là:
+- Onychophagy
+- Onycholysis
+* Onychoptosis
+- Onychocryptosis
+> Onychoptosis có thể xảy ra sau một số bệnh, sốt, chấn thương hoặc phản ứng thuốc. Giới thiệu khách đến bác sĩ để tìm nguyên nhân.
+
+[n166]
+Tình trạng móng bị teo, mất độ bóng, nhỏ lại và có thể bong ra, gọi là:
+- Onychauxis
+- Onychorrhexis
+* Onychatrophia
+- Onychogryphosis
+> Onychatrophia có thể do tổn thương mầm móng hoặc do bệnh. Làm thật nhẹ nhàng trên móng đó và giới thiệu khách đến bác sĩ.
+
+[n167]
+Móng dày lên và cong quặp quá mức, đôi khi gọi là móng "sừng cừu" hay móng vuốt, là:
+* Onychogryphosis
+- Leukonychia
+- Onychoptosis
+- Koilonychia
+> Onychogryphosis hay gặp nhất ở ngón chân cái, có thể do chấn thương hoặc lâu ngày không chăm sóc. Trường hợp nặng nên giới thiệu đến bác sĩ chân (podiatrist).
+
+[n168]
+Những lỗ rỗ li ti hoặc bề mặt rất sần sùi trên mặt móng thường liên quan đến:
+- Xuất huyết dạng mảnh dằm (splinter hemorrhages)
+* Vảy nến móng (nail psoriasis)
+- Móng vỏ trứng (eggshell nails)
+- Xước măng rô (hangnails)
+> Vảy nến móng có thể gây rỗ, sần sùi và đôi khi làm móng tách khỏi giường móng. Không tự chữa; giới thiệu khách đến bác sĩ.
+
+[n169]
+Móng mỏng, trắng, mềm dẻo hơn bình thường nhiều và cong ở đầu móng, được gọi là:
+- Móng kìm (pincer nails)
+* Móng vỏ trứng (eggshell nails)
+- Móng hình muỗng (spoon nails)
+- Móng gập (plicatured nails)
+> Móng vỏ trứng có thể do ăn uống thiếu chất, bệnh tật, thuốc hoặc rối loạn thần kinh. Dũa nhẹ bằng dũa mịn vì móng rất dễ gãy.
+
+[n170]
+Tuần trước khách bị cửa xe kẹp ngón tay, và bây giờ dưới móng có một vết màu tím sẫm. Đây nhiều khả năng là:
+- Melanonychia
+- Nhiễm nấm
+- Leukonychia
+* Móng bị bầm (cục máu đông dưới mặt móng)
+> Móng bị bầm xảy ra khi một chấn thương nhỏ gây chảy máu dưới mặt móng. Vết sẫm màu thường mọc ra theo móng; làm nhẹ tay ở vùng đó.
+
+[n171]
+Móng cong mạnh và gập lại, thường do tổn thương mầm móng nhưng đôi khi do di truyền, gọi là:
+- Móng hình muỗng (spoon nail)
+* Móng gập (plicatured nail)
+- Móng vỏ trứng (eggshell nail)
+- Xước măng rô (hangnail)
+> "Plicatured" nghĩa là gập lại. Loại móng này cong gắt ở hai bên và thường dẫn đến móng mọc ngược vào thịt, nên giới thiệu khách đến bác sĩ nếu bị đau.
+
+[n172]
+Da từ hyponychium mọc ra phía trước và dính vào mặt dưới của móng gọi là:
+- Paronychia
+- Onycholysis
+* Pterygium ngược (inverse pterygium)
+- Xước măng rô (hangnail)
+> Inverse pterygium dính vào mặt dưới đầu móng và có thể gây đau. Không bao giờ đẩy mạnh hoặc cắt; giới thiệu khách đến bác sĩ nếu khó chịu.
+
+[n173]
+Các đường gờ dọc (ridges) trên mặt móng, thường gặp khi lớn tuổi, nên được xử lý bằng cách:
+* Chà bóng (buff) cẩn thận và dùng lớp sơn lót lấp gờ (ridge filler)
+- Từ chối làm và giới thiệu đến bác sĩ
+- Ngâm móng trong acetone
+- Dũa sâu cho đến khi hết gờ
+> Móng có gờ vẫn làm dịch vụ được. Dũa sâu làm móng mỏng và yếu, còn chà bóng nhẹ và dùng ridge filler giúp bề mặt trơn láng.
+
+[n174]
+Một cục mô đỏ mọc từ giường móng lên phía mặt móng, do viêm nặng, gọi là:
+* U hạt sinh mủ (pyogenic granuloma)
+- Xước măng rô (hangnail)
+- Đốm trắng leukonychia
+- Cục chai nhân (corn)
+> Pyogenic granuloma là bệnh lý. Không làm trên móng đó; giới thiệu khách đến bác sĩ.
+
+[n175]
+Mảng da dày ở lòng bàn chân, hình thành do bị đè ép hoặc cọ xát nhiều lần, gọi là:
+- Mụn cóc (wart)
+* Vết chai (callus / keratoma)
+- Nốt ruồi (mole)
+- Mụn nước (vesicle)
+> Vết chai là phản ứng tự bảo vệ của da khi bị đè ép. Có thể làm mỏng nhẹ nhàng khi làm pedicure nhưng không được lấy hết.
+
+[n176]
+Một khách bị tiểu đường có vết lở hở nhỏ ở lòng bàn chân và muốn làm pedicure. Bạn nên:
+- Làm pedicure nhưng tránh xa vết lở
+* Không làm pedicure và giới thiệu khách đến bác sĩ hoặc bác sĩ chân (podiatrist)
+- Dán băng lên vết lở rồi làm bình thường
+- Ngâm chân lâu hơn cho vết lở được sạch
+> Bệnh tiểu đường có thể làm giảm tuần hoàn máu và cảm giác, nên vết thương lâu lành và rất dễ nhiễm trùng. Không bao giờ làm trên bàn chân có vết lở hở.
+
+[n177]
+Tình trạng nào sau đây thường vẫn có thể làm dịch vụ?
+* Đường Beau (Beau's lines)
+- Nấm móng (onychomycosis)
+- Viêm quanh móng (paronychia)
+- Nấm chân (tinea pedis)
+> Đường Beau cho thấy móng từng bị ngưng mọc và không lây. Các bệnh nhiễm trùng như paronychia, onychomycosis và tinea pedis phải được giới thiệu đến bác sĩ.
+
+[n178]
+Một khách quen làm móng bột (acrylic) bị đỏ, ngứa, sưng da quanh móng ở chỗ sản phẩm dính vào da. Nguyên nhân nhiều khả năng nhất là:
+* Phản ứng dị ứng (mẫn cảm / sensitization) với sản phẩm làm móng
+- Nhiễm khuẩn từ giấy form (nail form)
+- Da khô bình thường, thoa lotion là hết
+- Thiếu vitamin
+> Da tiếp xúc nhiều lần với liquid (monomer) hoặc gel có thể gây viêm da tiếp xúc dị ứng. Ngưng dùng sản phẩm đó cho khách, khuyên khách đi bác sĩ, và giữ sản phẩm không dính vào da.
+
+[n179]
+Da bị đỏ, khô do một chất mạnh tạm thời làm tổn thương biểu bì, mà không phải do dị ứng, gọi là:
+- Viêm da tiếp xúc dị ứng (allergic contact dermatitis)
+- Tăng tiết mồ hôi (hyperhidrosis)
+- Vảy nến (psoriasis)
+* Viêm da tiếp xúc kích ứng (irritant contact dermatitis)
+> Viêm da tiếp xúc kích ứng do các chất như xà phòng mạnh hoặc dung môi gây ra. Đeo găng tay và hạn chế để da tiếp xúc giúp phòng ngừa.
+
+[n180]
+Tình trạng ra mồ hôi quá nhiều, thường thấy ở tay hoặc chân, gọi là:
+- Anhidrosis
+* Hyperhidrosis
+- Bromhidrosis
+- Miliaria rubra (rôm sảy)
+> Hyperhidrosis là do tuyến mồ hôi hoạt động quá mức. Hơi ẩm ảnh hưởng đến độ bám của sơn và móng nhân tạo, nên giữ mặt móng khô trong suốt dịch vụ.
+
+[n181]
+Mồ hôi có mùi hôi, thường ở nách hoặc bàn chân, gọi là:
+- Onychorrhexis
+- Hyperhidrosis
+- Anhidrosis
+* Bromhidrosis
+> Bromhidrosis là do vi khuẩn phân huỷ mồ hôi trên da. Giữ vệ sinh chân, mang vớ sạch và giày thoáng khí giúp giảm mùi.
+
+[n182]
+Vết nứt trên da ăn sâu xuống lớp bì, như tay nứt nẻ nặng hoặc gót chân nứt, gọi là:
+- Mụn nước (vesicle)
+* Vết nứt (fissure)
+- Dát / đốm phẳng (macule)
+- Mụn mủ (pustule)
+> Vết nứt có thể chảy máu và cho vi trùng xâm nhập. Không làm dịch vụ trên vết nứt hở hoặc đang chảy máu.
+
+[n183]
+Một mụn nước nhỏ hoặc túi nhỏ chứa dịch trong gọi là:
+- Dát (macule)
+* Mụn nước (vesicle)
+- Sẩn (papule)
+- Củ (tubercle)
+> Mụn nước nằm trong hoặc ngay dưới lớp biểu bì. Bóng nước lớn hơn gọi là bulla.
+
+[n184]
+Một đốm phẳng hoặc vết đổi màu trên da, như tàn nhang, gọi là:
+- Sẩn phù (wheal)
+- Mụn mủ (pustule)
+* Dát (macule)
+- Nốt / cục (nodule)
+> Dát thì phẳng, không nhô lên. Sẩn (papule), sẩn phù (wheal) và nốt (nodule) là các tổn thương nhô lên.
+
+[n185]
+Một tên gọi khác của onychomycosis là:
+- Tinea pedis
+* Tinea unguium
+- Tinea capitis
+- Tinea corporis
+> "Unguium" chỉ móng. Tinea unguium (onychomycosis) là bệnh nấm móng có thể lây, phải được giới thiệu đến bác sĩ.
+
+[n186]
+Chất chỉ gồm một loại nguyên tử và không thể phân tách thành chất đơn giản hơn gọi là:
+- Hợp chất (compound)
+- Hỗn hợp (mixture)
+- Nhũ tương (emulsion)
+* Nguyên tố (element)
+> Nguyên tố là dạng đơn giản nhất của vật chất. Hợp chất gồm hai hay nhiều nguyên tố kết hợp hoá học với nhau, như nước (H2O).
+
+[n187]
+Nước sơn thường (loại tự khô) cứng lại chủ yếu là do:
+* Dung môi bay hơi và để lại một lớp màng
+- Trùng hợp khi gặp ánh sáng
+- Phản ứng với oxy tạo thành chất mới
+- Hút nước từ mặt móng
+> Sơn tự khô trải qua thay đổi vật lý: dung môi bay hơi, còn lại các thành phần tạo màng. Gel và bột acrylic cứng lại nhờ phản ứng hoá học.
+
+[n188]
+Trong hệ thống bột và nước (acrylic), thành phần trong bột giúp khởi động phản ứng trùng hợp thường là:
+- Acetone
+- Ethyl acetate
+* Benzoyl peroxide (chất khơi mào / initiator)
+- Methacrylic acid
+> Benzoyl peroxide (BPO) là chất khơi mào. Khi liquid thấm ướt bột, BPO được kích hoạt và bắt đầu nối các monomer thành chuỗi polymer.
+
+[n189]
+Chất làm tăng tốc độ phản ứng hoá học mà bản thân không bị tiêu hao gọi là:
+- Dung môi (solvent)
+- Chất tan (solute)
+- Polymer
+* Chất xúc tác (catalyst)
+> Chất xúc tác được thêm vào liquid (monomer) và gel để kiểm soát tốc độ đông cứng.
+
+[n190]
+Monomer tạo liên kết chéo (cross-linker) được thêm vào sản phẩm làm móng để:
+- Thêm màu và độ bóng cho móng
+- Giúp sản phẩm tan nhanh hơn trong acetone
+* Nối các chuỗi polymer thành cấu trúc dạng lưới chắc chắn
+- Giữ cho liquid không bay hơi
+> Cross-linker nối các chuỗi polymer dài với nhau, giúp móng nhân tạo chắc hơn và khó bị phân huỷ hơn.
+
+[n191]
+Một sản phẩm có mùi rất nồng. Mùi đó cho bạn biết gì về mức độ bạn bị phơi nhiễm?
+- Mùi nồng nghĩa là đang có lượng hơi ở mức nguy hiểm
+- Sản phẩm không mùi thì luôn an toàn khi hít phải
+* Chỉ dựa vào mùi thì không đo được chính xác lượng hơi bạn hít vào
+- Sản phẩm có mùi thơm thì không thể gây hại
+> Có loại hơi độc gần như không mùi, và có mùi nồng nhưng vô hại ở nồng độ thấp. Kiểm soát phơi nhiễm bằng thông gió, đậy kín nắp và thói quen làm việc đúng cách.
+
+[n192]
+Ba con đường chính để hoá chất xâm nhập vào cơ thể là:
+- Chỉ qua tóc, móng và răng
+- Chỉ qua mồ hôi và chớp mắt
+* Hít phải, hấp thụ qua da hoặc mắt, và nuốt phải
+- Chỉ qua vết cắt và vết thương hở
+> Hít hơi và bụi, để da và mắt tiếp xúc, và nuốt phải (ví dụ ăn uống tại bàn làm việc) là các đường phơi nhiễm. Thói quen làm việc tốt giúp giảm cả ba.
+
+[n193]
+Khẩu trang giấy chống bụi đeo khi dũa móng nhân tạo sẽ:
+- Bảo vệ khỏi mọi loại hơi hoá chất
+- Ngăn ngừa dị ứng da
+- Thay thế được hệ thống thông gió
+* Giúp chặn hạt bụi nhưng không chặn được hơi hoá chất
+> Khẩu trang chống bụi giữ lại hạt bụi, nhưng phân tử hơi hoá chất đi xuyên qua dễ dàng. Vẫn cần thông gió và đậy kín nắp để kiểm soát hơi.
+
+[n194]
+Thùng rác ở bàn làm móng phải là:
+* Thùng kim loại có nắp tự đóng, đổ rác thường xuyên
+- Giỏ hở, mỗi tuần đổ một lần
+- Thùng giấy carton để dưới bàn
+- Túi nhựa treo sau lưng ghế
+> Bông và khăn giấy thấm sản phẩm sẽ bốc hơi. Thùng kim loại có nắp tự đóng giữ hơi lại và giảm nguy cơ cháy; đổ rác nhiều lần trong ngày.
+
+[n195]
+Liquid (monomer) còn thừa trong chén đựng (dappen dish) không bao giờ được đổ lại vào chai gốc vì:
+- Liquid sẽ bay hơi quá nhanh khi đổ lại
+- Liquid mất hết mùi khi để trong chén
+- Liquid đổi màu khi để trong chén
+* Liquid có thể đã bị nhiễm bẩn và làm hỏng cả chai
+> Bụi, bột và chất bẩn rơi vào chén trong lúc làm và có thể làm nhiễm bẩn cả chai. Chỉ rót ra lượng vừa đủ dùng.
+
+[n196]
+Lượng nhỏ liquid (monomer) còn thừa phải được bỏ đi bằng cách:
+* Thấm bằng khăn, bỏ vào túi kín rồi vứt đi
+- Để chén mở cho bay hơi qua đêm
+- Đổ xuống bồn rửa
+- Đổ vào bồn cầu
+> Không bao giờ đổ monomer xuống cống hay để bay hơi trong tiệm. Thấm hết, cho vào túi nhựa kín và bỏ vào thùng rác có nắp.
+
+[n197]
+Primer giúp tăng độ bám dính bằng cách hoạt động giống như:
+* Băng keo hai mặt giữa móng thật và sản phẩm
+- Lớp phủ chặn hơi ẩm vĩnh viễn
+- Dung môi làm tan bề mặt móng
+- Thuốc nhuộm tạo màu cho mặt móng
+> Một phần phân tử primer bám vào mặt móng, phần còn lại bám vào sản phẩm làm móng, giữ hai bên dính chặt với nhau.
+
+[n198]
+Các chuỗi monomer ngắn, chưa đủ dài để thành polymer và là thành phần chính của gel UV, gọi là:
+* Oligomer
+- Chất tan (solute)
+- Chất xúc tác (catalyst)
+- Chất hoạt động bề mặt (surfactant)
+> "Oligo" nghĩa là ít. Oligomer là những chuỗi đã nối một phần, sẽ liên kết thành polymer hoàn chỉnh khi gel được hơ đèn (cure).
+
+[n199]
+Nguyên tắc phơi nhiễm quá mức (overexposure principle) cho rằng:
+- Bất kỳ lượng hoá chất nào cũng luôn gây hại
+* Mức độ gây hại phụ thuộc vào lượng tiếp xúc, mức độ thường xuyên và thời gian tiếp xúc
+- Sản phẩm tự nhiên không bao giờ gây hại
+- Chỉ sản phẩm có mùi nồng mới gây hại
+> Mọi chất đều có mức tiếp xúc an toàn và mức không an toàn. Sử dụng đúng cách giúp bạn luôn ở dưới xa mức gây hại.
+
+[n200]
+Các chất lỏng hoà lẫn dễ dàng với nhau theo mọi tỷ lệ, như nước và cồn, được gọi là:
+- Không hoà tan (insoluble)
+- Không trộn lẫn được (immiscible)
+- Huyền phù (suspensions)
+* Trộn lẫn được (miscible)
+> Chất lỏng miscible hoà lẫn hoàn toàn. Chất lỏng immiscible, như dầu và nước, sẽ tách lớp nếu không có chất nhũ hoá.
+
+[n201]
+Hạt màu trong nước sơn từ từ lắng xuống đáy chai khi để yên. Đó là vì nước sơn là một:
+- Dung dịch (solution)
+- Nguyên tố (element)
+- Hợp chất (compound)
+* Huyền phù (suspension)
+> Trong huyền phù, các hạt phân tán trong chất lỏng nhưng không tan, nên chúng tách ra theo thời gian và phải trộn lại trước khi dùng.
+
+[n202]
+Chất dễ bay hơi ở nhiệt độ phòng được gọi là:
+- Trộn lẫn được (miscible)
+- Trơ (inert)
+- Kiềm (alkaline)
+* Dễ bay hơi (volatile)
+> Chất lỏng dễ bay hơi như acetone và cồn bốc hơi rất nhanh. Luôn đậy kín nắp để hạn chế hơi và nguy cơ cháy.
+
+[n203]
+So với dung dịch có pH 5, dung dịch có pH 4:
+- Có tính axit gấp đôi
+* Có tính axit mạnh gấp 10 lần
+- Có tính axit yếu hơn một chút
+- Có tính kiềm mạnh gấp 100 lần
+> Thang pH là thang logarit: mỗi bậc số nguyên tương ứng với mức thay đổi gấp 10 lần về tính axit hoặc kiềm.
+
+[n204]
+Một giọt primer bắn vào mắt thợ nail. Việc đầu tiên cần làm là:
+- Dụi mắt nhẹ để lấy primer ra
+* Rửa mắt bằng nhiều nước sạch đang chảy và đi khám ngay
+- Nhỏ thuốc nhỏ mắt rồi làm xong dịch vụ
+- Che mắt lại và chờ hết đau
+> Primer gốc axit có thể làm bỏng mắt. Rửa ngay trong thời gian SDS hướng dẫn (thường 15 phút) và đi khám. Đeo kính bảo hộ để phòng tai nạn này.
+
+[n205]
+Phần nào của Bảng Dữ liệu An toàn (SDS) cho biết đồ bảo hộ cá nhân (PPE) cần dùng, như găng tay hay kính bảo hộ?
+- Phần 1: Nhận dạng sản phẩm
+- Phần 4: Biện pháp sơ cứu
+* Phần 8: Kiểm soát phơi nhiễm / bảo hộ cá nhân
+- Phần 14: Thông tin vận chuyển
+> Phần 8 ghi giới hạn phơi nhiễm, yêu cầu thông gió và đồ bảo hộ khuyến nghị. Phần 2 ghi các mối nguy hiểm và Phần 4 ghi các bước sơ cứu.
+
+[n206]
+Nếu bạn sang sản phẩm từ chai gốc sang chai nhỏ hơn, bạn phải:
+- Để chai nhỏ không dán nhãn
+- Thêm chút nước cho dùng được lâu hơn
+- Dùng chai đựng thức ăn hoặc đồ uống đã hết
+* Dán nhãn chai mới với tên sản phẩm và các mối nguy hiểm
+> OSHA yêu cầu mọi chai lọ phải có nhãn để ai cũng biết bên trong là gì. Không bao giờ đựng hoá chất của tiệm trong chai lọ đựng thức ăn hay đồ uống.
+
+[n207]
+Nước sơn bị đặc quá nên được pha loãng bằng:
+- Nước tẩy sơn có acetone
+* Dung dịch pha loãng sơn (polish thinner) do nhà sản xuất khuyên dùng
+- Nước
+- Dầu dưỡng móng (cuticle oil)
+> Nước tẩy sơn phá vỡ công thức của sơn và làm hỏng sơn. Thêm thinner theo khuyến nghị, mỗi lần vài giọt.
+
+[n208]
+Trong manicure cơ bản, tại sao phải dũa dáng móng trước khi ngâm?
+- Móng sau khi ngâm trở nên quá cứng để dũa
+- Dũa sau khi ngâm sẽ làm mất chất làm mềm da
+* Móng bị nước làm mềm dễ bị tách lớp hoặc bong khi dũa
+- Nước làm móng mọc dài ra trong lúc dũa
+> Nước làm mặt móng mềm và nở ra. Dũa lúc đó dễ làm móng tách lớp và bong, nên dũa dáng trước rồi mới ngâm.
+
+[n209]
+Cách tẩy sơn móng đúng là:
+- Chà qua chà lại trên móng bằng bông khô
+- Ngâm ngón tay trong nước tẩy sơn 10 phút
+- Cạo sơn bằng cây đẩy da kim loại
+* Giữ bông thấm nước tẩy trên móng vài giây, rồi lau về phía đầu móng
+> Để nước tẩy thấm vài giây giúp sơn mềm ra. Lau về phía đầu móng giúp màu sơn không lem vào da quanh móng.
+
+[n210]
+Dáng móng nào thường được khách nam chọn?
+- Nhọn (pointed)
+* Tròn (round)
+- Stiletto
+- Hạnh nhân (almond)
+> Móng tròn hơi thon lại và chỉ dài hơn đầu ngón tay một chút, gọn gàng, tiện dụng, hợp với nhiều khách nam.
+
+[n211]
+Khách muốn dũa đầu móng thẳng ngang với góc nhọn, không bo tròn. Khách đang muốn dáng móng nào?
+- Oval
+* Vuông (square)
+- Squoval
+- Tròn (round)
+> Móng vuông được dũa thẳng ngang. Squoval cũng tương tự nhưng có góc hơi bo tròn.
+
+[n212]
+Dáng móng nhọn (pointed) được mô tả đúng nhất là:
+- Dáng nên dùng cho tất cả móng chân
+- Dáng chắc nhất cho khách làm việc nhiều bằng tay
+- Thẳng ngang với góc vuông
+* Thon nhọn và yếu hơn các dáng khác, nên dễ gãy hơn
+> Móng nhọn hợp với bàn tay thon và giường móng hẹp, nhưng phần thon nhọn làm đầu móng thiếu điểm tựa nên dễ gãy hơn.
+
+[n213]
+Khi sơn móng, bạn nên:
+* Chừa một khoảng hở rất nhỏ để sơn không dính vào da quanh móng và hai bên
+- Sơn tràn lên da và hai bên để màu trông đầy đặn
+- Sơn một lớp màu thật dày
+- Bắt đầu từ đầu móng và quét về phía da
+> Một khoảng hở nhỏ như sợi chỉ giữ sơn không dính vào da và cho kết quả gọn gàng, chuyên nghiệp.
+
+[n214]
+Quét cọ sơn dọc theo mép đầu móng sau mỗi lớp được gọi là "bọc đầu móng" (capping the free edge). Việc này giúp:
+- Làm loãng sơn
+- Lấy bớt da chết
+* Ngăn sơn bị tróc và bong ở đầu móng
+- Làm sơn khô nhanh hơn
+> Bọc lớp màu và top coat qua mép đầu móng giúp niêm kín đầu móng, nơi bị mài mòn nhiều nhất.
+
+[n215]
+Một cách sơn màu chuẩn cho móng tay là:
+* Quét một đường ở giữa, rồi một đường dọc mỗi bên
+- Chấm sơn thành từng đốm nhỏ
+- Quét ngang móng từ bên này sang bên kia
+- Chỉ sơn ở đầu móng
+> Bắt đầu gần da và kéo về phía đầu móng với khoảng ba đường cọ giúp màu đều và mịn.
+
+[n216]
+Trước khi cho tay khách vào bồn sáp paraffin, bạn nên:
+- Cho khách lau tay bằng acetone
+- Sơn móng để sáp không dính
+* Thử nhiệt độ sáp ở mặt trong cổ tay khách
+- Đun sáp cho đến khi trong và bốc khói
+> Sáp paraffin phải ấm chứ không nóng. Thử trước giúp tránh bỏng, và da phải sạch, không có vết cắt.
+
+[n217]
+Để giảm nguy cơ chấn thương do lặp đi lặp lại như hội chứng ống cổ tay (carpal tunnel), thợ nail nên:
+- Cầm dụng cụ càng chặt càng tốt
+- Làm liên tục không nghỉ cho nhanh xong
+- Gập cổ tay mạnh để với tới tay khách
+* Giữ cổ tay thẳng (tư thế trung tính) và nghỉ ngắn để duỗi tay
+> Giữ cổ tay ở tư thế trung tính, chỉnh ghế và bàn đúng độ cao, và thường xuyên duỗi tay giúp giảm áp lực lên bàn tay và cổ tay.
+
+[n218]
+Miếng xốp tách ngón chân (toe separators) và dép pedicure dùng một lần là:
+- Khử trùng rồi dùng lại cho khách sau
+* Vật dụng dùng một lần, bỏ đi hoặc đưa cho khách
+- Rửa trong bồn ngâm chân rồi dùng lại
+- Xịt cồn rồi để lại lên kệ
+> Đồ bằng xốp và giấy là vật liệu xốp, không thể khử trùng, nên chỉ dùng cho một khách.
+
+[n219]
+Khi chà bóng (buff) móng tự nhiên cho thật bóng, bạn nên:
+- Ấn mạnh để móng bóng nhanh hơn
+* Ấn nhẹ và di chuyển cục chà liên tục để tránh nóng
+- Chỉ chà vùng gần da
+- Hoàn tất bằng mặt nhám nhất của cục chà
+> Ấn quá mạnh hoặc chà quá nhiều tạo nhiệt, gây cảm giác rát và làm móng mỏng đi. Dùng lần lượt từ mặt nhám hơn đến mặt mịn nhất.
+
+[n220]
+Trước khi ngâm tháo sơn gel (gel polish), thợ nail nên:
+- Thoa dầu dưỡng lên gel để niêm kín
+- Hơ đèn lại một lần nữa
+* Dũa nhẹ lớp top coat bóng để phá lớp niêm
+- Lột gel ra từ đầu móng
+> Phá lớp niêm của top coat giúp acetone thấm vào gel. Lột gel sẽ lột luôn các lớp của móng thật.
+
+[n221]
+Các lớp màu của sơn gel nên được sơn:
+- Một lớp thật dày cho đỡ tốn thời gian
+* Thành lớp mỏng, hơ đèn từng lớp theo hướng dẫn
+- Tràn lên da để màu trông đầy đặn
+- Không cần base coat để bám tốt hơn
+> Lớp mỏng khô cứng hoàn toàn và ít bị hở. Lớp dày có thể còn ướt bên dưới và dễ bị nhăn.
+
+[n222]
+Trước mỗi khách làm manicure, mặt bàn phải được:
+* Làm sạch và khử trùng, rồi trải khăn sạch mới
+- Phủi bụi bằng khăn khô
+- Xịt nước hoa xịt phòng
+- Chỉ lau dọn vào cuối ngày
+> Mỗi khách đều phải được phục vụ ở chỗ làm vừa được làm sạch và khử trùng. Sau đó trải khăn sạch lên mặt bàn đã khử trùng.
+
+[n223]
+Dụng cụ vẽ móng có đầu bi nhỏ, dùng để chấm những chấm màu tròn, gọi là:
+* Cây chấm bi (dotting tool / stylus)
+- Cọ kẻ sọc (striping brush)
+- Cọ quạt (fan brush)
+- Cây đẩy da (cuticle pusher)
+> Cây chấm bi có nhiều cỡ đầu bi. Nhúng đầu bi vào sơn hoặc màu vẽ rồi chạm nhẹ lên móng.
+
+[n224]
+Động tác massage dùng lực chà sâu để di chuyển da trên các mô bên dưới là:
+- Vuốt nhẹ (effleurage)
+- Vỗ nhẹ (tapotement)
+- Rung (vibration)
+* Chà xát (friction)
+> Friction là động tác chà sâu, thường làm theo vòng tròn nhỏ. Động tác này kích thích tuần hoàn mạnh hơn effleurage.
+
+[n225]
+Khách yêu cầu bạn cắt bỏ phần da ở gốc móng vì "trông mọc dày quá". Bạn nên:
+* Giải thích đó là da sống không được cắt, và nhẹ nhàng đẩy lùi da vào
+- Cắt bằng kềm vì khách đã yêu cầu
+- Tỉa cẩn thận bằng kéo cắt da
+- Dũa bớt bằng dũa nhám
+> Eponychium bảo vệ mầm móng khỏi nhiễm trùng. Cắt phần da này có thể gây chảy máu và nhiễm trùng, kể cả khi khách yêu cầu.
+
+[n226]
+Khi bắt đầu làm manicure, khách nên rửa tay bằng:
+- Cục xà phòng dùng chung ở bồn rửa
+* Xà phòng nước, rồi lau khô bằng khăn sạch hoặc khăn dùng một lần
+- Acetone và miếng bông
+- Chỉ nước lã, rồi để khô tự nhiên
+> Nên dùng xà phòng nước từ bình bơm vì cục xà phòng dùng chung có thể chứa vi trùng. Tay sạch giúp giảm lây lan vi trùng trong lúc làm.
+
+[n227]
+Khi massage tay hoặc chân, bạn nên tránh massage lên:
+- Da lành lặn, không trầy xước
+- Lòng bàn tay
+* Vết lở hở, chỗ sưng hoặc chỗ bị viêm
+- Mu bàn chân
+> Massage lên da bị tổn thương hoặc bị viêm có thể làm lây nhiễm trùng hoặc làm tình trạng nặng thêm. Bỏ qua vùng đó và giới thiệu khách đi khám nếu cần.
+
+[n228]
+Để giúp khách tránh xước măng rô (hangnails) và da khô quanh móng giữa các lần hẹn, bạn nên khuyên khách:
+- Cắn hoặc giật bỏ da thừa
+- Rửa tay bằng acetone
+* Thoa dầu hoặc kem dưỡng da quanh móng mỗi ngày
+- Tránh dùng mọi loại kem dưỡng tay
+> Thoa dầu hoặc kem mỗi ngày giữ cho da quanh móng mềm dẻo, ít bị nứt và ít bị xước măng rô.
+
+[n229]
+Để trộn đều nước sơn trước khi dùng mà không tạo bọt khí, bạn nên:
+- Lắc chai thật mạnh trong một phút
+* Lăn chai nhẹ nhàng giữa hai lòng bàn tay
+- Thêm một giọt nước tẩy sơn
+- Úp ngược chai qua đêm
+> Lắc chai tạo bọt khí có thể lộ ra trên lớp màu sau khi sơn. Lăn chai giúp các hạt màu hoà đều mà không có bọt.
+
+[n230]
+Trong cách đắp bột acrylic theo ba vùng (three-zone), sản phẩm phải mỏng nhất ở đâu?
+- Ở vùng chịu lực (stress area)
+- Ở điểm cao nhất (apex)
+* Gần da (cuticle) và hai bên móng
+- Ở giữa móng
+> Sản phẩm được vuốt mỏng dần ở vùng gần da và hai bên để liền mạch và không bị hở, còn vùng apex là chỗ dày nhất.
+
+[n231]
+Cọ đắp bột acrylic (liquid và powder) tốt nhất nên được làm sạch giữa các lần dùng bằng:
+* Chính liquid (monomer) dùng cho dịch vụ
+- Acetone
+- Nước nóng và xà phòng
+- Cồn
+> Dung môi mạnh như acetone có thể làm khô lông cọ tự nhiên, còn nước hoặc xà phòng sót trong cọ sẽ ảnh hưởng đến viên bột kế tiếp. Lau sạch cọ bằng monomer.
+
+[n232]
+Trên móng nhân tạo, "đường cong C" (C-curve) là:
+- Hình dạng đường cười (smile line) trên móng French
+* Độ cong nhìn thấy khi nhìn dọc móng từ phía đầu móng
+- Độ cong ở vùng gần da
+- Góc đặt của giấy form
+> Đường cong C tốt giúp móng nhân tạo chắc hơn. Thường được tạo bằng cách bóp nhẹ (pinch) sản phẩm khi còn hơi dẻo.
+
+[n233]
+Nếu móng thật của khách nằm giữa hai cỡ móng giả (tip), bạn nên:
+- Chọn tip nhỏ hơn và ấn thật chặt
+- Bỏ qua tip và chỉ sơn móng
+- Dùng hai tip nhỏ đặt cạnh nhau
+* Chọn tip hơi lớn hơn và dũa hai bên cho vừa
+> Tip quá nhỏ gây áp lực lên hai bên móng và có thể bị nứt. Tip hơi lớn có thể dũa cho vừa khít từ bên này sang bên kia.
+
+[n234]
+Cách gắn tip nào giúp tránh bị kẹt bọt khí?
+- Ấn tip phẳng xuống móng một lần
+- Bôi keo lên da khách trước
+- Trượt tip qua lại cho đến khi dính
+* Đặt tip nghiêng khoảng 45 độ, rồi chặn, lăn tip xuống và giữ (stop, rock, hold)
+> Cách "stop, rock and hold" đẩy không khí ra ngoài khi lăn tip xuống, giúp tip bám chắc và trong.
+
+[n235]
+Cách tốt nhất để cắt ngắn tip nhựa sau khi đã gắn là dùng:
+- Đá bọt (pumice)
+- Kềm cắt da (nippers)
+- Bấm móng chân
+* Dụng cụ cắt tip (tip cutter)
+> Tip cutter cắt ngọt ngang đầu tip. Kềm và bấm móng có thể làm nứt tip và gây áp lực lên móng thật.
+
+[n236]
+Khi làm fill, bột acrylic của khách bị hở (lifting) ở gần da. Cách xử lý phần bột bị hở đúng là:
+- Cạy lên bằng kềm rồi cắt bỏ
+- Bơm keo vào bên dưới rồi ấn xuống
+- Đắp bột mới đè lên luôn
+* Dũa cẩn thận bỏ phần bị hở và làm mịn mép
+> Cắt hoặc cạy phần bị hở có thể làm rách móng thật, còn dán keo xuống có thể giữ hơi ẩm bên trong. Dũa bỏ phần hở và làm liền mạch trước khi đắp bột mới.
+
+[n237]
+Trong hệ thống móng gel UV hoặc LED, gel xây dựng (builder gel) chủ yếu dùng để:
+* Tạo độ dày và độ chắc, kể cả điểm apex
+- Lấy da chết
+- Lau sạch lớp dính (inhibition layer)
+- Làm khô móng thật (dehydrate)
+> Builder gel là loại gel đặc hơn, dùng để tạo cấu trúc cho móng nhân tạo. Base gel được phủ trước và sealer hoặc top gel hoàn tất ở cuối.
+
+[n238]
+Hầu hết móng giả (tip) được làm từ:
+- Kính cường lực
+- Nhôm
+- Sợi lụa
+* Nhựa ABS
+> Tip thường làm bằng nhựa ABS, chắc, dẻo và dễ dũa liền mạch. Một số tip làm bằng acetate.
+
+[n239]
+Để tránh làm nhiễm bẩn chéo hũ bột nhúng (dip powder), thợ nail nên:
+- Nhúng ngón tay của mọi khách vào cùng một hũ
+- Thổi bột thừa rồi đổ lại vào hũ
+* Rắc hoặc đổ bột lên móng, hoặc dùng phần bột riêng cho mỗi khách
+- Để hũ mở cho thoáng khí
+> Nhúng nhiều khách vào cùng một hũ có thể lây vi trùng từ người này sang người khác. Dùng cách rắc bột lên móng hoặc phần bột dùng một lần, và bỏ bột đã dùng.
+
+[n240]
+Loại vải bọc móng (wrap) nào là vật liệu tự nhiên, mỏng và trở nên trong suốt khi phủ keo resin?
+- Vải lanh (linen)
+- Sợi thuỷ tinh (fiberglass)
+* Lụa (silk)
+- Giấy
+> Lụa dệt dày khít và trông mịn, trong khi phủ resin. Vải lanh dày hơn và vẫn nhìn thấy trừ khi sơn màu phủ lên, còn fiberglass là lưới sợi tổng hợp.
+
+[n241]
+Miếng vải bọc móng nhỏ được cắt để che vết nứt hoặc chỗ gãy trên móng gọi là:
+* Miếng vá (repair patch)
+- Giấy form (nail form)
+- Chén đựng (dappen dish)
+- Đầu nhám (sanding band)
+> Miếng vá được cắt rộng hơn vết nứt về mọi phía, rồi phủ resin để giữ chỗ gãy dính lại với nhau.
+
+[n242]
+Trên máy dũa điện (e-file), đầu mũi dùng để gắn đầu nhám dùng một lần (sanding band) là:
+* Trục gắn (mandrel)
+- Đầu mũi kim cương (diamond bit)
+- Đầu mũi làm da (cuticle bit)
+- Đầu mũi carbide (carbide bit)
+> Sanding band được lồng vào mandrel. Mandrel được làm sạch và khử trùng; sanding band bỏ đi sau mỗi khách.
+
+[n243]
+Khi gắn giấy form để đắp móng (sculptured nail), form phải:
+- Đặt lỏng lẻo phía trên đầu móng
+* Ôm khít bên dưới đầu móng, không có khe hở
+- Che kín toàn bộ mặt móng thật
+- Chĩa xuống phía sàn nhà
+> Khe hở làm sản phẩm chảy xuống dưới đầu móng, tạo móng yếu và không đều. Form phải thẳng hàng với móng thật.
+
+[n244]
+Dũa móng thật quá nhiều khi chuẩn bị làm móng nhân tạo có thể gây ra:
+- Móng mọc nhanh hơn
+* Móng mỏng, yếu và nhạy cảm
+- Bám tốt hơn mà không có tác hại gì
+- Mặt móng dày và chắc hơn
+> Khi chuẩn bị móng chỉ cần làm mất độ bóng. Móng bị dũa mỏng sẽ yếu, thấy nóng khi hơ đèn và dễ bị tổn thương.
+
+[n245]
+Cách đơn giản để biết bột acrylic đã đủ cứng để dũa là bột:
+- Đổi sang màu trắng sáng
+* Phát ra tiếng "cạch" khi gõ nhẹ bằng cán cọ
+- Còn ấm và mềm khi chạm vào
+- Có mùi nồng hơn trước
+> Bột acrylic đã cứng hoàn toàn sẽ kêu "cạch" khi gõ. Dũa quá sớm có thể làm hỏng sản phẩm.
+
+[n246]
+Trên móng pink-and-white, đường ranh giới giữa đầu móng trắng và phần hồng của giường móng gọi là:
+- Đường chịu lực (stress line)
+- Đường cong C (C-curve)
+- Điểm cao nhất (apex)
+* Đường cười (smile line)
+> Đường cười sắc nét, đều đặn là đặc điểm quan trọng của móng kiểu French đẹp.
+
+[n247]
+Làm "backfill" cho móng pink-and-white là để:
+- Tháo bỏ hoàn toàn móng nhân tạo
+- Thoa dầu dưỡng bên dưới lớp bột
+* Thay lại phần đầu trắng khi đường cười (smile line) mọc ra
+- Cắt ngắn móng thật
+> Khi móng mọc, phần trắng bị đẩy ra phía trước. Backfill là dũa bỏ phần trắng cũ và đắp lại bột trắng đúng vị trí đường cười.
+
+[n248]
+Bóng đèn UV trong đèn hơ gel phải được thay theo khuyến nghị của nhà sản xuất vì:
+- Bóng ngừng sáng sau một lần dùng
+- Bóng làm đổi màu gel
+- Bóng trở nên quá sáng với khách
+* Lượng tia UV phát ra giảm dần theo thời gian dù bóng vẫn sáng
+> Bóng đèn có thể trông vẫn sáng nhưng phát ra quá ít tia UV để làm gel khô hoàn toàn. Gel không khô hết gây hở móng, móng mau hư và gây dị ứng.
+
+[n249]
+Primer gốc axit (acid-based primer) phải được bôi:
+- Thật nhiều lên da, tip và móng
+* Một lượng rất nhỏ, chỉ lên mặt móng thật
+- Chỉ lên tip nhựa
+- Sau khi bột acrylic đã cứng
+> Chỉ cần một lượng rất nhỏ trên móng thật. Dùng quá nhiều primer hoặc để primer dính da có thể gây bỏng và dị ứng.
+
+[n250]
+Móng bột acrylic của khách cứ bị gãy ở vùng chịu lực (stress area). Nguyên nhân nhiều khả năng nhất là:
+- Đắp quá nhiều bột gần da
+* Lớp bột quá mỏng ở vùng chịu lực (thiếu apex hoặc apex sai vị trí)
+- Dùng dũa mịn để tạo dáng cuối cùng
+- Thoa dầu dưỡng mỗi ngày
+> Vùng chịu lực cần chắc nhất. Apex đặt đúng chỗ giúp tăng độ dày ở nơi móng hay bị uốn cong và gãy.

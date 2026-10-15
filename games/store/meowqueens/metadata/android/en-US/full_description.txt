@@ -1,14 +1,16 @@
-A cosy logic puzzle for cat lovers. Place exactly one cat in every row, every column and every colored area — and remember, cats never touch each other, not even diagonally.
+Place one cat per row, column and color. Cats can't touch! Daily puzzle.
 
-No numbers, no math, just pure deduction.
+HOW TO PLAY
+Place one cat in every row, every column and every colored area. Cats can never touch each other, not even diagonally. Tap once to mark X, tap again to place a cat. A wrong cat costs a heart.
 
 FEATURES
-• Every puzzle has exactly one solution, checked by a solver
-• Boards from 5×5 up to 9×9 as you progress
-• Daily puzzle to keep your brain sharp
-• Tap to mark X, tap again to place a cat
+• Unlimited puzzles in 4 levels: Easy, Medium, Hard and Expert
+• Every puzzle has exactly one solution – pure logic, no guessing
+• A new daily puzzle, streaks and a 60-day archive
+• Earn 1–3 stars, unlock 8 color themes, collect 12 trophies
+• Timer, best times and detailed stats
 • Hints when you're stuck
-• No ads. Works offline.
+• No ads. Works offline. No account needed.
 
 GO UNLIMITED
-A single one-time purchase unlocks unlimited lives and hints forever. No subscription.
+One small one-time purchase: unlimited Hard & Expert puzzles, unlimited hints, the full daily archive and every theme. No subscription.

@@ -1,0 +1,16 @@
+Divida a grade em retângulos: uma pista em cada um. Desafio diário.
+
+COMO JOGAR
+Arraste para dividir a grade em retângulos. Cada retângulo contém exatamente uma pista: o número é a sua área e o ícone mostra a forma (quadrado, largo ou alto). Toque num retângulo para apagá-lo.
+
+RECURSOS
+• Desafios ilimitados em 4 níveis: Fácil, Médio, Difícil e Especialista
+• Cada desafio tem uma única solução – lógica pura, sem chute
+• Desafio diário novo, sequências e arquivo de 60 dias
+• Ganhe de 1 a 3 estrelas, desbloqueie 8 temas e 12 troféus
+• Cronômetro, melhores tempos e estatísticas
+• Dicas quando você travar
+• Sem anúncios. Funciona offline. Sem cadastro.
+
+DESBLOQUEIE O ILIMITADO
+Um pagamento único: desafios difíceis e de especialista ilimitados, dicas ilimitadas, arquivo diário completo e todos os temas. Sem assinatura.

@@ -4,10 +4,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'config.dart';
 import 'i18n.dart';
+import 'meta.dart';
 import 'monetization.dart';
 import 'progress.dart';
 import 'shell/home_screen.dart';
 import 'shell/play_screen.dart';
+import 'shell/stats_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,10 +18,7 @@ Future<void> main() async {
   final money = Monetization(config, progress);
   final app = GameApp(config, progress, money, deviceLang());
   final demo = kIsWeb ? Uri.base.queryParameters['demo'] : null;
-  if (demo != null) {
-    progress.level = 27;
-    progress.bestScore = 2480;
-  }
+  if (demo != null) progress.loadDemo();
   runApp(PuzzleApp(app: app, demo: demo));
   await money.init();
 }
@@ -50,31 +49,41 @@ class PuzzleApp extends StatelessWidget {
   const PuzzleApp({super.key, required this.app, this.demo});
   final GameApp app;
 
-  /// Web-only store screenshot scenes: `?demo=home|play|play2|play3`.
+  /// Web-only store screenshot scenes: `?demo=home|play|play2|stats`.
   final String? demo;
 
   @override
   Widget build(BuildContext context) {
-    final scheme = ColorScheme.fromSeed(seedColor: app.config.color);
     return GameScope(
       app: app,
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: app.title,
-        theme: ThemeData(
-          colorScheme: scheme,
-          fontFamily: 'Roboto',
-          useMaterial3: true,
-          appBarTheme: AppBarTheme(
-            backgroundColor: scheme.surface,
-            surfaceTintColor: Colors.transparent,
-          ),
-        ),
-        home: switch (demo) {
-          'play' => const PlayScreen(daily: false, demoLevel: 8),
-          'play2' => const PlayScreen(daily: false, demoLevel: 23),
-          'play3' => const PlayScreen(daily: true, demoLevel: 15),
-          _ => const HomeScreen(),
+      child: ListenableBuilder(
+        listenable: app.progress,
+        builder: (context, _) {
+          final i = app.progress.themeIndex.clamp(0, gameThemes.length - 1);
+          final th = gameThemes[themeUnlocked(app.progress, i) ? i : 0];
+          final scheme = ColorScheme.fromSeed(
+            seedColor: th.seed ?? app.config.color,
+            brightness: th.dark ? Brightness.dark : Brightness.light,
+          );
+          return MaterialApp(
+            debugShowCheckedModeBanner: false,
+            title: app.title,
+            theme: ThemeData(
+              colorScheme: scheme,
+              fontFamily: 'Roboto',
+              useMaterial3: true,
+              appBarTheme: AppBarTheme(
+                backgroundColor: scheme.surface,
+                surfaceTintColor: Colors.transparent,
+              ),
+            ),
+            home: switch (demo) {
+              'play' => const PlayScreen(difficulty: 1, level: 8, demo: true),
+              'play2' => const PlayScreen(difficulty: 2, level: 3, demo: true),
+              'stats' => const StatsScreen(),
+              _ => const HomeScreen(),
+            },
+          );
         },
       ),
     );

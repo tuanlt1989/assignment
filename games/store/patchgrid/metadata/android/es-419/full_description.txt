@@ -1,0 +1,16 @@
+Divide la cuadrícula en rectángulos: una pista en cada uno. Reto diario.
+
+CÓMO JUGAR
+Arrastra para dividir la cuadrícula en rectángulos. Cada rectángulo contiene exactamente una pista: el número es su área y el icono indica su forma (cuadrado, ancho o alto). Toca un rectángulo para borrarlo.
+
+CARACTERÍSTICAS
+• Puzles ilimitados en 4 niveles: Fácil, Medio, Difícil y Experto
+• Cada puzle tiene una sola solución: lógica pura, sin adivinar
+• Puzle diario nuevo, rachas y archivo de 60 días
+• Gana de 1 a 3 estrellas, desbloquea 8 temas y 12 trofeos
+• Cronómetro, mejores tiempos y estadísticas
+• Pistas cuando te atascas
+• Sin anuncios. Funciona sin internet. Sin cuenta.
+
+PÁSATE A ILIMITADO
+Un único pago pequeño: puzles difíciles y expertos ilimitados, pistas ilimitadas, archivo diario completo y todos los temas. Sin suscripción.

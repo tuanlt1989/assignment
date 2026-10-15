@@ -1,0 +1,42 @@
+{
+  "id": "dominodots",
+  "applicationId": "com.tuanlt.puzzle.dominodots",
+  "launcherName": "Domino Dots",
+  "game": "pips",
+  "title": {
+    "en": "Domino Dots: Logic Puzzle",
+    "es": "Domino Dots: Lógica Dominó",
+    "pt": "Domino Dots: Lógica de Dominó",
+    "vi": "Domino Dots: Giải Đố Domino",
+    "id": "Domino Dots: Logika Domino",
+    "de": "Domino Dots: Domino-Logik",
+    "ja": "Domino Dots: ドミノ論理パズル"
+  },
+  "color": "#3949AB",
+  "icon": {
+    "label": "",
+    "badge": "",
+    "glyph": "domino"
+  },
+  "suggestedPriceUsd": 2.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/dominodots.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children.",
+  "tagline": {
+    "en": "Place every domino · Match each colored rule · Daily puzzle"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Place every domino to match the rules",
+      "Sum, equal, different, more or less",
+      "4 levels from Easy to Expert",
+      "Daily puzzle, streaks & trophies"
+    ]
+  },
+  "markets": [
+    "ALL"
+  ]
+}

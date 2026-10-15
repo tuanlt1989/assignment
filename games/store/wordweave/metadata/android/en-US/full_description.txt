@@ -1,0 +1,16 @@
+Find the hidden words woven through the grid. Every letter is used once.
+
+HOW TO PLAY
+The grid hides several words that use every letter exactly once. Drag across neighbouring letters (up, down, left or right) to trace a word that fits one of the slots; find them all to win.
+
+FEATURES
+• Unlimited puzzles in 4 levels: Easy, Medium, Hard and Expert
+• Every puzzle has exactly one solution – pure logic, no guessing
+• A new daily puzzle, streaks and a 60-day archive
+• Earn 1–3 stars, unlock 8 color themes, collect 12 trophies
+• Timer, best times and detailed stats
+• Hints when you're stuck
+• No ads. Works offline. No account needed.
+
+GO UNLIMITED
+One small one-time purchase: unlimited Hard & Expert puzzles, unlimited hints, the full daily archive and every theme. No subscription.

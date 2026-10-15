@@ -16,6 +16,14 @@ class QueensPuzzle {
   /// Column of the cat in each row.
   final List<int> solution;
 
+  /// Board size by difficulty: 5×5 easy … 8×8 expert (9×9 from expert #21).
+  static QueensPuzzle forDifficulty(int difficulty, int level, int seed) {
+    final n =
+        [5, 6, 7, 8][difficulty.clamp(0, 3)] +
+        (difficulty >= 3 && level > 20 ? 1 : 0);
+    return generate((n - 5) * 7, seed);
+  }
+
   static QueensPuzzle generate(int level, int seed) {
     final rnd = Random(seed);
     final n = (5 + level ~/ 7).clamp(5, 9);
@@ -193,7 +201,8 @@ class QueensGame extends StatefulWidget {
 enum _Mark { none, x, cat }
 
 class _QueensGameState extends State<QueensGame> {
-  late final QueensPuzzle _p = QueensPuzzle.generate(
+  late final QueensPuzzle _p = QueensPuzzle.forDifficulty(
+    widget.session.difficulty,
     widget.session.level,
     widget.session.seed,
   );
@@ -258,6 +267,7 @@ class _QueensGameState extends State<QueensGame> {
   void _placeCat(int cell) {
     final r = cell ~/ _p.n, c = cell % _p.n;
     if (_p.solution[r] != c) {
+      widget.session.addMistake();
       setState(() {
         _hearts--;
         _wrong = cell;

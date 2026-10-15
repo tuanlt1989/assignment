@@ -116,6 +116,41 @@ def _glyph(d: ImageDraw.ImageDraw, kind: str, cx: float, cy: float, s: float, fg
         for wx in (-0.5, 0.5):
             d.ellipse([cx + s * wx - s * 0.2, cy + s * 0.6, cx + s * wx + s * 0.2, cy + s * 1.0], fill=fg)
             d.ellipse([cx + s * wx - s * 0.1, cy + s * 0.3, cx + s * wx + s * 0.1, cy + s * 0.5], fill=accent)
+    elif kind == "domino":
+        # Upright domino: two halves with pips (3 and 5).
+        d.rounded_rectangle([cx - s * 0.55, cy - s * 1.0, cx + s * 0.55, cy + s * 1.0], radius=s * 0.16, fill=fg)
+        d.rectangle([cx - s * 0.4, cy - s * 0.04, cx + s * 0.4, cy + s * 0.04], fill=accent)
+        r = s * 0.11
+        top = [(-0.25, -0.75), (0, -0.5), (0.25, -0.25)]
+        bottom = [(-0.25, 0.25), (0.25, 0.25), (0, 0.5), (-0.25, 0.75), (0.25, 0.75)]
+        for px, py in top + bottom:
+            d.ellipse([cx + s * px - r, cy + s * py - r, cx + s * px + r, cy + s * py + r], fill=accent)
+    elif kind == "patches":
+        # Grid split into rectangles, one with an area clue.
+        g = s * 0.06
+        rects = [(-1, -1, 0.15, -0.15), (0.15, -1, 1, 0.3), (-1, -0.15, 0.15, 1), (0.15, 0.3, 1, 1)]
+        for x0, y0, x1, y1 in rects:
+            d.rounded_rectangle([cx + s * x0 + g, cy + s * y0 + g, cx + s * x1 - g, cy + s * y1 - g], radius=s * 0.12, fill=fg)
+        d.text((cx - s * 0.42, cy - s * 0.58), "4", fill=accent, font=font(int(s * 0.55)), anchor="mm")
+    elif kind == "weave":
+        # 3x3 letter tiles with a traced path.
+        g = s * 0.62
+        for j in range(3):
+            for i in range(3):
+                x, y = cx + (i - 1) * g, cy + (j - 1) * g
+                d.rounded_rectangle([x - g * 0.42, y - g * 0.42, x + g * 0.42, y + g * 0.42], radius=g * 0.14, fill=fg)
+        path = [(-1, -1), (0, -1), (0, 0), (1, 0), (1, 1)]
+        w = max(4, int(s * 0.16))
+        d.line([(cx + i * g, cy + j * g) for i, j in path], fill=accent, width=w, joint="curve")
+        for i, j in path:
+            d.ellipse([cx + i * g - w, cy + j * g - w, cx + i * g + w, cy + j * g + w], fill=accent)
+    elif kind == "golf":
+        # Flag on a green with a ball.
+        d.ellipse([cx - s * 0.95, cy + s * 0.45, cx + s * 0.95, cy + s * 1.0], fill=fg)
+        d.rectangle([cx - s * 0.05, cy - s * 1.0, cx + s * 0.07, cy + s * 0.72], fill=fg)
+        d.polygon([(cx + s * 0.07, cy - s * 1.0), (cx + s * 0.8, cy - s * 0.72), (cx + s * 0.07, cy - s * 0.42)], fill=fg)
+        d.ellipse([cx - s * 0.12, cy + s * 0.62, cx + s * 0.12, cy + s * 0.8], fill=accent)
+        d.ellipse([cx - s * 0.75, cy + s * 0.1, cx - s * 0.4, cy + s * 0.45], fill=fg)
     else:
         d.ellipse([cx - s, cy - s, cx + s, cy + s], fill=fg)
 

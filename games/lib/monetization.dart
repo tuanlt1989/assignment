@@ -80,7 +80,7 @@ class Monetization extends ChangeNotifier {
 
   /// Ask for a review after a few wins, at most every 30 days.
   Future<void> maybeAskReview() async {
-    if (!_mobile || progress.finishedLevels < 5) return;
+    if (!_mobile || progress.solvedTotal < 5) return;
     final since =
         DateTime.now().millisecondsSinceEpoch - progress.lastReviewAskMs;
     if (since < const Duration(days: 30).inMilliseconds) return;

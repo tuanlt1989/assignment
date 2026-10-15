@@ -960,3 +960,1043 @@ Which is the most dangerous form of skin cancer?
 * Malignant melanoma
 - Milia
 > Melanoma can spread quickly. Use the ABCDE signs (asymmetry, border, color, diameter, evolving) and refer to a physician.
+
+[c121] infection
+Pus-forming bacteria that grow in clusters, like a bunch of grapes, and cause boils and abscesses are:
+* Staphylococci
+- Bacilli
+- Streptococci
+- Spirilla
+> Staphylococci grow in clusters and are a common cause of local skin infections. Streptococci also form pus but grow in chains.
+
+[c122] infection
+Pus-forming bacteria arranged in chains, which can cause strep throat and blood poisoning, are:
+- Staphylococci
+* Streptococci
+- Diplococci
+- Bacilli
+> The prefix "strepto" refers to the chain-like arrangement. Staphylococci, by contrast, grow in grape-like clusters.
+
+[c123] infection
+Short, rod-shaped bacteria that cause diseases such as tetanus and tuberculosis are:
+- Cocci
+- Spirilla
+* Bacilli
+- Staphylococci
+> Bacilli are the most common type of bacteria. Cocci are round, and spirilla are spiral or corkscrew-shaped.
+
+[c124] infection
+Syphilis and Lyme disease are caused by bacteria classified as:
+- Bacilli
+- Streptococci
+- Cocci
+* Spirilla
+> Spirilla are spiral or corkscrew-shaped bacteria. Bacilli are rod-shaped, and cocci are round.
+
+[c125] infection
+Most bacteria in the environment are:
+- Resistant to all disinfectants
+- Pathogenic and always cause disease
+* Nonpathogenic (harmless and often beneficial)
+- Parasites that live on the scalp
+> The majority of bacteria are harmless, and many help with functions such as digestion. Pathogenic bacteria cause infection, which is why salons must still disinfect.
+
+[c126] infection
+Bacteria reproduce by dividing into two new cells, a process called:
+- Sporulation
+- Mutation
+* Binary fission
+- Oxidation
+> In warm, moist, dirty conditions, bacteria multiply quickly by binary fission. Keeping the salon clean and dry slows their growth.
+
+[c127] infection
+Some bacteria move using slender, hair-like extensions called:
+- Capsids
+- Spores
+- Toxins
+* Flagella or cilia
+> Flagella and cilia whip the bacterium through liquid. Cocci rarely move on their own; they are carried by air, dust or contact.
+
+[c128] infection
+An infection confined to one part of the body, such as a pimple or an abscess containing pus, is a:
+* Local infection
+- Systemic infection
+- Parasitic infestation
+- Bloodborne disease
+> A local infection stays in one area. A systemic infection spreads through the body, often through the bloodstream.
+
+[c129] infection
+Hepatitis B virus (HBV) and human immunodeficiency virus (HIV) are examples of:
+- Skin parasites
+- Airborne fungi
+- Nonpathogenic bacteria
+* Bloodborne pathogens
+> Bloodborne pathogens are carried in blood and body fluids. Any exposure to blood requires following your state's exposure procedure.
+
+[c130] infection
+Compared with HIV, the hepatitis B virus:
+* Is harder to kill and can survive on surfaces longer
+- Dies within seconds outside the body
+- Is spread only through the air
+- Cannot be prevented by a vaccine
+> HBV is more resistant than HIV, so tools and surfaces exposed to blood must be handled with the correct disinfectant. A vaccine for hepatitis B is available.
+
+[c131] infection
+Standard Precautions require cosmetologists to:
+- Disinfect only when a client looks ill
+- Wear gloves only for haircuts
+- Have clients sign a health waiver instead of disinfecting
+* Treat all blood and body fluids as potentially infectious
+> You cannot tell by looking whether someone carries a disease. Standard Precautions apply the same protection to every client.
+
+[c132] infection
+You accidentally nick a client's ear while cutting. What should you do first?
+- Finish the haircut first, then clean the cut
+- Spray the area with disinfectant and continue
+* Stop the service and put on gloves before treating the cut
+- Rinse your shears in water and keep cutting
+> Stop immediately, protect yourself with gloves, then clean the area with an antiseptic and bandage it. Clean and disinfect any tools that touched blood before reusing them.
+
+[c133] infection
+The length of time a surface must stay wet with disinfectant for the product to be effective is called the:
+- Dilution ratio
+- Shelf life
+* Contact time
+- Efficacy rating
+> Contact time is listed on the label. If the surface dries too soon, the disinfectant may not kill all the organisms it claims to.
+
+[c134] infection
+The list of organisms a disinfectant has been proven to kill, printed on its label, shows its:
+- Contact time
+- Concentration
+* Efficacy
+- pH
+> Efficacy means effectiveness. Check the label to be sure the product works against the organisms you need, such as bacteria, viruses and fungi.
+
+[c135] infection
+At a minimum, a disinfectant used for salon tools should be:
+- Fungicidal only
+* Bactericidal, fungicidal and virucidal
+- Bactericidal only
+- Scented and non-foaming
+> Salon disinfectants must kill bacteria, fungi and viruses. Always choose an EPA-registered product and follow your state's requirements.
+
+[c136] infection
+Disinfectant solution in an immersion container should be replaced:
+- Once a month
+- Only when it evaporates
+- Once a week, regardless of use
+* Daily, or sooner if it becomes visibly contaminated
+> Hair, debris and dilution weaken the solution. Also follow the label and your state's rules for changing it.
+
+[c137] infection
+When washing your hands, you should rub them together with soap for at least:
+- 3 seconds
+- 5 seconds
+* 20 seconds
+- 5 minutes
+> About 20 seconds of scrubbing, including between the fingers and under the nails, removes most germs. Rinse with warm water and dry with a clean disposable towel.
+
+[c138] infection
+MRSA is a type of:
+- Fungus that causes ringworm of the scalp
+- Virus that spreads only through the air
+* Staphylococcus bacterium resistant to many antibiotics
+- Parasite that lives on the hair shaft
+> Methicillin-resistant Staphylococcus aureus can cause serious skin infections that are hard to treat. Proper disinfection and handwashing help prevent its spread.
+
+[c139] infection
+Unlike bacteria, viruses:
+- Grow in clusters like grapes
+- Reproduce by binary fission
+* Can live and reproduce only by taking over the cells of a host
+- Move using flagella
+> A virus must enter a living cell to make copies of itself. This is why antibiotics, which target bacteria, do not work on viruses.
+
+[c140] infection
+After cleaning and disinfecting implements, they should be stored:
+- In your apron pocket
+- Loose on the station counter
+- In the bag with used tools
+* In a clean, covered container
+> Disinfected tools must be protected from contamination until they are used. Always keep used and disinfected tools separate.
+
+[c141] infection
+The classic signs of inflammation are:
+- Paleness, coldness, numbness and tingling
+- Itching, flaking, dryness and shine
+* Redness, heat, pain and swelling
+- Hair loss, scaling, oiliness and odor
+> Inflammation is the body's response to injury or infection. Do not perform services over inflamed areas.
+
+[c142] infection
+Ergonomics is the study of:
+- Chemical reactions in haircolor
+- How bacteria reproduce
+- The structure of hair and skin
+* Designing the workplace and tools to fit the worker's body
+> Good ergonomics, such as adjusting chair height and keeping the wrists straight, helps prevent repetitive strain injuries and back pain.
+
+[c143] hair
+The part of the hair located beneath the skin's surface is the:
+- Hair shaft
+- Medulla
+- Cuticle
+* Hair root
+> The root is enclosed in the follicle below the skin. The shaft is the part that projects above the skin.
+
+[c144] hair
+The tube-like depression in the skin that encloses the hair root is the:
+- Dermal papilla
+* Hair follicle
+- Arrector pili
+- Sebaceous gland
+> Every hair grows from a follicle. The sebaceous gland and the arrector pili muscle are attached to it.
+
+[c145] hair
+The thickened, club-shaped structure at the lowest part of the hair root, which fits over the dermal papilla, is the:
+- Cuticle
+- Hair shaft
+- Follicle opening
+* Hair bulb
+> The bulb surrounds the papilla, which supplies the blood and nutrients needed for hair growth.
+
+[c146] hair
+The oil glands connected to the hair follicles are the:
+- Sudoriferous glands
+- Endocrine glands
+- Lymph glands
+* Sebaceous glands
+> Sebaceous glands secrete sebum, which lubricates hair and skin. Too much sebum leads to oily hair; too little leads to dry hair.
+
+[c147] hair
+Amino acids are joined end to end into long chains by strong chemical bonds called:
+- Hydrogen bonds
+- Salt bonds
+* Peptide (end) bonds
+- Disulfide bonds
+> Peptide bonds link amino acids into polypeptide chains, the building blocks of keratin. Side bonds then cross-link these chains.
+
+[c148] hair
+Which side bonds are broken by changes in pH and re-form when the pH returns to normal?
+- Disulfide bonds
+* Salt bonds
+- Peptide bonds
+- Lanthionine bonds
+> Salt bonds are weak physical bonds formed by the attraction between opposite electrical charges, so acidic or alkaline products easily disrupt them.
+
+[c149] hair
+Which element in hair forms the strong cross-links that permanent waves and relaxers break?
+* Sulfur
+- Carbon
+- Nitrogen
+- Calcium
+> Hair is made mainly of carbon, oxygen, hydrogen, nitrogen and sulfur (COHNS). Disulfide bonds join the sulfur atoms of two cysteine amino acids.
+
+[c150] hair
+A tuft of hair that stands straight up is called a:
+* Cowlick
+- Hair stream
+- Whorl
+- Widow's peak
+> Cowlicks are most noticeable at the front hairline and crown. Consider them when cutting so the hair is not cut too short.
+
+[c151] hair
+Hair that grows in a circular pattern, as often seen on the crown, is a:
+- Hair stream
+- Cowlick
+* Whorl
+- Wave pattern
+> Whorls can make hair stand out or part in unexpected places. Analyze growth patterns before cutting.
+
+[c152] hair
+Short, fine, unpigmented, downy hair found on most of the body is:
+* Vellus (lanugo) hair
+- Terminal hair
+- Canities
+- Ingrown hair
+> Vellus hair helps sweat evaporate. Terminal hair is the longer, coarser, pigmented hair of the scalp, brows and lashes.
+
+[c153] hair
+Abnormal growth of terminal hair in areas that normally grow only vellus hair is called:
+* Hypertrichosis (hirsutism)
+- Alopecia
+- Canities
+- Trichoptilosis
+> Hypertrichosis can be hereditary or caused by hormones or medication. Hair-removal services can help manage it.
+
+[c154] hair
+Knotted hair, with brittleness and nodular swellings along the shaft, is called:
+- Monilethrix
+* Trichorrhexis nodosa
+- Pityriasis
+- Canities
+> Trichorrhexis nodosa is often caused by harsh chemical or physical treatment. Softening conditioners can help.
+
+[c155] hair
+Hair with a beaded appearance, with nodes along the shaft where it breaks easily, is:
+* Monilethrix
+- Fragilitas crinium
+- Trichoptilosis
+- Hypertrichosis
+> Monilethrix (beaded hair) tends to break between the beads. Hair and scalp treatments may improve its condition.
+
+[c156] hair
+The technical term for brittle hair that may split at any point along its length is:
+- Monilethrix
+* Fragilitas crinium
+- Pityriasis steatoides
+- Trichoptilosis
+> Fragilitas crinium can be helped with conditioning treatments. Trichoptilosis refers specifically to split ends.
+
+[c157] hair
+Dry, sulfur-yellow, cup-like crusts on the scalp with a distinctive odor indicate:
+* Tinea favosa (favus)
+- Pityriasis capitis simplex
+- Seborrheic dermatitis
+- Alopecia areata
+> The crusts of favus are called scutula. It is a contagious fungal infection, so do not perform the service and refer the client to a physician.
+
+[c158] hair
+A severe form of dandruff with an accumulation of greasy or waxy scales is:
+- Pityriasis capitis simplex
+- Tinea capitis
+* Pityriasis steatoides
+- Canities
+> Pityriasis steatoides is greasy (oily) dandruff, often with itching. Clients with this condition should be referred to a physician for treatment.
+
+[c159] hair
+Hair loss caused by repeated pulling from tight braids, ponytails or extensions is:
+- Alopecia areata
+- Androgenetic alopecia
+- Postpartum alopecia
+* Traction alopecia
+> Traction alopecia often appears along the hairline. Reducing tension and avoiding repeated tight styles helps prevent permanent damage.
+
+[c160] hair
+Vigorous brushing and scalp massage should be avoided right before a chemical service because they can:
+- Close the cuticle and block the chemical
+- Remove the hair's natural color
+* Irritate the scalp and make it more sensitive to the chemicals
+- Break the disulfide bonds too early
+> Brushing and massage can scratch or stimulate the scalp. Chemicals that reach irritated or scratched skin can cause burning.
+
+[c161] hair
+To check porosity, you slide your fingers from the ends toward the scalp on a dry strand. If the strand feels rough, the hair is:
+- Resistant, with a tightly closed cuticle
+- Low in density
+- Very fine in texture
+* Porous, with a raised cuticle
+> A raised cuticle catches the fingers. Smooth, slippery hair has a closed cuticle and low porosity.
+
+[c162] hair
+Compared with porous hair, hair with low porosity (resistant hair) usually requires:
+* A more alkaline solution or longer processing
+- A milder solution and shorter processing
+- No processing at all
+- Only acidic products to open the cuticle
+> A tightly closed cuticle resists penetration, so it takes a more alkaline product to swell it. Porous hair absorbs chemicals quickly and needs a milder approach.
+
+[c163] hair
+Which hair-loss treatment is applied topically, is available without a prescription, and is FDA-approved for both men and women?
+- Finasteride
+* Minoxidil
+- Hydroquinone
+- Isotretinoin
+> Minoxidil is applied to the scalp. Finasteride is an oral prescription medication approved for men only.
+
+[c164] hair
+The scientific study of hair, its diseases and its care is called:
+* Trichology
+- Histology
+- Dermatology
+- Myology
+> The word comes from the Greek "trichos," meaning hair. Dermatology is the study of the skin.
+
+[c165] color
+Which group contains only secondary colors?
+- Red, yellow, blue
+* Orange, green, violet
+- Red-orange, blue-green, yellow-green
+- Brown, black, gray
+> Secondary colors are made by mixing equal parts of two primary colors. Red-orange and blue-green are tertiary colors.
+
+[c166] color
+A tertiary color is created by mixing equal amounts of:
+- Two secondary colors
+* A primary color and its neighboring secondary color
+- All three primary colors
+- A color and white
+> Examples include blue-green, red-orange and yellow-green. Mixing all three primaries creates a neutral instead.
+
+[c167] color
+A client's pre-lightened blonde hair looks too yellow. Which toner base will neutralize it?
+- Blue
+* Violet
+- Green
+- Gold
+> Violet is opposite yellow on the color wheel, so it cancels the yellow and gives a cooler blonde.
+
+[c168] color
+A client's natural hair is level 5 and she wants a level 8 result. How many levels of lift are needed?
+- 2
+* 3
+- 5
+- 8
+> Subtract the natural level from the desired level: 8 − 5 = 3 levels of lift. This guides your choice of product and developer.
+
+[c169] color
+Which developer strength is the standard choice for most permanent haircolor, giving gray coverage and about 1 to 2 levels of lift?
+- 10 volume
+* 20 volume
+- 30 volume
+- 40 volume
+> 10 volume gives minimal lift, 20 volume is standard, and 30 or 40 volume give more lift. Always follow the manufacturer's directions.
+
+[c170] color
+As the volume of hydrogen peroxide developer increases, it:
+- Stops lightening completely
+- Deposits more color
+- Becomes gentler on the hair
+* Gives more lifting action
+> Higher volume means a stronger concentration of peroxide and more lift, but also more potential for damage.
+
+[c171] color
+The warm pigment (red, orange or yellow) revealed in the hair during lightening is called:
+* Contributing pigment (undertone)
+- Filler
+- Base color
+- Intensity
+> Contributing pigment must be considered in every formula. You either use it as part of the result or neutralize it with its complementary color.
+
+[c172] color
+When natural hair is lightened, darker natural levels (such as levels 2 to 4) tend to reveal:
+- Pale yellow undertones
+* Red and red-orange undertones
+- Violet undertones
+- No undertones at all
+> Darker hair contains more pigment and exposes deeper warm tones when lightened. Lighter natural levels reveal more yellow.
+
+[c173] color
+Presoftening is used before a color service to:
+* Help very resistant gray hair accept color
+- Remove artificial color
+- Neutralize brassy tones
+- Test for allergies
+> Presoftening opens the cuticle of resistant hair so the color can penetrate. It is often recommended for stubborn gray coverage.
+
+[c174] color
+Toners are mainly used on:
+- Virgin dark hair that has never been lightened
+- Gray hair that needs to be lightened
+- The scalp before a relaxer
+* Pre-lightened hair to create pale, delicate shades
+> Toners are deposit colors applied after lightening to neutralize unwanted warmth and refine the final shade.
+
+[c175] color
+In foil highlighting, picking up selected strands from a narrow section with a zigzag motion of the comb is called:
+- Balayage
+- Slicing
+* Weaving
+- Cap highlighting
+> Weaving creates a blended highlight. Slicing takes a thin, straight section for a bolder result.
+
+[c176] color
+Balayage is a technique in which lightener or color is:
+- Pulled through a perforated cap with a hook
+* Painted freehand onto the surface of styled hair
+- Applied only to the regrowth
+- Mixed with conditioner and combed through
+> Balayage gives soft, natural-looking highlights. Because it is painted on, the colorist controls exactly where the light falls.
+
+[c177] color
+Traditional powder (quick) lighteners are generally used:
+- Directly on the scalp for all-over lightening
+- Without any developer
+- Only as a toner
+* Off the scalp, such as for foil highlights
+> Powder lighteners are strong and fast-acting and can irritate the scalp. Cream and oil lighteners are milder and are made for on-the-scalp use.
+
+[c178] color
+In permanent haircolor, the alkalizing ingredient (often ammonia) is used to:
+- Close the cuticle and seal in moisture
+* Swell the hair and open the cuticle so the color can penetrate
+- Act as the main pigment in the formula
+- Add shine and reduce frizz
+> Raising the pH lets the dye molecules and developer enter the cortex. This is also why permanent color can be harder on the hair.
+
+[c179] color
+Allergic reactions to permanent haircolor are most often linked to:
+* Para-phenylenediamine (PPD) and related aniline derivatives
+- The water used in the formula
+- Fatty alcohols that thicken the cream
+- Silicones added for shine
+> PPD is a common aniline-derivative dye. This is why a patch test is done 24 to 48 hours before an aniline-derivative color service.
+
+[c180] color
+A client with fragile, previously processed hair wants a major color change. A signed release form mainly:
+- Guarantees the color result
+* Shows the client was informed of the risks and agreed to proceed
+- Replaces the patch test
+- Allows you to skip the strand test
+> A release form documents the consultation. It does not remove your responsibility to test the hair and work safely.
+
+[c181] color
+A client with pre-lightened level 9 hair wants to return to a level 5 brown. If no filler is used, the result is likely to look:
+* Flat, murky or greenish
+- Too red and too bright
+- Exactly as expected
+- Lighter than level 9
+> Pre-lightened hair has lost its warm pigment. A warm filler replaces it so the brown looks rich instead of ashy or green.
+
+[c182] color
+High-lift tints are designed to:
+- Deposit color only, with no lift
+* Lift natural hair more levels than standard permanent color, in one step
+- Remove artificial color from the hair
+- Cover gray completely with 10-volume developer
+> High-lift tints use a higher-volume developer and give maximum lift with less deposit. They are not effective on previously colored hair.
+
+[c183] color
+A client has dark brown permanent color on her hair and wants to be two levels lighter. Applying a lighter permanent color will:
+- Lift the old color easily
+* Not lighten the existing artificial color effectively
+- Remove the color in one shampoo
+- Turn the hair ash blonde
+> Color does not lift artificial color. Use a color remover (dye solvent) or lightener first, then formulate the new shade.
+
+[c184] color
+Which primary color is the darkest and the only cool primary color?
+- Red
+* Blue
+- Yellow
+- Violet
+> Blue adds depth and darkness to a formula. Yellow is the lightest primary color, and red is medium.
+
+[c185] color
+When equal amounts of all three primary colors are mixed, the result is:
+- White
+* A neutral brown or black
+- A bright orange
+- Green
+> In haircolor, combining all three primaries creates a neutral shade. Neutral colors help balance warm and cool tones.
+
+[c186] color
+Before a single-process color, a client's natural level is best identified by:
+- Looking at the ends of the hair in dim light
+- Checking the color of her eyebrows
+- Asking what color she used last time
+* Comparing a dry section near the scalp to the manufacturer's swatches in good light
+> Hair near the scalp shows the true natural level, without fading or product buildup. Wet hair looks darker, so evaluate it dry.
+
+[c187] chemical
+On the pH scale, a reading of 7 is:
+* Neutral
+- Strongly alkaline
+- Strongly acidic
+- Mildly alkaline
+> The scale runs from 0 to 14. Below 7 is acidic and above 7 is alkaline; pure water is neutral.
+
+[c188] chemical
+Because the pH scale is logarithmic, a product with a pH of 9 is how much more alkaline than one with a pH of 7?
+- 2 times
+- 10 times
+* 100 times
+- 1,000 times
+> Each whole step on the scale is a tenfold change, so two steps equal 10 × 10 = 100 times.
+
+[c189] chemical
+An exothermic permanent wave:
+- Has no reducing agent
+- Must be processed under a hood dryer
+* Produces its own heat through a chemical reaction when the activator is mixed in
+- Is processed without rods
+> The activator (an oxidizer) reacts with the waving solution and releases heat, which speeds up processing.
+
+[c190] chemical
+An endothermic permanent wave is activated by:
+- Mixing in an activator that produces chemical heat
+- The neutralizer alone
+- Cold water rinses
+* An outside heat source, such as a hood dryer
+> Endothermic waves absorb heat from an outside source. Many acid waves are processed this way.
+
+[c191] chemical
+During processing, a test curl shows a weak, loose S-shape that has not yet reached the size of the rod. The perm is:
+- Over-processed
+* Under-processed
+- Fully processed
+- Over-neutralized
+> Not enough disulfide bonds have been broken yet to form a firm curl. Continue processing according to the manufacturer's directions and test again.
+
+[c192] chemical
+Before applying the neutralizer in a permanent wave, you should:
+* Rinse the waving solution thoroughly with water and blot the rods
+- Apply more waving solution
+- Remove all the rods and comb the hair
+- Shampoo the hair with a clarifying shampoo
+> Leftover waving solution can interfere with neutralization. Blotting removes excess water so the neutralizer is not diluted.
+
+[c193] chemical
+A perm wrapping pattern that offsets the base sections from row to row to prevent noticeable splits is the:
+- Straight set wrap
+* Bricklay wrap
+- Double-rod wrap
+- Spiral wrap
+> Like bricks in a wall, each row is offset from the one before. This avoids visible partings between the rods.
+
+[c194] chemical
+In a croquignole perm wrap, the hair is wound:
+* From the ends to the scalp in overlapping layers
+- From the scalp to the ends in a spiral
+- Only around the hairline
+- Without end papers
+> Because the hair winds on top of itself, the curl is tighter at the ends and larger at the scalp. Spiral wraps produce a more even curl on long hair.
+
+[c195] chemical
+A spiral perm wrap is especially suited to:
+* Long hair, creating a uniform curl from scalp to ends
+- Very short hair under 2 inches
+- Only men's haircuts
+- Hair that has been relaxed with hydroxide
+> The hair is wrapped at an angle along the length of the rod instead of overlapping on itself, so the curl stays even on long lengths.
+
+[c196] chemical
+Thio relaxers are neutralized with:
+- An acid-balanced neutralizing shampoo only
+- Plain warm water for ten minutes
+* An oxidizing neutralizer containing hydrogen peroxide
+- Petroleum base cream on the scalp
+> Thio relaxers break disulfide bonds by reduction, just like perms, so they need an oxidizing neutralizer to re-form the bonds in their new straight shape.
+
+[c197] chemical
+Which statement about "no-lye" guanidine hydroxide relaxers is correct?
+- They contain sodium hydroxide
+* They are two-part products mixed just before use
+- They are neutralized with hydrogen peroxide
+- They are compatible with thio perms
+> Calcium hydroxide cream is mixed with a guanidine carbonate activator right before application. They are still hydroxide relaxers, so thio services must not follow.
+
+[c198] chemical
+During a virgin hydroxide relaxer application, the relaxer is usually applied first to:
+- The fine hair along the front hairline
+- The scalp area at the crown
+* The most resistant area, about 1/4 to 1/2 inch away from the scalp
+- The porous ends, then the scalp area
+> Body heat speeds processing at the scalp and the ends are often more porous, so both are done last. Starting in the most resistant area gives it the longest processing time.
+
+[c199] chemical
+During a relaxer retouch, the relaxer is applied:
+- To all the hair from scalp to ends
+* To the new growth only, avoiding previously relaxed hair
+- To the ends only
+- Only to the hairline
+> Overlapping onto previously relaxed hair can cause breakage. A cream conditioner may be applied to the relaxed hair to protect it.
+
+[c200] chemical
+Hydroxide relaxers are usually applied to:
+- Hair with open sores on the scalp
+- Hair that was just shampooed vigorously
+- Wet hair right after a perm
+* Dry, unshampooed hair with a healthy scalp
+> Shampooing can irritate the scalp and make it more sensitive to the high-pH relaxer. Always check for abrasions before a relaxer service.
+
+[c201] chemical
+A soft curl permanent (curl re-formation) combines:
+- A hydroxide relaxer and a thio perm
+- A haircolor and a relaxer
+* A thio relaxer and a thio permanent wave
+- A keratin treatment and a flat iron
+> The thio relaxer loosens the natural curl, then the hair is wrapped on large rods for a looser curl. Hydroxide and thio products must never be combined.
+
+[c202] chemical
+Permanent waving solution breaks disulfide bonds through a chemical reaction called:
+- Oxidation
+* Reduction
+- Lanthionization
+- Neutralization
+> The thioglycolate adds hydrogen to the disulfide bonds, which is a reduction reaction. The neutralizer then oxidizes the bonds back together.
+
+[c203] chemical
+An emulsion is:
+* A mixture of two liquids that do not normally mix, held together by an emulsifier
+- A clear, stable mixture of completely dissolved substances
+- A single pure element with no other ingredients
+- A gas that has been dissolved in water
+> Most creams and lotions are emulsions of oil and water. The emulsifier keeps them from separating.
+
+[c204] chemical
+A product labeled "shake well before using" because its undissolved particles settle over time is most likely a:
+- Solution
+- Element
+* Suspension
+- Compound
+> Suspensions contain undissolved particles that separate over time, like calamine lotion. Shaking spreads them evenly again.
+
+[c205] chemical
+Volatile organic compounds (VOCs), such as the solvents in many hairsprays, are substances that:
+- Contain no carbon at all
+- Never evaporate
+* Contain carbon and evaporate quickly
+- Are always strongly alkaline
+> VOCs evaporate into the air you breathe. Good ventilation helps reduce exposure in the salon.
+
+[c206] chemical
+Which is an example of a chemical change?
+- Ice melting into water
+- Water evaporating from wet hair
+- Sugar dissolving in water
+* Oxidation haircolor developing inside the hair
+> A chemical change creates a new substance with new properties. Melting, evaporating and dissolving are physical changes.
+
+[c207] chemical
+Alkanolamines are often used in place of ammonia in hair products because they:
+- Are acidic
+- Lift more color
+- Close the cuticle
+* Produce less odor
+> Alkanolamines are alkaline substances that raise the pH like ammonia but with less odor.
+
+[c208] chemical
+A client wants both a permanent wave and a haircolor service. The usual recommended order is:
+- Haircolor first, then perm on the same day
+* Perm first, then haircolor
+- Both chemicals mixed together
+- Haircolor first, then perm the next day
+> The perm solution and neutralizer can change or fade the color. Doing the perm first protects the color result.
+
+[c209] cutstyle
+The highest point on the top of the head is the:
+- Occipital bone
+- Parietal ridge
+* Apex
+- Nape
+> The apex is an important reference point when cutting layers and deciding where volume will sit.
+
+[c210] cutstyle
+In haircutting, horizontal lines are generally used to:
+- Create diagonal angles only
+- Remove weight and create layers
+* Build weight
+- Thin the hair
+> Horizontal lines are used in one-length and low-elevation cuts. Vertical lines are used to remove weight and create layers.
+
+[c211] cutstyle
+Elevation in haircutting is:
+- The height of the client in the styling chair
+- The pressure applied when combing hair
+- The direction of the client's natural part
+* The angle at which hair is held away from the head while cutting
+> Higher elevation removes weight and creates layers; lower elevation builds weight. The pressure applied while combing is called tension.
+
+[c212] cutstyle
+When choosing a clipper guard, a higher guard number generally:
+* Leaves the hair longer
+- Leaves the hair shorter
+- Removes all the hair
+- Thins the hair without shortening it
+> Guards control how close the blade gets to the scalp. Lower numbers cut closer; higher numbers leave more length.
+
+[c213] cutstyle
+Using the tips of the shears to cut into the ends of the hair to soften a line and create texture is:
+- Blunt cutting
+- Clipper-over-comb
+* Point cutting
+- Slicing
+> Point cutting breaks up a hard line. The deeper the points, the more texture it creates.
+
+[c214] cutstyle
+Thinning the hair to graduated lengths by sliding the shears along the strand with the blades partially open is:
+- Notching
+* Slithering (effilating)
+- Blunt cutting
+- Tapering with clippers
+> Slithering reduces volume and adds movement. It must be done carefully so the hair does not become too thin.
+
+[c215] cutstyle
+Compared with ends cut bluntly with shears, razor-cut ends are:
+* Tapered and softer
+- Heavier and squarer
+- Always longer
+- More resistant to curl
+> The razor cuts at an angle, creating a finer, tapered end. This gives softer movement and separation.
+
+[c216] cutstyle
+Which face shape is generally considered the ideal that stylists try to create the illusion of?
+- Round
+* Oval
+- Square
+- Diamond
+> The oval face is considered well balanced. Hairstyles are designed to make other face shapes appear more oval.
+
+[c217] cutstyle
+For a client with a round face, a flattering style usually:
+- Keeps the top flat and the sides wide
+- Adds full width over the ears and cheeks
+- Uses a short, rounded fringe with full sides
+* Adds height on top and keeps the sides closer to the face
+> Height on top and narrow sides make the face appear longer and more oval.
+
+[c218] cutstyle
+For a client with a long, narrow (oblong) face, a flattering style usually:
+- Adds as much height as possible at the crown
+- Pulls all the hair straight back off the face
+- Keeps the sides flat and close to the head
+* Adds width at the sides and uses bangs to shorten the face
+> Width at the sides and a fringe make a long face look shorter and wider. Avoid extra height on top.
+
+[c219] cutstyle
+A diffuser attachment on a blow-dryer is used mainly to:
+- Concentrate the airflow on one small section
+- Straighten hair quickly
+* Dry curly hair gently without disturbing the curl pattern
+- Cool the dryer's motor
+> The diffuser spreads the air over a wide area with less force. A concentrator nozzle does the opposite and focuses the air.
+
+[c220] cutstyle
+Fingerwaving is the technique of:
+- Wrapping hair around a hot curling iron in spirals
+- Smoothing hair with a heated pressing comb
+- Twisting small sections of hair into locks
+* Molding wet hair into alternating, parallel waves using a comb and waving lotion
+> The stylist uses the fingers and comb to form S-shaped ridges. Waving lotion helps the hair hold the shape while it dries.
+
+[c221] cutstyle
+Which pin curl produces the tightest, firmest and longest-lasting curl with the least movement?
+- Full-stem curl
+- Half-stem curl
+- Stand-up (cascade) curl
+* No-stem curl
+> A no-stem curl is placed directly on its base. Half-stem curls allow medium movement, and full-stem curls allow the most.
+
+[c222] cutstyle
+When setting hair on rollers, wrapping the hair about one full turn around the roller creates:
+- A full, tight curl
+* A C-shaped curl
+- A complete wave
+- No curl at all
+> One turn gives a C shape, about one and a half turns give a wave, and about two and a half turns give a curl.
+
+[c223] cutstyle
+Backcombing (teasing) is done by:
+- Brushing the hair smoothly from scalp to ends
+* Combing small sections from the ends toward the scalp to build a cushion
+- Wetting the hair and combing it flat
+- Twisting the hair around the fingers
+> Shorter hairs are pushed down toward the scalp to form a base that adds volume and supports the style.
+
+[c224] cutstyle
+Thermal waving and curling with heated irons is also known as:
+* Marcel waving
+- Fingerwaving
+- Pin curling
+- Croquignole setting
+> The technique is named after Marcel Grateau, who developed thermal waving with heated irons in the late 1800s.
+
+[c225] cutstyle
+In the track-and-sew extension method, the base that the wefts are attached to is:
+* A flat cornrow braid close to the scalp
+- A strip of adhesive tape on the scalp
+- A heated keratin bond on each strand
+- A clip fastened to the cuticle
+> The braided track is the foundation for sewing on the weft. It should be braided without excessive tension to avoid traction alopecia.
+
+[c226] cutstyle
+In a burn test to identify wig fibers, human hair:
+- Melts into hard beads
+- Does not burn at all
+* Burns slowly and gives off the odor of burning hair
+- Flashes and melts instantly
+> Synthetic fibers either flash quickly or melt into hard beads. Knowing the fiber tells you whether the wig can be heat-styled.
+
+[c227] cutstyle
+Compared with machine-made wigs, hand-tied wigs are usually:
+* More natural-looking and more expensive
+- Less natural-looking and less expensive
+- Made only of synthetic fiber
+- Impossible to restyle
+> Each strand is knotted into the cap by hand, so the hair moves and parts more naturally. The extra labor raises the cost.
+
+[c228] cutstyle
+A vent brush is used mainly to:
+- Create tight curls
+- Detangle wet extensions only
+- Smooth a chignon
+* Speed up blow-drying and add casual lift
+> Its open, ventilated design lets air pass through to the hair, so the hair dries faster.
+
+[c229] cutstyle
+A knot or coil of hair worn at the nape or back of the head is a:
+* Chignon
+- French twist
+- Pin curl
+- Cornrow
+> Chignons are classic formal updos. A French twist is a vertical roll along the back of the head.
+
+[c230] skin
+The outermost layer of the skin, which contains no blood vessels, is the:
+- Papillary layer
+- Dermis
+- Subcutaneous layer
+* Epidermis
+> The epidermis has nerve endings but no blood vessels. It protects the body and constantly sheds dead cells.
+
+[c231] skin
+The deepest layer of the epidermis, where new skin cells are formed and melanocytes are found, is the:
+* Stratum germinativum (basal layer)
+- Stratum lucidum
+- Stratum corneum
+- Reticular layer
+> Cells formed here move up toward the surface and are eventually shed. The melanocytes produce melanin, which helps protect against UV light.
+
+[c232] skin
+Sweat glands, which help regulate body temperature, are also called:
+- Sebaceous glands
+- Endocrine glands
+* Sudoriferous glands
+- Lymph nodes
+> Sudoriferous glands excrete sweat through the pores. Sebaceous glands produce oil.
+
+[c233] skin
+A flat spot or discoloration on the skin, such as a freckle, is a:
+- Papule
+- Vesicle
+* Macule
+- Wheal
+> A macule is a primary lesion that is neither raised nor sunken. A papule is a small raised bump.
+
+[c234] skin
+An itchy, swollen lesion that lasts only a few hours, such as from hives or an insect bite, is a:
+- Macule
+- Keloid
+* Wheal
+- Fissure
+> Wheals are caused by an allergic reaction or a bite. They usually disappear within hours.
+
+[c235] skin
+A thick scar that results from an excessive growth of fibrous tissue is a:
+- Macule
+* Keloid
+- Fissure
+- Vesicle
+> Keloids form when the skin overproduces scar tissue while healing. A crack in the skin, such as chapped lips, is a fissure.
+
+[c236] skin
+A condition of milky-white patches on the skin caused by a loss of pigment is:
+- Chloasma
+- Melasma
+- Rosacea
+* Vitiligo
+> Vitiligo is a form of leukoderma. Clients should protect the affected areas from the sun because they lack melanin.
+
+[c237] skin
+A client who has used a product for months without problems suddenly develops an allergic rash from it. This is called:
+- Acquired tolerance
+- Vitiligo
+- Hyperpigmentation
+* Sensitization (allergic contact dermatitis)
+> Allergies can develop after repeated exposure. Once sensitized, the person will react every time, so further skin contact with that product must be avoided.
+
+[c238] skin
+Which material is an insulator (non-conductor) of electricity?
+- Copper
+- Water
+- Silver
+* Rubber
+> Insulators such as rubber, plastic and glass do not allow electricity to flow easily. Metals and water are conductors.
+
+[c239] skin
+A circuit breaker protects a salon's electrical system by:
+- Increasing the voltage to each outlet
+- Converting alternating current to direct current
+* Automatically shutting off the current when the circuit overloads
+- Storing extra current for later use
+> Overloading a circuit with too many appliances can cause overheating and fire. The breaker cuts the power; a fuse does the same job by melting.
+
+[c240] skin
+The third, round prong on an electrical plug is used to:
+* Ground the appliance to protect against shock
+- Increase the appliance's power
+- Make the plug fit more tightly
+- Switch the appliance to direct current
+> The ground provides a safe path for stray current. Never remove it or force a three-prong plug into a two-prong outlet.
+
+[c241] skin
+A GFCI (ground fault circuit interrupter) is especially important near:
+- Hair dryer storage shelves
+- The reception desk
+- Waiting room seating
+* Shampoo bowls and other wet areas
+> A GFCI cuts the power instantly if current leaks, for example through water. This protects people from electric shock.
+
+[c242] skin
+In galvanic treatments, the positive pole (anode) produces which effects?
+- Alkaline reactions, opening the pores and softening tissue
+- Ultraviolet light and tanning
+- Heat, sweating and hair removal
+* Acidic reactions, closing the pores and soothing the nerves
+> The positive pole also decreases blood supply and firms tissue. The negative pole produces the opposite effects and is used for desincrustation.
+
+[c243] skin
+Infrared light is used in skin care mainly to:
+- Kill acne bacteria
+- Tan the skin
+* Heat and relax the skin and increase circulation
+- Remove hair permanently
+> Infrared rays penetrate deeply and produce heat. Protect the client's eyes and keep the lamp at the recommended distance.
+
+[c244] skin
+In LED light therapy, blue light is mainly used to:
+- Increase circulation and collagen
+* Help treat acne because of its antibacterial effect
+- Heat the skin deeply
+- Tan the skin
+> Blue light targets acne bacteria. Red light is used to boost circulation and support collagen and elastin.
+
+[c245] skin
+Microcurrent is used in facials to:
+* Tone and firm facial muscles and skin
+- Permanently remove hair
+- Kill bacteria with ultraviolet light
+- Lighten pigmentation
+> Microcurrent uses an extremely low level of electricity that mimics the body's own natural electrical impulses.
+
+[c246] skin
+A Wood's lamp is used during skin analysis to:
+* Reveal conditions such as pigmentation, fungi and bacteria under filtered UV light
+- Heat the skin before a facial extraction
+- Tan the skin evenly before makeup
+- Measure the pH of the skin's surface
+> The filtered black light makes some conditions glow or show up more clearly. It helps the professional assess the skin.
+
+[c247] skin
+Electrical facial treatments should be avoided for a client who:
+- Has normal, healthy skin
+* Has a pacemaker or a heart condition
+- Wears contact lenses during the day
+- Has dry skin
+> Electric current can interfere with pacemakers and stress the heart. Also avoid it with metal implants, pregnancy and epilepsy.
+
+[c248] skin
+A green-tinted color corrector (concealer or primer) is used to:
+* Neutralize redness
+- Brighten sallow, yellowish skin
+- Add a bronzed glow
+- Highlight the cheekbones
+> Green is opposite red on the color wheel, so it cancels redness. Lavender correctors are used to brighten sallow skin.
+
+[c249] skin
+To make close-set eyes appear farther apart, apply eye shadow:
+* Lighter on the inner corners and darker toward the outer corners
+- Darker on the inner corners and lighter on the outer corners
+- In the same dark shade over the entire lid
+- Only under the lower lashes
+> Light colors bring areas forward and dark colors make them recede, so a light inner corner and darker outer corner visually widen the space.
+
+[c250] skin
+A depilatory removes unwanted hair by:
+* Dissolving it chemically at the skin's surface
+- Pulling it out of the follicle
+- Destroying the papilla with electric current
+- Lifting it out with a twisted thread
+> Depilatories are strong alkaline products, so do a patch test first. Because the root is not removed, the hair grows back quickly.

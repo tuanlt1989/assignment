@@ -800,3 +800,1203 @@ The first step when approaching an unresponsive adult in a hospital corridor is 
 - Move the patient to a bed
 - Leave to find a doctor
 > Scene safety, responsiveness, call for help/AED, then check breathing and pulse, and start CPR if needed.
+
+[g101] fundamentals
+While setting up a sterile field for a dressing change, which action breaks sterile technique?
+- Keeping sterile gloved hands above waist level
+- Treating the outer 2.5 cm (1 inch) border of the field as unsterile
+- Opening the first flap of a sterile package away from the body
+* Reaching across the sterile field to pick up an item
+> Reaching over the field can drop contaminants onto it. Items below the waist or out of sight, and the outer border of the field, are considered unsterile.
+
+[g102] fundamentals
+When removing PPE after caring for a patient on airborne precautions, which item is removed last, after leaving the room?
+- Gloves
+- Gown
+- Goggles
+* The N95 respirator
+> Gloves, goggles and gown are removed first. The respirator is removed outside the room after the door is closed, followed by hand hygiene.
+
+[g103] fundamentals
+A patient has an MRSA wound infection. Which practice is correct?
+* Wear a gown and gloves on entering the room and use dedicated equipment such as a stethoscope
+- Wear an N95 respirator for all care
+- Use standard precautions only and share equipment between patients
+- Place the patient in a negative-pressure room
+> MRSA spreads by contact. Contact precautions and patient-dedicated equipment prevent transfer to other patients.
+
+[g104] fundamentals
+A nurse sustains a needlestick injury from a needle used on a patient. What should the nurse do first?
+- Squeeze the site hard and soak it in bleach
+- Finish the shift and report it if symptoms develop
+- Apply a bandage and wait for the patient's test results before reporting
+* Wash the site with soap and water and report the injury immediately
+> Wash with soap and water without scrubbing or caustic agents, then report at once so post-exposure assessment and prophylaxis can start promptly if needed.
+
+[g105] fundamentals
+When receiving a telephone order from a physician, the nurse should:
+* Write the order down and read it back to the prescriber to confirm it
+- Remember the order and write it down at the end of the shift
+- Ask a colleague to listen and write it later
+- Accept it only if the medication is already on the ward
+> "Write down and read back" reduces errors from mishearing. The order is then signed by the prescriber per policy.
+
+[g106] fundamentals
+Which way of writing a dose is safe and recommended?
+- .5 mg
+- 5.0 mg
+* 0.5 mg
+- 10 U
+> Always use a leading zero and never a trailing zero; ".5" can be misread as 5 and "5.0" as 50. Write "units" in full because "U" can be misread as 0 or 4.
+
+[g107] fundamentals
+A nurse realizes that a patient was given the wrong medication. What is the nurse's first action?
+- Complete an incident report
+- Inform the nurse manager
+- Document the error in the nursing notes
+* Assess the patient for any effects of the medication
+> Patient safety comes first: assess and monitor the patient, then notify the prescriber, document and complete the incident report.
+
+[g108] fundamentals
+Which statement about incident (occurrence) reports is correct?
+- A copy is placed in the patient's medical record
+- The nurse writes "incident report completed" in the nursing notes
+- They are used to discipline the staff involved
+* The facts of the event are documented in the record, but the incident report itself is not mentioned there
+> Incident reports are quality-improvement tools. The medical record contains an objective account of what happened and the care given, not a reference to the report.
+
+[g109] fundamentals
+The nurse makes an error while writing a note in a paper record. The correct way to fix it is to:
+- Use correction fluid and rewrite the entry
+- Erase the entry completely
+- Tear out the page and rewrite the note
+* Draw a single line through it, write "error" (or per policy), and add initials, date and time
+> The original entry must remain readable. Records must never be erased, obliterated or removed.
+
+[g110] fundamentals
+A caller says she is the patient's sister and asks how the patient's surgery went. The nurse should:
+* Check whether the patient has authorized sharing information with this person before giving any details
+- Give a full update because she is family
+- Read the operation notes to her
+- Tell her the diagnosis but not the medications
+> Patient information is confidential. It is shared only with people the patient has authorized, after confirming identity per hospital policy.
+
+[g111] fundamentals
+A patient is getting out of bed for the first time after surgery. To prevent orthostatic hypotension, the nurse should first:
+* Have the patient sit on the edge of the bed (dangle) for a few minutes before standing
+- Help the patient stand up quickly to save energy
+- Give an extra dose of analgesic
+- Keep the patient flat for 30 minutes before rising
+> Changing position gradually lets blood pressure adjust. Ask about dizziness and stay with the patient during the first walk.
+
+[g112] fundamentals
+Which technique reflects safe body mechanics when lifting?
+- Bending at the waist with straight knees
+- Holding the load at arm's length
+- Twisting the trunk while lifting
+* Keeping a wide base of support, bending the knees and holding the load close to the body
+> A wide base, bent knees and the load close to the body's center of gravity reduce back strain. Use lifting devices and get help for heavy patients.
+
+[g113] fundamentals
+In which position should an adult be placed to receive a cleansing enema?
+* Left side-lying (Sims') with the right knee flexed
+- Prone with legs straight
+- Right side-lying with both legs straight
+- High Fowler's position
+> The left lateral position follows the natural anatomy of the rectum and sigmoid colon, so the solution flows in more easily.
+
+[g114] fundamentals
+What is the most accurate method to confirm the initial placement of a blindly inserted nasogastric feeding tube before it is first used?
+- Listening over the stomach while injecting air
+- Placing the end of the tube in a cup of water
+- Asking whether the patient can talk
+* A chest/abdominal X-ray
+> X-ray confirmation is the standard before the first feed or medication. Auscultation of injected air is unreliable. Aspirate pH and the external tube length are used for later checks.
+
+[g115] fundamentals
+To reduce the risk of aspiration during continuous enteral tube feeding, the nurse should keep the head of the bed:
+- Flat
+- At 10 degrees
+* At 30 to 45 degrees
+- Raised only during meals
+> Elevating the head of the bed reduces reflux and aspiration. Keep it raised unless contraindicated.
+
+[g116] fundamentals
+Which action helps prevent catheter-associated urinary tract infection?
+* Keeping the drainage bag below the level of the bladder and off the floor
+- Disconnecting the catheter from the bag to empty it
+- Changing the catheter every day
+- Raising the bag above the patient during transfers
+> A closed system with downward flow prevents backflow of urine. Remove the catheter as soon as it is no longer needed.
+
+[g117] fundamentals
+How should the nurse collect a urine specimen for culture from a patient with an indwelling catheter?
+- Pour urine from the drainage bag into the container
+- Disconnect the catheter from the tubing and drain the urine
+* Clean the sampling port and aspirate urine with a sterile syringe
+- Remove the catheter and send the tip
+> Urine in the bag has been standing and is not suitable for culture. Using the sampling port keeps the system closed.
+
+[g118] fundamentals
+Which intramuscular injection site is generally preferred for adults because it is away from major nerves and blood vessels?
+- Dorsogluteal
+* Ventrogluteal
+- Deltoid for volumes over 3 mL
+- Anterior forearm
+> The ventrogluteal site has thick muscle and avoids the sciatic nerve. The deltoid only takes small volumes (usually up to about 1 mL).
+
+[g119] fundamentals
+The Z-track technique for intramuscular injection is used to:
+* Prevent irritating medication from leaking back into the subcutaneous tissue
+- Make the injection less painful by giving it faster
+- Allow the needle to be reused
+- Avoid the need to clean the skin
+> Pulling the skin sideways before injecting seals the drug in the muscle once the skin is released, which reduces tissue staining and irritation.
+
+[g120] fundamentals
+What is the most reliable indicator of a patient's pain?
+- The patient's vital signs
+- The nurse's observation of facial expression
+* The patient's own report of pain
+- The type of surgery performed
+> Pain is what the patient says it is. Behavioral tools are used only for patients who cannot self-report.
+
+[g121] fundamentals
+To measure a pulse deficit, the nurse should:
+- Count the radial pulse twice and subtract the results
+* Have two nurses count the apical and radial pulses at the same time for one full minute
+- Compare the pulse with the respiratory rate
+- Compare the left and right radial pulses
+> The pulse deficit is the apical rate minus the radial rate. A deficit suggests that some heartbeats are not perfusing the periphery, as in atrial fibrillation.
+
+[g122] fundamentals
+Using a blood pressure cuff that is too small for the patient's arm will most likely give a reading that is:
+* Falsely high
+- Falsely low
+- Accurate
+- Impossible to hear
+> A narrow cuff needs extra pressure to compress the artery. A cuff that is too large tends to give a falsely low reading.
+
+[g123] fundamentals
+Which IV solution can be given through the same line as a red blood cell transfusion?
+- 5% dextrose in water
+- Lactated Ringer's solution
+* 0.9% sodium chloride
+- Any solution that is already running
+> Dextrose can cause red cells to clump and hemolyze, and calcium in Lactated Ringer's can cause clotting. Only normal saline is compatible.
+
+[g124] fundamentals
+Using Maslow's hierarchy, which patient problem should the nurse address first?
+- Social isolation
+- Anxiety about a change in body image
+- Lack of knowledge about a new diet
+* Impaired swallowing with risk of aspiration
+> Physiological needs, especially airway, come before safety, belonging and esteem needs. Risk of aspiration threatens the airway.
+
+[g125] fundamentals
+A nurse writes: "The patient will walk 50 m with a walker by day 3 after surgery." Which step of the nursing process is this?
+- Assessment
+- Diagnosis
+* Planning
+- Evaluation
+> Setting measurable, time-limited goals is part of planning. Evaluation later checks whether the goal was met.
+
+[g126] fundamentals
+A patient speaks very little English and must give consent for a procedure. The nurse should:
+- Ask the patient's 12-year-old son to translate
+- Use simple gestures and have the patient sign
+- Ask a cleaner who speaks the same language
+* Arrange a qualified medical interpreter
+> Trained interpreters give accurate, confidential translation. Family members, especially children, may omit or change information.
+
+[g127] fundamentals
+Which statement about physical restraints is correct?
+* A restraint order must be time-limited and cannot be written as PRN
+- A restraint order may be written "as needed" (PRN)
+- Restraints can be applied for staff convenience on busy shifts
+- Restrained patients need checks only once per shift
+> Restraints are a last resort after less restrictive measures fail. They need a current, time-limited order and frequent monitoring.
+
+[g128] fundamentals
+A wound bed has moist, beefy red, granular tissue. The nurse recognizes this as:
+- Slough that must be removed
+- Infection
+* Healthy granulation tissue
+- Necrotic tissue
+> Granulation tissue is a sign of healing. Yellow slough or black eschar indicates devitalized tissue.
+
+[g129] fundamentals
+A patient is receiving home oxygen therapy. Which teaching point is most important for safety?
+- Oxygen can be increased whenever the patient feels tired
+* No smoking or open flames near the oxygen, because oxygen supports combustion
+- Cylinders should be stored lying in direct sunlight
+- Petroleum jelly is the best lubricant for the nostrils
+> Oxygen makes fires start easily and burn intensely. Use water-based lubricants and secure cylinders away from heat.
+
+[g130] fundamentals
+Which method best confirms that a patient has understood discharge teaching?
+- Asking "Do you understand?"
+- Giving the patient a printed leaflet
+* Asking the patient to explain or demonstrate the instructions in their own words (teach-back)
+- Having the patient sign the discharge form
+> Teach-back reveals gaps in understanding so the nurse can re-teach. A "yes" to "Do you understand?" is not reliable.
+
+[g131] medsurg
+Fifteen minutes into a blood transfusion, the patient develops chills, fever and back pain. What should the nurse do first?
+* Stop the transfusion and keep the IV line open with 0.9% sodium chloride through new tubing
+- Slow the transfusion and recheck vital signs in 1 hour
+- Give paracetamol and continue the transfusion
+- Remove the IV cannula
+> Stop the blood at once to limit a possible hemolytic reaction, keep venous access, then notify the provider and blood bank and return the bag and tubing per policy.
+
+[g132] medsurg
+A patient coughs on the second day after abdominal surgery and says, "Something gave way." The nurse sees loops of bowel protruding from the incision. What is the priority action?
+- Gently push the bowel back into the abdomen
+- Cover the wound with dry gauze and give oral fluids
+- Help the patient walk to reduce abdominal pressure
+* Cover the wound with sterile dressings moistened with sterile normal saline and notify the surgeon
+> Evisceration is a surgical emergency. Moist sterile dressings protect the organs; position the patient with knees flexed, keep NPO and monitor for shock.
+
+[g133] medsurg
+Which group of findings is most consistent with hypothyroidism?
+* Cold intolerance, weight gain, constipation and bradycardia
+- Heat intolerance, weight loss and tachycardia
+- Exophthalmos, diarrhea and tremor
+- Polyuria, polydipsia and weight loss
+> A low thyroid hormone level slows metabolism. Heat intolerance, tachycardia and exophthalmos suggest hyperthyroidism.
+
+[g134] medsurg
+A patient with syndrome of inappropriate antidiuretic hormone (SIADH) is expected to have:
+* Low serum sodium and concentrated urine
+- High serum sodium and dilute urine
+- High serum potassium and polyuria
+- Low blood glucose and dehydration
+> Excess ADH causes water retention and dilutional hyponatremia. Treatment usually includes fluid restriction and treating the cause.
+
+[g135] medsurg
+After pituitary surgery, a patient passes large volumes of very dilute urine and is very thirsty. The nurse suspects diabetes insipidus. Which finding supports this?
+- Urine specific gravity of 1.030
+* Urine specific gravity below 1.005
+- Serum sodium of 125 mmol/L
+- Weight gain and edema
+> Lack of ADH causes large volumes of dilute urine and a rising serum sodium. Monitor intake, output, weight and electrolytes.
+
+[g136] medsurg
+A patient with type 1 diabetes has gastroenteritis and cannot eat much. What is the correct sick-day advice?
+- Stop insulin until eating normally
+- Halve fluid intake to prevent vomiting
+* Continue insulin, check blood glucose (and ketones) more often and keep drinking fluids
+- Check glucose only once a day
+> Illness raises glucose and the risk of DKA even when eating less. Stopping insulin is dangerous in type 1 diabetes.
+
+[g137] medsurg
+Which foot-care instruction is correct for a patient with diabetes?
+- Soak the feet in hot water daily
+- Cut corns with a razor blade
+- Walk barefoot at home to toughen the skin
+* Inspect the feet daily, including between the toes, and always wear well-fitting footwear
+> Neuropathy reduces sensation, so injuries can go unnoticed. Daily inspection and protective footwear prevent ulcers and amputations.
+
+[g138] medsurg
+A patient arrives at the emergency department with chest pain suggestive of acute coronary syndrome. Within what time should a 12-lead ECG be obtained?
+- 60 minutes
+- 30 minutes
+* 10 minutes
+- 2 hours
+> A 12-lead ECG within 10 minutes of arrival allows rapid identification of ST-elevation MI and timely reperfusion.
+
+[g139] medsurg
+After a cardiac catheterization through the femoral artery, which nursing action is correct?
+* Keep the affected leg straight and check the puncture site and distal pulses frequently
+- Help the patient walk within 15 minutes
+- Keep the hip flexed at 90 degrees
+- Check the pulses only in the unaffected leg
+> Keeping the leg straight for the prescribed time reduces bleeding. Watch for bleeding, hematoma, and changes in pulses, color or temperature of the leg.
+
+[g140] medsurg
+A nurse is teaching a patient with heart failure. Which instruction is most important for detecting fluid retention early?
+- Check blood pressure once a month
+* Weigh yourself every morning at the same time, on the same scale, and report a rapid gain
+- Increase fluid intake when the ankles swell
+- Weigh yourself only when you feel short of breath
+> Daily weight is the most sensitive sign of fluid gain; about 1 kg equals 1 L of retained fluid.
+
+[g141] medsurg
+A patient reports cramping calf pain when walking that goes away after a few minutes of rest. This is called:
+* Intermittent claudication
+- Phantom pain
+- Restless legs
+- Venous stasis pain
+> Claudication results from arterial insufficiency. Other signs of peripheral arterial disease include weak pulses, cool pale skin and hair loss on the legs.
+
+[g142] medsurg
+Which patient should the nurse see first?
+- A patient with diabetes whose pre-lunch glucose is 180 mg/dL (10 mmol/L)
+* A patient 3 hours after thyroidectomy who has new noisy, high-pitched breathing
+- A patient with COPD whose SpO2 is 90% on 2 L/min oxygen
+- A patient with heart failure who is asking for a bed bath
+> New stridor after neck surgery suggests airway obstruction from swelling, bleeding or nerve injury, an airway emergency. An SpO2 of 90% is within the usual COPD target.
+
+[g143] medsurg
+During a severe asthma attack, the patient's wheezing stops and breath sounds become very faint. The nurse recognizes this as:
+- A sign the attack is resolving
+- An expected effect of salbutamol
+- Normal fatigue that needs no action
+* A sign of worsening obstruction and possible respiratory failure
+> A "silent chest" means very little air is moving. Call for urgent help and prepare for airway support.
+
+[g144] medsurg
+A patient with suspected bacterial pneumonia has a new antibiotic order. When should the sputum specimen for culture be collected?
+* Before the first dose of antibiotic
+- After three doses of antibiotic
+- Only if the patient does not improve
+- At the end of the antibiotic course
+> Antibiotics can kill organisms in the sample and give a false-negative culture. Do not delay antibiotics significantly while waiting for the sample.
+
+[g145] medsurg
+When suctioning a tracheostomy, each suction pass should last no longer than:
+- 5 minutes
+- 60 seconds
+- 30 seconds
+* 10 to 15 seconds
+> Longer suctioning can cause hypoxemia, bradycardia and mucosal damage. Pre-oxygenate and apply suction only while withdrawing the catheter.
+
+[g146] medsurg
+A patient's chest tube becomes disconnected from the drainage system. What should the nurse do immediately?
+- Clamp the tube for several hours
+* Place the end of the chest tube 2–3 cm under sterile water or saline
+- Remove the chest tube
+- Leave it open to air and call the physician
+> Submerging the end restores a water seal while a new system is prepared. Prolonged clamping can cause a tension pneumothorax.
+
+[g147] medsurg
+A patient with suspected appendicitis suddenly reports that the severe pain has gone away, and becomes febrile with a rigid abdomen. The nurse should suspect:
+- The appendicitis has resolved
+- Constipation
+- The analgesic is working well
+* Perforation of the appendix with peritonitis
+> Sudden relief of pain can mean the appendix has ruptured. A rigid abdomen and fever suggest peritonitis, which needs urgent surgery.
+
+[g148] medsurg
+Which presentation is typical of acute cholecystitis?
+* Right upper quadrant pain after a fatty meal that may radiate to the right shoulder
+- Left lower quadrant pain with diarrhea
+- Periumbilical pain relieved by eating
+- Burning pain in the chest relieved by antacids
+> Gallbladder contraction after fatty food causes pain. Murphy's sign (pain stopping inspiration during right upper quadrant palpation) is often present.
+
+[g149] medsurg
+Which laboratory result best supports a diagnosis of acute pancreatitis?
+- Low serum amylase
+- Elevated troponin
+* Elevated serum lipase
+- Low white blood cell count
+> Lipase rises in acute pancreatitis and is more specific than amylase. Care includes NPO, IV fluids and pain control.
+
+[g150] medsurg
+Before an abdominal paracentesis, the nurse should ask the patient to:
+* Empty the bladder
+- Drink 1 L of water
+- Lie flat on the stomach
+- Eat a large meal
+> An empty bladder reduces the risk of puncturing it. Record weight and abdominal girth before and after the procedure.
+
+[g151] medsurg
+Which type of viral hepatitis is spread mainly by the fecal-oral route?
+* Hepatitis A
+- Hepatitis B
+- Hepatitis C
+- Hepatitis D
+> Hepatitis A spreads through contaminated food and water; good hand hygiene and vaccination prevent it. Hepatitis B, C and D are bloodborne.
+
+[g152] medsurg
+A patient with chronic kidney disease who is not yet on dialysis should be taught to:
+- Use salt substitutes instead of salt
+- Eat more bananas and oranges
+* Limit sodium and foods high in potassium and phosphorus
+- Drink as much fluid as possible
+> Failing kidneys cannot excrete potassium, phosphorus, sodium and fluid well. Most salt substitutes contain potassium.
+
+[g153] medsurg
+A patient on peritoneal dialysis has cloudy dialysate drainage and abdominal pain. The nurse should suspect:
+- Normal drainage
+- Dehydration
+- Hyperglycemia
+* Peritonitis
+> Cloudy effluent is often the first sign of peritonitis. Send a sample for cell count and culture and notify the provider.
+
+[g154] medsurg
+After a total hip replacement through a posterior approach, the patient should be taught to avoid:
+- Sitting on a raised toilet seat
+- Keeping a pillow between the legs
+* Crossing the legs and bending the hip more than 90 degrees
+- Lying on the back
+> Flexion beyond 90 degrees, adduction past the midline and internal rotation can dislocate the new hip.
+
+[g155] medsurg
+A patient with a new forearm cast has severe pain that is not relieved by opioids and gets worse when the fingers are passively stretched. The nurse should suspect:
+- Normal post-injury pain
+* Compartment syndrome
+- Fat embolism
+- Osteoporosis
+> Pain out of proportion and pain on passive stretch are early signs. Notify the provider urgently; loss of pulse is a late sign.
+
+[g156] medsurg
+A patient has a generalized tonic-clonic seizure in bed. What should the nurse do?
+- Put a tongue depressor between the teeth
+- Hold the arms and legs down firmly
+- Give oral fluids immediately
+* Turn the patient to the side, protect the head, and time the seizure
+> Never put anything in the mouth or restrain movements. Side-lying keeps the airway clear; a seizure lasting 5 minutes or more needs emergency treatment.
+
+[g157] medsurg
+A patient with a spinal cord injury at T4 suddenly has a severe headache, flushing above the injury and a blood pressure of 200/110 mmHg. What is the nurse's first action?
+- Lay the patient flat
+* Sit the patient upright
+- Give a sedative
+- Recheck the blood pressure in 1 hour
+> This is autonomic dysreflexia. Sitting up lowers blood pressure; then find and remove the trigger, most often a full bladder or bowel.
+
+[g158] medsurg
+A patient admitted with an acute stroke asks for a drink of water. What should the nurse do first?
+- Give small sips through a straw
+- Give the drink with the patient lying flat
+- Give thickened fluids without assessment
+* Complete a swallow screen before giving anything by mouth
+> Dysphagia is common after stroke and can cause aspiration pneumonia. Keep the patient NPO, including oral medicines, until swallowing is screened.
+
+[g159] medsurg
+On the day after a colostomy, the stoma appears dark purple-black. The nurse should:
+- Record it as a normal finding
+- Apply a tighter pouch
+* Notify the surgeon promptly
+- Wait for it to turn pink in a few days
+> A healthy stoma is moist and pink to red. A dusky or black stoma suggests poor blood supply and necrosis.
+
+[g160] medsurg
+After a mastectomy with axillary lymph node removal, which instruction is correct?
+* Avoid blood pressure measurements and injections on the affected arm
+- Avoid moving the affected arm for 3 months
+- Carry heavy shopping bags on the affected side
+- Wear tight jewelry on the affected arm
+> Removing lymph nodes raises the risk of lymphedema and infection in that arm. Gradual exercises as prescribed help recovery.
+
+[g161] pharm
+A patient is prescribed insulin lispro (a rapid-acting insulin) before meals. When should the nurse give it?
+- 2 hours before the meal
+* Within about 15 minutes before the meal, with food available
+- At bedtime regardless of meals
+- Only if the blood glucose is above 300 mg/dL (16.7 mmol/L)
+> Rapid-acting insulin starts working in about 15 minutes. Giving it without food ready can cause hypoglycemia.
+
+[g162] pharm
+When drawing up regular insulin and NPH insulin in the same syringe, the nurse should:
+* Draw up the regular (clear) insulin first
+- Draw up the NPH (cloudy) insulin first
+- Mix both vials together first
+- Shake the NPH vial vigorously
+> "Clear before cloudy" prevents NPH from contaminating the regular insulin vial. NPH is gently rolled, not shaken.
+
+[g163] pharm
+A rare but serious adverse effect of metformin is:
+- Hypokalemia
+- Severe hypoglycemia when used alone
+- Weight gain
+* Lactic acidosis
+> The risk is higher with kidney impairment, dehydration or iodinated contrast. GI upset is the most common side effect.
+
+[g164] pharm
+How should a patient take levothyroxine?
+* On an empty stomach in the morning, 30–60 minutes before breakfast
+- With a high-fiber breakfast
+- With calcium or iron supplements
+- Only when feeling tired
+> Food, calcium and iron reduce absorption. Treatment is usually lifelong, and too much causes signs of hyperthyroidism.
+
+[g165] pharm
+A patient takes sublingual nitroglycerin for angina. Which drug must the patient avoid within the previous 24–48 hours?
+- Paracetamol
+- Omeprazole
+- Metformin
+* Sildenafil
+> Phosphodiesterase-5 inhibitors combined with nitrates can cause severe, life-threatening hypotension.
+
+[g166] pharm
+When injecting enoxaparin from a prefilled syringe, the nurse should:
+- Expel the air bubble and inject into the deltoid
+* Leave the air bubble, inject into the abdomen at least 5 cm from the umbilicus, and not rub the site
+- Massage the site well after injection
+- Give it intramuscularly
+> Rubbing increases bruising. The prefilled syringe's air bubble is not expelled, so the full dose is delivered.
+
+[g167] pharm
+A patient has taken prednisolone daily for several months. Why must the drug not be stopped suddenly?
+* Abrupt withdrawal can cause acute adrenal insufficiency
+- It causes immediate hypoglycemia
+- It causes permanent hair loss
+- It causes hyperkalemia only
+> Long-term steroids suppress the body's own cortisol production. The dose is tapered gradually.
+
+[g168] pharm
+A patient taking phenytoin long term should be taught to:
+- Stop it if gums bleed
+- Take it only during seizures
+- Drink alcohol to reduce side effects
+* Practice good oral hygiene and visit the dentist regularly
+> Gingival hyperplasia is a common side effect. Phenytoin has a narrow therapeutic range (about 10–20 mcg/mL), so levels are monitored.
+
+[g169] pharm
+A patient starting rifampin for tuberculosis should be told that:
+* Urine, sweat and tears may turn orange-red
+- The drug turns the skin blue
+- The drug can be stopped when the cough improves
+- The drug causes constipation only
+> The discoloration is harmless but may stain soft contact lenses. Liver function is monitored during treatment.
+
+[g170] pharm
+Pyridoxine (vitamin B6) is often given with isoniazid to prevent:
+* Peripheral neuropathy
+- Hearing loss
+- Orange body fluids
+- Hyperglycemia
+> Isoniazid interferes with vitamin B6 metabolism. Isoniazid can also cause hepatotoxicity, so avoid alcohol and report jaundice.
+
+[g171] pharm
+Which adverse effect of long-term opioid therapy usually does NOT lessen as tolerance develops?
+- Nausea
+- Sedation
+- Respiratory depression
+* Constipation
+> Tolerance develops to most opioid effects but not to constipation. A preventive bowel regimen should be started with regular opioids.
+
+[g172] pharm
+A patient taking atorvastatin should be told to report:
+- A mild headache on the first day
+- Increased appetite
+* Unexplained muscle pain, tenderness or weakness
+- Dark green stools
+> Statins can cause myopathy and, rarely, rhabdomyolysis. Liver function may also be monitored.
+
+[g173] pharm
+For a patient receiving IV gentamicin, when should the blood sample for a trough level be drawn?
+- Immediately after the infusion ends
+- 1 hour after the infusion starts
+* Just before the next dose is due
+- At any convenient time of day
+> The trough is the lowest drug level, just before the next dose. It helps ensure effective, non-toxic dosing.
+
+[g174] pharm
+Which instruction is correct for a patient taking oral iron tablets?
+* Take them with orange juice, and expect dark green or black stools
+- Take them with milk or antacids to protect the stomach
+- Stop them if stools become dark
+- Take them with tea to improve absorption
+> Vitamin C improves absorption, whereas milk, antacids and tea reduce it. Liquid iron should be taken through a straw to avoid staining teeth.
+
+[g175] pharm
+Which effects are expected after a dose of atropine?
+- Bradycardia and increased salivation
+- Pinpoint pupils and diarrhea
+- Bronchospasm and sweating
+* Tachycardia, dry mouth and urinary retention
+> Atropine blocks the parasympathetic nervous system ("can't see, can't pee, can't spit, can't poop").
+
+[g176] pharm
+A patient using inhaled salbutamol frequently reports shakiness and a fast heartbeat. The nurse recognizes these as:
+- Signs of an allergic reaction
+- Signs of underdosing
+* Common side effects of a beta-2 agonist
+- Signs of hypoglycemia caused by the drug
+> Salbutamol can cause tremor, tachycardia and nervousness. Increasing need for the reliever suggests poorly controlled asthma.
+
+[g177] pharm
+After using an inhaled corticosteroid such as budesonide, the patient should:
+- Use it only during acute attacks
+- Swallow a glass of milk
+* Rinse the mouth with water and spit it out
+- Hold the breath for 2 minutes
+> Rinsing reduces the risk of oral candidiasis and hoarseness. Inhaled steroids are controllers, not rescue medications.
+
+[g178] pharm
+Which medication is considered a high-alert medication that requires extra safeguards such as an independent double check?
+- Oral paracetamol
+- Docusate sodium
+* Insulin
+- Multivitamin tablets
+> High-alert medications (such as insulin, heparin, opioids and concentrated electrolytes) can cause serious harm if given in error.
+
+[g179] pharm
+Digoxin 0.25 mg orally is prescribed. The tablets available are 125 micrograms (mcg) each. How many tablets should the nurse give?
+- 0.5 tablet
+- 1 tablet
+* 2 tablets
+- 4 tablets
+> 0.25 mg = 250 mcg. 250 mcg ÷ 125 mcg per tablet = 2 tablets. Convert to the same unit before calculating.
+
+[g180] pharm
+Morphine 4 mg IV is prescribed. The vial contains 10 mg/mL. How many mL should the nurse draw up?
+* 0.4 mL
+- 2.5 mL
+- 4 mL
+- 0.04 mL
+> Dose ÷ concentration: 4 mg ÷ 10 mg/mL = 0.4 mL. 2.5 mL results from dividing the wrong way round.
+
+[g181] pharm
+Enoxaparin 1 mg/kg subcutaneously every 12 hours is prescribed for a patient who weighs 154 lb. Use 1 kg = 2.2 lb. What is each dose?
+- 154 mg
+- 140 mg
+- 35 mg
+* 70 mg
+> 154 lb ÷ 2.2 = 70 kg; 70 kg × 1 mg/kg = 70 mg per dose. 140 mg is the total daily amount, not a single dose.
+
+[g182] pharm
+1,000 mL of IV fluid is to infuse over 6 hours through a set with a drop factor of 15 drops/mL. What is the rate in drops per minute? (Round to the nearest whole drop.)
+- 28 drops/min
+* 42 drops/min
+- 56 drops/min
+- 167 drops/min
+> (1,000 mL × 15 drops/mL) ÷ 360 min = 41.7, about 42 drops/min. 167 is the rate in mL/h, not drops/min.
+
+[g183] pharm
+An infusion is to run at 50 mL/h through a microdrip set (60 drops/mL). How many drops per minute should the nurse set?
+- 3,000 drops/min
+- 12 drops/min
+* 50 drops/min
+- 0.8 drops/min
+> (50 mL × 60 drops/mL) ÷ 60 min = 50 drops/min. With a 60 drops/mL set, drops/min always equals mL/h.
+
+[g184] pharm
+An IV antibiotic in 100 mL is to be infused over 30 minutes using a pump. At what rate (mL/h) should the pump be set?
+- 50 mL/h
+- 100 mL/h
+* 200 mL/h
+- 3.3 mL/h
+> Pumps are set in mL per hour: 100 mL ÷ 0.5 h = 200 mL/h.
+
+[g185] pharm
+A heparin infusion of 25,000 units in 250 mL is running at 12 mL/h. How many units per hour is the patient receiving?
+- 120 units/h
+* 1,200 units/h
+- 2,083 units/h
+- 12,000 units/h
+> Concentration = 25,000 ÷ 250 = 100 units/mL; 100 units/mL × 12 mL/h = 1,200 units/h.
+
+[g186] pharm
+A patient weighing 80 kg is to start a heparin infusion at 18 units/kg/h. The bag contains 25,000 units in 500 mL. At what rate (mL/h) should the pump be set? (Round to the nearest whole number.)
+- 14 mL/h
+* 29 mL/h
+- 58 mL/h
+- 128 mL/h
+> 18 × 80 = 1,440 units/h. Concentration = 25,000 ÷ 500 = 50 units/mL. 1,440 ÷ 50 = 28.8, about 29 mL/h.
+
+[g187] pharm
+Dopamine is prescribed at 5 mcg/kg/min for a 70 kg patient. The bag contains 400 mg in 250 mL. What pump rate (mL/h) is needed? (Round to one decimal place.)
+- 0.2 mL/h
+- 26.3 mL/h
+- 131.3 mL/h
+* 13.1 mL/h
+> Concentration = 400,000 mcg ÷ 250 mL = 1,600 mcg/mL. Dose = 5 × 70 × 60 = 21,000 mcg/h. 21,000 ÷ 1,600 = 13.1 mL/h. Forgetting to multiply by 60 minutes gives 0.2.
+
+[g188] pharm
+After reconstitution, a vial contains 1 g of antibiotic in 4 mL. The order is 750 mg. How many mL should the nurse give?
+- 0.75 mL
+* 3 mL
+- 1.3 mL
+- 5.3 mL
+> 1 g = 1,000 mg, so the concentration is 250 mg/mL. 750 mg ÷ 250 mg/mL = 3 mL.
+
+[g189] pharm
+A child weighing 12 kg is prescribed 250 mg of a drug every 8 hours. The safe range is 25–50 mg/kg/day in divided doses. What should the nurse do?
+- Give the dose because it is within the safe range
+- Give the dose because each single dose is below 600 mg
+- Give the dose and document that it is low
+* Hold the dose and contact the prescriber because the daily dose exceeds the safe maximum
+> Safe range: 12 × 25 = 300 mg/day to 12 × 50 = 600 mg/day. Ordered: 250 mg × 3 = 750 mg/day, which is above the maximum.
+
+[g190] pharm
+A regular insulin infusion contains 100 units in 100 mL of 0.9% sodium chloride. The order is 6 units/h. At what rate should the pump be set?
+- 0.6 mL/h
+* 6 mL/h
+- 16.7 mL/h
+- 60 mL/h
+> Concentration = 100 units ÷ 100 mL = 1 unit/mL, so 6 units/h = 6 mL/h. Monitor blood glucose hourly or per protocol.
+
+[g191] maternal
+During the third stage of labor, which signs indicate that the placenta has separated?
+- The uterus becomes soft and boggy and the cord shortens
+* A gush of blood, lengthening of the umbilical cord, and the uterus becoming firm and globular
+- Strong urge to push and crowning
+- Absence of bleeding for 1 hour
+> These signs usually appear within minutes after birth. Never pull hard on the cord before separation, as this can invert the uterus.
+
+[g192] maternal
+A woman at 32 weeks of gestation has sudden, painless, bright red vaginal bleeding. The nurse should suspect placenta previa and should avoid:
+- Monitoring the fetal heart rate
+- Starting an IV line
+- Placing the woman on her side
+* Performing a digital vaginal examination
+> A vaginal exam can disrupt the placenta over the cervix and cause massive hemorrhage. Diagnosis is made by ultrasound.
+
+[g193] maternal
+A pregnant woman involved in a car accident has dark vaginal bleeding, severe abdominal pain and a rigid, board-like uterus. These findings suggest:
+* Placental abruption
+- Placenta previa
+- Normal labor
+- Braxton Hicks contractions
+> Abruption (premature separation of the placenta) is painful, and bleeding may be concealed. It threatens both mother and fetus.
+
+[g194] maternal
+After the membranes rupture, the nurse sees the umbilical cord at the vaginal opening. What should the nurse do?
+- Push the cord back into the vagina
+- Ask the woman to push hard to speed the birth
+* Call for help, relieve pressure on the cord with a gloved hand on the presenting part, and position the woman knee-chest or in Trendelenburg
+- Cover the cord with a dry towel and wait for the physician
+> Cord prolapse is an emergency. Lifting the presenting part off the cord restores fetal blood flow while urgent birth is arranged. If the cord is outside the vagina, keep it warm and moist and handle it as little as possible.
+
+[g195] maternal
+A woman receiving an oxytocin infusion has 6 contractions in 10 minutes (averaged over 30 minutes) and the fetal heart rate shows late decelerations. What is the nurse's first action?
+* Stop the oxytocin infusion
+- Increase the oxytocin rate
+- Encourage pushing
+- Lay the woman flat on her back
+> This is tachysystole with fetal compromise. Stop oxytocin, reposition to the side, give IV fluids, and notify the provider.
+
+[g196] maternal
+A woman's last menstrual period began on 10 June. Using Naegele's rule, what is her estimated date of delivery?
+- 3 March
+* 17 March
+- 17 April
+- 17 September
+> Naegele's rule: first day of the LMP + 7 days − 3 months (+ 1 year). 10 June + 7 days = 17 June; − 3 months = 17 March.
+
+[g197] maternal
+A woman is pregnant now. She has one living child born at 39 weeks and had a miscarriage at 10 weeks. How is she described?
+- Gravida 2, para 1
+* Gravida 3, para 1
+- Gravida 3, para 2
+- Gravida 2, para 2
+> Gravida counts all pregnancies, including the current one (3). Para counts births at 20 weeks or more (1); the early miscarriage is not counted in para.
+
+[g198] maternal
+Screening for gestational diabetes with an oral glucose tolerance test is usually done at:
+- 6–8 weeks of gestation
+- 12–14 weeks of gestation
+* 24–28 weeks of gestation
+- 38–40 weeks of gestation
+> Insulin resistance rises in the second half of pregnancy. Women at high risk may be screened earlier.
+
+[g199] maternal
+At about 20 weeks of gestation, the fundal height is normally found at the level of the:
+- Symphysis pubis
+* Umbilicus
+- Xiphoid process
+- Costal margin
+> From about 20 to 36 weeks, fundal height in centimeters roughly equals the number of weeks of gestation.
+
+[g200] maternal
+A woman at 36 weeks of gestation feels dizzy and faint while lying flat on her back. What should the nurse do?
+- Raise her legs and keep her flat
+- Sit her upright and give oral fluids only
+- Give oxygen and keep her supine
+* Turn her onto her left side
+> The heavy uterus compresses the inferior vena cava, reducing venous return (supine hypotensive syndrome). A lateral position relieves it.
+
+[g201] maternal
+A woman who gave birth 4 hours ago has a firm fundus 2 cm above the umbilicus, deviated to the right. What should the nurse do first?
+- Massage the fundus vigorously
+* Help her empty her bladder
+- Give an oxytocic drug immediately
+- Record this as a normal finding
+> A full bladder pushes the uterus up and to the side and can prevent it from contracting well, increasing bleeding.
+
+[g202] maternal
+Which postpartum woman should the nurse see first?
+- A woman 2 days after birth with pinkish-brown lochia
+* A woman 6 hours after birth who has soaked a perineal pad in 15 minutes
+- A breastfeeding mother asking about sore nipples
+- A woman 1 day after birth with a firm fundus at the umbilicus
+> Saturating a pad in 15 minutes indicates excessive bleeding and possible postpartum hemorrhage. The other findings are expected or non-urgent.
+
+[g203] maternal
+Which finding in a woman 1 week after birth requires urgent intervention?
+- Crying easily and feeling tired for a few days
+- Mild anxiety about caring for the baby
+- Difficulty sleeping because of night feeds
+* Hearing voices telling her to harm her baby
+> Hallucinations suggest postpartum psychosis, a psychiatric emergency with risk to mother and baby. Mild tearfulness in the first two weeks is common ("baby blues").
+
+[g204] maternal
+The normal respiratory rate of a healthy full-term newborn at rest is:
+- 12–20 breaths per minute
+- 20–30 breaths per minute
+* 30–60 breaths per minute
+- 70–90 breaths per minute
+> Newborn breathing is irregular, so count for a full minute. Persistent rates above 60, grunting or retractions suggest respiratory distress.
+
+[g205] maternal
+Immediately after birth, what is the best way to prevent heat loss in a healthy newborn?
+* Dry the baby thoroughly and place the baby skin-to-skin with the mother
+- Bathe the baby right away in warm water
+- Leave the baby uncovered under a fan
+- Weigh the baby on a cold scale first
+> Wet newborns lose heat quickly by evaporation. Drying, skin-to-skin contact and a hat reduce heat loss.
+
+[g206] maternal
+Erythromycin eye ointment is applied to newborns to prevent:
+- Neonatal jaundice
+- Vitamin K deficiency bleeding
+* Ophthalmia neonatorum caused by gonorrhea
+- Congenital cataract
+> Infection acquired during vaginal birth can cause severe conjunctivitis and blindness. The ointment is given soon after birth.
+
+[g207] maternal
+A newborn of a mother with diabetes is jittery and feeding poorly 2 hours after birth. The nurse should first:
+* Check the baby's blood glucose
+- Give a bath to calm the baby
+- Wrap the baby tightly and recheck in 4 hours
+- Give water by bottle
+> Babies of diabetic mothers have high insulin levels after birth and are at risk of hypoglycemia. Jitteriness and poor feeding are typical signs.
+
+[g208] maternal
+A newborn is receiving phototherapy for jaundice. Which nursing action is correct?
+- Apply baby lotion to the skin
+- Keep the baby fully dressed under the lights
+- Stop all feeding during phototherapy
+* Cover the eyes with eye shields and monitor temperature and hydration
+> Shields protect the eyes, and maximal skin exposure makes treatment effective. Phototherapy increases fluid loss, so feeding continues.
+
+[g209] maternal
+To reduce the risk of sudden infant death syndrome, parents should place the baby to sleep:
+- On the stomach
+- On the side, propped with pillows
+* On the back, on a firm flat surface without loose bedding
+- In the parents' bed between them
+> Back-sleeping on a firm surface, with no pillows, bumpers or soft toys, is the main safe-sleep recommendation.
+
+[g210] maternal
+A healthy infant usually begins to smile socially at about:
+* 2 months
+- 6 months
+- 9 months
+- 12 months
+> The social smile appears around 6–8 weeks and is one of the earliest social milestones.
+
+[g211] maternal
+A 9-month-old has sudden episodes of severe abdominal pain with drawing up of the legs and passes "red currant jelly" stools. The nurse suspects:
+- Pyloric stenosis
+* Intussusception
+- Hirschsprung disease
+- Gastroenteritis
+> One bowel segment telescopes into another. A sausage-shaped abdominal mass may be felt. It is an emergency.
+
+[g212] maternal
+A 4-week-old infant has projectile, non-bilious vomiting after feeds and seems hungry afterwards. An olive-shaped mass is felt in the upper abdomen. The likely diagnosis is:
+* Pyloric stenosis
+- Intussusception
+- Gastroesophageal reflux only
+- Duodenal atresia
+> Hypertrophy of the pyloric muscle blocks gastric emptying. Watch for dehydration and metabolic alkalosis; treatment is surgical.
+
+[g213] maternal
+Failure of a full-term newborn to pass meconium within the first 48 hours of life suggests:
+- Pyloric stenosis
+- Normal newborn behavior
+- Lactose intolerance
+* Hirschsprung disease
+> Absent ganglion cells in part of the colon prevent peristalsis. Most healthy newborns pass meconium within 24–48 hours.
+
+[g214] maternal
+A child is admitted with a suspected Wilms tumor (nephroblastoma). Which nursing action is most important?
+- Palpate the abdomen every shift
+- Encourage the child to play contact sports
+- Give enemas daily
+* Avoid palpating the abdomen and post a "do not palpate" sign
+> Palpation can rupture the encapsulated tumor and spread cancer cells.
+
+[g215] maternal
+A child with tetralogy of Fallot suddenly becomes very cyanotic and breathless while crying. What should the nurse do first?
+- Lay the child flat
+* Place the child in a knee-chest position
+- Encourage the child to keep crying
+- Give a large volume of oral fluid
+> Knee-chest positioning increases systemic vascular resistance and sends more blood to the lungs. Oxygen and medication may follow.
+
+[g216] maternal
+Two weeks after a sore throat, a child has cola-colored urine, puffy eyes and high blood pressure. The nurse suspects:
+- Nephrotic syndrome
+- Urinary tract infection
+* Acute post-streptococcal glomerulonephritis
+- Wilms tumor
+> An immune reaction after streptococcal infection damages the glomeruli, causing hematuria, edema and hypertension. Monitor BP, weight and urine output.
+
+[g217] maternal
+Which pain assessment tool is most suitable for a 4-year-old child who can talk?
+- Numeric 0–10 rating scale
+* Wong-Baker FACES scale
+- Asking the parents only
+- Measuring heart rate only
+> Young children can point to a face that matches their pain. Numeric scales need number concepts usually present in older children; FLACC is for children who cannot self-report.
+
+[g218] maternal
+Paracetamol 15 mg/kg orally is prescribed for a child weighing 13 kg. The suspension is 120 mg/5 mL. How many mL should be given? (Round to one decimal place.)
+- 1.6 mL
+- 3.1 mL
+* 8.1 mL
+- 16.3 mL
+> Dose = 15 × 13 = 195 mg. Volume = 195 ÷ 120 × 5 = 8.125, about 8.1 mL. 1.6 mL results from forgetting to multiply by 5 mL.
+
+[g219] maternal
+An infant who is awake is choking and cannot cry or cough. Following basic life support guidelines, the nurse should give:
+- Abdominal thrusts until the object comes out
+- Blind finger sweeps of the mouth
+* Cycles of 5 back blows and 5 chest thrusts
+- Two rescue breaths and then check the pulse
+> Abdominal thrusts are not used in infants because of the risk of liver injury. If the infant becomes unresponsive, start CPR.
+
+[g220] maternal
+To reduce the risk of neural tube defects, women planning a pregnancy are advised to take:
+- Iron 200 mg daily from the first trimester
+- Vitamin A in high doses
+* Folic acid 0.4 mg (400 mcg) daily, starting before conception
+- Vitamin C only after the first scan
+> The neural tube closes in the first month, often before pregnancy is known. Higher doses are prescribed for women at high risk.
+
+[g221] critical
+A conscious adult is choking, cannot speak or cough, and clutches the throat. What should the nurse do?
+- Give 2 rescue breaths
+- Encourage the patient to drink water
+- Perform a blind finger sweep
+* Give abdominal thrusts until the object is expelled or the patient becomes unresponsive
+> Abdominal thrusts (Heimlich maneuver) are used for severe airway obstruction in conscious adults. If the patient becomes unresponsive, start CPR.
+
+[g222] critical
+An adult is unresponsive and not breathing normally but has a definite pulse. How often should the nurse give rescue breaths?
+- 1 breath every 2 seconds
+* 1 breath every 6 seconds (10 per minute)
+- 1 breath every 15 seconds
+- 2 breaths every minute
+> For respiratory arrest with a pulse, give 1 breath every 6 seconds and recheck the pulse about every 2 minutes. Start CPR if the pulse is lost.
+
+[g223] critical
+Two rescuers are performing CPR on a child. What compression-to-ventilation ratio should they use?
+- 30:2
+* 15:2
+- 5:1
+- 3:1
+> For infants and children, 2-rescuer CPR uses 15:2; a single rescuer uses 30:2.
+
+[g224] critical
+The cardiac monitor of a pulseless patient shows asystole. What is the correct management?
+- Defibrillate immediately
+- Give synchronized cardioversion
+* Continue high-quality CPR and give epinephrine as soon as possible
+- Give adenosine
+> Asystole is not a shockable rhythm. Treat with CPR, epinephrine and a search for reversible causes (Hs and Ts).
+
+[g225] critical
+During adult cardiac arrest, epinephrine is given at a dose of:
+- 0.1 mg IV every 10 minutes
+* 1 mg IV/IO every 3–5 minutes
+- 5 mg IV once only
+- 0.5 mg IM every 5 minutes
+> Each dose is followed by a saline flush. IM epinephrine (0.5 mg of 1 mg/mL) is the dose for anaphylaxis, not cardiac arrest.
+
+[g226] critical
+For adult ventricular fibrillation that persists after defibrillation and epinephrine, the first dose of amiodarone is:
+- 150 mg orally
+- 50 mg IV
+- 1 g IV over 24 hours only
+* 300 mg IV/IO bolus
+> A second dose of 150 mg may be given. Lidocaine is an alternative.
+
+[g227] critical
+A patient has a heart rate of 38/min, hypotension and dizziness. Which drug is the first choice for this symptomatic bradycardia?
+* Atropine
+- Adenosine
+- Amiodarone
+- Metoprolol
+> If atropine is ineffective, transcutaneous pacing or an infusion of dopamine or epinephrine may be used.
+
+[g228] critical
+A stable patient has supraventricular tachycardia that does not respond to vagal maneuvers. How should adenosine be given?
+- Slowly over 10 minutes in 100 mL
+- Intramuscularly
+- Orally with water
+* As a rapid IV push followed immediately by a saline flush
+> Adenosine has a half-life of only a few seconds, so it must reach the heart quickly. Warn the patient about brief chest discomfort or a pause on the monitor.
+
+[g229] critical
+A patient with a tachycardia and a pulse is hypotensive, confused and has chest pain. What is the recommended treatment?
+- Oral beta blocker
+- Unsynchronized defibrillation
+- Watchful waiting
+* Synchronized cardioversion
+> Unstable tachycardia with a pulse is treated with synchronized cardioversion. Synchronizing avoids delivering the shock during the T wave.
+
+[g230] critical
+After chest trauma, a patient has severe dyspnea, absent breath sounds on the right, tracheal deviation to the left and falling blood pressure. The nurse suspects:
+* Tension pneumothorax
+- Simple rib fracture
+- Pulmonary edema
+- Asthma attack
+> Trapped air pushes the mediastinum to the opposite side and reduces venous return. Immediate needle decompression or chest tube insertion is needed.
+
+[g231] critical
+Hypotension, muffled heart sounds and distended neck veins after a stab wound to the chest suggest:
+* Cardiac tamponade
+- Hypovolemic shock only
+- Tension pneumothorax
+- Myocardial infarction
+> This is Beck's triad. Blood in the pericardial sac prevents the heart from filling. Treatment is urgent pericardiocentesis or surgery.
+
+[g232] critical
+After a head injury, clear fluid drains from the patient's nose. Which action is correct?
+* Do not insert anything into the nose and report the finding immediately
+- Pack the nostrils tightly
+- Ask the patient to blow the nose
+- Insert a nasogastric tube
+> The fluid may be cerebrospinal fluid from a skull base fracture. A "halo" ring on gauze suggests CSF. Nasal tubes and suctioning risk infection and brain injury.
+
+[g233] critical
+A trauma patient with a suspected cervical spine injury is unresponsive. Which method should be used to open the airway?
+- Head-tilt chin-lift
+- Hyperextending the neck
+- Turning the head to one side
+* Jaw thrust without head extension
+> The jaw thrust opens the airway while limiting neck movement. Maintain spinal motion restriction.
+
+[g234] critical
+A construction worker collapses outdoors in the summer heat. He is confused, his skin is hot, and his core temperature is 41°C. What is the priority?
+- Give oral fluids and wait 1 hour
+- Give paracetamol
+* Begin rapid cooling, such as cold-water immersion or ice packs with evaporative cooling
+- Cover him with a blanket
+> Heat stroke is an emergency with central nervous system dysfunction and core temperature above 40°C. Rapid cooling reduces death and organ damage; antipyretics do not work.
+
+[g235] critical
+A farm worker has pinpoint pupils, heavy salivation, sweating, vomiting, diarrhea and wheezing after spraying pesticide. Which drug is the main antidote?
+- Naloxone
+- Flumazenil
+* Atropine, often with pralidoxime
+- Vitamin K
+> Organophosphates cause cholinergic excess. Atropine is given until secretions dry; staff must wear PPE and decontaminate the patient.
+
+[g236] critical
+A patient rescued from a house fire has a headache and confusion, and the pulse oximeter reads 98%. The nurse suspects carbon monoxide poisoning. What is the priority treatment?
+* 100% oxygen through a non-rebreather mask
+- Room air, because the SpO2 is normal
+- Nasal cannula at 2 L/min
+- Oral fluids and rest
+> Standard pulse oximetry cannot tell carboxyhemoglobin from oxyhemoglobin, so SpO2 is falsely normal. High-flow oxygen speeds CO elimination.
+
+[g237] critical
+In septic shock requiring vasopressors, the usual initial target mean arterial pressure (MAP) is:
+- At least 40 mmHg
+* At least 65 mmHg
+- At least 100 mmHg
+- Exactly 120 mmHg
+> A MAP of 65 mmHg or more maintains organ perfusion. Norepinephrine is the first-line vasopressor.
+
+[g238] critical
+The low-pressure alarm sounds on a patient's mechanical ventilator. The most likely cause is:
+- Secretions in the airway
+- The patient biting the tube
+* Disconnection of the circuit or a cuff leak
+- Bronchospasm
+> Low pressure means air is escaping. High-pressure alarms are caused by secretions, coughing, biting or kinked tubing. If the cause cannot be found, ventilate manually with a bag-valve device.
+
+[g239] critical
+Which measure helps prevent ventilator-associated pneumonia?
+- Keeping the patient flat
+* Elevating the head of the bed 30–45 degrees and providing regular oral care
+- Routinely changing the ventilator circuit every day
+- Avoiding any interruption of sedation
+> Head elevation reduces aspiration. Oral care, daily sedation review and early weaning are also part of prevention bundles.
+
+[g240] critical
+A patient rescued from a fire in an enclosed room has singed nasal hairs, soot in the sputum and a hoarse voice. The nurse should anticipate:
+- Discharge after a chest X-ray
+* Early intubation because of airway swelling
+- Oral fluids only
+- Waiting for blisters to form
+> These are signs of inhalation injury. Airway edema can develop rapidly and make later intubation very difficult.
+
+[g241] critical
+Using START mass-casualty triage, an adult who is breathing at 36 breaths per minute is tagged:
+- Green (minor)
+- Yellow (delayed)
+* Red (immediate)
+- Black (expectant)
+> In START, a respiratory rate above 30 per minute places the patient in the immediate (red) category.
+
+[g242] critical
+Which patient in the emergency department should the nurse assess first?
+- A young adult with a painful, swollen ankle after a fall
+* A 55-year-old with crushing chest pain and sweating
+- A child with a fever of 38.5°C who is playing and drinking
+- A patient with a forearm cut whose bleeding is controlled
+> Chest pain with sweating suggests acute coronary syndrome, a threat to life. The others are stable.
+
+[g243] critical
+Before starting an insulin infusion for diabetic ketoacidosis, which laboratory value is most important to check?
+- Serum calcium
+* Serum potassium
+- Hemoglobin
+- Serum albumin
+> Insulin moves potassium into cells and can cause dangerous hypokalemia. If potassium is low, it must be replaced before insulin is started.
+
+[g244] critical
+A patient with severe depression suddenly appears calm and cheerful and gives away personal possessions. The nurse should:
+- Reduce observation because the patient is improving
+* Recognize these as possible warning signs of suicide and assess for a plan
+- Plan for discharge
+- Ignore the behavior
+> A sudden lift in mood may mean the patient has decided on suicide. Ask directly about suicidal ideas and a plan and keep the patient safe.
+
+[g245] critical
+A patient taking an SSRI is given tramadol and develops agitation, fever, sweating, tremor and muscle clonus. The nurse suspects:
+- Neuroleptic malignant syndrome
+* Serotonin syndrome
+- Opioid withdrawal
+- Hypoglycemia
+> Combining serotonergic drugs can cause serotonin syndrome. Clonus and hyperreflexia help distinguish it from neuroleptic malignant syndrome.
+
+[g246] critical
+An agitated patient is shouting and pacing in the ward. Which action is best for de-escalation?
+- Stand close and raise your voice so you are heard
+- Turn your back to show you are not a threat
+* Speak calmly, keep a safe distance and make sure you have a clear exit
+- Tell the patient that security will restrain him
+> Calm, simple communication and a safe environment reduce aggression. Keep the exit clear and call for help if needed.
+
+[g247] critical
+A patient with severe anorexia nervosa starts nutritional rehabilitation. Which laboratory value is most important to monitor for refeeding syndrome?
+- Serum amylase
+* Serum phosphate
+- Hemoglobin A1c
+- Serum cholesterol
+> Refeeding shifts phosphate, potassium and magnesium into cells. Severe hypophosphatemia can cause heart failure and arrhythmias.
+
+[g248] critical
+Which group of findings suggests opioid withdrawal?
+- Pinpoint pupils, drowsiness and slow breathing
+* Dilated pupils, yawning, runny nose and diarrhea
+- Hypothermia and slow heart rate only
+- Hallucinations and seizures
+> Withdrawal is very uncomfortable but rarely life-threatening in adults. Pinpoint pupils and respiratory depression indicate opioid intoxication.
+
+[g249] critical
+A patient who started haloperidol yesterday develops a sudden spasm of the neck muscles with the head twisted to one side. The nurse anticipates treatment with:
+- Additional haloperidol
+* Benztropine or diphenhydramine
+- Naloxone
+- Lithium
+> This is acute dystonia, an extrapyramidal side effect that often appears within days. Anticholinergic drugs relieve it quickly.
+
+[g250] critical
+A patient's serum potassium is 7.0 mmol/L and the ECG shows wide QRS complexes. Which drug is given first to protect the heart?
+- Furosemide
+- Potassium chloride
+* Calcium gluconate IV
+- Digoxin
+> Calcium stabilizes the cardiac membrane within minutes but does not lower potassium. Insulin with glucose and other treatments then shift or remove potassium.

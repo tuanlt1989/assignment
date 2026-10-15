@@ -208,7 +208,8 @@ NO_ADS_SECTION = """<h2>Advertising and tracking</h2>
 def write_privacy(app: dict) -> None:
     from datetime import date
 
-    out = ROOT / "docs/privacy"
+    # One folder for every project, so one GitHub Pages site (/docs) hosts all policies.
+    out = REPO / "docs/privacy"
     out.mkdir(parents=True, exist_ok=True)
     (out / f"{app['id']}.html").write_text(
         PRIVACY.format(

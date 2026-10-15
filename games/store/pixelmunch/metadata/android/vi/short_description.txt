@@ -1,1 +1,0 @@
-Đưa các con ăn vào ăn tranh pixel theo màu. Giải đố sắp xếp màu cực đã!

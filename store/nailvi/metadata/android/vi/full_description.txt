@@ -3,6 +3,9 @@
 Nhiều tiểu bang cho thi lý thuyết Nail bằng tiếng Việt, nhưng tài liệu ôn tiếng Việt chất lượng rất hiếm. App này có bộ câu hỏi luyện tập tự biên soạn, viết bằng tiếng Việt dễ hiểu, và chạm một lần là xem được câu hỏi bằng tiếng Anh để bạn học luôn thuật ngữ dùng trong tiệm.
 
 CÓ GÌ TRONG APP
+• 250 câu hỏi luyện tập tự biên soạn, có giải thích rõ ràng
+• Kế hoạch học riêng: chọn ngày thi, số câu mỗi ngày, có nhắc học hằng ngày
+• Thẻ ghi nhớ, ôn chủ đề yếu nhất, chuỗi ngày học liên tục
 • Câu hỏi luyện tập theo các chủ đề chính của đề thi: kiểm soát nhiễm khuẩn & an toàn, cấu tạo móng & da, bệnh về móng, hoá học & an toàn sản phẩm (SDS), manicure & pedicure, móng nhân tạo (acrylic, gel, tip, bọc móng, bột nhúng)
 • Song ngữ: câu hỏi và giải thích tiếng Việt, bật tiếng Anh bất cứ lúc nào
 • Thi thử bấm giờ, có điểm đậu như khi thi thật

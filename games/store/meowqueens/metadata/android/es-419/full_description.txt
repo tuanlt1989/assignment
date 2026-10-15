@@ -1,3 +1,16 @@
 Un gato por fila, columna y color. ¡Los gatos no se tocan! Reto diario.
 
-Sin anuncios. Funciona sin internet. Un pago único te da vidas y pistas ilimitadas para siempre.
+CÓMO JUGAR
+Coloca un gato en cada fila, cada columna y cada zona de color. Los gatos nunca pueden tocarse, ni en diagonal. Toca una vez para marcar X y otra vez para poner un gato. Un gato incorrecto cuesta un corazón.
+
+CARACTERÍSTICAS
+• Puzles ilimitados en 4 niveles: Fácil, Medio, Difícil y Experto
+• Cada puzle tiene una sola solución: lógica pura, sin adivinar
+• Puzle diario nuevo, rachas y archivo de 60 días
+• Gana de 1 a 3 estrellas, desbloquea 8 temas y 12 trofeos
+• Cronómetro, mejores tiempos y estadísticas
+• Pistas cuando te atascas
+• Sin anuncios. Funciona sin internet. Sin cuenta.
+
+PÁSATE A ILIMITADO
+Un único pago pequeño: puzles difíciles y expertos ilimitados, pistas ilimitadas, archivo diario completo y todos los temas. Sin suscripción.

@@ -1,3 +1,16 @@
 Um gato por linha, coluna e cor. Os gatos não se tocam! Desafio diário.
 
-Sem anúncios. Funciona offline. Um pagamento único libera vidas e dicas ilimitadas para sempre.
+COMO JOGAR
+Coloque um gato em cada linha, cada coluna e cada área colorida. Os gatos nunca podem se tocar, nem na diagonal. Toque uma vez para marcar X e de novo para colocar um gato. Um gato errado custa um coração.
+
+RECURSOS
+• Desafios ilimitados em 4 níveis: Fácil, Médio, Difícil e Especialista
+• Cada desafio tem uma única solução – lógica pura, sem chute
+• Desafio diário novo, sequências e arquivo de 60 dias
+• Ganhe de 1 a 3 estrelas, desbloqueie 8 temas e 12 troféus
+• Cronômetro, melhores tempos e estatísticas
+• Dicas quando você travar
+• Sem anúncios. Funciona offline. Sem cadastro.
+
+DESBLOQUEIE O ILIMITADO
+Um pagamento único: desafios difíceis e de especialista ilimitados, dicas ilimitadas, arquivo diário completo e todos os temas. Sem assinatura.

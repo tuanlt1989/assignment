@@ -960,3 +960,1043 @@ When curing gel, a client feels a burning or heat spike. You should:
 - Apply a thicker layer next time
 - Switch to a regular light bulb
 > Heat spikes come from rapid polymerization. Applying thin layers and briefly pausing protects the client.
+
+[n121] infection
+Antiseptics are designed to be used on:
+- Implements and tools
+- Foot spa pipes and basins
+- Floors and work surfaces
+* Skin, to reduce the number of germs
+> Antiseptics are mild enough for skin but are not strong enough to disinfect implements or surfaces. Use EPA-registered disinfectants on tools and surfaces.
+
+[n122] infection
+Rod-shaped bacteria, which cause diseases such as tetanus and tuberculosis, are called:
+- Cocci
+* Bacilli
+- Diplococci
+- Spirilla
+> Bacilli are rod-shaped and are the most common type of bacteria. They cause diseases such as tetanus, typhoid fever, tuberculosis and diphtheria.
+
+[n123] infection
+Round bacteria that grow in pairs and can cause pneumonia are:
+* Diplococci
+- Streptococci
+- Staphylococci
+- Bacilli
+> "Diplo" means two. Diplococci grow in pairs, streptococci grow in chains, and staphylococci grow in clusters.
+
+[n124] infection
+A technician drops a pair of disinfected nippers on the floor in the middle of a service. What should she do?
+- Wipe them on a clean towel and keep working
+- Spray them with alcohol and keep working
+* Use a different disinfected pair, and clean and disinfect the dropped one
+- Rinse them under running water and keep working
+> A dropped implement is contaminated. It must be cleaned and fully disinfected for the label contact time before it touches any client again.
+
+[n125] infection
+Bacteria multiply by growing to full size and then dividing in half. This process is called:
+- Budding
+* Binary fission
+- Sporulation
+- Mutation
+> In binary fission one cell splits into two identical cells. In warm, moist, dirty conditions bacteria can multiply very quickly.
+
+[n126] infection
+How do viruses differ from bacteria?
+- Viruses are much larger than bacteria
+- Viruses are easily killed by antibiotics
+* Viruses can reproduce only by taking over the cells of a living host
+- Viruses grow and multiply freely in soil
+> A virus must invade a host cell to multiply. Antibiotics do not work against viruses, which is why vaccines are so important.
+
+[n127] infection
+MRSA is best described as:
+* A type of staph bacteria that resists certain antibiotics
+- A harmless bacterium found on most nail tools
+- A virus that spreads only through the air
+- A fungus that grows under nail enhancements
+> Methicillin-resistant Staphylococcus aureus is hard to treat. Hand washing, cleaning and disinfection help prevent its spread in the salon.
+
+[n128] infection
+Ringworm (tinea) is caused by:
+- A parasitic worm
+- A bacterium
+- A virus
+* A fungus
+> Despite its name, ringworm is a contagious fungal infection, not a worm. Do not service affected areas; refer the client to a physician.
+
+[n129] infection
+Scabies, a contagious skin condition that causes intense itching, is caused by:
+* A parasitic mite that burrows under the skin
+- A fungus that grows on the toenails
+- An allergy to nail polish
+- Bacteria living in foot spa pipes
+> Scabies is caused by an itch mite, which is a parasite. Do not service a client with scabies; refer them to a physician.
+
+[n130] infection
+Immunity that develops after a person receives a vaccine is called:
+- Natural immunity
+* Acquired immunity
+- Partial immunity
+- Inherited immunity
+> Natural immunity is partly inherited. Acquired immunity develops after the body overcomes a disease or through vaccination.
+
+[n131] infection
+Which OSHA standard is designed to protect workers from exposure to blood and other potentially infectious materials?
+* The Bloodborne Pathogens Standard
+- The Occupational Noise Exposure Standard
+- The Respiratory Protection Standard
+- The Hazard Communication Standard
+> The Bloodborne Pathogens Standard sets rules for preventing and handling exposure to blood, such as wearing gloves and properly disposing of contaminated items.
+
+[n132] infection
+Quaternary ammonium compounds ("quats") are commonly used in salons as:
+- Moisturizers in cuticle creams
+- Primers for acrylic enhancements
+- Solvents to remove nail polish
+* Disinfectants for implements and surfaces
+> Many EPA-registered salon disinfectants are quats. Like any disinfectant, they must be mixed and used exactly as the label directs.
+
+[n133] infection
+Why should chlorine bleach never be mixed with ammonia or other cleaning products?
+- It makes the bleach work too slowly
+- It stains metal implements
+* It can release toxic gases
+- It turns the solution into an antiseptic
+> Mixing bleach with ammonia or acids releases dangerous gases. Use bleach only as the label directs and dilute it only with water.
+
+[n134] infection
+A disadvantage of phenolic disinfectants is that they can:
+- Kill only fungi
+- Evaporate within a few seconds
+* Irritate the skin and damage some plastic and rubber items
+- Cause nail enhancements to lift
+> Phenolics are effective disinfectants, but gloves and safety glasses are needed, and they can soften or discolor certain plastics and rubber.
+
+[n135] infection
+When using a spray or wipe disinfectant on a manicure table, the surface must:
+- Be wiped dry immediately after spraying
+* Stay visibly wet for the full contact time on the label
+- Be sprayed lightly once and covered with a towel
+- Be rinsed with water before the disinfectant is applied
+> A disinfectant only works while it stays wet on the surface. If it dries before the label contact time is reached, apply more.
+
+[n136] infection
+After implements have been disinfected and dried, they should be stored:
+- In the technician's pocket for easy reach
+- Loose on top of the manicure table
+* In a clean, covered container until needed
+- In the same container as used implements
+> Disinfected tools must be protected from contamination. Keep them in a clean, covered container and never mix them with used items.
+
+[n137] infection
+Disposable sanding bands (sleeves) used on an electric file should be:
+- Disinfected and reused on the next client
+- Rinsed in water and put back on the mandrel
+- Washed with soap and reused for one week
+* Used on one client only and then discarded
+> Sanding bands are porous and cannot be disinfected. Metal and diamond bits can be cleaned and disinfected, but sanding bands are single-use.
+
+[n138] infection
+A nail technician who is allergic to latex should choose disposable gloves made of:
+* Nitrile
+- Natural rubber
+- Cotton
+- Wool
+> Nitrile gloves contain no latex and resist many salon chemicals. Natural rubber gloves are latex.
+
+[n139] infection
+When washing your hands, you should scrub with soap and warm water for at least:
+- 2 seconds
+- 5 seconds
+* 20 seconds
+- 10 minutes
+> Scrubbing for at least 20 seconds, including between the fingers and under the nails, removes most germs. Dry with a clean disposable towel.
+
+[n140] infection
+A used disposable blade or other sharp item should be discarded:
+- In the regular trash can at the station
+- In a paper bag
+- Down the sink drain
+* In a puncture-resistant sharps container
+> Sharps containers protect everyone from cuts and puncture injuries. Follow your state's rules for disposing of the full container.
+
+[n141] infection
+At the end of each day, the removable screen (inlet) of a whirlpool foot spa should be:
+* Removed and scrubbed, and the area behind it cleaned
+- Replaced only once a year
+- Sprayed with air freshener
+- Left in place so the pipes stay sealed
+> Debris trapped behind the screen feeds biofilm. Clean the screen and the area behind it daily, then disinfect the system as directed.
+
+[n142] infection
+Used towels and linens should be:
+- Left on the pedicure chair until the end of the week
+- Folded and reused on the next client
+* Kept in a covered container until laundered with detergent
+- Shaken out and returned to the clean cabinet
+> Linens touch skin and can carry germs. Use a fresh towel for every client and keep soiled ones covered until they are laundered.
+
+[n143] anatomy
+The nail bed and matrix are attached to the underlying bone by:
+- Tendons
+- The lunula
+* Specialized ligaments
+- Sebaceous glands
+> Specialized ligaments anchor the nail bed and matrix to the bone and help hold the nail unit in place.
+
+[n144] anatomy
+The slits or furrows along the sides of the nail, on which the nail moves as it grows, are the:
+- Free edges
+* Nail grooves
+- Lunulas
+- Hyponychium
+> The nail grooves are the tracks the nail plate follows as it grows forward, beneath the lateral nail folds.
+
+[n145] anatomy
+The skin that surrounds the border of the nail plate is the:
+* Perionychium
+- Hyponychium
+- Matrix
+- Lunula
+> "Peri" means around, so the perionychium is the skin bordering the nail plate. Infections there, such as paronychia, must be referred to a physician.
+
+[n146] anatomy
+The part of the nail plate that extends past the end of the finger or toe is the:
+- Nail bed
+- Eponychium
+* Free edge
+- Lateral nail fold
+> The free edge has no nail bed under it. Shape it to suit the client's lifestyle and keep it smooth so it does not snag.
+
+[n147] anatomy
+The shape and thickness of the nail plate are determined mainly by the:
+- Nail bed
+* Matrix
+- Cuticle
+- Hyponychium
+> The matrix produces the nail plate cells, so the size and shape of the matrix determine the width and thickness of the nail plate.
+
+[n148] anatomy
+A healthy natural nail plate is usually:
+* Smooth, firm but flexible, and pinkish in color
+- Pitted with deep grooves
+- Thick, yellow and crumbly
+- Soft enough to fold completely in half
+> A healthy nail is smooth, curved and free of spots or hollows. Its pink color comes from the blood vessels of the nail bed showing through the translucent plate.
+
+[n149] anatomy
+The dermis is also known as the:
+* True skin
+- Outer skin
+- Fat layer
+- Basal layer
+> The dermis (derma or corium) lies below the epidermis and contains blood vessels, nerves, sweat and oil glands, and hair follicles.
+
+[n150] anatomy
+The fatty layer below the dermis that gives the body contour and acts as a protective cushion is the:
+* Subcutaneous (adipose) tissue
+- Papillary layer
+- Stratum corneum
+- Epidermis
+> Subcutaneous tissue stores fat for energy, gives smoothness and contour to the body, and protects the structures beneath it.
+
+[n151] anatomy
+The outermost layer of the epidermis, made of tightly packed keratinized cells that are constantly shed, is the:
+- Stratum germinativum
+- Reticular layer
+* Stratum corneum
+- Stratum granulosum
+> The stratum corneum (horny layer) is the tough protective surface. Its dead cells are shed and replaced by cells moving up from below.
+
+[n152] anatomy
+The protein fibers in the dermis that give the skin strength and elasticity are:
+- Lymph and plasma
+- Keratin and melanin
+- Sebum and sweat
+* Collagen and elastin
+> Collagen gives the skin strength and form; elastin lets it stretch and return to shape. Both break down with age and sun damage.
+
+[n153] anatomy
+When the skin releases sweat that evaporates and cools the body, it is performing which function?
+* Heat regulation
+- Secretion of sebum
+- Absorption
+- Sensation
+> The skin helps keep the body near 98.6°F (37°C). Sweat carries heat away from the body as it evaporates.
+
+[n154] anatomy
+Fingertips are especially sensitive to touch, heat, cold and pain because they have many:
+- Sebaceous glands
+- Hair follicles
+* Sensory nerve endings
+- Fat cells
+> Sensory nerve endings send messages to the brain about touch, pain, heat and cold. They are especially plentiful in the fingertips.
+
+[n155] anatomy
+The two bones of the lower leg are the:
+* Tibia and fibula
+- Ulna and radius
+- Femur and patella
+- Talus and calcaneus
+> The tibia (shin bone) is the larger bone on the big-toe side of the leg; the fibula is the thinner bone on the outer side.
+
+[n156] anatomy
+The bone on the thumb side of the forearm is the:
+- Ulna
+- Scapula
+- Humerus
+* Radius
+> The radius is on the thumb side of the forearm and the ulna is on the little-finger side.
+
+[n157] anatomy
+The five long bones of the foot that connect the ankle to the toes are the:
+* Metatarsals
+- Phalanges
+- Metacarpals
+- Tarsals
+> The foot has 26 bones: 7 tarsals, 5 metatarsals and 14 phalanges.
+
+[n158] anatomy
+How many bones are in the human hand, including the wrist?
+- 14
+- 19
+* 27
+- 33
+> The hand and wrist have 27 bones: 8 carpals, 5 metacarpals and 14 phalanges.
+
+[n159] anatomy
+The muscles that straighten the wrist, hand and fingers are the:
+- Adductors
+- Flexors
+- Pronators
+* Extensors
+> Extensors straighten (extend) the wrist and fingers; flexors bend them.
+
+[n160] anatomy
+The muscles at the base of the fingers that draw the fingers together are the:
+- Extensors
+- Abductors
+- Supinators
+* Adductors
+> Adductors draw the fingers together; abductors spread (separate) them apart.
+
+[n161] anatomy
+The large calf muscle that pulls the foot down and points the toes is the:
+- Tibialis anterior
+- Extensor hallucis longus
+* Gastrocnemius
+- Extensor digitorum longus
+> The gastrocnemius forms the bulk of the calf and attaches to the heel. Pedicure massage often includes gentle kneading of this muscle.
+
+[n162] anatomy
+The nerve that supplies the little-finger side of the arm and the palm of the hand is the:
+- Radial nerve
+- Median nerve
+- Sciatic nerve
+* Ulnar nerve
+> The ulnar nerve runs along the little-finger side of the arm and hand; the radial nerve supplies the thumb side.
+
+[n163] anatomy
+Blood vessels that carry blood back toward the heart are:
+* Veins
+- Arterioles
+- Lymph nodes
+- Arteries
+> Arteries carry blood away from the heart and veins return it. Veins have valves that help keep blood flowing toward the heart.
+
+[n164] disorders
+Inflammation of the nail matrix, which may be followed by shedding of the nail, is called:
+- Onychauxis
+* Onychia
+- Leukonychia
+- Pterygium
+> Onychia often starts when germs enter through small injuries or from unclean implements. Do not service the nail; refer the client to a physician.
+
+[n165] disorders
+The periodic shedding of one or more nails, in whole or in part, is called:
+- Onychophagy
+- Onycholysis
+* Onychoptosis
+- Onychocryptosis
+> Onychoptosis can follow certain diseases, fever, injury or drug reactions. Refer the client to a physician to find the cause.
+
+[n166] disorders
+Wasting away of the nail, in which it loses its shine, becomes smaller and may shed, is called:
+- Onychauxis
+- Onychorrhexis
+* Onychatrophia
+- Onychogryphosis
+> Onychatrophia can be caused by injury to the matrix or by disease. Handle the nail gently and refer the client to a physician.
+
+[n167] disorders
+A thickened nail with an extreme curve, sometimes called a "ram's horn" or claw nail, is:
+* Onychogryphosis
+- Leukonychia
+- Onychoptosis
+- Koilonychia
+> Onychogryphosis is most common on the big toe and can follow injury or long-term neglect. Refer severe cases to a podiatrist.
+
+[n168] disorders
+Tiny pits or severe roughness on the surface of the nail plate are commonly associated with:
+- Splinter hemorrhages
+* Nail psoriasis
+- Eggshell nails
+- Hangnails
+> Nail psoriasis can cause pitting, roughness and sometimes separation from the nail bed. Do not try to treat it; refer the client to a physician.
+
+[n169] disorders
+Thin, white nails that are much more flexible than normal and curve at the free edge are known as:
+- Pincer nails
+* Eggshell nails
+- Spoon nails
+- Plicatured nails
+> Eggshell nails can be caused by improper diet, illness, medication or nerve disorders. File gently with a fine abrasive because they break easily.
+
+[n170] disorders
+A client slammed her finger in a car door last week, and now there is a dark purplish spot under the nail. This is most likely:
+- Melanonychia
+- A fungal infection
+- Leukonychia
+* A bruised nail (a blood clot under the plate)
+> A bruised nail forms when a small injury causes bleeding under the nail plate. The dark spot usually grows out with the nail; work gently over the area.
+
+[n171] disorders
+A highly curved, folded nail, usually caused by injury to the matrix but sometimes inherited, is called a:
+- Spoon nail
+* Plicatured nail
+- Eggshell nail
+- Hangnail
+> "Plicatured" means folded. These nails curve sharply at the sides and often lead to ingrown nails, so refer painful cases to a physician.
+
+[n172] disorders
+Skin from the hyponychium that grows forward and sticks to the underside of the nail plate is called:
+- Paronychia
+- Onycholysis
+* Inverse pterygium
+- A hangnail
+> Inverse pterygium attaches to the underside of the free edge and can be painful. Never force it back or cut it; refer the client to a physician if it is uncomfortable.
+
+[n173] disorders
+Vertical ridges on the nail plate, common with aging, are best handled by:
+* Buffing carefully and using a ridge-filling base coat
+- Refusing service and referring to a physician
+- Soaking the nails in acetone
+- Filing deeply until the ridges disappear
+> Ridges can be serviced. Deep filing thins and weakens the nail, while gentle buffing and a ridge filler give a smooth surface.
+
+[n174] disorders
+A lump of red tissue growing up from the nail bed toward the nail plate, caused by severe inflammation, is a:
+* Pyogenic granuloma
+- Hangnail
+- Leukonychia spot
+- Corn
+> A pyogenic granuloma is a medical condition. Do not service the nail; refer the client to a physician.
+
+[n175] disorders
+A thick patch of skin on the sole of the foot that forms from repeated pressure or friction is a:
+- Wart
+* Callus (keratoma)
+- Mole
+- Vesicle
+> A callus is the skin's protective response to pressure. It can be gently reduced during a pedicure but should not be completely removed.
+
+[n176] disorders
+A client with diabetes has a small open sore on the bottom of her foot and wants a pedicure. You should:
+- Perform the pedicure but stay well away from the sore
+* Not perform the pedicure and refer her to a physician or podiatrist
+- Cover the sore with a bandage and continue as usual
+- Soak the foot longer so the sore gets cleaned
+> Diabetes can reduce circulation and feeling, so wounds heal slowly and become infected easily. Never service a foot with an open sore.
+
+[n177] disorders
+Which of these conditions can usually be serviced by a nail technician?
+* Beau's lines
+- Onychomycosis
+- Paronychia
+- Tinea pedis
+> Beau's lines show past interrupted growth and are not infectious. Infections such as paronychia, onychomycosis and tinea pedis must be referred to a physician.
+
+[n178] disorders
+A regular acrylic client develops red, itchy, swollen skin around her nails where product touched the skin. What is the most likely cause?
+* An allergic reaction (sensitization) to the enhancement product
+- A bacterial infection from the nail form
+- Normal skin dryness that lotion will fix
+- A vitamin deficiency
+> Repeated skin contact with monomer or gel can cause allergic contact dermatitis. Stop using that product on the client, suggest she see a physician, and keep product off the skin.
+
+[n179] disorders
+Red, dry skin caused when a harsh substance temporarily damages the epidermis, without an allergy, is called:
+- Allergic contact dermatitis
+- Hyperhidrosis
+- Psoriasis
+* Irritant contact dermatitis
+> Irritant contact dermatitis is caused by substances such as strong soaps or solvents. Wearing gloves and limiting skin contact help prevent it.
+
+[n180] disorders
+Excessive sweating, often noticed on the hands or feet, is called:
+- Anhidrosis
+* Hyperhidrosis
+- Bromhidrosis
+- Miliaria rubra
+> Hyperhidrosis is caused by overactive sweat glands. Moisture affects how polish and enhancements adhere, so keep the nail plate dry during the service.
+
+[n181] disorders
+Foul-smelling perspiration, usually noticed in the armpits or on the feet, is called:
+- Onychorrhexis
+- Hyperhidrosis
+- Anhidrosis
+* Bromhidrosis
+> Bromhidrosis comes from bacteria breaking down sweat on the skin. Good foot hygiene, clean socks and breathable shoes help reduce it.
+
+[n182] disorders
+A crack in the skin that penetrates the dermis, such as severely chapped hands or cracked heels, is a:
+- Vesicle
+* Fissure
+- Macule
+- Pustule
+> Fissures can bleed and let germs in. Do not perform services over open or bleeding fissures.
+
+[n183] disorders
+A small blister or sac containing clear fluid is called a:
+- Macule
+* Vesicle
+- Papule
+- Tubercle
+> Vesicles lie within or just under the epidermis. A larger blister is called a bulla.
+
+[n184] disorders
+A flat spot or discoloration on the skin, such as a freckle, is a:
+- Wheal
+- Pustule
+* Macule
+- Nodule
+> Macules are flat, not raised. Papules, wheals and nodules are raised lesions.
+
+[n185] disorders
+Another name for onychomycosis is:
+- Tinea pedis
+* Tinea unguium
+- Tinea capitis
+- Tinea corporis
+> "Unguium" refers to the nails. Tinea unguium (onychomycosis) is a contagious fungal nail infection that must be referred to a physician.
+
+[n186] chemistry
+A substance made of only one type of atom, which cannot be broken down into simpler substances, is a(n):
+- Compound
+- Mixture
+- Emulsion
+* Element
+> Elements are the simplest form of matter. Compounds are two or more elements chemically joined, such as water (H2O).
+
+[n187] chemistry
+Traditional (air-dry) nail polish hardens mainly because:
+* Its solvents evaporate and leave a film behind
+- It polymerizes when exposed to light
+- It reacts with oxygen to form a new chemical
+- It absorbs water from the nail plate
+> Air-dry polish goes through a physical change: the solvents evaporate and the film-forming ingredients remain. Gels and acrylics harden through a chemical reaction.
+
+[n188] chemistry
+In liquid-and-powder (acrylic) systems, the ingredient in the powder that starts the polymerization reaction is usually:
+- Acetone
+- Ethyl acetate
+* Benzoyl peroxide (the initiator)
+- Methacrylic acid
+> Benzoyl peroxide (BPO) is the initiator. When the liquid wets the powder, BPO is activated and starts linking monomers into polymer chains.
+
+[n189] chemistry
+A substance that speeds up a chemical reaction without being used up itself is a:
+- Solvent
+- Solute
+- Polymer
+* Catalyst
+> Catalysts are added to monomer liquids and gels to control how quickly they harden.
+
+[n190] chemistry
+Cross-linking monomers are added to enhancement products to:
+- Add pigment and extra shine to the nail
+- Make the product dissolve faster in acetone
+* Link polymer chains into a strong, net-like structure
+- Keep the liquid from evaporating
+> Cross-linkers connect long polymer chains to one another, making the enhancement stronger and harder to break down.
+
+[n191] chemistry
+A product has a very strong smell. What does the odor tell you about your exposure?
+- A strong odor means a dangerous level of vapor is present
+- A product with no odor is always safe to breathe
+* Odor alone is not a reliable measure of how much vapor you inhale
+- Pleasant-smelling products cannot be harmful
+> Some harmful vapors have little odor, and some strong odors are harmless at low levels. Control exposure with ventilation, closed containers and good work habits.
+
+[n192] chemistry
+The three main ways chemicals can enter the body are:
+- Through the hair, nails and teeth only
+- Through sweating and blinking only
+* Inhalation, absorption through the skin or eyes, and ingestion
+- Only through open cuts and wounds
+> Breathing vapors and dust, skin and eye contact, and swallowing (for example, by eating at the station) are the routes of exposure. Good work habits reduce each one.
+
+[n193] chemistry
+A paper dust mask worn while filing enhancements will:
+- Protect against all chemical vapors
+- Prevent skin allergies
+- Replace the need for ventilation
+* Help block dust particles but not vapors
+> Dust masks trap particles, but vapor molecules pass right through. Ventilation and closed containers are still needed to control vapors.
+
+[n194] chemistry
+The trash container at a nail station should be:
+* A metal container with a self-closing lid, emptied often
+- An open basket emptied once a week
+- A cardboard box under the table
+- A plastic bag hung on the back of the chair
+> Product-soaked cotton and wipes release vapors. A closed, self-closing metal can keeps vapors in and reduces fire risk; empty it several times a day.
+
+[n195] chemistry
+Leftover monomer in a dappen dish should never be poured back into the original bottle because:
+- It evaporates too quickly once poured
+- It loses all of its odor in the dish
+- It changes color while in the dish
+* It may be contaminated and can spoil the product in the bottle
+> Dust, powder and debris get into the dish during the service and can contaminate the whole bottle. Pour out only what you need.
+
+[n196] chemistry
+Small amounts of leftover monomer liquid should be disposed of by:
+* Soaking them up with a towel, sealing it in a bag, and discarding it
+- Leaving the dish open to evaporate overnight
+- Pouring them down the sink
+- Pouring them into the toilet
+> Never pour monomer down a drain or let it evaporate into the salon air. Absorb it, seal it in a plastic bag, and discard it in a closed trash container.
+
+[n197] chemistry
+Nail primers improve adhesion by working like:
+* Double-sided tape between the natural nail and the product
+- A sealer that blocks all moisture permanently
+- A solvent that dissolves the nail surface
+- A dye that colors the nail plate
+> Part of the primer molecule bonds to the nail plate and part bonds to the enhancement product, holding the two together.
+
+[n198] chemistry
+Short chains of monomers that are not yet long enough to be polymers, and are a main ingredient of UV gels, are called:
+* Oligomers
+- Solutes
+- Catalysts
+- Surfactants
+> "Oligo" means few. Oligomers are partly linked chains that join into full polymers when the gel is cured.
+
+[n199] chemistry
+The overexposure principle states that:
+- Any amount of a chemical is always harmful
+* Harm depends on how much exposure occurs, how often, and for how long
+- Natural products can never cause harm
+- Only products with strong odors are harmful
+> Every substance has a safe and an unsafe level of exposure. Proper handling keeps your exposure well below the harmful level.
+
+[n200] chemistry
+Liquids that mix together easily in any amount, such as water and alcohol, are described as:
+- Insoluble
+- Immiscible
+- Suspensions
+* Miscible
+> Miscible liquids blend completely. Immiscible liquids, such as oil and water, separate unless an emulsifier is added.
+
+[n201] chemistry
+Nail polish pigments slowly settle to the bottom of the bottle when it sits still. This is because nail polish is a:
+- Solution
+- Element
+- Compound
+* Suspension
+> In a suspension, particles are spread through a liquid but are not dissolved, so they separate over time and must be remixed before use.
+
+[n202] chemistry
+A substance that evaporates easily at room temperature is described as:
+- Miscible
+- Inert
+- Alkaline
+* Volatile
+> Volatile liquids, such as acetone and alcohol, evaporate quickly. Keep their containers closed to limit vapors and fire risk.
+
+[n203] chemistry
+Compared with a solution at pH 5, a solution at pH 4 is:
+- Twice as acidic
+* Ten times more acidic
+- Slightly less acidic
+- One hundred times more alkaline
+> The pH scale is logarithmic: each whole-number step is a tenfold change in acidity or alkalinity.
+
+[n204] chemistry
+A drop of primer splashes into a technician's eye. The first thing to do is:
+- Rub the eye gently to remove the primer
+* Flush the eye with clean running water and seek medical help
+- Apply eye drops and finish the service
+- Cover the eye and wait for the pain to pass
+> Acid-based primers can burn the eye. Flush right away for as long as the SDS directs (often 15 minutes) and get medical attention. Safety glasses prevent this injury.
+
+[n205] chemistry
+Which section of a Safety Data Sheet lists the personal protective equipment (PPE) to use, such as gloves or eye protection?
+- Section 1: Identification
+- Section 4: First-aid measures
+* Section 8: Exposure controls/personal protection
+- Section 14: Transport information
+> Section 8 lists exposure limits, ventilation needs and recommended PPE. Section 2 lists the hazards and Section 4 the first-aid steps.
+
+[n206] chemistry
+If you transfer a product from its original container into a smaller bottle, you must:
+- Leave the smaller bottle unlabeled
+- Add a little water to make it last longer
+- Use an empty food or drink container
+* Label the new container with the product's name and hazards
+> OSHA requires containers to be labeled so everyone knows what is inside. Never put salon chemicals in food or drink containers.
+
+[n207] chemistry
+Nail polish that has become too thick should be thinned with:
+- Acetone polish remover
+* The polish thinner recommended by the manufacturer
+- Water
+- Cuticle oil
+> Polish remover breaks down the polish formula and ruins it. Add the recommended thinner a few drops at a time.
+
+[n208] manipedi
+In a basic manicure, why are the natural nails shaped before they are soaked?
+- Soaked nails become too hard to file
+- Filing after soaking removes the cuticle softener
+* Nails softened by water are more likely to split or peel when filed
+- Water makes the nails grow during filing
+> Water softens and swells the nail plate. Filing it in that state can cause splitting and peeling, so shape first, then soak.
+
+[n209] manipedi
+The correct way to remove nail polish is to:
+- Scrub back and forth across the nail with dry cotton
+- Soak the fingers in remover for 10 minutes
+- Scrape the polish off with a metal pusher
+* Hold soaked cotton on the nail briefly, then wipe toward the free edge
+> Letting the remover sit a few seconds loosens the polish. Wiping toward the free edge keeps color from smearing onto the cuticle.
+
+[n210] manipedi
+Which nail shape is a common choice for male clients?
+- Pointed
+* Round
+- Stiletto
+- Almond
+> A round nail is slightly tapered and extends just past the fingertip, a neat, practical shape that suits many male clients.
+
+[n211] manipedi
+A client wants her nails filed flat across the tip with sharp, unrounded corners. Which shape is she asking for?
+- Oval
+* Square
+- Squoval
+- Round
+> The square nail is filed straight across. The squoval is similar but has slightly rounded corners.
+
+[n212] manipedi
+A pointed nail shape is best described as:
+- The shape recommended for all toenails
+- The strongest shape for clients who work with their hands
+- Straight across with square corners
+* Tapered and weaker than other shapes, so it breaks more easily
+> Pointed nails suit thin hands with narrow nail beds, but the taper removes support at the tip, so they break more easily.
+
+[n213] manipedi
+When applying nail polish, you should:
+* Leave a tiny free margin so polish does not touch the cuticle and sidewalls
+- Flood the cuticle and sidewalls so the color looks full
+- Apply one very thick coat of color
+- Start at the free edge and brush toward the cuticle
+> A hairline margin keeps polish off the skin and gives a clean, professional finish.
+
+[n214] manipedi
+Running the polish brush along the tip of the free edge after each coat is called "capping" the free edge. This helps:
+- Thin the polish
+- Remove excess cuticle
+* Prevent chipping and peeling at the tip
+- Dry the polish faster
+> Wrapping the color and top coat over the free edge seals the tip, where wear is greatest.
+
+[n215] manipedi
+A standard way to apply color to a fingernail is to:
+* Make one stroke down the center, then one along each side
+- Dab polish on in small spots
+- Paint across the nail from sidewall to sidewall
+- Apply polish to the free edge only
+> Starting near the cuticle and pulling toward the free edge in about three strokes gives even, smooth coverage.
+
+[n216] manipedi
+Before placing a client's hands in a paraffin bath, you should:
+- Have the client wipe her hands with acetone
+- Apply nail polish so the wax will not stick
+* Test the wax temperature on the inside of the client's wrist
+- Heat the wax until it is clear and smoking
+> Paraffin should feel warm, not hot. Testing first helps prevent burns, and the skin must be clean and free of cuts.
+
+[n217] manipedi
+To reduce the risk of repetitive stress injuries such as carpal tunnel syndrome, a nail technician should:
+- Grip implements as tightly as possible
+- Work without breaks to finish faster
+- Bend the wrists sharply to reach the client
+* Keep the wrists straight (neutral) and take short stretch breaks
+> Neutral wrist positions, a properly adjusted chair and table, and regular stretching reduce strain on the hands and wrists.
+
+[n218] manipedi
+Foam toe separators and disposable pedicure slippers are:
+- Disinfected and reused for the next client
+* Single-use items to discard or give to the client
+- Washed in the foot spa and reused
+- Sprayed with alcohol and returned to the shelf
+> Foam and paper items are porous and cannot be disinfected, so they are used for one client only.
+
+[n219] manipedi
+When buffing the natural nail to a high shine, you should:
+- Press hard to get a faster, brighter shine
+* Use light pressure and keep the buffer moving to avoid heat
+- Buff only the area near the cuticle
+- Finish with the coarsest side of the buffer
+> Too much pressure or friction creates heat that can cause a burning feeling and thin the nail. Work from the coarser side to the finest side.
+
+[n220] manipedi
+Before soaking off gel polish, the technician should:
+- Apply cuticle oil over the gel to seal it
+- Cure the nails again under the lamp
+* Lightly file the shiny top coat to break the seal
+- Peel the gel off from the free edge
+> Breaking the top coat seal lets the acetone soak into the gel. Peeling gel off removes layers of the natural nail.
+
+[n221] manipedi
+Gel polish color coats should be applied:
+- In one thick coat to save time
+* In thin layers, curing each layer as directed
+- Over the cuticle so the color looks full
+- Without a base coat for better adhesion
+> Thin layers cure completely and resist lifting. Thick layers may stay uncured underneath and can wrinkle.
+
+[n222] manipedi
+Before each manicure client, the table surface should be:
+* Cleaned and disinfected, then covered with a fresh, clean towel
+- Dusted with a dry cloth
+- Sprayed with air freshener
+- Cleaned only at the end of the day
+> Every client deserves a freshly cleaned and disinfected work area. A clean towel is then placed on the disinfected surface.
+
+[n223] manipedi
+A nail art tool with a small ball on the end, used to place round dots of color, is a:
+* Dotting tool (stylus)
+- Striping brush
+- Fan brush
+- Cuticle pusher
+> Dotting tools come in several ball sizes. Dip the ball in polish or paint and touch it lightly to the nail.
+
+[n224] manipedi
+The massage movement that uses deep rubbing pressure to move the skin over the structures beneath it is:
+- Effleurage
+- Tapotement
+- Vibration
+* Friction
+> Friction is a deep rubbing movement, often done in small circles. It is more stimulating to circulation than effleurage.
+
+[n225] manipedi
+A client asks you to cut away the skin at the base of her nail because it "looks overgrown." You should:
+* Explain it is living skin that must not be cut, and gently push it back
+- Cut it with nippers since the client asked
+- Trim it carefully with cuticle scissors
+- File it down with a coarse abrasive
+> The eponychium protects the matrix from infection. Cutting it can cause bleeding and infection, even when the client requests it.
+
+[n226] manipedi
+At the start of a manicure, the client should wash her hands with:
+- A shared bar of soap at the sink
+* Liquid soap, then dry them with a clean or disposable towel
+- Acetone and a cotton pad
+- Plain water only, then air dry
+> Liquid soap from a dispenser is preferred because a shared bar of soap can harbor germs. Clean hands reduce the spread of germs during the service.
+
+[n227] manipedi
+During a hand or foot massage, you should avoid massaging over:
+- Healthy, unbroken skin
+- The palm of the hand
+* Open sores, swelling or inflamed areas
+- The top of the foot
+> Massage over damaged or inflamed skin can spread infection or worsen the condition. Skip the area and refer the client if needed.
+
+[n228] manipedi
+To help a client prevent hangnails and dry cuticles between appointments, you should recommend:
+- Biting or pulling off loose skin
+- Washing the hands with acetone
+* Applying cuticle oil or cream daily
+- Avoiding all hand lotion
+> Daily oil or cream keeps the cuticle and surrounding skin flexible, so it is less likely to crack and form hangnails.
+
+[n229] manipedi
+To mix nail polish before use without creating air bubbles, you should:
+- Shake the bottle hard for one minute
+* Roll the bottle gently between your palms
+- Add a drop of polish remover
+- Leave the bottle upside down overnight
+> Shaking traps air bubbles that can show up in the finished color. Rolling mixes the pigments smoothly.
+
+[n230] enhancements
+In a three-zone acrylic application, where should the product be thinnest?
+- In the stress area
+- At the apex
+* Near the cuticle and sidewalls
+- In the center of the nail
+> Product is tapered thin at the cuticle and sidewalls so it blends smoothly and does not lift, while the apex carries the most thickness.
+
+[n231] enhancements
+Acrylic (liquid-and-powder) brushes are best cleaned between uses with:
+* The monomer liquid used for the service
+- Acetone
+- Hot water and soap
+- Rubbing alcohol
+> Harsh solvents such as acetone can dry out natural bristles, and water or soap left in the brush interferes with the next bead. Wipe the brush clean with monomer.
+
+[n232] enhancements
+On a nail enhancement, the "C-curve" is:
+- The shape of the smile line on a French nail
+* The curve seen when looking down the nail from the free edge
+- The curve of the cuticle area
+- The angle of the nail form
+> A good C-curve adds strength to the enhancement. It is often shaped by gently pinching the product while it is still slightly flexible.
+
+[n233] enhancements
+If a client's natural nail is between two tip sizes, you should:
+- Choose the smaller tip and press it on firmly
+- Skip the tip and apply polish only
+- Use two small tips side by side
+* Choose the slightly larger tip and file its sides to fit
+> A tip that is too small puts stress on the sidewalls and can crack. A slightly larger tip can be filed to fit from sidewall to sidewall.
+
+[n234] enhancements
+Which method of applying a nail tip helps avoid trapping air bubbles?
+- Press the tip flat onto the nail all at once
+- Apply the adhesive to the client's skin first
+- Slide the tip from side to side until it sticks
+* Place the tip at about a 45-degree angle, then stop, rock it on, and hold
+> The "stop, rock and hold" method pushes air out as the tip is rocked down, giving a strong, clear bond.
+
+[n235] enhancements
+The best way to shorten a plastic nail tip after it is applied is with:
+- A pumice stone
+- Cuticle nippers
+- Toenail clippers
+* A tip cutter
+> A tip cutter cuts cleanly across the tip. Nippers and clippers can crack the tip and stress the natural nail.
+
+[n236] enhancements
+During a fill, a client's acrylic has lifted near the cuticle. The correct way to handle the lifted product is to:
+- Pry it up with nippers and clip it off
+- Apply glue under it and press it down
+- Apply new product right over it
+* Carefully file away the lifted product and smooth the edge
+> Nipping or prying lifted product can tear the natural nail, and gluing it down can trap moisture. File away the lifted area and blend before applying new product.
+
+[n237] enhancements
+In a UV or LED gel enhancement system, a builder (building) gel is mainly used to:
+* Build thickness and strength, including the apex
+- Remove the cuticle
+- Clean off the inhibition layer
+- Dehydrate the natural nail
+> Builder gels are thicker gels used to create the structure of the enhancement. A base gel goes on first and a sealer or top gel finishes it.
+
+[n238] enhancements
+Most nail tips are made from:
+- Tempered glass
+- Aluminum
+- Silk fiber
+* ABS plastic
+> Tips are commonly made of ABS plastic, which is strong, flexible and easy to blend. Some tips are made of acetate.
+
+[n239] enhancements
+To avoid cross-contaminating a jar of dip powder, the technician should:
+- Dip every client's fingers into the same jar
+- Blow off the excess powder and return it to the jar
+* Pour or sprinkle powder over the nail, or use a separate portion for each client
+- Store the jar open to let it air out
+> Dipping many clients into one jar can spread germs from client to client. Use a pour-over method or a single-use portion, and discard the used powder.
+
+[n240] enhancements
+Which wrap fabric is a thin, natural material that becomes transparent when wrap resin is applied?
+- Linen
+- Fiberglass
+* Silk
+- Paper
+> Silk is tightly woven and looks smooth and clear under resin. Linen is heavier and stays visible unless covered with color, and fiberglass is a synthetic mesh.
+
+[n241] enhancements
+A small piece of wrap fabric cut to cover a crack or break in the nail is called a:
+* Repair patch
+- Nail form
+- Dappen dish
+- Sanding band
+> A repair patch is cut to extend past the crack on all sides, then sealed with resin to hold the break together.
+
+[n242] enhancements
+On an electric file, the bit that holds a disposable sanding band is the:
+* Mandrel
+- Diamond bit
+- Cuticle bit
+- Carbide bit
+> Sanding bands slide onto the mandrel. The mandrel is cleaned and disinfected; the bands are discarded after each client.
+
+[n243] enhancements
+When fitting a nail form for a sculptured enhancement, the form should:
+- Rest loosely on top of the free edge
+* Fit snugly under the free edge with no gaps
+- Cover the entire natural nail plate
+- Point downward toward the floor
+> Gaps let product run under the free edge and create a weak, uneven nail. The form should line up evenly with the natural nail.
+
+[n244] enhancements
+Over-filing the natural nail plate during enhancement preparation can cause:
+- Faster nail growth
+* Thinning, weakness and sensitivity of the nail
+- Better adhesion with no drawbacks
+- A thicker, stronger nail plate
+> Preparation should only remove the shine. A thinned nail is weak, feels heat during curing, and is easily damaged.
+
+[n245] enhancements
+A simple way to tell whether acrylic has hardened enough to file is that it:
+- Changes color to bright white
+* Makes a clicking sound when lightly tapped with the brush handle
+- Feels warm and soft to the touch
+- Smells stronger than before
+> Fully set acrylic sounds hard ("clicks") when tapped. Filing too soon can damage the product.
+
+[n246] enhancements
+On pink-and-white enhancements, the line where the white free edge meets the pink nail bed area is the:
+- Stress line
+- C-curve
+- Apex
+* Smile line
+> A crisp, even smile line is a key feature of a well-done French-style enhancement.
+
+[n247] enhancements
+A "backfill" on pink-and-white enhancements is done to:
+- Remove the enhancements completely
+- Apply cuticle oil under the product
+* Replace the white tip area as the smile line grows out
+- Shorten the natural nail
+> As the nail grows, the white moves forward. A backfill files out the old white and reapplies white product at the correct smile line.
+
+[n248] enhancements
+UV bulbs in gel lamps should be replaced as the manufacturer recommends because:
+- They stop glowing after one use
+- They change the color of the gel
+- They become too bright for the client
+* Their UV output decreases over time even though they still glow
+> A bulb can look bright but give off too little UV to cure gel fully. Under-cured gel causes lifting, service breakdown and sensitization.
+
+[n249] enhancements
+An acid-based primer should be applied:
+- Generously over the skin, tip and nail
+* In a very small amount, to the natural nail plate only
+- Only to the plastic tip
+- After the acrylic has hardened
+> A tiny amount on the natural nail is all that is needed. Too much primer, or primer on the skin, can cause burns and sensitivity.
+
+[n250] enhancements
+A client's acrylic nails keep breaking at the stress area. The most likely cause is:
+- Too much product near the cuticle
+* Product that is too thin over the stress area (missing or misplaced apex)
+- Using a fine-grit buffer for the final shape
+- Applying cuticle oil daily
+> The stress area needs the most strength. A properly placed apex adds thickness where the nail flexes and breaks.

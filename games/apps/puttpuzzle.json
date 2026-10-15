@@ -1,0 +1,42 @@
+{
+  "id": "puttpuzzle",
+  "applicationId": "com.tuanlt.puzzle.puttpuzzle",
+  "launcherName": "Putt Puzzle",
+  "game": "putt",
+  "title": {
+    "en": "Putt Puzzle: Daily Mini Golf",
+    "es": "Putt Puzzle: Minigolf Diario",
+    "pt": "Putt Puzzle: Minigolfe Diário",
+    "vi": "Putt Puzzle: Golf Mini",
+    "id": "Putt Puzzle: Golf Mini Harian",
+    "de": "Putt Puzzle: Minigolf täglich",
+    "ja": "Putt Puzzle: 毎日ミニゴルフ"
+  },
+  "color": "#2E7D32",
+  "icon": {
+    "label": "",
+    "badge": "",
+    "glyph": "golf"
+  },
+  "suggestedPriceUsd": 2.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/puttpuzzle.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children.",
+  "tagline": {
+    "en": "A new mini golf hole every day · Beat par · Offline"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "A brand-new hole every day",
+      "Sand, water, ice and bumpers",
+      "Beat par to earn 3 stars",
+      "Daily streaks & trophies"
+    ]
+  },
+  "markets": [
+    "ALL"
+  ]
+}

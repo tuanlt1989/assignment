@@ -1,0 +1,16 @@
+Lege Dominos so, dass jede Farbzone ihre Regel erfüllt. Tägliches Rätsel.
+
+SO WIRD GESPIELT
+Lege jeden Dominostein auf zwei benachbarte Felder. Jede farbige Zone muss ihr Etikett erfüllen: Σ = Augensumme, = alle gleich, ≠ alle verschieden, < oder > Summe kleiner oder größer als die Zahl.
+
+FUNKTIONEN
+• Unbegrenzt Rätsel in 4 Stufen: Leicht, Mittel, Schwer, Experte
+• Jedes Rätsel hat genau eine Lösung – reine Logik, kein Raten
+• Neues Tagesrätsel, Serien und ein 60-Tage-Archiv
+• 1–3 Sterne verdienen, 8 Farbdesigns und 12 Trophäen freischalten
+• Timer, Bestzeiten und Statistik
+• Tipps, wenn du feststeckst
+• Keine Werbung. Offline spielbar. Kein Konto nötig.
+
+UNBEGRENZT FREISCHALTEN
+Ein kleiner Einmalkauf: unbegrenzt schwere und Experten-Rätsel, unbegrenzt Tipps, das komplette Archiv und alle Designs. Kein Abo.

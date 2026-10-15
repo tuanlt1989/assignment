@@ -1,55 +1,20 @@
 {
- "arrowout": {
-  "id": "arrowout",
-  "game": "arrow",
+ "dominodots": {
+  "id": "dominodots",
+  "game": "pips",
   "title": {
-   "en": "Arrow Out: Escape Puzzle",
-   "es": "Arrow Out: Puzzle de Flechas",
-   "pt": "Arrow Out: Quebra-Cabeça de Setas",
-   "vi": "Arrow Out: Giải Đố Mũi Tên",
-   "id": "Arrow Out: Puzzle Panah",
-   "de": "Arrow Out: Pfeil-Rätsel"
+   "en": "Domino Dots: Logic Puzzle",
+   "es": "Domino Dots: Lógica Dominó",
+   "pt": "Domino Dots: Lógica de Dominó",
+   "vi": "Domino Dots: Giải Đố Domino",
+   "id": "Domino Dots: Logika Domino",
+   "de": "Domino Dots: Domino-Logik",
+   "ja": "Domino Dots: ドミノ論理パズル"
   },
-  "color": "#00897B",
+  "color": "#3949AB",
   "premiumProductId": "premium_lifetime",
   "ads": false,
-  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/arrowout.html",
-  "supportEmail": "CHANGE_ME@example.com",
-  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
- },
- "blockcrush": {
-  "id": "blockcrush",
-  "game": "blocks",
-  "title": {
-   "en": "Block Crush: 8x8 Puzzle",
-   "es": "Block Crush: Puzzle 8x8",
-   "pt": "Block Crush: Quebra-Cabeça 8x8",
-   "vi": "Block Crush: Xếp Khối 8x8",
-   "id": "Block Crush: Puzzle 8x8",
-   "de": "Block Crush: 8x8-Puzzle"
-  },
-  "color": "#1E88E5",
-  "premiumProductId": "premium_lifetime",
-  "ads": false,
-  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/blockcrush.html",
-  "supportEmail": "CHANGE_ME@example.com",
-  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
- },
- "busjam": {
-  "id": "busjam",
-  "game": "bus",
-  "title": {
-   "en": "Bus Jam: Traffic Escape",
-   "es": "Bus Jam: Escape del Tráfico",
-   "pt": "Bus Jam: Fuga do Trânsito",
-   "vi": "Bus Jam: Giải Cứu Kẹt Xe",
-   "id": "Bus Jam: Lolos Macet",
-   "de": "Bus Jam: Stau-Rätsel"
-  },
-  "color": "#F57C00",
-  "premiumProductId": "premium_lifetime",
-  "ads": false,
-  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/busjam.html",
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/dominodots.html",
   "supportEmail": "CHANGE_ME@example.com",
   "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
  },
@@ -62,30 +27,70 @@
    "pt": "Meow Queens: Lógica de Gatos",
    "vi": "Meow Queens: Giải Đố Mèo",
    "id": "Meow Queens: Logika Kucing",
-   "de": "Meow Queens: Katzen-Logikrätsel"
+   "de": "Meow Queens: Katzen-Rätsel",
+   "ja": "Meow Queens: ネコ論理パズル"
   },
   "color": "#8E24AA",
   "premiumProductId": "premium_lifetime",
   "ads": false,
-  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/meowqueens.html",
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/meowqueens.html",
   "supportEmail": "CHANGE_ME@example.com",
   "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
  },
- "pixelmunch": {
-  "id": "pixelmunch",
-  "game": "munch",
+ "patchgrid": {
+  "id": "patchgrid",
+  "game": "patches",
   "title": {
-   "en": "Pixel Munch: Color Sort Puzzle",
-   "es": "Pixel Munch: Ordena Colores",
-   "pt": "Pixel Munch: Ordenar Cores",
-   "vi": "Pixel Munch: Ăn Pixel Màu",
-   "id": "Pixel Munch: Sortir Warna",
-   "de": "Pixel Munch: Farb-Sortierrätsel"
+   "en": "Patch Grid: Rectangle Logic",
+   "es": "Patch Grid: Rectángulos",
+   "pt": "Patch Grid: Retângulos",
+   "vi": "Patch Grid: Chia Ô Chữ Nhật",
+   "id": "Patch Grid: Logika Persegi",
+   "de": "Patch Grid: Rechteck-Logik",
+   "ja": "Patch Grid: 四角に切るパズル"
   },
-  "color": "#E53935",
+  "color": "#00897B",
   "premiumProductId": "premium_lifetime",
   "ads": false,
-  "privacyPolicyUrl": "https://tuanlt1989.github.io/exam-prep-apps/privacy/pixelmunch.html",
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/patchgrid.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
+ },
+ "puttpuzzle": {
+  "id": "puttpuzzle",
+  "game": "putt",
+  "title": {
+   "en": "Putt Puzzle: Daily Mini Golf",
+   "es": "Putt Puzzle: Minigolf Diario",
+   "pt": "Putt Puzzle: Minigolfe Diário",
+   "vi": "Putt Puzzle: Golf Mini",
+   "id": "Putt Puzzle: Golf Mini Harian",
+   "de": "Putt Puzzle: Minigolf täglich",
+   "ja": "Putt Puzzle: 毎日ミニゴルフ"
+  },
+  "color": "#2E7D32",
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/puttpuzzle.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
+ },
+ "wordweave": {
+  "id": "wordweave",
+  "game": "weave",
+  "title": {
+   "en": "Word Weave: Hidden Words",
+   "es": "Word Weave: Palabras Ocultas",
+   "pt": "Word Weave: Palavras Ocultas",
+   "vi": "Word Weave: Tìm Từ Ẩn",
+   "id": "Word Weave: Kata Tersembunyi",
+   "de": "Word Weave: Versteckte Wörter",
+   "ja": "Word Weave: かくれ単語パズル"
+  },
+  "color": "#6D4C41",
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/wordweave.html",
   "supportEmail": "CHANGE_ME@example.com",
   "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
  }

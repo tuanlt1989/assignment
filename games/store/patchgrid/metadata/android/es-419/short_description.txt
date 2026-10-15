@@ -1,0 +1,1 @@
+Divide la cuadrícula en rectángulos: una pista en cada uno. Reto diario.

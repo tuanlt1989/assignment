@@ -1,0 +1,1 @@
+Place dominoes so every colored area matches its rule. Daily logic puzzle.

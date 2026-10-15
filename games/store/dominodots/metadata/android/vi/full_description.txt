@@ -1,0 +1,16 @@
+Đặt domino sao cho mỗi vùng màu đúng điều kiện. Câu đố logic mỗi ngày.
+
+CÁCH CHƠI
+Đặt mọi quân domino vào hai ô kề nhau. Mỗi vùng màu phải đúng nhãn của nó: Σ = tổng số chấm, = tất cả bằng nhau, ≠ tất cả khác nhau, < hoặc > tổng nhỏ hơn hoặc lớn hơn số đó.
+
+TÍNH NĂNG
+• Câu đố không giới hạn ở 4 mức: Dễ, Vừa, Khó, Chuyên gia
+• Mỗi câu đố chỉ có đúng một lời giải – thuần logic, không phải đoán
+• Câu đố mới mỗi ngày, chuỗi ngày chơi và kho 60 ngày
+• Nhận 1–3 sao, mở 8 giao diện màu, sưu tầm 12 huy hiệu
+• Bấm giờ, kỷ lục và thống kê chi tiết
+• Gợi ý khi bí
+• Không quảng cáo. Chơi không cần mạng. Không cần tài khoản.
+
+MỞ KHOÁ KHÔNG GIỚI HẠN
+Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý không giới hạn, toàn bộ kho câu đố hằng ngày và mọi giao diện. Không thuê bao.

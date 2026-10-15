@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../main.dart';
+import '../progress.dart';
 
 class PaywallScreen extends StatelessWidget {
   const PaywallScreen({super.key});
@@ -14,11 +15,25 @@ class PaywallScreen extends StatelessWidget {
         final t = app.t;
         final scheme = Theme.of(context).colorScheme;
         final money = app.money;
-        final bullets = [
-          (Icons.favorite, Colors.red, t.t('pwLives')),
-          (Icons.lightbulb, Colors.amber.shade700, t.t('pwHints')),
-          (Icons.calendar_today, scheme.primary, t.t('pwDaily')),
+        const yes = '✓';
+        final rows = [
+          (t.t('rowEasy'), yes, yes),
+          (
+            t.t('rowHard'),
+            t.t('perDay', {'n': GameProgress.freePerDay[2]!}),
+            '∞',
+          ),
+          (
+            t.t('rowExpert'),
+            t.t('perDay', {'n': GameProgress.freePerDay[3]!}),
+            '∞',
+          ),
+          (t.t('rowHints'), t.t('perDay', {'n': 1}), '∞'),
+          (t.t('rowArchive'), '–', '${GameProgress.archiveDays}'),
+          (t.t('rowThemes'), t.t('byStars'), t.t('all')),
         ];
+        TextStyle head(Color c) =>
+            TextStyle(fontWeight: FontWeight.w900, color: c);
         return Scaffold(
           appBar: AppBar(
             leading: IconButton(
@@ -28,10 +43,10 @@ class PaywallScreen extends StatelessWidget {
           ),
           body: SafeArea(
             child: ListView(
-              padding: const EdgeInsets.fromLTRB(24, 0, 24, 24),
+              padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
               children: [
-                Icon(Icons.all_inclusive, size: 72, color: scheme.primary),
-                const SizedBox(height: 12),
+                Icon(Icons.all_inclusive, size: 64, color: scheme.primary),
+                const SizedBox(height: 8),
                 Text(
                   t.t('pwTitle'),
                   textAlign: TextAlign.center,
@@ -39,23 +54,63 @@ class PaywallScreen extends StatelessWidget {
                     fontWeight: FontWeight.w900,
                   ),
                 ),
-                const SizedBox(height: 24),
-                for (final (icon, color, text) in bullets)
-                  ListTile(
-                    leading: Icon(icon, color: color),
-                    title: Text(
-                      text,
-                      style: const TextStyle(fontWeight: FontWeight.w600),
+                const SizedBox(height: 20),
+                Table(
+                  columnWidths: const {
+                    0: FlexColumnWidth(2.2),
+                    1: FlexColumnWidth(1.2),
+                    2: FlexColumnWidth(1.3),
+                  },
+                  defaultVerticalAlignment: TableCellVerticalAlignment.middle,
+                  children: [
+                    TableRow(
+                      children: [
+                        const SizedBox(),
+                        _cell(t.t('pwFree'), head(scheme.outline)),
+                        _cell(
+                          t.t('pwFull'),
+                          head(scheme.primary),
+                          bg: scheme.primaryContainer,
+                          top: true,
+                        ),
+                      ],
                     ),
-                    contentPadding: EdgeInsets.zero,
-                  ),
-                const SizedBox(height: 8),
+                    for (final (i, (label, free, full)) in rows.indexed)
+                      TableRow(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 10),
+                            child: Text(
+                              label,
+                              style: const TextStyle(
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ),
+                          _cell(
+                            free,
+                            TextStyle(color: scheme.onSurfaceVariant),
+                          ),
+                          _cell(
+                            full,
+                            TextStyle(
+                              fontWeight: FontWeight.w800,
+                              color: scheme.onPrimaryContainer,
+                            ),
+                            bg: scheme.primaryContainer,
+                            bottom: i == rows.length - 1,
+                          ),
+                        ],
+                      ),
+                  ],
+                ),
+                const SizedBox(height: 16),
                 Text(
                   t.t('pwOnce'),
                   textAlign: TextAlign.center,
                   style: TextStyle(color: scheme.onSurfaceVariant),
                 ),
-                const SizedBox(height: 20),
+                const SizedBox(height: 16),
                 if (app.progress.premium)
                   Card(
                     color: Colors.green.withValues(alpha: 0.12),
@@ -136,6 +191,28 @@ class PaywallScreen extends StatelessWidget {
           ),
         );
       },
+    );
+  }
+
+  Widget _cell(
+    String text,
+    TextStyle style, {
+    Color? bg,
+    bool top = false,
+    bool bottom = false,
+  }) {
+    return Container(
+      padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 4),
+      decoration: bg == null
+          ? null
+          : BoxDecoration(
+              color: bg,
+              borderRadius: BorderRadius.vertical(
+                top: top ? const Radius.circular(12) : Radius.zero,
+                bottom: bottom ? const Radius.circular(12) : Radius.zero,
+              ),
+            ),
+      child: Text(text, textAlign: TextAlign.center, style: style),
     );
   }
 }

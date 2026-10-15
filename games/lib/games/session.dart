@@ -1,21 +1,34 @@
 import 'package:flutter/material.dart';
 
-import 'arrow.dart';
-import 'blocks.dart';
-import 'bus.dart';
-import 'munch.dart';
+import 'patches.dart';
+import 'putt.dart';
+import 'pips.dart';
+import 'weave.dart';
 import 'queens.dart';
 
-/// What the shell gives a game: the level, a seed, and callbacks.
+/// What the shell gives a game: difficulty, puzzle number, a seed, callbacks.
+///
+/// Contract for every game widget:
+/// * Build a puzzle from ([difficulty], [level], [seed]) deterministically
+///   (same inputs → same puzzle; the daily challenge relies on this).
+/// * Call [onWin] once when solved. Call [onFail] only for a real loss
+///   (e.g. out of hearts / strokes); the shell offers a free retry.
+/// * Call [addMistake] for each mistake (wrong move, extra stroke...). The
+///   shell turns mistakes + hints into 1–3 stars.
+/// * Listen to [hint]: each bump = reveal one helpful step.
 class GameSession {
   GameSession({
     required this.level,
     required this.seed,
     required this.onWin,
     required this.onFail,
+    this.difficulty = 0,
     this.onScore,
     this.demo = false,
   });
+
+  /// 0 easy, 1 medium, 2 hard, 3 expert.
+  final int difficulty;
 
   /// Store-screenshot mode: games may pre-fill a nicer mid-game state.
   final bool demo;
@@ -33,16 +46,23 @@ class GameSession {
 
   /// Bumped by the shell when the player revives (endless games).
   final revive = ValueNotifier<int>(0);
+
+  /// Mistakes so far in this attempt (drives the star rating).
+  final mistakes = ValueNotifier<int>(0);
+
+  void addMistake() => mistakes.value++;
 }
 
-Widget buildGame(String game, GameSession session) => switch (game) {
-  'arrow' => ArrowGame(session: session),
-  'queens' => QueensGame(session: session),
-  'blocks' => BlocksGame(session: session),
-  'munch' => MunchGame(session: session),
-  'bus' => BusGame(session: session),
-  _ => throw ArgumentError('Unknown game $game'),
-};
+/// [lang] is the UI language (Word Weave picks its dictionary from it).
+Widget buildGame(String game, GameSession session, {String lang = 'en'}) =>
+    switch (game) {
+      'queens' => QueensGame(session: session),
+      'weave' => WeaveGame(session: session, lang: lang),
+      'pips' => PipsGame(session: session),
+      'putt' => PuttGame(session: session),
+      'patches' => PatchGame(session: session),
+      _ => throw ArgumentError('Unknown game $game'),
+    };
 
 /// Small row of hearts for in-level mistakes.
 class Hearts extends StatelessWidget {

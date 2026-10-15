@@ -1,0 +1,1 @@
+Find the hidden words woven through the grid. Every letter is used once.

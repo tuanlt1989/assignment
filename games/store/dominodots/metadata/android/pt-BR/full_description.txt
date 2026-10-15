@@ -1,0 +1,16 @@
+Coloque dominós para cumprir a regra de cada área colorida. Desafio diário.
+
+COMO JOGAR
+Coloque cada peça de dominó em duas casas vizinhas. Cada região colorida deve cumprir sua etiqueta: Σ = soma dos pontos, = todos iguais, ≠ todos diferentes, < ou > soma menor ou maior que o número.
+
+RECURSOS
+• Desafios ilimitados em 4 níveis: Fácil, Médio, Difícil e Especialista
+• Cada desafio tem uma única solução – lógica pura, sem chute
+• Desafio diário novo, sequências e arquivo de 60 dias
+• Ganhe de 1 a 3 estrelas, desbloqueie 8 temas e 12 troféus
+• Cronômetro, melhores tempos e estatísticas
+• Dicas quando você travar
+• Sem anúncios. Funciona offline. Sem cadastro.
+
+DESBLOQUEIE O ILIMITADO
+Um pagamento único: desafios difíceis e de especialista ilimitados, dicas ilimitadas, arquivo diário completo e todos os temas. Sem assinatura.

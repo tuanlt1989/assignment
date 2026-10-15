@@ -1,0 +1,42 @@
+{
+  "id": "patchgrid",
+  "applicationId": "com.tuanlt.puzzle.patchgrid",
+  "launcherName": "Patch Grid",
+  "game": "patches",
+  "title": {
+    "en": "Patch Grid: Rectangle Logic",
+    "es": "Patch Grid: Rectángulos",
+    "pt": "Patch Grid: Retângulos",
+    "vi": "Patch Grid: Chia Ô Chữ Nhật",
+    "id": "Patch Grid: Logika Persegi",
+    "de": "Patch Grid: Rechteck-Logik",
+    "ja": "Patch Grid: 四角に切るパズル"
+  },
+  "color": "#00897B",
+  "icon": {
+    "label": "",
+    "badge": "",
+    "glyph": "patches"
+  },
+  "suggestedPriceUsd": 2.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/patchgrid.html",
+  "supportEmail": "CHANGE_ME@example.com",
+  "developerName": "CHANGE_ME",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children.",
+  "tagline": {
+    "en": "Split the grid into rectangles · One clue each · Daily puzzle"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Split the grid into rectangles",
+      "Each patch: one clue, right size & shape",
+      "4 levels from Easy to Expert",
+      "Daily puzzle, streaks & trophies"
+    ]
+  },
+  "markets": [
+    "ALL"
+  ]
+}

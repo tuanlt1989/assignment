@@ -1,0 +1,1 @@
+Encuentra las palabras ocultas en la cuadrícula. Cada letra se usa una vez.

@@ -1,0 +1,16 @@
+Split the grid into rectangles – one clue each, right size and shape.
+
+HOW TO PLAY
+Drag to split the grid into rectangles. Each rectangle holds exactly one clue: the number is its area and the badge shows its shape (square, wide or tall). Tap a rectangle to erase it.
+
+FEATURES
+• Unlimited puzzles in 4 levels: Easy, Medium, Hard and Expert
+• Every puzzle has exactly one solution – pure logic, no guessing
+• A new daily puzzle, streaks and a 60-day archive
+• Earn 1–3 stars, unlock 8 color themes, collect 12 trophies
+• Timer, best times and detailed stats
+• Hints when you're stuck
+• No ads. Works offline. No account needed.
+
+GO UNLIMITED
+One small one-time purchase: unlimited Hard & Expert puzzles, unlimited hints, the full daily archive and every theme. No subscription.

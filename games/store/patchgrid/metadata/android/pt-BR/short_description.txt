@@ -1,0 +1,1 @@
+Divida a grade em retângulos: uma pista em cada um. Desafio diário.
