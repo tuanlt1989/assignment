@@ -33,7 +33,7 @@ Trong **mọi** file `apps/*.json` và `games/apps/*.json`:
 |---|---|---|
 | `developerName` | `CHANGE_ME` | Tên hiện trên Play, ví dụ `Tuan LT Apps` |
 | `supportEmail` | `CHANGE_ME@example.com` | Email hỗ trợ (hiện công khai) |
-| `applicationId` | `com.tuanlt.examprep.nailvi` | Giữ nguyên, hoặc đổi theo thương hiệu **trước khi upload lần đầu**. Sau đó không đổi được nữa. |
+| `applicationId` | `com.tuanapps.nailvi` | Đã đặt sẵn. Sau lần upload đầu tiên thì không đổi được nữa. |
 
 Lệnh đổi nhanh cho cả 15 file (thay giá trị của bạn):
 

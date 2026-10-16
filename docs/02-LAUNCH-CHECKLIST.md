@@ -23,7 +23,7 @@ Không tạo nhiều tài khoản developer để lách luật. Google có thể
 
 Trong mỗi file `apps/*.json`:
 
-- [ ] `applicationId`: đổi `com.tuanlt.examprep` thành tên miền hoặc thương hiệu của bạn, ví dụ `com.tenban.nailvi`. **Sau khi upload thì không đổi được nữa.**
+- [x] `applicationId`: đã đặt là `com.tuanapps.<id>`, ví dụ `com.tuanapps.nailvi`. **Sau khi upload thì không đổi được nữa.**
 - [ ] `developerName`, `supportEmail`: email này hiện công khai trên Play.
 - [ ] `privacyPolicyUrl`: xem mục C.
 - [ ] Chạy `python3 tool/factory.py`, commit rồi push.

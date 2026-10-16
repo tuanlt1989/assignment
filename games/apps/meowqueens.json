@@ -1,6 +1,6 @@
 {
   "id": "meowqueens",
-  "applicationId": "com.tuanlt.puzzle.meowqueens",
+  "applicationId": "com.tuanapps.meowqueens",
   "launcherName": "Meow Queens",
   "game": "queens",
   "title": {

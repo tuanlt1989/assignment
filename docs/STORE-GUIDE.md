@@ -39,21 +39,21 @@ Phần B:
 
 | # | id | Tên (en) | Mã app (không đổi được sau khi upload) |
 |---|---|---|---|
-| 1 | `civilserviceph` | Civil Service Exam Reviewer PH | `com.tuanlt.examprep.civilserviceph` |
-| 2 | `cosmoes` | Cosmetology Exam (Spanish) | `com.tuanlt.examprep.cosmoes` |
-| 3 | `cosmovi` | Cosmetology Exam Prep (Vietnamese) | `com.tuanlt.examprep.cosmovi` |
-| 4 | `cscspl` | CSCS Test in Polish | `com.tuanlt.examprep.cscspl` |
-| 5 | `cscsro` | CSCS Test in Romanian | `com.tuanlt.examprep.cscsro` |
-| 6 | `insurancelh` | Life & Health Insurance Exam Prep | `com.tuanlt.examprep.insurancelh` |
-| 7 | `nailes` | Nail Tech Exam (Spanish) | `com.tuanlt.examprep.nailes` |
-| 8 | `nailvi` | Nail Exam Prep (Vietnamese) | `com.tuanlt.examprep.nailvi` |
-| 9 | `nursegulf` | Gulf Nursing Exam Prep | `com.tuanlt.examprep.nursegulf` |
-| 10 | `sachkunde` | Security Exam §34a (Germany) | `com.tuanlt.examprep.sachkunde` |
-| 11 | `dominodots` | Domino Dots: Logic Puzzle | `com.tuanlt.puzzle.dominodots` |
-| 12 | `meowqueens` | Meow Queens: Cat Logic Puzzle | `com.tuanlt.puzzle.meowqueens` |
-| 13 | `patchgrid` | Patch Grid: Rectangle Logic | `com.tuanlt.puzzle.patchgrid` |
-| 14 | `puttpuzzle` | Putt Puzzle: Daily Mini Golf | `com.tuanlt.puzzle.puttpuzzle` |
-| 15 | `wordweave` | Word Weave: Hidden Words | `com.tuanlt.puzzle.wordweave` |
+| 1 | `civilserviceph` | Civil Service Exam Reviewer PH | `com.tuanapps.civilserviceph` |
+| 2 | `cosmoes` | Cosmetology Exam (Spanish) | `com.tuanapps.cosmoes` |
+| 3 | `cosmovi` | Cosmetology Exam Prep (Vietnamese) | `com.tuanapps.cosmovi` |
+| 4 | `cscspl` | CSCS Test in Polish | `com.tuanapps.cscspl` |
+| 5 | `cscsro` | CSCS Test in Romanian | `com.tuanapps.cscsro` |
+| 6 | `insurancelh` | Life & Health Insurance Exam Prep | `com.tuanapps.insurancelh` |
+| 7 | `nailes` | Nail Tech Exam (Spanish) | `com.tuanapps.nailes` |
+| 8 | `nailvi` | Nail Exam Prep (Vietnamese) | `com.tuanapps.nailvi` |
+| 9 | `nursegulf` | Gulf Nursing Exam Prep | `com.tuanapps.nursegulf` |
+| 10 | `sachkunde` | Security Exam §34a (Germany) | `com.tuanapps.sachkunde` |
+| 11 | `dominodots` | Domino Dots: Logic Puzzle | `com.tuanapps.dominodots` |
+| 12 | `meowqueens` | Meow Queens: Cat Logic Puzzle | `com.tuanapps.meowqueens` |
+| 13 | `patchgrid` | Patch Grid: Rectangle Logic | `com.tuanapps.patchgrid` |
+| 14 | `puttpuzzle` | Putt Puzzle: Daily Mini Golf | `com.tuanapps.puttpuzzle` |
+| 15 | `wordweave` | Word Weave: Hidden Words | `com.tuanapps.wordweave` |
 
 ### A2. Bật trang chính sách bảo mật (1 lần)
 1. <https://github.com/tuanlt1989/assignment/settings/pages> → **Source**: *Deploy from a branch* → **Branch** `exam-prep-apps`, thư mục **`/docs`** → **Save**.
@@ -108,7 +108,7 @@ Chi tiết và cách sửa lỗi: Phụ lục, mục 06.
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.examprep.civilserviceph` |
+| Mã app | `com.tuanapps.civilserviceph` |
 | Loại | App → **Education** |
 | Thị trường | 🇵🇭 Philippines |
 | Ngôn ngữ store | `en-US` |
@@ -224,7 +224,7 @@ This is an independent reviewer. It is not affiliated with or endorsed by the Ci
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.examprep.cosmoes` |
+| Mã app | `com.tuanapps.cosmoes` |
 | Loại | App → **Education** |
 | Thị trường | 🇺🇸 Mỹ, 🇵🇷 Puerto Rico |
 | Ngôn ngữ store | `en-US`, `es-US` |
@@ -378,7 +378,7 @@ Herramienta de estudio independiente. No está afiliada ni respaldada por ningun
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.examprep.cosmovi` |
+| Mã app | `com.tuanapps.cosmovi` |
 | Loại | App → **Education** |
 | Thị trường | 🇺🇸 Mỹ |
 | Ngôn ngữ store | `en-US`, `vi` |
@@ -533,7 +533,7 @@ LƯU Ý
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.examprep.cscspl` |
+| Mã app | `com.tuanapps.cscspl` |
 | Loại | App → **Education** |
 | Thị trường | 🇬🇧 Anh |
 | Ngôn ngữ store | `en-US`, `pl-PL` |
@@ -687,7 +687,7 @@ Niezależna aplikacja do nauki. Nie jest powiązana z CITB, CSCS ani Pearson VUE
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.examprep.cscsro` |
+| Mã app | `com.tuanapps.cscsro` |
 | Loại | App → **Education** |
 | Thị trường | 🇬🇧 Anh |
 | Ngôn ngữ store | `en-US`, `ro` |
@@ -841,7 +841,7 @@ Aplicație de studiu independentă. Nu este afiliată și nu este aprobată de C
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.examprep.insurancelh` |
+| Mã app | `com.tuanapps.insurancelh` |
 | Loại | App → **Education** |
 | Thị trường | 🇺🇸 Mỹ |
 | Ngôn ngữ store | `en-US` |
@@ -955,7 +955,7 @@ Each state adds its own laws and rules to the exam. Use this app for the general
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.examprep.nailes` |
+| Mã app | `com.tuanapps.nailes` |
 | Loại | App → **Education** |
 | Thị trường | 🇺🇸 Mỹ, 🇵🇷 Puerto Rico |
 | Ngôn ngữ store | `en-US`, `es-US` |
@@ -1110,7 +1110,7 @@ Esta es una herramienta de estudio independiente. No está afiliada ni respaldad
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.examprep.nailvi` |
+| Mã app | `com.tuanapps.nailvi` |
 | Loại | App → **Education** |
 | Thị trường | 🇺🇸 Mỹ |
 | Ngôn ngữ store | `en-US`, `vi` |
@@ -1274,7 +1274,7 @@ LƯU Ý
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.examprep.nursegulf` |
+| Mã app | `com.tuanapps.nursegulf` |
 | Loại | App → **Education** |
 | Thị trường | 🇮🇳 Ấn Độ, 🇵🇭 Philippines, 🇦🇪 UAE, 🇸🇦 Ả Rập Xê Út, 🇶🇦 Qatar, 🇰🇼 Kuwait, 🇴🇲 Oman, 🇧🇭 Bahrain, 🇵🇰 Pakistan, 🇪🇬 Ai Cập, 🇳🇬 Nigeria, 🇰🇪 Kenya, 🇯🇴 Jordan |
 | Ngôn ngữ store | `en-US` |
@@ -1394,7 +1394,7 @@ This is an independent study tool. It is not affiliated with or endorsed by DHA,
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.examprep.sachkunde` |
+| Mã app | `com.tuanapps.sachkunde` |
 | Loại | App → **Education** |
 | Thị trường | 🇩🇪 Đức |
 | Ngôn ngữ store | `en-US`, `de-DE` |
@@ -1548,7 +1548,7 @@ Unabhängiges Lernwerkzeug. Keine Verbindung zu IHKs, dem DIHK oder Behörden. A
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.puzzle.dominodots` |
+| Mã app | `com.tuanapps.dominodots` |
 | Loại | Game → **Puzzle** |
 | Thị trường | **Tất cả quốc gia** |
 | Ngôn ngữ store | `en-US`, `de-DE`, `es-419`, `id`, `ja-JP`, `pt-BR`, `vi` |
@@ -1864,7 +1864,7 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.puzzle.meowqueens` |
+| Mã app | `com.tuanapps.meowqueens` |
 | Loại | Game → **Puzzle** |
 | Thị trường | **Tất cả quốc gia** |
 | Ngôn ngữ store | `en-US`, `de-DE`, `es-419`, `id`, `ja-JP`, `pt-BR`, `vi` |
@@ -2180,7 +2180,7 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.puzzle.patchgrid` |
+| Mã app | `com.tuanapps.patchgrid` |
 | Loại | Game → **Puzzle** |
 | Thị trường | **Tất cả quốc gia** |
 | Ngôn ngữ store | `en-US`, `de-DE`, `es-419`, `id`, `ja-JP`, `pt-BR`, `vi` |
@@ -2496,7 +2496,7 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.puzzle.puttpuzzle` |
+| Mã app | `com.tuanapps.puttpuzzle` |
 | Loại | Game → **Puzzle** |
 | Thị trường | **Tất cả quốc gia** |
 | Ngôn ngữ store | `en-US`, `de-DE`, `es-419`, `id`, `ja-JP`, `pt-BR`, `vi` |
@@ -2812,7 +2812,7 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 
 | | |
 |---|---|
-| Mã app | `com.tuanlt.puzzle.wordweave` |
+| Mã app | `com.tuanapps.wordweave` |
 | Loại | Game → **Word** |
 | Thị trường | **Tất cả quốc gia** |
 | Ngôn ngữ store | `en-US`, `de-DE`, `es-419`, `id`, `ja-JP`, `pt-BR`, `vi` |
@@ -3229,7 +3229,7 @@ Nếu đã cài secrets của khoá ký thì file AAB tải về đưa thẳng l
 
 #### ⚠️ Phải sửa trước lần upload đầu tiên
 
-- `applicationId` trong `apps/*.json` và `games/apps/*.json`: hiện là `com.tuanlt.examprep.*`. **Sau khi đã upload lên Play thì không đổi được nữa.**
+- `applicationId` trong `apps/*.json` và `games/apps/*.json`: đã đặt là `com.tuanapps.<id>` (ví dụ `com.tuanapps.nailvi`). **Sau khi đã upload lên Play thì không đổi được nữa.**
 - `supportEmail`, `developerName`. Bật GitHub Pages để có trang chính sách bảo mật (docs/08 bước 4).
 - Gói mua trong app `premium_lifetime`: tạo theo `docs/06-IN-APP-PURCHASE.md`.
 
@@ -3326,7 +3326,7 @@ Không tạo nhiều tài khoản developer để lách luật. Google có thể
 
 Trong mỗi file `apps/*.json`:
 
-- [ ] `applicationId`: đổi `com.tuanlt.examprep` thành tên miền hoặc thương hiệu của bạn, ví dụ `com.tenban.nailvi`. **Sau khi upload thì không đổi được nữa.**
+- [x] `applicationId`: đã đặt là `com.tuanapps.<id>`, ví dụ `com.tuanapps.nailvi`. **Sau khi upload thì không đổi được nữa.**
 - [ ] `developerName`, `supportEmail`: email này hiện công khai trên Play.
 - [ ] `privacyPolicyUrl`: xem mục C.
 - [ ] Chạy `python3 tool/factory.py`, commit rồi push.
@@ -3841,7 +3841,7 @@ Trong **mọi** file `apps/*.json` và `games/apps/*.json`:
 |---|---|---|
 | `developerName` | `CHANGE_ME` | Tên hiện trên Play, ví dụ `Tuan LT Apps` |
 | `supportEmail` | `CHANGE_ME@example.com` | Email hỗ trợ (hiện công khai) |
-| `applicationId` | `com.tuanlt.examprep.nailvi` | Giữ nguyên, hoặc đổi theo thương hiệu **trước khi upload lần đầu**. Sau đó không đổi được nữa. |
+| `applicationId` | `com.tuanapps.nailvi` | Đã đặt sẵn. Sau lần upload đầu tiên thì không đổi được nữa. |
 
 Lệnh đổi nhanh cho cả 15 file (thay giá trị của bạn):
 

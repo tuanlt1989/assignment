@@ -96,6 +96,6 @@ Nếu đã cài secrets của khoá ký thì file AAB tải về đưa thẳng l
 
 ## ⚠️ Phải sửa trước lần upload đầu tiên
 
-- `applicationId` trong `apps/*.json` và `games/apps/*.json`: hiện là `com.tuanlt.examprep.*`. **Sau khi đã upload lên Play thì không đổi được nữa.**
+- `applicationId` trong `apps/*.json` và `games/apps/*.json`: đã đặt là `com.tuanapps.<id>` (ví dụ `com.tuanapps.nailvi`). **Sau khi đã upload lên Play thì không đổi được nữa.**
 - `supportEmail`, `developerName`. Bật GitHub Pages để có trang chính sách bảo mật (docs/08 bước 4).
 - Gói mua trong app `premium_lifetime`: tạo theo `docs/06-IN-APP-PURCHASE.md`.
