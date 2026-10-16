@@ -74,9 +74,11 @@ jobs:
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
-          # Every CI run gets a higher versionCode, so any run can be uploaded.
-          flutter build appbundle --release --flavor ${{ matrix.app.flavor }} --build-number ${{ github.run_number }}
-          flutter build apk --release --flavor ${{ matrix.app.flavor }} --build-number ${{ github.run_number }}
+          # versionCode = minutes since 2026-01-01, shared with publish.yml, so
+          # every build (from either workflow) is higher than the last one.
+          BUILD=$(( ($(date +%s) - 1767225600) / 60 ))
+          flutter build appbundle --release --flavor ${{ matrix.app.flavor }} --build-number $BUILD
+          flutter build apk --release --flavor ${{ matrix.app.flavor }} --build-number $BUILD
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.app.flavor }}-build${{ github.run_number }}

@@ -69,6 +69,7 @@ games/                    project Flutter riêng cho 5 game giải đố
 ```bash
 python3 tool/build_banks.py                 # sau khi sửa content/
 python3 tool/factory.py                     # sau khi sửa apps/*.json (cần: pip install Pillow)
+python3 tool/play_publish.py --app nailvi --listing --dry-run   # kiểm tra nội dung trước khi upload lên Play
 python3 tool/factory.py --release           # kiểm tra trước khi phát hành (báo lỗi nếu còn ID quảng cáo TEST / CHANGE_ME)
 flutter analyze && flutter test
 flutter build appbundle --release --flavor nailvi   # file AAB để đưa lên Play
@@ -90,6 +91,7 @@ Nếu đã cài secrets của khoá ký thì file AAB tải về đưa thẳng l
 7. [docs/07-ADMOB.md](docs/07-ADMOB.md): lỗi đăng ký AdMob và cách bật quảng cáo (không bắt buộc)
 8. [docs/08-PUBLISH-FIRST-APP.md](docs/08-PUBLISH-FIRST-APP.md): **đưa app đầu tiên (`nailvi`) lên Google Play, từng cú bấm**
 9. [games/README.md](games/README.md): 5 game giải đố
+10. [docs/09-AUTO-PUBLISH.md](docs/09-AUTO-PUBLISH.md): **tự động upload lên Google Play bằng 1 nút** (API chính thức + GitHub Actions)
 
 ## ⚠️ Phải sửa trước lần upload đầu tiên
 

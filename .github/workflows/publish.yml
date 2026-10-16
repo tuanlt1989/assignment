@@ -1,0 +1,131 @@
+name: Publish to Google Play
+
+# One click (Actions → Publish to Google Play → Run workflow) builds the chosen
+# apps, signs them with the upload key and sends bundle, store listing and the
+# in-app product to Play with the official API. Setup: docs/09-AUTO-PUBLISH.md.
+on:
+  workflow_dispatch:
+    inputs:
+      apps:
+        description: "App ids, comma-separated (e.g. nailvi,cosmovi), or 'all'"
+        required: true
+        default: nailvi
+      track:
+        description: Track
+        type: choice
+        options: [internal, alpha, beta, production]
+        default: internal
+      status:
+        description: "draft = you press Roll out in Play Console; completed = live on the track"
+        type: choice
+        options: [draft, completed]
+        default: draft
+      bundle:
+        description: Build and upload a new bundle
+        type: boolean
+        default: true
+      listing:
+        description: Upload store texts, icon, feature graphic, screenshots
+        type: boolean
+        default: true
+      product:
+        description: Create/update the premium_lifetime product and price
+        type: boolean
+        default: false
+      notes:
+        description: Release notes (en-US)
+        default: Bug fixes and new questions.
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Service account secret is set
+        env:
+          KEY: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -z "$KEY" ]; then
+            echo "::error::Add the PLAY_SERVICE_ACCOUNT_JSON secret first (docs/09-AUTO-PUBLISH.md)."
+            exit 1
+          fi
+      - id: m
+        name: Resolve apps
+        env:
+          APPS: ${{ inputs.apps }}
+        run: |
+          if [ "$APPS" = "all" ]; then
+            ids=$(ls apps/*.json games/apps/*.json | xargs -n1 basename | sed 's/\.json$//')
+          else
+            ids=$(echo "$APPS" | tr ',' '\n' | tr -d ' ')
+          fi
+          for id in $ids; do
+            if [ -f "apps/$id.json" ]; then dir=.; elif [ -f "games/apps/$id.json" ]; then dir=games
+            else echo "::error::Unknown app '$id'"; exit 1; fi
+            jq -nc --arg f "$id" --arg d "$dir" '{dir: $d, flavor: $f}'
+          done | jq -sc . > m.json
+          echo "matrix=$(cat m.json)" >> "$GITHUB_OUTPUT"
+
+  publish:
+    needs: prepare
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        app: ${{ fromJSON(needs.prepare.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        if: inputs.bundle
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: subosito/flutter-action@v2
+        if: inputs.bundle
+        with:
+          flutter-version: 3.47.7
+          channel: stable
+          cache: true
+      - name: Upload key (required for Play)
+        if: inputs.bundle
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          if [ -z "$KEYSTORE_B64" ]; then
+            echo "::error::ANDROID_KEYSTORE_BASE64 is missing: Play rejects debug-signed bundles (docs/01)."
+            exit 1
+          fi
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+          echo "ANDROID_KEYSTORE_PATH=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+      - name: Build signed bundle
+        if: inputs.bundle
+        working-directory: ${{ matrix.app.dir }}
+        env:
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          BUILD=$(( ($(date +%s) - 1767225600) / 60 ))
+          flutter build appbundle --release --flavor ${{ matrix.app.flavor }} --build-number $BUILD
+          echo "AAB=$(ls $PWD/build/app/outputs/bundle/${{ matrix.app.flavor }}Release/*.aab)" >> "$GITHUB_ENV"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install google-api-python-client google-auth
+      - name: Send to Google Play
+        env:
+          PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+          NOTES: ${{ inputs.notes }}
+        run: |
+          args="--app ${{ matrix.app.flavor }} --track ${{ inputs.track }} --status ${{ inputs.status }}"
+          if [ "${{ inputs.bundle }}" = "true" ]; then args="$args --aab $AAB"; fi
+          if [ "${{ inputs.listing }}" = "true" ]; then args="$args --listing"; fi
+          if [ "${{ inputs.product }}" = "true" ]; then args="$args --product"; fi
+          python3 tool/play_publish.py $args --notes "$NOTES"
