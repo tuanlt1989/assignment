@@ -107,8 +107,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release delete play-upload --cleanup-tag --yes || true
-          gh release create play-upload --target "$GITHUB_SHA" \
-            --title "Play upload – build ${{ github.run_number }}" \
-            --notes "One zip per app: AAB (signed), store texts for every language, icon, feature graphic, screenshots, in-app product icon and UPLOAD.md with every Play Console step. Commit $GITHUB_SHA." \
-            play-upload/*.zip play-upload/README.md
+          # Update in place (no delete), so the links never 404 during a build.
+          TITLE="Play upload – build ${{ github.run_number }}"
+          NOTES="One zip per app: AAB (signed), store texts for every language, icon, feature graphic, screenshots, in-app product icon and UPLOAD.md with every Play Console step. Commit $GITHUB_SHA."
+          if gh release view play-upload >/dev/null 2>&1; then
+            gh release upload play-upload play-upload/*.zip play-upload/README.md --clobber
+            gh release edit play-upload --title "$TITLE" --notes "$NOTES"
+          else
+            gh release create play-upload --target "$GITHUB_SHA" --title "$TITLE" --notes "$NOTES" \
+              play-upload/*.zip play-upload/README.md
+          fi
