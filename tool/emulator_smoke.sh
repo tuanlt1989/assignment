@@ -53,7 +53,9 @@ grep -E "E/flutter|E flutter" "$OUT/logcat.txt" > "$OUT/flutter-errors.txt" || t
 FAIL=0
 if grep -qE "FATAL EXCEPTION|ANR in $PKG" "$OUT/logcat.txt"; then
   echo "::error::$PKG crashed or froze (see logcat.txt)"
-  grep -A20 -E "FATAL EXCEPTION|ANR in $PKG" "$OUT/logcat.txt" | head -60
+  grep -m1 -A40 -E "FATAL EXCEPTION|ANR in $PKG" "$OUT/logcat.txt"
+  echo "--- cause chain:"
+  grep "AndroidRuntime: Caused by" "$OUT/logcat.txt" | sed 's/.*AndroidRuntime: //' | sort -u | head -20
   FAIL=1
 fi
 if grep -q "CRASH: $PKG" "$OUT/monkey.txt"; then
