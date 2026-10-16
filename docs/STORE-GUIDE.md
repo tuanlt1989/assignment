@@ -132,7 +132,7 @@ Chi tiết và cách sửa lỗi: Phụ lục, mục 06.
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `civilserviceph-buildN` → `app-civilserviceph-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = civilserviceph` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -250,7 +250,7 @@ This is an independent reviewer. It is not affiliated with or endorsed by the Ci
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cosmoes-buildN` → `app-cosmoes-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cosmoes` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -406,7 +406,7 @@ Herramienta de estudio independiente. No está afiliada ni respaldada por ningun
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cosmovi-buildN` → `app-cosmovi-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cosmovi` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -563,7 +563,7 @@ LƯU Ý
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cscspl-buildN` → `app-cscspl-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cscspl` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -719,7 +719,7 @@ Niezależna aplikacja do nauki. Nie jest powiązana z CITB, CSCS ani Pearson VUE
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cscsro-buildN` → `app-cscsro-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cscsro` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -875,7 +875,7 @@ Aplicație de studiu independentă. Nu este afiliată și nu este aprobată de C
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `insurancelh-buildN` → `app-insurancelh-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = insurancelh` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -991,7 +991,7 @@ Each state adds its own laws and rules to the exam. Use this app for the general
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `nailes-buildN` → `app-nailes-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = nailes` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -1148,7 +1148,7 @@ Esta es una herramienta de estudio independiente. No está afiliada ni respaldad
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `nailvi-buildN` → `app-nailvi-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = nailvi` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -1314,7 +1314,7 @@ LƯU Ý
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `nursegulf-buildN` → `app-nursegulf-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = nursegulf` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -1436,7 +1436,7 @@ This is an independent study tool. It is not affiliated with or endorsed by DHA,
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `sachkunde-buildN` → `app-sachkunde-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = sachkunde` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -1592,7 +1592,7 @@ Unabhängiges Lernwerkzeug. Keine Verbindung zu IHKs, dem DIHK oder Behörden. A
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `dominodots-buildN` → `app-dominodots-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = dominodots` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.0` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -1910,7 +1910,7 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `meowqueens-buildN` → `app-meowqueens-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = meowqueens` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.0` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -2228,7 +2228,7 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `patchgrid-buildN` → `app-patchgrid-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = patchgrid` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.0` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -2546,7 +2546,7 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `puttpuzzle-buildN` → `app-puttpuzzle-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = puttpuzzle` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.0` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -2864,7 +2864,7 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `wordweave-buildN` → `app-wordweave-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = wordweave` (xem Phần A, mục A5).
 
-**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
+**Release name:** `1.0.0` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```

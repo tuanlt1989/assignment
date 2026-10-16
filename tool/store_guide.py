@@ -159,6 +159,12 @@ def code(text: str) -> str:
     return "```\n" + text.strip() + "\n```"
 
 
+def app_version(root: Path) -> str:
+    """versionName from the project's pubspec.yaml (e.g. 1.0.1)."""
+    m = re.search(r"^version:\s*([\d.]+)", (root / "pubspec.yaml").read_text(), re.M)
+    return m.group(1) if m else "1.0.0"
+
+
 def app_section(n: int, cfg: dict, root: Path, local: bool = False) -> str:
     """One app's upload sheet. local=True: paths point inside its play-upload/ folder."""
     aid = cfg["id"]
@@ -207,7 +213,7 @@ def app_section(n: int, cfg: dict, root: Path, local: bool = False) -> str:
     lines += [
         "- Từ lần 2: dùng [Publish to Google Play]" f"({PUBLISH}) với `apps = {aid}` (xem Phần A, mục A5).",
         "",
-        "**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)",
+        f"**Release name:** `{app_version(root)}` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)",
         "",
         "**Release notes**",
         code(f"<en-US>\n{RELEASE_NOTES['game' if game else 'exam']}\n</en-US>"),
