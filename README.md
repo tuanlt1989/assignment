@@ -82,6 +82,7 @@ Nếu đã cài secrets của khoá ký thì file AAB tải về đưa thẳng l
 
 ## Tài liệu
 
+0. [docs/STORE-GUIDE.md](docs/STORE-GUIDE.md): **tất cả trong 1 file**: hướng dẫn upload từng app (15 app) + mọi tài liệu
 1. [docs/01-SIGNING-AND-BUILD.md](docs/01-SIGNING-AND-BUILD.md): khoá ký, secrets trên GitHub, build ra AAB/APK
 2. [docs/02-LAUNCH-CHECKLIST.md](docs/02-LAUNCH-CHECKLIST.md): **từng bước đưa app lên Google Play**
 3. [docs/03-ANDROID-GROWTH-PLAYBOOK.md](docs/03-ANDROID-GROWTH-PLAYBOOK.md): kế hoạch marketing trên Android
