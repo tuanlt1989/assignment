@@ -7,6 +7,7 @@ import '../app_state.dart';
 import '../i18n.dart';
 import '../models.dart';
 import '../monetization.dart';
+import '../speech.dart';
 import 'result_screen.dart';
 
 /// Practice mode: answer, see the explanation right away.
@@ -73,7 +74,36 @@ class _QuizScreenState extends State<QuizScreen> {
   @override
   void dispose() {
     _timer?.cancel();
+    Speech.instance.stop();
     super.dispose();
+  }
+
+  /// Reads the question and its options (in display order) aloud: in the
+  /// helper language while it is shown (to learn the terms), else the main one.
+  Future<void> _readAloud(AppState app) async {
+    final lang =
+        _showHelper && app.helperLang != null && _q.hasLang(app.helperLang!)
+        ? app.helperLang!
+        : app.questionLang;
+    final t = _q.text(lang);
+    final options = [
+      for (final (pos, i) in _orders[_index].indexed)
+        if (i < t.options.length)
+          '${String.fromCharCode(65 + pos)}. ${t.options[i]}',
+    ];
+    final ok = await Speech.instance.speak(
+      [t.question, ...options].join('\n'),
+      lang,
+    );
+    if (!ok && mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            app.s.t('noVoice', {'lang': S.languageNames[lang] ?? lang}),
+          ),
+        ),
+      );
+    }
   }
 
   Question get _q => widget.questions[_index];
@@ -222,6 +252,12 @@ class _QuizScreenState extends State<QuizScreen> {
                           ),
                         ),
                         const Spacer(),
+                        IconButton(
+                          tooltip: s.t('readAloud'),
+                          icon: const Icon(Icons.volume_up_outlined),
+                          visualDensity: VisualDensity.compact,
+                          onPressed: () => _readAloud(app),
+                        ),
                         if (app.helperLang != null &&
                             _q.hasLang(app.helperLang!))
                           FilterChip(
@@ -257,7 +293,10 @@ class _QuizScreenState extends State<QuizScreen> {
                   children: [
                     if (widget.exam && _index > 0)
                       OutlinedButton(
-                        onPressed: () => setState(() => _index--),
+                        onPressed: () {
+                          Speech.instance.stop();
+                          setState(() => _index--);
+                        },
                         child: Text(s.t('previous')),
                       ),
                     const Spacer(),
@@ -274,6 +313,7 @@ class _QuizScreenState extends State<QuizScreen> {
                               if (_last) {
                                 widget.exam ? _submit(app) : _finish(app);
                               } else {
+                                Speech.instance.stop();
                                 setState(() => _index++);
                               }
                             },

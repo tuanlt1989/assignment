@@ -3,7 +3,7 @@ description: "Exam-prep app factory: one Flutter codebase, many license-exam app
 publish_to: 'none'
 
 # Bump the build number (+N) on every Play upload. All flavors share it.
-version: 1.0.1+2
+version: 1.0.2+3
 
 environment:
   sdk: ^3.9.0
@@ -19,6 +19,7 @@ dependencies:
   flutter_local_notifications: ^22.3.2
   timezone: ^0.11.2
   flutter_timezone: ^5.1.1
+  flutter_tts: ^4.2.5
 
 dev_dependencies:
   flutter_test:

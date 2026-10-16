@@ -136,7 +136,7 @@ Chi tiết và cách sửa lỗi: Phụ lục, mục 06.
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `civilserviceph-buildN` → `app-civilserviceph-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = civilserviceph` (xem Phần A, mục A5).
 
-**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+**Release name:** `1.0.2` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -254,7 +254,7 @@ This is an independent reviewer. It is not affiliated with or endorsed by the Ci
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cosmoes-buildN` → `app-cosmoes-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cosmoes` (xem Phần A, mục A5).
 
-**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+**Release name:** `1.0.2` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -309,6 +309,7 @@ WHAT YOU GET
 • Flashcards, a weakest-topic drill and a daily streak to keep you on track
 • Practice questions on the main exam topics: infection control and safety, hair and scalp science, haircoloring, perms, relaxers and chemistry, haircutting and styling, and skin care, makeup, hair removal and electricity
 • Bilingual Spanish and English questions and explanations
+• Read aloud: hear every question and answer, in Spanish or English
 • Timed mock exams with a passing score
 • An explanation for every answer
 • Practice by topic, Quick 10, review mistakes, save questions
@@ -345,6 +346,7 @@ QUÉ INCLUYE
 • Tarjetas de memoria, repaso de tu tema más débil y racha diaria
 • Preguntas sobre los temas principales: control de infecciones y seguridad, ciencia del cabello y cuero cabelludo, coloración, permanentes, alisadores y química, corte y peinado, y cuidado de la piel, maquillaje, depilación y electricidad
 • Preguntas y explicaciones bilingües español–inglés
+• Lectura en voz alta: escucha cada pregunta y respuesta en español o inglés
 • Exámenes de práctica cronometrados con puntaje para aprobar
 • Explicación de cada respuesta
 • Practica por tema, Rápido 10, repasa errores y guarda preguntas
@@ -410,7 +412,7 @@ Herramienta de estudio independiente. No está afiliada ni respaldada por ningun
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cosmovi-buildN` → `app-cosmovi-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cosmovi` (xem Phần A, mục A5).
 
-**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+**Release name:** `1.0.2` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -465,6 +467,7 @@ WHAT YOU GET
 • Flashcards, a weakest-topic drill and a daily streak to keep you on track
 • Practice questions on the main cosmetology exam topics: infection control and safety, hair and scalp science, haircoloring, perms, relaxers and chemistry, haircutting and styling, and skin care, makeup, hair removal and electricity
 • Bilingual Vietnamese and English questions and explanations
+• Read aloud: hear every question and answer, in Vietnamese or English
 • Timed mock exams with a passing score
 • An explanation for every answer
 • Practice by topic, Quick 10, review mistakes, save hard questions
@@ -501,6 +504,7 @@ CÓ GÌ TRONG APP
 • Thẻ ghi nhớ, ôn chủ đề yếu nhất, chuỗi ngày học liên tục
 • Câu hỏi theo các chủ đề chính của đề thi Cosmetology: kiểm soát nhiễm khuẩn & an toàn, cấu tạo tóc & da đầu, nhuộm tóc, uốn – duỗi & hoá học, cắt & tạo kiểu tóc, chăm sóc da – trang điểm – tẩy lông & điện
 • Song ngữ Việt – Anh cho câu hỏi và giải thích
+• Nghe đọc to câu hỏi và đáp án bằng tiếng Việt hoặc tiếng Anh (học luôn cách phát âm thuật ngữ)
 • Thi thử bấm giờ, có điểm đậu
 • Giải thích cho từng câu
 • Luyện theo chủ đề, luyện nhanh 10 câu, ôn câu sai, lưu câu khó
@@ -567,7 +571,7 @@ LƯU Ý
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cscspl-buildN` → `app-cscspl-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cscspl` (xem Phần A, mục A5).
 
-**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+**Release name:** `1.0.2` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -723,7 +727,7 @@ Niezależna aplikacja do nauki. Nie jest powiązana z CITB, CSCS ani Pearson VUE
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cscsro-buildN` → `app-cscsro-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cscsro` (xem Phần A, mục A5).
 
-**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+**Release name:** `1.0.2` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -879,7 +883,7 @@ Aplicație de studiu independentă. Nu este afiliată și nu este aprobată de C
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `insurancelh-buildN` → `app-insurancelh-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = insurancelh` (xem Phần A, mục A5).
 
-**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+**Release name:** `1.0.2` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -995,7 +999,7 @@ Each state adds its own laws and rules to the exam. Use this app for the general
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `nailes-buildN` → `app-nailes-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = nailes` (xem Phần A, mục A5).
 
-**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+**Release name:** `1.0.2` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -1050,6 +1054,7 @@ WHAT YOU GET
 • Flashcards, a weakest-topic drill and a daily streak to keep you on track
 • Original practice questions on the main exam topics: infection control and safety, nail and skin anatomy, nail disorders, chemistry and product safety (SDS), manicure and pedicure, and nail enhancements (acrylic, gel, tips, wraps, dip)
 • Bilingual Spanish and English questions and explanations
+• Read aloud: hear every question and answer, in Spanish or English
 • Timed mock exams with a passing score
 • An explanation for every answer
 • Practice by topic, Quick 10, review mistakes, save questions
@@ -1086,6 +1091,7 @@ QUÉ INCLUYE
 • Tarjetas de memoria, repaso de tu tema más débil y racha diaria
 • Preguntas de práctica originales sobre los temas principales: control de infecciones y seguridad, anatomía de uñas y piel, trastornos de las uñas, química y seguridad de productos (SDS), manicura y pedicura, y uñas artificiales (acrílico, gel, tips, envolturas, dip)
 • Bilingüe: preguntas y explicaciones en español con inglés al instante
+• Lectura en voz alta: escucha cada pregunta y respuesta en español o inglés
 • Exámenes de práctica cronometrados con puntaje para aprobar
 • Explicación de cada respuesta
 • Practica por tema, Rápido 10, repasa tus errores y guarda preguntas
@@ -1152,7 +1158,7 @@ Esta es una herramienta de estudio independiente. No está afiliada ni respaldad
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `nailvi-buildN` → `app-nailvi-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = nailvi` (xem Phần A, mục A5).
 
-**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+**Release name:** `1.0.2` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -1207,6 +1213,7 @@ WHAT YOU GET
 • Flashcards, a weakest-topic drill and a daily streak to keep you on track
 • Original practice questions covering the main exam topics: infection control and safety, nail and skin anatomy, nail disorders and diseases, chemistry and product safety (SDS), manicure and pedicure, and nail enhancements (acrylic, gel, tips, wraps, dip)
 • Bilingual: Vietnamese questions and explanations with an instant English toggle
+• Read aloud: hear every question and answer, in Vietnamese or English
 • Timed mock exams with a passing score, just like test day
 • An explanation for every answer, so you learn why
 • Practice by topic, Quick 10, review your mistakes, and save hard questions
@@ -1247,6 +1254,7 @@ CÓ GÌ TRONG APP
 • Thẻ ghi nhớ, ôn chủ đề yếu nhất, chuỗi ngày học liên tục
 • Câu hỏi luyện tập theo các chủ đề chính của đề thi: kiểm soát nhiễm khuẩn & an toàn, cấu tạo móng & da, bệnh về móng, hoá học & an toàn sản phẩm (SDS), manicure & pedicure, móng nhân tạo (acrylic, gel, tip, bọc móng, bột nhúng)
 • Song ngữ: câu hỏi và giải thích tiếng Việt, bật tiếng Anh bất cứ lúc nào
+• Nghe đọc to câu hỏi và đáp án bằng tiếng Việt hoặc tiếng Anh (học luôn cách phát âm thuật ngữ)
 • Thi thử bấm giờ, có điểm đậu như khi thi thật
 • Giải thích cho từng câu để hiểu vì sao đúng, vì sao sai
 • Luyện theo chủ đề, luyện nhanh 10 câu, ôn lại câu sai, lưu câu khó
@@ -1318,7 +1326,7 @@ LƯU Ý
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `nursegulf-buildN` → `app-nursegulf-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = nursegulf` (xem Phần A, mục A5).
 
-**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+**Release name:** `1.0.2` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```
@@ -1440,7 +1448,7 @@ This is an independent study tool. It is not affiliated with or endorsed by DHA,
 - Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `sachkunde-buildN` → `app-sachkunde-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = sachkunde` (xem Phần A, mục A5).
 
-**Release name:** `1.0.1` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+**Release name:** `1.0.2` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
 
 **Release notes**
 ```

@@ -1,4 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Read-aloud: lets the app find the phone's text-to-speech engine (Android 11+). -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
     <uses-permission android:name="android.permission.INTERNET"/>
     <!-- Daily study reminder (inexact, no exact-alarm permission needed) -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>

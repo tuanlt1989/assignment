@@ -59,6 +59,9 @@ class S {
       'correctAnswer': 'Correct answer: {a}',
       'explanation': 'Explanation',
       'showHelper': 'Show {lang}',
+      'readAloud': 'Read aloud',
+      'noVoice':
+          'No {lang} voice on this phone. Install it in Settings → Text-to-speech.',
       'timeLeft': 'Time left',
       'submitTitle': 'Submit exam?',
       'submitBody': 'You have {n} unanswered questions.',
@@ -183,6 +186,9 @@ class S {
       'correctAnswer': 'Đáp án đúng: {a}',
       'explanation': 'Giải thích',
       'showHelper': 'Xem {lang}',
+      'readAloud': 'Đọc to',
+      'noVoice':
+          'Máy chưa có giọng đọc {lang}. Cài trong Cài đặt → Chuyển văn bản thành giọng nói.',
       'timeLeft': 'Còn lại',
       'submitTitle': 'Nộp bài?',
       'submitBody': 'Bạn còn {n} câu chưa trả lời.',
@@ -307,6 +313,9 @@ class S {
       'correctAnswer': 'Respuesta correcta: {a}',
       'explanation': 'Explicación',
       'showHelper': 'Ver en {lang}',
+      'readAloud': 'Leer en voz alta',
+      'noVoice':
+          'Este teléfono no tiene voz en {lang}. Instálala en Ajustes → Texto a voz.',
       'timeLeft': 'Tiempo restante',
       'submitTitle': '¿Entregar el examen?',
       'submitBody': 'Tienes {n} preguntas sin responder.',
@@ -433,6 +442,9 @@ class S {
       'correctAnswer': 'Richtige Antwort: {a}',
       'explanation': 'Erklärung',
       'showHelper': '{lang} anzeigen',
+      'readAloud': 'Vorlesen',
+      'noVoice':
+          'Keine Stimme für {lang} auf diesem Handy. In Einstellungen → Text-in-Sprache installieren.',
       'timeLeft': 'Restzeit',
       'submitTitle': 'Prüfung abgeben?',
       'submitBody': 'Du hast {n} Fragen nicht beantwortet.',
@@ -560,6 +572,9 @@ class S {
       'correctAnswer': 'Răspuns corect: {a}',
       'explanation': 'Explicație',
       'showHelper': 'Vezi în {lang}',
+      'readAloud': 'Citește cu voce tare',
+      'noVoice':
+          'Telefonul nu are voce în {lang}. Instaleaz-o din Setări → Redare vocală a textului.',
       'timeLeft': 'Timp rămas',
       'submitTitle': 'Trimiți testul?',
       'submitBody': 'Ai {n} întrebări fără răspuns.',
@@ -684,6 +699,9 @@ class S {
       'correctAnswer': 'Poprawna odpowiedź: {a}',
       'explanation': 'Wyjaśnienie',
       'showHelper': 'Pokaż: {lang}',
+      'readAloud': 'Czytaj na głos',
+      'noVoice':
+          'Brak głosu: {lang} w telefonie. Zainstaluj w Ustawieniach → Zamiana tekstu na mowę.',
       'timeLeft': 'Pozostały czas',
       'submitTitle': 'Oddać egzamin?',
       'submitBody': 'Liczba pytań bez odpowiedzi: {n}.',
