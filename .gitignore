@@ -54,3 +54,4 @@ android/key.properties
 
 # Screenshot tooling
 tool/screenshots/node_modules/
+play-upload/

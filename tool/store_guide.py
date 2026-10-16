@@ -15,6 +15,7 @@ OUT = REPO / "docs/STORE-GUIDE.md"
 GH = "https://github.com/tuanlt1989/assignment"
 ACTIONS = f"{GH}/actions/workflows/android.yml"
 PUBLISH = f"{GH}/actions/workflows/publish.yml"
+RELEASE = f"{GH}/releases/tag/play-upload"
 
 FLAGS = {
     "US": "🇺🇸 Mỹ", "PR": "🇵🇷 Puerto Rico", "GB": "🇬🇧 Anh", "DE": "🇩🇪 Đức", "PH": "🇵🇭 Philippines",
@@ -158,7 +159,8 @@ def code(text: str) -> str:
     return "```\n" + text.strip() + "\n```"
 
 
-def app_section(n: int, cfg: dict, root: Path) -> str:
+def app_section(n: int, cfg: dict, root: Path, local: bool = False) -> str:
+    """One app's upload sheet. local=True: paths point inside its play-upload/ folder."""
     aid = cfg["id"]
     meta = META[aid]
     game = root.name == "games"
@@ -194,9 +196,15 @@ def app_section(n: int, cfg: dict, root: Path) -> str:
                      f"`{cfg['premiumProductId']}` mở 250 câu, thi thử đầy đủ {ex.get('questions')} câu/{ex.get('minutes')} phút "
                      f"(đậu {ex.get('passPercent')}%), thẻ ghi nhớ không giới hạn.")
     lines += ["", "---", "", "### 📦 File tải lên", ""]
+    if local:
+        lines += [f"- File: **`app-{aid}-release.aab`** (nằm ngay trong thư mục này).",
+                  "- Ảnh, chữ store, icon sản phẩm cũng nằm trong thư mục này (xem đường dẫn bên dưới)."]
+    else:
+        lines += [
+            f"- Tải **`{aid}.zip`** ở [Releases → play-upload]({RELEASE}): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).",
+            f"- Hoặc [Actions → Android build]({ACTIONS}) → lần chạy mới nhất ✅ → **Artifacts** → `{aid}-buildN` → `app-{aid}-release.aab`.",
+        ]
     lines += [
-        f"- Vào [Actions → Android build]({ACTIONS}) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`{aid}-buildN`** → giải nén → **`app-{aid}-release.aab`**.",
-        "- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`",
         "- Từ lần 2: dùng [Publish to Google Play]" f"({PUBLISH}) với `apps = {aid}` (xem Phần A, mục A5).",
         "",
         "**Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)",
@@ -210,7 +218,7 @@ def app_section(n: int, cfg: dict, root: Path) -> str:
         f"| **Product ID** | `{cfg['premiumProductId']}` |",
         f"| **Name** | `{'Unlimited: all levels & hints' if game else 'Unlock all questions'}` |",
         f"| **Description** | `{('Unlimited Hard & Expert puzzles, unlimited hints, the daily archive and every theme. One-time purchase.' if game else 'All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.')}` |",
-        f"| **Icon** | `{rel(root / 'store' / aid / 'product_icons' / (cfg['premiumProductId'] + '.png'))}` (512×512, không chữ) |",
+        f"| **Icon** | `{('product/' if local else rel(root / 'store' / aid / 'product_icons') + '/') + cfg['premiumProductId'] + '.png'}` (512×512, không chữ) |",
         f"| **Tags** | {' · '.join(f'`{t}`' for t in cfg.get('productTags', []))} |",
         "| **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |",
         f"| **Giá** | {price} → Availability: các nước ở trên |",
@@ -219,7 +227,8 @@ def app_section(n: int, cfg: dict, root: Path) -> str:
         "",
         "### 🖼 Hình ảnh",
         "",
-        f"`{rel(en / 'images/icon.png')}` · `{rel(en / 'images/featureGraphic.png')}` · `{rel(en / 'images/phoneScreenshots')}/1.png`→`4.png`",
+        (lambda b: f"`{b}/icon.png` · `{b}/featureGraphic.png` · `{b}/phoneScreenshots/1.png`→`4.png`")(
+            "listing/en-US/images" if local else rel(en / "images")),
     ]
     loc_shots = [l for l in locales if l != "en-US" and (store / l / "images/phoneScreenshots").exists()]
     if loc_shots:
@@ -290,6 +299,7 @@ def common_part(apps: list[tuple[dict, Path]]) -> str:
 | Email hỗ trợ `tuanlt1989@gmail.com`, tên nhà phát triển `Tuan Apps` | ✅ (đổi trong `apps/*.json` nếu muốn khác, rồi chạy `python3 tool/factory.py`) |
 | 4 secrets khoá ký trên GitHub | ✅ bạn đã thêm |
 | AAB đã ký cho 15 app | ✅ tự build mỗi lần push: [Actions → Android build]({ACTIONS}) |
+| **Gói upload từng app** (AAB + ảnh + chữ store + icon sản phẩm + `UPLOAD.md`) | ✅ [Releases → play-upload]({RELEASE}): tải `<id>.zip` |
 | Trang chính sách bảo mật (GitHub Pages) | ⬜ bật 1 lần ở mục A2 |
 | `PLAY_SERVICE_ACCOUNT_JSON` (upload tự động) | ⬜ không bắt buộc, mục A5 |
 

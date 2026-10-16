@@ -32,6 +32,7 @@ Phần B:
 | Email hỗ trợ `tuanlt1989@gmail.com`, tên nhà phát triển `Tuan Apps` | ✅ (đổi trong `apps/*.json` nếu muốn khác, rồi chạy `python3 tool/factory.py`) |
 | 4 secrets khoá ký trên GitHub | ✅ bạn đã thêm |
 | AAB đã ký cho 15 app | ✅ tự build mỗi lần push: [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) |
+| **Gói upload từng app** (AAB + ảnh + chữ store + icon sản phẩm + `UPLOAD.md`) | ✅ [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): tải `<id>.zip` |
 | Trang chính sách bảo mật (GitHub Pages) | ⬜ bật 1 lần ở mục A2 |
 | `PLAY_SERVICE_ACCOUNT_JSON` (upload tự động) | ⬜ không bắt buộc, mục A5 |
 
@@ -127,8 +128,8 @@ Chi tiết và cách sửa lỗi: Phụ lục, mục 06.
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`civilserviceph-buildN`** → giải nén → **`app-civilserviceph-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`civilserviceph.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `civilserviceph-buildN` → `app-civilserviceph-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = civilserviceph` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -245,8 +246,8 @@ This is an independent reviewer. It is not affiliated with or endorsed by the Ci
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`cosmoes-buildN`** → giải nén → **`app-cosmoes-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`cosmoes.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cosmoes-buildN` → `app-cosmoes-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cosmoes` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -401,8 +402,8 @@ Herramienta de estudio independiente. No está afiliada ni respaldada por ningun
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`cosmovi-buildN`** → giải nén → **`app-cosmovi-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`cosmovi.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cosmovi-buildN` → `app-cosmovi-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cosmovi` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -558,8 +559,8 @@ LƯU Ý
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`cscspl-buildN`** → giải nén → **`app-cscspl-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`cscspl.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cscspl-buildN` → `app-cscspl-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cscspl` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -714,8 +715,8 @@ Niezależna aplikacja do nauki. Nie jest powiązana z CITB, CSCS ani Pearson VUE
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`cscsro-buildN`** → giải nén → **`app-cscsro-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`cscsro.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `cscsro-buildN` → `app-cscsro-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = cscsro` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -870,8 +871,8 @@ Aplicație de studiu independentă. Nu este afiliată și nu este aprobată de C
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`insurancelh-buildN`** → giải nén → **`app-insurancelh-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`insurancelh.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `insurancelh-buildN` → `app-insurancelh-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = insurancelh` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -986,8 +987,8 @@ Each state adds its own laws and rules to the exam. Use this app for the general
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`nailes-buildN`** → giải nén → **`app-nailes-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`nailes.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `nailes-buildN` → `app-nailes-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = nailes` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -1143,8 +1144,8 @@ Esta es una herramienta de estudio independiente. No está afiliada ni respaldad
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`nailvi-buildN`** → giải nén → **`app-nailvi-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`nailvi.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `nailvi-buildN` → `app-nailvi-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = nailvi` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -1309,8 +1310,8 @@ LƯU Ý
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`nursegulf-buildN`** → giải nén → **`app-nursegulf-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`nursegulf.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `nursegulf-buildN` → `app-nursegulf-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = nursegulf` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -1431,8 +1432,8 @@ This is an independent study tool. It is not affiliated with or endorsed by DHA,
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`sachkunde-buildN`** → giải nén → **`app-sachkunde-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`sachkunde.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `sachkunde-buildN` → `app-sachkunde-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = sachkunde` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -1587,8 +1588,8 @@ Unabhängiges Lernwerkzeug. Keine Verbindung zu IHKs, dem DIHK oder Behörden. A
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`dominodots-buildN`** → giải nén → **`app-dominodots-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`dominodots.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `dominodots-buildN` → `app-dominodots-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = dominodots` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -1905,8 +1906,8 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`meowqueens-buildN`** → giải nén → **`app-meowqueens-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`meowqueens.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `meowqueens-buildN` → `app-meowqueens-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = meowqueens` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -2223,8 +2224,8 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`patchgrid-buildN`** → giải nén → **`app-patchgrid-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`patchgrid.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `patchgrid-buildN` → `app-patchgrid-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = patchgrid` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -2541,8 +2542,8 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`puttpuzzle-buildN`** → giải nén → **`app-puttpuzzle-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`puttpuzzle.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `puttpuzzle-buildN` → `app-puttpuzzle-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = puttpuzzle` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)
@@ -2859,8 +2860,8 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 
 ### 📦 File tải lên
 
-- Vào [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất có dấu ✅ → **Artifacts** → tải **`wordweave-buildN`** → giải nén → **`app-wordweave-release.aab`**.
-- Kiểm tra log bước *Release signing* ghi `Signing with the upload key.`
+- Tải **`wordweave.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `wordweave-buildN` → `app-wordweave-release.aab`.
 - Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = wordweave` (xem Phần A, mục A5).
 
 **Release name:** `1.0.0 - First release` (versionCode do CI tự đặt)

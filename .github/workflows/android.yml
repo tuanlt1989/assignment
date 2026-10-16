@@ -86,3 +86,29 @@ jobs:
             ${{ matrix.app.dir }}/build/app/outputs/bundle/${{ matrix.app.flavor }}Release/*.aab
             ${{ matrix.app.dir }}/build/app/outputs/flutter-apk/app-${{ matrix.app.flavor }}-release.apk
           if-no-files-found: error
+
+  # Gathers AAB + store listing + images + product icon + UPLOAD.md per app into
+  # play-upload/<NN>-<id>/ and publishes one zip per app on the "play-upload"
+  # release (a fixed link that does not expire like artifacts do).
+  package:
+    needs: build
+    if: github.ref == 'refs/heads/exam-prep-apps'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: ${{ runner.temp }}/artifacts
+      - name: Build play-upload folder
+        run: python3 tool/pack_upload.py --out play-upload --aab-dir "$RUNNER_TEMP/artifacts" --zip
+      - name: Publish release "play-upload"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete play-upload --cleanup-tag --yes || true
+          gh release create play-upload --target "$GITHUB_SHA" \
+            --title "Play upload – build ${{ github.run_number }}" \
+            --notes "One zip per app: AAB (signed), store texts for every language, icon, feature graphic, screenshots, in-app product icon and UPLOAD.md with every Play Console step. Commit $GITHUB_SHA." \
+            play-upload/*.zip play-upload/README.md
