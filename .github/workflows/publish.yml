@@ -113,7 +113,7 @@ jobs:
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
           BUILD=$(( ($(date +%s) - 1767225600) / 60 ))
-          flutter build appbundle --release --flavor ${{ matrix.app.flavor }} --build-number $BUILD
+          bash "$GITHUB_WORKSPACE/tool/ci_retry.sh" flutter build appbundle --release --flavor ${{ matrix.app.flavor }} --build-number $BUILD
           echo "AAB=$(ls $PWD/build/app/outputs/bundle/${{ matrix.app.flavor }}Release/*.aab)" >> "$GITHUB_ENV"
       - uses: actions/setup-python@v5
         with:

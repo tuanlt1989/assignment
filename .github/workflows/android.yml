@@ -77,8 +77,8 @@ jobs:
           # versionCode = minutes since 2026-01-01, shared with publish.yml, so
           # every build (from either workflow) is higher than the last one.
           BUILD=$(( ($(date +%s) - 1767225600) / 60 ))
-          flutter build appbundle --release --flavor ${{ matrix.app.flavor }} --build-number $BUILD
-          flutter build apk --release --flavor ${{ matrix.app.flavor }} --build-number $BUILD
+          bash "$GITHUB_WORKSPACE/tool/ci_retry.sh" flutter build appbundle --release --flavor ${{ matrix.app.flavor }} --build-number $BUILD
+          bash "$GITHUB_WORKSPACE/tool/ci_retry.sh" flutter build apk --release --flavor ${{ matrix.app.flavor }} --build-number $BUILD
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.app.flavor }}-build${{ github.run_number }}
