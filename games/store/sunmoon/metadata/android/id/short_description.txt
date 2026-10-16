@@ -1,0 +1,1 @@
+Seimbangkan matahari & bulan di tiap baris dan kolom. Tak boleh 3 berjajar!

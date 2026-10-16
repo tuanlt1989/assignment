@@ -11,7 +11,9 @@ const ROOT = path.join(__dirname, '../..', process.env.ROOT || '.');
 const OUT = path.join(ROOT, 'build/raw_screenshots');
 fs.mkdirSync(OUT, { recursive: true });
 const CHROME = process.env.CHROME_PATH; // optional; otherwise Playwright's own Chromium
-const apps = fs.readdirSync(path.join(ROOT, 'apps')).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5));
+const only = process.env.APPS ? process.env.APPS.split(',') : null; // e.g. APPS=sunmoon,whodunit
+const apps = fs.readdirSync(path.join(ROOT, 'apps')).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5))
+  .filter((a) => !only || only.includes(a));
 const scenes = (process.env.SCENES || 'home,practice,exam,result').split(',');
 (async () => {
   const browser = await chromium.launch(CHROME ? { executablePath: CHROME } : {});

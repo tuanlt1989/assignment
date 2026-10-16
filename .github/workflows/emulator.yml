@@ -4,10 +4,10 @@ name: Emulator test
 # Android 14 emulator (KVM), taps through it, fires 500 random events and keeps
 # screenshots, a screen recording and logcat as artifacts (emulator-<id>).
 on:
-  # Also runs (all apps) when this workflow or the test script changes.
+  # Also runs (all apps) when this workflow, the test script or an app config changes.
   push:
     branches: [exam-prep-apps]
-    paths: [.github/workflows/emulator.yml, tool/emulator_smoke.sh]
+    paths: [.github/workflows/emulator.yml, tool/emulator_smoke.sh, apps/*.json, games/apps/*.json]
   workflow_dispatch:
     inputs:
       apps:

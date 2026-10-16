@@ -75,6 +75,44 @@
   "supportEmail": "tuanlt1989@gmail.com",
   "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
  },
+ "sunmoon": {
+  "id": "sunmoon",
+  "game": "tango",
+  "title": {
+   "en": "Sun & Moon: Logic Puzzle",
+   "es": "Sol y Luna: Puzzle de Lógica",
+   "pt": "Sol e Lua: Quebra-Cabeça",
+   "vi": "Sun & Moon: Giải Đố Logic",
+   "id": "Sun & Moon: Teka-Teki Logika",
+   "de": "Sonne & Mond: Logikrätsel",
+   "ja": "太陽と月: ロジックパズル"
+  },
+  "color": "#F57C00",
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/sunmoon.html",
+  "supportEmail": "tuanlt1989@gmail.com",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
+ },
+ "whodunit": {
+  "id": "whodunit",
+  "game": "culprit",
+  "title": {
+   "en": "Who Did It? Deduction Puzzle",
+   "es": "¿Quién Fue? Puzzle Deductivo",
+   "pt": "Quem Foi? Enigma de Dedução",
+   "vi": "Ai Là Thủ Phạm? Suy Luận",
+   "id": "Siapa Pelakunya? Teka-Teki",
+   "de": "Wer war's? Detektiv-Rätsel",
+   "ja": "犯人は誰？推理パズル"
+  },
+  "color": "#C62828",
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/whodunit.html",
+  "supportEmail": "tuanlt1989@gmail.com",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children."
+ },
  "wordweave": {
   "id": "wordweave",
   "game": "weave",

@@ -1,4 +1,4 @@
-# Hướng dẫn đưa 15 app lên Google Play (tổng hợp)
+# Hướng dẫn đưa 17 app lên Google Play (tổng hợp)
 
 > File được tạo tự động bởi `python3 tool/store_guide.py` từ `apps/*.json`, `store/` và `docs/`. Sửa nguồn rồi chạy lại lệnh, đừng sửa tay file này.
 
@@ -19,19 +19,21 @@ Phần B:
 12. [Meow Queens: Cat Logic Puzzle (meowqueens)](#12-meow-queens-cat-logic-puzzle-meowqueens)
 13. [Patch Grid: Rectangle Logic (patchgrid)](#13-patch-grid-rectangle-logic-patchgrid)
 14. [Putt Puzzle: Daily Mini Golf (puttpuzzle)](#14-putt-puzzle-daily-mini-golf-puttpuzzle)
-15. [Word Weave: Hidden Words (wordweave)](#15-word-weave-hidden-words-wordweave)
+15. [Sun & Moon: Logic Puzzle (sunmoon)](#15-sun--moon-logic-puzzle-sunmoon)
+16. [Who Did It? Deduction Puzzle (whodunit)](#16-who-did-it-deduction-puzzle-whodunit)
+17. [Word Weave: Hidden Words (wordweave)](#17-word-weave-hidden-words-wordweave)
 
-## Phần A — Làm chung cho cả 15 app
+## Phần A — Làm chung cho cả 17 app
 
 ### A0. Tình trạng
 
 | Việc | Trạng thái |
 |---|---|
-| Code 15 app, câu hỏi 250 câu/app, 5 game | ✅ |
+| Code 17 app (10 app luyện thi × 250 câu, 7 game) | ✅ |
 | Icon, feature graphic, ảnh màn hình, nội dung store mọi ngôn ngữ | ✅ trong `store/` và `games/store/` |
 | Email hỗ trợ `tuanlt1989@gmail.com`, tên nhà phát triển `Tuan Apps` | ✅ (đổi trong `apps/*.json` nếu muốn khác, rồi chạy `python3 tool/factory.py`) |
 | 4 secrets khoá ký trên GitHub | ✅ bạn đã thêm |
-| AAB đã ký cho 15 app | ✅ tự build mỗi lần push: [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) |
+| AAB đã ký cho 17 app | ✅ tự build mỗi lần push: [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) |
 | **Gói upload từng app** (AAB + ảnh + chữ store + icon sản phẩm + `UPLOAD.md`) | ✅ [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): tải `<id>.zip` |
 | Trang chính sách bảo mật (GitHub Pages) | ⬜ bật 1 lần ở mục A2 |
 | `PLAY_SERVICE_ACCOUNT_JSON` (upload tự động) | ⬜ không bắt buộc, mục A5 |
@@ -54,11 +56,13 @@ Phần B:
 | 12 | `meowqueens` | Meow Queens: Cat Logic Puzzle | `com.tuanapps.meowqueens` |
 | 13 | `patchgrid` | Patch Grid: Rectangle Logic | `com.tuanapps.patchgrid` |
 | 14 | `puttpuzzle` | Putt Puzzle: Daily Mini Golf | `com.tuanapps.puttpuzzle` |
-| 15 | `wordweave` | Word Weave: Hidden Words | `com.tuanapps.wordweave` |
+| 15 | `sunmoon` | Sun & Moon: Logic Puzzle | `com.tuanapps.sunmoon` |
+| 16 | `whodunit` | Who Did It? Deduction Puzzle | `com.tuanapps.whodunit` |
+| 17 | `wordweave` | Word Weave: Hidden Words | `com.tuanapps.wordweave` |
 
 ### A2. Bật trang chính sách bảo mật (1 lần)
 1. <https://github.com/tuanlt1989/assignment/settings/pages> → **Source**: *Deploy from a branch* → **Branch** `exam-prep-apps`, thư mục **`/docs`** → **Save**.
-2. Sau 1–3 phút mở thử <https://tuanlt1989.github.io/assignment/privacy/nailvi.html>. Cả 15 trang có dạng `…/privacy/<id>.html`.
+2. Sau 1–3 phút mở thử <https://tuanlt1989.github.io/assignment/privacy/nailvi.html>. Cả 17 trang có dạng `…/privacy/<id>.html`.
 
 ### A3. Thứ tự đưa 1 app lên
 1. **Create app** → tên (mục "App name" của app) → **English (United States) – en-US** → App/Game theo bảng → **Free** → Create.
@@ -66,10 +70,10 @@ Phần B:
 3. **Store settings** + **Main store listing**: dán chữ ✍️, upload ảnh 🖼. **Manage translations → Add your own translations**: thêm các ngôn ngữ còn lại.
 4. **Testing → Internal testing → Create new release**: để mặc định Play App Signing, upload `app-<id>-release.aab`, release notes → **Save and publish**. Thêm Gmail của bạn vào Testers.
 5. Tạo sản phẩm 🛒 (mục A4) → **Setup → License testing** thêm Gmail → cài từ link tester → mua thử.
-6. **Closed testing** ≥12 tester × 14 ngày (tài khoản cá nhân); dùng chung 1 Google Group cho cả 15 app → **Apply for production**.
+6. **Closed testing** ≥12 tester × 14 ngày (tài khoản cá nhân); dùng chung 1 Google Group cho cả 17 app → **Apply for production**.
 7. **Production** → chọn quốc gia theo bảng → **Create new release** → *Add from library* → rollout 20% → 100%.
 
-> Mẹo: làm bước 1–5 cho cả 15 app trong cùng 1–2 ngày, để 15 app chạy closed test song song.
+> Mẹo: làm bước 1–5 cho cả 17 app trong cùng 1–2 ngày, để 17 app chạy closed test song song.
 
 ### A4. Tạo one-time product `premium_lifetime` (từng bước, giống nhau cho mọi app)
 **Bước 0: điều kiện:** đã upload ít nhất 1 file `.aab` (Internal testing là đủ); Payments profile không bị hold.
@@ -2839,7 +2843,643 @@ Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý khôn
 
 ---
 
-## 15. Word Weave: Hidden Words (wordweave)
+## 15. Sun & Moon: Logic Puzzle (sunmoon)
+
+| | |
+|---|---|
+| Mã app | `com.tuanapps.sunmoon` |
+| Loại | Game → **Puzzle** |
+| Thị trường | **Tất cả quốc gia** |
+| Ngôn ngữ store | `en-US`, `de-DE`, `es-419`, `id`, `ja-JP`, `pt-BR`, `vi` |
+| Privacy policy | https://tuanlt1989.github.io/assignment/privacy/sunmoon.html |
+| Email hỗ trợ | tuanlt1989@gmail.com |
+| Quảng cáo | **Không** (AdMob tắt; không cần app-ads.txt) |
+| Mua trong app | `premium_lifetime` = mở khoá toàn bộ, trả 1 lần |
+
+**Vì sao làm:** Ăn theo *Tango* của LinkedIn (game hằng ngày, mỗi ngày chỉ 1 màn). Takuzu có nhiều app nhưng gần như không app nào có luật dấu =/× như Tango.
+
+**Kiếm tiền:** miễn phí Dễ + Vừa không giới hạn; Khó 3 câu/ngày, Chuyên gia 1 câu/ngày, 3 gợi ý + 1/ngày. `premium_lifetime` mở mọi mức, gợi ý không giới hạn, kho 60 ngày, mọi giao diện.
+
+---
+
+### 📦 File tải lên
+
+- Tải **`sunmoon.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `sunmoon-buildN` → `app-sunmoon-release.aab`.
+- Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = sunmoon` (xem Phần A, mục A5).
+
+**Release name:** `1.0.0` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+
+**Release notes**
+```
+<en-US>
+First release!
+• Unlimited puzzles in 4 levels: Easy to Expert
+• Daily puzzle with streaks
+• Stars, themes and trophies – no ads
+</en-US>
+```
+
+### 🛒 Sản phẩm mua trong app (làm sau khi đã upload AAB lên Internal testing)
+
+| Ô | Điền |
+|---|---|
+| **Product ID** | `premium_lifetime` |
+| **Name** | `Unlimited: all levels & hints` |
+| **Description** | `Unlimited Hard & Expert puzzles, unlimited hints, the daily archive and every theme. One-time purchase.` |
+| **Icon** | `games/store/sunmoon/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `unlimited-puzzles` · `unlimited-hints` · `logic-puzzle` |
+| **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
+| **Giá** | **US $2.99** → Update exchange rates → Availability: các nước ở trên |
+
+Các bước chi tiết: Phần A, mục A4.
+
+### 🖼 Hình ảnh
+
+`games/store/sunmoon/metadata/android/en-US/images/icon.png` · `games/store/sunmoon/metadata/android/en-US/images/featureGraphic.png` · `games/store/sunmoon/metadata/android/en-US/images/phoneScreenshots/1.png`→`4.png`
+
+### ✍️ Nội dung trang store
+
+**English (United States) – en-US**
+
+App name (24/30)
+```
+Sun & Moon: Logic Puzzle
+```
+Short description (76/80)
+```
+Balance suns and moons in every row and column. No 3 in a row! Daily puzzle.
+```
+Full description
+```
+Balance suns and moons in every row and column. No 3 in a row! Daily puzzle.
+
+HOW TO PLAY
+Fill every cell with a sun or a moon. Each row and column has as many suns as moons, and never more than two of the same next to each other. = means both cells are the same, × means they are different. Tap a cell to switch between sun, moon and empty.
+
+FEATURES
+• Unlimited puzzles in 4 levels: Easy, Medium, Hard and Expert
+• Every puzzle has exactly one solution – pure logic, no guessing
+• A new daily puzzle, streaks and a 60-day archive
+• Earn 1–3 stars, unlock 8 color themes, collect 12 trophies
+• Timer, best times and detailed stats
+• Hints when you're stuck
+• No ads. Works offline. No account needed.
+
+GO UNLIMITED
+One small one-time purchase: unlimited Hard & Expert puzzles, unlimited hints, the full daily archive and every theme. No subscription.
+```
+
+<details><summary>German – de-DE: bấm để mở</summary>
+
+**German – de-DE**
+
+App name (25/30)
+```
+Sonne & Mond: Logikrätsel
+```
+Short description (75/80)
+```
+Gleich viele Sonnen und Monde in jeder Zeile und Spalte. Nie drei in Folge!
+```
+Full description
+```
+Gleich viele Sonnen und Monde in jeder Zeile und Spalte. Nie drei in Folge!
+
+SO WIRD GESPIELT
+Fülle jedes Feld mit einer Sonne oder einem Mond. Jede Zeile und Spalte hat gleich viele Sonnen wie Monde, und nie mehr als zwei gleiche nebeneinander. = heißt, beide Felder sind gleich, × heißt, sie sind verschieden. Tippe ein Feld an, um zwischen Sonne, Mond und leer zu wechseln.
+
+FUNKTIONEN
+• Unbegrenzt Rätsel in 4 Stufen: Leicht, Mittel, Schwer, Experte
+• Jedes Rätsel hat genau eine Lösung – reine Logik, kein Raten
+• Neues Tagesrätsel, Serien und ein 60-Tage-Archiv
+• 1–3 Sterne verdienen, 8 Farbdesigns und 12 Trophäen freischalten
+• Timer, Bestzeiten und Statistik
+• Tipps, wenn du feststeckst
+• Keine Werbung. Offline spielbar. Kein Konto nötig.
+
+UNBEGRENZT FREISCHALTEN
+Ein kleiner Einmalkauf: unbegrenzt schwere und Experten-Rätsel, unbegrenzt Tipps, das komplette Archiv und alle Designs. Kein Abo.
+```
+
+</details>
+
+<details><summary>Spanish (Latin America) – es-419: bấm để mở</summary>
+
+**Spanish (Latin America) – es-419**
+
+App name (28/30)
+```
+Sol y Luna: Puzzle de Lógica
+```
+Short description (79/80)
+```
+Equilibra soles y lunas en cada fila y columna. ¡Nunca 3 seguidos! Reto diario.
+```
+Full description
+```
+Equilibra soles y lunas en cada fila y columna. ¡Nunca 3 seguidos! Reto diario.
+
+CÓMO JUGAR
+Llena cada casilla con un sol o una luna. Cada fila y columna tiene tantos soles como lunas, y nunca más de dos iguales seguidos. = significa que ambas casillas son iguales y × que son distintas. Toca una casilla para cambiar entre sol, luna y vacío.
+
+CARACTERÍSTICAS
+• Puzles ilimitados en 4 niveles: Fácil, Medio, Difícil y Experto
+• Cada puzle tiene una sola solución: lógica pura, sin adivinar
+• Puzle diario nuevo, rachas y archivo de 60 días
+• Gana de 1 a 3 estrellas, desbloquea 8 temas y 12 trofeos
+• Cronómetro, mejores tiempos y estadísticas
+• Pistas cuando te atascas
+• Sin anuncios. Funciona sin internet. Sin cuenta.
+
+PÁSATE A ILIMITADO
+Un único pago pequeño: puzles difíciles y expertos ilimitados, pistas ilimitadas, archivo diario completo y todos los temas. Sin suscripción.
+```
+
+</details>
+
+<details><summary>Indonesian – id: bấm để mở</summary>
+
+**Indonesian – id**
+
+App name (28/30)
+```
+Sun & Moon: Teka-Teki Logika
+```
+Short description (75/80)
+```
+Seimbangkan matahari & bulan di tiap baris dan kolom. Tak boleh 3 berjajar!
+```
+Full description
+```
+Seimbangkan matahari & bulan di tiap baris dan kolom. Tak boleh 3 berjajar!
+
+CARA BERMAIN
+Isi setiap kotak dengan matahari atau bulan. Setiap baris dan kolom memiliki jumlah matahari dan bulan yang sama, dan tidak boleh lebih dari dua simbol sama berdampingan. = berarti kedua kotak sama, × berarti berbeda. Ketuk kotak untuk mengganti matahari, bulan, dan kosong.
+
+FITUR
+• Teka-teki tanpa batas di 4 level: Mudah, Sedang, Sulit, Ahli
+• Setiap teka-teki punya tepat satu solusi – murni logika
+• Teka-teki harian baru, beruntun, dan arsip 60 hari
+• Raih 1–3 bintang, buka 8 tema warna, kumpulkan 12 trofi
+• Timer, waktu terbaik, dan statistik
+• Petunjuk saat kamu buntu
+• Tanpa iklan. Bisa offline. Tanpa akun.
+
+BUKA TANPA BATAS
+Sekali bayar: teka-teki Sulit & Ahli tanpa batas, petunjuk tanpa batas, arsip harian lengkap, dan semua tema. Tanpa langganan.
+```
+
+</details>
+
+<details><summary>Japanese – ja-JP: bấm để mở</summary>
+
+**Japanese – ja-JP**
+
+App name (13/30)
+```
+太陽と月: ロジックパズル
+```
+Short description (32/80)
+```
+各行・列の太陽と月を同じ数に。3つ並びはNG！毎日の新作パズル。
+```
+Full description
+```
+各行・列の太陽と月を同じ数に。3つ並びはNG！毎日の新作パズル。
+
+遊び方
+すべてのマスに太陽か月を入れましょう。各行・各列の太陽と月は同じ数で、同じ記号が3つ以上並んではいけません。＝は2マスが同じ、×は違うという意味です。マスをタップすると太陽・月・空白が切り替わります。
+
+特徴
+• かんたん・ふつう・むずかしい・エキスパートの4段階、パズルは無制限
+• どのパズルも答えはひとつ。運ではなく論理で解ける
+• 毎日の新作パズル、連続記録、60日分のアーカイブ
+• ★1〜3で評価、8つのカラーテーマと12個のトロフィー
+• タイマー、ベストタイム、詳しい記録
+• 行きづまったらヒント
+• 広告なし。オフラインOK。アカウント不要。
+
+無制限パック
+一度の購入で、むずかしい・エキスパートが無制限、ヒント無制限、過去のパズル全部、すべてのテーマが使えます。サブスクではありません。
+```
+
+</details>
+
+<details><summary>Portuguese (Brazil) – pt-BR: bấm để mở</summary>
+
+**Portuguese (Brazil) – pt-BR**
+
+App name (24/30)
+```
+Sol e Lua: Quebra-Cabeça
+```
+Short description (77/80)
+```
+Equilibre sóis e luas em cada linha e coluna. Nunca 3 iguais! Desafio diário.
+```
+Full description
+```
+Equilibre sóis e luas em cada linha e coluna. Nunca 3 iguais! Desafio diário.
+
+COMO JOGAR
+Preencha cada casa com um sol ou uma lua. Cada linha e coluna tem tantos sóis quanto luas, e nunca mais de dois iguais lado a lado. = significa que as duas casas são iguais e × que são diferentes. Toque numa casa para alternar entre sol, lua e vazio.
+
+RECURSOS
+• Desafios ilimitados em 4 níveis: Fácil, Médio, Difícil e Especialista
+• Cada desafio tem uma única solução – lógica pura, sem chute
+• Desafio diário novo, sequências e arquivo de 60 dias
+• Ganhe de 1 a 3 estrelas, desbloqueie 8 temas e 12 troféus
+• Cronômetro, melhores tempos e estatísticas
+• Dicas quando você travar
+• Sem anúncios. Funciona offline. Sem cadastro.
+
+DESBLOQUEIE O ILIMITADO
+Um pagamento único: desafios difíceis e de especialista ilimitados, dicas ilimitadas, arquivo diário completo e todos os temas. Sem assinatura.
+```
+
+</details>
+
+<details><summary>Vietnamese – vi: bấm để mở</summary>
+
+**Vietnamese – vi**
+
+App name (25/30)
+```
+Sun & Moon: Giải Đố Logic
+```
+Short description (68/80)
+```
+Cân bằng mặt trời và mặt trăng ở mỗi hàng, cột. Không 3 ô liền nhau!
+```
+Full description
+```
+Cân bằng mặt trời và mặt trăng ở mỗi hàng, cột. Không 3 ô liền nhau!
+
+CÁCH CHƠI
+Điền mặt trời hoặc mặt trăng vào mọi ô. Mỗi hàng và cột có số mặt trời bằng số mặt trăng, và không bao giờ quá 2 ô giống nhau liền nhau. = nghĩa là hai ô giống nhau, × nghĩa là khác nhau. Chạm vào ô để đổi giữa mặt trời, mặt trăng và trống.
+
+TÍNH NĂNG
+• Câu đố không giới hạn ở 4 mức: Dễ, Vừa, Khó, Chuyên gia
+• Mỗi câu đố chỉ có đúng một lời giải – thuần logic, không phải đoán
+• Câu đố mới mỗi ngày, chuỗi ngày chơi và kho 60 ngày
+• Nhận 1–3 sao, mở 8 giao diện màu, sưu tầm 12 huy hiệu
+• Bấm giờ, kỷ lục và thống kê chi tiết
+• Gợi ý khi bí
+• Không quảng cáo. Chơi không cần mạng. Không cần tài khoản.
+
+MỞ KHOÁ KHÔNG GIỚI HẠN
+Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý không giới hạn, toàn bộ kho câu đố hằng ngày và mọi giao diện. Không thuê bao.
+```
+
+</details>
+
+### 📋 App content
+
+| Mục | Trả lời |
+|---|---|
+| Privacy policy | `https://tuanlt1989.github.io/assignment/privacy/sunmoon.html` |
+| App access | All functionality is available without special access |
+| Ads | **No, my app does not contain ads** |
+| Content rating | IARC → **Game** → Puzzle/Word; mọi mục bạo lực, cờ bạc, người lớn, tương tác người dùng: **No**; mua hàng kỹ thuật số: **Yes** |
+| Target audience | **13–15, 16–17, 18+** (không chọn dưới 13). Hấp dẫn trẻ em: **No** |
+| Data safety | **No** – app không thu thập hay chia sẻ dữ liệu (tiến độ chỉ lưu trên máy; thanh toán do Google Play xử lý) |
+| Advertising ID | **No** |
+| News / Government / Financial features / Health | No / No / None / None |
+| Store settings | Category **Puzzle** · Email tuanlt1989@gmail.com |
+
+### ⚖️ Lưu ý pháp lý
+
+- Không dùng chữ "Tango", "LinkedIn" trong tên, icon, mô tả, ảnh.
+- Cơ chế chơi không được bảo hộ bản quyền; tên, logo, hình ảnh thương hiệu thì có. Tên, icon và đồ hoạ của app là của riêng mình.
+- Không thêm tính năng cược hay giải thưởng tiền thật.
+
+### 🚀 Tăng lượt tải
+
+1. LinkedIn: đăng "unlimited sun & moon puzzles" cho người chơi Tango hằng ngày.
+2. Quảng cáo chéo với Meow Queens (cùng nhóm người chơi game LinkedIn).
+
+---
+
+## 16. Who Did It? Deduction Puzzle (whodunit)
+
+| | |
+|---|---|
+| Mã app | `com.tuanapps.whodunit` |
+| Loại | Game → **Puzzle** |
+| Thị trường | **Tất cả quốc gia** |
+| Ngôn ngữ store | `en-US`, `de-DE`, `es-419`, `id`, `ja-JP`, `pt-BR`, `vi` |
+| Privacy policy | https://tuanlt1989.github.io/assignment/privacy/whodunit.html |
+| Email hỗ trợ | tuanlt1989@gmail.com |
+| Quảng cáo | **Không** (AdMob tắt; không cần app-ads.txt) |
+| Mua trong app | `premium_lifetime` = mở khoá toàn bộ, trả 1 lần |
+
+**Vì sao làm:** Ăn theo *Clues by Sam* (game suy luận hằng ngày viral năm 2025, chỉ có trên web). Gần như chưa có bản Android tử tế.
+
+**Kiếm tiền:** miễn phí Dễ + Vừa không giới hạn; Khó 3 câu/ngày, Chuyên gia 1 câu/ngày, 3 gợi ý + 1/ngày. `premium_lifetime` mở mọi mức, gợi ý không giới hạn, kho 60 ngày, mọi giao diện.
+
+---
+
+### 📦 File tải lên
+
+- Tải **`whodunit.zip`** ở [Releases → play-upload](https://github.com/tuanlt1989/assignment/releases/tag/play-upload): trong đó có AAB + ảnh + chữ store + icon sản phẩm + hướng dẫn riêng (`UPLOAD.md`).
+- Hoặc [Actions → Android build](https://github.com/tuanlt1989/assignment/actions/workflows/android.yml) → lần chạy mới nhất ✅ → **Artifacts** → `whodunit-buildN` → `app-whodunit-release.aab`.
+- Từ lần 2: dùng [Publish to Google Play](https://github.com/tuanlt1989/assignment/actions/workflows/publish.yml) với `apps = whodunit` (xem Phần A, mục A5).
+
+**Release name:** `1.0.0` (versionCode do CI tự đặt, luôn tăng sau mỗi lần build)
+
+**Release notes**
+```
+<en-US>
+First release!
+• Unlimited puzzles in 4 levels: Easy to Expert
+• Daily puzzle with streaks
+• Stars, themes and trophies – no ads
+</en-US>
+```
+
+### 🛒 Sản phẩm mua trong app (làm sau khi đã upload AAB lên Internal testing)
+
+| Ô | Điền |
+|---|---|
+| **Product ID** | `premium_lifetime` |
+| **Name** | `Unlimited: all levels & hints` |
+| **Description** | `Unlimited Hard & Expert puzzles, unlimited hints, the daily archive and every theme. One-time purchase.` |
+| **Icon** | `games/store/whodunit/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `unlimited-puzzles` · `unlimited-hints` · `deduction-puzzle` |
+| **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
+| **Giá** | **US $2.99** → Update exchange rates → Availability: các nước ở trên |
+
+Các bước chi tiết: Phần A, mục A4.
+
+### 🖼 Hình ảnh
+
+`games/store/whodunit/metadata/android/en-US/images/icon.png` · `games/store/whodunit/metadata/android/en-US/images/featureGraphic.png` · `games/store/whodunit/metadata/android/en-US/images/phoneScreenshots/1.png`→`4.png`
+
+### ✍️ Nội dung trang store
+
+**English (United States) – en-US**
+
+App name (28/30)
+```
+Who Did It? Deduction Puzzle
+```
+Short description (79/80)
+```
+Every clue is true. Find the criminals by pure logic – no guessing! Daily case.
+```
+Full description
+```
+Every clue is true. Find the criminals by pure logic – no guessing! Daily case.
+
+HOW TO PLAY
+Everyone is either a criminal or innocent, and every clue is true. Tap a person and choose Innocent or Criminal. You can only decide when the clues prove it – guessing is not allowed. Each solved person reveals a new clue. Neighbours include diagonals.
+
+FEATURES
+• Unlimited puzzles in 4 levels: Easy, Medium, Hard and Expert
+• Every puzzle has exactly one solution – pure logic, no guessing
+• A new daily puzzle, streaks and a 60-day archive
+• Earn 1–3 stars, unlock 8 color themes, collect 12 trophies
+• Timer, best times and detailed stats
+• Hints when you're stuck
+• No ads. Works offline. No account needed.
+
+GO UNLIMITED
+One small one-time purchase: unlimited Hard & Expert puzzles, unlimited hints, the full daily archive and every theme. No subscription.
+```
+
+<details><summary>German – de-DE: bấm để mở</summary>
+
+**German – de-DE**
+
+App name (26/30)
+```
+Wer war's? Detektiv-Rätsel
+```
+Short description (76/80)
+```
+Jeder Hinweis ist wahr. Finde die Täter mit Logik – ohne Raten! Täglich neu.
+```
+Full description
+```
+Jeder Hinweis ist wahr. Finde die Täter mit Logik – ohne Raten! Täglich neu.
+
+SO WIRD GESPIELT
+Jede Person ist entweder kriminell oder unschuldig, und jeder Hinweis ist wahr. Tippe eine Person an und wähle Unschuldig oder Kriminell. Du darfst nur entscheiden, wenn die Hinweise es beweisen – Raten ist nicht erlaubt. Jede gelöste Person verrät einen neuen Hinweis. Nachbarn zählen diagonal mit.
+
+FUNKTIONEN
+• Unbegrenzt Rätsel in 4 Stufen: Leicht, Mittel, Schwer, Experte
+• Jedes Rätsel hat genau eine Lösung – reine Logik, kein Raten
+• Neues Tagesrätsel, Serien und ein 60-Tage-Archiv
+• 1–3 Sterne verdienen, 8 Farbdesigns und 12 Trophäen freischalten
+• Timer, Bestzeiten und Statistik
+• Tipps, wenn du feststeckst
+• Keine Werbung. Offline spielbar. Kein Konto nötig.
+
+UNBEGRENZT FREISCHALTEN
+Ein kleiner Einmalkauf: unbegrenzt schwere und Experten-Rätsel, unbegrenzt Tipps, das komplette Archiv und alle Designs. Kein Abo.
+```
+
+</details>
+
+<details><summary>Spanish (Latin America) – es-419: bấm để mở</summary>
+
+**Spanish (Latin America) – es-419**
+
+App name (28/30)
+```
+¿Quién Fue? Puzzle Deductivo
+```
+Short description (80/80)
+```
+Todas las pistas son ciertas. Descubre a los criminales con lógica. Caso diario.
+```
+Full description
+```
+Todas las pistas son ciertas. Descubre a los criminales con lógica. Caso diario.
+
+CÓMO JUGAR
+Cada persona es criminal o inocente, y todas las pistas son verdaderas. Toca a una persona y elige Inocente o Criminal. Solo puedes decidir cuando las pistas lo demuestran: no se permite adivinar. Cada persona resuelta revela una nueva pista. Los vecinos incluyen las diagonales.
+
+CARACTERÍSTICAS
+• Puzles ilimitados en 4 niveles: Fácil, Medio, Difícil y Experto
+• Cada puzle tiene una sola solución: lógica pura, sin adivinar
+• Puzle diario nuevo, rachas y archivo de 60 días
+• Gana de 1 a 3 estrellas, desbloquea 8 temas y 12 trofeos
+• Cronómetro, mejores tiempos y estadísticas
+• Pistas cuando te atascas
+• Sin anuncios. Funciona sin internet. Sin cuenta.
+
+PÁSATE A ILIMITADO
+Un único pago pequeño: puzles difíciles y expertos ilimitados, pistas ilimitadas, archivo diario completo y todos los temas. Sin suscripción.
+```
+
+</details>
+
+<details><summary>Indonesian – id: bấm để mở</summary>
+
+**Indonesian – id**
+
+App name (26/30)
+```
+Siapa Pelakunya? Teka-Teki
+```
+Short description (79/80)
+```
+Semua petunjuk benar. Temukan penjahat dengan logika, tanpa tebakan! Tiap hari.
+```
+Full description
+```
+Semua petunjuk benar. Temukan penjahat dengan logika, tanpa tebakan! Tiap hari.
+
+CARA BERMAIN
+Setiap orang adalah penjahat atau tidak bersalah, dan setiap petunjuk benar. Ketuk seseorang lalu pilih Tidak bersalah atau Penjahat. Kamu hanya bisa memutuskan jika petunjuk membuktikannya – tidak boleh menebak. Setiap orang yang terpecahkan membuka petunjuk baru. Tetangga termasuk diagonal.
+
+FITUR
+• Teka-teki tanpa batas di 4 level: Mudah, Sedang, Sulit, Ahli
+• Setiap teka-teki punya tepat satu solusi – murni logika
+• Teka-teki harian baru, beruntun, dan arsip 60 hari
+• Raih 1–3 bintang, buka 8 tema warna, kumpulkan 12 trofi
+• Timer, waktu terbaik, dan statistik
+• Petunjuk saat kamu buntu
+• Tanpa iklan. Bisa offline. Tanpa akun.
+
+BUKA TANPA BATAS
+Sekali bayar: teka-teki Sulit & Ahli tanpa batas, petunjuk tanpa batas, arsip harian lengkap, dan semua tema. Tanpa langganan.
+```
+
+</details>
+
+<details><summary>Japanese – ja-JP: bấm để mở</summary>
+
+**Japanese – ja-JP**
+
+App name (10/30)
+```
+犯人は誰？推理パズル
+```
+Short description (39/80)
+```
+ヒントはすべて真実。推理だけで犯人を見つけよう。当てずっぽう禁止！毎日の事件。
+```
+Full description
+```
+ヒントはすべて真実。推理だけで犯人を見つけよう。当てずっぽう禁止！毎日の事件。
+
+遊び方
+全員が犯人か無実のどちらかで、ヒントはすべて真実です。人物をタップして「無実」か「犯人」を選びましょう。ヒントで証明できるときだけ決められます（当てずっぽうは不可）。正解するとその人のヒントが新しく開きます。隣には斜めも含みます。
+
+特徴
+• かんたん・ふつう・むずかしい・エキスパートの4段階、パズルは無制限
+• どのパズルも答えはひとつ。運ではなく論理で解ける
+• 毎日の新作パズル、連続記録、60日分のアーカイブ
+• ★1〜3で評価、8つのカラーテーマと12個のトロフィー
+• タイマー、ベストタイム、詳しい記録
+• 行きづまったらヒント
+• 広告なし。オフラインOK。アカウント不要。
+
+無制限パック
+一度の購入で、むずかしい・エキスパートが無制限、ヒント無制限、過去のパズル全部、すべてのテーマが使えます。サブスクではありません。
+```
+
+</details>
+
+<details><summary>Portuguese (Brazil) – pt-BR: bấm để mở</summary>
+
+**Portuguese (Brazil) – pt-BR**
+
+App name (27/30)
+```
+Quem Foi? Enigma de Dedução
+```
+Short description (80/80)
+```
+Todas as pistas são verdadeiras. Descubra os criminosos com lógica. Caso diário.
+```
+Full description
+```
+Todas as pistas são verdadeiras. Descubra os criminosos com lógica. Caso diário.
+
+COMO JOGAR
+Cada pessoa é criminosa ou inocente, e todas as pistas são verdadeiras. Toque numa pessoa e escolha Inocente ou Criminoso. Você só pode decidir quando as pistas provam – não vale chutar. Cada pessoa resolvida revela uma nova pista. Vizinhos incluem as diagonais.
+
+RECURSOS
+• Desafios ilimitados em 4 níveis: Fácil, Médio, Difícil e Especialista
+• Cada desafio tem uma única solução – lógica pura, sem chute
+• Desafio diário novo, sequências e arquivo de 60 dias
+• Ganhe de 1 a 3 estrelas, desbloqueie 8 temas e 12 troféus
+• Cronômetro, melhores tempos e estatísticas
+• Dicas quando você travar
+• Sem anúncios. Funciona offline. Sem cadastro.
+
+DESBLOQUEIE O ILIMITADO
+Um pagamento único: desafios difíceis e de especialista ilimitados, dicas ilimitadas, arquivo diário completo e todos os temas. Sem assinatura.
+```
+
+</details>
+
+<details><summary>Vietnamese – vi: bấm để mở</summary>
+
+**Vietnamese – vi**
+
+App name (24/30)
+```
+Ai Là Thủ Phạm? Suy Luận
+```
+Short description (78/80)
+```
+Mọi gợi ý đều đúng. Tìm tội phạm bằng suy luận, không đoán mò! Vụ án mỗi ngày.
+```
+Full description
+```
+Mọi gợi ý đều đúng. Tìm tội phạm bằng suy luận, không đoán mò! Vụ án mỗi ngày.
+
+CÁCH CHƠI
+Mỗi người hoặc là tội phạm hoặc vô tội, và mọi gợi ý đều đúng. Chạm vào một người rồi chọn Vô tội hoặc Tội phạm. Bạn chỉ được kết luận khi gợi ý chứng minh được – không được đoán mò. Mỗi người được giải sẽ mở thêm một gợi ý mới. Hàng xóm tính cả ô chéo.
+
+TÍNH NĂNG
+• Câu đố không giới hạn ở 4 mức: Dễ, Vừa, Khó, Chuyên gia
+• Mỗi câu đố chỉ có đúng một lời giải – thuần logic, không phải đoán
+• Câu đố mới mỗi ngày, chuỗi ngày chơi và kho 60 ngày
+• Nhận 1–3 sao, mở 8 giao diện màu, sưu tầm 12 huy hiệu
+• Bấm giờ, kỷ lục và thống kê chi tiết
+• Gợi ý khi bí
+• Không quảng cáo. Chơi không cần mạng. Không cần tài khoản.
+
+MỞ KHOÁ KHÔNG GIỚI HẠN
+Trả một lần: câu Khó và Chuyên gia không giới hạn, gợi ý không giới hạn, toàn bộ kho câu đố hằng ngày và mọi giao diện. Không thuê bao.
+```
+
+</details>
+
+### 📋 App content
+
+| Mục | Trả lời |
+|---|---|
+| Privacy policy | `https://tuanlt1989.github.io/assignment/privacy/whodunit.html` |
+| App access | All functionality is available without special access |
+| Ads | **No, my app does not contain ads** |
+| Content rating | IARC → **Game** → Puzzle/Word; mọi mục bạo lực, cờ bạc, người lớn, tương tác người dùng: **No**; mua hàng kỹ thuật số: **Yes** |
+| Target audience | **13–15, 16–17, 18+** (không chọn dưới 13). Hấp dẫn trẻ em: **No** |
+| Data safety | **No** – app không thu thập hay chia sẻ dữ liệu (tiến độ chỉ lưu trên máy; thanh toán do Google Play xử lý) |
+| Advertising ID | **No** |
+| News / Government / Financial features / Health | No / No / None / None |
+| Store settings | Category **Puzzle** · Email tuanlt1989@gmail.com |
+
+### ⚖️ Lưu ý pháp lý
+
+- Không dùng chữ "Clues by Sam" trong tên, icon, mô tả, ảnh.
+- Cơ chế chơi không được bảo hộ bản quyền; tên, logo, hình ảnh thương hiệu thì có. Tên, icon và đồ hoạ của app là của riêng mình.
+- Không thêm tính năng cược hay giải thưởng tiền thật.
+
+### 🚀 Tăng lượt tải
+
+1. Reddit r/CluesBySam, r/puzzles, r/WebGames: "unlimited cases".
+2. Video ngắn "Bạn tìm ra hết tội phạm không?" trên Shorts/Reels/TikTok.
+
+---
+
+## 17. Word Weave: Hidden Words (wordweave)
 
 | | |
 |---|---|

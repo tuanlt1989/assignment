@@ -1,0 +1,16 @@
+Seimbangkan matahari & bulan di tiap baris dan kolom. Tak boleh 3 berjajar!
+
+CARA BERMAIN
+Isi setiap kotak dengan matahari atau bulan. Setiap baris dan kolom memiliki jumlah matahari dan bulan yang sama, dan tidak boleh lebih dari dua simbol sama berdampingan. = berarti kedua kotak sama, × berarti berbeda. Ketuk kotak untuk mengganti matahari, bulan, dan kosong.
+
+FITUR
+• Teka-teki tanpa batas di 4 level: Mudah, Sedang, Sulit, Ahli
+• Setiap teka-teki punya tepat satu solusi – murni logika
+• Teka-teki harian baru, beruntun, dan arsip 60 hari
+• Raih 1–3 bintang, buka 8 tema warna, kumpulkan 12 trofi
+• Timer, waktu terbaik, dan statistik
+• Petunjuk saat kamu buntu
+• Tanpa iklan. Bisa offline. Tanpa akun.
+
+BUKA TANPA BATAS
+Sekali bayar: teka-teki Sulit & Ahli tanpa batas, petunjuk tanpa batas, arsip harian lengkap, dan semua tema. Tanpa langganan.

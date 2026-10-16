@@ -686,5 +686,37 @@ class T {
       'ja':
           'グリッドには、すべての文字をちょうど1回ずつ使う単語が隠れています。上下左右に隣り合う文字をなぞって空欄に合う単語を作り、すべて見つければクリアです。',
     },
+    'tango': {
+      'en':
+          'Fill every cell with a sun or a moon. Each row and column has as many suns as moons, and never more than two of the same next to each other. = means both cells are the same, × means they are different. Tap a cell to switch between sun, moon and empty.',
+      'es':
+          'Llena cada casilla con un sol o una luna. Cada fila y columna tiene tantos soles como lunas, y nunca más de dos iguales seguidos. = significa que ambas casillas son iguales y × que son distintas. Toca una casilla para cambiar entre sol, luna y vacío.',
+      'pt':
+          'Preencha cada casa com um sol ou uma lua. Cada linha e coluna tem tantos sóis quanto luas, e nunca mais de dois iguais lado a lado. = significa que as duas casas são iguais e × que são diferentes. Toque numa casa para alternar entre sol, lua e vazio.',
+      'vi':
+          'Điền mặt trời hoặc mặt trăng vào mọi ô. Mỗi hàng và cột có số mặt trời bằng số mặt trăng, và không bao giờ quá 2 ô giống nhau liền nhau. = nghĩa là hai ô giống nhau, × nghĩa là khác nhau. Chạm vào ô để đổi giữa mặt trời, mặt trăng và trống.',
+      'id':
+          'Isi setiap kotak dengan matahari atau bulan. Setiap baris dan kolom memiliki jumlah matahari dan bulan yang sama, dan tidak boleh lebih dari dua simbol sama berdampingan. = berarti kedua kotak sama, × berarti berbeda. Ketuk kotak untuk mengganti matahari, bulan, dan kosong.',
+      'de':
+          'Fülle jedes Feld mit einer Sonne oder einem Mond. Jede Zeile und Spalte hat gleich viele Sonnen wie Monde, und nie mehr als zwei gleiche nebeneinander. = heißt, beide Felder sind gleich, × heißt, sie sind verschieden. Tippe ein Feld an, um zwischen Sonne, Mond und leer zu wechseln.',
+      'ja':
+          'すべてのマスに太陽か月を入れましょう。各行・各列の太陽と月は同じ数で、同じ記号が3つ以上並んではいけません。＝は2マスが同じ、×は違うという意味です。マスをタップすると太陽・月・空白が切り替わります。',
+    },
+    'culprit': {
+      'en':
+          'Everyone is either a criminal or innocent, and every clue is true. Tap a person and choose Innocent or Criminal. You can only decide when the clues prove it – guessing is not allowed. Each solved person reveals a new clue. Neighbours include diagonals.',
+      'es':
+          'Cada persona es criminal o inocente, y todas las pistas son verdaderas. Toca a una persona y elige Inocente o Criminal. Solo puedes decidir cuando las pistas lo demuestran: no se permite adivinar. Cada persona resuelta revela una nueva pista. Los vecinos incluyen las diagonales.',
+      'pt':
+          'Cada pessoa é criminosa ou inocente, e todas as pistas são verdadeiras. Toque numa pessoa e escolha Inocente ou Criminoso. Você só pode decidir quando as pistas provam – não vale chutar. Cada pessoa resolvida revela uma nova pista. Vizinhos incluem as diagonais.',
+      'vi':
+          'Mỗi người hoặc là tội phạm hoặc vô tội, và mọi gợi ý đều đúng. Chạm vào một người rồi chọn Vô tội hoặc Tội phạm. Bạn chỉ được kết luận khi gợi ý chứng minh được – không được đoán mò. Mỗi người được giải sẽ mở thêm một gợi ý mới. Hàng xóm tính cả ô chéo.',
+      'id':
+          'Setiap orang adalah penjahat atau tidak bersalah, dan setiap petunjuk benar. Ketuk seseorang lalu pilih Tidak bersalah atau Penjahat. Kamu hanya bisa memutuskan jika petunjuk membuktikannya – tidak boleh menebak. Setiap orang yang terpecahkan membuka petunjuk baru. Tetangga termasuk diagonal.',
+      'de':
+          'Jede Person ist entweder kriminell oder unschuldig, und jeder Hinweis ist wahr. Tippe eine Person an und wähle Unschuldig oder Kriminell. Du darfst nur entscheiden, wenn die Hinweise es beweisen – Raten ist nicht erlaubt. Jede gelöste Person verrät einen neuen Hinweis. Nachbarn zählen diagonal mit.',
+      'ja':
+          '全員が犯人か無実のどちらかで、ヒントはすべて真実です。人物をタップして「無実」か「犯人」を選びましょう。ヒントで証明できるときだけ決められます（当てずっぽうは不可）。正解するとその人のヒントが新しく開きます。隣には斜めも含みます。',
+    },
   };
 }

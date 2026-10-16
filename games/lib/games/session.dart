@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
+import 'culprit.dart';
 import 'patches.dart';
 import 'putt.dart';
 import 'pips.dart';
 import 'weave.dart';
 import 'queens.dart';
+import 'tango.dart';
 
 /// What the shell gives a game: difficulty, puzzle number, a seed, callbacks.
 ///
@@ -61,6 +63,8 @@ Widget buildGame(String game, GameSession session, {String lang = 'en'}) =>
       'pips' => PipsGame(session: session),
       'putt' => PuttGame(session: session),
       'patches' => PatchGame(session: session),
+      'tango' => TangoGame(session: session),
+      'culprit' => CulpritGame(session: session, lang: lang),
       _ => throw ArgumentError('Unknown game $game'),
     };
 

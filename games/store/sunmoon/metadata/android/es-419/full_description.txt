@@ -1,0 +1,16 @@
+Equilibra soles y lunas en cada fila y columna. ¡Nunca 3 seguidos! Reto diario.
+
+CÓMO JUGAR
+Llena cada casilla con un sol o una luna. Cada fila y columna tiene tantos soles como lunas, y nunca más de dos iguales seguidos. = significa que ambas casillas son iguales y × que son distintas. Toca una casilla para cambiar entre sol, luna y vacío.
+
+CARACTERÍSTICAS
+• Puzles ilimitados en 4 niveles: Fácil, Medio, Difícil y Experto
+• Cada puzle tiene una sola solución: lógica pura, sin adivinar
+• Puzle diario nuevo, rachas y archivo de 60 días
+• Gana de 1 a 3 estrellas, desbloquea 8 temas y 12 trofeos
+• Cronómetro, mejores tiempos y estadísticas
+• Pistas cuando te atascas
+• Sin anuncios. Funciona sin internet. Sin cuenta.
+
+PÁSATE A ILIMITADO
+Un único pago pequeño: puzles difíciles y expertos ilimitados, pistas ilimitadas, archivo diario completo y todos los temas. Sin suscripción.

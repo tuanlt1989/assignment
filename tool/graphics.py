@@ -5,6 +5,7 @@ legacy launcher icon, the 512x512 Play icon and the 1024x500 feature graphic.
 """
 from __future__ import annotations
 
+import math
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -89,6 +90,28 @@ def _glyph(d: ImageDraw.ImageDraw, kind: str, cx: float, cy: float, s: float, fg
         w = s * 0.28
         d.rectangle([cx - w, cy - s * 0.2, cx + w, cy + s * 1.0], fill=fg)
         d.polygon([(cx, cy - s * 1.0), (cx + s * 0.85, cy - s * 0.1), (cx - s * 0.85, cy - s * 0.1)], fill=fg)
+    elif kind == "sunmoon":
+        # Sun (with rays) on the upper left, crescent moon on the lower right.
+        sx, sy, r = cx - s * 0.38, cy - s * 0.38, s * 0.42
+        for k in range(8):
+            a = math.pi * k / 4
+            d.line([(sx + math.cos(a) * r * 1.3, sy + math.sin(a) * r * 1.3),
+                    (sx + math.cos(a) * r * 1.75, sy + math.sin(a) * r * 1.75)], fill=fg, width=max(2, int(s * 0.1)))
+        d.ellipse([sx - r, sy - r, sx + r, sy + r], fill=fg)
+        mx, my, mr = cx + s * 0.42, cy + s * 0.42, s * 0.55
+        d.ellipse([mx - mr, my - mr, mx + mr, my + mr], fill=fg)
+        d.ellipse([mx - mr * 0.35, my - mr * 1.05, mx + mr * 1.25, my + mr * 0.55], fill=accent)
+    elif kind == "magnifier":
+        # Magnifying glass with a question mark in the lens.
+        r = s * 0.62
+        lx, ly = cx - s * 0.2, cy - s * 0.2
+        w = max(3, int(s * 0.2))
+        a = math.pi / 4
+        d.line([(lx + math.cos(a) * r * 0.95, ly + math.sin(a) * r * 0.95),
+                (cx + s * 0.95, cy + s * 0.95)], fill=fg, width=int(s * 0.32))
+        d.ellipse([lx - r, ly - r, lx + r, ly + r], outline=fg, width=w)
+        f = font(int(s * 0.9))
+        d.text((lx, ly + s * 0.02), "?", font=f, fill=fg, anchor="mm")
     elif kind == "cat":
         # Cat head with ears and eyes.
         d.ellipse([cx - s * 0.9, cy - s * 0.6, cx + s * 0.9, cy + s * 0.95], fill=fg)

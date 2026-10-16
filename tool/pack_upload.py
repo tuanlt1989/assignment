@@ -65,7 +65,7 @@ def main() -> None:
 
     common = store_guide.common_part(apps)
     (out / "README.md").write_text(
-        "# Play upload: 15 app\n\n"
+        f"# Play upload: {len(apps)} app\n\n"
         "Mỗi thư mục con là 1 app: mở `UPLOAD.md` trong đó và làm theo từ trên xuống. "
         "File AAB, ảnh, chữ store và icon sản phẩm đều nằm sẵn trong thư mục của app.\n\n"
         "| # | Thư mục | Mã app | AAB |\n|---|---|---|---|\n" + "\n".join(index) + "\n\n" + common

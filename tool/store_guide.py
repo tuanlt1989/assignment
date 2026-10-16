@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Writes docs/STORE-GUIDE.md: one upload sheet per app (15 apps) + every
+"""Writes docs/STORE-GUIDE.md: one upload sheet per app + every
 other doc as an appendix, so a single file has everything for Play Console.
 
     python3 tool/store_guide.py
@@ -117,6 +117,18 @@ META = {
         legal="Không dùng chữ \"Meowdoku\", \"Queens\" (LinkedIn) làm thương hiệu; \"Meow Queens\" là tên riêng.",
         grow=["Nhật: X (Twitter) tiếng Nhật với hashtag ネコパズル, 脳トレ.",
               "Người chơi Meowdoku chán quảng cáo → nhấn mạnh \"広告なし\" (không quảng cáo)."]),
+    "sunmoon": dict(
+        markets=["ALL"], prices="**US $2.99** → Update exchange rates",
+        why="Ăn theo *Tango* của LinkedIn (game hằng ngày, mỗi ngày chỉ 1 màn). Takuzu có nhiều app nhưng gần như không app nào có luật dấu =/× như Tango.",
+        legal="Không dùng chữ \"Tango\", \"LinkedIn\" trong tên, icon, mô tả, ảnh.",
+        grow=["LinkedIn: đăng \"unlimited sun & moon puzzles\" cho người chơi Tango hằng ngày.",
+              "Quảng cáo chéo với Meow Queens (cùng nhóm người chơi game LinkedIn)."]),
+    "whodunit": dict(
+        markets=["ALL"], prices="**US $2.99** → Update exchange rates",
+        why="Ăn theo *Clues by Sam* (game suy luận hằng ngày viral năm 2025, chỉ có trên web). Gần như chưa có bản Android tử tế.",
+        legal="Không dùng chữ \"Clues by Sam\" trong tên, icon, mô tả, ảnh.",
+        grow=["Reddit r/CluesBySam, r/puzzles, r/WebGames: \"unlimited cases\".",
+              "Video ngắn \"Bạn tìm ra hết tội phạm không?\" trên Shorts/Reels/TikTok."]),
 }
 
 GAME_CATEGORY = {"weave": "Game → **Word**"}
@@ -294,17 +306,19 @@ def common_part(apps: list[tuple[dict, Path]]) -> str:
     rows = "\n".join(
         f"| {i + 1} | `{c['id']}` | {c['title'].get('en') or next(iter(c['title'].values()))} | `{c['applicationId']}` |"
         for i, (c, _) in enumerate(apps))
-    return f"""## Phần A — Làm chung cho cả 15 app
+    n = len(apps)
+    g = sum(1 for _, r in apps if r != REPO)
+    return f"""## Phần A — Làm chung cho cả {n} app
 
 ### A0. Tình trạng
 
 | Việc | Trạng thái |
 |---|---|
-| Code 15 app, câu hỏi 250 câu/app, 5 game | ✅ |
+| Code {n} app ({n - g} app luyện thi × 250 câu, {g} game) | ✅ |
 | Icon, feature graphic, ảnh màn hình, nội dung store mọi ngôn ngữ | ✅ trong `store/` và `games/store/` |
 | Email hỗ trợ `tuanlt1989@gmail.com`, tên nhà phát triển `Tuan Apps` | ✅ (đổi trong `apps/*.json` nếu muốn khác, rồi chạy `python3 tool/factory.py`) |
 | 4 secrets khoá ký trên GitHub | ✅ bạn đã thêm |
-| AAB đã ký cho 15 app | ✅ tự build mỗi lần push: [Actions → Android build]({ACTIONS}) |
+| AAB đã ký cho {n} app | ✅ tự build mỗi lần push: [Actions → Android build]({ACTIONS}) |
 | **Gói upload từng app** (AAB + ảnh + chữ store + icon sản phẩm + `UPLOAD.md`) | ✅ [Releases → play-upload]({RELEASE}): tải `<id>.zip` |
 | Trang chính sách bảo mật (GitHub Pages) | ⬜ bật 1 lần ở mục A2 |
 | `PLAY_SERVICE_ACCOUNT_JSON` (upload tự động) | ⬜ không bắt buộc, mục A5 |
@@ -317,7 +331,7 @@ def common_part(apps: list[tuple[dict, Path]]) -> str:
 
 ### A2. Bật trang chính sách bảo mật (1 lần)
 1. <{GH}/settings/pages> → **Source**: *Deploy from a branch* → **Branch** `exam-prep-apps`, thư mục **`/docs`** → **Save**.
-2. Sau 1–3 phút mở thử <https://tuanlt1989.github.io/assignment/privacy/nailvi.html>. Cả 15 trang có dạng `…/privacy/<id>.html`.
+2. Sau 1–3 phút mở thử <https://tuanlt1989.github.io/assignment/privacy/nailvi.html>. Cả {n} trang có dạng `…/privacy/<id>.html`.
 
 ### A3. Thứ tự đưa 1 app lên
 1. **Create app** → tên (mục "App name" của app) → **English (United States) – en-US** → App/Game theo bảng → **Free** → Create.
@@ -325,10 +339,10 @@ def common_part(apps: list[tuple[dict, Path]]) -> str:
 3. **Store settings** + **Main store listing**: dán chữ ✍️, upload ảnh 🖼. **Manage translations → Add your own translations**: thêm các ngôn ngữ còn lại.
 4. **Testing → Internal testing → Create new release**: để mặc định Play App Signing, upload `app-<id>-release.aab`, release notes → **Save and publish**. Thêm Gmail của bạn vào Testers.
 5. Tạo sản phẩm 🛒 (mục A4) → **Setup → License testing** thêm Gmail → cài từ link tester → mua thử.
-6. **Closed testing** ≥12 tester × 14 ngày (tài khoản cá nhân); dùng chung 1 Google Group cho cả 15 app → **Apply for production**.
+6. **Closed testing** ≥12 tester × 14 ngày (tài khoản cá nhân); dùng chung 1 Google Group cho cả {n} app → **Apply for production**.
 7. **Production** → chọn quốc gia theo bảng → **Create new release** → *Add from library* → rollout 20% → 100%.
 
-> Mẹo: làm bước 1–5 cho cả 15 app trong cùng 1–2 ngày, để 15 app chạy closed test song song.
+> Mẹo: làm bước 1–5 cho cả {n} app trong cùng 1–2 ngày, để {n} app chạy closed test song song.
 
 ### A4. Tạo one-time product `premium_lifetime` (từng bước, giống nhau cho mọi app)
 **Bước 0: điều kiện:** đã upload ít nhất 1 file `.aab` (Internal testing là đủ); Payments profile không bị hold.
@@ -383,7 +397,7 @@ def main() -> None:
         f"{i + 1}. [{heading(i + 1, c, r).split('. ', 1)[1]}](#{gh_slug(heading(i + 1, c, r))})"
         for i, (c, r) in enumerate(apps))
     body = [
-        "# Hướng dẫn đưa 15 app lên Google Play (tổng hợp)",
+        f"# Hướng dẫn đưa {len(apps)} app lên Google Play (tổng hợp)",
         "",
         "> File được tạo tự động bởi `python3 tool/store_guide.py` từ `apps/*.json`, `store/` và `docs/`. "
         "Sửa nguồn rồi chạy lại lệnh, đừng sửa tay file này.",

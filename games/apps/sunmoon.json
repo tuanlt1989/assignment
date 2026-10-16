@@ -1,0 +1,48 @@
+{
+  "id": "sunmoon",
+  "applicationId": "com.tuanapps.sunmoon",
+  "launcherName": "Sun & Moon",
+  "game": "tango",
+  "title": {
+    "en": "Sun & Moon: Logic Puzzle",
+    "es": "Sol y Luna: Puzzle de Lógica",
+    "pt": "Sol e Lua: Quebra-Cabeça",
+    "vi": "Sun & Moon: Giải Đố Logic",
+    "id": "Sun & Moon: Teka-Teki Logika",
+    "de": "Sonne & Mond: Logikrätsel",
+    "ja": "太陽と月: ロジックパズル"
+  },
+  "color": "#F57C00",
+  "icon": {
+    "label": "",
+    "badge": "",
+    "glyph": "sunmoon"
+  },
+  "suggestedPriceUsd": 2.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/sunmoon.html",
+  "supportEmail": "tuanlt1989@gmail.com",
+  "developerName": "Tuan Apps",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children.",
+  "tagline": {
+    "en": "Balance suns & moons · Daily puzzle · No ads"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Balance suns and moons in every row and column",
+      "Never three of a kind in a row",
+      "Follow the = and × signs",
+      "Daily puzzle, streaks & trophies"
+    ]
+  },
+  "markets": [
+    "ALL"
+  ],
+  "productTags": [
+    "premium",
+    "unlimited-puzzles",
+    "unlimited-hints",
+    "logic-puzzle"
+  ]
+}

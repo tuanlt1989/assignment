@@ -468,6 +468,8 @@ class GameBadge extends StatelessWidget {
       'patches' => Icons.dashboard_outlined,
       'weave' => Icons.gesture,
       'putt' => Icons.golf_course,
+      'tango' => Icons.brightness_6,
+      'culprit' => Icons.search,
       _ => Icons.extension,
     };
     return Container(

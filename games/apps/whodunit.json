@@ -1,0 +1,48 @@
+{
+  "id": "whodunit",
+  "applicationId": "com.tuanapps.whodunit",
+  "launcherName": "Who Did It?",
+  "game": "culprit",
+  "title": {
+    "en": "Who Did It? Deduction Puzzle",
+    "es": "¿Quién Fue? Puzzle Deductivo",
+    "pt": "Quem Foi? Enigma de Dedução",
+    "vi": "Ai Là Thủ Phạm? Suy Luận",
+    "id": "Siapa Pelakunya? Teka-Teki",
+    "de": "Wer war's? Detektiv-Rätsel",
+    "ja": "犯人は誰？推理パズル"
+  },
+  "color": "#C62828",
+  "icon": {
+    "label": "",
+    "badge": "",
+    "glyph": "magnifier"
+  },
+  "suggestedPriceUsd": 2.99,
+  "premiumProductId": "premium_lifetime",
+  "ads": false,
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/whodunit.html",
+  "supportEmail": "tuanlt1989@gmail.com",
+  "developerName": "Tuan Apps",
+  "childrenNote": "The game is a general-audience puzzle game. It collects no personal data from anyone, including children.",
+  "tagline": {
+    "en": "Find every criminal with pure logic · Daily case · No ads"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Every clue is true – find the criminals",
+      "Pure logic: no guessing allowed",
+      "4 levels from Easy to Expert",
+      "A new daily case, streaks & trophies"
+    ]
+  },
+  "markets": [
+    "ALL"
+  ],
+  "productTags": [
+    "premium",
+    "unlimited-puzzles",
+    "unlimited-hints",
+    "deduction-puzzle"
+  ]
+}

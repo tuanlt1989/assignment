@@ -75,6 +75,16 @@ android {
             applicationId = "com.tuanapps.puttpuzzle"
             manifestPlaceholders["admobAppId"] = "ca-app-pub-3940256099942544~3347511713"
         }
+        create("sunmoon") {
+            dimension = "app"
+            applicationId = "com.tuanapps.sunmoon"
+            manifestPlaceholders["admobAppId"] = "ca-app-pub-3940256099942544~3347511713"
+        }
+        create("whodunit") {
+            dimension = "app"
+            applicationId = "com.tuanapps.whodunit"
+            manifestPlaceholders["admobAppId"] = "ca-app-pub-3940256099942544~3347511713"
+        }
         create("wordweave") {
             dimension = "app"
             applicationId = "com.tuanapps.wordweave"
