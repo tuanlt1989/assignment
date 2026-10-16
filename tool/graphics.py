@@ -262,3 +262,63 @@ def feature_graphic(app: dict, title: str, tagline: str) -> Image.Image:
         d.text((x, y), ln, font=ft, fill=(255, 255, 255, 235))
         y += 40
     return img.convert("RGB")
+
+
+GOLD = (255, 200, 61)
+
+
+def _sparkle(d: ImageDraw.ImageDraw, cx: float, cy: float, r: float, fill) -> None:
+    """Four-pointed star."""
+    w = r * 0.28
+    d.polygon([(cx, cy - r), (cx + w, cy - w), (cx + r, cy), (cx + w, cy + w),
+               (cx, cy + r), (cx - w, cy + w), (cx - r, cy), (cx - w, cy - w)], fill=fill)
+
+
+def product_icon(app: dict, kind: str = "unlock", size: int = 512) -> Image.Image:
+    """512x512 in-app product icon: no text, no logo (Play's rules).
+
+    kind "unlock" = open padlock (exam apps), "infinity" = unlimited (games).
+    Drawn at 2x and scaled down for smooth curves.
+    """
+    return _product_icon(app, kind, size * 2).resize((size, size), Image.LANCZOS)
+
+
+def _product_icon(app: dict, kind: str, size: int) -> Image.Image:
+    import math
+
+    base = hex_rgb(app["color"])
+    img = gradient((size, size), shade(base, 1.1), shade(base, 0.55)).convert("RGBA")
+    d = ImageDraw.Draw(img)
+    s = size
+    c = s / 2
+    # Soft glow behind the symbol.
+    glow = Image.new("RGBA", (s, s), (0, 0, 0, 0))
+    ImageDraw.Draw(glow).ellipse([c - s * 0.34, c - s * 0.34, c + s * 0.34, c + s * 0.34], fill=(255, 255, 255, 60))
+    img.alpha_composite(glow.filter(ImageFilter.GaussianBlur(s * 0.06)))
+    d = ImageDraw.Draw(img)
+    white = (255, 255, 255, 255)
+    if kind == "infinity":
+        pts = []
+        for i in range(1441):
+            t = math.radians(i / 4)
+            den = 1 + math.sin(t) ** 2
+            pts.append((c + s * 0.3 * math.cos(t) / den, c + s * 0.3 * math.sin(t) * math.cos(t) / den))
+        for w, col in ((s * 0.075, white), (s * 0.03, GOLD + (255,))):
+            r = w / 2
+            for x, y in pts[::2]:
+                d.ellipse([x - r, y - r, x + r, y + r], fill=col)
+    else:
+        # Open padlock: body + shackle lifted to the left.
+        bw, bh = s * 0.38, s * 0.3
+        bx0, by0 = c - bw / 2, c - s * 0.02
+        lw = int(s * 0.06)
+        sx0, sx1 = c - bw * 0.62, c + bw * 0.02
+        d.arc([sx0, by0 - s * 0.3, sx1, by0 + s * 0.04], 180, 360, fill=white, width=lw)
+        d.line([(sx0 + lw / 2, by0 - s * 0.13), (sx0 + lw / 2, by0 + s * 0.02)], fill=white, width=lw)
+        d.rounded_rectangle([bx0, by0, bx0 + bw, by0 + bh], radius=s * 0.05, fill=white)
+        kx, ky = c, by0 + bh * 0.45
+        d.ellipse([kx - s * 0.035, ky - s * 0.035, kx + s * 0.035, ky + s * 0.035], fill=shade(base, 0.7))
+        d.rectangle([kx - s * 0.013, ky, kx + s * 0.013, ky + s * 0.08], fill=shade(base, 0.7))
+    for (x, y, r) in [(0.78, 0.22, 0.07), (0.2, 0.74, 0.05), (0.82, 0.7, 0.04)]:
+        _sparkle(d, s * x, s * y, s * r, GOLD + (255,))
+    return img

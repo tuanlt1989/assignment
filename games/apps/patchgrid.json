@@ -38,5 +38,11 @@
   },
   "markets": [
     "ALL"
+  ],
+  "productTags": [
+    "premium",
+    "unlimited-puzzles",
+    "unlimited-hints",
+    "logic-puzzle"
   ]
 }

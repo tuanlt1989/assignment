@@ -210,6 +210,8 @@ def app_section(n: int, cfg: dict, root: Path) -> str:
         f"| **Product ID** | `{cfg['premiumProductId']}` |",
         f"| **Name** | `{'Unlimited: all levels & hints' if game else 'Unlock all questions'}` |",
         f"| **Description** | `{('Unlimited Hard & Expert puzzles, unlimited hints, the daily archive and every theme. One-time purchase.' if game else 'All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.')}` |",
+        f"| **Icon** | `{rel(root / 'store' / aid / 'product_icons' / (cfg['premiumProductId'] + '.png'))}` (512×512, không chữ) |",
+        f"| **Tags** | {' · '.join(f'`{t}`' for t in cfg.get('productTags', []))} |",
         "| **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |",
         f"| **Giá** | {price} → Availability: các nước ở trên |",
         "",
@@ -318,6 +320,8 @@ def common_part(apps: list[tuple[dict, Path]]) -> str:
 **Bước 1:** Play Console → chọn app → **Monetize with Play → Products → One-time products** → **Create one-time product**.
 
 **Bước 2:** điền Product ID, Name, Description theo bảng 🛒 của app. Ngôn ngữ mặc định **en-US** → **Save**.
+
+**Bước 2b: Icon và Tags:** trong sản phẩm vừa tạo → **Icon → Upload** file icon trong bảng 🛒 của app (PNG 32-bit 512×512, không chữ, không logo, đúng yêu cầu của Google). **Tags**: gõ từng tag trong bảng rồi bấm Enter. Tag giúp Google gợi ý sản phẩm đúng người; không bắt buộc nhưng nên có.
 
 **Bước 3:** **Add purchase option** → ID `buy` · Type **Buy** (giữ *Backwards compatible*).
 

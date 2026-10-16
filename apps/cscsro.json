@@ -58,5 +58,11 @@
   },
   "markets": [
     "GB"
+  ],
+  "productTags": [
+    "premium",
+    "all-questions",
+    "construction-safety",
+    "romanian"
   ]
 }

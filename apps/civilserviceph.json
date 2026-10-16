@@ -48,5 +48,11 @@
   },
   "markets": [
     "PH"
+  ],
+  "productTags": [
+    "premium",
+    "all-questions",
+    "civil-service",
+    "reviewer"
   ]
 }

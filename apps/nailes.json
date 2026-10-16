@@ -54,5 +54,11 @@
   "ads": false,
   "examBodies": {
     "en": "any state board, PSI, Pearson VUE, Prometric, NIC or other exam provider"
-  }
+  },
+  "productTags": [
+    "premium",
+    "all-questions",
+    "nail-exam",
+    "spanish"
+  ]
 }

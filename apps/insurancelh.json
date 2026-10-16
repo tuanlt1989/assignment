@@ -45,5 +45,11 @@
   "ads": false,
   "examBodies": {
     "en": "any state department of insurance, Pearson VUE, PSI, Prometric or other exam provider"
-  }
+  },
+  "productTags": [
+    "premium",
+    "all-questions",
+    "insurance-exam",
+    "mock-tests"
+  ]
 }

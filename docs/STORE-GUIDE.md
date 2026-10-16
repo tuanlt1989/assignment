@@ -77,6 +77,8 @@ Phần B:
 
 **Bước 2:** điền Product ID, Name, Description theo bảng 🛒 của app. Ngôn ngữ mặc định **en-US** → **Save**.
 
+**Bước 2b: Icon và Tags:** trong sản phẩm vừa tạo → **Icon → Upload** file icon trong bảng 🛒 của app (PNG 32-bit 512×512, không chữ, không logo, đúng yêu cầu của Google). **Tags**: gõ từng tag trong bảng rồi bấm Enter. Tag giúp Google gợi ý sản phẩm đúng người; không bắt buộc nhưng nên có.
+
 **Bước 3:** **Add purchase option** → ID `buy` · Type **Buy** (giữ *Backwards compatible*).
 
 **Bước 4:** giá theo bảng của app → **Update exchange rates** → sửa tay các nước được ghi → Availability.
@@ -148,6 +150,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlock all questions` |
 | **Description** | `All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.` |
+| **Icon** | `store/civilserviceph/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `all-questions` · `civil-service` · `reviewer` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **₱249** (Philippines) → Update exchange rates → Availability: các nước ở trên |
 
@@ -264,6 +268,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlock all questions` |
 | **Description** | `All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.` |
+| **Icon** | `store/cosmoes/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `all-questions` · `cosmetology` · `spanish` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $12.99** → Update exchange rates → Availability: các nước ở trên |
 
@@ -418,6 +424,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlock all questions` |
 | **Description** | `All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.` |
+| **Icon** | `store/cosmovi/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `all-questions` · `cosmetology` · `vietnamese` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $14.99** → Update exchange rates → Availability: các nước ở trên |
 
@@ -573,6 +581,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlock all questions` |
 | **Description** | `All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.` |
+| **Icon** | `store/cscspl/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `all-questions` · `construction-safety` · `polish` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **£7.99** (Anh) → Update exchange rates → Availability: các nước ở trên |
 
@@ -727,6 +737,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlock all questions` |
 | **Description** | `All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.` |
+| **Icon** | `store/cscsro/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `all-questions` · `construction-safety` · `romanian` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **£7.99** (Anh) → Update exchange rates → Availability: các nước ở trên |
 
@@ -881,6 +893,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlock all questions` |
 | **Description** | `All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.` |
+| **Icon** | `store/insurancelh/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `all-questions` · `insurance-exam` · `mock-tests` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $19.99** → Update exchange rates → Availability: các nước ở trên |
 
@@ -995,6 +1009,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlock all questions` |
 | **Description** | `All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.` |
+| **Icon** | `store/nailes/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `all-questions` · `nail-exam` · `spanish` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $12.99** → Update exchange rates → Availability: các nước ở trên |
 
@@ -1150,6 +1166,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlock all questions` |
 | **Description** | `All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.` |
+| **Icon** | `store/nailvi/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `all-questions` · `nail-exam` · `vietnamese` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $14.99** → Update exchange rates → Availability: các nước ở trên |
 
@@ -1314,6 +1332,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlock all questions` |
 | **Description** | `All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.` |
+| **Icon** | `store/nursegulf/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `all-questions` · `nursing-exam` · `mock-tests` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $14.99** → Update exchange rates → **sửa tay: Ấn Độ ₹499, Philippines ₱599, Pakistan Rs 1,499** → Availability: các nước ở trên |
 
@@ -1434,6 +1454,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlock all questions` |
 | **Description** | `All 250 questions, full mock exams and unlimited flashcards. One-time purchase – keep it forever.` |
+| **Icon** | `store/sachkunde/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `all-questions` · `security-exam` · `german` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **€14.99** (Đức) → Update exchange rates → Availability: các nước ở trên |
 
@@ -1588,6 +1610,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlimited: all levels & hints` |
 | **Description** | `Unlimited Hard & Expert puzzles, unlimited hints, the daily archive and every theme. One-time purchase.` |
+| **Icon** | `games/store/dominodots/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `unlimited-puzzles` · `unlimited-hints` · `domino` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $2.99** → Update exchange rates → sửa tay: Nhật ¥450, Ấn Độ ₹149, Brazil R$ 11,90 → Availability: các nước ở trên |
 
@@ -1904,6 +1928,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlimited: all levels & hints` |
 | **Description** | `Unlimited Hard & Expert puzzles, unlimited hints, the daily archive and every theme. One-time purchase.` |
+| **Icon** | `games/store/meowqueens/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `unlimited-puzzles` · `unlimited-hints` · `cat-puzzle` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $2.99** → Update exchange rates → sửa tay: **Nhật ¥450** → Availability: các nước ở trên |
 
@@ -2220,6 +2246,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlimited: all levels & hints` |
 | **Description** | `Unlimited Hard & Expert puzzles, unlimited hints, the daily archive and every theme. One-time purchase.` |
+| **Icon** | `games/store/patchgrid/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `unlimited-puzzles` · `unlimited-hints` · `logic-puzzle` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $2.99** → Update exchange rates → sửa tay: Nhật ¥450, Ấn Độ ₹149 → Availability: các nước ở trên |
 
@@ -2536,6 +2564,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlimited: all levels & hints` |
 | **Description** | `Unlimited Hard & Expert puzzles, unlimited hints, the daily archive and every theme. One-time purchase.` |
+| **Icon** | `games/store/puttpuzzle/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `unlimited-holes` · `unlimited-hints` · `mini-golf` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $2.99** → Update exchange rates → Availability: các nước ở trên |
 
@@ -2852,6 +2882,8 @@ First release!
 | **Product ID** | `premium_lifetime` |
 | **Name** | `Unlimited: all levels & hints` |
 | **Description** | `Unlimited Hard & Expert puzzles, unlimited hints, the daily archive and every theme. One-time purchase.` |
+| **Icon** | `games/store/wordweave/product_icons/premium_lifetime.png` (512×512, không chữ) |
+| **Tags** | `premium` · `unlimited-puzzles` · `unlimited-hints` · `word-puzzle` |
 | **Purchase option** | ID `buy` · Type **Buy** (giữ *Backwards compatible*) |
 | **Giá** | **US $2.99** → Update exchange rates → Availability: các nước ở trên |
 

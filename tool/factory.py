@@ -37,7 +37,7 @@ LIMITS = {"title.txt": 30, "short_description.txt": 80, "full_description.txt": 
 # Store/build-only keys; everything else in apps/<id>.json is shipped to the app.
 NOT_RUNTIME = {
     "applicationId", "launcherName", "icon", "suggestedPriceUsd", "developerName",
-    "tagline", "screenshotCaptions", "markets",
+    "tagline", "screenshotCaptions", "markets", "productTags",
 }
 
 
@@ -173,6 +173,14 @@ def write_store(app: dict) -> list[str]:
         img.mkdir(exist_ok=True)
         graphics.play_icon(app).save(img / "icon.png", optimize=True)
         graphics.feature_graphic(app, title, tagline).save(img / "featureGraphic.png", optimize=True)
+    # In-app product icon (upload in Play Console → One-time products → Icon).
+    icons = ROOT / "store" / app["id"] / "product_icons"
+    icons.mkdir(parents=True, exist_ok=True)
+    kind = "infinity" if "game" in app else "unlock"
+    graphics.product_icon(app, kind).save(icons / f"{app['premiumProductId']}.png", optimize=True)
+    tags = app.get("productTags", [])
+    if not 1 <= len(tags) <= 5:
+        problems.append("productTags: give 1-5 tags")
     return problems
 
 
