@@ -22,10 +22,10 @@ What does the stratospheric ozone layer mainly protect people and crops from?
 
 [e003] core
 Which health effect is linked to increased UV-B radiation reaching the ground because of ozone depletion?
-- Higher blood pressure
+- Higher blood pressure and heart disease
 * More skin cancer and cataracts
-- Hearing loss
-- Kidney stones
+- Hearing loss in older adults
+- More kidney stones and gout
 > Extra UV-B causes more skin cancers and cataracts and can weaken the immune system. It also harms crops and marine life.
 
 [e004] core
@@ -46,8 +46,8 @@ About how many ozone molecules can a single chlorine atom destroy before it is t
 
 [e006] core
 Why do HCFCs have a lower ozone depletion potential (ODP) than CFCs?
-* The hydrogen in HCFCs makes them less stable, so most break down in the lower atmosphere
-- HCFCs contain no chlorine at all
+* The hydrogen makes them less stable, so most break down in the lower atmosphere
+- HCFCs contain no chlorine at all, only fluorine and carbon atoms
 - HCFCs are heavier than air and never rise above ground level
 - HCFCs contain bromine, which cancels out the effect of the chlorine
 > Hydrogen makes HCFC molecules less stable, so most of them break down before reaching the stratosphere. They still contain chlorine, which is why their ODP is low but not zero.
@@ -173,12 +173,12 @@ Under EPA's Technology Transitions rule, new residential air conditioners and he
 > R-454B (GWP about 466) and R-32 (about 675) are below 700. R-410A is about 2,088 and R-404A about 3,922. R-22 is an HCFC whose production has ended.
 
 [e022] core
-Under the Technology Transitions rule as amended in 2026, what applies to installing a new residential R-410A split system whose components were all manufactured or imported before January 1, 2025?
-- It became illegal on January 1, 2026
-- It must be installed before January 1, 2027
-- It may only be installed in a building with a permit issued before 2025
-* There is no longer a federal installation deadline, although state rules may be stricter
-> A final rule published May 26, 2026 (effective July 27, 2026) removed the January 1, 2026 installation deadline for these pre-2025 systems. Manufacture or import of new systems with GWP of 700 or more is still banned, and some states keep their own deadlines.
+Which statement about R-32 is correct?
+- It is a CFC that was phased out in 1996
+- It is a hydrocarbon rated A3 (higher flammability)
+* It is a single-component HFC rated A2L (lower flammability)
+- It is an HCFC blend that fractionates when it leaks
+> R-32 (difluoromethane) is a single-component HFC with zero ODP, a GWP of about 675 and an A2L safety rating. It is one of the main lower-GWP refrigerants for new residential systems and is also half of R-410A.
 
 [e023] core
 EPA's AIM Act refrigerant management program for HFCs (the 2024 Emissions Reduction and Reclamation rule) is found in:
@@ -206,10 +206,10 @@ Which refrigerant is an HCFC?
 
 [e026] core
 Refrigerant blends whose ASHRAE number is in the 400 series (such as R-404A, R-407C and R-454B) are:
-- Azeotropes that boil at one temperature
-- Pure, single-component refrigerants
+- Azeotropes that boil at a single temperature at a given pressure
+- Pure, single-component refrigerants with no temperature glide
 * Zeotropes, whose components boil at different temperatures
-- Hydrocarbon mixtures only
+- Hydrocarbon mixtures that are always rated A3 for flammability
 > 400-series blends are zeotropic: their components have different boiling points, so the blend shows temperature glide and can fractionate. 500-series blends are azeotropes.
 
 [e027] core
@@ -222,10 +222,10 @@ Refrigerant blends whose ASHRAE number is in the 400 series (such as R-404A, R-4
 
 [e028] core
 "Fractionation" of a refrigerant blend refers to:
-- Blending two refrigerants in the field to make a new one
-- Liquid refrigerant flooding back to the compressor
-- Oil separating from refrigerant in the evaporator
-* One component leaking or boiling off faster than the others, changing the blend's composition
+- Blending two different refrigerants in the field to make a new one
+- Liquid refrigerant flooding back to the compressor during start-up
+- Oil separating from the refrigerant and pooling in the evaporator
+* One component escaping faster than the others, changing the blend
 > When a zeotrope leaks or is removed as vapor, the components escape at different rates and the remaining mixture changes. That is why zeotropes are charged as liquid.
 
 [e029] core
@@ -239,9 +239,9 @@ How should a zeotropic blend such as R-407C or R-454B normally be removed from i
 [e030] core
 An azeotropic refrigerant blend, such as R-502 or R-500, behaves:
 * Like a single substance, boiling at one temperature at a given pressure
-- Like a zeotrope, with several degrees of glide
-- Like a hydrocarbon that must always be vented
-- Like water in the system
+- Like a zeotrope, with several degrees of temperature glide in the coil
+- Like a hydrocarbon, which must be vented outdoors instead of recovered
+- Like water, which must be removed from the system with a vacuum pump
 > Azeotropes (500 series) act like one compound and do not noticeably fractionate. ASHRAE numbers zeotropic blends in the 400 series.
 
 [e031] core
@@ -254,18 +254,18 @@ R-454B, one of the main replacements for R-410A in new residential systems, is a
 
 [e032] core
 Which release of refrigerant is NOT a violation of the venting prohibition?
-- Opening a charged system to the air to save recovery time
-- Venting the vapor left in a system after liquid has been recovered
-- Releasing refrigerant from a recovery cylinder to make room for more
-* A small release while connecting or disconnecting hoses during charging, using low-loss fittings
+- Opening a charged system to the air to save time on a service call
+- Venting the vapor left in a system after the liquid has been recovered
+- Releasing refrigerant from a full recovery cylinder to make room for more
+* A small loss when connecting or disconnecting hoses fitted with low-loss fittings
 > "De minimis" releases that happen during good-faith efforts to recover or recycle, such as hose connection losses, are not violations. Knowingly releasing any other refrigerant is illegal.
 
 [e033] core
 When is a refrigerant release considered "de minimis" under Section 608?
-- Whenever less than one pound is released
-- Whenever the refrigerant has zero ozone depletion potential
-* When it happens during good-faith attempts to recapture, recycle or safely dispose of refrigerant
-- When the owner of the equipment gives permission
+- Whenever less than one pound of refrigerant is released at a time
+- Whenever the refrigerant has an ozone depletion potential of zero
+* When it happens during good-faith attempts to recover, recycle or dispose
+- When the owner of the equipment gives written permission for the release
 > The Clean Air Act allows only de minimis releases tied to good-faith recovery, recycling or disposal, done with the required practices and certified equipment. No weight limit or owner permission makes venting legal.
 
 [e034] core
@@ -286,26 +286,26 @@ Which substance is exempt from the Section 608 venting prohibition in every appl
 
 [e036] core
 Ammonia is exempt from the Section 608 venting prohibition when it is used in:
-- Any residential split air conditioner
+- Any residential split air conditioner or heat pump system
 * Commercial or industrial process refrigeration, or absorption units
-- Motor vehicle air conditioners only
-- Every application, without exception
+- Motor vehicle air conditioners only, under Section 609 rules
+- Every application, without exception, because ammonia is natural
 > The exemption covers ammonia in commercial or industrial process refrigeration and in absorption units. Other safety, emergency-release and reporting laws still apply to ammonia.
 
 [e037] core
 Refrigerant that slowly escapes through a leak while a system is operating normally is:
-- A knowing-venting violation every time it happens
-- Not regulated by EPA in any way
-- Only regulated if the refrigerant is a CFC
-* Not knowing venting, but leak repair rules may apply depending on the refrigerant and charge size
+- A knowing-venting violation every time it happens, at any leak rate
+- Not regulated by EPA in any way, because it is not done on purpose
+- Only regulated when the refrigerant is a CFC that depletes ozone
+* Not knowing venting, but leak repair rules may apply to larger systems
 > Leaks during normal operation are not treated as knowing venting. Owners of appliances above the thresholds (50 lb ODS, or 15 lb HFC under 40 CFR 84) must calculate leak rates and repair leaks that exceed the limits.
 
 [e038] core
 Why must hoses used with gauges and recovery equipment have low-loss fittings?
-- To prevent moisture from freezing in the hose
-- To increase the flow rate of liquid refrigerant
-* To keep refrigerant releases to a minimum when hoses are connected and disconnected
-- Because EPA requires all hoses to be replaced every year
+- To prevent moisture from freezing inside the hose during evacuation
+- To increase the flow rate of liquid refrigerant during recovery
+* To keep releases to a minimum when hoses are connected and disconnected
+- Because EPA requires every gauge hose to be replaced once a year
 > Low-loss fittings (manual or automatic shutoffs at the hose end) keep releases at hose connections to the de minimis level that the rules allow.
 
 [e039] core
@@ -334,18 +334,18 @@ Which term means removing refrigerant from a system and storing it in an externa
 
 [e042] core
 To "recycle" refrigerant means to:
-- Return it to the manufacturer for credit
-* Clean it for reuse with oil separation and filter-driers that reduce moisture, acidity and particles
+- Return it to the manufacturer for credit toward new refrigerant
+* Clean it for reuse by separating oil and passing it through filter-driers
 - Reprocess it to AHRI 700 purity and prove it with a laboratory analysis
-- Destroy it in an approved incinerator
+- Destroy it in an approved high-temperature incinerator or plasma arc
 > Recycling cleans refrigerant, usually on the job site or at the shop, by separating oil and passing it through filter-driers. It is not tested to a purity standard, which is what reclaiming means.
 
 [e043] core
 To "reclaim" refrigerant means to:
-- Recover it into a gray-and-yellow cylinder
-- Filter it once through a suction-line filter-drier
-* Reprocess it to the AHRI 700 purity specification and verify it by chemical analysis
-- Return it to the same system after a repair
+- Recover it into a gray cylinder with a yellow top and send it away
+- Filter it once through a suction-line filter-drier before reuse
+* Reprocess it to the AHRI 700 purity specification, verified by analysis
+- Return it to the same system after a repair without any testing
 > Reclaimed refrigerant must meet AHRI Standard 700 purity, verified by laboratory analysis, and may only be reclaimed by an EPA-certified reclaimer.
 
 [e044] core
@@ -382,10 +382,10 @@ Under the ER&R rule (40 CFR 84), since January 1, 2026 HFC refrigerant may not b
 
 [e048] core
 Under the ER&R rule, starting January 1, 2029, servicing and repair of which equipment must be done with reclaimed HFC refrigerant?
-- All residential split systems
-- Motor vehicle air conditioners
-- Household refrigerators and freezers
-* Supermarket systems, refrigerated transport and automatic commercial ice makers
+- All residential split air conditioners and heat pumps
+- Motor vehicle air conditioners and refrigerated rail cars
+- Household refrigerators, freezers and dehumidifiers
+* Supermarket systems, refrigerated transport and commercial ice makers
 > 40 CFR 84.112 requires reclaimed HFC refrigerant from January 1, 2029 when servicing or repairing supermarket systems, refrigerated transport and automatic commercial ice makers. Residential AC and household refrigerators are not on that list.
 
 [e049] core
@@ -422,10 +422,10 @@ Which refrigerant is classified A3 (lower toxicity, higher flammability)?
 
 [e053] core
 In ASHRAE 34 safety groups, the letter "B" means a refrigerant:
-- Is non-flammable
-- Has a low boiling point
-* Has higher toxicity (occupational exposure limit below 400 ppm)
-- Is a blend of two components
+- Is non-flammable under any test condition
+- Has a boiling point below 0 °F at sea level
+* Has higher toxicity (exposure limit below 400 ppm)
+- Is a blend of two or more refrigerant components
 > "A" refrigerants have an occupational exposure limit of 400 ppm or more and "B" refrigerants have a limit below 400 ppm. The number (1, 2L, 2, 3) shows flammability.
 
 [e054] core
@@ -454,10 +454,10 @@ What hazardous product mainly forms when an HFC such as R-134a or R-410A decompo
 
 [e057] core
 What is the correct way to pressurize a system with dry nitrogen for a leak test?
-* Through a pressure regulator, with a pressure relief valve in the line
-- Straight from the cylinder valve, opened slowly
-- Through the recovery machine
-- With the system compressor running
+* Through a pressure regulator, with a relief valve in the line
+- Straight from the cylinder valve, opened slowly and carefully
+- Through the recovery machine, so its pump limits the pressure
+- With the system compressor running to circulate the nitrogen
 > A nitrogen cylinder can be over 2,000 psig. Always use a pressure regulator and a relief valve, and never go above the system's rated test pressure.
 
 [e058] core
@@ -470,10 +470,10 @@ Why must oxygen or compressed air never be used to pressurize a refrigeration sy
 
 [e059] core
 Liquid refrigerant spraying on the skin or in the eyes mainly causes:
-- Chemical burns from acids in new refrigerant
-* Frostbite, because the liquid boils off and absorbs heat very quickly
-- Electric shock
-- Radiation burns
+- Chemical burns from the acids present in new refrigerant
+* Frostbite, because the liquid boils off and absorbs heat quickly
+- Electric shock from static charge built up in the hose
+- Radiation burns from ultraviolet light given off by the vapor
 > Liquid refrigerant flashing to vapor can freeze tissue on contact. Wear safety glasses with side shields (or goggles) and gloves when handling refrigerant.
 
 [e060] core
@@ -486,10 +486,10 @@ Which ASHRAE standard is the safety standard for designing and installing refrig
 
 [e061] core
 What is the safe way to warm a refrigerant cylinder to raise its pressure?
-- With a propane torch, keeping the flame moving
-- By placing it against a running compressor
-* With warm water or a cylinder heater, never above about 125 °F (52 °C)
-- By leaving it in a closed vehicle in the sun
+- With a propane torch, keeping the flame moving over the cylinder
+- By setting it against a running compressor or a hot discharge line
+* With warm water or a cylinder heater, never above about 125 °F
+- By leaving it in a closed vehicle parked in direct sunlight
 > Never use an open flame or let a cylinder get hotter than about 125 °F. Heat raises pressure and liquid expansion, which can rupture the cylinder.
 
 [e062] core
@@ -502,10 +502,10 @@ A refillable refrigerant recovery cylinder should be filled to no more than what
 
 [e063] core
 Why is an overfilled refrigerant cylinder so dangerous?
-- The relief valve cannot open on an overfilled cylinder
-* As it warms, the expanding liquid can fill the cylinder and create enormous hydrostatic pressure
-- Refrigerant vapor becomes flammable above 80% fill
-- Overfilled cylinders cannot be shipped by DOT
+- The relief valve is blocked and cannot open on an overfilled cylinder
+* As it warms, the liquid can fill the cylinder and burst it
+- Refrigerant vapor becomes flammable once the cylinder is over 80% full
+- DOT forbids shipping it, so it must be vented before transport
 > When a cylinder is liquid-full, a small temperature rise causes a huge pressure rise and can burst it. That is why recovery cylinders are filled to 80% at most.
 
 [e064] core
@@ -526,26 +526,26 @@ A disposable (DOT 39) refrigerant cylinder:
 
 [e066] core
 What should be done with an "empty" disposable refrigerant cylinder before it is scrapped?
-- Throw it in the trash with the valve closed
-* Recover any remaining refrigerant to 0 psig or below, then make the cylinder unusable and recycle the metal
-- Vent the remaining vapor and keep the cylinder for nitrogen
-- Refill it with water and cap it
+- Throw it in the trash with the valve closed and the cap on
+* Recover what is left to 0 psig, make it unusable and recycle the metal
+- Vent the remaining vapor outdoors and reuse the cylinder for nitrogen
+- Refill it with water, cap it tightly and return it to the wholesaler
 > Empty disposable cylinders still hold a heel of refrigerant. Recover it first, then puncture or mark the cylinder so it cannot be reused, and send it to metal recycling. From January 1, 2028, used disposable HFC cylinders must go to a reclaimer or a processor that can remove the heel.
 
 [e067] core
 Refrigerant recovery cylinders have traditionally been identified by which color scheme?
-- Solid white
-- Light green-gray all over
+- Solid white body with black lettering
+- Light green-gray paint all over the cylinder
 * Gray body with a yellow top (shoulder)
-- Red body with a white top
+- Red body with a white top and a red band
 > Recovery cylinders have traditionally had a gray body and a yellow shoulder. Always read the label, because colors are a voluntary industry guideline, not an EPA rule.
 
 [e068] core
 Under AHRI Guideline N, what does the paint color on a cylinder of new (virgin) refrigerant tell you today?
-- The refrigerant type, from a color chart (for example, light green for R-22)
-- Whether the refrigerant is an HFC or an HCFC
-* Not much: since 2020 virgin refrigerant cylinders are one common light green-gray color, so you must read the label
-- Whether the cylinder is refillable
+- The refrigerant type, from a color chart (light green for R-22)
+- Whether the refrigerant is an HFC or an HCFC, by body color
+* Very little: virgin cylinders share one color, so read the label
+- Whether the cylinder is refillable or a disposable one-trip type
 > AHRI moved virgin refrigerant cylinders to one color (RAL 7044 light green-gray) by 2020. Identify the refrigerant from the label. Flammable refrigerants still get a red band.
 
 [e069] core
@@ -558,10 +558,10 @@ A cylinder of A2L refrigerant such as R-32 or R-454B can be recognized by:
 
 [e070] core
 Which DOT hazard class applies to cylinders of a non-flammable refrigerant such as R-410A or R-134a?
-- Class 2.1, flammable gas
+- Class 2.1, flammable gas, like propane
 * Class 2.2, non-flammable, non-toxic gas
-- Class 3, flammable liquid
-- Class 8, corrosive
+- Class 3, flammable liquid, like gasoline
+- Class 8, corrosive material, like acids
 > Non-flammable refrigerants ship as DOT Class 2.2 (non-flammable gas). Flammable refrigerants such as R-32, R-454B and R-290 ship as Class 2.1 (flammable gas).
 
 [e071] core
@@ -574,18 +574,18 @@ When carrying refrigerant cylinders in a service vehicle, they should be:
 
 [e072] core
 Refrigerant recovery and recycling equipment used on stationary appliances and manufactured after November 15, 1993 must be:
-- Registered with the local fire marshal
+- Registered with the local fire marshal before first use
 * Certified by an EPA-approved equipment testing organization
-- Inspected by EPA every year
-- Built only by the refrigerant manufacturer
+- Inspected by an EPA field officer every year it is in service
+- Built by the same company that makes the refrigerant
 > Recovery and recycling equipment made after November 15, 1993 must be certified by an EPA-approved testing organization (such as AHRI or UL) to meet EPA's performance standards.
 
 [e073] core
 Recovery equipment manufactured on or after January 1, 2017 and used for flammable refrigerants such as A2L or A3 types must be:
-- Certified only to the 1993 standard
-- Certified for non-flammable refrigerants; flammable ones may never be recovered
-* Certified to EPA's requirements for flammable refrigerants (Appendix B4), which include UL safety testing
-- Exempt from certification
+- Certified only to the original 1993 performance standard
+- Rated for non-flammable refrigerants, since flammables may not be recovered
+* Certified to EPA's flammable-refrigerant requirements (Appendix B4)
+- Exempt from certification, because flammable refrigerants are not regulated
 > Recovery equipment made from 2017 on is tested to AHRI 740-2016 (Appendix B3). Equipment for flammable refrigerants must also meet Appendix B4, which adds UL safety requirements. Only use a machine rated for the refrigerant.
 
 [e074] core
@@ -598,9 +598,9 @@ System-dependent (passive) recovery equipment may be used only on appliances wit
 
 [e075] core
 Before using a recovery machine on a different refrigerant from the one it last recovered, the technician should:
-- Add a pound of the new refrigerant to "flush" it
-- Change the machine's oil only if it is under warranty
-* Clear the machine of the old refrigerant (evacuate it) and change the filter if one is used, to prevent cross-contamination
+- Add a pound of the new refrigerant to flush out the old one
+- Change the machine's oil, but only if it is still under warranty
+* Evacuate the old refrigerant and change the filter, to avoid mixing
 - Run the machine with its outlet open to the air for a few minutes
 > Leftover refrigerant in the machine and hoses would contaminate the next batch. Evacuate the old refrigerant into its own cylinder and follow the maker's procedure for filters.
 
@@ -646,10 +646,10 @@ What leak rate triggers repair for an industrial process refrigeration appliance
 
 [e081] core
 Once a covered appliance is found to be leaking above its threshold, how long does the owner normally have to repair the leaks?
-- 10 days
+- 10 days, with no extension allowed for any reason at all
 * 30 days, or 120 days if an industrial process shutdown is needed
-- 90 days
-- 1 year
+- 90 days, or 180 days for large comfort cooling chillers
+- 1 year, as long as a written repair plan is sent to EPA first
 > Repairs are due within 30 days after refrigerant is added to an appliance leaking above the threshold, or 120 days if an industrial process shutdown is required.
 
 [e082] core
@@ -670,10 +670,10 @@ An appliance covered by leak repair rules that leaks more than what share of its
 
 [e084] core
 When must the owner of an appliance covered by leak repair rules calculate its leak rate?
-- Once a year, on January 1
-- Only after a leak inspection finds a leak
-* Each time refrigerant is added (with limited exceptions)
-- Only when the appliance is retired
+- Once a year, on January 1, for the year before
+- Only after a leak inspection has found a leak
+* Each time refrigerant is added, with limited exceptions
+- Only when the appliance is being retired or retrofitted
 > The leak rate must be calculated whenever refrigerant is added, with either the annualizing method or the rolling average method. Exceptions include charging right after a retrofit and documented seasonal variances.
 
 [e085] core
@@ -686,10 +686,10 @@ For how long must most Section 608 and ER&R records (leak rate calculations, ser
 
 [e086] core
 A technician recovers refrigerant from an appliance with a charge of more than 5 and less than 50 pounds so that it can be disposed of. What must the technician do?
-- Nothing; there is no recordkeeping for appliances under 50 pounds
-* Keep a record of the disposal (location, date, refrigerant type and amount recovered) for 3 years
-- Send a disposal report to EPA within 30 days
-- Get the owner to sign a permit before starting
+- Nothing, because there is no recordkeeping for systems under 50 pounds
+* Keep a disposal record (date, location, type and amount) for 3 years
+- Send a disposal report to EPA within 30 days of finishing the job
+- Have the owner sign a disposal permit from EPA before starting work
 > Since the 2016 update, technicians who evacuate appliances of 5 to 50 pounds for disposal must keep records of each job, including the amount and type of refrigerant recovered, for three years.
 
 [e087] core
@@ -710,18 +710,18 @@ Which refrigerant purchase is exempt from the Section 608 technician sales restr
 
 [e089] core
 A refrigerant wholesaler selling R-410A to a technician must:
-- Report every sale to EPA within 10 days
-* Verify the buyer's certification and keep sales records (buyer, date, quantity) for 3 years
-- Collect the technician's empty cylinder before each sale
-- Sell no more than one cylinder per day
+- Report every sale to EPA within 10 business days
+* Check the buyer's certification and keep sales records for 3 years
+- Collect the technician's empty cylinder before every sale
+- Sell no more than one cylinder per technician per day
 > Sellers must check that buyers are certified (or employ certified technicians) and keep invoices with buyer, date and quantity for three years.
 
 [e090] core
 What is the main purpose of evacuating (dehydrating) a system with a vacuum pump before charging?
-- To recover the old refrigerant
-* To remove air, other non-condensables and moisture from the system
-- To test the compressor valves
-- To cool the system before charging
+- To recover the old refrigerant before the system is opened
+* To remove air, non-condensables and moisture from the system
+- To test the compressor valves for leaks before start-up
+- To cool the system down to the right temperature for charging
 > A deep vacuum boils off moisture and removes air and other non-condensables, which would otherwise cause high head pressure, acids and corrosion.
 
 [e091] core
@@ -734,18 +734,18 @@ Which instrument should be used to measure the deep vacuum reached during dehydr
 
 [e092] core
 Why should a hermetic compressor never be run while the system is in a deep vacuum?
-* The motor windings can be damaged because there is little vapor to cool them and insulation can break down
-- The compressor will pull moisture in from the air
-- It will make the micron gauge read incorrectly
-- It speeds up evacuation too much
+* The motor windings can be damaged, because insulation breaks down
+- The compressor will pull moisture in from the air through its seals
+- It will make the micron gauge read lower than the real vacuum level
+- It speeds up evacuation so much that oil is pulled out of the system
 > Running a hermetic compressor in a deep vacuum can damage the motor windings. A system compressor also cannot reach the needed vacuum, so always use a vacuum pump.
 
 [e093] core
 Which practice speeds up evacuation of a system?
-- Using long, small-diameter hoses
-- Leaving Schrader valve cores in place
-* Using short, large-diameter hoses and removing Schrader cores with a core removal tool
-- Running the vacuum pump with old, wet oil
+- Using long, small-diameter hoses to keep a steady flow
+- Leaving the Schrader valve cores in place during evacuation
+* Using short, large hoses and removing Schrader cores
+- Running the vacuum pump with old oil that is already wet
 > The flow restrictions are in the hoses and valve cores. Short, large-diameter lines and core removal tools shorten evacuation time, and fresh pump oil helps the pump reach a deep vacuum.
 
 [e094] core
@@ -766,10 +766,10 @@ How long does a Section 608 technician certification remain valid?
 
 [e096] core
 Where must a certified technician keep a copy of their Section 608 certification?
-- With the local building department
-- Only in their personal files at home
-* At their place of business, until 3 years after they stop working as a technician
-- Posted on the equipment they service
+- With the local building department, in the technician's permit file
+- Only in their personal files at home, never at work
+* At their place of business, until 3 years after they stop the work
+- Posted on each piece of equipment that they service or repair
 > EPA requires technicians to keep a copy of their certificate at their place of business and keep it until three years after they stop working as a technician.
 
 [e097] core
@@ -790,10 +790,10 @@ Each Section 608 certification test section contains at least how many questions
 
 [e099] core
 An apprentice who is not yet certified may perform refrigerant work only if they are:
-- Over 21 years old
-* Closely and continually supervised by a certified technician, and for no more than two years after first registering as an apprentice
-- Working on equipment under 50 pounds
-- Carrying a letter from their employer
+- Over 21 years old and enrolled in a trade school program
+* Closely supervised by a certified technician, for no more than 2 years
+- Working only on small equipment with less than 50 pounds of charge
+- Carrying a signed letter from their employer at every job site
 > EPA's apprentice exemption requires a registered apprentice to be closely and continually supervised by a certified technician, and it lasts no more than two years from the date the apprentice first registers.
 
 [e100] core
@@ -817,41 +817,41 @@ Under EPA's definition, a "small appliance" is a product that is fully manufactu
 [e102] type1
 Which of these is a small appliance under Section 608?
 - A 3-ton residential split heat pump charged on site
-* A packaged terminal air conditioner (PTAC) sealed at the factory with 2 pounds of refrigerant
-- A car air conditioner
+* A PTAC sealed at the factory with 2 pounds of refrigerant
+- A car or light truck air conditioner using R-1234yf
 - A walk-in cooler with a 20-pound remote condensing unit
 > PTACs, room and window units, household refrigerators and freezers, dehumidifiers, vending machines, water coolers and under-counter ice makers sealed at the factory with 5 lb or less are small appliances. Split systems charged in the field are not.
 
 [e103] type1
 Which equipment is NOT a small appliance?
 - A household refrigerator with 4 ounces of R-600a
-- A drinking water cooler
+- A drinking water cooler sealed at the factory
 - A window air conditioner with 1.5 pounds of R-32
-* A residential split air conditioner whose refrigerant lines are connected on site
+* A split air conditioner whose lines are connected on site
 > A split system is assembled and charged in the field, so it is not "fully manufactured, charged and hermetically sealed in a factory." It falls under Type II.
 
 [e104] type1
 Which equipment is excluded from Type I and instead covered by the Section 609 motor vehicle A/C program?
-- Dehumidifiers
-- Vending machines
-* Motor vehicle air conditioners in cars and trucks
-- Under-the-counter ice makers
+- Dehumidifiers that are sealed at the factory
+- Vending machines with a self-contained cooler
+* Air conditioners in cars and light trucks
+- Under-the-counter ice makers in restaurants
 > Motor vehicle air conditioners (MVACs) are covered by Clean Air Act Section 609 and 40 CFR Part 82 Subpart B, not by Type I.
 
 [e105] type1
 Who must hold Type I (or Universal) certification?
-- Anyone who hauls a used refrigerator to a scrap yard
-- Anyone who sells a new refrigerator to a customer
-* Anyone who maintains, services or repairs small appliances in a way that could release refrigerant
-- Only the appliance manufacturer
+- Anyone who hauls a used refrigerator to a scrap yard for metal
+- Anyone who sells a new refrigerator to a customer in a store
+* Anyone who services small appliances in a way that could release refrigerant
+- Only the factory that built, charged and sealed the appliance
 > Type I certification is required to maintain, service or repair small appliances. People who only dispose of small appliances do not need certification, but the refrigerant must still be recovered.
 
 [e106] type1
 Under EPA rules, does a person who only disposes of small appliances (for example, a scrap recycler) need Section 608 certification?
-- Yes, Type I certification is required
-- Yes, Universal certification is required
-* No, but the refrigerant must still be recovered with certified equipment or verified as already recovered
-- No, and the refrigerant may be vented before scrapping
+- Yes, Type I certification is required for anyone who scraps them
+- Yes, Universal certification is required for all disposal work
+* No, but the refrigerant must be recovered first or verified as recovered
+- No, and the refrigerant may be vented before the appliance is scrapped
 > Certification is not required just to dispose of small appliances, but the refrigerant may not be vented. It must be recovered with certified equipment, or the final processor must verify it was recovered earlier.
 
 [e107] type1
@@ -897,17 +897,17 @@ A technician uses equipment made in 2022 to recover R-134a from a refrigerator w
 [e112] type1
 "System-dependent" (passive) recovery equipment:
 - Has its own compressor that pumps refrigerant into a pressurized cylinder
-* Uses the appliance's own compressor and/or the refrigerant's pressure to move refrigerant into a container
-- Can be used on any appliance regardless of charge size
-- Is the same as a recycling machine
+* Uses the appliance's compressor or refrigerant pressure to move refrigerant
+- Can be used on any appliance, regardless of how large the charge is
+- Is the same as a recycling machine that cleans refrigerant for reuse
 > System-dependent recovery uses the appliance's compressor or internal pressure. It may only be used on appliances with 15 lb or less, so it fits small appliances.
 
 [e113] type1
 "Self-contained" (active) recovery equipment:
-* Has its own compressor and stores the refrigerant in a pressurized recovery cylinder
-- Relies on the appliance's compressor to push refrigerant out
-- Stores refrigerant in a non-pressurized bag
-- Can only be used if the appliance compressor is working
+* Has its own compressor and stores refrigerant in a pressurized cylinder
+- Relies on the appliance's own compressor to push the refrigerant out
+- Stores the refrigerant in a non-pressurized recovery bag only
+- Can only be used if the appliance's compressor is still working
 > Self-contained recovery machines have their own compressor and can recover whether or not the appliance's compressor runs.
 
 [e114] type1
@@ -928,10 +928,10 @@ A refrigerator's compressor does not work, and the technician is using system-de
 
 [e116] type1
 During system-dependent recovery from an appliance with a non-working compressor, what helps release refrigerant trapped in the compressor oil?
-- Cooling the compressor with ice
-- Adding new oil
-* Warming the compressor and tapping it sharply with a rubber mallet
-- Cutting the process tube
+- Cooling the compressor with ice or a cold pack
+- Adding fresh oil through the process tube
+* Warming the compressor and tapping it with a rubber mallet
+- Cutting the process tube to let the oil drain out
 > Refrigerant dissolves in compressor oil. Gently warming the compressor (for example with a heat lamp or heat gun) and tapping it helps free the refrigerant.
 
 [e117] type1
@@ -944,18 +944,18 @@ When using system-dependent recovery on a refrigerator whose compressor works, t
 
 [e118] type1
 System-dependent recovery equipment often stores refrigerant in:
-- A disposable DOT 39 cylinder
-* A non-pressurized container, such as a recovery bag, or a pressurized recovery cylinder
-- The appliance's own condenser
-- An open bucket of oil
+- A disposable DOT 39 cylinder that came with new refrigerant
+* A non-pressurized recovery bag or a pressurized recovery cylinder
+- The appliance's own condenser, sealed off with a pinch-off tool
+- An open bucket of oil that absorbs the refrigerant vapor
 > Passive recovery may store refrigerant in a special non-pressurized container (recovery bag) or a recovery cylinder. A disposable cylinder may never be used for recovery.
 
 [e119] type1
 Many small appliances have no service valves. How does a technician usually get access to the refrigerant?
-- By cutting the capillary tube
-- By removing the compressor's terminal cover
-* By installing a solderless piercing (access) valve on the process tube or other tubing
-- By opening the evaporator plate
+- By cutting the capillary tube and capping it afterwards
+- By removing the compressor's terminal cover and seal
+* By installing a solderless piercing valve on the tubing
+- By opening the evaporator plate inside the freezer
 > Small appliances are hermetically sealed, so the technician installs a piercing access valve, usually on the process (service) stub, to recover or charge.
 
 [e120] type1
@@ -968,10 +968,10 @@ Which statement about solderless piercing access valves is correct?
 
 [e121] type1
 After installing a piercing access valve on a small appliance, the technician should first:
-- Begin recovery right away
-* Check that the valve is not leaking before starting recovery
-- Add oil through the valve
-- Heat the valve with a torch to seal it
+- Begin recovery right away, before refrigerant escapes
+* Check that the valve is not leaking before recovery
+- Add a few ounces of oil through the new valve
+- Heat the valve with a torch so the gasket seals
 > A poorly installed piercing valve leaks refrigerant and lets air in. Check it for leaks before connecting the recovery equipment.
 
 [e122] type1
@@ -984,26 +984,26 @@ Piercing access valves are designed to be installed on:
 
 [e123] type1
 Before recovering refrigerant from a small appliance, the technician connects gauges and finds the system at 0 psig. What does this mean?
-- The system is full and must be recovered slowly
+- The system is full and the refrigerant must be recovered slowly
 * The refrigerant has already leaked out, so there is nothing to recover
-- The system contains a hydrocarbon refrigerant
-- The gauge needs a vacuum test
+- The system contains a hydrocarbon refrigerant at very low pressure
+- The gauge is faulty and must be checked with a vacuum test first
 > A reading of 0 psig means the charge has already leaked out, so there is no refrigerant left to recover. The leak must be found and repaired before recharging.
 
 [e124] type1
 How should a technician find out which refrigerant a small appliance uses before recovering it?
-- By smelling the refrigerant
-- By checking the color of the tubing
-* By reading the appliance's nameplate (serial data plate)
-- By guessing from the age of the appliance
+- By smelling a small sample of the refrigerant
+- By checking the color of the tubing and fittings
+* By reading the appliance's nameplate (data plate)
+- By guessing from the age and brand of the appliance
 > The nameplate lists the refrigerant type and charge. Never recover two different refrigerants into the same cylinder.
 
 [e125] type1
 A household refrigerator with a 5-ounce charge leaks slowly. Under federal rules, the owner:
-- Must repair it within 30 days
-- Must report it to EPA if it leaks more than 10%
-* Is not subject to the leak repair rules, because it is far below the 15 lb and 50 lb thresholds
-- Must replace it within 1 year
+- Must repair it within 30 days, like any leaking appliance
+- Must report it to EPA if it leaks more than 10% per year
+* Is not covered by leak repair rules, since it is far below 15 lb
+- Must replace it within 1 year or retire it from service
 > Leak repair rules apply only to appliances with 50 lb or more of ODS (40 CFR 82.157) or 15 lb or more of HFC (40 CFR 84.106). Small appliances (5 lb or less) are below both thresholds.
 
 [e126] type1
@@ -1024,10 +1024,10 @@ What is the ASHRAE 34 safety classification of isobutane (R-600a) and propane (R
 
 [e128] type1
 Red markings on a refrigerator's process tube, service port or refrigerant tubing warn the technician that:
-- The refrigerant is R-134a
-- The tubing has been replaced
-* The appliance contains a flammable refrigerant, such as a hydrocarbon
-- The compressor is overheated
+- The refrigerant is R-134a and must not be mixed with R-12
+- The tubing has been replaced with aluminum by a technician
+* The appliance contains a flammable refrigerant, such as R-600a
+- The compressor has overheated and must be checked before use
 > EPA's SNAP conditions for hydrocarbon appliances require red marking (PMS 185) on service ports, process tubes and refrigerant lines, plus flammability warning labels.
 
 [e129] type1
@@ -1040,50 +1040,50 @@ Under EPA's SNAP rules, the maximum hydrocarbon charge allowed in each refrigera
 
 [e130] type1
 Isobutane in a household refrigerator is exempt from EPA's venting prohibition. If a technician releases it instead of recovering it, what still applies?
-- Nothing; the refrigerant may be released anywhere
-* Flammability safety: release it only in a well-ventilated area, away from ignition sources, and follow the manufacturer's instructions and local codes
-- The release must be reported to EPA within 24 hours
-- The technician must hold a hazardous-materials license
+- Nothing; the refrigerant may be released anywhere at any time
+* Fire safety: vent it only where ventilation is good and nothing can ignite it
+- The release must be reported to EPA by phone within 24 hours
+- The technician must hold a state hazardous-materials license
 > EPA has exempted certain hydrocarbons (such as R-600a, R-290 and R-441A in household refrigerators) from the venting prohibition, but they are highly flammable (A3). Safety and local rules still apply.
 
 [e131] type1
 Before cutting into the tubing of a hydrocarbon (A3) refrigerator during a repair, the technician should:
-- Open the tubing with a torch so the refrigerant burns off
-* Remove the refrigerant and purge the system with nitrogen, then open the tubing with a tube cutter
-- Pressurize the system with compressed air
-- Leave the refrigerator plugged in so the fan runs
+- Open the tubing with a torch so the refrigerant burns off safely
+* Remove the refrigerant, purge with nitrogen, then use a tube cutter
+- Pressurize the system with compressed air to push the gas out
+- Leave the refrigerator plugged in so the condenser fan keeps running
 > Removing the refrigerant and purging with oxygen-free nitrogen keeps flammable vapor out of the work area. Opening tubing with a cutter avoids an ignition source.
 
 [e132] type1
 Recovery equipment used on a refrigerator charged with propane (R-290) must be:
-- Any recovery machine certified for R-134a
+- Any recovery machine that is certified for R-134a
 * Designed and certified for use with flammable refrigerants
-- A system-dependent bag only
-- Electrically grounded only when it rains
+- A system-dependent recovery bag, never an active machine
+- Grounded only when the work is done outdoors in damp weather
 > Recovery machines may contain switches and motors that can ignite flammable vapor. Use equipment certified for flammable refrigerants (EPA Appendix B4) and follow its instructions.
 
 [e133] type1
 An RV refrigerator that uses an ammonia, water and hydrogen absorption system:
 - Must have its ammonia recovered with a standard R-134a recovery machine
-* Uses ammonia, which EPA exempts from the venting prohibition when it is used in absorption units
-- Contains R-22 that must be recovered
-- Must be serviced only by a Type III technician
+* Uses ammonia, which is exempt from the venting ban in absorption units
+- Contains R-22 under high pressure that must be recovered before service
+- May be serviced only by a technician who holds Type III certification
 > EPA exempts ammonia used in absorption units from the venting prohibition. Standard recovery machines are not designed for ammonia and should not be used on these units.
 
 [e134] type1
 Under the safe disposal rules, who is responsible for making sure the refrigerant has been removed from a small appliance before it is scrapped?
-- The original manufacturer
-- The person who bought the appliance new
-* The final person in the disposal chain, such as the scrap metal recycler or landfill operator
-- EPA's regional office
+- The company that originally manufactured the appliance
+- The person who bought the appliance when it was new
+* The last person in the disposal chain, such as the scrap recycler
+- The EPA regional office for the state where it is scrapped
 > The final processor in the disposal chain must recover the refrigerant or verify that it was already recovered, for example with a signed statement.
 
 [e135] type1
 A scrap recycler accepts a refrigerator whose refrigerant was recovered earlier. Which document can the recycler accept as verification?
 - A sticker on the appliance saying "Freon removed"
-* A signed statement giving the name and address of the person who recovered the refrigerant and the date it was recovered
-- A verbal promise from the delivery driver
-- A photo of the appliance
+* A signed statement with the recoverer's name, address and date
+- A verbal promise from the driver who delivered the appliance
+- A photo of the appliance taken by the previous owner
 > EPA does not accept stickers. The recycler must keep a signed statement (or contract) with the recovering person's name, address and recovery date, and keep it for three years.
 
 [e136] type1
@@ -1096,10 +1096,10 @@ How long must the final processor keep the signed statements verifying that refr
 
 [e137] type1
 A refrigerator compressor has burned out and the refrigerant has a strong, acrid odor. When recovering from it, the technician should:
-- Vent the refrigerant because burnout refrigerant cannot be recovered
-* Recover it into a separate labeled cylinder and expect acid and contaminants in the oil and refrigerant
-- Add new refrigerant to dilute the acid
-- Recover it into the same cylinder as clean refrigerant
+- Vent it, because refrigerant from a burnout cannot be recovered at all
+* Recover it into a separate labeled cylinder and expect acid in the oil
+- Add new refrigerant to the system to dilute the acid before recovery
+- Recover it into the same cylinder as clean refrigerant of that type
 > Burnt-out compressors leave acids and contaminants. Recover the refrigerant (venting is illegal), keep it separate and protect the recovery machine, for example with a filter-drier.
 
 [e138] type1
@@ -1152,26 +1152,26 @@ Under the venting prohibition, which action is illegal when disposing of a house
 
 [e144] type1
 Which Type I test format requires a higher passing score than the standard closed-book test?
-- The proctored Universal test
-* A Type I-only test taken in the mail-in format, which requires 84%
-- The Core section
-- A test taken in Spanish
+- The proctored Universal test taken at a testing center
+* A Type I-only test taken in the mail-in format (84%)
+- The Core section when it is taken on its own
+- Any section taken in a language other than English
 > Type I-only programs may offer a mail-in format with an 84% passing score. Closed-book proctored tests require 70%.
 
 [e145] type1
 A technician wants to recover refrigerant from a dehumidifier. Under EPA rules, a dehumidifier is:
 * A small appliance, if it is factory-sealed with 5 lb or less
-- A high-pressure appliance requiring Type II
-- A low-pressure appliance requiring Type III
-- Exempt from all refrigerant rules
+- A high-pressure appliance that requires Type II certification
+- A low-pressure appliance that requires Type III certification
+- Exempt from all refrigerant rules because it is not a cooler
 > Dehumidifiers are listed in EPA's definition of small appliances, along with refrigerators, freezers, room AC, PTACs, vending machines, water coolers and under-counter ice makers.
 
 [e146] type1
 Before a recovery cylinder is used with small appliance recovery equipment, it should be:
-- Filled with nitrogen to 50 psig
-* Evacuated, so no air or other non-condensables are mixed with the recovered refrigerant
-- Warmed to 125 °F
-- Filled with water to check for leaks
+- Filled with dry nitrogen to about 50 psig
+* Evacuated, so no air is mixed with the refrigerant
+- Warmed to 125 °F to drive off any moisture
+- Filled with water first to check it for leaks
 > A new or empty recovery cylinder should be evacuated before use, so air does not raise the pressure and contaminate the refrigerant.
 
 [e147] type1
@@ -1184,18 +1184,18 @@ A cylinder of recovered R-134a sitting in a 70 °F room reads about 95 psig. The
 
 [e148] type1
 When a technician is leak-testing a repaired small appliance with nitrogen, the nitrogen should be:
-- Supplied straight from the cylinder without a regulator
-* Supplied through a pressure regulator, and kept below the appliance's rated test pressure
-- Mixed with oxygen to find leaks faster
-- Left in the system as a permanent holding charge
+- Supplied straight from the cylinder, without a regulator, for speed
+* Supplied through a regulator, below the appliance's test pressure
+- Mixed with a little oxygen so that leaks are found more quickly
+- Left in the system as a permanent holding charge after the test
 > Always use a regulator and relief valve with nitrogen and never exceed the manufacturer's test pressure. Never use oxygen or compressed air.
 
 [e149] type1
 Which sign usually indicates a refrigerant leak point on a small appliance's refrigerant circuit?
-- Frost on the evaporator
-* An oily film or dust stuck to a joint or tubing
-- A louder fan
-- A warm condenser
+- Frost building up on the evaporator plate
+* An oily film or dust stuck to a joint
+- A fan that runs louder than normal
+- A condenser that is warm to the touch
 > Refrigerant carries oil. An oily stain at a joint often marks a leak. Confirm it with an electronic detector or bubble solution.
 
 [e150] type1
@@ -1216,10 +1216,10 @@ Is it legal to vent R-32 from a window air conditioner before recycling the unit
 
 [e152] type1
 Recovery equipment manufactured after November 15, 1993 and used on small appliances must be:
-- Approved by the local fire department
+- Approved by the local fire department before use
 * Certified by an EPA-approved equipment testing organization
-- Used only on R-12 appliances
-- Registered with the appliance manufacturer
+- Used only on appliances that contain R-12 refrigerant
+- Registered with the appliance manufacturer every year
 > Small appliance recovery equipment made after November 15, 1993 must be certified by an EPA-approved testing organization to meet EPA's recovery standards.
 
 [e153] type1
@@ -1240,10 +1240,10 @@ A vending machine is factory-sealed with 150 grams (about 5 ounces) of R-290. A 
 
 [e155] type1
 When recovering refrigerant from a small appliance, how can the technician confirm that the 80% or 90% requirement has been met?
-- By waiting exactly 5 minutes
-* By following the recovery equipment manufacturer's directions, or by reaching the 4-inch Hg vacuum alternative
-- By listening for the compressor to stop
-- By seeing frost on the recovery hose
+- By waiting exactly 5 minutes after the machine starts
+* By following the equipment maker's directions, or reaching 4 in. Hg
+- By listening for the appliance's compressor to stop running
+- By seeing frost form on the recovery hose near the cylinder
 > Certified equipment is tested to reach the required recovery when used as directed. Reaching 4 inches Hg vacuum is the other allowed way to show compliance.
 
 [e156] type1
@@ -1264,34 +1264,34 @@ Which refrigerant was widely used in household refrigerators before the CFC phas
 
 [e158] type1
 A technician is about to braze on a small appliance that contained R-134a. What must be done first?
-- Nothing; R-134a is non-flammable
-* Recover the refrigerant, and flow nitrogen through the tubing while brazing to prevent oxide scale
-- Open the system to the air for 24 hours
-- Pressurize the system with oxygen
+- Nothing, because R-134a is non-flammable and safe near a flame
+* Recover the refrigerant, then flow nitrogen through the tubing while brazing
+- Open the system to the air for 24 hours so the vapor can escape
+- Pressurize the system with oxygen so the braze alloy flows better
 > Refrigerant must be recovered before opening the system. A small flow of dry nitrogen while brazing prevents oxide scale, and heating HFCs in a flame creates hydrofluoric acid.
 
 [e159] type1
 A small appliance's refrigerant circuit is badly contaminated with moisture. After repair, which step removes the moisture?
-- Adding extra refrigerant
-* Evacuating with a vacuum pump to a deep vacuum, and replacing the filter-drier
+- Adding extra refrigerant to absorb the moisture
+* Pulling a deep vacuum and replacing the filter-drier
 - Running the compressor with the access valve open
-- Adding nitrogen and leaving it in the system
+- Adding nitrogen and leaving it in as a holding charge
 > A deep vacuum boils moisture out of the system and a new filter-drier holds any that remain. Moisture causes acids and can freeze at the capillary tube.
 
 [e160] type1
 A homeowner wants to buy a 30-pound cylinder of R-134a to recharge a dehumidifier. Under the sales restriction, the wholesaler:
 - May sell it, because dehumidifiers are small appliances
-* May not sell it unless the buyer is a certified technician (or employs one)
-- May sell it if the buyer signs a waiver
-- May sell it if the cylinder is half full
+* May not sell it unless the buyer is certified or employs a technician
+- May sell it if the homeowner signs a liability waiver at the counter
+- May sell it as long as the cylinder is less than half full
 > Since January 1, 2018, HFC refrigerant may only be sold to certified technicians (or businesses that employ them), with narrow exceptions such as small MVAC cans with self-sealing valves.
 
 [e161] type1
 During recovery from a small appliance with a working compressor, why should the appliance be run during system-dependent recovery?
-- To heat the condenser so the refrigerant is vented faster
-* So its compressor pushes the refrigerant into the high side and the recovery container
-- To test whether the evaporator fan works
-- Because EPA requires the appliance to operate for 24 hours first
+- To heat the condenser so the refrigerant can be vented faster
+* So its compressor pushes refrigerant to the recovery container
+- To test whether the evaporator fan motor works before recovery
+- Because EPA requires the appliance to run for 24 hours first
 > The appliance's own compressor does the work in passive recovery. Running it moves refrigerant to the high side, where it can be captured.
 
 [e162] type1
@@ -1312,10 +1312,10 @@ What is the main safety risk when recovering refrigerant from a small appliance 
 
 [e164] type1
 Which item is personal protective equipment that should be worn when connecting hoses and recovering refrigerant?
-- A dust mask only
+- A paper dust mask, with no other protection
 * Safety glasses (or goggles) and gloves
-- Hearing protection only
-- A hard hat
+- Hearing protection, with no eye protection
+- A hard hat and steel-toed safety boots
 > Escaping liquid refrigerant can freeze skin and eyes, so safety glasses with side shields (or goggles) and protective gloves are the minimum.
 
 [e165] type1
@@ -1328,18 +1328,18 @@ A technician recovers refrigerant from a used refrigerator only so it can be scr
 
 [e166] type1
 Why might a technician have trouble reaching the required recovery level on a small appliance in a cold garage?
-- Cold refrigerant becomes flammable
-* At low temperatures the refrigerant's pressure is low, so it moves into the recovery container more slowly
-- Recovery equipment cannot run below 70 °F by law
-- Cold weather turns the refrigerant into oil
+- Cold refrigerant becomes flammable and the machine shuts itself off
+* Low temperature means low pressure, so the refrigerant moves slowly
+- Federal rules forbid running recovery equipment below 70 °F
+- Cold weather turns the refrigerant into oil that cannot be pumped
 > Lower temperatures mean lower refrigerant vapor pressure, which slows recovery. Warming the appliance (not the cylinder) helps.
 
 [e167] type1
 When servicing a small appliance that uses an A2L refrigerant, which tools should be used?
-- Any standard manifold set and recovery machine
-* Gauges, recovery equipment and leak detectors rated for A2L refrigerants
-- Only tools made of plastic
-- A halide torch leak detector
+- Any standard manifold set and recovery machine on the truck
+* Gauges, recovery equipment and leak detectors rated for A2L
+- Only tools made of plastic, so that no sparks can be made
+- A halide torch leak detector, to find leaks by flame color
 > A2L refrigerants are mildly flammable. Use equipment rated for them, avoid ignition sources, and never use a halide (flame) leak detector.
 
 [e168] type1
@@ -1352,27 +1352,27 @@ A technician recovers refrigerant from a refrigerator before scrapping it. The f
 
 [e169] type1
 Which type of appliance is listed by EPA as a small appliance?
-- A 10-ton rooftop unit
-- A 300-ton centrifugal chiller
-* An under-the-counter ice maker sealed at the factory with 2 lb of refrigerant
-- A supermarket rack system
+- A 10-ton packaged rooftop unit on a store
+- A 300-ton centrifugal chiller in an office tower
+* An under-counter ice maker factory-sealed with 2 lb
+- A supermarket rack system with remote display cases
 > Under-the-counter ice makers are in EPA's small appliance definition when they are factory-sealed with 5 lb or less. The other systems are larger Type II or Type III appliances.
 
 [e170] type1
 Refrigerant recovered from a small appliance and placed in a recovery cylinder should be:
-- Vented if it is mixed with air
-* Kept in a labeled, DOT-approved recovery cylinder filled no more than 80%, separate from other refrigerants
-- Combined with any other refrigerant to save cylinders
-- Stored in the original disposable cylinder
+- Vented outdoors if it turns out to be mixed with air
+* Kept in a labeled recovery cylinder, no more than 80% full, unmixed
+- Combined with any other refrigerant to save on cylinders
+- Stored in the disposable cylinder that the refrigerant came in
 > Label each recovery cylinder with the refrigerant it holds, fill it no more than 80% and never mix refrigerants or use disposable cylinders.
 # ---------------------------------------------------------------- TYPE II
 
 [e171] type2
 Type II certification is required to maintain, service, repair or dispose of which appliances?
-- Small appliances only
-* Medium-, high- and very high-pressure appliances, except small appliances and motor vehicle A/C
-- Low-pressure chillers only
-- Motor vehicle air conditioners
+- Small appliances only, such as refrigerators and window units
+* Medium-, high- and very high-pressure appliances (not small or MVAC)
+- Low-pressure chillers only, such as R-123 and R-1233zd(E) units
+- Motor vehicle air conditioners in cars, trucks and buses
 > Type II covers medium-, high- and very high-pressure appliances other than small appliances, MVACs and MVAC-like appliances. Type I covers small appliances and Type III low-pressure appliances.
 
 [e172] type2
@@ -1473,33 +1473,33 @@ Before opening a high-pressure appliance for a repair that is NOT major and is n
 
 [e184] type2
 A leaking component makes it impossible to reach the required evacuation level. What does EPA require?
-- Vent the remaining refrigerant and note it on the work order
-- Keep the recovery machine running for 24 hours
-* Isolate the leaking parts from the rest, evacuate the non-leaking parts to the required level and the leaking parts to the lowest level that can be reached, no higher than 0 psig
-- Skip recovery and replace the whole system
+- Vent the remaining refrigerant from the leaking part and write it on the work order
+- Keep the recovery machine running for 24 hours until it finally reaches the level
+* Isolate the leaking parts, evacuate the rest to the required level and the leaking parts to 0 psig or lower
+- Skip recovery for the leaking parts and replace the whole system with a new one instead
 > If leaks prevent reaching the required level, isolate leaking components, evacuate non-leaking parts to the Table 1 level and leaking parts to the lowest level possible without contaminating the refrigerant, which may not exceed 0 psig.
 
 [e185] type2
 After reaching the required evacuation level, why should the technician wait a few minutes and watch the gauge?
-- To let the recovery cylinder cool down so it can be filled further
-* To see whether the pressure rises, which shows refrigerant is still boiling out of oil or trapped liquid
-- Because EPA requires a 30-minute wait on every job
-- To let air leak in before opening
+- To let the recovery cylinder cool so it can be filled further
+* To see if pressure rises from refrigerant still in oil or liquid
+- Because EPA requires a 30-minute wait at the end of every job
+- To let a little air leak in so the system can be opened safely
 > A pressure rise after shutting off the recovery machine shows refrigerant still coming out of oil or liquid pockets. If it rises, continue recovery.
 
 [e186] type2
 During recovery from a large high-pressure system, why is it best to remove liquid first?
-* Liquid recovery moves the refrigerant much faster than vapor recovery
-- Liquid recovery removes the oil from the system
-- Vapor recovery is not allowed by EPA
-- Liquid recovery lowers the cylinder's pressure
+* It moves the refrigerant much faster than vapor recovery
+- It removes the compressor oil from the system at the same time
+- Vapor recovery is no longer allowed by EPA on large systems
+- It lowers the recovery cylinder's pressure as it fills
 > Removing liquid first (for example, by push-pull) removes most of the charge quickly. Vapor recovery then removes the rest.
 
 [e187] type2
 In the push-pull liquid recovery method, the recovery machine:
-- Pushes nitrogen into the system to force the liquid out
-* Pulls vapor from the recovery cylinder and pushes it into the system, which forces liquid into the cylinder
-- Pulls liquid directly through its compressor
+- Pushes nitrogen into the system to force the liquid out through the drain
+* Pulls vapor from the cylinder and pushes it into the system, forcing liquid out
+- Pulls liquid straight through its own compressor into the recovery cylinder
 - Pushes refrigerant from the cylinder back into the system's suction line
 > The machine draws vapor off the cylinder (lowering its pressure) and returns it to the system, so the pressure difference pushes liquid into the cylinder. Vapor recovery finishes the job.
 
@@ -1521,26 +1521,26 @@ Why can recovering a heat pump require access at more than one point?
 
 [e190] type2
 On a system with a receiver and a king valve, liquid refrigerant is most easily recovered from:
-- The suction service valve
-* The liquid line near the receiver outlet (king valve)
-- The compressor crankcase
-- The evaporator drain pan
+- The suction service valve at the compressor
+* The liquid line at the receiver outlet (king valve)
+- The compressor crankcase through the oil drain plug
+- The evaporator drain pan under the indoor coil
 > Liquid collects in the receiver, so a port on the liquid line at the receiver outlet is the best liquid recovery point.
 
 [e191] type2
 Refrigerant recovered from a system that had a compressor burnout should be:
-- Put back into the same system right away without testing
-* Treated as possibly acidic: check the oil for acid and use filter-driers, and keep the recovered refrigerant separate
-- Vented, because burnout refrigerant cannot be reclaimed
-- Mixed with clean refrigerant to dilute the acid
+- Put back into the same system right away without any testing
+* Treated as possibly acidic: test the oil, use driers, keep it separate
+- Vented, because refrigerant from a burnout can never be reclaimed
+- Mixed with clean refrigerant of the same type to dilute the acid
 > Burnout leaves acid and contaminants. Test the oil, install filter-driers (often a suction-line drier) and keep the recovered refrigerant separate for reclaim if needed.
 
 [e192] type2
 What is the most common visible sign of a refrigerant leak on a high-pressure system?
-- Frost on the suction line
-* Oil traces or oily residue at a joint or fitting
-- A clean condenser coil
-- A low discharge temperature
+- Frost forming on the suction line at the compressor
+* Oily residue at a joint or fitting
+- A condenser coil that is unusually clean
+- A discharge line that is cooler than normal
 > Refrigerant carries oil, so oil residue often marks a leak. Confirm with a detector or bubble solution.
 
 [e193] type2
@@ -1553,26 +1553,26 @@ A technician uses an electronic leak detector to find the general area of a leak
 
 [e194] type2
 An ultrasonic leak detector finds leaks by:
-- Detecting chlorine molecules in the air
-* Picking up the high-frequency sound of gas escaping through a small opening
-- Changing the color of a flame
-- Measuring the moisture content of the refrigerant
+- Detecting chlorine molecules in the air around the joint
+* Hearing the high-frequency sound of gas escaping a small hole
+- Changing the color of a flame when refrigerant passes through it
+- Measuring the moisture in the refrigerant at the service port
 > Ultrasonic detectors "hear" the hiss of escaping gas, so they work with any pressurized gas, including nitrogen.
 
 [e195] type2
 Why will a halide torch NOT find leaks of R-410A or other HFCs?
-- HFCs are too heavy to reach the torch
-* Halide torches react to chlorine, and HFCs contain no chlorine
-- Halide torches only work below freezing
-- HFCs burn too quickly
+- HFC vapor is too heavy to rise and reach the torch flame
+* The torch reacts to chlorine, and HFCs contain none
+- Halide torches only work at temperatures below freezing
+- HFCs burn too quickly for the flame to change color
 > The halide torch flame changes color with chlorine. HFCs lack chlorine, and an open flame is an ignition hazard near A2L or A3 refrigerants.
 
 [e196] type2
 After a repair, a system is pressurized with dry nitrogen to perform a standing pressure test. The test pressure must never exceed:
-* The appliance's design or nameplate test pressure (often the low-side test pressure)
-- The nitrogen cylinder pressure
-- 1,000 psig
-- 15 psig
+* The appliance's design or nameplate test pressure
+- The pressure inside the full nitrogen cylinder
+- 1,000 psig, the standard limit for all systems
+- 15 psig, the limit for every refrigeration system
 > Never go above the manufacturer's rated test pressure, usually the low-side value, and always use a regulator and relief valve.
 
 [e197] type2
@@ -1625,58 +1625,58 @@ The two leak rate calculation methods allowed under EPA's leak repair rules are:
 
 [e203] type2
 A walk-in cooler condensing unit with a 40-lb charge of R-404A (an HFC) is losing refrigerant. Under current federal rules:
-- It is not covered, because only appliances with 50 lb or more are covered
-* It is covered by the HFC leak repair rule (15 lb or more), with a 20% commercial refrigeration threshold
-- It is covered with a 10% threshold
-- It is covered only if it is in a supermarket
+- It is not covered, because only appliances of 50 lb or more are covered
+* It is covered by the HFC rule (15 lb or more), with a 20% threshold
+- It is covered, with the 10% threshold used for comfort cooling
+- It is covered only if it is installed in a supermarket building
 > Since January 1, 2026, 40 CFR 84.106 covers HFC appliances with 15 lb or more. Commercial refrigeration must be repaired above a 20% leak rate.
 
 [e204] type2
 A walk-in cooler with a 40-lb charge of R-22 (an HCFC) is losing refrigerant. Under current federal rules:
 - It must be repaired above a 20% leak rate under 40 CFR 82.157
 - It must be repaired above a 20% leak rate under 40 CFR 84.106
-* It is not subject to federal leak repair requirements, because ODS appliances are covered only at 50 lb or more
-- It must be retired within 30 days
+* It is not covered: ODS appliances are covered only at 50 lb or more
+- It must be retired within 30 days of the first leak being found
 > ODS leak repair (40 CFR 82.157) starts at 50 lb, and the HFC rule (40 CFR 84) does not cover systems using only an ODS. Good practice is still to find and fix the leak.
 
 [e205] type2
 A residential split heat pump has 18 lb of R-410A. Under 40 CFR 84.106, is it subject to the HFC leak repair requirements?
-- Yes, because it contains more than 15 lb of HFC
-* No; appliances in the residential and light commercial AC and heat pump subsector are excluded
-- Yes, with a 20% threshold
-- Only if it leaks more than 125% per year
+- Yes, because it contains more than 15 lb of an HFC refrigerant
+* No; residential and light commercial AC and heat pumps are excluded
+- Yes, with the 20% threshold used for commercial refrigeration
+- Only if it leaks more than 125% of its full charge in a year
 > The HFC leak repair rule excludes residential and light commercial air conditioning and heat pump appliances, even above 15 lb. Venting is still prohibited.
 
 [e206] type2
 Under the leak repair rules, what is a "commercial refrigeration" appliance?
-- Any office building air conditioner
-* Refrigeration used in retail food and cold storage warehouses, such as supermarket and grocery systems
-- Equipment used in manufacturing processes
-- Residential freezers used by businesses
+- Any air conditioner that cools an office building
+* Refrigeration for retail food and cold storage warehouses
+- Equipment used to cool a manufacturing process
+- Residential freezers that happen to be used by a business
 > Commercial refrigeration covers retail food and cold storage refrigeration (20% threshold). Manufacturing-process cooling is industrial process refrigeration (30%) and space cooling is comfort cooling (10%).
 
 [e207] type2
 Which appliance is an example of industrial process refrigeration (IPR)?
 - A grocery store's display case system
 - A hotel's air-conditioning chiller
-* A chiller that cools a chemical manufacturing process
-- A home refrigerator
+* A chiller that cools a chemical process
+- A home refrigerator in a break room
 > IPR includes refrigeration used directly in industrial processes, such as chemical, pharmaceutical, petrochemical and manufacturing cooling, ice rinks and some cold storage at plants. Its threshold is 30%.
 
 [e208] type2
 An appliance covered by the leak repair rules exceeds its leak rate threshold. The leak must be repaired within:
-- 10 days
-* 30 days, or 120 days when an industrial process shutdown is required
-- 6 months
-- 1 year
+- 10 days, with no extensions allowed
+* 30 days, or 120 days if an industrial process shutdown is needed
+- 6 months from the date of the leak rate calculation
+- 1 year, as long as EPA is notified in writing
 > Repairs are due within 30 days, extended to 120 days when repair requires an industrial process shutdown. Verification tests follow the repair.
 
 [e209] type2
 After a leak repair on a covered appliance, which tests are required?
-- A single bubble test before the repair
-* An initial verification test, then a follow-up verification test
-- An acid test of the oil
-- A refrigerant purity analysis
+- A single bubble test done before the repair starts
+* An initial verification test, then a follow-up test
+- An acid test of the compressor oil after the repair
+- A laboratory purity analysis of the refrigerant charge
 > An initial verification test confirms the repair right after it is done (before or after adding refrigerant). A follow-up verification test is done within 10 days after the system returns to normal operation.
 
 [e210] type2
@@ -1689,57 +1689,57 @@ The follow-up verification test after a leak repair must be performed within how
 
 [e211] type2
 After a covered appliance has exceeded its leak rate threshold, how often must a commercial refrigeration or IPR appliance with 500 lb or more be inspected for leaks?
-- Every month, permanently
-* Once every three months, until the leak rate stays below the threshold for four quarters in a row
-- Once a year, permanently
-- Only when the owner chooses to
+- Every month, permanently, for as long as it is in use
+* Every three months, until it stays below the threshold for four quarters
+- Once a year, permanently, by a certified third-party inspector
+- Only when the owner decides an inspection is worthwhile
 > Commercial refrigeration and IPR with 500 lb or more need quarterly leak inspections after a leak event until four consecutive quarters below the threshold. Other covered appliances need annual inspections until one year below. A continuously monitoring automatic leak detection system can replace these inspections.
 
 [e212] type2
 Under 40 CFR 84.108, which appliances must have an automatic leak detection (ALD) system?
-- All residential heat pumps with A2L refrigerants
-* Commercial refrigeration and IPR appliances with a full charge of 1,500 lb or more of a refrigerant with GWP above 53
-- Comfort cooling chillers with 50 lb or more
-- Small appliances with hydrocarbon refrigerants
+- All residential heat pumps that use A2L refrigerants
+* Commercial refrigeration and IPR appliances with 1,500 lb or more (GWP over 53)
+- Comfort cooling chillers with a full charge of 50 lb or more
+- Small appliances that use hydrocarbon refrigerants such as R-290
 > ALD is required for commercial refrigeration and IPR appliances with 1,500 lb or more (GWP above 53): at or within 30 days of installation for systems installed from January 1, 2026, and by January 1, 2027 for systems installed from 2017 through 2025.
 
 [e213] type2
 If repairs fail the follow-up verification test, what must the owner of a covered appliance do?
-- Nothing until the next annual inspection
-* Develop a retrofit or retirement plan within 30 days (unless further repairs succeed within the allowed time)
-- Report a criminal violation to EPA
-- Vent the remaining refrigerant and retire the appliance immediately
+- Nothing until the next annual leak inspection is due
+* Make a retrofit or retirement plan within 30 days, unless repairs succeed
+- Report the failed test to EPA as a criminal violation
+- Vent the remaining refrigerant and retire the appliance at once
 > A failed follow-up verification test triggers a retrofit or retirement plan within 30 days, to be completed within one year, unless the owner fixes the leak within the repair period.
 
 [e214] type2
 A system charged with an A2L refrigerant should be recovered with:
 - Any recovery machine that is certified for R-410A
-* A recovery machine and cylinder rated for A2L (flammable) refrigerants
+* A recovery machine and cylinder rated for A2L refrigerants
 - A vacuum pump that exhausts the refrigerant outdoors
-- A system-dependent bag
+- A system-dependent recovery bag, never an active machine
 > A2L refrigerants are mildly flammable. Use recovery machines certified for flammable refrigerants and recovery cylinders labeled and rated for them, with left-hand thread fittings where required.
 
 [e215] type2
 Which practice is required or strongly recommended when servicing an A2L system?
-- Using a halide torch for leak checks
-* Keeping open flames and other ignition sources away and ventilating the work area
+- Using a halide torch to check joints for leaks
+* Keeping ignition sources away and ventilating the area
 - Brazing on the system while it still holds refrigerant
 - Storing A2L cylinders inside an occupied basement
 > A2L refrigerants can ignite at high enough concentrations. Remove ignition sources, ventilate, use A2L-rated tools and follow the equipment maker's instructions.
 
 [e216] type2
 Before brazing on an A2L system, the technician should:
-* Recover the refrigerant, evacuate, then purge with dry nitrogen so no flammable vapor remains
-- Leave a small amount of refrigerant to keep air out
+* Recover, evacuate, then purge with dry nitrogen
+- Leave a little refrigerant in to keep air out
 - Pressurize with compressed air to find the leak
-- Open the system with a torch rather than a tubing cutter
+- Open the system with a torch, not a tube cutter
 > The usual A2L procedure is recover, evacuate, purge with oxygen-free nitrogen (often more than once) and open the system with a cutter. Only then is brazing safe.
 
 [e217] type2
 New residential A2L systems built to UL 60335-2-40 often include a refrigerant detection system. When it senses a leak, it typically:
-- Opens a valve to vent the refrigerant outdoors
-* Turns on the indoor blower to dilute the refrigerant and switches off potential ignition sources such as electric heat
-- Calls the fire department automatically
+- Opens a relief valve to vent the refrigerant outdoors
+* Runs the indoor blower and switches off ignition sources
+- Calls the fire department through the thermostat
 - Shuts off the indoor blower so the leak cannot spread
 > Detection and mitigation systems run the indoor fan to keep refrigerant concentration below the flammable limit and de-energize potential ignition sources; many also stop the compressor. Never disable them.
 
@@ -1761,82 +1761,82 @@ R-454B is a zeotropic blend with a small temperature glide. How should it be cha
 
 [e220] type2
 Can R-454B be used to top off or convert an existing R-410A residential system?
-- Yes; it is a direct drop-in for R-410A
-- Yes, if the oil is changed to mineral oil
-* No; R-454B is approved for new equipment designed for it, and refrigerants must never be mixed
-- Yes, as long as less than 10% is added
+- Yes; it is a direct drop-in replacement for R-410A
+- Yes, as long as the oil is changed to mineral oil
+* No; it is for new equipment, and refrigerants must not be mixed
+- Yes, as long as less than 10% of the charge is added
 > R-454B is listed for new systems built to A2L safety standards, not as a retrofit for R-410A equipment. Mixing refrigerants creates an unknown blend that cannot be charged accurately or reclaimed easily.
 
 [e221] type2
 R-410A and A2L refrigerants such as R-454B and R-32 use which type of compressor oil?
-- Mineral oil
-- Alkylbenzene
-* Polyolester (POE), which absorbs moisture readily
-- No oil at all
+- Mineral oil, like older R-22 systems
+- Alkylbenzene, like most R-12 retrofits
+* Polyolester (POE), which absorbs moisture
+- No oil, because these compressors are oil-free
 > These HFC and HFC/HFO refrigerants use POE (or sometimes PVE) oil. POE is hygroscopic, so keep systems and oil containers closed and evacuate thoroughly.
 
 [e222] type2
 R-410A operates at much higher pressures than R-22. Which tool requirement follows from this?
-* Gauges, hoses and recovery cylinders must be rated for the higher pressures
-- R-410A systems need no gauges
-- Only low-pressure gauges may be used
+* Gauges, hoses and cylinders must be rated for higher pressure
+- R-410A systems need no gauges, only temperature readings
+- Only low-pressure compound gauges may be connected
 - Recovery cylinders must have a 15 psig rupture disc
 > At 75 °F R-410A is about 219 psig versus about 132 psig for R-22. Manifolds, hoses and cylinders must be rated for R-410A pressures.
 
 [e223] type2
 When charging an evacuated chiller that has water in its heat exchanger tubes, why is refrigerant vapor added first?
-* To raise the pressure above the saturation pressure at 32 °F, so the water in the tubes does not freeze
-- Because liquid refrigerant cannot enter a vacuum
-- To test the compressor oil
-- To cool the condenser
+* To stay above the pressure at which the tube water would freeze
+- Because liquid refrigerant cannot flow into a vacuum at all
+- To test the compressor oil before the full charge goes in
+- To cool the condenser before the chiller is started up
 > Liquid flashing at low pressure gets very cold and can freeze and rupture water tubes. Add vapor until the saturation temperature is above 32 °F (about 28 psig for R-134a), then charge liquid.
 
 [e224] type2
 A system with a thermostatic expansion valve (TXV) is usually charged correctly by checking:
-- Superheat only
+- Superheat at the evaporator outlet only
 * Subcooling at the condenser outlet
-- Discharge temperature only
-- Evaporator fan amperage
+- Compressor discharge temperature only
+- The evaporator fan motor amperage
 > TXV systems keep superheat steady, so the charge is set by subcooling. Fixed-orifice systems are charged by superheat. Always follow the manufacturer's charging chart.
 
 [e225] type2
 An air-cooled condensing unit shows high discharge pressure, a very dirty condenser coil and normal subcooling. The most likely cause is:
-- A refrigerant undercharge
+- A refrigerant undercharge from a slow leak
 * Poor heat rejection from the dirty condenser
-- A restricted metering device
-- Too much evaporator airflow
+- A restricted metering device or plugged drier
+- Too much airflow across the evaporator coil
 > A dirty condenser cannot reject heat, so head pressure rises. Clean the coil before adjusting the charge.
 
 [e226] type2
 A system shows high superheat, low suction pressure and low subcooling. The most likely cause is:
-* A low refrigerant charge (possibly from a leak)
-- A refrigerant overcharge
-- Non-condensables in the condenser
-- A dirty condenser coil
+* A low refrigerant charge, possibly from a leak
+- A refrigerant overcharge after the last service
+- Non-condensables trapped in the condenser
+- A dirty condenser coil on the outdoor unit
 > Low charge starves the evaporator (high superheat, low suction) and leaves little liquid to subcool. Find and repair the leak before recharging.
 
 [e227] type2
 Air or other non-condensables in a high-pressure system usually cause:
-- Lower head pressure
-* Higher head (discharge) pressure and reduced capacity
-- A deep vacuum on the low side
-- No change in operation
+- Lower head pressure and higher capacity
+* Higher head pressure and reduced capacity
+- A deep vacuum on the low side at start-up
+- No change in how the system operates
 > Non-condensables collect in the condenser, take up space and raise head pressure. Proper evacuation before charging prevents this.
 
 [e228] type2
 Moisture left in a high-pressure system can cause:
-- Better oil return
-* Acid formation, sludge and ice at the metering device
-- Lower operating costs
-- Higher refrigerant purity
+- Better oil return to the compressor crankcase
+* Acid, sludge and ice at the metering device
+- Lower operating costs in hot weather
+- Higher refrigerant purity over time
 > Water reacts with refrigerant and oil to form acids and sludge, and can freeze at the expansion device. Evacuate properly and replace filter-driers.
 
 [e229] type2
 What vacuum level do many equipment manufacturers specify as the target when dehydrating a system before charging?
-- 4 inches Hg vacuum
-- 10 inches Hg vacuum
-- 15,000 microns
-* About 500 microns or lower, holding during a decay test
+- 4 inches Hg vacuum, read on the compound gauge
+- 10 inches Hg vacuum, held for one minute
+- 15,000 microns, held for at least 10 minutes
+* About 500 microns or lower, holding on a decay test
 > Many manufacturers call for about 500 microns that holds when the pump is isolated. The recovery levels in Table 1 (such as 10 in. Hg) are much shallower and are not dehydration targets.
 
 [e230] type2
@@ -1849,42 +1849,42 @@ A recovery cylinder of R-410A at a stable 75 °F reads 260 psig. The pressure-te
 
 [e231] type2
 Open-drive compressors have a shaft seal that can leak. Which practice helps prevent shaft seal leaks on standby equipment?
-* Running or rotating the compressor periodically so the seal stays lubricated
-- Removing the oil during the off season
-- Pressurizing the crankcase with oxygen
-- Leaving the shaft seal cover off
+* Running or turning the compressor now and then to keep the seal oiled
+- Draining all of the oil out of the compressor for the off season
+- Pressurizing the crankcase with oxygen to keep the seal tight
+- Leaving the shaft seal cover off so the seal can stay cool
 > Seals on idle open-drive compressors can dry out and leak. Running the unit periodically keeps the seal faces wetted with oil.
 
 [e232] type2
 Which locations are common leak points on high-pressure systems?
-- Welded compressor shells only
-* Flare fittings, mechanical joints, valve stems and Schrader cores
-- The inside of the filter-drier
-- The thermostat wiring
+- Welded compressor shells and their mounting feet
+* Flare fittings, valve stems and Schrader cores
+- The inside of the filter-drier's desiccant core
+- The low-voltage thermostat wiring at the unit
 > Mechanical connections, flare nuts, service valve packing and Schrader valves are common leak points. Valve caps should be in place and tight.
 
 [e233] type2
 Recovery equipment used for high-pressure appliances must be certified to show it can reach the required evacuation levels. Which organizations certify it?
-- The refrigerant manufacturer
-- The state fire marshal
-* EPA-approved equipment testing organizations, such as AHRI or UL
-- The local utility
+- The company that manufactures the refrigerant
+- The state fire marshal's office in each state
+* EPA-approved testing organizations, such as AHRI or UL
+- The local electric utility that serves the building
 > Recovery equipment made after November 15, 1993 must be certified by an EPA-approved testing organization. Equipment made from January 1, 2017 is certified to Appendix B3 or B4.
 
 [e234] type2
 Why should recovery cylinders never be filled beyond 80% of capacity during push-pull recovery?
-- Push-pull only works below 50% fill
-* Liquid can overfill the cylinder quickly, and a liquid-full cylinder can rupture as it warms
-- EPA charges a fee above 80%
-- It makes the recovery machine run backward
+- Push-pull recovery only works when the cylinder is under 50% full
+* Liquid fills it fast, and a liquid-full cylinder can burst as it warms
+- EPA charges a disposal fee on cylinders that are more than 80% full
+- An overfilled cylinder makes the recovery machine run backward
 > Push-pull moves large amounts of liquid quickly. Use a scale or a float switch to stop at 80%.
 
 [e235] type2
 A technician is replacing the evaporator coil of a 30-lb R-410A packaged unit. Before opening the system, the technician must:
-- Recover to 4 inches Hg vacuum
-* Recover to 0 inches Hg, the Table 1 level for a high-pressure appliance under 200 lb
-- Recover to 10 inches Hg vacuum
-- Simply close the service valves and cut the coil out
+- Recover to 4 inches Hg vacuum, the pre-1993 level
+* Recover to 0 inches Hg (under 200 lb, high-pressure)
+- Recover to 10 inches Hg vacuum, the large-system level
+- Close the service valves and cut the coil out
 > Replacing an evaporator is a major repair, so the system must reach the Table 1 level: 0 in. Hg for high-pressure appliances under 200 lb.
 
 [e236] type2
@@ -1897,66 +1897,66 @@ Before a 300-lb R-404A refrigeration system is dismantled for disposal, the tech
 
 [e237] type2
 For EPA's evacuation requirements, how are HFC appliances such as R-410A or R-404A systems treated?
-- They are exempt and may be opened at any pressure
-* They follow the same Table 1 evacuation levels as CFC and HCFC appliances of the same pressure class and size
-- They must always be evacuated to 25 mm Hg absolute
-- They may be vented once they reach 0 psig
+- They are exempt and may be opened at any pressure, since HFCs have no ODP
+* They use the same evacuation levels as CFC or HCFC appliances of that class
+- They must always be evacuated to 25 mm Hg absolute before opening
+- They may be vented to the air once they reach 0 psig on the gauge
 > Since the 2016 update, evacuation requirements apply to HFCs and other non-exempt substitutes as well as ODS refrigerants, using the same Table 1 levels.
 
 [e238] type2
 Why should a refrigerant's pressure-temperature relationship be checked before charging recovered refrigerant back into a system?
-- To determine the compressor's age
-* To confirm the refrigerant identity and spot non-condensables
-- To find out the electrical voltage
-- It is not useful
+- To work out how old the compressor is
+* To confirm the refrigerant and spot air in it
+- To find out the supply voltage at the unit
+- It is not useful once the cylinder is labeled
 > Comparing cylinder pressure with the P-T chart at a known temperature helps confirm what is in the cylinder and whether air is present. A refrigerant identifier gives more certainty.
 
 [e239] type2
 When adding liquid refrigerant into the suction side of an operating system, the technician must:
 - Add it as fast as possible to shorten the job
-* Meter it in slowly (throttle it) so it vaporizes before reaching the compressor
-- Turn the compressor off
+* Meter it in slowly so it vaporizes first
+- Turn the compressor off before adding it
 - Add it through the discharge service valve
 > Compressors are designed to pump vapor. Liquid slugging can damage valves, so liquid added to the suction side must be throttled.
 
 [e240] type2
 Under the leak repair rules, a seasonal variance or a refrigerant addition immediately after a retrofit:
-- Always counts as a leak
-* Can be excluded from leak rate calculations if it meets the rule's conditions and is documented
-- Must be reported to EPA within 24 hours
-- Requires the appliance to be retired
+- Always counts as a leak and must be included in the calculation
+* May be left out of the leak rate if it meets the rule and is documented
+- Must be reported to EPA by telephone within 24 hours
+- Requires the appliance to be retired at the end of the season
 > The rules let owners exclude refrigerant added right after a retrofit, and certain documented seasonal variances, when calculating leak rates.
 
 [e241] type2
 The owner of a covered appliance must have its full charge documented. Which method is acceptable to determine full charge?
-* Using the manufacturer's information, calculations based on component sizes, or a documented established range
-- Asking the technician to estimate from memory
-- Assuming 50 lb for all systems
-- Weighing the outdoor unit
+* Manufacturer data, a calculation from component sizes, or a documented range
+- Asking the technician to estimate the charge from memory on site
+- Assuming a full charge of 50 lb for every system, whatever its size
+- Weighing the outdoor unit and subtracting its shipping weight
 > EPA allows manufacturer data, calculations based on components and line sets, a combination, or an established range based on best information. The full charge determination must be documented and kept.
 
 [e242] type2
 Under the HFC leak repair rule, an appliance that leaks more than 125% of its full charge during a calendar year must:
-- Be retired within 30 days
-* Be reported to EPA by March 1 of the next year, describing the efforts to find and repair leaks
-- Be converted to R-22
-- Be inspected monthly for 10 years
+- Be retired from service within 30 days
+* Be reported to EPA by March 1 of the following year
+- Be converted to R-22, which leaks less easily
+- Be inspected every month for the next 10 years
 > Chronically leaking appliances (over 125% per year) must be reported to EPA by March 1. Reporting under 40 CFR 84 begins with 2026 data (reports in 2027).
 
 [e243] type2
 Why must repaired systems be leak tested before they are recharged?
-- EPA requires a full system flush before every charge
-* To confirm the repair holds before refrigerant is added, so the new charge is not lost
-- To reset the leak rate to zero
-- To warm the compressor
+- EPA requires a full system flush before every new charge
+* To prove the repair holds before refrigerant is added
+- To reset the appliance's leak rate history to zero
+- To warm the compressor before it is started again
 > A pressure test with nitrogen, or an initial verification test, shows whether the repair holds. Charging a leaking system wastes refrigerant and harms the environment.
 
 [e244] type2
 A technician recovers R-410A into a cylinder that already holds R-22. What is the result?
-- Nothing; the two will separate in the cylinder
-* The cylinder now holds a mixed refrigerant that probably cannot be reclaimed and may need to be destroyed
-- The mixture becomes pure R-410A
-- It is legal as long as the label is changed
+- Nothing; the two refrigerants will separate inside the cylinder
+* The mixture probably cannot be reclaimed and may have to be destroyed
+- The mixture slowly turns into pure R-410A as it sits in storage
+- It is legal, as long as the cylinder label is changed to "R-410A"
 > Mixed refrigerants usually cannot be separated by reclaimers. Keep a dedicated, labeled cylinder for each refrigerant.
 
 [e245] type2
@@ -1969,42 +1969,42 @@ When a system's compressor is not working, how can the technician still recover 
 
 [e246] type2
 Water-cooled condensers on high-pressure systems can freeze and burst during recovery or charging because:
-- Refrigerant attacks copper
-* Lowering the refrigerant pressure lowers its saturation temperature, which can drop below 32 °F
-- Water expands when heated
-- Recovery machines inject cold water
+- Refrigerant attacks the copper tubes and weakens them as it is removed
+* Lower refrigerant pressure means a lower boiling point, which can go below 32 °F
+- Water expands when it is heated by the refrigerant during recovery
+- Recovery machines inject cold water into the condenser to speed recovery
 > As pressure drops during recovery, the refrigerant can cool the water in the tubes below freezing. Circulate or drain the water to prevent tube damage.
 
 [e247] type2
 On a large system, a technician wants to recover refrigerant faster. Which choice is correct?
-- Use the longest hoses available
-* Recover liquid first, use large short hoses, and remove valve cores where possible
-- Recover only vapor through the smallest port
-- Warm the recovery cylinder with a torch
+- Use the longest hoses available to reach the machine easily
+* Recover liquid first, with short large hoses and cores removed
+- Recover only vapor, through the smallest port on the system
+- Warm the recovery cylinder with a torch to speed up transfer
 > Liquid recovery moves the most refrigerant quickly. Restrictions such as long thin hoses and Schrader cores slow both liquid and vapor recovery.
 
 [e248] type2
 Which statement about A2L refrigerant leak detection is correct?
-- Any electronic detector works the same on all refrigerants
-* Use a leak detector designed and rated for the A2L refrigerant, and never an open-flame detector
-- A2L leaks can only be found by smell
-- A2L systems never leak
+- Any electronic leak detector works the same on all refrigerants
+* Use a detector rated for the A2L refrigerant, never an open flame
+- A2L leaks can only be found by smell, so detectors are not used
+- A2L systems are factory sealed and never leak in normal service
 > Detector sensors respond differently to different refrigerants. Use one listed for the refrigerant, and avoid flame-type detectors near flammable refrigerants.
 
 [e249] type2
 Recovery cylinders used for A2L refrigerants should have:
-- A blue top and a right-hand thread valve
-* Markings for flammable refrigerant and the matching (often left-hand) valve threads
-- A 15 psig rupture disc
-- No pressure relief device
+- A blue top and a standard right-hand valve thread
+* Flammable-refrigerant markings and matching valve threads
+- A 15 psig rupture disc instead of a relief valve
+- No pressure relief device, to keep the gas from escaping
 > Flammable-rated recovery cylinders are marked for flammable gas and use fittings that match A2L equipment. They still have a pressure relief valve.
 
 [e250] type2
 A technician is installing a new A2L split system. Which practice is required by the safety standards that apply to these systems?
-* Following the manufacturer's instructions on minimum room area, line set brazing and refrigerant detection system setup
-- Adding extra refrigerant "just in case" to make up for future leaks
-- Removing the refrigerant detection sensor to avoid nuisance trips
-- Installing the outdoor unit inside a closet
+* Following the maker's rules on room area, brazing and leak sensors
+- Adding extra refrigerant "just in case" to cover future leaks
+- Removing the refrigerant detection sensor to stop nuisance trips
+- Installing the outdoor unit inside a closet to protect it
 > A2L systems are listed to UL 60335-2-40, and building codes adopt ASHRAE 15/15.2. These set charge limits based on room size and require the detection and mitigation features to work as designed.
 
 [e251] type2
@@ -2017,18 +2017,18 @@ A system's charge must be adjusted after a repair. What is the most accurate cha
 
 [e252] type2
 Liquid refrigerant is trapped between two closed valves in a liquid line. As the line warms up:
-* Pressure rises sharply and can burst the line or a component
-- Pressure drops into a vacuum
+* Pressure rises sharply and can burst the line
+- Pressure drops until the line is in a vacuum
 - Nothing happens, because liquids do not expand
-- The liquid turns into oil
+- The liquid slowly separates into oil and vapor
 > Liquid expands as it warms. In a trapped space that causes an enormous hydrostatic pressure rise. Never isolate liquid-full sections without relief.
 
 [e253] type2
 Which pressure relief device protects most high-pressure systems and recovery cylinders from over-pressure?
-- A rupture disc set at 15 psig
-* A pressure relief valve set at the vessel's rated pressure
-- A fusible plug that melts at 32 °F
-- A sight glass
+- A rupture disc set to burst at 15 psig on every vessel
+* A pressure relief valve set at the vessel's rating
+- A fusible plug that is designed to melt at 32 °F
+- A sight glass installed in the liquid line
 > High-pressure vessels and cylinders use relief valves (and sometimes fusible plugs) set for their rating. The 15 psig rupture disc is a feature of low-pressure chillers.
 
 [e254] type2
@@ -2065,18 +2065,18 @@ A technician repairs a leak on a 250-lb R-134a comfort cooling chiller. When mus
 
 [e258] type2
 What is the purpose of a filter-drier in the liquid line?
-- To meter refrigerant into the evaporator
-* To remove moisture, acid and particles from the circulating refrigerant
-- To separate oil from refrigerant
-- To raise the discharge pressure
+- To meter refrigerant into the evaporator coil
+* To remove moisture, acid and particles
+- To separate oil from the refrigerant vapor
+- To raise the discharge pressure in cold weather
 > Filter-driers trap moisture, acids and debris. Replace them whenever the system is opened, especially after a burnout.
 
 [e259] type2
 During evacuation of a high-pressure system, the micron gauge stalls at 1,500 microns and will not go lower. Which is a likely cause?
-- The system is completely dry
-* Moisture still boiling off, a small leak, or contaminated vacuum pump oil
-- The refrigerant charge is too high
-- The vacuum pump is too large
+- The system is completely dry and ready to be charged
+* Moisture still boiling off, a small leak, or bad pump oil
+- The refrigerant charge left in the system is too high
+- The vacuum pump is too large for a system of that size
 > A stalled vacuum suggests moisture, a leak or wet pump oil. Change the oil, check connections and isolate the pump to perform a decay test.
 
 [e260] type2
@@ -2090,10 +2090,10 @@ Which refrigerant is most likely to be found in a newly manufactured residential
 
 [e261] type3
 Type III certification is required to maintain, service, repair or dispose of:
-- Small appliances
-- High-pressure rooftop units
-* Low-pressure appliances, such as centrifugal chillers using R-123 or R-1233zd(E)
-- Motor vehicle air conditioners
+- Small appliances such as window units and refrigerators
+- High-pressure rooftop units on commercial buildings
+* Low-pressure appliances, such as R-123 or R-1233zd(E) chillers
+- Motor vehicle air conditioners in cars and trucks
 > Type III covers low-pressure appliances. Type I covers small appliances and Type II covers medium-, high- and very high-pressure appliances.
 
 [e262] type3
@@ -2122,10 +2122,10 @@ R-11, once common in low-pressure centrifugal chillers, is a:
 
 [e265] type3
 R-123 is an HCFC used in many existing low-pressure chillers. Under the HCFC phaseout:
-- Its production ended in 2010
-- Its production ended on January 1, 2020
-* Production for servicing existing equipment is allowed until January 1, 2030
-- It will never be phased out
+- Its production for all uses ended on January 1, 2010
+- Its production ended for good on January 1, 2020
+* Production for servicing existing chillers is allowed until 2030
+- It will never be phased out because its ODP is so low
 > R-123 production and import may continue for servicing existing chillers until January 1, 2030, when all HCFC production ends. New R-123 chillers can no longer be made.
 
 [e266] type3
@@ -2154,18 +2154,18 @@ What is the ASHRAE 34 safety classification of R-1233zd(E)?
 
 [e269] type3
 Why do air and moisture tend to leak INTO a low-pressure chiller?
-- The condenser operates in a deep vacuum
-* Parts of the system, especially the evaporator, operate below atmospheric pressure
-- Low-pressure refrigerants absorb air from the cooling tower
-- The purge unit pumps air in
+- The condenser normally operates in a deep vacuum
+* Parts of the system, mainly the evaporator, run below atmospheric pressure
+- Low-pressure refrigerants absorb air from the cooling tower water
+- The purge unit pumps outside air into the chiller to balance pressure
 > R-11 and R-123 chillers run with the evaporator below atmospheric pressure, so leaks draw air and moisture in rather than letting refrigerant out.
 
 [e270] type3
 What does the purge unit on a low-pressure chiller do?
-- Removes oil from the refrigerant
-* Removes air, moisture and other non-condensables from the system
-- Adds refrigerant automatically
-- Pumps condenser water
+- Removes oil that has mixed into the refrigerant
+* Removes air, moisture and other non-condensables
+- Adds refrigerant automatically when the charge is low
+- Pumps condenser water through the tower and back
 > Non-condensables raise condenser pressure and cut efficiency. The purge unit removes them and releases the air while returning refrigerant to the system.
 
 [e271] type3
@@ -2178,18 +2178,18 @@ Where do non-condensables collect in a low-pressure chiller, and where does the 
 
 [e272] type3
 A low-pressure chiller's purge unit has been running much more often than usual. This most likely means:
-- The refrigerant charge is too high
-* Air is leaking into the chiller, so there is a leak that should be found and repaired
-- The chilled water is too warm
+- The refrigerant charge is too high for the chiller's size
+* Air is leaking in, so the leak should be found and repaired
+- The chilled water supply temperature is set too warm
 - The purge unit is working perfectly and needs no attention
 > Frequent purging shows air is getting in. Track purge run time and repair leaks promptly, because every purge cycle releases a small amount of refrigerant.
 
 [e273] type3
 Why are high-efficiency purge units required or preferred on modern low-pressure chillers?
 * They release far less refrigerant with the air they vent
-- They run more often to remove more air
-- They add oil to the refrigerant
-- They let the chiller run above 15 psig
+- They run more often, so they can remove more air overall
+- They add oil to the refrigerant to protect the compressor
+- They let the chiller run safely above its 15 psig rating
 > Older purge units vented a lot of refrigerant with the air. High-efficiency units separate refrigerant from the air before release, cutting emissions.
 
 [e274] type3
@@ -2210,10 +2210,10 @@ When leak testing a low-pressure chiller, the pressure should never exceed:
 
 [e276] type3
 What is the preferred way to raise the pressure inside an R-123 chiller for a leak test while the refrigerant is still in it?
-- Adding nitrogen to 50 psig
-* Using controlled hot water through the tubes or heater blankets, keeping the pressure at or below 10 psig
-- Running the compressor with the condenser water off
-- Using an open flame on the evaporator shell
+- Adding dry nitrogen until the chiller reaches about 50 psig
+* Hot water through the tubes or heater blankets, up to 10 psig
+- Running the compressor with the condenser water turned off
+- Heating the evaporator shell with an open flame torch
 > Warming the refrigerant raises its own pressure without adding a gas that would have to be purged later. Keep it at or below 10 psig.
 
 [e277] type3
@@ -2226,10 +2226,10 @@ Before opening a low-pressure appliance for a repair that is not major (and not 
 
 [e278] type3
 Under 40 CFR 82.156, when pressurizing an R-11 or R-123 chiller (refrigerants that boil at or below 85 °F at atmospheric pressure) to 0 psig before opening it, the technician:
-- Should use nitrogen because it is fastest
-* Must not use methods such as nitrogen that would need to be purged later, and should use heat instead
-- Must use compressed air
-- Must first evacuate to 25 mm Hg absolute
+- Should use nitrogen, because it is the fastest and cleanest method
+* Must not use nitrogen or other gases that must be purged later; use heat
+- Must use compressed air, fed in through the purge unit connection
+- Must first evacuate the chiller all the way to 25 mm Hg absolute
 > Adding nitrogen would mean purging it later, which releases refrigerant. For refrigerants boiling at or below 85 °F (R-11 at about 75 °F, R-123 at about 82 °F), use heat such as controlled hot water or heater blankets.
 
 [e279] type3
@@ -2274,66 +2274,66 @@ When recovering refrigerant from a low-pressure chiller, what should be removed 
 
 [e284] type3
 After the liquid has been removed from a large low-pressure chiller, why is vapor recovery still important?
-- The vapor contains all the oil
-* A large amount of refrigerant remains as vapor because of the chiller's large volume
-- The vapor is exempt from the venting ban
-- Vapor recovery is optional on chillers
+- The vapor carries all of the oil that is left in the chiller
+* The chiller's large volume still holds a lot of refrigerant as vapor
+- Refrigerant vapor is exempt from the venting ban on chillers
+- Vapor recovery is optional on chillers once the liquid is out
 > Big chiller shells hold a lot of vapor, often around 100 lb in a large machine. It must be recovered to reach 25 mm Hg absolute.
 
 [e285] type3
 During refrigerant recovery from a water-cooled low-pressure chiller, why should water be circulated through the tubes (or the tubes drained)?
-- To clean the tubes while the chiller is off
-* To keep the water from freezing as the refrigerant pressure and temperature drop
-- To cool the recovery cylinder
-- To raise the pressure above 15 psig
+- To clean the tubes while the chiller is shut down
+* To keep the tube water from freezing as pressure drops
+- To cool the recovery cylinder during the transfer
+- To raise the chiller's pressure above 15 psig
 > As refrigerant is removed the remaining refrigerant cools. Circulating water (or draining the tubes) prevents freezing that could burst the tubes.
 
 [e286] type3
 Heating the chiller (for example, by circulating warm water through the tubes) during recovery:
-- Is illegal
+- Is illegal, because it can open the rupture disc
 * Raises the refrigerant pressure and speeds up recovery
-- Lowers the refrigerant pressure
-- Must be done above 150 °F
+- Lowers the refrigerant pressure and slows recovery down
+- Must be done with water hotter than 150 °F to work
 > Warmer refrigerant has a higher vapor pressure, so it moves to the recovery unit faster. Keep the pressure well below the rupture disc rating.
 
 [e287] type3
 The condenser on many recovery units designed for low-pressure chillers is cooled by:
-- The chiller's own evaporator
-* Water, such as city water or the chiller's condenser water
-- Liquid nitrogen
-- Nothing; it is air-cooled only
+- The chiller's own evaporator and chilled water
+* Water, such as city water or the condenser water
+- Liquid nitrogen from a separate dewar
+- Nothing; these units are air-cooled only
 > Low-pressure recovery machines commonly use a water-cooled condenser to handle large volumes of vapor efficiently.
 
 [e288] type3
 When charging an evacuated low-pressure chiller, why should vapor be added before liquid?
-- Liquid cannot enter the chiller under vacuum
-* Liquid flashing at very low pressure could freeze the water in the tubes
-- Vapor charging is faster
-- EPA requires 10 lb of vapor first
+- Liquid refrigerant cannot flow into a chiller under vacuum
+* Liquid flashing at very low pressure could freeze the tube water
+- Charging with vapor is faster than charging with liquid
+- EPA requires that 10 lb of vapor be added before any liquid
 > Add vapor until the saturation temperature is above 32 °F (about 18 in. Hg vacuum for R-11 and 20 in. Hg vacuum for R-123), then add liquid. This prevents frozen and burst tubes.
 
 [e289] type3
 Liquid refrigerant is usually charged into a low-pressure chiller through:
-- The purge unit
-- The rupture disc connection
+- The purge unit's vent connection
+- The rupture disc connection on the evaporator
 * The charging valve near the bottom of the evaporator
-- The compressor discharge
+- The compressor discharge line
 > Liquid is added through the evaporator charging valve, after enough vapor has been added to raise the saturation temperature above freezing.
 
 [e290] type3
 A tube leak in a low-pressure chiller's evaporator or condenser often lets water into the refrigerant side because:
-* The water side is at a higher pressure than the refrigerant side
-- Refrigerant dissolves the tubes
-- The purge unit pumps water in
-- The rupture disc lets water in
+* The water side is at higher pressure than the refrigerant side
+- The refrigerant slowly dissolves the copper tubes from inside
+- The purge unit pumps water into the shell when it runs
+- The rupture disc lets water in when the chiller is idle
 > The water circuit is above atmospheric while the refrigerant side is often in a vacuum, so water flows into the refrigerant through any tube leak.
 
 [e291] type3
 What test is commonly used to find leaking tubes in a chiller's water box?
-- A purge unit run-time test
-* A hydrostatic tube test, or isolating tubes and checking them for leaks
-- A compressor amperage test
-- An oil acid test only
+- A purge unit run-time test over one week
+* A hydrostatic test of the tubes, one tube at a time
+- A compressor amperage test under full load
+- An acid test of the oil, with nothing else
 > Leaking tubes are found by testing individual tubes (for example, a hydrostatic test or isolating tubes with plugs) and then plugging or replacing them.
 
 [e292] type3
@@ -2346,50 +2346,50 @@ Water in the refrigerant side of an R-123 chiller can cause:
 
 [e293] type3
 A technician finds water draining from the purge unit much more often than usual. This suggests:
-* Moisture is entering the system, possibly through a tube leak
-- The refrigerant charge is low
-- The rupture disc is set too high
-- The compressor oil is overcharged
+* Moisture is getting in, possibly through a tube leak
+- The refrigerant charge in the chiller is too low
+- The rupture disc has been set to burst too high
+- The compressor has been overfilled with oil
 > The purge unit removes moisture as well as air. Excess water points to a leak path, such as a leaking tube, that must be found.
 
 [e294] type3
 What is the purpose of the rupture disc on a low-pressure chiller?
-- To control the purge unit
-* To protect the chiller from excessive pressure by bursting and relieving it
-- To measure the refrigerant charge
-- To keep air out of the evaporator
+- To control when the purge unit starts and stops
+* To protect the chiller by bursting at excess pressure
+- To measure how much refrigerant is in the chiller
+- To keep air from leaking into the evaporator shell
 > The rupture disc is a one-time relief device that bursts if pressure gets too high, usually at 15 psig, venting to the outdoors as ASHRAE 15 requires.
 
 [e295] type3
 Discharge from a chiller's rupture disc or relief device should be piped:
-- Into the mechanical room
-* To the outdoors, away from people and air intakes
-- Into the chilled water loop
-- Into the purge unit
+- Into the mechanical room, near the chiller
+* Outdoors, away from people and air intakes
+- Into the chilled water loop, to absorb it
+- Into the purge unit, to separate the air
 > ASHRAE 15 requires relief devices to discharge to the outdoors in a safe location, away from windows, doors and air intakes.
 
 [e296] type3
 Because R-123 is a B1 refrigerant, ASHRAE 15 requires the chiller's machinery room to have:
-- An open flame alarm
-* A refrigerant detector that triggers an alarm and mechanical ventilation
-- No ventilation
-- A purge unit on every pipe
+- An alarm that sounds if an open flame is detected
+* A refrigerant detector that starts an alarm and ventilation
+- No ventilation, so refrigerant cannot escape outdoors
+- A purge unit fitted on every pipe in the room
 > Machinery rooms need refrigerant detectors set at or below the refrigerant's exposure limit, which sound an alarm and start ventilation.
 
 [e297] type3
 An R-123 chiller sits idle in a 75 °F mechanical room. R-123 boils at about 82 °F at atmospheric pressure. What is the pressure inside the chiller?
-- About 50 psig
+- About 50 psig, like an R-134a chiller
 * Slightly below atmospheric (a slight vacuum)
-- Exactly 15 psig
-- About 100 psig
+- Exactly 15 psig, the rupture disc setting
+- About 100 psig, close to the relief setting
 > At 75 °F, saturated R-123 is about 2 psi below atmospheric (roughly 4 in. Hg vacuum). Air can still leak in while the chiller is idle.
 
 [e298] type3
 An R-1233zd(E) chiller sits idle in a 75 °F mechanical room. R-1233zd(E) boils at about 65 °F at atmospheric pressure. Compared with an idle R-123 chiller, it:
-- Is in a deeper vacuum
-* Is slightly above atmospheric pressure, so leaks would let refrigerant out
-- Is at 150 psig
-- Contains no refrigerant
+- It is in a deeper vacuum than the R-123 chiller
+* It is just above atmospheric, so a leak lets refrigerant out
+- It is at about 150 psig, like a high-pressure system
+- It contains no refrigerant once it has been shut down
 > R-1233zd(E) at 75 °F is about 3.5 psig. Its low side may still run in a vacuum during operation, but at idle in a warm room it is slightly pressurized.
 
 [e299] type3
@@ -2418,26 +2418,26 @@ A low-pressure chiller cools a manufacturing process and holds 600 lb of R-123. 
 
 [e302] type3
 A new chiller uses R-1233zd(E), whose GWP is about 1. Does the HFC leak repair rule in 40 CFR 84.106 apply to it?
-- Yes, every chiller over 15 lb is covered
-* No; the rule covers refrigerants containing an HFC or a substitute with GWP above 53, and R-1233zd(E) is neither
-- Yes, with a 10% threshold
-- Only if the chiller is in a supermarket
+- Yes, every chiller with more than 15 lb of refrigerant is covered
+* No; R-1233zd(E) is not an HFC and its GWP is far below 53
+- Yes, with the 10% threshold that applies to comfort cooling
+- Only if the chiller is installed in a supermarket building
 > 40 CFR 84.106 applies to refrigerants that contain an HFC or have a GWP above 53. R-1233zd(E) is not an ODS either, so neither leak repair rule applies, although the venting prohibition still does.
 
 [e303] type3
 May a technician vent R-1233zd(E) or R-514A from a chiller because their GWPs are very low?
-- Yes, any refrigerant with GWP below 10 may be vented
-- Yes, but only outdoors
-* No; they are not on EPA's list of exempt substitutes, so they must be recovered
-- Yes, if less than 50 lb is released
+- Yes, any refrigerant with a GWP below 10 may be vented
+- Yes, but only outdoors and away from building air intakes
+* No; they are not exempt substitutes, so they must be recovered
+- Yes, as long as less than 50 lb is released at one time
 > Low GWP alone does not make a refrigerant exempt. Only listed substitutes (such as CO2, nitrogen, water, and ammonia or hydrocarbons in specific end-uses) may be released.
 
 [e304] type3
 Under the leak repair rules, an R-123 chiller leaking more than 125% of its full charge in a calendar year must be:
-- Retired immediately
-* Reported to EPA as chronically leaking by March 1 of the following year
-- Converted to R-11
-- Exempted from leak inspections
+- Retired immediately and replaced with a new chiller
+* Reported to EPA as chronically leaking by March 1
+- Converted back to R-11, which has a lower leak rate
+- Exempted from leak inspections for the next year
 > Appliances that leak over 125% of their full charge in a year must be reported to EPA by March 1, describing efforts to identify and repair leaks.
 
 [e305] type3
@@ -2450,74 +2450,74 @@ A leak repair has been made on a 500-lb R-123 comfort cooling chiller. Within ho
 
 [e306] type3
 A low-pressure chiller cannot be evacuated to 25 mm Hg absolute because of a leak in one section. What should the technician do?
-- Vent the remaining refrigerant
-* Isolate the leaking section, evacuate the rest to the required level, and evacuate the leaking section to the lowest level achievable, which may not exceed 0 psig
-- Add nitrogen to push out the refrigerant
-- Leave the chiller as it is
+- Vent the remaining refrigerant and note it on the work order
+* Isolate the leak, evacuate the rest fully and the leaking part to 0 psig or lower
+- Add nitrogen to push the rest of the refrigerant out through the purge
+- Leave the chiller as it is until the leak can be found and repaired
 > If leaks make the required level impossible, EPA allows isolating leaking components and evacuating them to the lowest attainable level, no higher than 0 psig.
 
 [e307] type3
 After evacuating a low-pressure chiller to the required level, the technician isolates the recovery unit and the pressure starts to rise. The most likely reasons are:
-- The rupture disc is leaking water
-* Refrigerant is still boiling out of the oil or trapped liquid, or air is leaking in
-- The chiller is overcharged
-- The recovery unit is pushing refrigerant back
+- The rupture disc is leaking condenser water into the shell
+* Refrigerant still boiling out of oil or liquid, or air leaking in
+- The chiller was overcharged with refrigerant at the last service
+- The recovery unit is pushing refrigerant back into the chiller
 > A pressure rise means remaining refrigerant is still vaporizing (continue recovery) or the system has a leak letting air in.
 
 [e308] type3
 Leak testing a low-pressure chiller that has been emptied of refrigerant can be done by pressurizing it with:
-- Oxygen to 50 psig
-* Dry nitrogen, keeping the pressure at or below 10 psig
-- Compressed air to 15 psig
-- Water vapor
+- Oxygen, raised to about 50 psig
+* Dry nitrogen, at no more than 10 psig
+- Compressed air, raised to 15 psig
+- Water vapor from a steam hose
 > With the refrigerant removed, nitrogen through a regulator can be used for a pressure test, kept at 10 psig or less to protect the 15 psig rupture disc. Never use oxygen or compressed air.
 
 [e309] type3
 Which method is commonly used to look for leaks on a low-pressure chiller that is under vacuum?
-- A halide torch on the water box
-* A vacuum (standing) test watching for a pressure rise, then raising pressure with heat to locate leaks with a detector
-- Smelling for refrigerant near the motor
-- Checking the purge unit oil
+- A halide torch held near the water box
+* A standing vacuum test, then gentle heat and a leak detector
+- Smelling for refrigerant near the compressor motor
+- Checking the purge unit's oil level every week
 > A rise during a standing vacuum test shows a leak exists. Raising the pressure slightly (with hot water or heater blankets, up to 10 psig) lets an electronic detector or bubbles find it.
 
 [e310] type3
 Why is it important to minimize the time a low-pressure chiller is open to the atmosphere during repairs?
-- The refrigerant will freeze
-* Moisture and air enter, and must later be removed by evacuation and purging
-- The rupture disc will burst
-- The compressor will overheat
+- The refrigerant left inside will freeze solid
+* Air and moisture get in and must be removed later
+- The rupture disc will burst from the air pressure
+- The compressor motor will overheat on start-up
 > Opening a chiller lets in moist air. Keep openings short and evacuate and dehydrate thoroughly before returning it to service.
 
 [e311] type3
 Refrigerant recovered from a low-pressure chiller is often stored in the chiller's own pump-out storage tank or in DOT containers. Recovery containers must:
-- Be filled to 100% to save space
-* Be filled to no more than 80% and labeled with the refrigerant they contain
-- Be shared between R-123 and R-11
-- Be stored in the chilled water loop
+- Be filled to 100% so that fewer containers are needed
+* Be filled to no more than 80% and labeled for their refrigerant
+- Be shared between R-123 and R-11 to save on containers
+- Be stored in the chilled water loop to keep them cool
 > Every recovery container must be properly rated, labeled, kept separate by refrigerant type and filled no more than 80% by liquid volume.
 
 [e312] type3
 A large R-123 chiller has a built-in pump-out unit and storage vessel. If it is used to remove the refrigerant for a major repair:
-- The refrigerant may be vented if the vessel is full
-* The refrigerant must still be evacuated from the chiller to the required Table 1 level
-- No evacuation level applies
-- The vessel must be emptied into the atmosphere afterward
+- The refrigerant may be vented once the vessel is full
+* The chiller must still be evacuated to the required level
+- No evacuation level applies to chillers with pump-out units
+- The vessel must be emptied to the atmosphere afterward
 > Whatever equipment is used, the chiller must reach the required level (25 mm Hg absolute with post-1993 equipment) before a major repair or disposal.
 
 [e313] type3
 R-11 boils at about 75 °F and R-123 at about 82 °F at atmospheric pressure. What does this mean for the chiller when it is running?
-- The evaporator runs at high positive pressure
-* The evaporator operates in a vacuum at normal chilled-water temperatures
-- The condenser operates in a deep vacuum
-- The refrigerants cannot evaporate below 75 °F
+- The evaporator runs at a high positive pressure
+* The evaporator runs in a vacuum at normal water temperatures
+- The condenser operates in a deep vacuum all the time
+- The refrigerants cannot evaporate at all below 75 °F
 > At typical evaporator temperatures (around 40 °F) these refrigerants are well below atmospheric pressure, which is why air leaks in and purge units are needed.
 
 [e314] type3
 What is the main reason oil should not be removed from a low-pressure chiller before the refrigerant dissolved in it is dealt with?
-- Oil cannot be removed from chillers
-* Oil can hold dissolved refrigerant, which would be released if the oil were simply drained
-- Oil is exempt from all regulations
-- Oil removal raises the rupture disc pressure
+- Oil cannot be removed from low-pressure chillers at all
+* The oil holds dissolved refrigerant that draining would release
+- Chiller oil is exempt from all refrigerant regulations
+- Removing oil raises the pressure at which the disc bursts
 > Refrigerant dissolves in compressor oil. Following the manufacturer's procedure (for example, warming the oil and recovering the vapor) keeps refrigerant from being released with it.
 
 [e315] type3
@@ -2538,50 +2538,50 @@ What is a major advantage of R-1233zd(E) over R-123?
 
 [e317] type3
 A low-pressure chiller's refrigerant charge is being weighed back in after a repair. The technician must avoid:
-- Charging through the evaporator charging valve
-* Charging liquid while the pressure is still below the saturation pressure at 32 °F
-- Using a scale
+- Charging through the charging valve on the evaporator
+* Charging liquid while the pressure is too low to stop freezing
+- Using a scale to weigh in the nameplate charge
 - Following the manufacturer's charge specification
 > Liquid introduced while the chiller is in a deep vacuum flashes and can freeze the water in the tubes. Charge vapor first, then liquid.
 
 [e318] type3
 Which leak repair records must be kept for a covered low-pressure chiller?
-- None, chillers are exempt
-* Records of refrigerant added, leak rate calculations, leak inspections and verification tests, kept for 3 years
-- Only the purchase invoice of the chiller
-- Only records of oil changes
+- None, because chillers are exempt from recordkeeping
+* Charges added, leak rates, inspections and tests, kept 3 years
+- Only the original purchase invoice for the chiller
+- Only records of oil changes and filter replacements
 > Owners must keep service records showing refrigerant added, leak rate calculations, inspections and verification test results for three years.
 
 [e319] type3
 Who may service an R-123 chiller in a way that could release refrigerant?
-- Any maintenance worker
-* A technician with Type III or Universal certification (or a supervised apprentice)
-- Only a Type I technician
-- Only the building owner
+- Any maintenance worker employed by the building
+* A Type III or Universal technician, or a supervised apprentice
+- Only a technician who holds Type I certification
+- Only the building owner or the owner's manager
 > Low-pressure appliances require Type III or Universal certification. Registered apprentices may work under close supervision of a certified technician.
 
 [e320] type3
 During liquid recovery from a low-pressure chiller, why is the recovery vessel's pressure important to watch?
-- Recovery vessels for low-pressure refrigerants have no pressure limits
-* To avoid overfilling and over-pressurizing the vessel, keeping within its rating and the 80% fill limit
-- To measure the chilled water flow
-- To keep the purge unit running
+- Vessels for low-pressure refrigerants have no pressure limits
+* To keep the vessel within its pressure rating and 80% fill limit
+- To measure the chilled water flow rate through the evaporator
+- To keep the purge unit running while the liquid is removed
 > Even low-pressure refrigerants can create dangerous pressure in an overfilled or overheated container. Watch the scale and pressure and stop at 80%.
 
 [e321] type3
 Which statement about recovering refrigerant from a low-pressure chiller with a working purge unit is correct?
-- The purge unit can be used as the recovery device
-* The purge unit is for removing non-condensables, not for recovering the charge; use certified recovery equipment
-- The purge unit must be removed before recovery
-- The purge unit vents the refrigerant legally
+- The purge unit can be used as the recovery device for the charge
+* The purge removes air, not the charge; use certified recovery equipment
+- The purge unit must be removed from the chiller before any recovery
+- The purge unit may legally vent the charge to the atmosphere
 > Purge units remove air and moisture during operation. Recovering the charge requires certified recovery equipment that can reach 25 mm Hg absolute.
 
 [e322] type3
 A chiller's rupture disc has burst because of a fire in the building. Before the chiller returns to service, which step is needed?
-- None; the disc reseals itself
-* Replace the rupture disc, find and correct the cause, then leak test, evacuate and recharge
-- Add nitrogen to 50 psig and restart
-- Remove the relief line
+- None; the rupture disc reseals itself when pressure drops
+* Replace the disc, fix the cause, then leak test, evacuate and recharge
+- Add nitrogen to 50 psig to check the shell, then restart
+- Remove the relief line so the disc cannot burst again
 > A rupture disc is a one-time device. It must be replaced, and the system must be leak tested, evacuated and recharged.
 
 [e323] type3
@@ -2595,9 +2595,9 @@ What happens to a low-pressure chiller's efficiency when air accumulates in the 
 [e324] type3
 When using heater blankets to raise the pressure of a low-pressure chiller for leak testing, the technician must:
 - Heat the chiller until the rupture disc bursts
-* Monitor the pressure and stop well below the rupture disc rating, at no more than 10 psig
-- Leave the blankets on unattended overnight
-- Use them only with nitrogen at 50 psig
+* Watch the pressure and stop by 10 psig at most
+- Leave the blankets on, unattended, overnight
+- Use them only together with nitrogen at 50 psig
 > Heater blankets raise the refrigerant's pressure gently. Watch the gauge and do not exceed 10 psig.
 
 [e325] type3
@@ -2618,26 +2618,26 @@ A 300-lb R-123 chiller is scheduled for disposal. With modern recovery equipment
 
 [e327] type3
 Which is the safest way to raise the pressure of a low-pressure chiller for a leak test according to EPA guidance?
-- Nitrogen to 25 psig
-* Warming with hot water or heater blankets, up to no more than 10 psig
+- Dry nitrogen raised to 25 psig
+* Hot water or heater blankets, up to 10 psig
 - Running the chiller with the water flow off
-- Applying an oxy-acetylene torch to the shell
+- An oxy-acetylene torch applied to the shell
 > Using heat avoids adding gases that must later be purged and keeps the pressure under control. Never exceed 10 psig.
 
 [e328] type3
 A chiller's purge unit is releasing air that contains some refrigerant. Under Section 608:
-- Purge releases are unlimited and unregulated
-* The rules aim to minimize refrigerant released with purged air, so leaks should be repaired and efficient purge units used
-- Purge units must be switched off permanently
-- All purge air must be recovered into cylinders
+- Purge releases are unlimited and are not regulated at all
+* Releases should be minimized: repair leaks and use efficient purges
+- Purge units must be switched off permanently on all chillers
+- All purge air must be recovered into DOT cylinders and shipped
 > Purge emissions count as refrigerant losses. Fixing leaks (less air to purge) and using high-efficiency purge units keep them low.
 
 [e329] type3
 An R-514A chiller holds 1,200 lb of refrigerant. Is it subject to EPA's HFC leak repair rule (40 CFR 84.106)?
-- Yes, because it holds more than 15 lb
-* No; R-514A contains no HFC and has a GWP below 53, so the rule does not apply
-- Yes, with a 20% threshold
-- Only if it is used for comfort cooling
+- Yes, because it holds more than 15 lb of refrigerant
+* No; R-514A has no HFC and its GWP is below 53
+- Yes, with the 20% commercial refrigeration threshold
+- Only if the chiller is used for comfort cooling
 > R-514A is an HFO-based blend with a GWP of about 2, so it is outside 40 CFR 84.106. It is not an ODS, so 40 CFR 82.157 does not apply either, but venting is still prohibited.
 
 [e330] type3
