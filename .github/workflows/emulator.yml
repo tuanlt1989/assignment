@@ -66,6 +66,20 @@ jobs:
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
           sudo udevadm control --reload-rules
           sudo udevadm trigger --name-match=kvm
+      - name: Download the emulator image (retried; the download is sometimes corrupt)
+        run: |
+          sdk="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$sdk" --licenses > /dev/null || true
+          for i in 1 2 3; do
+            if "$sdk" --install emulator 'system-images;android-34;google_apis;x86_64' --channel=0 > /dev/null \
+               && [ -f "$ANDROID_HOME/system-images/android-34/google_apis/x86_64/system.img" ]; then
+              exit 0
+            fi
+            echo "::warning::Emulator image download failed (attempt $i), retrying"
+            rm -rf "$ANDROID_HOME/.temp" "$ANDROID_HOME/.downloadIntermediates" "$ANDROID_HOME/system-images/android-34/google_apis/x86_64"
+            sleep 15
+          done
+          exit 1
       - name: Run on emulator (Android 14, Pixel 6)
         uses: reactivecircus/android-emulator-runner@v2
         with:
