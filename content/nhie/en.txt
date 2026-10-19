@@ -843,9 +843,9 @@ A concrete block basement wall has a long horizontal crack about halfway up, and
 [h105] structure
 A brick or concrete block wall shows a crack that zigzags along the mortar joints in a stair-step pattern. What does this usually indicate?
 * Differential settlement or movement of the foundation
-- Shrinkage of poured concrete as it cures
-- Termite activity in the mortar
-- Too much insulation in the wall
+- Normal shrinkage of the mortar as it cured years ago
+- Termite tunnels running through the mortar joints
+- Too much insulation installed against the inside face
 > Stair-step cracking through mortar joints usually shows that one part of the wall moved relative to another, often from settlement. Width, displacement and signs of ongoing movement determine how serious it is.
 
 [h106] structure
