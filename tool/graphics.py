@@ -90,6 +90,25 @@ def _glyph(d: ImageDraw.ImageDraw, kind: str, cx: float, cy: float, s: float, fg
         w = s * 0.28
         d.rectangle([cx - w, cy - s * 0.2, cx + w, cy + s * 1.0], fill=fg)
         d.polygon([(cx, cy - s * 1.0), (cx + s * 0.85, cy - s * 0.1), (cx - s * 0.85, cy - s * 0.1)], fill=fg)
+    elif kind == "snowflake":
+        # Six-armed snowflake (refrigeration / HVAC).
+        w = max(3, int(s * 0.16))
+        for k in range(6):
+            a = math.pi * k / 3 + math.pi / 2
+            ex, ey = cx + math.cos(a) * s * 1.0, cy - math.sin(a) * s * 1.0
+            d.line([(cx, cy), (ex, ey)], fill=fg, width=w)
+            for t, ln in ((0.55, 0.32), (0.8, 0.22)):
+                bx, by = cx + math.cos(a) * s * t, cy - math.sin(a) * s * t
+                for da in (0.6, -0.6):
+                    d.line([(bx, by), (bx + math.cos(a + da) * s * ln, by - math.sin(a + da) * s * ln)], fill=fg, width=w)
+        d.ellipse([cx - s * 0.16, cy - s * 0.16, cx + s * 0.16, cy + s * 0.16], fill=fg)
+    elif kind == "house":
+        # House with a checkmark window (inspection).
+        d.polygon([(cx - s * 1.0, cy - s * 0.05), (cx, cy - s * 0.95), (cx + s * 1.0, cy - s * 0.05)], fill=fg)
+        d.rectangle([cx + s * 0.45, cy - s * 0.8, cx + s * 0.68, cy - s * 0.35], fill=fg)
+        d.rectangle([cx - s * 0.75, cy - s * 0.1, cx + s * 0.75, cy + s * 0.9], fill=fg)
+        w = max(3, int(s * 0.17))
+        d.line([(cx - s * 0.38, cy + s * 0.38), (cx - s * 0.1, cy + s * 0.64), (cx + s * 0.42, cy + s * 0.08)], fill=accent, width=w, joint="curve")
     elif kind == "sunmoon":
         # Sun (with rays) on the upper left, crescent moon on the lower right.
         sx, sy, r = cx - s * 0.38, cy - s * 0.38, s * 0.42

@@ -14,7 +14,10 @@ class ResultScreen extends StatefulWidget {
     required this.picked,
     required this.exam,
     this.lockedLeft = 0,
+    this.spec,
   });
+
+  final ExamSpec? spec;
 
   final String title;
   final List<Question> questions;
@@ -34,6 +37,14 @@ class _ResultScreenState extends State<ResultScreen> {
       if (widget.picked[i] == widget.questions[i].answer) i,
   ].length;
 
+  ExamSpec _spec(AppState app) => widget.spec ?? app.fullExam;
+
+  Map<String, (int, int)> get _byCat =>
+      ExamSpec.byTopic(widget.questions, widget.picked);
+
+  bool _passed(AppState app) =>
+      _spec(app).passed(widget.questions, widget.picked);
+
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
@@ -41,7 +52,7 @@ class _ResultScreenState extends State<ResultScreen> {
     _recorded = true;
     final app = AppState.of(context);
     final total = widget.questions.length;
-    final passed = _correct * 100 >= app.config.passPercent * total;
+    final passed = _passed(app);
     if (widget.exam) {
       app.progress.addExam(ExamRecord(DateTime.now(), _correct, total, passed));
     }
@@ -66,16 +77,10 @@ class _ResultScreenState extends State<ResultScreen> {
     final scheme = Theme.of(context).colorScheme;
     final total = widget.questions.length;
     final percent = total == 0 ? 0 : (_correct * 100 / total).round();
-    final passed = percent >= app.config.passPercent;
+    final spec = _spec(app);
+    final passed = _passed(app);
     final color = passed ? Colors.green.shade600 : Colors.orange.shade800;
-
-    // Per-topic breakdown.
-    final byCat = <String, (int, int)>{};
-    for (var i = 0; i < total; i++) {
-      final q = widget.questions[i];
-      final (c, t) = byCat[q.category] ?? (0, 0);
-      byCat[q.category] = (c + (widget.picked[i] == q.answer ? 1 : 0), t + 1);
-    }
+    final byCat = _byCat;
 
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
@@ -112,7 +117,9 @@ class _ResultScreenState extends State<ResultScreen> {
                     style: const TextStyle(fontSize: 16),
                   ),
                   Text(
-                    s.t('passLine', {'p': app.config.passPercent}),
+                    spec.bySection
+                        ? s.t('passEachLine', {'p': spec.passPercent})
+                        : s.t('passLine', {'p': spec.passPercent}),
                     style: TextStyle(color: scheme.onSurfaceVariant),
                   ),
                 ],
@@ -177,7 +184,7 @@ class _ResultScreenState extends State<ResultScreen> {
                           child: LinearProgressIndicator(
                             value: ok / t,
                             minHeight: 8,
-                            color: ok * 100 >= app.config.passPercent * t
+                            color: ok * 100 >= spec.passPercent * t
                                 ? Colors.green.shade600
                                 : Colors.orange.shade800,
                           ),
@@ -187,6 +194,19 @@ class _ResultScreenState extends State<ResultScreen> {
                         width: 52,
                         child: Text('$ok/$t', textAlign: TextAlign.end),
                       ),
+                      if (spec.bySection)
+                        Padding(
+                          padding: const EdgeInsets.only(left: 6),
+                          child: Icon(
+                            ok * 100 >= spec.passPercent * t
+                                ? Icons.check_circle
+                                : Icons.cancel,
+                            size: 20,
+                            color: ok * 100 >= spec.passPercent * t
+                                ? Colors.green.shade600
+                                : Colors.orange.shade800,
+                          ),
+                        ),
                     ],
                   ),
                 ),
@@ -215,10 +235,11 @@ class _ResultScreenState extends State<ResultScreen> {
                 builder: (_) => QuizScreen(
                   title: widget.title,
                   questions: widget.exam
-                      ? app.pickExam()
+                      ? spec.pick()
                       : (List.of(widget.questions)..shuffle()),
                   exam: widget.exam,
                   lockedLeft: widget.lockedLeft,
+                  spec: widget.spec,
                 ),
               ),
             ),

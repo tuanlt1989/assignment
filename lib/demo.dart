@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'app_state.dart';
 import 'progress.dart';
+import 'screens/guide_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'screens/paywall_screen.dart';
@@ -14,8 +15,10 @@ class DemoScene extends StatelessWidget {
   const DemoScene({super.key, required this.scene});
   final String scene;
 
-  static void seed(AppState app) {
+  static void seed(AppState app, [String scene = '']) {
     final p = app.progress;
+    // The study-guide shot shows full cards, not the locked ones.
+    if (scene == 'guide') p.premium = true;
     final qs = app.bank.questions;
     for (var i = 0; i < qs.length; i++) {
       if (i % 5 < 3) p.lastResult[qs[i].id] = true;
@@ -38,7 +41,6 @@ class DemoScene extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final app = AppState.of(context);
-    final s = app.s;
     final cat = app.bank.categories[1];
     final qs = app.bank.inCategory(cat.id);
     switch (scene) {
@@ -49,16 +51,31 @@ class DemoScene extends StatelessWidget {
           initialPick: qs.first.answer,
         );
       case 'exam':
+        final spec = app.config.hasSections
+            ? app.sectionExam(app.bank.categories.first)
+            : app.fullExam;
         return QuizScreen(
-          title: s.t('mockExam'),
-          questions: app.pickExam(),
+          title: spec.title,
+          questions: spec.pick(),
           exam: true,
           initialPick: 1,
+          spec: spec,
         );
       case 'result':
-        final exam = app.bank.questions.take(app.config.examQuestions).toList();
+        final spec = app.config.hasSections
+            ? app.allSectionsExam
+            : app.fullExam;
+        final exam = app.config.hasSections
+            ? [
+                for (final c in app.bank.categories)
+                  ...app.bank
+                      .inCategory(c.id)
+                      .take(app.config.sectionQuestions!),
+              ]
+            : app.bank.questions.take(app.config.examQuestions).toList();
         return ResultScreen(
-          title: s.t('mockExam'),
+          title: spec.title,
+          spec: spec,
           questions: exam,
           picked: {
             for (var i = 0; i < exam.length; i++)
@@ -66,6 +83,8 @@ class DemoScene extends StatelessWidget {
           },
           exam: true,
         );
+      case 'guide':
+        return const GuideScreen();
       case 'paywall':
         return const PaywallScreen();
       case 'onboarding':

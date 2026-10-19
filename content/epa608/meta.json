@@ -1,0 +1,5 @@
+{"version": "2026.10.1", "categories": [
+ {"id": "core", "name": {"en": "Core"}},
+ {"id": "type1", "name": {"en": "Type I – Small Appliances"}},
+ {"id": "type2", "name": {"en": "Type II – High-Pressure"}},
+ {"id": "type3", "name": {"en": "Type III – Low-Pressure"}}]}

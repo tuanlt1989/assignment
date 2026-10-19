@@ -21,7 +21,7 @@ Future<void> main() async {
   final money = Monetization(config, progress);
   final app = AppState(config, bank, progress, money);
   final demo = kIsWeb ? Uri.base.queryParameters['demo'] : null;
-  if (demo != null) DemoScene.seed(app);
+  if (demo != null) DemoScene.seed(app, demo);
   runApp(ExamApp(app: app, demo: demo));
   await money.init();
   // Refresh the reminder text/time (language or goal may have changed).

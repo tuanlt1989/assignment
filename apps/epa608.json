@@ -1,0 +1,60 @@
+{
+  "id": "epa608",
+  "applicationId": "com.tuanapps.epa608",
+  "launcherName": "EPA 608 Prep",
+  "title": {
+    "en": "EPA 608 Exam Prep 2026"
+  },
+  "bank": "epa608",
+  "locales": [
+    "en"
+  ],
+  "color": "#0277BD",
+  "icon": {
+    "label": "608",
+    "badge": "",
+    "glyph": "snowflake"
+  },
+  "exam": {
+    "questions": 100,
+    "minutes": 120,
+    "passPercent": 70
+  },
+  "freeRatio": 0.3,
+  "suggestedPriceUsd": 14.99,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/epa608.html",
+  "supportEmail": "tuanlt1989@gmail.com",
+  "developerName": "Tuan Apps",
+  "tagline": {
+    "en": "Core, Type I, II, III & Universal · Study guide · No ads"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Pass Core, Type I, II & III",
+      "Section exams just like test day",
+      "Every key number on one card",
+      "Clear explanations, no ads"
+    ]
+  },
+  "ads": false,
+  "examBodies": {
+    "en": "the U.S. EPA, ESCO Institute, Mainstream Engineering, RSES or any other certifying organization"
+  },
+  "productTags": [
+    "premium",
+    "all-questions",
+    "epa-608",
+    "hvac"
+  ],
+  "sections": {
+    "questions": 25,
+    "minutes": 30,
+    "passPercent": 70
+  }
+}

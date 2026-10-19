@@ -81,6 +81,33 @@ class AppState {
     return limit == null ? pool : pool.take(limit).toList();
   }
 
+  /// The full mock exam (one test, one pass mark).
+  ExamSpec get fullExam => ExamSpec(
+    title: s.t('mockExam'),
+    minutes: config.examMinutes,
+    passPercent: config.passPercent,
+    pick: pickExam,
+  );
+
+  /// One section of a sectioned exam (e.g. EPA 608 Core), from that topic.
+  ExamSpec sectionExam(Category c) => ExamSpec(
+    title: c.name(progress.uiLang),
+    minutes: config.sectionMinutes!,
+    passPercent: config.sectionPass!,
+    pick: () => (visible(
+      bank.inCategory(c.id),
+    )..shuffle(Random())).take(config.sectionQuestions!).toList(),
+  );
+
+  /// Every section in a row; passing needs the pass mark in each section.
+  ExamSpec get allSectionsExam => ExamSpec(
+    title: s.t('universal'),
+    minutes: config.sectionMinutes! * bank.categories.length,
+    passPercent: config.sectionPass!,
+    bySection: true,
+    pick: () => [for (final c in bank.categories) ...sectionExam(c).pick()],
+  );
+
   /// Re-schedules (or cancels) the daily reminder with the current settings.
   Future<void> syncReminder() async {
     final p = progress;
@@ -102,4 +129,46 @@ class AppScope extends InheritedWidget {
 
   @override
   bool updateShouldNotify(AppScope oldWidget) => app != oldWidget.app;
+}
+
+/// A timed exam: how long, the pass mark and how to draw its questions.
+class ExamSpec {
+  const ExamSpec({
+    required this.title,
+    required this.minutes,
+    required this.passPercent,
+    required this.pick,
+    this.bySection = false,
+  });
+
+  final String title;
+  final int minutes;
+  final int passPercent;
+
+  /// Pass only if every topic in the exam reaches [passPercent] on its own.
+  final bool bySection;
+  final List<Question> Function() pick;
+
+  /// Correct / total per topic for answers [picked] (question index → option).
+  static Map<String, (int, int)> byTopic(
+    List<Question> qs,
+    Map<int, int> picked,
+  ) {
+    final out = <String, (int, int)>{};
+    for (var i = 0; i < qs.length; i++) {
+      final (c, t) = out[qs[i].category] ?? (0, 0);
+      out[qs[i].category] = (c + (picked[i] == qs[i].answer ? 1 : 0), t + 1);
+    }
+    return out;
+  }
+
+  bool passed(List<Question> qs, Map<int, int> picked) {
+    if (qs.isEmpty) return false;
+    final topics = byTopic(qs, picked);
+    if (bySection) {
+      return topics.values.every((v) => v.$1 * 100 >= passPercent * v.$2);
+    }
+    final correct = topics.values.fold(0, (a, v) => a + v.$1);
+    return correct * 100 >= passPercent * qs.length;
+  }
 }

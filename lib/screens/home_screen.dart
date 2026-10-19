@@ -4,6 +4,7 @@ import '../app_state.dart';
 import '../models.dart';
 import '../monetization.dart';
 import 'flashcard_screen.dart';
+import 'guide_screen.dart';
 import 'paywall_screen.dart';
 import 'quiz_screen.dart';
 import 'settings_screen.dart';
@@ -43,6 +44,10 @@ class HomeScreen extends StatelessWidget {
               _ReadinessCard(app: app),
               const SizedBox(height: 12),
               _TodayRow(app: app),
+              if (app.bank.guide.isNotEmpty) ...[
+                const SizedBox(height: 12),
+                _GuideCard(app: app),
+              ],
               const SizedBox(height: 16),
               GridView.count(
                 crossAxisCount: 2,
@@ -56,18 +61,19 @@ class HomeScreen extends StatelessWidget {
                     icon: Icons.timer_outlined,
                     color: scheme.primary,
                     title: s.t('mockExam'),
-                    subtitle: s.t('mockExamSub', {
-                      'q': app.examSize,
-                      'm': app.config.examMinutes,
-                      'p': app.config.passPercent,
-                    }),
-                    onTap: () => _start(
-                      context,
-                      app,
-                      app.pickExam(),
-                      exam: true,
-                      title: s.t('mockExam'),
-                    ),
+                    subtitle: app.config.hasSections
+                        ? s.t('sectionsSub', {
+                            'n': app.bank.categories.length,
+                            'q': app.config.sectionQuestions!,
+                          })
+                        : s.t('mockExamSub', {
+                            'q': app.examSize,
+                            'm': app.config.examMinutes,
+                            'p': app.config.passPercent,
+                          }),
+                    onTap: () => app.config.hasSections
+                        ? _pickSection(context, app)
+                        : _startExam(context, app, app.fullExam),
                   ),
                   _ActionTile(
                     icon: Icons.bolt_outlined,
@@ -195,6 +201,105 @@ void _start(
       ),
     ),
   );
+}
+
+void _startExam(BuildContext context, AppState app, ExamSpec spec) {
+  final qs = spec.pick();
+  if (qs.isEmpty) return _start(context, app, qs, title: spec.title);
+  Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (_) =>
+          QuizScreen(title: spec.title, questions: qs, exam: true, spec: spec),
+    ),
+  );
+}
+
+/// Sectioned exams: take one section, or all of them like the real test.
+void _pickSection(BuildContext context, AppState app) {
+  final s = app.s;
+  final c = app.config;
+  showModalBottomSheet<void>(
+    context: context,
+    showDragHandle: true,
+    builder: (sheet) => SafeArea(
+      child: ListView(
+        shrinkWrap: true,
+        padding: const EdgeInsets.only(bottom: 12),
+        children: [
+          Padding(
+            padding: const EdgeInsets.fromLTRB(20, 0, 20, 8),
+            child: Text(
+              s.t('examPick'),
+              style: Theme.of(
+                sheet,
+              ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+            ),
+          ),
+          ListTile(
+            leading: const Icon(Icons.workspace_premium_outlined),
+            title: Text(
+              s.t('universal'),
+              style: const TextStyle(fontWeight: FontWeight.w700),
+            ),
+            subtitle: Text(
+              s.t('universalSub', {
+                'q': c.sectionQuestions! * app.bank.categories.length,
+                'p': c.sectionPass!,
+              }),
+            ),
+            onTap: () {
+              Navigator.pop(sheet);
+              _startExam(context, app, app.allSectionsExam);
+            },
+          ),
+          for (final cat in app.bank.categories)
+            ListTile(
+              leading: const Icon(Icons.assignment_outlined),
+              title: Text(cat.name(app.progress.uiLang)),
+              subtitle: Text(
+                s.t('sectionSub', {
+                  'q': c.sectionQuestions!,
+                  'm': c.sectionMinutes!,
+                  'p': c.sectionPass!,
+                }),
+              ),
+              onTap: () {
+                Navigator.pop(sheet);
+                _startExam(context, app, app.sectionExam(cat));
+              },
+            ),
+        ],
+      ),
+    ),
+  );
+}
+
+class _GuideCard extends StatelessWidget {
+  const _GuideCard({required this.app});
+  final AppState app;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return Card(
+      color: scheme.secondaryContainer,
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+        leading: Icon(Icons.menu_book_outlined, color: scheme.secondary),
+        title: Text(
+          app.s.t('studyGuide'),
+          style: const TextStyle(fontWeight: FontWeight.w700),
+        ),
+        subtitle: Text(app.s.t('studyGuideSub', {'n': app.bank.guide.length})),
+        trailing: const Icon(Icons.chevron_right),
+        onTap: () => Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const GuideScreen()),
+        ),
+      ),
+    );
+  }
 }
 
 class _ReadinessCard extends StatelessWidget {

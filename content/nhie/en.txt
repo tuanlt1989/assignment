@@ -1,0 +1,3219 @@
+# National Home Inspector Examination (NHIE) practice bank.
+# Original questions written for this app. Code values are IRC 2021 model-code values;
+# local adoption and amendments vary, so always follow the jurisdiction's adopted code.
+
+# ---------------- Site & Exterior (h001-h050) ----------------
+
+[h001] site
+Per the IRC, how much should the finished grade fall away from a foundation within the first 10 feet?
+- At least 2 inches
+- At least 3 inches
+* At least 6 inches
+- At least 12 inches
+> Per the IRC (R401.3), the grade should fall at least 6 inches within the first 10 feet (about a 5% slope) so that surface water drains away from the foundation.
+
+[h002] site
+An inspector sees soil sloping toward the house along one wall, and the basement wall on that side shows white mineral deposits and a damp stain. What is the most appropriate report entry?
+- State that the foundation is failing and recommend immediate replacement by a contractor
+* Report the negative grading and moisture signs; recommend regrading away from the house
+- Make no comment, because grading is a landscaping matter outside the scope of the inspection
+- Recommend that the client install a dehumidifier in the basement and take no other action
+> Grading that slopes toward the house is a common cause of basement moisture. The inspector should report it with the related evidence and recommend correcting the drainage. Nothing observed supports calling the foundation failed.
+
+[h003] site
+Per the IRC, impervious surfaces such as concrete walks within 10 feet of the building should slope away from it at a minimum of:
+* 2 percent
+- 0.5 percent
+- 5 percent
+- 10 percent
+> Per the IRC (R401.3), impervious surfaces within 10 feet of the foundation may slope at not less than 2 percent away from the building. The 6-inch-in-10-feet (5%) rule applies to soil.
+
+[h004] site
+A downspout empties directly against the foundation at a corner where the basement shows water staining. What should the inspector recommend?
+- Sealing the inside of the basement wall with waterproof paint to stop the leaks
+- Removing the gutter system, because gutters concentrate water and cause foundation leaks
+* Extending the downspout so that it discharges well away from the foundation
+- Filling the area around the downspout with gravel and leaving the discharge where it is
+> Roof water concentrated at the foundation is a frequent cause of basement leaks and settlement. Downspouts should discharge several feet from the foundation or into an approved drainage system. Interior sealers do not fix the source.
+
+[h005] site
+Per the IRC, what is the minimum clearance between wood siding and the ground, unless the wood is naturally durable or preservative-treated?
+- 2 inches
+- 4 inches
+* 6 inches
+- 8 inches
+> Per the IRC (R317.1), wood siding, sheathing and wall framing on the exterior must be at least 6 inches above the ground (and at least 2 inches above concrete steps, patios and similar surfaces) unless decay-resistant wood is used.
+
+[h006] site
+Per the IRC, the weep screed at the bottom of an exterior stucco wall should be at least how far above earth and above paved areas?
+- 1 inch above earth and 1 inch above paving
+* 4 inches above earth and 2 inches above paving
+- 6 inches above earth and 4 inches above paving
+- 8 inches above earth and 6 inches above paving
+> Per the IRC (R703.7.2.1), the foundation weep screed must be at least 4 inches above the earth or 2 inches above paved areas so that water behind the stucco can drain.
+
+[h007] site
+Per the IRC, weep holes in the outer wythe of brick veneer must be spaced no more than how far apart?
+- 16 inches on center
+- 24 inches on center
+* 33 inches on center
+- 48 inches on center
+> Per the IRC (R703.8.6), weep holes are required immediately above the flashing at a maximum spacing of 33 inches on center, with a minimum diameter of 3/16 inch.
+
+[h008] site
+At the base of a brick veneer wall, the inspector cannot find any weep holes, and the bottom course is buried in mulch. What is the main concern?
+* Water behind the veneer cannot drain and may damage sheathing and framing
+- The brick will expand and crack because the wall cannot breathe without weeps
+- Rodents and insects will enter the wall cavity through the buried openings
+- The mortar joints will cure too slowly and remain soft for many years
+> Brick veneer is a drainage wall: water that penetrates it must run down the air space and out through weeps above the flashing. Without weeps, or with them buried, the water is trapped against the wood structure.
+
+[h009] site
+What are the minimum diameter and the location of weep holes in brick veneer per the IRC?
+- 1/8 inch, at mid-height of the wall
+* 3/16 inch, immediately above the flashing
+- 1/2 inch, just below the sill plate
+- 3/4 inch, at the top course under the eave
+> Per the IRC (R703.8.6), weep holes must be at least 3/16 inch in diameter and located immediately above the flashing, where water collected by the flashing exits.
+
+[h010] site
+An inspector finds barrier-type EIFS (synthetic stucco) that extends into the soil, with no kickout flashing where a roof edge meets the wall. Soft spots are felt below the roof-wall intersection. What is the most appropriate action?
+- Report the cladding as acceptable, because EIFS is a waterproof barrier system
+- Cut open the wall in the soft area to confirm rot before writing the report
+* Report the conditions and refer to a qualified EIFS specialist for moisture testing
+- Recommend recoating the EIFS with elastomeric paint to seal out the moisture
+> Barrier EIFS cannot drain water that gets behind it, so hidden damage is common at roof-wall intersections and where the cladding meets grade. Destructive testing is beyond a home inspection; the correct step is referral to a specialist.
+
+[h011] site
+Vinyl siding shows waviness and buckled panels on a sunny wall. What installation error most likely caused this?
+- Spacing the nails too far apart along the nailing hem
+- Leaving small gaps at the ends of panels where they meet trim
+* Driving the nails tight against the panels
+- Installing the siding over house wrap instead of directly over sheathing
+> Vinyl siding moves a lot with temperature. It must hang loosely on its nails with room to expand at the ends; nails driven tight pin the panels and cause buckling.
+
+[h012] site
+A deck ledger is fastened to the house only with nails and has no flashing above it. What should the inspector report?
+- That the ledger is acceptable as long as the nails are hot-dip galvanized and closely spaced
+- That the deck will perform well once a bead of caulk is added along the top of the ledger
+* That the attachment and flashing are deficient and need correction by a qualified contractor
+- That the ledger only needs to be painted or stained so that water cannot soak into it
+> Ledger failure is a leading cause of deck collapse. Ledgers should be attached with lag screws or through-bolts (or another approved method) and flashed to keep water out of the house band joist. Nails alone are not an acceptable attachment.
+
+[h013] site
+Per the IRC, a deck ledger may NOT be supported on which of these?
+- A preservative-treated band joist
+- A solid concrete foundation wall
+* Brick or stone veneer
+- A properly sized dimensional-lumber rim joist
+> Per the IRC (R507.9.2), deck ledgers must not be supported on stone or masonry veneer, because veneer is not designed to carry structural loads. A freestanding deck is the usual alternative.
+
+[h014] site
+Per the IRC, guards are required on a deck when the walking surface is more than how far above the grade below, measured within 36 inches horizontally of the edge?
+- 18 inches
+- 24 inches
+* 30 inches
+- 42 inches
+> Per the IRC (R312.1.1), guards are required where the walking surface is more than 30 inches above the floor or grade below at any point within 36 inches horizontally of the edge.
+
+[h015] site
+Deck balusters are spaced so that a 5-inch ball passes between them. The deck is 6 feet above the yard. How should this be reported?
+- As acceptable, because the IRC limit for openings is 6 inches
+* As a safety hazard, because guard openings should not pass a 4-inch sphere per the IRC
+- As acceptable, because baluster spacing rules apply only to interior stairs
+- As a cosmetic issue that needs no recommendation
+> Per the IRC (R312.1.3), openings in guards must not allow a 4-inch sphere to pass. Wider spacing lets small children slip through, so it is a safety item.
+
+[h016] site
+Several deck joist hangers have empty nail holes, and some are fastened with drywall screws. What is the best report comment?
+- The hangers are adequate as long as each one has at least one fastener on each side
+- Drywall screws are harder than nails, so using them is an upgrade over the original nailing
+* The hangers are not fastened as the manufacturer requires and need correction
+- The joists should be glued into the hangers with construction adhesive to stiffen them
+> Joist hangers reach their rated capacity only with the specified fasteners in the specified holes. Drywall screws are brittle and are not rated for structural shear loads.
+
+[h017] site
+Per the IRC, fasteners and connectors used with preservative-treated lumber should be:
+- Plain steel, because the preservative in the wood also protects the metal
+- Aluminum, because it is lighter and does not rust like steel
+* Hot-dip galvanized or stainless steel
+- Electro-galvanized drywall screws, because their coating resists rust
+> Per the IRC (R317.3), fasteners in preservative-treated wood must be hot-dip zinc-coated galvanized steel, stainless steel, silicon bronze or copper (with limited exceptions). Modern treatments corrode plain and lightly coated steel.
+
+[h018] site
+A 5-foot-tall landscape retaining wall near the house leans outward, bulges in the middle and has no visible drainage outlets. What is the most likely cause?
+- The wall was built too thick for the amount of soil it holds
+* Water and soil pressure behind a poorly drained wall
+- Too much direct sunlight on the face of the wall during the summer
+- The mortar was mixed with too much lime, making it too strong
+> Water trapped behind a retaining wall adds a lot of pressure. Leaning and bulging point to inadequate drainage or design. The inspector should report it and recommend evaluation by a qualified professional, such as an engineer.
+
+[h019] site
+Per the IRC, retaining walls that are not laterally supported at the top must be designed for stability when they retain more than how much unbalanced fill?
+- 24 inches
+- 36 inches
+* 48 inches
+- 72 inches
+> Per the IRC (R404.4), retaining walls not laterally supported at the top that retain more than 48 inches of unbalanced fill must be designed against overturning, sliding and excessive soil pressure.
+
+[h020] site
+Large tree limbs hang over the roof and rub the shingles. What is the most appropriate report comment?
+- Leave it out, because trees are outside the scope of every standard of practice
+- Recommend removing all trees within 50 feet of the house to protect the foundation
+* Note the risk of roof damage and recommend trimming by a qualified tree service
+- State that the tree is diseased and is likely to fall on the house in the next storm
+> Standards of practice include vegetation that is likely to adversely affect the building. The inspector reports the effect and recommends trimming, without diagnosing tree health, which is outside the inspector's expertise.
+
+[h021] site
+Under typical home inspection standards of practice, which of these is the inspector NOT required to inspect?
+- Driveways and walkways next to the house
+- Exterior wall coverings
+- Grading and drainage that may affect the building
+* Swimming pools, spas and fences
+> Typical standards of practice (such as ASHI and InterNACHI) cover wall coverings, flashing, trim, walkways, drives and the grading and vegetation that affect the building. Pools, spas, fences and other recreational facilities are excluded unless separately agreed.
+
+[h022] site
+Per the IRC, what is the minimum horizontal area of a window well that serves an emergency escape window?
+- 5.7 square feet
+* 9 square feet
+- 12 square feet
+- 16 square feet
+> Per the IRC (R310.2.3.1 in the 2021 edition), a window well serving an emergency escape opening needs at least 9 square feet of horizontal area, with a minimum horizontal projection and width of 36 inches.
+
+[h023] site
+Per the IRC, an egress window well needs a permanently attached ladder or steps when its vertical depth is more than:
+- 24 inches
+- 36 inches
+* 44 inches
+- 60 inches
+> Per the IRC, a window well deeper than 44 inches needs a permanently affixed ladder or steps that remain usable with the window fully open. The ladder must not intrude more than 6 inches into the required dimensions of the well.
+
+[h024] site
+A basement window well is full of leaves and standing water, and the window frame below it is stained. What is the most appropriate recommendation?
+- Seal the window shut with caulk so that water in the well cannot leak inside
+* Clean the well, restore its drainage, consider a cover, and check the window
+- Fill the well with soil up to the bottom of the window to keep water out of it
+- No action, because window wells are designed to hold water after a heavy rain
+> A clogged window well collects water against the window. Restoring drainage, keeping debris out and checking the window address the cause. Sealing an egress window shut would create a safety problem.
+
+[h025] site
+Per the IRC, a door between an attached garage and the house may be which of these?
+- A hollow-core wood door of any thickness
+* A solid wood door at least 1-3/8 inches thick
+- A sliding glass door
+- Any door, as long as it has weatherstripping
+> Per the IRC (R302.5.1), openings between the garage and the residence need solid wood or solid or honeycomb-core steel doors at least 1-3/8 inches thick, or 20-minute fire-rated doors. Since the 2018 edition the IRC also requires a self-closing or automatic-closing device.
+
+[h026] site
+The door from the garage into the house is a hollow-core interior door. How should the inspector report this?
+- As acceptable, because any closed door slows the spread of a garage fire
+- As a cosmetic issue to be handled whenever the door is next replaced
+* As a fire-separation deficiency needing a compliant door
+- As acceptable as long as a working smoke alarm is installed in the garage
+> The garage-to-house door is part of the fire separation. A hollow-core door does not provide the required resistance, so the inspector should report it as a safety item.
+
+[h027] site
+Per the IRC, which opening is NOT permitted between an attached garage and the dwelling?
+* A door from the garage directly into a bedroom
+- A door from the garage into a mudroom
+- A door from the garage into a kitchen
+- A door from the garage into a hallway
+> Per the IRC (R302.5.1), openings from a private garage directly into a room used for sleeping are not permitted.
+
+[h028] site
+Per the IRC, when there is a habitable room above an attached garage, the garage ceiling must have at least:
+- 1/2-inch regular gypsum board
+- 3/8-inch gypsum board
+* 5/8-inch Type X gypsum board
+- 1/2-inch plywood
+> Per the IRC (Table R302.6), the garage side of walls needs at least 1/2-inch gypsum board, but where there is habitable space above the garage the ceiling needs at least 5/8-inch Type X gypsum board.
+
+[h029] site
+When the automatic garage door is tested, it does not reverse after it contacts an object on the floor. What is the most appropriate report entry?
+* Report it as a safety hazard and recommend repair by a qualified technician
+- Report it as normal wear for openers and doors that are more than 10 years old
+- Recommend that the occupants keep children and pets out of the garage instead
+- Disconnect the opener so that it cannot be used and leave it out of the report
+> Automatic openers are designed to reverse when the door meets an obstruction. A failure to reverse can cause serious injury, so it is a safety finding that needs correction.
+
+[h030] site
+The photo-eye sensors for an automatic garage door are mounted about 4 feet above the floor. Why is this a concern?
+- The sensors wear out faster when they are mounted far above the floor
+- The door will refuse to close at all until the sensors are lowered
+* A child or pet below the beam may not be detected
+- The sensors may be confused by light from the garage ceiling fixtures
+> Photo-eye safety sensors are meant to sense small objects near the floor; manufacturers and the UL 325 standard call for them to be mounted no more than about 6 inches above the floor.
+
+[h031] site
+In winter, a hose is still attached to a frost-free hose bibb. What risk should the inspector mention?
+- The hose bibb will leak into the yard because the hose keeps its washer compressed
+- The hose will make the bibb drip continuously and waste water all winter long
+* Water held in the bibb can freeze and split the pipe inside the wall
+- The attached hose will reduce water pressure to the other fixtures throughout the house
+> A frost-free bibb works by draining the section of pipe in the cold wall. An attached hose keeps water in the valve, which can freeze and burst it inside the wall, where the leak may go unnoticed.
+
+[h032] site
+The inspector notices peeling paint and a soft-looking exterior window sill. What is an appropriate way to check it?
+- Remove the sill and the trim below it to look at the wall framing behind them
+* Gently probe the suspect area with an awl, without damaging sound finishes
+- Leave it out of the report, because rot can only be confirmed by laboratory tests
+- Tap the sill firmly with a hammer to see whether the wood breaks apart or holds
+> Standards such as ASHI's call for probing where deterioration is suspected, but not where probing would damage finished surfaces that appear sound. A soft sill can be checked carefully and reported.
+
+[h033] site
+A concrete sidewalk slab has heaved and now has a 1-inch lip where it meets the next slab. How should this be reported?
+- As cosmetic only
+* As a trip hazard, recommending correction
+- As a sign of foundation failure
+- As a code violation that requires a permit
+> A raised edge in a walking path is a trip hazard and should be reported as a safety item. A heaved walk alone does not show a problem with the house foundation.
+
+[h034] site
+Per the IRC, the landing at an exterior door must measure at least how far in the direction of travel?
+- 24 inches
+* 36 inches
+- 42 inches
+- 48 inches
+> Per the IRC (R311.3), the floor or landing on each side of an exterior door must be at least as wide as the door and at least 36 inches in the direction of travel.
+
+[h035] site
+An exterior door does not swing over its outside landing. Per the IRC, how far below the top of the threshold may that landing be?
+- No more than 1-1/2 inches
+- No more than 4 inches
+* No more than 7-3/4 inches
+- No more than 12 inches
+> Per the IRC (R311.3.1), the exterior landing may be no more than 7-3/4 inches below the top of the threshold, provided the door does not swing over it. That is the same as the maximum riser height.
+
+[h036] site
+Fiber-cement siding was installed down to the soil and tight against a roof surface. What is the best basis for reporting this?
+- No comment is needed, because fiber cement does not absorb water or decay
+* It does not meet the manufacturer's clearance instructions
+- Fiber cement must always be at least 18 inches above grade under every code
+- Fiber cement may never be installed on any wall that is next to a roof surface
+> Fiber-cement products can be damaged by constant moisture, and manufacturers specify clearances to grade, hard surfaces and roofs. Reporting a departure from the manufacturer's instructions is defensible and specific.
+
+[h037] site
+Mulch has been piled against the house so that it covers the bottom of the wood siding. What two problems does this create?
+- Higher water pressure at the hose bibbs and lower heating bills in winter
+* Wood decay and a hidden termite path
+- Faster paint drying, along with color fading of the lower siding courses
+- Better drainage of roof water and extra insulation for the foundation wall
+> Soil or mulch against wood cladding keeps it wet and hides termite entry points. Clearance between cladding and grade should be restored.
+
+[h038] site
+What is the main purpose of head flashing (drip cap) above a window in a siding wall?
+- To support the weight of the siding courses that run above the window opening
+* To shed water running down the wall away from the window head
+- To keep insects and nesting birds from getting into the top of the window frame
+- To cover the gap between the window and the siding for a neater appearance
+> Head flashing intercepts water running down the wall and sheds it over the window trim. If it is missing, water can get behind the trim and into the framing.
+
+[h039] site
+Cement shingle siding on a 1950s house may contain asbestos. What is the most appropriate way to report it?
+- State in the report that the siding contains asbestos and must be removed
+- Break off a small piece of siding and send it to a laboratory for analysis
+* Describe the siding and note that only lab testing can confirm asbestos
+- Leave it out of the report, because environmental hazards may not be mentioned
+> Standards of practice do not require the inspector to identify environmental hazards. Taking samples could release fibers. Describing the material and advising that testing is needed for confirmation is accurate and within scope.
+
+[h040] site
+Stucco below several windows shows cracks with brown staining underneath. What is the most appropriate recommendation?
+- Painting over the stains with a stain-blocking primer and matching paint
+- Filling the cracks with caulk and taking no further action on the stains
+* Evaluation by a qualified stucco or moisture specialist
+- Removing all of the stucco from the house and replacing it with vinyl siding
+> Stains below window corners often indicate leaks at the window flashing that can cause hidden damage. Specialists can do invasive moisture testing, which is beyond a visual inspection.
+
+[h041] site
+A wooden privacy fence is attached directly to the house siding. What is the main concern?
+- The fence will make the house look smaller and lower its curb appeal
+- The fence will raise the property taxes because it counts as an addition
+* It can give termites a hidden path and keep the siding wet
+- The fence will block the electric meter and the utility will refuse to read it
+> Wood that bridges from the ground to the house can carry moisture and give wood-destroying insects a path into the structure. Separating the fence from the house is a common recommendation.
+
+[h042] site
+A lawn sprinkler head sprays the lower part of a wood-sided wall every morning. What is the best recommendation?
+- Install a gutter at the bottom of the wall
+* Adjust the sprinkler so that it does not wet the house
+- Paint the siding every year
+- Remove all landscaping
+> Repeated wetting of siding and the foundation encourages rot, staining and moisture entry. Redirecting the spray removes the source.
+
+[h043] site
+An inspector is asked to describe the exterior. Which of these is an exterior item that standards of practice typically require the inspector to inspect?
+- The condition of a detached shed
+- Window screens and storm windows
+* Eaves, soffits and fascia
+- Outdoor cooking appliances
+> Eaves, soffits and fascia are part of the exterior that standards of practice cover. Outbuildings, screens, storm windows and outdoor cooking equipment are commonly excluded.
+
+[h044] site
+Shrubs are growing against the siding on the north side of the house, and the siding there is green with algae. What is the best recommendation?
+* Trim the vegetation back so that the wall can dry and be inspected
+- Remove the siding on that wall and replace it with brick veneer instead
+- Plant more shrubs along the wall to shade it from the afternoon sun
+- No action, because algae growth shows that the siding is healthy and sound
+> Vegetation against the house keeps the wall damp and hides defects and pest activity. Keeping plants trimmed back is standard advice.
+
+[h045] site
+A cracked concrete driveway has hairline cracks but no displacement or trip edges. What is the most accurate description?
+- A structural defect that should be evaluated by a structural engineer
+* Typical shrinkage cracking, usually of little concern
+- Evidence that a sinkhole is forming under the driveway and the garage
+- A sign that the house foundation is failing and moving toward the street
+> Concrete flatwork almost always develops shrinkage cracks. Without displacement, trip edges or drainage problems, hairline cracks are usually minor.
+
+[h046] site
+Which observation best indicates a surface drainage problem next to the foundation?
+* Soil erosion channels and water marks running toward the house
+- A well-sloped lawn
+- Downspout extensions that reach 6 feet from the house
+- A dry crawl space with a vapor retarder
+> Erosion channels, water marks and puddling at the foundation show that water flows toward the house rather than away from it.
+
+[h047] site
+A brick wall shows white, powdery deposits near the bottom. What do these deposits usually indicate?
+- Mold growing on the face of the bricks because of shade
+- Termites tunneling through the mortar joints of the wall
+* Salts left behind by water moving through the masonry
+- Fire damage from a past fire that scorched the wall surface
+> White, powdery deposits on masonry are efflorescence: salts that water carried through the masonry and left on the surface as it evaporated. The deposits show moisture movement. The source should be found.
+
+[h048] site
+Deck stairs have no handrail and five risers. What does the IRC require?
+- No handrail, because stairs serving decks are exempt from handrail rules
+* A handrail on at least one side
+- A handrail on both sides of every exterior stair regardless of the number of risers
+- A handrail only if the stairs are more than 6 feet wide or more than 10 risers tall
+> Per the IRC (R311.7.8), handrails are required on at least one side of each flight of stairs with four or more risers. Exterior deck stairs are included.
+
+[h049] site
+A deck's wood posts sit directly on the soil, and their bases are soft and decayed. What is the best recommendation?
+- Paint or stain the posts to seal the decayed wood against further moisture
+* Repair by a qualified contractor, with posts set on proper footings
+- Add more posts beside the decayed ones, set directly on the soil without footings
+- No action, because wood posts are expected to rot slowly and are still adequate
+> Posts in direct contact with soil decay, and decayed posts can fail. Posts should bear on footings and be protected from ground moisture; a contractor should repair them.
+
+[h050] site
+A home inspector is asked by the buyer whether the lot is in a flood zone. What is the most appropriate response?
+- Give an opinion based on the slope of the street and the yard around the house
+- Guarantee in writing that the house will not flood during the client's ownership
+* Explain it is outside the inspection and suggest flood maps or the insurer
+- Say that every lot within a mile of a creek or river is in a flood zone
+> Determining flood zone status, geological conditions and soil stability is outside a standard home inspection. Referring the client to the proper source avoids giving an unsupported opinion.
+
+# ---------------- Roofing (h051-h100) ----------------
+
+[h051] roof
+Per the IRC, what is the minimum roof slope for asphalt shingles?
+- 1 unit vertical in 12 horizontal (1:12)
+* 2 units vertical in 12 horizontal (2:12)
+- 3 units vertical in 12 horizontal (3:12)
+- 4 units vertical in 12 horizontal (4:12)
+> Per the IRC (R905.2.2), asphalt shingles may be used only on roof slopes of 2:12 or greater. Slopes from 2:12 up to less than 4:12 need double underlayment.
+
+[h052] roof
+Per the IRC, asphalt shingles on a slope of 3:12 require:
+- No underlayment
+- A single layer of underlayment, the same as steeper roofs
+* Two layers of underlayment (double underlayment)
+- A fully adhered membrane over the whole roof, with no shingles
+> Per the IRC, shingles on slopes from 2:12 to less than 4:12 need two layers of underlayment, because water drains more slowly and wind can drive it under low-slope shingles.
+
+[h053] roof
+Per the IRC, where an ice barrier is required, it must extend from the lowest edges of the roof to a point at least how far inside the exterior wall line?
+- 6 inches
+- 12 inches
+* 24 inches
+- 36 inches
+> Per the IRC (R905.1.2), in areas with a history of ice damming the ice barrier must run from the eave to at least 24 inches inside the exterior wall line of the building.
+
+[h054] roof
+Per the IRC, a new layer of asphalt shingles may NOT be installed over the existing roof (re-covered) when:
+- The existing roof has one layer of shingles
+* The existing roof already has two or more layers
+- The existing shingles are less than 10 years old
+- The roof slope is greater than 6:12
+> Per the IRC (R908.3.1.1), re-covering is not permitted where the existing roof has two or more applications of any type of roof covering, so a roof normally has at most two layers.
+
+[h055] roof
+Per the IRC, which existing roof covering may NOT be covered over with new shingles, even if it is the only layer?
+- A single layer of asphalt shingles in good condition
+* Wood shakes, slate or clay tile
+- A single layer of fiberglass three-tab shingles
+- Architectural asphalt shingles that lie flat
+> Per the IRC (R908.3.1.1), re-covering is not permitted over wood shake, slate, clay, cement or asbestos-cement tile, as well as over roofs that are water-soaked or badly deteriorated.
+
+[h056] roof
+Per the IRC, what is the minimum slope for wood shingles?
+- 1:12
+- 2:12
+* 3:12
+- 4:12
+> Per the IRC (R905.7.1 for wood shingles and R905.8.1 for wood shakes), wood shingles and shakes need a slope of at least 3:12.
+
+[h057] roof
+Per the IRC, what is the minimum slope for clay or concrete roof tile?
+- 1:12
+- 2:12
+* 2-1/2:12
+- 5:12
+> Per the IRC (R905.3.2), clay and concrete tile need a slope of at least 2-1/2:12. Slopes from 2-1/2:12 to less than 4:12 need double underlayment.
+
+[h058] roof
+Per the IRC, what is the minimum slope for a built-up (tar and gravel) roof, other than coal-tar?
+- Flat (0:12)
+- 1/8 inch per foot
+* 1/4 inch per foot (1/4:12)
+- 2 inches per foot (2:12)
+> Per the IRC (R905.9.1), built-up roofs need a design slope of at least 1/4 unit in 12 (2%) for drainage. Coal-tar built-up roofs may be 1/8:12.
+
+[h059] roof
+Per the IRC, mineral-surfaced roll roofing must not be applied on slopes below:
+* 1:12
+- 2:12
+- 3:12
+- 4:12
+> Per the IRC (R905.5.2), mineral-surfaced roll roofing must not be applied on slopes below 1 unit vertical in 12 units horizontal.
+
+[h060] roof
+Per the IRC, standing-seam metal roof systems may be installed down to a minimum slope of:
+- 3:12
+- 2:12
+- 1:12
+* 1/4:12
+> Per the IRC (R905.10.2), standing-seam metal roofs may go down to 1/4:12. Lapped, non-soldered seam metal roofs need 3:12, or 1/2:12 with applied lap sealant.
+
+[h061] roof
+Per the IRC, where must drip edge be installed on an asphalt shingle roof?
+- Only along the eaves, where water drips off the roof edge into the gutters
+- Only along the rake (gable) edges, where wind-driven rain is the main concern
+* Along both the eaves and the rakes
+- Only where gutters are installed, because the gutter replaces the drip edge elsewhere
+> Per the IRC (R905.2.8.5), drip edge is required at eaves and rake edges of shingle roofs. Adjacent pieces overlap at least 2 inches, and the drip edge extends at least 1/4 inch below the roof sheathing.
+
+[h062] roof
+Siding below the bottom end of a roof-to-wall intersection is stained and soft. There is no diverter flashing where the roof edge meets the wall. What flashing is missing?
+- Valley flashing
+- Counterflashing at the chimney
+* Kickout (diverter) flashing
+- Drip edge at the rake
+> Per the IRC (R903.2.1), a kickout (diverter) flashing is required where the eave of a roof meets a sidewall. Without it, water running down the step flashing flows into the wall instead of into the gutter.
+
+[h063] roof
+Per the IRC, step flashing where a shingle roof meets a sidewall must be at least:
+- 2 inches high and 2 inches wide
+* 4 inches high and 4 inches wide
+- 6 inches high and 8 inches wide
+- 10 inches high and 10 inches wide
+> Per the IRC (R905.2.8.3), base flashing against a vertical sidewall, whether continuous or step flashing, must be at least 4 inches high and 4 inches wide.
+
+[h064] roof
+Under the IRC and typical manufacturer instructions, how many fasteners are normally required for each asphalt strip shingle on a typical-slope roof?
+- 2
+- 3
+* 4
+- 8
+> Per the IRC (R905.2.6), asphalt strip shingles need at least four fasteners each, or more where the manufacturer requires (for example, in high-wind areas or on very steep slopes).
+
+[h065] roof
+Many shingles on a 22-year-old roof have bare patches where granules are gone, and lots of granules are collecting at the downspouts. What is the most likely explanation?
+- Hail damage from a storm within the past week or two
+* Normal aging, suggesting the roof is near the end of its life
+- Poor attic insulation that lets heat melt the granule adhesive
+- Installation over only a single layer of underlayment instead of two
+> Widespread, even granule loss on an older roof is a sign of aging. The inspector should report it and recommend that a roofer evaluate the roof, rather than predicting an exact remaining life.
+
+[h066] roof
+Shingles on several slopes show randomly spaced dark spots where granules are missing, and the mat underneath feels soft when pressed. Metal roof vents have small dents. What is the most likely cause?
+* Hail impact
+- Foot traffic from installers
+- Manufacturing blisters
+- Algae growth
+> Random bruises with soft spots and dents in soft metals are typical signs of hail. The inspector should report possible storm damage and recommend evaluation by a roofer (the client may also want to contact the insurer).
+
+[h067] roof
+After a windstorm, an inspector sees shingle tabs that are creased across the top, and a few tabs are missing. What is the most likely cause?
+- Hail
+- Ice damming
+* Wind lifting the tabs
+- Overheating from poor ventilation
+> Wind lifts and folds tabs, creasing them and breaking the seal, and can tear tabs off. Creased or missing tabs should be reported for repair.
+
+[h068] roof
+Dark streaks run down the north slope of an asphalt shingle roof, but the shingles lie flat and are intact. What is the most likely cause, and how serious is it?
+- Rot in the roof deck; serious
+* Algae growth; mainly cosmetic
+- Hail damage; serious
+- Overheated shingles from poor attic ventilation; serious
+> Dark streaking on shady slopes is usually algae (often Gloeocapsa magma). It is mostly a cosmetic issue, unlike moss, which holds moisture and can lift shingles.
+
+[h069] roof
+Thick moss is growing on a shaded asphalt shingle roof. Why should this be reported?
+- Moss makes the roof surface more fire-resistant and should be left alone
+* Moss holds moisture and can lift shingles, shortening roof life
+- Moss growth is a reliable sign that the roof was damaged by hail recently
+- Moss always means that the roof deck below it has rotted through completely
+> Moss retains water and its growth can lift shingle edges, allowing water entry and speeding wear. Removal by a roofer is commonly recommended.
+
+[h070] roof
+The neoprene boot around a plumbing vent on the roof is cracked, and there is a water stain on the ceiling below it. What is the most likely source?
+- Condensation forming on the underside of the roof sheathing in the attic
+- A leaking water supply pipe running inside the wall next to the ceiling
+* Water entering through the cracked vent boot
+- A clogged gutter overflowing onto the soffit and running back into the ceiling
+> Rubber vent boots break down in sunlight over time. A cracked boot directly above a ceiling stain is the most likely leak source and should be replaced.
+
+[h071] roof
+Nail heads are exposed through several shingles, and some have pushed up the shingle above them. What should the inspector recommend?
+- No action, because exposed nail heads are normal on most asphalt roofs
+* Repair by a roofer, because the nails can let water in
+- Painting the nail heads with roof paint so that they blend in with the shingles
+- Replacing the gutters, because nail pops are caused by overflowing gutters
+> Nail pops and exposed fasteners can let water past the shingles. They are a common, repairable defect that should be reported.
+
+[h072] roof
+Shingle nails were placed well above the manufacturer's nailing line. What problem can this cause?
+* Reduced wind resistance and holding power
+- Too much granule loss from the shingle surface
+- Algae growth along the shingle tabs on shaded slopes
+- Ice damming at the eaves during the following winter
+> Manufacturers specify a nailing zone so that each nail goes through the overlap and holds two layers. High nailing reduces holding power and can lead to blow-offs.
+
+[h073] roof
+A chimney has only roofing tar smeared around its base, with no step flashing or counterflashing, and the ceiling next to the chimney is stained. What should the inspector report?
+- That the tar is a permanent, acceptable flashing method if it is renewed every year
+* That proper flashing is missing and should be corrected by a roofer or mason
+- That the chimney must be removed down to below the roof line and rebuilt
+- That the ceiling stain is from condensation and is not related to the chimney at all
+> Roof cement alone is a temporary patch that cracks and fails. Chimneys need step (base) flashing plus counterflashing set into the masonry. The stain supports the conclusion that water is getting in.
+
+[h074] roof
+Per the IRC, a cricket (saddle) is required on the upslope side of a chimney when the chimney's dimension parallel to the ridge is more than:
+- 12 inches
+- 24 inches
+* 30 inches
+- 48 inches
+> Per the IRC (R1003.20 and R903.2.2), a cricket is required where the chimney dimension parallel to the ridge is greater than 30 inches, unless the chimney is at the ridge, to divert water and debris around it.
+
+[h075] roof
+In the roofing industry, standing water on a low-slope roof is usually called "ponding" when it remains how long after rain?
+- More than 2 hours
+- More than 12 hours
+* More than 48 hours
+- More than 2 weeks
+> Industry practice (such as NRCA's) commonly calls water that remains more than 48 hours after rain, under conditions that allow drying, ponding. It speeds deterioration and points to poor drainage or sagging.
+
+[h076] roof
+The surface of an older built-up roof shows a pattern of deep cracks that looks like reptile skin. What is this called, and what causes it?
+- Blistering, caused by moisture trapped between the plies of the roof
+* Alligatoring, from the asphalt aging in the sun
+- Fishmouthing, caused by poorly installed felt laps at the seams of the roof
+- Ridging, caused by movement of the roof deck under the membrane over time
+> Alligatoring is surface cracking of asphalt as it ages and becomes brittle from UV exposure. It shows the surfacing is worn out and needs maintenance or replacement.
+
+[h077] roof
+On a modified bitumen roof, the inspector sees raised, soft bubbles in the membrane. What are these, and what is a common cause?
+- Fishmouths, caused by loose edge flashing lifting along the perimeter of the roof
+* Blisters, from trapped moisture or air that expands
+- Splits, caused by heavy foot traffic from service workers crossing the roof
+- Alligatoring, caused by sun damage that has dried out the membrane surface
+> Blisters are pockets where the membrane has separated, usually because moisture or air was trapped and expands with heat. They should be reported because they can rupture.
+
+[h078] roof
+An EPDM (rubber) roof has seams that are peeling apart at the laps. What is the risk?
+- None, because EPDM membranes seal themselves at the laps over time
+* Water can enter at the open seams and leak inside
+- The roof will absorb more heat and become too hot in the summer months
+- The roof will become too heavy for the framing because of the loose sheets
+> EPDM is laid in sheets joined at seams with adhesive or tape. Open seams are a common leak point and should be repaired by a qualified roofer.
+
+[h079] roof
+The roof is slate. Several slates are cracked and one has slipped out of place. How should the inspector inspect this roof?
+* From the ground, a ladder at the eaves, or a drone
+- By walking on the roof, as on any asphalt shingle roof of a similar slope
+- By removing a few slates to check the condition of the underlayment beneath
+- It should not be inspected at all, and the report should not mention the roof
+> Slate is brittle and easily broken underfoot. Inspectors usually view it from the ground, the eaves or a drone, and report the method used.
+
+[h080] roof
+Under typical standards of practice, which statement about inspecting a roof is correct?
+- The inspector must walk on every roof, regardless of slope or weather
+- The inspector must certify in writing that the roof will not leak
+* The inspector need not walk the roof but must describe the method used
+- The inspector must estimate the roof's remaining life to the nearest year
+> Standards such as ASHI and InterNACHI let the inspector choose a safe method, such as walking, using binoculars or a drone, and require reporting the method used. They do not require walking the roof, certifying it or predicting remaining life.
+
+[h081] roof
+It is raining, and the roof is a steep 12:12 slope with wet, slippery shingles. What is the most appropriate action?
+- Walk the roof carefully anyway, because the client paid for a full roof inspection
+- Skip the roof entirely and leave any mention of it out of the written report
+* Inspect from the ground, a ladder or a drone, and report the method and limits
+- Reschedule the whole inspection for the summer, when the roof will be dry and warm
+> Inspectors are not required to do anything unsafe. They should use another method and clearly state the method and its limits in the report.
+
+[h082] roof
+Shingles on a 10-year-old roof are curling up at the edges (cupping) and down at the corners (clawing) across the whole roof. Which condition can speed this up?
+- A roof slope of 8:12, which is steeper than average
+* Poor attic ventilation that traps heat
+- Gutters that are too large for the size of the roof
+- Algae growing on the north-facing slopes of the roof
+> Curling is a sign of aging, and excess heat and moisture from an under-ventilated attic can speed it up. The inspector should report the curling and look for attic ventilation problems.
+
+[h083] roof
+Viewed from the attic, the roof sheathing between rafters dips noticeably, and the roof felt spongy when walked on. What is the most likely condition?
+- Normal deflection that is found in all roof sheathing between rafters
+* Deteriorated or undersized roof sheathing
+- Framing that is too stiff, so the shingles cannot flex with the wind
+- An extra layer of shingles that makes the roof stronger and safer
+> Sagging sheathing and a spongy feel suggest delaminated, rotted or overspanned decking. The inspector should report it and recommend evaluation by a roofer or contractor.
+
+[h084] roof
+Per the IRC, what is the basic required net free ventilating area for a vented attic?
+- 1/50 of the vented space
+- 1/100 of the vented space
+* 1/150 of the vented space
+- 1/500 of the vented space
+> Per the IRC (R806.2), the minimum net free ventilating area is 1/150 of the area of the vented space, which may be reduced to 1/300 when the conditions in the exception are met.
+
+[h085] roof
+Per the IRC, attic ventilation may be reduced from 1/150 to 1/300 when, among other options, at least 40% and no more than 50% of the required vent area is in the upper part of the attic. How far below the ridge may those upper vents be?
+- No more than 1 foot
+* No more than 3 feet
+- No more than 6 feet
+- Anywhere in the attic
+> Per the IRC (R806.2), the upper vents must be no more than 3 feet below the ridge or highest point of the space, measured vertically, with the rest of the required ventilation at the eaves or cornice.
+
+[h086] roof
+An attic has 1,500 square feet of vented space. Per the IRC basic 1/150 ratio, how much net free ventilating area is required?
+- 5 square feet
+* 10 square feet
+- 15 square feet
+- 150 square feet
+> 1,500 divided by 150 equals 10 square feet of net free area. If the 1/300 exception applies, the requirement would be 5 square feet.
+
+[h087] roof
+Per the IRC, openings in attic ventilation covers (screens) must be at least 1/16 inch and no more than:
+- 1/8 inch
+* 1/4 inch
+- 1/2 inch
+- 1 inch
+> Per the IRC (R806.1), ventilation openings must have corrosion-resistant mesh or similar covers with openings between 1/16 inch and 1/4 inch, which keeps out animals but still lets air flow.
+
+[h088] roof
+Per the IRC, where insulation could block eave vents, a baffle must keep an air space of at least how much between the insulation and the roof sheathing at the vent?
+* 1 inch
+- 1/4 inch
+- 3 inches
+- 6 inches
+> Per the IRC (R806.3), where eave or cornice vents are installed, insulation must not block free airflow, and a minimum 1-inch space must be kept between the insulation and the roof sheathing at the vent.
+
+[h089] roof
+In winter, thick ice builds up along the eaves, and water stains show up on the ceiling near exterior walls. What is the usual root cause?
+- Gutters that are too large for the roof, so they fill with snow
+* Attic heat melting snow that refreezes at the cold eaves
+- Shingles installed with too many nails, which conduct cold into the roof
+- A roof slope that is too steep, so snow slides down and piles up at the eaves
+> Ice dams form when warm attic surfaces melt snow that refreezes at the cold overhang. Air sealing, insulation and ventilation are the long-term fixes; an ice barrier limits leaks.
+
+[h090] roof
+In the attic, the inspector finds frost and dark staining on the sheathing right above a bathroom exhaust fan that has no duct. What is the most appropriate recommendation?
+- Add more insulation on top of the fan housing to stop the condensation
+* Have the fan ducted to the exterior
+- Turn the fan off permanently and rely on opening the bathroom door instead
+- Install a second fan in the attic to blow the moist air out the gable vent
+> Per the IRC (M1501.1), exhaust air must go to the outdoors, not into the attic. Warm, moist air from the bathroom condenses on cold sheathing and causes mold and decay.
+
+[h091] roof
+How can an inspector usually estimate how many layers of shingles are on a roof without removing any?
+- By weighing a single shingle removed from the field of the roof
+- By measuring the attic temperature on a sunny afternoon
+* By looking at the roof edges and penetrations
+- By counting the number of nails used in one shingle
+> Layers can often be counted where the roof edges are visible, at drip edges, rakes or around vents. This is a non-destructive way to estimate the number of roof coverings.
+
+[h092] roof
+The first course of shingles at the eave has no starter strip, so water can run through the tab cutouts onto the sheathing. What is the best report entry?
+- Acceptable, because starter strips are an optional upgrade on shingle roofs
+* Improper installation; recommend repair by a qualified roofer
+- The gutters should be removed so that water can drain freely off the eave
+- More attic insulation should be installed to keep the eave from leaking
+> Manufacturers require a starter course so that the gaps between the first course's tabs are covered and the first course is sealed down. Without it, water and wind can get under the first course.
+
+[h093] roof
+A gutter is full of debris and overflowing, and the fascia behind it is rotted. What should the inspector recommend?
+* Cleaning, fascia repair and routine gutter maintenance
+- Adding a second downspout at the other end while leaving the debris in place
+- Painting the gutters and fascia with a water-resistant exterior coating
+- Filling the low spots in the gutter with sealant so that water flows faster
+> Clogged gutters overflow behind the gutter, rot the fascia and send water to the foundation. Cleaning, repairing the damage and routine maintenance solve the problem.
+
+[h094] roof
+On a concrete tile roof, what usually provides the main waterproofing?
+- The tiles alone
+* The underlayment beneath the tiles
+- The paint on the tiles
+- The battens that hold the tiles
+> Tiles shed most water, but water gets past the joints, so the underlayment is the main waterproofing layer. Old underlayment often fails before the tiles do.
+
+[h095] roof
+What is a closed-cut valley?
+- A valley lined with exposed metal, where no shingles cross the valley center
+* One slope's shingles run through the valley; the other slope's are cut along a line
+- A valley where the shingles from both slopes are interlaced (woven) together
+- A valley that is sealed with roof tar and is left without any shingles at all
+> In a closed-cut valley, one slope's shingles run through the valley and the other slope's shingles are trimmed along a line. Open valleys show metal; woven valleys interlace both slopes.
+
+[h096] roof
+A satellite dish has been bolted directly through the shingles in the middle of a roof slope, with no flashing. What is the concern?
+- The dish may lower the roof temperature
+* The fastener holes can let water into the roof
+- Satellite dishes attract lightning
+- The dish voids the house's electrical service
+> Penetrations through roofing need proper flashing or sealing. Bolts through shingles are a common leak source; the dish itself is outside the inspection, but its effect on the roof is not.
+
+[h097] roof
+A skylight has water stains on the drywall around its interior shaft. What should the inspector do?
+* Report the stains and recommend evaluation of the skylight by a roofer
+- State that all skylights eventually leak and that this one must be removed
+- Say nothing, because skylights are excluded from every standard of practice
+- Recommend painting over the stain with stain-blocking primer and moving on
+> Skylights are a frequent leak point at the curb flashing or the glazing seals. The inspector should report the evidence; a moisture meter can show whether the area is wet at the time of inspection.
+
+[h098] roof
+Why might new asphalt shingles installed in cold weather not seal down properly?
+- The roofing nails contract and rust in cold weather, loosening the shingles
+* The sealant strips need heat to bond
+- The shingles shrink permanently in the cold, so the courses no longer overlap
+- The granules fall off in cold weather, which prevents the shingles from sealing
+> Self-sealing strips are activated by heat. In cold weather, shingles may stay unsealed and vulnerable to wind until temperatures rise, unless hand-sealed per the manufacturer.
+
+[h099] roof
+Under typical standards of practice, which of these is the inspector NOT required to do when inspecting a roof?
+- Inspect flashings around roof penetrations
+- Inspect the roof covering
+- Report the method used to inspect the roof
+* Remove snow or ice to see the roof surface
+> Typical standards of practice require inspecting the roof covering, flashings, gutters and penetrations and describing the method used. They do not require removing snow, ice or debris, which is a limitation to report.
+
+[h100] roof
+A low-slope roof has a single interior drain, and the area around it holds water. What additional feature is commonly needed so that the roof can drain if that drain clogs?
+- A larger gutter along the edge of the roof
+* A secondary (overflow) drain or scupper
+- A thicker roof membrane over the whole roof
+- More insulation below the roof deck
+> Roofs that drain to interior drains or are surrounded by parapets need secondary drains or scuppers so that a clogged primary drain does not cause dangerous ponding or leaks.
+
+# ---------------- Structure & Foundation (h101-h150) ----------------
+
+[h101] structure
+Per the IRC, the bottom of an exterior footing must be at least how far below the surface of undisturbed ground, regardless of frost depth?
+- 6 inches
+* 12 inches
+- 24 inches
+- 36 inches
+> Per the IRC (R403.1.4), exterior footings must be at least 12 inches below undisturbed ground and also below the frost line set by the local jurisdiction, unless frost-protected by another approved method.
+
+[h102] structure
+Per the IRC, what are the minimum diameter and maximum spacing of anchor bolts that fasten a wood sill plate to a foundation?
+- 3/8 inch, 8 feet on center
+* 1/2 inch, 6 feet on center
+- 5/8 inch, 10 feet on center
+- 1/4 inch, 4 feet on center
+> Per the IRC (R403.1.6), anchor bolts must be at least 1/2 inch in diameter, spaced no more than 6 feet apart, embedded at least 7 inches, with a bolt within 12 inches of each end of each plate section.
+
+[h103] structure
+Per the IRC, an anchor bolt must be located within how far of each end of each sill plate section?
+- 4 inches
+* 12 inches
+- 24 inches
+- 36 inches
+> Per the IRC (R403.1.6), there must be at least two bolts per plate section, with one bolt within 12 inches of each end of each section.
+
+[h104] structure
+A concrete block basement wall has a long horizontal crack about halfway up, and the wall bows inward along the crack. What is the most likely cause, and what should the inspector recommend?
+- Normal concrete shrinkage; no action is needed beyond sealing the crack
+* Lateral soil and water pressure; refer to a structural engineer
+- A roof leak running down inside the wall; repair the roof flashing first
+- Frost forming in the attic and loading the walls; add attic insulation
+> A horizontal crack with inward bowing in a block wall is a classic sign of lateral pressure from soil and water. It can get worse and is a significant structural concern that needs an engineer.
+
+[h105] structure
+A brick or concrete block wall shows a crack that zigzags along the mortar joints in a stair-step pattern. What does this usually indicate?
+* Differential settlement or movement of the foundation
+- Shrinkage of poured concrete as it cures
+- Termite activity in the mortar
+- Too much insulation in the wall
+> Stair-step cracking through mortar joints usually shows that one part of the wall moved relative to another, often from settlement. Width, displacement and signs of ongoing movement determine how serious it is.
+
+[h106] structure
+A poured concrete basement wall has a single narrow vertical crack with no displacement and no water entry. What is the most likely cause?
+- Lateral soil pressure pushing the wall inward
+* Shrinkage as the concrete cured
+- An overloaded roof bearing down on the wall
+- Frost heave lifting the footing in winter
+> Narrow vertical cracks in poured walls are typically from shrinkage and are usually not structurally significant. They can still let water in, and wide, displaced or growing cracks need further evaluation.
+
+[h107] structure
+Interior drywall shows diagonal cracks running up from the corners of several doors and windows, and some doors stick. What is the most likely explanation?
+- Paint that was applied too thickly over the joints
+* Structural movement, such as settlement
+- High-quality drywall finishing that is too rigid
+- A plumbing leak in the attic running down the walls
+> Openings are weak points where movement shows up as diagonal cracks and doors that bind. The inspector should report the pattern and look for its cause in the foundation and framing.
+
+[h108] structure
+Bricks on a chimney and on the lower part of a wall have faces that are flaking off (spalling). What usually causes this?
+- Termites tunneling through the brick faces
+* Absorbed water freezing and thawing
+- Too much mortar packed into the joints
+- Lightning strikes on the chimney over time
+> Spalling happens when absorbed water freezes and expands, breaking off the brick face. It indicates excess moisture, such as from missing caps, poor drainage or hard, impermeable mortar.
+
+[h109] structure
+Per the IRC, notches in the top or bottom of solid sawn floor joists must not exceed what fraction of the joist depth, and must not be in which part of the span?
+- 1/3 of the depth; the outer third
+- 1/4 of the depth; the end sixth
+* 1/6 of the depth; the middle third
+- 1/2 of the depth; the middle sixth
+> Per the IRC (R502.8.1), notches in solid lumber joists must not exceed 1/6 of the depth, must not be longer than 1/3 of the depth, and must not be in the middle third of the span. Notches at the ends must not exceed 1/4 of the depth.
+
+[h110] structure
+Per the IRC, bored holes in solid sawn floor joists must not be within how far of the top or bottom edge, and must not exceed what diameter?
+- 1/2 inch of the edge; 1/2 of the joist depth
+- 1 inch of the edge; 1/4 of the joist depth
+* 2 inches of the edge; 1/3 of the joist depth
+- 3 inches of the edge; 2/3 of the joist depth
+> Per the IRC (R502.8.1), holes in solid joists must be no closer than 2 inches to the top or bottom and no larger than 1/3 of the joist depth.
+
+[h111] structure
+In a crawl space, the inspector sees that a floor joist has been notched several inches deep on the bottom edge near mid-span to fit a drain pipe. How should this be reported?
+- As acceptable, because the drain pipe needed the space to slope properly
+* As a structural defect needing repair by a contractor or engineer
+- As a cosmetic issue, because the notch is hidden in the crawl space
+- As a plumbing defect only, to be corrected by moving the drain pipe later
+> A deep notch on the bottom (tension) edge in the middle third of the span greatly weakens a joist and is not allowed by the IRC. It should be reported for repair, such as sistering or a header.
+
+[h112] structure
+Per the IRC, in an exterior or bearing wall, a stud may be bored with a hole no larger than what percentage of its width, unless it is doubled?
+- 25 percent
+* 40 percent
+- 60 percent
+- 75 percent
+> Per the IRC (R602.6), bored holes in bearing-wall studs may be up to 40% of the stud width, or up to 60% if the stud is doubled and no more than two successive studs are bored. Notches are limited to 25%.
+
+[h113] structure
+Per the IRC, in a bearing wall, a stud may be notched no more than what percentage of its width?
+* 25 percent
+- 40 percent
+- 50 percent
+- 60 percent
+> Per the IRC (R602.6), studs in exterior or bearing walls may be notched up to 25% of their width. Nonbearing partition studs may be notched up to 40%.
+
+[h114] structure
+Per the IRC, when a pipe cuts through more than 50% of the width of a top plate, what is required?
+- Nothing, as long as the cut is in a wall that carries a roof load
+- Filling the hole around the pipe with fire-rated spray foam only
+* A metal strap across the cut, fastened on each side
+- Replacing the whole top plate along the length of the wall
+> Per the IRC (R602.6.1), where piping or ductwork cuts more than 50% of a top plate's width in an exterior or bearing wall, a galvanized metal strap must be fastened across and to the plate on each side of the opening.
+
+[h115] structure
+In the attic, the inspector finds that a web member of a manufactured roof truss has been cut to make room for an air handler. What is the most appropriate action?
+- Report it as acceptable as long as the cut is clean and square
+- Nail a short board beside the cut, then continue the inspection without comment
+* Report it as a defect and refer it to an engineer or the truss manufacturer
+- Recommend adding insulation around the cut to protect the truss from moisture
+> Trusses are engineered systems; cutting or altering any member can compromise the whole truss. Repairs require a design from an engineer or the truss manufacturer.
+
+[h116] structure
+The bottom flange of an I-joist has been notched to fit a duct. What is the concern?
+* The flange must not be cut, so the joist may be seriously weakened
+- None, because I-joists are much stronger than solid lumber joists
+- Only a cosmetic concern, because the flange is hidden by the ceiling
+- The duct will be too small for the airflow needed by the room above
+> Manufacturers prohibit cutting or notching I-joist flanges. Only holes in the web are allowed, at the sizes and locations the manufacturer specifies. A cut flange is a structural defect.
+
+[h117] structure
+What is the main structural purpose of rafter ties (or ceiling joists tied to the rafters) in a conventionally framed gable roof?
+- To support attic storage
+* To resist the rafters' outward thrust on the walls
+- To provide nailing for the ceiling drywall only
+- To hold down the roof against wind uplift
+> Rafter ties connect the rafter ends to keep the walls from spreading apart under the roof load. Collar ties in the upper third of the attic mainly resist wind uplift and ridge separation.
+
+[h118] structure
+The ridge of a stick-framed roof sags, and the top of the exterior walls leans outward. There are no ceiling joists or rafter ties connecting the rafters. What is the likely cause?
+- Hail damage that has cracked the roof sheathing
+* Rafter thrust spreading the walls
+- Normal settling of a newly built roof
+- Too much attic ventilation drying out the rafters
+> Without rafter ties or a structural ridge beam, rafters push the walls outward and the ridge drops. This is a significant structural defect that needs an engineer or contractor.
+
+[h119] structure
+Per the IRC, when the roof slope is less than 3:12, the member at the ridge that supports the rafters must be:
+- A 1-inch ridge board
+- A collar tie
+* Designed as a beam
+- Omitted
+> Per the IRC (R802.3), where the roof pitch is less than 3:12, the members that support rafters (such as the ridge) must be designed as beams, because the rafters create little thrust that ceiling joists can resist.
+
+[h120] structure
+Per the IRC, in a crawl space, wood joists closer than how far to exposed ground must be naturally durable or preservative-treated?
+- 6 inches
+- 12 inches
+* 18 inches
+- 24 inches
+> Per the IRC (R317.1), wood joists or the bottom of a wood structural floor less than 18 inches from exposed ground, and wood girders less than 12 inches from exposed ground, must be decay-resistant.
+
+[h121] structure
+Per the IRC, wood girders in a crawl space closer than how far to exposed ground must be naturally durable or preservative-treated?
+- 6 inches
+* 12 inches
+- 18 inches
+- 24 inches
+> Per the IRC (R317.1), girders closer than 12 inches to exposed ground in a crawl space must be decay-resistant. The limit for joists is 18 inches.
+
+[h122] structure
+Per the IRC, what is the minimum size of an access opening through a floor into a crawl space?
+- 12 by 18 inches
+* 18 by 24 inches
+- 22 by 30 inches
+- 24 by 36 inches
+> Per the IRC (R408.4), a crawl space access opening through the floor must be at least 18 by 24 inches; an opening through a perimeter wall must be at least 16 by 24 inches.
+
+[h123] structure
+Per the IRC, for a vented crawl space with no ground vapor retarder, what is the minimum net vent area?
+- 1 square foot for each 50 square feet of crawl space
+* 1 square foot for each 150 square feet of crawl space
+- 1 square foot for each 300 square feet of crawl space
+- 1 square foot for each 1,500 square feet of crawl space
+> Per the IRC (R408.1), vented crawl spaces need 1 square foot of net vent area for each 150 square feet of crawl space. The area may be reduced to 1/1,500 when the ground is covered with a Class I vapor retarder.
+
+[h124] structure
+Per the IRC, crawl space foundation vents should be placed so that one is within how far of each corner of the building?
+- 1 foot
+* 3 feet
+- 6 feet
+- 10 feet
+> Per the IRC (R408.1), one ventilation opening must be within 3 feet of each corner of the building to provide cross ventilation.
+
+[h125] structure
+A crawl space floor is bare soil with no vapor retarder, and the wood framing has high moisture readings and visible fungal growth. What is the most appropriate recommendation?
+- Seal all the foundation vents tightly and take no other action
+* Refer to a contractor for moisture control, such as a ground cover
+- Recommend insulating the crawl space walls only, without other changes
+- Make no comment, because crawl spaces are expected to be damp
+> Exposed soil releases moisture that raises wood moisture content and supports decay and fungal growth. A ground cover plus correction of drainage and ventilation addresses the source.
+
+[h126] structure
+The inspector sees pencil-width mud tubes running up a foundation wall to the wood sill. What is the most appropriate action?
+- Break the tubes and report that the termites are gone
+* Report it and refer to a licensed pest professional
+- Spray insecticide on the tubes and the sill plate
+- Ignore it, because insects are outside every inspection
+> Mud tubes are a sign of subterranean termites. Typical standards of practice do not require the inspector to identify pests, but reporting visible evidence and referring to a licensed specialist is appropriate.
+
+[h127] structure
+Small piles of coarse sawdust containing insect parts are found beneath a wood window frame. Which insect is most likely responsible?
+- Subterranean termites
+* Carpenter ants
+- Powderpost beetles
+- Drywood termites
+> Carpenter ants excavate wood to nest but do not eat it, pushing out coarse frass that often contains insect parts. Powderpost beetles leave a fine, flour-like powder and tiny exit holes.
+
+[h128] structure
+Wood joists show many tiny round holes with a fine, flour-like powder below them. Which pest is most likely?
+- Carpenter ants
+- Subterranean termites
+* Powderpost beetles
+- Carpenter bees
+> Powderpost beetle larvae tunnel through wood and leave small round exit holes and fine powder. Carpenter bees make larger, perfectly round entry holes in exposed wood surfaces.
+
+[h129] structure
+Decayed wood shows dark, crumbly pieces that break into small cube-shaped chunks. What type of decay is this?
+* Brown rot
+- White rot
+- Soft rot from surface mold only
+- Fire damage
+> Brown rot attacks cellulose and leaves wood dark and cracked into cubes. All wood decay needs sustained moisture, so the source of water should be identified.
+
+[h130] structure
+A garage slab is stamped as a post-tensioned slab. What should the inspector advise the client?
+- That the slab can be cut or drilled anywhere without special precautions
+* That it must not be cut or drilled without professional guidance
+- That post-tensioned slabs are prohibited in residential construction
+- That the stamp means the slab has failed and needs to be replaced
+> Post-tensioned slabs contain high-tension steel tendons. Cutting or drilling into one can cause injury and damage the slab, so any work must be planned by qualified professionals.
+
+[h131] structure
+In a basement, a beam is supported by a telescoping screw-jack post that looks like a temporary shoring post, sitting on the slab with no visible footing. What should the inspector report?
+- That the support is a permanent, approved installation that needs no comment
+* That it appears temporary and should be evaluated by a professional
+- That the client should tighten the jack a few turns to level the floor above
+- Nothing, because posts in basements are not part of the structure
+> Temporary jack posts are not intended as permanent supports, and posts need adequate footings. The inspector should report it and refer it to a qualified professional.
+
+[h132] structure
+Per the IRC, the ends of floor joists must bear at least how far on masonry or concrete?
+- 1 inch
+- 1-1/2 inches
+* 3 inches
+- 6 inches
+> Per the IRC (R502.6), joist ends must bear at least 1-1/2 inches on wood or metal and at least 3 inches on masonry or concrete (unless supported by approved hangers).
+
+[h133] structure
+Floors throughout a home feel noticeably bouncy and sag slightly at mid-span. What is a likely cause?
+- Too much insulation between the floor joists
+* Undersized, overspanned or weakened joists
+- Hardwood flooring installed over the subfloor
+- A new roof adding weight to the exterior walls
+> Excess deflection usually comes from joists that are too small for the span or weakened. The inspector should report it and recommend evaluation, not calculate spans.
+
+[h134] structure
+Above a garage door in a brick veneer wall, a horizontal crack runs along the opening, and the steel lintel is heavily rusted and has expanded. What is happening?
+- Normal settlement of the brick over a wide opening
+* Rust jacking from the corroding lintel
+- Frost heave of the garage slab lifting the door frame
+- A roof leak through the attic running down the wall
+> Rusting steel expands and can lift and crack the brick above it. A mason or contractor should evaluate the lintel and the masonry.
+
+[h135] structure
+In late winter, cracks appear where interior partition walls meet the ceiling, and they close again in summer. The roof is framed with trusses. What is the most likely cause?
+* Truss uplift
+- Foundation settlement at the center of the house
+- Undersized floor joists sagging between bearing walls
+- A leaking water heater wetting the wall framing
+> Truss uplift is seasonal. Bottom chords buried in cold, damp attic insulation and top chords in the warm, dry attic expand and contract differently. It is usually not a structural defect but can be reported and explained.
+
+[h136] structure
+Several small nail heads have pushed out through the drywall in a newer home, creating round bumps. What is the most likely cause?
+- Termites eating the framing behind the drywall
+* Framing shrinking as it dries
+- Foundation failure lifting the walls
+- An electrical short heating the nails
+> Nail pops typically result from the framing drying and shrinking after construction. They are usually cosmetic.
+
+[h137] structure
+A basement wall shows a horizontal line of staining at the same height all around the room, plus efflorescence below the line. What is the most likely explanation?
+- A leaking pipe running along one of the walls
+* Past flooding up to that level
+- Normal condensation on the cool basement walls
+- Paint that was applied in two different colors
+> A consistent "tide line" suggests water stood in the basement at that level. The inspector should report the evidence and recommend asking the seller about its history and evaluating drainage.
+
+[h138] structure
+Steel wall anchor plates appear on the inside of a basement wall at regular intervals. What do these usually indicate?
+* A past repair of a moving wall
+- A decorative feature added to the wall
+- New anchor bolts for the sill plate above
+- A plumbing cleanout for the floor drain
+> Wall anchors or braces show that the wall has moved in the past. The inspector should report them and recommend obtaining documentation, such as an engineer's report and warranty, and checking for ongoing movement.
+
+[h139] structure
+What is the main structural concern with an older stone (rubble) foundation whose mortar has become soft and sandy?
+- The stones will absorb too much heat in summer and crack
+* The wall is weakened and can let water and pests in
+- Sandy mortar makes the wall too heavy for its footing
+- Rubble foundations cannot be repointed, so they must be replaced
+> Deteriorated mortar reduces the wall's strength and stability and allows water and pest entry. Repointing by a qualified mason is a common recommendation.
+
+[h140] structure
+Expansive clay soils are associated with which kind of foundation problem?
+- Rapid rusting of the anchor bolts in the sill plate
+* Heaving and settling as the soil swells and shrinks
+- Excessive radon entry with no other effect on the house
+- Wood rot in the attic caused by soil moisture rising
+> Expansive clays change volume with moisture. Foundations can heave or settle, causing cracks and uneven floors. Steady moisture levels and good drainage help.
+
+[h141] structure
+The bottom plate of a finished basement wall sits directly on the concrete slab. Per the IRC, what type of wood should it be?
+- Any untreated softwood, as long as it is kiln-dried
+* Preservative-treated or naturally durable wood
+- Hardwood only, because softwoods absorb moisture
+- Engineered I-joist material laid flat on the slab
+> Per the IRC (R317.1), wood sills and sleepers on concrete that is in direct contact with the ground, and wood framing on concrete or masonry that is near exposed ground, must be decay-resistant.
+
+[h142] structure
+A window header in a bearing wall is visibly sagging, and the window no longer opens. What is the most likely cause?
+- High humidity in the room swelling the window sash
+* An undersized or missing header
+- A worn window lock that no longer releases the sash
+- Too much caulk applied around the window frame
+> A header carries load across an opening. If it is undersized, missing or overloaded, it sags and can rack the window. This should be reported for evaluation by a contractor or engineer.
+
+[h143] structure
+An inspector finds a long, wide crack in a foundation wall with one side offset from the other by about 1/2 inch. Which recommendation is most appropriate?
+- Fill the crack with caulk and monitor it for changes
+* Refer it to a structural engineer
+- Report it as typical concrete shrinkage
+- Recommend replacing the entire foundation now
+> Displacement across a crack shows structural movement beyond normal shrinkage. The inspector should not diagnose the cause or design a repair, but should refer it to an engineer.
+
+[h144] structure
+Per the IRC, a ground vapor retarder in a crawl space should have its joints lapped by at least how much?
+- 1 inch
+* 6 inches
+- 12 inches
+- 24 inches
+> Per the IRC (R408.3), the Class I vapor retarder in an unvented crawl space must have joints overlapped by 6 inches and sealed or taped, with edges extending at least 6 inches up the stem wall.
+
+[h145] structure
+What is the main purpose of sistering a floor joist?
+- To lower the floor height in the room above
+* To strengthen a weak or damaged joist
+- To add insulation between the floor joists
+- To make room for plumbing drains in the floor
+> Sistering means attaching a full or partial-length new member beside a damaged joist so that both carry the load. It is a common repair for cracked, notched or decayed joists.
+
+[h146] structure
+Under typical standards of practice, which of these is the home inspector NOT required to do when inspecting the structure?
+- Describe the foundation type
+- Report signs of significant movement
+- Probe structural components where deterioration is suspected
+* Calculate the strength or adequacy of structural members
+> Inspectors describe and inspect visible structure and report deficiencies, but engineering calculations of strength, adequacy and span are excluded from standards of practice.
+
+[h147] structure
+In a crawl space, the inspector finds wood form boards left in contact with soil under the floor framing. Why should this be reported?
+- Form boards are required by code to stay in place under the floor
+* Wood debris on soil attracts termites and decay
+- Form boards improve cross ventilation in the crawl space
+- The boards make the crawl space easier for workers to enter
+> Cellulose debris left in crawl spaces, especially in contact with soil, invites termites and fungi. Removing it is a common recommendation.
+
+[h148] structure
+A brick veneer wall is bulging outward between floors, and the mortar joints near the bulge are cracked. What is the most likely concern?
+- Normal thermal expansion of brick on sunny walls
+* Failed or missing veneer ties, or hidden moisture damage
+- Good, flexible mortar that allows the wall to move
+- An overloaded floor inside pressing on the wall
+> Veneer depends on metal ties to the structure behind it. Bulging suggests failed ties or hidden damage, which is a potential safety hazard; a mason or engineer should evaluate it.
+
+[h149] structure
+When inspecting a basement with finished walls and ceilings, what limitation should the inspector report?
+- That the structure is free of defects because the finishes are in good condition
+* That finishes concealed the structure, limiting the inspection
+- That finished basements are built to a higher standard and never have defects
+- That the inspector removed wall panels to look behind them where possible
+> Inspectors report on readily accessible, visible components. Finished surfaces conceal structure, and the report should clearly state that limitation.
+
+[h150] structure
+A support column in a basement is leaning, and its base is not centered on its footing. What should the inspector do?
+- Straighten the column by tapping its base back into place with a hammer
+* Report it and refer it to a qualified contractor or engineer
+- Report it as acceptable, as long as the floor above it appears to be level
+- Recommend painting the column with rust-inhibiting paint to protect it
+> A leaning or displaced column may not carry its load properly. The inspector should report it and refer it rather than attempting adjustments or judging it safe.
+
+# ---------------- Plumbing (h151-h200) ----------------
+
+[h151] plumbing
+Per the IRC, when the static water pressure entering a house exceeds what value is a pressure-reducing valve required?
+- 40 psi
+- 60 psi
+* 80 psi
+- 150 psi
+> Per the IRC (P2903.3.1), maximum static pressure is 80 psi. Where the street pressure is higher, an approved pressure-reducing valve is required.
+
+[h152] plumbing
+An inspector screws a pressure gauge onto an exterior hose bibb and reads 110 psi. What is the most appropriate recommendation?
+* Have a licensed plumber install or adjust a pressure-reducing valve
+- No action, because higher pressure gives better showers
+- Replace all faucets with low-flow models
+- Turn the main shut-off valve partly closed
+> Pressure above 80 psi strains fixtures, valves and water heaters and causes leaks. A properly adjusted pressure-reducing valve is the accepted fix; throttling the main valve is not a proper correction.
+
+[h153] plumbing
+Per the IRC, what is the minimum static water pressure at the building entrance for a water service?
+- 15 psi
+* 40 psi
+- 60 psi
+- 80 psi
+> Per the IRC (P2903.3), static pressure at the building entrance must be at least 40 psi. Where it is lower, a booster system may be needed.
+
+[h154] plumbing
+When the inspector opens the bathroom sink faucet, the flow in the tub on the same floor drops to a trickle. The house has original galvanized steel supply pipes. What is the most likely cause?
+- A water heater that is too large for the house
+* Corrosion and scale inside the old galvanized pipes
+- A missing vent on the drain system serving the tub
+- High water pressure coming in from the city main
+> Galvanized steel corrodes and scales internally with age, narrowing the pipe. Running two fixtures at once (functional flow) shows the restriction. A plumber should evaluate the system.
+
+[h155] plumbing
+Gray plastic water supply piping with crimp rings is found in a house built in 1988. What is the most likely material, and what is the concern?
+- PEX; there is no particular concern
+- CPVC; it is too heavy for the framing
+* Polybutylene; it is prone to failure
+- Copper; it corrodes quickly in most water
+> Polybutylene, used roughly from the late 1970s to the mid-1990s, is prone to failure, especially at fittings, and was the subject of large class-action suits. The inspector should identify it and recommend evaluation by a plumber.
+
+[h156] plumbing
+Under federal law, lead solder was banned for use in potable water systems beginning in:
+- 1950
+- 1970
+* 1986
+- 2010
+> The 1986 amendments to the Safe Drinking Water Act banned lead pipe and lead solder (over 0.2% lead) in potable water systems. Homes plumbed with copper before then may have lead-bearing solder.
+
+[h157] plumbing
+A copper water pipe is connected directly to a galvanized steel pipe with no fitting between them, and the joint is heavily corroded. What is the cause?
+- Hard water depositing minerals at the joint
+- High water temperature softening the joint
+* Galvanic corrosion between dissimilar metals
+- Too little water pressure in the supply line
+> Joining dissimilar metals in water creates galvanic corrosion at the connection. A dielectric fitting (or other approved transition) is used to separate them.
+
+[h158] plumbing
+Per the IRC, what is the minimum slope for a horizontal drain pipe 2-1/2 inches in diameter or smaller?
+- 1/16 inch per foot
+- 1/8 inch per foot
+* 1/4 inch per foot
+- 1/2 inch per foot
+> Per the IRC (P3005.3), horizontal drainage pipe 2-1/2 inches or smaller needs 1/4 inch per foot; 3 to 6 inches needs 1/8 inch per foot.
+
+[h159] plumbing
+Per the IRC, what is the minimum slope for a 4-inch horizontal building drain?
+- 1/16 inch per foot
+* 1/8 inch per foot
+- 1/4 inch per foot
+- 1/2 inch per foot
+> Per the IRC (Table P3005.3), drain pipe 3 inches through 6 inches in diameter needs a slope of at least 1/8 inch per foot.
+
+[h160] plumbing
+Per the IRC, the liquid seal in a fixture trap must be at least ___ and no more than ___ deep.
+- 1 inch; 2 inches
+* 2 inches; 4 inches
+- 3 inches; 6 inches
+- 4 inches; 8 inches
+> Per the IRC (P3201.2), each fixture trap must have a liquid seal of not less than 2 inches and not more than 4 inches (with a deeper seal allowed for floor drains and similar traps where evaporation is a concern).
+
+[h161] plumbing
+Under a bathroom sink, the drain makes an "S" shape that drops straight down into the floor with no vent connection. What is the concern?
+- The trap holds too much water and drains slowly
+* The trap can siphon dry, letting sewer gas in
+- S-traps cause high water pressure in the supply
+- S-traps are required on all lavatory sinks
+> S-traps are prohibited by the IRC (P3201.5) because the falling water can siphon the trap dry. A P-trap with a proper vent connection is the accepted configuration.
+
+[h162] plumbing
+A sink drain uses a flexible, corrugated (accordion-style) plastic pipe as the trap. Why should this be reported?
+- It is more expensive than a standard trap and adapter
+* Traps need a smooth interior; corrugated pipe clogs
+- Corrugated traps are permitted only for kitchen sinks
+- It makes the hot water in the sink too hot to use
+> Per the IRC (P3201.2 and P3201.5), traps must have a smooth, uniform interior. Corrugated flexible pipe traps debris and is not an approved trap.
+
+[h163] plumbing
+Per the IRC, an open vent pipe through a roof must extend at least how far above the roof?
+- 2 inches
+* 6 inches
+- 12 inches
+- 24 inches
+> Per the IRC (P3103.1), open vent pipes must terminate at least 6 inches above the roof (higher where the roof is used for other purposes or where local snow depth requires).
+
+[h164] plumbing
+Per the IRC, a plumbing vent terminal near an openable window must be at least 10 feet away horizontally unless it is at least how far above the top of the window?
+- 1 foot
+- 2 feet
+* 3 feet
+- 6 feet
+> Per the IRC (P3103.5), vent terminals must be at least 4 feet below, 10 feet horizontally from, or 3 feet above any door, openable window or other air intake within 10 feet, to keep sewer gas out.
+
+[h165] plumbing
+When a bathtub drains, the nearby bathroom sink drain gurgles. What is the most likely cause?
+* A venting problem
+- A water heater that is too small for the house
+- Too much water pressure in the supply lines
+- A loose toilet seat letting air into the drain
+> Gurgling usually means air is being pulled through a trap because of poor venting or a partial blockage. The trap seal can be siphoned, so a plumber should evaluate it.
+
+[h166] plumbing
+Which statement about the temperature and pressure relief (TPR) valve discharge pipe is correct per the IRC?
+- It should be reduced to 1/2 inch so that the discharge comes out more slowly
+- It should have a shut-off valve so that it can be closed during repairs
+* It must be full size, drain by gravity, and have no valves or end threads
+- It should rise up through the attic and out through the roof to the outdoors
+> Per the IRC (P2804.6.1), the discharge pipe must not be smaller than the valve outlet, must not have valves or tees, must drain by gravity, and must not be threaded at its end, so that it cannot be capped.
+
+[h167] plumbing
+Per the IRC, a TPR valve discharge pipe that ends near the floor should terminate no more than how far above the floor or waste receptor?
+- 2 inches
+* 6 inches
+- 12 inches
+- 24 inches
+> Per the IRC (P2804.6.1), the discharge must end no more than 6 inches above the floor or the flood-level rim of the waste receptor (and no less than two pipe diameters above it), so that scalding water is directed downward.
+
+[h168] plumbing
+A water heater's TPR valve discharge pipe has a threaded cap screwed onto its end. What is the most appropriate report comment?
+- Acceptable, because the cap keeps the floor dry when the valve weeps
+* A serious hazard, because the cap blocks the relief path
+- A cosmetic issue to be handled when the water heater is replaced
+- Acceptable as long as the water heater is less than five years old
+> A capped discharge pipe defeats the safety valve and can allow a water heater to explode if it overheats. That is why the IRC prohibits threads at the outlet end.
+
+[h169] plumbing
+Why do most standards of practice say an inspector is not required to operate the TPR valve on a water heater?
+- The valve can only be tested with special tools that inspectors do not carry
+* It may discharge scalding water or fail to reseat
+- It is illegal for anyone other than a licensed plumber to touch a TPR valve
+- The valve is normally hidden inside the tank and cannot be reached
+> Typical standards of practice exclude operating safety valves. A TPR valve that has not opened in years may not reseat, creating a leak, and the discharge is scalding hot.
+
+[h170] plumbing
+Per the IRC, in a garage, a fuel-fired water heater with an ignition source must have the ignition source at least how high above the floor, unless the appliance is listed as flammable-vapor-ignition-resistant?
+- 6 inches
+- 12 inches
+* 18 inches
+- 36 inches
+> Per the IRC (M1307.3 and G2408.2), appliances with an ignition source in a garage must be elevated so that the ignition source is at least 18 inches above the floor, because gasoline vapors are heavier than air. FVIR-listed water heaters are exempt.
+
+[h171] plumbing
+A gas water heater in a garage sits in the path of the car, with no barrier in front of it. Per the IRC, what is needed?
+* Protection from vehicle impact
+- Nothing, because water heaters are designed to resist impacts from vehicles
+- A larger gas supply line so that the heater can recover more quickly
+- A thermal expansion tank mounted on the cold water line above the heater
+> Per the IRC (M1307.3.1 and G2408.3), appliances in garages must be protected from motor vehicle impact.
+
+[h172] plumbing
+Per the IRC, where seismic strapping of a water heater is required, the straps must be in which locations?
+- One strap at the very top of the tank only, anchored to the ceiling
+* In the upper and lower thirds of the tank
+- Wrapped around the gas line and the water lines above the tank
+- At mid-height only, with one strap fastened to each side wall
+> Per the IRC (P2801.8), in Seismic Design Categories D0, D1 and D2 (and for townhouses in C), water heaters must be anchored or strapped in the upper third and lower third of the tank, with the lower strap at least 4 inches above the controls.
+
+[h173] plumbing
+Per the IRC, where a water heater is installed where a leak would cause damage, it must have a drain pan at least how deep, with what minimum drain size?
+- 1/2 inch deep; 1/2-inch drain
+* 1-1/2 inches deep; 3/4-inch drain
+- 3 inches deep; 1-inch drain
+- 6 inches deep; 2-inch drain
+> Per the IRC (P2801.6), the pan must be at least 1-1/2 inches deep and drain through a pipe at least 3/4 inch in diameter to an approved location.
+
+[h174] plumbing
+A house has a backflow preventer (check valve) on the water service, creating a closed system. Per the IRC, what is needed for the water heater?
+- A larger TPR valve installed in place of the original
+- A second water heater installed in series with the first
+* A thermal expansion control, such as an expansion tank
+- A pressure booster pump installed on the cold water line
+> Per the IRC (P2903.4), where a check valve, backflow preventer or pressure-reducing valve creates a closed system, thermal expansion control is required, because heated water has nowhere to expand.
+
+[h175] plumbing
+Per the IRC, shower and tub-shower valves must limit the maximum outlet temperature to:
+- 100 degrees F
+* 120 degrees F
+- 140 degrees F
+- 160 degrees F
+> Per the IRC (P2708.4), individual shower and tub-shower valves must be pressure-balance, thermostatic or combination types with a limit stop set at no more than 120 degrees F to prevent scalding.
+
+[h176] plumbing
+Per the IRC, what is the minimum distance from the center of a toilet to a side wall or obstruction?
+- 12 inches
+* 15 inches
+- 18 inches
+- 21 inches
+> Per the IRC (R307.1 and P2705.1), a water closet must be at least 15 inches from its center to any side wall or obstruction, and 30 inches center to center from an adjacent fixture.
+
+[h177] plumbing
+Per the IRC, what is the minimum clear space in front of a toilet?
+- 15 inches
+* 21 inches
+- 30 inches
+- 36 inches
+> Per the IRC (Figure R307.1), a clear space of at least 21 inches is required in front of a water closet, lavatory or bidet.
+
+[h178] plumbing
+A toilet rocks when the inspector applies light pressure, and the floor around its base is soft. What is the most appropriate recommendation?
+- Tighten the closet bolts as hard as possible until the toilet stops moving
+* Have the toilet reset and the subfloor checked by a plumber
+- Run a bead of caulk around the base of the toilet and take no other action
+- No action, because all toilets move slightly when pressure is applied
+> A loose toilet can break its wax seal and leak, and a soft floor suggests water damage below. Resetting the toilet and checking the subfloor deal with both.
+
+[h179] plumbing
+An exterior hose bibb has no vacuum breaker or other backflow protection. Why is that a concern?
+- The hose bibb will freeze sooner in the winter months
+* Contaminated water can be siphoned back into the supply
+- The water pressure at the other fixtures will drop
+- The hose bibb will leak continuously from its handle
+> A hose left in a bucket of chemicals or a puddle can siphon contaminated water back into the supply if pressure drops. Per the IRC (P2902), hose connections need backflow protection, such as a vacuum breaker.
+
+[h180] plumbing
+What is the purpose of an air gap or a high loop on a dishwasher drain line?
+- To make the dishwasher drain more quickly into the sink drain
+* To keep sink wastewater from flowing back into the dishwasher
+- To cool the hot dishwasher discharge before it reaches the trap
+- To reduce noise from the drain pump during the drain cycle
+> A dishwasher drain must be protected from backflow. Per the IRC (P2717), an air gap or a drain line looped up and fastened to the underside of the counter keeps sink water from siphoning into the dishwasher.
+
+[h181] plumbing
+Per the IRC, on a faucet or fixture fitting, which side is the hot water supply connected to?
+* The left side
+- The right side
+- The top
+- Either side, as long as it is labeled
+> Per the IRC (P2722.2), hot water must be connected to the left side of the fitting as the user faces it. Reversed supplies can cause scalding surprises.
+
+[h182] plumbing
+In a house built in the 1950s, the sewer lateral is a black, fiber-based pipe. What is the most appropriate recommendation?
+- No action, because this type of pipe lasts for the life of the house
+* Recommend a sewer camera inspection by a qualified plumber
+- Recommend replacing all of the water supply lines inside the house
+- Recommend adding an air admittance valve on the main building drain
+> Bituminous fiber (Orangeburg) pipe was used from about the 1940s through the 1970s and tends to deform, blister and collapse. Underground sewer lines are outside a visual inspection, so a camera inspection is the appropriate referral.
+
+[h183] plumbing
+Under typical standards of practice, which of these is the home inspector NOT required to do?
+- Operate plumbing fixtures to check function and drainage
+- Inspect the water heater and its venting
+* Determine whether the water supply is safe to drink
+- Describe the location of the main water shut-off valve
+> Inspectors run fixtures, check drainage, inspect the water heater and identify shut-offs, but testing water quality or potability is excluded and needs a laboratory test.
+
+[h184] plumbing
+Under typical standards of practice, inspecting private wells, septic systems and water-treatment equipment is:
+- Required on every inspection, whether or not the property has them
+* Not required, unless agreed as an added service
+- Required only for properties located in rural areas
+- Required only if the client asks during the inspection
+> Wells, septic systems, water softeners and filters are excluded from typical standards of practice. They may be inspected as ancillary services by qualified inspectors where agreed.
+
+[h185] plumbing
+While walking into a basement, the inspector smells a strong odor of natural gas. What is the most appropriate first action?
+- Turn on the basement lights to find the source of the leak
+* Leave, avoid ignition sources, and call the utility from outside
+- Light a match or lighter near the pipes to locate the leak
+- Continue the inspection and mention the odor in the report
+> A strong gas odor is an immediate danger. Avoid switches and flames, get everyone out, and call the utility or emergency services from outside. The condition must also be reported.
+
+[h186] plumbing
+Per the IRC, what is installed on a gas supply line at the appliance inlet to catch debris and moisture before they reach the controls?
+- A pressure-relief valve
+* A sediment trap (drip leg)
+- A dielectric union
+- A backflow preventer
+> Per the IRC (G2419.4), a sediment trap must be installed downstream of the shut-off valve as close to the inlet of the appliance as practical, with exceptions for some appliances such as illuminating appliances, ranges, clothes dryers and outdoor grills.
+
+[h187] plumbing
+Per the IRC, the shut-off valve for a gas appliance must be in the same room as the appliance and within how far of it?
+- 3 feet
+* 6 feet
+- 10 feet
+- 25 feet
+> Per the IRC (G2420.5.1), each appliance must have an accessible shut-off valve in the same room and within 6 feet of the appliance (with limited exceptions, such as for some fireplaces and vented decorative appliances).
+
+[h188] plumbing
+Per the IRC, which installation of a flexible gas appliance connector is NOT permitted?
+* Running the connector through a wall, floor or ceiling
+- Connecting a range to a gas outlet behind it
+- Using a listed connector no more than 6 feet long
+- Using a connector in the same room as the appliance
+> Per the IRC (G2422.1.2), appliance connectors must not pass through walls, floors, ceilings or appliance housings (with limited exceptions) and generally must not exceed 6 feet in length.
+
+[h189] plumbing
+Corrugated stainless steel tubing (CSST) gas piping is found in a house. Per the IRC, what is required to reduce the risk of damage from lightning?
+- Painting the tubing with a fire-resistant coating
+* Bonding it to the grounding system with a 6 AWG copper jumper
+- Insulating the tubing with closed-cell foam sleeves
+- Replacing all of the tubing with rigid copper pipe
+> Per the IRC (G2411.1.1), CSST (other than the arc-resistant jacketed types listed for less) must be bonded to the electrical service grounding system with a bonding jumper at least 6 AWG copper. Missing bonding should be reported for evaluation.
+
+[h190] plumbing
+A sump pump discharges just outside the foundation wall, and the water flows straight back toward the house. What should the inspector recommend?
+- No action, because the pump is cycling and working properly
+* Extending the discharge away from the foundation
+- Turning the pump off so that it does not run so often
+- Adding a second pump in the same pit beside the first one
+> Water discharged at the foundation can re-enter the soil around the basement and cycle back into the sump. The discharge should carry the water well away from the house.
+
+[h191] plumbing
+What is a common reason old cast iron drain pipes fail?
+- They soften and melt during hot summer weather
+* Internal corrosion and cracking
+- They expand and split when hot water flows through them
+- They attract termites, which eat the joints between pipes
+> Cast iron corrodes from the inside, and horizontal runs can crack or rot along the bottom where water flows. Stains, rust scale or leaks should be reported for evaluation.
+
+[h192] plumbing
+Water is dripping from the ceiling below a second-floor shower, but only while the shower is in use and the curtain is closed. What is the most likely source?
+- A leak in the supply line that runs constantly
+* A leaking shower pan, drain or enclosure
+- Condensation from the attic
+- A roof leak
+> A leak that appears only during shower use points to the shower pan, drain connection or enclosure (tile, grout or door seals). A supply leak would usually be continuous.
+
+[h193] plumbing
+Supply pipes in an unheated crawl space have no insulation or heat tape in a cold-climate house. What is the risk?
+- The pipes will sweat in winter
+* The pipes can freeze and burst
+- The water will taste bad
+- The pipes will vibrate
+> Water pipes in unheated spaces in cold climates are exposed to freezing. Insulating, heat tracing or relocating them reduces the risk.
+
+[h194] plumbing
+The inspector hears a loud bang in the pipes each time a faucet or washing machine valve shuts off quickly. What is this condition called?
+* Water hammer
+- Cross-connection
+- Back-siphonage
+- Trap siphonage
+> Water hammer is a pressure surge when flowing water stops suddenly. It can damage pipes and fittings. High pressure makes it worse; water hammer arrestors or a pressure-reducing valve can help.
+
+[h195] plumbing
+Under typical standards of practice, what must an inspector describe about the water heater?
+- Its remaining life in years, based on the serial number
+* Its energy source
+- Its purchase price and the cost of a replacement unit
+- Its manufacturer's warranty terms and registration status
+> Standards such as InterNACHI's call for describing the water heating equipment, including the energy source, and inspecting its venting and relief valve. Predicting remaining life is not required.
+
+[h196] plumbing
+A gas water heater has rust and scorch marks around the burner access opening, and the inspector sees flames spilling out of the combustion chamber when the burner fires. What is the most appropriate action?
+- Adjust the gas valve to reduce the flame size and continue the inspection
+* Report it as a hazard needing prompt evaluation by a gas technician
+- Report it as normal for gas water heaters that are more than a few years old
+- Recommend cleaning the scorched area with a wire brush and repainting it
+> Flame rollout and scorching suggest a blocked flue or combustion problem that can cause fire or carbon monoxide hazards. It needs prompt evaluation by a qualified technician.
+
+[h197] plumbing
+Shortly after a gas water heater fires, the inspector holds a mirror at the draft hood and it fogs up, and the top of the tank shows heat damage. What does this indicate?
+- Normal operation for an atmospheric water heater on startup
+* Flue gases spilling at the draft hood (backdrafting)
+- The burner is too small for the size of the tank
+- The water temperature is set too low on the gas valve
+> Fogging and heat damage at the draft hood show that flue gases are spilling into the room, which can expose occupants to carbon monoxide. A qualified technician should evaluate the venting.
+
+[h198] plumbing
+A basement bathroom is below the level of the sewer line. What does it usually need?
+- An S-trap on each fixture to hold back sewer gas
+* A sewage ejector pump in a sealed, vented basin
+- A larger water heater to serve the lower level
+- A pressure-reducing valve on the water service
+> Fixtures below the sewer need a sewage ejector (a pump in a sealed basin with its own vent) to lift waste up to the building drain. A sump pump is for groundwater, not sewage.
+
+[h199] plumbing
+Under typical standards of practice, which of these does the inspector inspect in the plumbing system?
+* Drain, waste and vent piping that is visible
+- Underground sewer laterals
+- Interior of water supply pipes inside walls
+- Fire sprinkler systems
+> Inspectors inspect the visible water supply and drain, waste and vent systems. Underground and concealed piping and fire sprinkler systems are excluded.
+
+[h200] plumbing
+A clothes washer standpipe is installed inside a laundry room wall. Per the IRC, the standpipe should extend at least ___ and no more than ___ above its trap weir.
+- 6 inches; 18 inches
+* 18 inches; 42 inches
+- 30 inches; 60 inches
+- 42 inches; 72 inches
+> Per the IRC (P2706.1.2), a standpipe must extend at least 18 inches and no more than 42 inches above the trap weir. A short standpipe can overflow; a tall one can siphon the trap.
+
+# ---------------- Electrical (h201-h250) ----------------
+
+[h201] electrical
+Per the IRC, overhead service-drop conductors (up to 150 volts to ground) must be at least how high above a residential driveway?
+- 8 feet
+- 10 feet
+* 12 feet
+- 18 feet
+> Per the IRC (E3604.2.1), service drops must clear residential property and driveways by 12 feet, finished grade and sidewalks by 10 feet, and public streets, alleys and roads by 18 feet.
+
+[h202] electrical
+Per the IRC, overhead service-drop conductors must be at least how high above a public street?
+- 10 feet
+- 12 feet
+- 15 feet
+* 18 feet
+> Per the IRC (E3604.2.1), service conductors over public streets, alleys, roads and parking areas subject to truck traffic need at least 18 feet of clearance.
+
+[h203] electrical
+Per the IRC, open overhead service conductors must be kept at least how far from windows that open, doors, porches and decks?
+- 1 foot
+* 3 feet
+- 6 feet
+- 10 feet
+> Per the IRC (E3604.1), open service conductors must have a clearance of at least 3 feet from windows that open, doors, porches, balconies, ladders, stairs, fire escapes and similar locations.
+
+[h204] electrical
+What is the purpose of the drip loop in the service-drop conductors at the service head?
+* To make water run off the low point of the loop instead of into the service head
+- To give the utility extra wire for future upgrades
+- To reduce the voltage
+- To ground the service
+> The conductors dip below the service head so that rain runs down to the low point and drips off, rather than following the wires into the conduit and panel.
+
+[h205] electrical
+The inspector notices rust and water stains inside the main panel, and the service head on the mast above is missing its cap. What is the most likely cause?
+- Condensation from the air conditioner
+* Water entering through the damaged service head and running down the service conduit
+- A plumbing leak in the attic
+- Normal for older panels
+> A damaged or missing weatherhead lets rain into the service raceway, which carries water into the panel. Water in a panel is a shock and fire hazard that needs an electrician.
+
+[h206] electrical
+Per the IRC, what is the minimum depth of working space in front of a residential electrical panel?
+- 24 inches
+- 30 inches
+* 36 inches
+- 48 inches
+> Per the IRC (E3405.2), the working space in front of panels must be at least 36 inches deep, at least 30 inches wide (or the width of the equipment) and at least 6-1/2 feet high.
+
+[h207] electrical
+Per the IRC, what is the minimum width of the working space in front of an electrical panel?
+- 24 inches
+* 30 inches, or the width of the equipment if greater
+- 36 inches
+- 48 inches
+> Per the IRC (E3405.2), the work space must be at least 30 inches wide or the width of the equipment, whichever is greater, with doors able to open at least 90 degrees.
+
+[h208] electrical
+Per the IRC, an electrical panel containing overcurrent devices must NOT be located in which of these places?
+- A garage
+- A basement
+- A utility room
+* A clothes closet or bathroom
+> Per the IRC (E3705.7), overcurrent devices must not be located in clothes closets, in bathrooms or over the steps of a stairway.
+
+[h209] electrical
+In a panel, the inspector finds two wires connected under a single breaker terminal screw. The breaker is not marked for two conductors. What is this condition, and what is the concern?
+- A split bus; normal
+* A double tap; the terminal may not clamp both wires securely, which can cause overheating
+- A bootleg ground; reverse polarity
+- A multiwire branch circuit; required by code
+> Most breaker terminals are listed for one conductor. Two wires under one screw (a double tap) can loosen and overheat. A few breakers are listed for two conductors, so the inspector checks the labeling and recommends correction by an electrician if not listed.
+
+[h210] electrical
+In a main panel, two white neutral wires are found under one terminal screw on the neutral bar. Why is this a concern?
+- It is required in main panels
+* Each neutral should have its own terminal so that one circuit can be serviced without disturbing the other and connections stay tight
+- It causes reverse polarity
+- It makes the breakers trip too often
+> The NEC (408.41) requires each grounded (neutral) conductor to end in its own terminal. Shared terminals can loosen, and disconnecting one neutral could interrupt another circuit's neutral.
+
+[h211] electrical
+In a subpanel (not the service equipment), the neutral bar is bonded to the metal enclosure, and the grounds and neutrals are mixed on the same bar. What should be reported?
+- Nothing, because that is how all panels are wired
+* The neutrals and equipment grounds should be separated, with the neutral bar isolated from the enclosure
+- The subpanel needs a larger main breaker
+- The subpanel should be moved outdoors
+> Neutrals and grounds are bonded together only at the service equipment. In a subpanel, a bonded neutral puts normal current on the grounding path and metal parts, so they must be separated (a four-wire feeder).
+
+[h212] electrical
+Where is the main bonding jumper that connects the neutral to the equipment grounding system supposed to be?
+* At the service equipment only
+- In every subpanel
+- At every receptacle
+- At the meter only
+> The neutral and grounding systems are bonded only at the service (the main disconnect). Bonding elsewhere creates parallel paths for neutral current.
+
+[h213] electrical
+Per the IRC, a single ground rod electrode must be at least how long?
+- 4 feet
+- 6 feet
+* 8 feet
+- 10 feet
+> Per the IRC (E3608.1.4), rod electrodes must be at least 8 feet long and driven so that at least 8 feet is in contact with soil. Rods of 5/8 inch diameter, or 1/2 inch if listed, are typical.
+
+[h214] electrical
+Per the IRC, when two ground rods are used, how far apart must they be?
+- 2 feet
+* 6 feet
+- 10 feet
+- 25 feet
+> Per the IRC (E3608.4 and E3608.1.4), a single rod with resistance over 25 ohms needs a supplemental electrode. Where more than one rod is used, they must be at least 6 feet apart.
+
+[h215] electrical
+Why must a metal underground water pipe used as a grounding electrode be supplemented by an additional electrode?
+- Water pipes conduct electricity too well
+* The pipe may later be replaced with plastic or isolated, so the grounding would be lost
+- Water pipes cannot be bonded
+- Supplementing is optional
+> Per the IRC (E3608.1.1), a metal underground water pipe electrode must be supplemented by another electrode, because future plastic repairs could break the path to earth.
+
+[h216] electrical
+A 20-amp breaker protects a circuit wired with 14 AWG copper. What is the concern?
+- None, because 14 AWG is rated for 20 amps
+* The wire is too small for the breaker, so it can overheat before the breaker trips
+- The breaker is too small for the wire
+- The circuit will have reverse polarity
+> 14 AWG copper is limited to 15 amps of overcurrent protection. A 20-amp breaker on 14 AWG wire (overfusing) is a fire hazard and should be corrected by an electrician.
+
+[h217] electrical
+Under the general rule, what is the maximum overcurrent protection for 12 AWG copper branch-circuit wire?
+- 15 amps
+* 20 amps
+- 30 amps
+- 40 amps
+> Under the small-conductor rule in the NEC (240.4(D)) and the IRC, copper wire is limited to 15 amps for 14 AWG, 20 amps for 12 AWG and 30 amps for 10 AWG.
+
+[h218] electrical
+A 30-amp double-pole breaker serves an electric water heater. What is the smallest copper wire normally allowed on it?
+- 14 AWG
+- 12 AWG
+* 10 AWG
+- 6 AWG
+> Under the general rule, 10 AWG copper may be protected at up to 30 amps. Smaller wire on a 30-amp breaker would be overfused.
+
+[h219] electrical
+Solid-conductor aluminum branch-circuit wiring was commonly installed in homes from about the mid-1960s to the mid-1970s. What is the main concern?
+- It cannot carry 120 volts
+* Connections can loosen and overheat, creating a fire risk, especially at devices not rated for aluminum
+- It always has reverse polarity
+- It attracts lightning
+> Single-strand aluminum branch wiring expands, oxidizes and creeps at terminals, which can lead to overheating. The inspector should report it and recommend evaluation by an electrician familiar with approved repair methods.
+
+[h220] electrical
+Which of these is a widely recognized repair method for solid-conductor aluminum branch wiring?
+- Wrapping each connection in electrical tape
+- Replacing breakers with larger ones
+* Pigtailing to copper with special connectors listed for the purpose, such as the COPALUM crimp or AlumiConn
+- Painting the wires with anti-rust paint
+> The CPSC recognizes copper pigtailing using the COPALUM crimp or AlumiConn connectors as repair methods. Ordinary twist-on connectors are not a recommended repair.
+
+[h221] electrical
+The service-entrance conductors are multi-strand aluminum. How should this generally be reported?
+* As a common, acceptable installation when properly installed and terminated
+- As a fire hazard that must be replaced with copper
+- As the same hazard as solid aluminum branch wiring
+- As a sign of an illegal service
+> Stranded aluminum service and feeder conductors are common and acceptable. The known problems apply to small-gauge solid aluminum branch wiring. Terminations should be tight, often with antioxidant compound.
+
+[h222] electrical
+An inspector identifies a Federal Pacific Electric (FPE) panel with Stab-Lok breakers. What is the most appropriate report comment?
+- No comment, because brand names are not reported
+* Note that these breakers have a history of failing to trip under overload, and recommend evaluation by a licensed electrician
+- State that the panel will catch fire within a year
+- Recommend replacing the breakers with larger ones
+> FPE Stab-Lok breakers have a widely reported history of failing to trip. The inspector should report the panel type and the concern and refer it to an electrician, without predicting exact outcomes.
+
+[h223] electrical
+Zinsco (and some Sylvania-Zinsco) panels are reported as a concern mainly because:
+- They have too many breaker spaces
+* Breakers can overheat and melt or fuse to the bus bar, so they may not trip
+- They are only rated for 30 amps
+- They are always installed outdoors
+> Zinsco breakers are known for loose connections that overheat and can weld to the aluminum bus, defeating protection. The panel should be evaluated by an electrician.
+
+[h224] electrical
+In a fuse panel, a 30-amp fuse is installed on a circuit wired with 14 AWG copper. What is the concern, and what device helps prevent it?
+- No concern; a bigger fuse is safer
+* Overfusing; Type S fuse adapters limit the size of fuse that can be installed
+- Reverse polarity; a GFCI fixes it
+- Undervoltage; a larger wire fixes it
+> A 30-amp fuse on 14 AWG wire lets the wire overheat. Type S (non-tamperable) fuses and adapters keep a larger fuse from being screwed into a smaller circuit.
+
+[h225] electrical
+Knob-and-tube wiring is found buried under loose-fill insulation in an attic. What is the concern?
+- None, because insulation protects the wires
+* The wiring was designed to release heat into open air, and burying it can cause overheating; it also has no equipment ground
+- The wiring will cause the insulation to get wet
+- The wiring is always aluminum
+> Knob-and-tube depends on open air for cooling, and the NEC (394.12) prohibits its use in hollow spaces with insulation that envelops the conductors. Its age, brittle insulation and lack of a ground also call for evaluation by an electrician.
+
+[h226] electrical
+A plug-in receptacle tester shows "open ground" at a three-prong receptacle. What does this mean?
+- The hot and neutral are reversed
+* The receptacle's equipment ground is not connected
+- The circuit has no power
+- The receptacle is GFCI-protected
+> An open ground means the grounding terminal has no path to ground, so the third prong gives a false sense of protection. It should be corrected or, where allowed, protected with a GFCI and labeled.
+
+[h227] electrical
+A receptacle tester shows "hot/neutral reversed" at a receptacle. What is the hazard?
+* The fixture's shell or a device's switch may be energized even when the device is switched off
+- The circuit breaker will be too large
+- The receptacle will not work
+- The wiring will turn to aluminum
+> Reverse polarity puts the hot conductor on the neutral side, so lamp shells and some appliance parts can remain energized when switched off. It should be corrected by an electrician.
+
+[h228] electrical
+Why can a "bootleg ground" fool a standard three-light receptacle tester?
+- It makes the tester's lights flicker
+* The neutral is jumpered to the ground screw, so the tester sees a correct wiring pattern even though there is no true ground
+- It removes power from the circuit
+- It reverses the hot and neutral
+> A bootleg ground connects the grounding terminal to the neutral at the receptacle. A basic tester reads it as correct, but the metal parts can become energized if the neutral fails. Grounding receptacles on older ungrounded wiring should raise suspicion.
+
+[h229] electrical
+An older house has two-prong receptacles on ungrounded wiring. Under the NEC, which is an acceptable way to replace a two-prong receptacle with a three-prong one?
+- Install a three-prong receptacle with nothing connected to the ground screw, without any label
+* Protect the receptacle with a GFCI and label it "No Equipment Ground"
+- Connect the ground screw to the neutral screw
+- Connect the ground screw to a water pipe in the wall
+> The NEC (406.4(D)) allows a three-prong receptacle on an ungrounded circuit if it is GFCI-protected and marked "No Equipment Ground" (or the grounding conductor is properly added).
+
+[h230] electrical
+What is the main purpose of a GFCI (ground-fault circuit interrupter)?
+- To prevent wiring fires caused by arcing
+* To protect people from electric shock by cutting power when current leaks to ground
+- To prevent overloads on the circuit
+- To raise the voltage on long circuits
+> A GFCI compares current on the hot and neutral and trips when about 4 to 6 milliamps leaks to ground, protecting people from shock. AFCIs address arcing; breakers protect wiring from overloads.
+
+[h231] electrical
+What is the main purpose of an AFCI (arc-fault circuit interrupter)?
+* To reduce the risk of fire by detecting dangerous arcing in the wiring
+- To protect people from shock in wet locations
+- To prevent power surges from lightning
+- To reduce the electric bill
+> AFCIs detect the electrical signature of arcing faults, such as damaged cords or loose connections, and open the circuit to prevent fires. They are not a substitute for GFCIs in wet locations.
+
+[h232] electrical
+Per the IRC, which location does NOT generally require GFCI protection for 125-volt, 15- and 20-amp receptacles?
+- A bathroom
+- A garage
+- An outdoor receptacle
+* A bedroom
+> Per the IRC (E3902), GFCI protection is required in bathrooms, garages, outdoors, crawl spaces, unfinished basements, kitchen countertop areas, within 6 feet of sinks and in laundry areas. Bedrooms require AFCI protection, not GFCI.
+
+[h233] electrical
+Per the IRC, which kitchen receptacles require GFCI protection?
+- Only the receptacle closest to the sink
+* All receptacles serving the countertop surfaces
+- Only receptacles behind the refrigerator
+- None, if the kitchen has a window
+> Per the IRC (E3902), all 125-volt, 15- and 20-amp receptacles that serve kitchen countertop surfaces require GFCI protection.
+
+[h234] electrical
+Per the IRC, which of these locations requires AFCI protection for 120-volt, 15- and 20-amp branch circuits?
+- An outdoor receptacle
+- A crawl space
+* A hallway
+- A bathroom
+> Per the IRC (E3902), AFCI protection is required for circuits supplying outlets in kitchens, family rooms, dining rooms, living rooms, parlors, libraries, dens, bedrooms, sunrooms, recreation rooms, closets, hallways, laundry areas and similar rooms.
+
+[h235] electrical
+Per the IRC, along a general-use wall, receptacles must be placed so that no point along the floor line is more than how far from a receptacle?
+- 4 feet
+* 6 feet
+- 10 feet
+- 12 feet
+> Per the IRC (E3901.2.1), no point along the floor line of a wall may be more than 6 feet from a receptacle, which means receptacles are typically no more than 12 feet apart.
+
+[h236] electrical
+Per the IRC, kitchen countertop receptacles must be installed so that no point along the wall line of the countertop is more than how far from a receptacle?
+- 12 inches
+* 24 inches
+- 36 inches
+- 48 inches
+> Per the IRC (E3901.4.1), countertop receptacles must be placed so that no point along the wall line is more than 24 inches from a receptacle. Every countertop space 12 inches or wider needs a receptacle.
+
+[h237] electrical
+Per the IRC, at least one receptacle must be installed within how far of the outside edge of each bathroom basin?
+- 12 inches
+- 24 inches
+* 36 inches
+- 6 feet
+> Per the IRC (E3901.6), at least one wall receptacle must be within 36 inches of the outside edge of each basin.
+
+[h238] electrical
+Per the IRC, how many 20-amp small-appliance branch circuits must serve the kitchen countertop receptacles at minimum?
+- One
+* Two
+- Three
+- Four
+> Per the IRC (E3703.2), at least two 20-amp small-appliance branch circuits are required for the receptacles in the kitchen, pantry, breakfast and dining areas.
+
+[h239] electrical
+Per the IRC, what type of receptacles are generally required in new dwelling installations to reduce the risk of children inserting objects?
+* Tamper-resistant receptacles
+- Isolated-ground receptacles
+- Hospital-grade receptacles
+- Switched receptacles
+> Per the IRC (E4002.14), 125-volt, 15- and 20-amp receptacles in dwellings generally must be listed tamper-resistant, with a few exceptions, such as receptacles more than 5-1/2 feet above the floor.
+
+[h240] electrical
+In an attic, the inspector finds several wire splices wrapped in tape and lying on top of the insulation, not inside any box. What should the inspector report?
+- It is acceptable if the tape is new
+* It is a fire and shock hazard; splices must be in accessible, covered junction boxes, and an electrician should correct them
+- It is a cosmetic issue
+- Only the insulation needs replacing
+> Splices must be in approved boxes with covers so that heat and sparks are contained and the connections are protected. Open splices are a common safety defect.
+
+[h241] electrical
+While inspecting a panel, the inspector finds an open knockout where a breaker or cover piece is missing. What is the concern?
+- None, because it helps cool the panel
+* It exposes energized parts to fingers and objects, and the opening should be closed with an approved filler
+- It allows too much light into the panel
+- It means the panel is overloaded
+> Unused openings in panels must be closed with approved fillers so that no one can contact live parts. InterNACHI's standards specifically call for reporting this.
+
+[h242] electrical
+The dead-front cover of a panel is held on with long, pointed sheet-metal screws. Why is this a concern?
+- They are hard to remove
+* Pointed screws can pierce the insulation of wires inside the panel and energize the cover
+- They rust faster
+- They make the panel look unprofessional only
+> Panel covers should be fastened with the blunt-tipped screws made for the panel. Sharp screws can damage conductors behind the cover.
+
+[h243] electrical
+What does a melted or discolored wire insulation and scorch marks on a breaker indicate?
+* Overheating, such as from a loose connection or overload
+- Normal aging
+- A properly sized breaker
+- Too much insulation in the attic
+> Discoloration and melting show the connection or conductor has overheated. That is a fire hazard needing prompt evaluation by an electrician.
+
+[h244] electrical
+Before removing the dead-front cover of an electrical panel, what is a sensible first step?
+- Turn off the main breaker to protect yourself
+- Pry the cover off from the bottom
+* Check the cover and surroundings for hazards, such as water, rust, scorching or energized metal (for example with a non-contact voltage tester), and stand safely
+- Ask the homeowner to remove it
+> Inspectors normally do not turn off the main breaker during an inspection. They check for hazards first and wear appropriate protection. If conditions look unsafe, they do not remove the cover and report why.
+
+[h245] electrical
+The main panel is in a damp basement corner, the cover is rusted, and the inspector would have to stand in water to reach it. What is the most appropriate action?
+- Remove the cover carefully anyway
+* Do not open the panel; report the condition, that the interior was not inspected and why, and recommend evaluation by an electrician
+- Turn off the main breaker and open it
+- Skip the panel and leave it out of the report
+> Standards of practice do not require inspectors to enter or work in unsafe conditions. They must report what was not inspected and the reason.
+
+[h246] electrical
+A homeowner has connected a portable generator to the house by plugging it into a dryer receptacle with a male-to-male cord. What is the hazard?
+- The generator will run out of fuel faster
+* Power can backfeed onto utility lines, endangering line workers, and the cord's exposed prongs can be energized
+- The dryer will run on gas
+- The breakers will become larger
+> Without a transfer switch or approved interlock, a generator can backfeed the utility system and energize lines being repaired. A male-to-male cord also has live exposed prongs. This is a serious safety hazard.
+
+[h247] electrical
+Per the NEC, what color identifies a grounded (neutral) conductor in branch-circuit wiring?
+- Green
+* White or gray
+- Red
+- Black
+> Grounded (neutral) conductors are white or gray. Equipment grounding conductors are green, green with yellow stripes or bare. A white wire used as a hot conductor (such as in a switch loop) should be re-identified, for example with tape.
+
+[h248] electrical
+Per the IRC, where a stairway has six or more risers, a wall switch controlling the stair lighting must be located:
+- Only at the top
+- Only at the bottom
+* At each floor level
+- Anywhere within 25 feet
+> Per the IRC (E3903.3), where a stairway between floor levels has six or more risers, a wall switch must be provided at each floor level so that the lighting can be controlled from both ends.
+
+[h249] electrical
+Under typical standards of practice, how many receptacles must the inspector test?
+- Every receptacle in the house
+* A representative number
+- Only the ones the client points out
+- Only receptacles in the kitchen
+> Standards such as ASHI and InterNACHI require inspecting a representative number of switches, lighting fixtures and receptacles, plus all GFCI devices that are found and accessible.
+
+[h250] electrical
+Under typical standards of practice, which of these is the inspector NOT required to do when inspecting the electrical system?
+- Describe the main disconnect's amperage rating if it is labeled
+- Report the presence of solid-conductor aluminum branch wiring if readily visible
+* Measure the amperage or voltage of the service
+- Test GFCI devices that are accessible
+> Inspectors describe and inspect the service and distribution and test GFCIs, but they are not required to measure voltage or amperage or perform load calculations.
+
+# ---------------- Heating & Cooling (h251-h300) ----------------
+
+[h251] hvac
+A central air conditioner has run for 15 minutes. The air at the supply register is only 5 degrees F cooler than the return air. How should this be reported?
+- As normal, because any temperature drop is acceptable
+* As below the commonly expected range of roughly 15 to 20 degrees F, with evaluation recommended by an HVAC technician
+- As a sign that the system is oversized
+- As an electrical defect
+> A temperature split well below the typical range suggests low refrigerant, airflow problems or a failing compressor. The split is a screening tool, so the inspector refers the system rather than diagnosing it.
+
+[h252] hvac
+The outdoor temperature is 50 degrees F on inspection day. What should the inspector generally do about testing the central air conditioner?
+- Run it for at least an hour to be sure it works
+* Not operate it, because running it in low outdoor temperatures can damage the compressor, and report that it was not tested
+- Run it with the outdoor unit covered
+- Bypass the low-temperature lockout
+> Manufacturers typically warn against operating cooling below about 60 to 65 degrees F. Standards of practice do not require operating equipment when conditions could damage it; the limitation is reported.
+
+[h253] hvac
+In winter, the outdoor unit of a heat pump stops its fan and releases a cloud of steam for a few minutes. What is most likely happening?
+- The compressor is on fire
+* The unit is in a normal defrost cycle, melting frost off the outdoor coil
+- The refrigerant is leaking
+- The unit is overheating
+> Heat pumps periodically reverse to warm the outdoor coil and melt frost. Steam and a stopped fan during this cycle are normal; a coil that stays encased in ice is not.
+
+[h254] hvac
+On a heat pump thermostat, what does "emergency heat" or "auxiliary heat" usually refer to?
+* Backup heating, often electric resistance strips, used when the heat pump cannot keep up or has failed
+- A second outdoor unit
+- A gas fireplace connected to the thermostat
+- Turning the system off in an emergency
+> Heat pumps use supplemental heat (usually electric strips) in very cold weather, during defrost, or when "emergency heat" is selected because the compressor has failed.
+
+[h255] hvac
+When a gas furnace's blower starts, the burner flames waver and lean noticeably. What may this indicate?
+- Normal operation
+* A possible breach in the heat exchanger letting blower air disturb the flames
+- A dirty air filter only
+- An oversized gas line
+> Flame movement when the blower starts can indicate a cracked heat exchanger. The inspector should report it and recommend evaluation by a qualified HVAC technician, because of the carbon monoxide risk.
+
+[h256] hvac
+Under typical standards of practice, is the home inspector required to inspect the interior of a furnace's heat exchanger?
+- Yes, always
+* No; it is not readily accessible and requires dismantling, which is beyond a home inspection
+- Only on furnaces less than 10 years old
+- Only if the client asks
+> Standards such as ASHI and InterNACHI exclude inspecting heat exchanger interiors. Inspectors report visible signs that suggest a problem and refer to an HVAC technician.
+
+[h257] hvac
+Scorch marks and melted wire insulation are found just outside the burner compartment of a gas furnace. What condition do these most likely indicate?
+* Flame rollout, often from a blocked flue or heat exchanger problem
+- Normal wear
+- An oversized air filter
+- A failed thermostat
+> Flames rolling out of the combustion chamber leave scorching around the burner area. Rollout is a fire and carbon monoxide hazard that needs prompt evaluation by a qualified technician.
+
+[h258] hvac
+Per the IRC (fuel gas provisions), the standard method for indoor combustion air requires at least how many cubic feet of room volume per 1,000 Btu/h of appliance input?
+- 10 cubic feet
+- 25 cubic feet
+* 50 cubic feet
+- 100 cubic feet
+> Per the IRC (G2407.5.1), the standard method requires at least 50 cubic feet of space per 1,000 Btu/h of total input rating of all appliances in the space.
+
+[h259] hvac
+A basement mechanical room holds a 100,000 Btu/h furnace and a 40,000 Btu/h water heater. Using the IRC standard method for indoor combustion air, what minimum room volume is required?
+- 2,000 cubic feet
+- 5,000 cubic feet
+* 7,000 cubic feet
+- 14,000 cubic feet
+> The total input is 140,000 Btu/h, which is 140 times 50 cubic feet, or 7,000 cubic feet. A smaller space needs openings to adjoining rooms or the outdoors.
+
+[h260] hvac
+Per the IRC, when combustion air comes from outdoors through two vertical ducts, each opening must have a free area of at least:
+- 1 square inch per 1,000 Btu/h
+- 1 square inch per 2,000 Btu/h
+- 1 square inch per 3,000 Btu/h
+* 1 square inch per 4,000 Btu/h
+> Per the IRC (G2407.6.1), two openings that connect directly or through vertical ducts to the outdoors need 1 square inch per 4,000 Btu/h each; horizontal ducts need 1 square inch per 2,000 Btu/h each.
+
+[h261] hvac
+Per the IRC, when two permanent openings connect an appliance room to other indoor space for combustion air, where must they be located?
+- Both near the floor
+- Both near the ceiling
+* One within 12 inches of the top and one within 12 inches of the bottom of the enclosure
+- Anywhere, as long as they are the same size
+> Per the IRC (G2407.5.3), one opening must start within 12 inches of the top and one within 12 inches of the bottom. Each needs 1 square inch per 1,000 Btu/h, and no less than 100 square inches.
+
+[h262] hvac
+Per the IRC, which fuel-burning appliance may generally be installed in a bedroom or bathroom?
+- A standard atmospheric gas water heater
+- An unvented gas room heater
+* A direct-vent appliance that takes all combustion air from outdoors
+- A gas furnace that takes combustion air from the room
+> Per the IRC (G2406.2), fuel-fired appliances are generally prohibited in bedrooms, bathrooms and their closets unless they are direct-vent, or one of the other limited exceptions applies, such as a closet with solid self-closing door and outdoor combustion air.
+
+[h263] hvac
+How should the horizontal section of a gas appliance vent connector be sloped?
+- Downward toward the chimney
+- Level
+* Upward toward the chimney or vent, at least 1/4 inch per foot
+- It does not matter
+> Per the IRC (G2427.10.4), vent connectors must rise at least 1/4 inch per foot toward the vent or chimney so that hot gases flow up and out.
+
+[h264] hvac
+What is the commonly required clearance between a single-wall metal vent connector serving a gas appliance and combustible materials?
+- 1 inch
+- 3 inches
+* 6 inches
+- 18 inches
+> A single-wall metal connector for listed gas appliances with draft hoods generally needs 6 inches of clearance to combustibles, while Type B double-wall vent typically needs 1 inch (always follow the listing).
+
+[h265] hvac
+In the attic, the inspector finds single-wall metal vent pipe from a gas furnace passing through the attic to the roof. What should be reported?
+- Acceptable, because metal does not burn
+* Single-wall metal vent pipe is not permitted to pass through attics or concealed spaces; recommend correction by a qualified HVAC contractor
+- The pipe needs to be painted
+- The pipe needs more insulation wrapped around it
+> Per the IRC (G2427.10.2), single-wall metal pipe must not pass through any attic, inside wall, concealed space or floor. Type B vent or another listed system must be used.
+
+[h266] hvac
+What type of venting is typically used for a high-efficiency (90 percent or higher AFUE) condensing gas furnace?
+- An unlined masonry chimney
+- Single-wall galvanized pipe
+* Plastic pipe, such as PVC or CPVC, as specified by the manufacturer
+- Type B vent shared with a water heater
+> Condensing (Category IV) furnaces produce cool, wet, positive-pressure exhaust. They usually vent through plastic pipe specified by the manufacturer and need a condensate drain.
+
+[h267] hvac
+An older furnace was replaced with a 95 percent sidewall-vented model, leaving an atmospheric gas water heater as the only appliance venting into a large masonry chimney. What concern should the inspector report?
+- None, because removing the furnace helps the water heater
+* The chimney may now be oversized for the water heater, causing poor draft and condensation; recommend evaluation by a qualified technician
+- The water heater must also be removed
+- The chimney will become too hot
+> An "orphaned" water heater in a chimney sized for two appliances may not draft well, and flue gases can condense and damage the chimney. A liner or other correction is often needed.
+
+[h268] hvac
+How can a home inspector check an atmospheric gas water heater or furnace for spillage at the draft hood?
+* After a few minutes of operation, hold a mirror or smoke source near the draft hood and look for fogging or smoke being pushed out
+- Place a hand inside the flue while the burner is on
+- Measure the gas pressure at the valve
+- Shut off the venting and watch the flames
+> A mirror that fogs or smoke that is pushed away from the hood shows flue gases spilling into the room, which is a carbon monoxide risk.
+
+[h269] hvac
+An air handler in the attic has water in its auxiliary drain pan. What is the most likely cause?
+- The thermostat is set too low
+* The primary condensate drain is clogged or not draining properly
+- The refrigerant is overcharged
+- The attic has too much ventilation
+> The auxiliary pan catches water when the primary condensate drain fails. Water in the pan should be reported, and the primary drain and pan evaluated by an HVAC technician.
+
+[h270] hvac
+Per the IRC, where a cooling coil or appliance is in an attic or above a finished ceiling, what condensate protection is required?
+- None
+* A secondary drain, an auxiliary pan with drain, or a water-level device that shuts off the equipment if the primary drain backs up
+- A second air conditioner
+- A drain into the attic insulation
+> Per the IRC (M1411.3.1), where damage could result from overflow, one of these methods is required. A secondary drain should discharge where occupants will notice it, such as over a window.
+
+[h271] hvac
+Per the IRC, condensate drain piping must be at least what internal diameter and slope?
+- 1/2 inch; level
+* 3/4 inch; at least 1/8 inch per foot
+- 1 inch; at least 1/2 inch per foot
+- 2 inches; at least 1/4 inch per foot
+> Per the IRC (M1411.3.2 and M1411.4), condensate drains must be at least 3/4 inch internal diameter and slope at least 1/8 inch per foot.
+
+[h272] hvac
+The larger refrigerant line running to an air conditioner's outdoor unit has no insulation, and it drips water in the crawl space. What is the concern?
+- None, because the lines do not need insulation
+* The suction line should be insulated to prevent condensation and energy loss
+- The smaller liquid line should be insulated instead
+- The line is carrying too much electricity
+> The larger suction line carries cold refrigerant gas back to the compressor. Without insulation it sweats, causing water damage and lost efficiency.
+
+[h273] hvac
+The suction line and the indoor coil of an air conditioner are covered with frost and ice. What is a common cause?
+- An oversized outdoor unit
+* Low airflow, such as from a dirty filter, or a low refrigerant charge
+- A thermostat that is set too high
+- Too much insulation on the line
+> Ice forms when the coil gets too cold, often from restricted airflow or low refrigerant. The inspector should report it and recommend an HVAC technician. Running the system iced can damage the compressor.
+
+[h274] hvac
+Per the NEC, the disconnect for an outdoor air conditioner unit must generally be located:
+- Inside the house next to the thermostat
+* Within sight of the unit and readily accessible
+- At least 25 feet from the unit
+- On the roof
+> The NEC (440.14) requires a disconnecting means within sight of and readily accessible from the air conditioning equipment so that a technician can safely shut it off.
+
+[h275] hvac
+Per the IRC, return air for a forced-air system must NOT be taken from which space?
+- A hallway
+- A living room
+* A bathroom, kitchen or garage
+- A bedroom (with proper return path)
+> Per the IRC (M1602.2), return air must not be taken from bathrooms, toilet rooms, kitchens, garages, mechanical rooms with fuel-burning appliances and similar spaces, to avoid spreading odors, moisture and combustion gases.
+
+[h276] hvac
+An inspector finds a return-air grille cut into the ductwork inside an attached garage. What is the concern?
+* The system can draw car exhaust, fuel vapors and other contaminants from the garage into the house
+- It will make the garage warmer
+- The grille is too small
+- None, because garages need return air
+> Openings in ducts in a garage can pull carbon monoxide and fumes into the living space and breach the fire separation. The IRC prohibits return air from garages.
+
+[h277] hvac
+Per the IRC, the passageway to a furnace in an attic must be no longer than how far from the access opening?
+- 6 feet
+- 10 feet
+* 20 feet
+- 50 feet
+> Per the IRC (M1305.1.3), the passageway must be no more than 20 feet long measured along the center line, at least 30 inches high and 22 inches wide, with continuous solid flooring at least 24 inches wide.
+
+[h278] hvac
+Per the IRC, which of these must be provided near an appliance installed in an attic?
+- A floor drain
+- A smoke alarm inside the appliance
+* A light controlled by a switch at the passageway entrance, and a receptacle near the appliance
+- A window
+> Per the IRC (M1305.1.3.1 and E3901.12), attic appliances need a light fixture controlled by a switch at the entrance and a receptacle within 25 feet of the appliance for servicing.
+
+[h279] hvac
+A hot-water boiler's relief valve is dripping, and the pressure gauge reads about 30 psi with the system hot. The boiler normally operates at about 12 to 15 psi. What is a likely cause?
+- The thermostat is set too low
+* The system is over-pressurized, often from a waterlogged expansion tank or a faulty fill valve
+- The burner is too small
+- The circulator pump is running too quickly
+> Residential boilers usually have a 30 psi relief valve. Pressure rising to that point suggests a failed expansion tank or fill valve. A boiler technician should evaluate it.
+
+[h280] hvac
+On a steam boiler, what does the sight glass show?
+* The water level in the boiler
+- The flame color
+- The steam pressure in psi
+- The temperature of the supply pipes
+> The sight glass (gauge glass) shows the boiler water level. Steam boilers also need a low-water cutoff, because firing a dry boiler is dangerous.
+
+[h281] hvac
+Old furnace ducts are wrapped in white, fibrous tape at the joints in a 1950s home. What is the best way to report this?
+- State that it is asbestos and must be removed immediately
+- Scrape a sample for testing during the inspection
+* Note that the material may contain asbestos, advise against disturbing it, and recommend testing by a qualified professional if it will be disturbed
+- Do not mention it
+> Asbestos cannot be confirmed visually, and sampling is outside the inspection. Describing it as possibly containing asbestos and recommending professional testing is accurate and appropriate.
+
+[h282] hvac
+Per the IRC, in climates that need heating, dwellings must have heat that can maintain at least what temperature in habitable rooms?
+- 60 degrees F
+- 65 degrees F
+* 68 degrees F
+- 72 degrees F
+> Per the IRC (R303.10), where the winter design temperature is below 60 degrees F, heating must be able to maintain at least 68 degrees F at 3 feet above the floor and 2 feet from exterior walls in all habitable rooms.
+
+[h283] hvac
+In a crawl space, a heating supply duct has come apart at a joint and is blowing warm air into the crawl space. What should the inspector recommend?
+- No action, because the warm air helps keep pipes from freezing
+* Repair by a qualified HVAC contractor, since the disconnected duct wastes energy and reduces heat to the rooms
+- Replacing the furnace
+- Closing all the registers
+> A disconnected duct dumps conditioned air into the wrong space and can draw in crawl space air. It should be reconnected and sealed.
+
+[h284] hvac
+What does AFUE mean on a furnace rating?
+- Average fan usage efficiency
+* Annual fuel utilization efficiency, the percentage of fuel energy delivered as useful heat over a typical season
+- Air filter use estimate
+- Automatic fuel unit emergency
+> AFUE is a seasonal efficiency rating. An 80 percent furnace delivers about 80 percent of the fuel's energy as heat; condensing furnaces are 90 percent or more.
+
+[h285] hvac
+Under typical standards of practice, which of these is the inspector NOT required to do when inspecting the heating system?
+- Operate the system using normal operating controls
+- Open readily openable access panels
+* Light a pilot light that is out
+- Describe the energy source and heating method
+> Standards of practice require operating the system with normal controls and describing it, but exclude lighting pilots, operating systems that are shut down and dismantling equipment.
+
+[h286] hvac
+A furnace's data plate lists an allowable temperature rise of 35 to 65 degrees F, and the inspector measures a rise of 85 degrees F between return and supply. What does this suggest?
+* A problem, such as restricted airflow, that should be evaluated by an HVAC technician
+- Normal, high-efficiency operation
+- An oversized duct system
+- A broken thermostat display
+> A rise above the listed range usually means too little air is moving over the heat exchanger, such as from a dirty filter or restricted ducts. This overheats the heat exchanger and should be evaluated.
+
+[h287] hvac
+A furnace short-cycles: it runs for a minute or two, shuts off and quickly restarts. Which is a possible cause?
+- A correctly sized system
+* An oversized system or a control problem, such as a faulty limit switch
+- A clean filter
+- Proper airflow
+> Short cycling wastes energy, increases wear and reduces comfort. The inspector reports the observation and refers it to an HVAC technician for diagnosis.
+
+[h288] hvac
+In a dry climate, what is the main way an evaporative cooler cools the air?
+- By compressing refrigerant
+* By evaporating water into incoming air
+- By burning fuel
+- By drawing air from the ground
+> Evaporative ("swamp") coolers pass air over wet pads; evaporation lowers the air temperature. They work best in hot, dry climates and need regular water and pad maintenance.
+
+[h289] hvac
+A gas furnace sits in a closet. Per the IRC, why might the closet door need louvers or openings?
+- To let light into the closet
+* To supply combustion air if the furnace draws air from the surrounding space
+- To make the furnace quieter
+- So that the furnace can be seen from outside the closet
+> Appliances that draw combustion air from the room need adequate air through openings or louvers unless they are direct-vent or have outdoor air supplied another way.
+
+[h290] hvac
+A gas furnace in an attached garage has its burners about 6 inches above the floor, and the furnace is not listed as flammable-vapor-ignition-resistant. Per the IRC, what should be reported?
+- Nothing, because furnaces are allowed anywhere
+* The ignition source should be at least 18 inches above the garage floor
+- The furnace must be at least 36 inches above the floor
+- The furnace should be moved into a bedroom
+> Per the IRC (M1307.3 and G2408.2), appliances with ignition sources in garages must have the ignition source at least 18 inches above the floor, unless listed as FVIR, because gasoline vapors collect near the floor.
+
+[h291] hvac
+Rust flakes are falling onto the burners of an older gas furnace, and the burners are covered in rust. What may this indicate?
+- Normal for every furnace
+* Moisture from condensation or a leak, such as from an air conditioning coil, deteriorating the furnace; recommend evaluation
+- An oversized filter
+- A new thermostat
+> Rust inside the burner compartment often comes from condensation, venting problems or a leaking coil above the furnace. It can lead to heat exchanger failure and should be evaluated.
+
+[h292] hvac
+How is a ductless mini-split system different from a central system?
+* It has one or more indoor air handlers connected to an outdoor unit by refrigerant lines, without supply ducts
+- It uses only electric resistance heat
+- It cannot provide heating
+- It requires a chimney
+> Mini-splits deliver conditioned air directly from wall, ceiling or floor units. Many are heat pumps that both heat and cool.
+
+[h293] hvac
+The outdoor air conditioner unit is tilted and partly blocked by dense shrubs. What should the inspector report?
+- No concern
+* The unit should be level, and vegetation should be cleared to provide the manufacturer's recommended airflow clearance
+- The unit should be enclosed in a box
+- The unit should be moved into the attic
+> Restricted airflow reduces efficiency and can damage the compressor, and a tilted unit can affect oil return and drainage. Clearances follow manufacturer instructions.
+
+[h294] hvac
+What is the main safety function of a furnace's high-limit control?
+- To start the blower on a timer
+* To shut off the burner if the heat exchanger area overheats
+- To reduce the thermostat setting at night
+- To adjust gas pressure
+> The high-limit switch shuts off the burner if temperatures get too high, such as from poor airflow. Frequent limit tripping suggests a problem to evaluate.
+
+[h295] hvac
+An unlined masonry chimney serves a gas furnace, and the inspector sees crumbled mortar and debris at the base of the flue. What is the concern?
+- None, because gas does not affect masonry
+* Acidic condensation from the flue gases may be deteriorating the chimney, and the debris can block the flue
+- The chimney is too short
+- The furnace needs a larger filter
+> Gas appliance exhaust contains water vapor that can condense in cool, unlined masonry flues and erode the mortar. A chimney professional should evaluate the chimney; a liner is often needed.
+
+[h296] hvac
+An oil-fired boiler has a heavy coating of soot around the burner and the flue pipe. What does this most likely indicate?
+* Incomplete combustion or draft problems that need service by a qualified technician
+- Normal operation for oil boilers
+- That the boiler is new
+- That the boiler is electric
+> Soot means fuel is not burning completely. That lowers efficiency and can block passages and create carbon monoxide. A technician should service the burner and check the draft.
+
+[h297] hvac
+A thermostat in an older house contains a small glass vial of silver liquid. Why might the inspector mention this?
+- The thermostat is solar powered
+* It is a mercury switch, which needs proper disposal if the thermostat is replaced
+- It is a gas leak indicator
+- It measures humidity
+> Older thermostats often use mercury switches. They work fine, but mercury is toxic, so the thermostat must be recycled properly when replaced.
+
+[h298] hvac
+What does a heat pump's reversing valve do?
+- It reduces water pressure in the system
+* It reverses the refrigerant flow so that the system can switch between heating and cooling
+- It turns the auxiliary heat on and off
+- It controls the humidifier
+> The reversing valve changes the direction of refrigerant flow, making the indoor coil the condenser in heating and the evaporator in cooling.
+
+[h299] hvac
+A bedroom has no heat supply register or other heat source. What should the inspector do?
+- Assume the room is heated by the rest of the house
+* Report that no heat source was observed in the habitable room
+- Recommend adding an unvented gas heater
+- Ignore it, because heat distribution is not inspected
+> Standards of practice include checking for the presence of an installed heat source in each room. Missing heat in a habitable room should be reported.
+
+[h300] hvac
+An inspector observes that a furnace vent connector has separated at a joint near the draft hood, and the screws are missing. What should be reported?
+- A cosmetic issue
+* A safety hazard, because combustion gases can leak into the house; recommend immediate correction by a qualified technician
+- Acceptable if the furnace runs
+- A defect only if the furnace is more than 20 years old
+> A disconnected or loose vent connector can spill carbon monoxide into living spaces. Vent connector joints must be secured as required (typically with screws or listed fasteners).
+
+# ---------------- Interior, Insulation & Fireplaces (h301-h350) ----------------
+
+[h301] interior
+Per the IRC, what is the maximum riser height for stairs in a dwelling?
+- 7 inches
+* 7-3/4 inches
+- 8-1/4 inches
+- 9 inches
+> Per the IRC (R311.7.5.1), the maximum riser height is 7-3/4 inches, measured vertically between the leading edges of adjacent treads.
+
+[h302] interior
+Per the IRC, what is the minimum tread depth for stairs in a dwelling?
+- 9 inches
+* 10 inches
+- 11 inches
+- 12 inches
+> Per the IRC (R311.7.5.2), the minimum tread depth is 10 inches, measured horizontally between the vertical planes of the foremost projections of adjacent treads.
+
+[h303] interior
+Per the IRC, within one flight of stairs, the greatest riser height may exceed the smallest by no more than:
+- 1/8 inch
+- 1/4 inch
+* 3/8 inch
+- 3/4 inch
+> Per the IRC (R311.7.5.1 and R311.7.5.2), the difference between the largest and smallest riser height, or tread depth, within a flight must not exceed 3/8 inch. Uneven steps are a major cause of falls.
+
+[h304] interior
+On a basement stair, the bottom riser is 9 inches high while the others are about 7-1/2 inches. How should this be reported?
+- As acceptable, because only the top riser matters
+* As a trip hazard, because the riser exceeds the IRC maximum and the variation between risers is too great
+- As a cosmetic issue
+- As acceptable for basement stairs
+> The 9-inch riser exceeds the 7-3/4-inch maximum, and the 1-1/2-inch difference is far over the 3/8-inch limit. Users expect even steps, so this is a fall hazard.
+
+[h305] interior
+Per the IRC, what is the minimum headroom over a stairway?
+- 6 feet 4 inches
+- 6 feet 6 inches
+* 6 feet 8 inches
+- 7 feet
+> Per the IRC (R311.7.2), the minimum headroom is 6 feet 8 inches, measured vertically from the sloped plane along the tread nosings.
+
+[h306] interior
+Per the IRC, what is the minimum clear width of a stairway above the handrail height?
+- 30 inches
+* 36 inches
+- 42 inches
+- 48 inches
+> Per the IRC (R311.7.1), stairways must be at least 36 inches wide above the permitted handrail height. Handrails may project up to 4-1/2 inches on each side.
+
+[h307] interior
+Per the IRC, handrails on stairs must be installed at what height, measured vertically from the sloped plane of the tread nosings?
+- 30 to 34 inches
+* 34 to 38 inches
+- 36 to 42 inches
+- 38 to 44 inches
+> Per the IRC (R311.7.8.1), handrail height must be between 34 and 38 inches above the sloped plane of the nosings.
+
+[h308] interior
+Per the IRC, a handrail must be provided on at least one side of a flight of stairs with how many risers?
+- 2 or more
+- 3 or more
+* 4 or more
+- 6 or more
+> Per the IRC (R311.7.8), at least one handrail is required on each flight of stairs with four or more risers.
+
+[h309] interior
+Per the IRC, a circular (Type I) handrail must have an outside diameter between:
+* 1-1/4 inches and 2 inches
+- 1/2 inch and 1 inch
+- 2-1/2 inches and 3 inches
+- 3 inches and 4 inches
+> Per the IRC (R311.7.8.5), Type I handrails with a circular cross section must have an outside diameter of at least 1-1/4 inches and no more than 2 inches, so that the hand can grip them.
+
+[h310] interior
+Per the IRC, what is the minimum clearance between a handrail and the wall?
+- 1/2 inch
+- 1 inch
+* 1-1/2 inches
+- 3 inches
+> Per the IRC (R311.7.8.4), there must be at least 1-1/2 inches between the handrail and the wall or other surface so that fingers can wrap around it.
+
+[h311] interior
+Per the IRC, what is the minimum height of a guard at an interior balcony or landing (not along the stairs)?
+- 30 inches
+- 34 inches
+* 36 inches
+- 42 inches
+> Per the IRC (R312.1.2), guards must be at least 36 inches high, measured vertically from the walking surface. Guards along the open sides of stairs must be at least 34 inches high, measured from the nosings.
+
+[h312] interior
+Per the IRC, the triangular opening formed by the riser, tread and bottom rail of a guard on the open side of a stair must not allow a sphere of what diameter to pass?
+- 4 inches
+- 4-3/8 inches
+* 6 inches
+- 9 inches
+> Per the IRC (R312.1.3), the triangular openings at the open sides of stair treads must not pass a 6-inch sphere. Openings in the guard on the open sides of stairs must not pass a 4-3/8-inch sphere.
+
+[h313] interior
+Per the IRC, guard openings on the open sides of stairs must not allow a sphere of what diameter to pass?
+- 4 inches
+* 4-3/8 inches
+- 5 inches
+- 6 inches
+> Per the IRC (R312.1.3), guards on the open sides of stairs may not pass a 4-3/8-inch sphere; other guards may not pass a 4-inch sphere.
+
+[h314] interior
+Per the IRC, what is the minimum net clear opening for an emergency escape and rescue window from a second-floor bedroom?
+- 4.4 square feet
+- 5.0 square feet
+* 5.7 square feet
+- 9.0 square feet
+> Per the IRC (R310.2.1), emergency escape openings need at least 5.7 square feet of net clear opening. Openings at grade floor or below grade may be 5.0 square feet.
+
+[h315] interior
+Per the IRC, an emergency escape window must have a net clear opening at least how high and how wide?
+- 20 inches high and 24 inches wide
+* 24 inches high and 20 inches wide
+- 30 inches high and 30 inches wide
+- 36 inches high and 22 inches wide
+> Per the IRC (R310.2.1), the net clear opening height must be at least 24 inches and the width at least 20 inches. A window can meet both minimums and still fail the 5.7-square-foot area requirement.
+
+[h316] interior
+Per the IRC, the bottom of the clear opening of an emergency escape window must be no more than how far above the floor?
+- 36 inches
+* 44 inches
+- 48 inches
+- 60 inches
+> Per the IRC (R310.2.2), the sill height must not exceed 44 inches above the floor, measured to the bottom of the clear opening.
+
+[h317] interior
+A basement bedroom's only window is a small hopper window with a sill 54 inches above the floor. What should be reported?
+- Nothing, because basement windows are exempt
+* The room lacks an adequate emergency escape opening; this is a safety hazard
+- The window needs a screen
+- The window should be painted shut for security
+> Every sleeping room, including those in basements, needs an emergency escape and rescue opening. A 54-inch sill exceeds the 44-inch limit, and a small hopper is unlikely to meet the size requirements.
+
+[h318] interior
+Per the IRC, window fall protection is needed for an operable window when the sill is less than ___ above the floor and the window opening is more than ___ above the grade outside.
+- 18 inches; 48 inches
+* 24 inches; 72 inches
+- 36 inches; 60 inches
+- 44 inches; 96 inches
+> Per the IRC (R312.2), where the bottom of the opening is less than 24 inches above the floor and more than 72 inches above grade, the opening must not pass a 4-inch sphere or must have approved fall-prevention or opening-control devices.
+
+[h319] interior
+Per the IRC, which glazing is in a hazardous location and must be safety glazing (such as tempered glass)?
+- A kitchen window above the sink, 40 inches above the floor
+* A glass panel in a door
+- A small bathroom window 6 feet above the floor
+- A basement window 5 feet above the floor
+> Per the IRC (R308.4), glazing in doors is a hazardous location. Other examples include glazing within 24 inches of a door edge and near the floor, near tubs and showers, and large panes near walking surfaces.
+
+[h320] interior
+Per the IRC, glazing in a wall enclosing a bathtub or shower is a hazardous location when its bottom edge is less than how far above the standing surface?
+- 36 inches
+- 48 inches
+* 60 inches
+- 72 inches
+> Per the IRC (R308.4.5), glazing in walls and enclosures facing hot tubs, whirlpools, bathtubs and showers is hazardous where the bottom edge is less than 60 inches above the standing or walking surface.
+
+[h321] interior
+Per the IRC, which of these is a hazardous location for glazing near a door?
+* Glazing within a 24-inch arc of either vertical edge of a closed door, with its bottom edge less than 60 inches above the floor
+- Glazing more than 10 feet from any door
+- Glazing more than 60 inches above the floor next to a door
+- Glazing in a decorative transom far above the door
+> Per the IRC (R308.4.2), glazing within a 24-inch arc of a door's vertical edge in the closed position, with its bottom less than 60 inches above the walking surface, requires safety glazing (with some exceptions).
+
+[h322] interior
+How can an inspector usually confirm that a pane of glass is tempered?
+- By tapping it with a hammer
+* By finding the permanent safety-glazing label (etching) in a corner of the pane
+- By its color
+- By looking for small bubbles in the glass
+> Safety glazing is marked with a permanent label identifying it. Lack of a label where safety glazing is required should be reported, while noting that confirming the glass type is not always possible visually.
+
+[h323] interior
+Per the IRC, where must smoke alarms be installed in a dwelling?
+- Only in the kitchen and living room
+* In each sleeping room, outside each separate sleeping area near the bedrooms, and on each additional story, including basements
+- Only at the top of the stairs
+- Only in the garage
+> Per the IRC (R314.3), smoke alarms are required in each sleeping room, outside each sleeping area in the immediate vicinity of the bedrooms, and on each additional story including basements and habitable attics (not crawl spaces or uninhabitable attics).
+
+[h324] interior
+Per the IRC, smoke alarms must be installed at least how far horizontally from the door or opening of a bathroom that contains a tub or shower, unless this would prevent required placement?
+- 1 foot
+* 3 feet
+- 6 feet
+- 10 feet
+> Per the IRC (R314.3), smoke alarms must be at least 3 feet horizontally from the door of a bathroom with a tub or shower, to reduce false alarms from steam.
+
+[h325] interior
+Per the IRC, when must carbon monoxide alarms be installed in a dwelling?
+- In every dwelling, regardless of fuel
+* When the dwelling has fuel-fired appliances or an attached garage with an opening into the dwelling
+- Only in homes with a fireplace
+- Only in homes with a heat pump
+> Per the IRC (R315), CO alarms are required in dwellings with fuel-fired appliances or attached garages that open into the dwelling, outside each separate sleeping area in the immediate vicinity of the bedrooms, and in bedrooms with a fuel-fired appliance in the bedroom or its attached bathroom.
+
+[h326] interior
+The smoke alarms in a house carry a manufacture date 14 years ago. What is the generally accepted recommendation?
+- They are fine until they stop beeping
+* Replace them, because smoke alarms should generally be replaced no later than 10 years after their manufacture date
+- Replace only their batteries
+- Paint them to make them work better
+> NFPA 72 and manufacturers call for replacing smoke alarms no more than 10 years after the date of manufacture, because sensors degrade over time.
+
+[h327] interior
+Per the IRC, what is the minimum ceiling height for habitable rooms, hallways and bathrooms in general?
+- 6 feet 8 inches
+* 7 feet
+- 7 feet 6 inches
+- 8 feet
+> Per the IRC (R305.1), habitable spaces, hallways, bathrooms, toilet rooms, laundry rooms and portions of basements containing these spaces need a ceiling height of at least 7 feet, with some exceptions such as for beams, sloped ceilings and bathroom fixtures.
+
+[h328] interior
+Per the IRC, what is the minimum mechanical exhaust rate for a bathroom fan that runs intermittently, if the bathroom has no openable window meeting the IRC requirement?
+- 20 cfm
+* 50 cfm
+- 100 cfm
+- 150 cfm
+> Per the IRC (R303.3 and Table M1505.4.4), bathrooms without an adequate openable window need exhaust of at least 50 cfm intermittent or 20 cfm continuous, discharged to the outdoors.
+
+[h329] interior
+Per the IRC, what is the minimum exhaust rate for an intermittent kitchen range hood or kitchen exhaust fan?
+- 25 cfm
+- 50 cfm
+* 100 cfm
+- 300 cfm
+> Per the IRC (Table M1505.4.4), kitchens need 100 cfm intermittent or 25 cfm continuous mechanical exhaust.
+
+[h330] interior
+Per the IRC, what is the maximum developed length of a 4-inch clothes dryer exhaust duct, before deductions for fittings, when the manufacturer's instructions are not known?
+- 15 feet
+- 25 feet
+* 35 feet
+- 50 feet
+> Per the IRC (M1502.4.5.1), the maximum length is 35 feet from the dryer to the outlet, reduced by 2.5 feet for each 45-degree bend and 5 feet for each 90-degree bend, unless the manufacturer allows more or a listed booster is used.
+
+[h331] interior
+A dryer duct has three 90-degree elbows. Per the IRC's default rule, what is the maximum straight length that remains available?
+- 35 feet
+- 27.5 feet
+* 20 feet
+- 15 feet
+> Each 90-degree bend deducts 5 feet: 35 minus (3 times 5) leaves 20 feet of duct. Long, twisting ducts trap lint and increase the fire risk.
+
+[h332] interior
+A clothes dryer is connected to the wall with white vinyl flexible duct that runs inside a wall cavity. What is the concern?
+* Plastic flexible duct is not permitted for dryer exhaust and is a fire hazard; concealed transition ducts are also not allowed
+- None, because vinyl is fire-resistant
+- The duct is too short
+- The duct makes the dryer too quiet
+> Per the IRC (M1502), dryer exhaust ducts must be smooth metal, and the flexible transition duct must be listed, no more than 8 feet long and not concealed in construction. Plastic duct traps lint and burns.
+
+[h333] interior
+Per the IRC, which feature is NOT permitted on a dryer exhaust termination?
+- A backdraft damper
+* A screen over the outlet
+- A termination outdoors
+- A hood that directs exhaust down and away
+> Per the IRC (M1502.3), dryer exhaust must terminate outdoors with a backdraft damper, and screens are prohibited because they catch lint and block the duct.
+
+[h334] interior
+When the inspector opens the oven door and presses down lightly, the freestanding range tips forward. What is the most likely issue?
+- The oven is too heavy
+* The anti-tip bracket is missing or not engaged
+- The floor is sloped toward the wall
+- The range has no gas shut-off
+> Ranges are required to be installed with anti-tip devices, because a child standing on an open oven door can tip the range and be burned or crushed. A missing bracket is a safety item.
+
+[h335] interior
+A double-pane window has a permanent fogged haze between the panes that cannot be wiped off. What does this indicate?
+- Normal condensation on the inside surface
+* A failed seal in the insulated glass unit
+- A cracked window frame
+- Too much humidity outdoors
+> Moisture between the panes means the seal has failed, reducing the window's insulating value and clarity. InterNACHI's standards call for reporting windows that are obviously fogged.
+
+[h336] interior
+Brown stains on a ceiling below a bathroom are dry to the touch, and the moisture meter shows normal readings at the time of inspection. What is the most appropriate report entry?
+- State that the leak has been repaired
+- Leave it out of the report because it is dry
+* Report the stains, note that they were dry at the time of inspection, and recommend asking the seller about their history or further evaluation
+- State that the stain is from mold
+> An inspector cannot tell from a dry stain whether the leak is fixed or intermittent. Reporting what was observed and what could not be determined protects the client.
+
+[h337] interior
+Under typical standards of practice, is the home inspector required to identify mold?
+- Yes, and must take air samples
+* No; mold and other environmental hazards are excluded, though visible signs of moisture damage or suspected growth may be reported
+- Yes, but only in basements
+- Only if the inspector sees it in the attic
+> Standards of practice exclude determining the presence of mold or other environmental hazards. Inspectors can still describe moisture problems and suspected growth and recommend evaluation by a qualified professional.
+
+[h338] interior
+What is the generally recommended indoor relative humidity range for homes to limit both condensation and dryness?
+- 5 to 15 percent
+* About 30 to 50 percent
+- 60 to 80 percent
+- 90 to 100 percent
+> Agencies such as the EPA recommend keeping indoor relative humidity roughly between 30 and 50 percent (and below 60 percent) to limit mold, dust mites and condensation.
+
+[h339] interior
+What does R-value measure in insulation?
+- The weight of the insulation
+* Resistance to heat flow; a higher R-value insulates better
+- The amount of radon the material blocks
+- The material's moisture content
+> R-value measures thermal resistance. It depends on material type and thickness, and compressing or wetting insulation reduces its effective R-value.
+
+[h340] interior
+In a crawl space under a heated floor, kraft-faced fiberglass batts are installed with the paper facing down toward the crawl space soil. What is the concern?
+- None, because facing direction never matters
+* The vapor retarder is on the cold side instead of the warm-in-winter side, which can trap moisture in the insulation
+- The batts will be too warm
+- The facing will attract termites
+> Vapor retarders belong on the warm-in-winter side of the insulation in most climates; for a floor over a crawl space that is the subfloor side. Facing the wrong way can trap moisture.
+
+[h341] interior
+Recessed light fixtures in a ceiling below the attic are buried in loose-fill insulation, and the fixtures are not IC-rated. What is the concern?
+* Non-IC fixtures can overheat and create a fire hazard when covered by insulation
+- They will make the room too dark
+- They will cause the insulation to blow away
+- None, because insulation is fire-proof
+> Only IC-rated (insulation contact) fixtures may be covered by insulation. Non-IC fixtures need clearance from insulation (commonly 3 inches) or replacement with IC-rated units.
+
+[h342] interior
+Loose, pebble-like, gray-brown insulation with a shiny look is found between attic joists. What is the most appropriate report statement?
+- That it is rock wool and harmless
+* That it appears to be vermiculite, which may contain asbestos; it should not be disturbed, and testing by a qualified professional is recommended
+- That it must be removed by the client immediately
+- That it is cellulose insulation
+> Much of the vermiculite sold in North America (such as Zonolite) came from a mine contaminated with asbestos. The EPA advises leaving it undisturbed and using trained professionals if it must be removed.
+
+[h343] interior
+Per the IRC, what minimum hearth extension is required in front of a masonry fireplace with a fireplace opening smaller than 6 square feet?
+- 8 inches in front and 6 inches on each side
+* 16 inches in front and 8 inches on each side
+- 20 inches in front and 12 inches on each side
+- 24 inches in front and 16 inches on each side
+> Per the IRC (R1001.10), hearth extensions must extend at least 16 inches in front of and 8 inches beyond each side of the opening. If the opening is 6 square feet or larger, it is 20 inches in front and 12 inches on each side.
+
+[h344] interior
+Per the IRC, a masonry fireplace opening is 7 square feet. What minimum hearth extension is required?
+- 16 inches in front and 8 inches on each side
+* 20 inches in front and 12 inches on each side
+- 24 inches in front and 16 inches on each side
+- 36 inches in front and 18 inches on each side
+> Per the IRC (R1001.10), when the fireplace opening is 6 square feet or larger, the hearth extension must be at least 20 inches in front and 12 inches on each side.
+
+[h345] interior
+Per the IRC, a masonry chimney must extend at least how far above the highest point where it passes through the roof, and how much higher than any part of the building within 10 feet?
+- 1 foot above the roof; 1 foot higher than the building within 10 feet
+- 2 feet above the roof; 3 feet higher than the building within 10 feet
+* 3 feet above the roof; 2 feet higher than the building within 10 feet
+- 5 feet above the roof; 5 feet higher than the building within 10 feet
+> Per the IRC (R1003.9), chimneys must extend at least 3 feet above the highest point where they pass through the roof and at least 2 feet higher than any part of the building within 10 feet horizontally.
+
+[h346] interior
+Per the IRC, what is the minimum depth of the firebox of a masonry fireplace (other than a Rumford fireplace)?
+- 12 inches
+- 16 inches
+* 20 inches
+- 30 inches
+> Per the IRC (R1001.6), the firebox must be at least 20 inches deep. Rumford fireplaces may be 12 inches deep if they meet specific proportions.
+
+[h347] interior
+Per the IRC, wood mantels and other combustible trim must be kept at least how far from a masonry fireplace opening?
+- 2 inches
+* 6 inches
+- 12 inches
+- 18 inches
+> Per the IRC (R1001.11), combustible materials must not be within 6 inches of the fireplace opening. Combustibles within 12 inches of the opening may not project more than 1/8 inch for each 1 inch of distance from the opening.
+
+[h348] interior
+Per the IRC, what airspace clearance is required between combustible framing and the outside of a masonry chimney located inside the exterior walls?
+- No clearance
+* 2 inches
+- 6 inches
+- 12 inches
+> Per the IRC (R1003.18), masonry chimneys need 2 inches of clearance to combustibles when inside the exterior walls of the building, and 1 inch when entirely outside the exterior walls.
+
+[h349] interior
+NFPA 211 recommends which level of chimney inspection when a property is sold or transferred?
+- Level I
+* Level II
+- Level III
+- No inspection is recommended
+> NFPA 211 calls for a Level II inspection upon sale or transfer of a property, after an operating malfunction or external event, or when changes are made to the system. A Level II includes a video scan of the flue.
+
+[h350] interior
+The inspector sees black staining on the face of the brick above a fireplace opening. What does this most likely indicate?
+* Smoke spilling into the room, suggesting a draft problem
+- The fireplace is new
+- Normal wear from cleaning the brick
+- A gas leak
+> Soot staining above the opening usually means smoke is escaping into the room, from causes such as an undersized flue, a short chimney, a closed or damaged damper, or low house pressure. A chimney professional should evaluate it.
+
+# ---------------- Reporting & Professional Practice (h351-h400) ----------------
+
+[h351] practice
+Under typical home inspection standards of practice, a home inspection is best described as:
+- A technically exhaustive engineering evaluation of every system
+- A guarantee that the house has no hidden defects
+* A non-invasive visual examination of readily accessible systems and components, reported as of the time of inspection
+- A code compliance inspection for the local building department
+> Standards such as ASHI's and InterNACHI's define a home inspection as a non-invasive, visual examination of readily accessible components. It is not technically exhaustive and does not guarantee against concealed defects.
+
+[h352] practice
+Under ASHI's definitions, "readily accessible" means available for visual inspection:
+* Without moving personal property, dismantling, destructive measures or actions likely to involve risk to persons or property
+- After moving any furniture the client requests
+- Only with the help of a ladder longer than 20 feet
+- Only after removing finished wall surfaces
+> Inspectors are not required to move belongings, dismantle components or take risky or destructive actions. Areas that are blocked or unsafe are reported as not inspected.
+
+[h353] practice
+Under ASHI's standard of practice, a "representative number" of multiple similar interior components, such as windows and receptacles, means:
+- Every one of them
+- Half of them
+* One component per room
+- Only those the seller points out
+> ASHI defines a representative number as one component per room for multiple similar interior components and one on each side of the building for multiple similar exterior components.
+
+[h354] practice
+Under typical standards of practice, when the inspector does not inspect a system or component that is normally included, what must the report state?
+- Nothing, because the client will assume it was skipped
+* That it was not inspected and the reason it was not inspected
+- That it is in good condition
+- That the seller is responsible for it
+> Standards of practice require reporting systems and components that were not inspected and why, such as being inaccessible, shut down or unsafe to reach.
+
+[h355] practice
+The water is shut off at the main valve in a vacant, bank-owned house. What is the most appropriate action?
+- Turn the main valve on and inspect the plumbing
+- Report that the plumbing system is in good condition
+* Leave the valve closed, report that the plumbing could not be fully tested and why, and recommend inspection once the water is restored
+- Refund the inspection fee
+> Standards of practice do not require operating shut-off valves or systems that are shut down. Turning on water in a winterized or neglected house can cause flooding, so the limitation is reported instead.
+
+[h356] practice
+Under typical standards of practice, which is the inspector NOT required to determine?
+- Whether the water heater has a TPR valve
+* Whether the house complies with current building codes
+- Whether visible guards have wide openings
+- Whether the furnace responds to normal controls
+> Home inspections are not code inspections. Inspectors may use codes as a reference for safety, but determining code compliance is excluded from standards of practice.
+
+[h357] practice
+A buyer asks the inspector how much it will cost to replace the roof. Under typical standards of practice, what is the most appropriate response?
+- Give an exact price
+* Explain that cost estimates are outside the inspection and suggest getting quotes from qualified roofers
+- Refuse to discuss the roof at all
+- Tell the buyer to ask the seller for a credit of a specific amount
+> Standards of practice exclude determining the cost of repairs. Inspectors identify and report conditions; contractors provide estimates.
+
+[h358] practice
+At the end of the inspection, the buyer asks, "Should I buy this house?" What is the most appropriate response?
+- "Yes, it's a great house"
+- "No, walk away"
+* Explain that advising on whether to buy is outside the inspector's role, and help the client understand the findings so they can decide
+- Recommend a lower purchase price
+> Standards of practice exclude advising on the advisability of purchase and market value. The inspector's job is to explain the findings clearly.
+
+[h359] practice
+Under both the ASHI and InterNACHI codes of ethics, an inspector must not perform or offer to perform repairs on a home they inspected, for compensation, for how long after the inspection?
+- 30 days
+- 90 days
+* 12 months (one year)
+- Five years
+> Both codes of ethics prohibit performing or offering repairs on systems or components covered by the inspection for 12 months (one year) after the inspection, to avoid a conflict of interest.
+
+[h360] practice
+A real estate agent offers an inspector $50 for every client the agent refers. What is the most appropriate response under typical codes of ethics?
+- Accept, because referral fees are standard
+* Decline, because accepting compensation from parties with an interest in the sale is a conflict of interest
+- Accept, but only for high-priced homes
+- Accept the money and not tell the client
+> Codes of ethics prohibit accepting commissions, fees or other compensation from real estate agents or other parties with an interest in the transaction, because it can bias the report.
+
+[h361] practice
+An inspector's brother-in-law is the listing agent for a house a client wants inspected. What should the inspector do?
+- Inspect without mentioning it
+* Disclose the relationship to the client before accepting the inspection, so the client can decide
+- Give the brother-in-law a copy of the report first
+- Refuse to inspect any house in the city
+> Codes of ethics require inspectors to disclose any conflict of interest, such as a family or financial relationship with a party to the transaction, before the inspection.
+
+[h362] practice
+The seller asks the inspector for a copy of the buyer's inspection report. What should the inspector do?
+- Send it immediately, because the seller owns the house
+* Provide it only with the client's permission, unless the law requires otherwise
+- Send the seller a summary but not the full report
+- Post the report online
+> The report belongs to the client. Codes of ethics prohibit disclosing inspection results without the client's approval, except where required by law or for an immediate safety hazard.
+
+[h363] practice
+Under ASHI's code of ethics, when may an inspector disclose an observed immediate safety hazard to someone other than the client?
+* To occupants who are exposed to the hazard, when feasible
+- Never, under any circumstances
+- Only after the closing
+- Only to the real estate agent
+> ASHI's code allows inspectors, at their discretion, to disclose observed immediate safety hazards to occupants exposed to them, when feasible.
+
+[h364] practice
+After the inspection, the listing agent asks the inspector to delete a comment about a missing GFCI because it might "upset the buyer." What should the inspector do?
+- Delete it to keep the agent happy
+- Change the wording to say it is optional
+* Refuse, because the report is for the client and must reflect the inspector's honest findings
+- Remove it only from the summary page
+> The inspector's duty is to the client. Altering findings at the request of another party would be unethical. Corrections are made only for genuine factual errors.
+
+[h365] practice
+Which report comment is the best example of clear, useful report writing?
+- "Electrical issues noted."
+- "Monitor the roof."
+* "The upstairs hall bathroom receptacle did not trip when tested and is not GFCI-protected. This is a shock hazard. Recommend correction by a licensed electrician."
+- "Some things might need work; consult a pro."
+> A good comment states what was found, where it is, why it matters and what to do and by whom. Vague phrases like "issues noted" or "monitor" leave the client without useful guidance.
+
+[h366] practice
+What is the main problem with ending a report comment with "monitor" for a structural crack?
+- It is too specific
+* It shifts responsibility to the client without guidance, and the client may not know what to watch or when to act
+- It is required by all standards
+- It makes the report too long
+> "Monitor" alone gives no criteria. If the condition matters, the better approach is to describe it and recommend evaluation by a qualified professional.
+
+[h367] practice
+The inspector sees stains and soft drywall under a window but is not sure of the cause. What is the best reporting approach?
+- Guess the cause and state it as fact
+- Leave it out because the cause is unknown
+* Describe what was observed and where, explain the possible significance, and recommend further evaluation
+- Tell the client it is probably nothing
+> Inspectors are not required to determine causes, but they must report significant findings. Describing the observation and recommending evaluation is accurate and defensible.
+
+[h368] practice
+Under ASHI's definitions, "further evaluation" means:
+- Asking the inspector to return the next day
+* Examination and analysis by a qualified professional, tradesman or service technician beyond what the home inspection provides
+- The client looking at the item again
+- A second inspection by the same inspector at no cost
+> Recommending further evaluation tells the client a specialist is needed to diagnose the condition, its cause and the repair.
+
+[h369] practice
+When should the pre-inspection agreement (contract) ideally be signed?
+- After the report is delivered
+- At the closing
+* Before the inspection begins
+- Only if there is a dispute
+> A signed pre-inspection agreement defines the scope, limitations, fee and terms before work starts, which protects both the client and the inspector.
+
+[h370] practice
+What does a pre-inspection agreement typically include?
+- A guarantee that the house has no defects
+* The scope of the inspection, exclusions and limitations, the fee, and terms such as dispute resolution
+- The repair price for each defect
+- The appraised value of the home
+> The agreement sets expectations by defining what is and is not included, referencing the standard of practice and stating business terms.
+
+[h371] practice
+In a negligence claim against a home inspector, which four elements generally must the client prove?
+- Fraud, intent, malice and damages
+* Duty, breach of duty, causation and damages
+- Price, location, timing and age of the house
+- Contract, signature, payment and receipt
+> Negligence requires a duty owed, a breach of the standard of care, a causal link between the breach and the harm, and actual damages.
+
+[h372] practice
+What type of insurance mainly covers claims that the inspector missed or misreported a defect?
+- General liability insurance
+* Errors and omissions (professional liability) insurance
+- Workers' compensation insurance
+- Auto insurance
+> E&O insurance covers claims of professional negligence, such as missed defects. General liability covers bodily injury and property damage, such as breaking a window during the inspection.
+
+[h373] practice
+While opening an attic hatch, the inspector accidentally cracks a ceiling light fixture. Which insurance would typically cover this?
+* General liability insurance
+- Errors and omissions insurance
+- Health insurance
+- Title insurance
+> General liability insurance covers physical damage to property and bodily injury that happen during the inspector's work. E&O covers errors in professional judgment and reporting.
+
+[h374] practice
+Why do inspectors typically include a limitation of liability clause in their agreement?
+- To avoid any duty to the client
+* To limit the inspector's financial exposure, often to the inspection fee, where state law allows such clauses
+- To guarantee the client full replacement cost for any missed defect
+- To prevent the client from reading the report
+> Limitation of liability clauses try to cap damages. Their enforceability varies by state, and some states restrict or prohibit them for home inspectors.
+
+[h375] practice
+What should an inspector record about conditions on the day of inspection?
+- Only the client's name
+* Weather and other conditions that limited the inspection, such as rain, snow cover, outdoor temperature or utilities that were off
+- The seller's reasons for selling
+- The real estate commission
+> Conditions affect what can be seen and tested. Recording them explains limitations, such as not testing air conditioning in cold weather or not seeing a snow-covered roof.
+
+[h376] practice
+The house is full of stored boxes that block access to the basement walls and the electrical panel. What should the inspector do?
+- Move all the boxes and inspect behind them
+* Inspect what is accessible, and report the areas that were blocked and that defects could be hidden there
+- Report the house as having no basement defects
+- Cancel the inspection without explanation
+> Standards of practice do not require moving personal property. The report should clearly state the limitations so that the client can arrange access if needed.
+
+[h377] practice
+Per OSHA guidance, an extension ladder should be set up so that its base is about how far from the wall for every 4 feet of ladder height to the support point?
+- 6 inches
+* 1 foot
+- 2 feet
+- 4 feet
+> The 4-to-1 rule puts the base 1 foot out for every 4 feet of working height. Ladders used to reach a roof should also extend at least 3 feet above the roof edge.
+
+[h378] practice
+When a ladder is used to access a roof, how far should it extend above the roof edge?
+- 1 foot
+* 3 feet
+- 5 feet
+- It should stop just below the gutter
+> Extending the ladder at least 3 feet above the landing surface gives a handhold for getting on and off the roof safely, per OSHA guidance.
+
+[h379] practice
+An aggressive dog is loose in the crawl space access area. What should the inspector do?
+- Enter anyway
+* Not enter the area, report that it was not inspected because of the unsafe condition, and offer to return if the situation changes
+- Use the dog as an excuse to skip the whole inspection
+- Ask the client to remove the dog
+> Inspectors are not required to enter areas that are unsafe. The limitation is reported, and a return visit can be arranged.
+
+[h380] practice
+Which of these is a sound reason to include photographs in an inspection report?
+* To help the client understand the location and nature of findings
+- To replace written descriptions entirely
+- To show the seller's belongings
+- To make the report longer
+> Photos support but do not replace written descriptions. They help clients and contractors find and understand the conditions.
+
+[h381] practice
+A client asks the inspector to test the home for radon as part of the inspection. What is the appropriate approach?
+- Radon is always included in a home inspection
+* Radon testing is an ancillary service outside the standard of practice; the inspector may offer it if properly trained, and certified or licensed where required
+- Tell the client that radon is not a real concern
+- Estimate the radon level by looking at the basement
+> Environmental testing such as radon is excluded from standards of practice but may be offered as an added service with proper training and any required credentials, using approved test protocols.
+
+[h382] practice
+Under typical standards of practice, the inspector is NOT required to report on:
+- Safety hazards observed
+- Components not functioning properly
+* The remaining service life of systems and components
+- Systems that were not inspected and why
+> Inspectors report deficiencies and safety issues but are not required to predict remaining life. They may note when a system appears near the end of its typical service life.
+
+[h383] practice
+During the walkthrough, the inspector tells the client the roof "looks fine," but the written report later describes significant roof damage. What is the main risk?
+- None, because only the verbal comments count
+* Conflicting statements can confuse the client and create liability; verbal and written findings should agree
+- The client will read the report faster
+- The report will be shorter
+> Inconsistent communication undermines trust and can lead to claims. Inspectors should be careful that on-site comments match the written report.
+
+[h384] practice
+What is a key reason inspectors should avoid citing specific code sections as requirements in their reports?
+- Codes do not exist for homes
+* Home inspections are not code inspections; the code that applied when the house was built may differ, and the jurisdiction decides compliance
+- Clients prefer longer explanations
+- Codes are secret
+> Inspectors can explain why a condition is unsafe or improper, sometimes referencing generally accepted practice, but they do not determine code compliance.
+
+[h385] practice
+A newly built home is being inspected before closing. The builder says the city already inspected it, so the inspector should skip the attic. What should the inspector do?
+- Skip the attic as requested
+* Inspect the attic as agreed with the client, because municipal inspections do not replace the client's home inspection
+- Ask the builder to inspect the attic instead
+- Report the attic as acceptable without looking
+> The inspector works for the client and follows the agreed scope. Code inspections check different things, and new homes can have significant defects.
+
+[h386] practice
+Which statement about InterNACHI's definition of a "material defect" is most accurate?
+- Any cosmetic flaw is a material defect
+* A specific issue that may significantly affect the value of the property or that poses an unreasonable risk to people
+- Only defects that cost more than $10,000
+- Any item the seller has disclosed
+> InterNACHI defines a material defect as a specific issue with a system or component that may have a significant, adverse impact on the property's value, or that poses an unreasonable risk to people. Age or end of service life alone is not necessarily a material defect.
+
+[h387] practice
+The client asks the inspector to certify that the house will have no problems for five years. What is the correct response?
+- Agree, for an extra fee
+* Explain that a home inspection is not a warranty or guarantee and reports conditions only at the time of inspection
+- Agree, but only for the roof
+- Refuse to perform the inspection
+> Standards of practice state the inspection is not a warranty or guarantee. Some inspectors partner with third-party warranty providers, but the inspection itself does not guarantee future performance.
+
+[h388] practice
+A probing awl is pushed into a finished, painted wood baseboard that looks sound, just to check. Under ASHI's standard, why is this inappropriate?
+- Probing is never allowed
+* Probing is not required where it would damage a finished surface or where no deterioration is visible or presumed
+- Probing must be done only with a moisture meter
+- Probing is required on all surfaces
+> ASHI calls for probing structural components where deterioration is suspected, but not where probing would damage finished surfaces or where no deterioration is visible or presumed.
+
+[h389] practice
+An inspector discovers wiring that is energized and exposed in a reachable location in an occupied home. What is the best course of action?
+* Inform the client and, where feasible, the occupants of the immediate hazard, and report it clearly as a safety issue
+- Fix the wiring personally
+- Keep it secret until the report is delivered
+- Turn off the main power to the house and leave
+> Immediate hazards should be communicated promptly. Ethics codes allow disclosure to exposed occupants. The inspector should not perform repairs.
+
+[h390] practice
+An inspector's fee is set so that it is higher if more defects are found. Why is this a problem?
+- It makes the report shorter
+* It creates a conflict of interest, because the inspector benefits financially from the findings
+- It is required by most standards
+- It lowers the inspector's insurance costs
+> Compensation that depends on the inspection's findings, or on whether the sale closes, gives the inspector a motive to slant the report. Fees should be independent of the findings.
+
+[h391] practice
+Under InterNACHI's standards, which of these is the inspector NOT required to do?
+- Report the method used to inspect the attic
+- Describe the type of heating system
+- Report as in need of correction any heating system that did not operate
+* Move insulation to inspect framing beneath it
+> Inspectors are not required to move insulation, personal items or debris that obstruct access. The resulting limitation is reported.
+
+[h392] practice
+On the National Home Inspector Examination, how many of the 200 questions are unscored pretest items?
+- None
+- 10
+* 25
+- 50
+> EBPHI states that 25 of the 200 questions are pretest items being evaluated for future use. They are not scored and are not identified, so 175 questions count.
+
+[h393] practice
+What score is needed to pass the National Home Inspector Examination?
+- 70 percent of all questions
+* A scaled score of 500 on a scale of 200 to 800
+- A raw score of 150
+- 80 percent of the scored questions
+> EBPHI reports NHIE results as a scaled score from 200 to 800, with 500 as the passing point. Scaling keeps results comparable across different forms of the exam.
+
+[h394] practice
+On the current NHIE content outline, which domain carries the most weight?
+* Property and Building Inspection/Site Review
+- Analysis of Findings and Reporting
+- Professional Responsibilities
+- Business Marketing
+> On the current EBPHI outline, Domain 1, Property and Building Inspection/Site Review, is about 70% of the scored questions. Analysis of Findings and Reporting is about 20%, and Professional Responsibilities about 10%.
+
+[h395] practice
+A client calls a week after the inspection and asks a question about the report. What is the best practice?
+- Ignore the call, because the job is finished
+* Answer the client's questions and clarify the report, keeping the answer consistent with the written findings
+- Charge a full new inspection fee to answer
+- Tell the client to ask the seller
+> Good client service includes explaining the report after delivery. Answers should be consistent with the written report; any changes should be documented properly.
+
+[h396] practice
+Which of these best describes the inspector's main duty under typical standards of practice?
+- To negotiate repairs with the seller
+* To observe, describe and report on the condition of readily accessible systems and components for the client
+- To approve the mortgage loan
+- To appraise the home's value
+> The inspector's role is to inspect and report objectively for the client. Negotiation, lending and appraisal are other professionals' roles.
+
+[h397] practice
+Two days before the inspection, the inspector is asked by a homeowner to pre-inspect the house and then also inspect it for the buyer, for two fees, without telling either party. Why is this improper?
+- It is not improper
+* Codes of ethics prohibit accepting compensation from more than one party for the same service without the informed consent of all parties
+- The inspector must charge both parties the same fee
+- The buyer's inspection must happen first
+> ASHI's code says inspectors must not accept compensation from more than one party for the same service without the consent of all parties. Undisclosed dual roles create conflicts of interest.
+
+[h398] practice
+Which wording best describes a safety concern without overstating it?
+- "This will definitely cause a fire."
+* "Overheated wiring was observed at the breaker. This is a potential fire hazard; recommend evaluation and repair by a licensed electrician."
+- "Wiring seems okay, probably."
+- "Electrical system condemned."
+> Good reporting states the observation, explains the potential consequence and recommends the right professional, without exaggerated predictions or vague minimization.
+
+[h399] practice
+An inspector cannot access the attic because the only hatch is sealed shut with paint and caulk. What is the most appropriate action?
+- Cut the hatch open with a utility knife
+* Report that the attic was not inspected because the access was sealed, and recommend inspection once access is available
+- Assume the attic is in good condition
+- Inspect the attic from the roof vents
+> Breaking seals or damaging finishes is destructive and outside the standard. Reporting the limitation and recommending access is the correct approach.
+
+[h400] practice
+Why is it important for a report to separate safety hazards and significant defects from minor maintenance items?
+- So that the report can skip minor items
+* So that the client can quickly see the conditions that most affect safety and the decision to buy
+- Because standards require only safety items
+- So that the seller pays for maintenance items
+> Organizing findings by significance helps the client focus on what matters most, while the full report still lists the minor items.

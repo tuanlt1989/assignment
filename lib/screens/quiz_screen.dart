@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../app_state.dart';
 import '../i18n.dart';
@@ -20,7 +21,11 @@ class QuizScreen extends StatefulWidget {
     this.exam = false,
     this.lockedLeft = 0,
     this.initialPick,
+    this.spec,
   });
+
+  /// Timing and pass mark of an exam; null means the full mock exam.
+  final ExamSpec? spec;
 
   /// Pre-selected answer for the first question (store screenshots only).
   final int? initialPick;
@@ -56,7 +61,7 @@ class _QuizScreenState extends State<QuizScreen> {
     final app = AppState.of(context);
     _showHelper = app.progress.showHelperLang;
     if (widget.initialPick != null) _picked[0] = widget.initialPick!;
-    _secondsLeft = app.config.examMinutes * 60;
+    _secondsLeft = (widget.spec ?? app.fullExam).minutes * 60;
     if (widget.exam) {
       _timer = Timer.periodic(const Duration(seconds: 1), (_) {
         if (!mounted) return;
@@ -106,6 +111,21 @@ class _QuizScreenState extends State<QuizScreen> {
     }
   }
 
+  /// Emails support about the current question (wrong answer, typo...).
+  void _report(AppState app) {
+    final t = _q.text(app.questionLang);
+    launchUrl(
+      Uri(
+        scheme: 'mailto',
+        path: app.config.supportEmail,
+        queryParameters: {
+          'subject': '${app.config.titleFor('en')} – question ${_q.id}',
+          'body': app.s.t('reportBody', {'id': _q.id, 'q': t.question}),
+        },
+      ),
+    );
+  }
+
   Question get _q => widget.questions[_index];
   bool get _last => _index == widget.questions.length - 1;
 
@@ -138,6 +158,7 @@ class _QuizScreenState extends State<QuizScreen> {
           picked: Map.of(_picked),
           exam: widget.exam,
           lockedLeft: widget.lockedLeft,
+          spec: widget.spec,
         ),
       ),
     );
@@ -222,6 +243,11 @@ class _QuizScreenState extends State<QuizScreen> {
                   visualDensity: VisualDensity.compact,
                 ),
               ),
+            IconButton(
+              tooltip: s.t('reportQuestion'),
+              icon: const Icon(Icons.outlined_flag),
+              onPressed: () => _report(app),
+            ),
             IconButton(
               tooltip: s.t('saved'),
               icon: Icon(saved ? Icons.bookmark : Icons.bookmark_outline),

@@ -56,6 +56,18 @@ META = {
         bodies="Pearson VUE, PSI, Prometric, NAIC, state Department of Insurance",
         grow=["Reddit r/Insurance, r/InsuranceAgent (đọc luật trước khi đăng).",
               "Nhóm Facebook tuyển đại lý bảo hiểm; người tuyển dụng hay giới thiệu tài liệu ôn cho người mới."]),
+    "epa608": dict(
+        markets=["US"], prices="**US $14.99** → Update exchange rates",
+        why="Ở Mỹ, ai đụng vào gas lạnh (thợ HVAC, điện lạnh, tủ lạnh, ô tô) đều phải có chứng chỉ EPA 608 theo luật liên bang. App đứng đầu (\"608 Practice\") có giao diện cơ bản, quảng cáo nhiều và bị phàn nàn có câu sai đáp án. Khác biệt: thi theo từng phần như thật, tài liệu tóm tắt số liệu, nút báo lỗi câu hỏi, không quảng cáo.",
+        bodies="U.S. EPA, ESCO Institute, Mainstream Engineering, RSES",
+        grow=["Reddit r/HVAC, r/HVACadvice, r/refrigeration: \"free EPA 608 section exams, no ads\".",
+              "Trường nghề HVAC và nhóm Facebook thợ HVAC; YouTube Shorts \"1 câu EPA 608 mỗi ngày\"."]),
+    "nhie": dict(
+        markets=["US"], prices="**US $24.99** → Update exchange rates",
+        why="Phí thi NHIE khoảng $225 và đề dài 200 câu, nên người thi sẵn sàng trả tiền. Android gần như không có app; đối thủ bên iOS thu $12.99/tuần và bị chê chấm đúng/sai lẫn lộn. Khác biệt: trả 1 lần, giải thích rõ, tài liệu tóm tắt số liệu theo IRC, nút báo lỗi.",
+        bodies="EBPHI, PSI, state home inspector licensing boards, ASHI, InterNACHI",
+        grow=["Reddit r/HomeInspections, diễn đàn InterNACHI (forum.nachi.org) mục NHIE.",
+              "Trường đào tạo home inspector và nhóm Facebook \"new home inspectors\"."]),
     "nursegulf": dict(
         markets=["IN", "PH", "AE", "SA", "QA", "KW", "OM", "BH", "PK", "EG", "NG", "KE", "JO"],
         prices="**US $14.99** → Update exchange rates → **sửa tay: Ấn Độ ₹499, Philippines ₱599, Pakistan Rs 1,499**",

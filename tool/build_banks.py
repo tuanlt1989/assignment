@@ -4,6 +4,8 @@
 content/<bank>/meta.json   version + categories (with names in every language)
 content/<bank>/en.txt      master file: category + correct answer live here
 content/<bank>/<lang>.txt  translations, same ids, same option order
+content/<bank>/guide.txt   optional study guide: "## <category id>", then
+                           "### Card title" and "- fact" lines
 
 Question format (blank line between questions, '#' starts a comment):
 
@@ -62,6 +64,33 @@ def parse(path: Path) -> dict[str, dict]:
     return out
 
 
+def parse_guide(path: Path, cats: list[str], problems: list[str]) -> list[dict]:
+    if not path.exists():
+        return []
+    cards: list[dict] = []
+    cat = None
+    for n, raw in enumerate(path.read_text().splitlines(), 1):
+        line = raw.strip()
+        if not line or (line.startswith("#") and not line.startswith("##")):
+            continue
+        if line.startswith("### "):
+            if cat is None:
+                problems.append(f"guide:{n}: card before any '## <category>'")
+            cards.append({"cat": cat, "title": line[4:].strip(), "items": []})
+        elif line.startswith("## "):
+            cat = line[3:].strip()
+            if cat not in cats:
+                problems.append(f"guide:{n}: unknown category '{cat}'")
+        elif cards:
+            cards[-1]["items"].append(line[2:].strip() if line.startswith("- ") else line)
+        else:
+            problems.append(f"guide:{n}: text before the first card")
+    for c in cards:
+        if not c["items"]:
+            problems.append(f"guide: card '{c['title']}' is empty")
+    return cards
+
+
 def build(bank_dir: Path) -> list[str]:
     meta = json.loads((bank_dir / "meta.json").read_text())
     cats = [c["id"] for c in meta["categories"]]
@@ -69,7 +98,7 @@ def build(bank_dir: Path) -> list[str]:
     problems: list[str] = []
     langs = {"en": master}
     for p in sorted(bank_dir.glob("*.txt")):
-        if p.stem != "en":
+        if p.stem not in ("en", "guide"):
             langs[p.stem] = parse(p)
 
     questions = []
@@ -102,6 +131,7 @@ def build(bank_dir: Path) -> list[str]:
             if lang not in c["name"]:
                 problems.append(f"meta: category {c['id']} has no {lang} name")
 
+    guide = parse_guide(bank_dir / "guide.txt", cats, problems)
     out = {
         "id": bank_dir.name,
         "version": meta["version"],
@@ -109,6 +139,8 @@ def build(bank_dir: Path) -> list[str]:
         "categories": meta["categories"],
         "questions": questions,
     }
+    if guide:
+        out["guide"] = guide
     dest = ROOT / f"assets/banks/{bank_dir.name}.json"
     dest.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
     per_cat = {c: sum(q["cat"] == c for q in questions) for c in cats}

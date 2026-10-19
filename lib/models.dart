@@ -23,6 +23,9 @@ class AppConfig {
     required this.privacyPolicyUrl,
     required this.supportEmail,
     required this.examBodies,
+    this.sectionQuestions,
+    this.sectionMinutes,
+    this.sectionPass,
   });
 
   final String id;
@@ -50,6 +53,13 @@ class AppConfig {
   /// language.
   final Map<String, String> examBodies;
 
+  /// Section exams (e.g. EPA 608: Core, Type I, II, III are separate tests
+  /// with their own pass mark). Null when the exam is one test.
+  final int? sectionQuestions;
+  final int? sectionMinutes;
+  final int? sectionPass;
+  bool get hasSections => sectionQuestions != null;
+
   String examBodiesFor(String lang) =>
       examBodies[lang] ?? examBodies['en'] ?? 'any exam provider';
 
@@ -61,6 +71,7 @@ class AppConfig {
   factory AppConfig.fromJson(Map<String, dynamic> j) {
     final exam = j['exam'] as Map<String, dynamic>;
     final admob = j['admob'] as Map<String, dynamic>;
+    final sections = j['sections'] as Map<String, dynamic>?;
     return AppConfig(
       id: j['id'] as String,
       bank: j['bank'] as String,
@@ -80,6 +91,9 @@ class AppConfig {
       privacyPolicyUrl: j['privacyPolicyUrl'] as String,
       supportEmail: j['supportEmail'] as String,
       examBodies: Map<String, String>.from(j['examBodies'] as Map? ?? {}),
+      sectionQuestions: sections?['questions'] as int?,
+      sectionMinutes: sections?['minutes'] as int?,
+      sectionPass: sections?['passPercent'] as int?,
     );
   }
 
@@ -128,13 +142,28 @@ class Category {
   String name(String lang) => names[lang] ?? names['en'] ?? id;
 }
 
+/// One study-guide card: key facts for a topic.
+class GuideCard {
+  GuideCard(this.category, this.title, this.items);
+  final String category;
+  final String title;
+  final List<String> items;
+}
+
 class Bank {
-  Bank(this.id, this.version, this.categories, this.questions);
+  Bank(
+    this.id,
+    this.version,
+    this.categories,
+    this.questions, [
+    this.guide = const [],
+  ]);
 
   final String id;
   final String version;
   final List<Category> categories;
   final List<Question> questions;
+  final List<GuideCard> guide;
 
   late final Map<String, Question> byId = {for (final q in questions) q.id: q};
 
@@ -169,7 +198,15 @@ class Bank {
             ),
         }),
     ];
-    return Bank(j['id'] as String, j['version'] as String, cats, qs);
+    final guide = [
+      for (final g in j['guide'] as List? ?? const [])
+        GuideCard(
+          g['cat'] as String,
+          g['title'] as String,
+          List<String>.from(g['items'] as List),
+        ),
+    ];
+    return Bank(j['id'] as String, j['version'] as String, cats, qs, guide);
   }
 
   static Future<Bank> load(String id) async => Bank.fromJson(

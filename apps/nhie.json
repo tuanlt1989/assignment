@@ -1,0 +1,55 @@
+{
+  "id": "nhie",
+  "applicationId": "com.tuanapps.nhie",
+  "launcherName": "Home Inspector",
+  "title": {
+    "en": "Home Inspector Exam Prep NHIE"
+  },
+  "bank": "nhie",
+  "locales": [
+    "en"
+  ],
+  "color": "#00695C",
+  "icon": {
+    "label": "NHIE",
+    "badge": "",
+    "glyph": "house"
+  },
+  "exam": {
+    "questions": 200,
+    "minutes": 240,
+    "passPercent": 75
+  },
+  "freeRatio": 0.3,
+  "suggestedPriceUsd": 24.99,
+  "premiumProductId": "premium_lifetime",
+  "admob": {
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+  "privacyPolicyUrl": "https://tuanlt1989.github.io/assignment/privacy/nhie.html",
+  "supportEmail": "tuanlt1989@gmail.com",
+  "developerName": "Tuan Apps",
+  "tagline": {
+    "en": "Full 200-question mock exams · Study guide · No subscription"
+  },
+  "screenshotCaptions": {
+    "en-US": [
+      "Know when you're ready for the NHIE",
+      "Real inspection scenarios, clear answers",
+      "Full 200-question timed mock exam",
+      "Every code number on one card"
+    ]
+  },
+  "ads": false,
+  "examBodies": {
+    "en": "EBPHI, PSI, any state licensing board, ASHI, InterNACHI or other exam provider"
+  },
+  "productTags": [
+    "premium",
+    "all-questions",
+    "home-inspector",
+    "nhie"
+  ]
+}

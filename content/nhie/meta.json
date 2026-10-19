@@ -1,0 +1,9 @@
+{"version": "2026.10.1", "categories": [
+ {"id": "site", "name": {"en": "Site & Exterior"}},
+ {"id": "roof", "name": {"en": "Roofing"}},
+ {"id": "structure", "name": {"en": "Structure & Foundation"}},
+ {"id": "plumbing", "name": {"en": "Plumbing"}},
+ {"id": "electrical", "name": {"en": "Electrical"}},
+ {"id": "hvac", "name": {"en": "Heating & Cooling"}},
+ {"id": "interior", "name": {"en": "Interior, Insulation & Fireplaces"}},
+ {"id": "practice", "name": {"en": "Reporting & Professional Practice"}}]}

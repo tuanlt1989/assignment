@@ -47,6 +47,47 @@ void main() {
       }
     });
 
+    test(
+      'sectioned exams: 25 per section, Universal needs every section',
+      () async {
+        SharedPreferences.setMockInitialValues({});
+        final config = AppConfig.fromJson(
+          _apps()['epa608'] as Map<String, dynamic>,
+        );
+        expect(config.hasSections, isTrue);
+        final bank = _bank(config.bank);
+        final progress = Progress(await SharedPreferences.getInstance(), 'en');
+        progress.premium = true;
+        final app = AppState(
+          config,
+          bank,
+          progress,
+          Monetization(config, progress),
+        );
+        for (final c in bank.categories) {
+          final qs = app.sectionExam(c).pick();
+          expect(qs.length, config.sectionQuestions);
+          expect(qs.every((q) => q.category == c.id), isTrue);
+        }
+        final all = app.allSectionsExam;
+        final qs = all.pick();
+        expect(qs.length, config.sectionQuestions! * bank.categories.length);
+        // Everything right except the whole last section: overall 75% but a
+        // failed section, so Universal is not passed.
+        final last = bank.categories.last.id;
+        final picked = {
+          for (var i = 0; i < qs.length; i++)
+            i: qs[i].category == last ? (qs[i].answer + 1) % 4 : qs[i].answer,
+        };
+        expect(all.passed(qs, picked), isFalse);
+        expect(app.fullExam.passed(qs, picked), isTrue);
+        expect(
+          all.passed(qs, {for (var i = 0; i < qs.length; i++) i: qs[i].answer}),
+          isTrue,
+        );
+      },
+    );
+
     test('free tier covers every category but not everything', () {
       final bank = _bank('nail');
       final free = bank.freeIds(0.4);
