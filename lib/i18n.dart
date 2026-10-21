@@ -60,8 +60,7 @@ class S {
       'explanation': 'Explanation',
       'showHelper': 'Show {lang}',
       'readAloud': 'Read aloud',
-      'noVoice':
-          'No {lang} voice on this phone. Install it in Settings → Text-to-speech.',
+      'noVoice': 'No {lang} voice on this phone. Install it in Settings → Text-to-speech.',
       'timeLeft': 'Time left',
       'submitTitle': 'Submit exam?',
       'submitBody': 'You have {n} unanswered questions.',
@@ -97,13 +96,14 @@ class S {
       'resetProgress': 'Reset progress',
       'resetConfirm': 'Delete all answers, saved questions and exam history?',
       'reset': 'Reset',
+      'officialSources': 'Official sources',
+      'officialSourcesNote': 'The questions are based on these official government sources. This app is not affiliated with any government agency – always check them for current rules.',
       'privacy': 'Privacy policy',
       'adChoices': 'Privacy & ad choices',
       'support': 'Contact support',
       'rate': 'Rate this app',
       'disclaimerTitle': 'Disclaimer',
-      'disclaimer':
-          'This is an independent study tool. It is not affiliated with or endorsed by {orgs}. All questions are original practice items written to cover published exam topics. Always check the official exam information.',
+      'disclaimer': 'This is an independent study tool. It is not affiliated with or endorsed by {orgs}. All questions are original practice items written to cover published exam topics. Always check the official exam information.',
       'version': 'Content version {v}',
       'retry': 'Try again',
       'pending':
@@ -187,8 +187,7 @@ class S {
       'explanation': 'Giải thích',
       'showHelper': 'Xem {lang}',
       'readAloud': 'Đọc to',
-      'noVoice':
-          'Máy chưa có giọng đọc {lang}. Cài trong Cài đặt → Chuyển văn bản thành giọng nói.',
+      'noVoice': 'Máy chưa có giọng đọc {lang}. Cài trong Cài đặt → Chuyển văn bản thành giọng nói.',
       'timeLeft': 'Còn lại',
       'submitTitle': 'Nộp bài?',
       'submitBody': 'Bạn còn {n} câu chưa trả lời.',
@@ -224,13 +223,14 @@ class S {
       'resetProgress': 'Xoá tiến độ',
       'resetConfirm': 'Xoá toàn bộ câu đã làm, câu đã lưu và lịch sử thi thử?',
       'reset': 'Xoá',
+      'officialSources': 'Nguồn chính thức',
+      'officialSourcesNote': 'Câu hỏi dựa trên các nguồn chính thức của chính phủ. Ứng dụng không liên kết với cơ quan nhà nước nào – hãy luôn kiểm tra quy định hiện hành.',
       'privacy': 'Chính sách bảo mật',
       'adChoices': 'Quyền riêng tư & quảng cáo',
       'support': 'Liên hệ hỗ trợ',
       'rate': 'Đánh giá app',
       'disclaimerTitle': 'Lưu ý',
-      'disclaimer':
-          'Đây là công cụ ôn tập độc lập, không liên kết hay được bảo trợ bởi {orgs}. Toàn bộ câu hỏi do chúng tôi tự biên soạn theo các chủ đề thi đã được công bố. Luôn kiểm tra thông tin chính thức của kỳ thi.',
+      'disclaimer': 'Đây là công cụ ôn tập độc lập, không liên kết hay được bảo trợ bởi {orgs}. Toàn bộ câu hỏi do chúng tôi tự biên soạn theo các chủ đề thi đã được công bố. Luôn kiểm tra thông tin chính thức của kỳ thi.',
       'version': 'Phiên bản nội dung {v}',
       'retry': 'Thử lại',
       'pending': 'Đang chờ thanh toán. App sẽ tự mở khoá khi thanh toán xong.',
@@ -314,8 +314,7 @@ class S {
       'explanation': 'Explicación',
       'showHelper': 'Ver en {lang}',
       'readAloud': 'Leer en voz alta',
-      'noVoice':
-          'Este teléfono no tiene voz en {lang}. Instálala en Ajustes → Texto a voz.',
+      'noVoice': 'Este teléfono no tiene voz en {lang}. Instálala en Ajustes → Texto a voz.',
       'timeLeft': 'Tiempo restante',
       'submitTitle': '¿Entregar el examen?',
       'submitBody': 'Tienes {n} preguntas sin responder.',
@@ -352,13 +351,14 @@ class S {
       'resetConfirm':
           '¿Borrar todas las respuestas, preguntas guardadas y exámenes?',
       'reset': 'Borrar',
+      'officialSources': 'Fuentes oficiales',
+      'officialSourcesNote': 'Las preguntas se basan en estas fuentes oficiales del gobierno. Esta app no está afiliada a ninguna agencia gubernamental: consulte siempre las reglas vigentes.',
       'privacy': 'Política de privacidad',
       'adChoices': 'Privacidad y anuncios',
       'support': 'Contactar soporte',
       'rate': 'Calificar la app',
       'disclaimerTitle': 'Aviso',
-      'disclaimer':
-          'Esta es una herramienta de estudio independiente. No está afiliada ni respaldada por {orgs}. Todas las preguntas son originales y cubren los temas publicados del examen. Consulta siempre la información oficial del examen.',
+      'disclaimer': 'Esta es una herramienta de estudio independiente. No está afiliada ni respaldada por {orgs}. Todas las preguntas son originales y cubren los temas publicados del examen. Consulta siempre la información oficial del examen.',
       'version': 'Versión del contenido {v}',
       'retry': 'Reintentar',
       'pending':
@@ -409,8 +409,7 @@ class S {
       'reminderTime': 'Hora del recordatorio',
       'notSet': 'Sin definir',
       'clear': 'Borrar',
-      'notifBody':
-          '¡Hora de estudiar! Responde {n} preguntas hoy para mantener tu racha.',
+      'notifBody': '¡Hora de estudiar! Responde {n} preguntas hoy para mantener tu racha.',
     },
     'de': {
       'readiness': 'Prüfungsbereitschaft',
@@ -443,8 +442,7 @@ class S {
       'explanation': 'Erklärung',
       'showHelper': '{lang} anzeigen',
       'readAloud': 'Vorlesen',
-      'noVoice':
-          'Keine Stimme für {lang} auf diesem Handy. In Einstellungen → Text-in-Sprache installieren.',
+      'noVoice': 'Keine Stimme für {lang} auf diesem Handy. In Einstellungen → Text-in-Sprache installieren.',
       'timeLeft': 'Restzeit',
       'submitTitle': 'Prüfung abgeben?',
       'submitBody': 'Du hast {n} Fragen nicht beantwortet.',
@@ -472,8 +470,7 @@ class S {
       'pwOnce': 'Einmalzahlung. Kein Abo.',
       'buyFor': 'Freischalten für {price}',
       'restore': 'Kauf wiederherstellen',
-      'storeUnavailable':
-          'Der Store ist gerade nicht erreichbar. Bitte später erneut versuchen.',
+      'storeUnavailable': 'Der Store ist gerade nicht erreichbar. Bitte später erneut versuchen.',
       'retry': 'Erneut versuchen',
       'pending':
           'Zahlung ausstehend. Der Zugang wird automatisch freigeschaltet.',
@@ -485,13 +482,14 @@ class S {
       'resetConfirm':
           'Alle Antworten, gemerkten Fragen und Prüfungsergebnisse löschen?',
       'reset': 'Zurücksetzen',
+      'officialSources': 'Offizielle Quellen',
+      'officialSourcesNote': 'Die Fragen beruhen auf diesen offiziellen Quellen. Diese App steht in keiner Verbindung zu einer Behörde – prüfe immer die aktuellen Regeln.',
       'privacy': 'Datenschutzerklärung',
       'adChoices': 'Datenschutz & Werbung',
       'support': 'Support kontaktieren',
       'rate': 'App bewerten',
       'disclaimerTitle': 'Hinweis',
-      'disclaimer':
-          'Dies ist ein unabhängiges Lernwerkzeug. Es steht in keiner Verbindung zu {orgs} und wird von diesen nicht unterstützt. Alle Fragen sind eigene Übungsfragen zu den veröffentlichten Prüfungsthemen. Bitte informiere dich immer bei der zuständigen Stelle.',
+      'disclaimer': 'Dies ist ein unabhängiges Lernwerkzeug. Es steht in keiner Verbindung zu {orgs} und wird von diesen nicht unterstützt. Alle Fragen sind eigene Übungsfragen zu den veröffentlichten Prüfungsthemen. Bitte informiere dich immer bei der zuständigen Stelle.',
       'version': 'Inhaltsversion {v}',
       'obDateQ': 'Wann ist deine Prüfung?',
       'obDateHint':
@@ -573,8 +571,7 @@ class S {
       'explanation': 'Explicație',
       'showHelper': 'Vezi în {lang}',
       'readAloud': 'Citește cu voce tare',
-      'noVoice':
-          'Telefonul nu are voce în {lang}. Instaleaz-o din Setări → Redare vocală a textului.',
+      'noVoice': 'Telefonul nu are voce în {lang}. Instaleaz-o din Setări → Redare vocală a textului.',
       'timeLeft': 'Timp rămas',
       'submitTitle': 'Trimiți testul?',
       'submitBody': 'Ai {n} întrebări fără răspuns.',
@@ -614,13 +611,14 @@ class S {
       'resetConfirm':
           'Ștergi toate răspunsurile, întrebările salvate și testele?',
       'reset': 'Resetează',
+      'officialSources': 'Surse oficiale',
+      'officialSourcesNote': 'Întrebările se bazează pe aceste surse oficiale. Aplicația nu este afiliată niciunei instituții publice – verificați mereu regulile în vigoare.',
       'privacy': 'Politica de confidențialitate',
       'adChoices': 'Confidențialitate și reclame',
       'support': 'Contactează suportul',
       'rate': 'Evaluează aplicația',
       'disclaimerTitle': 'Notă',
-      'disclaimer':
-          'Aceasta este o aplicație de studiu independentă. Nu este afiliată și nu este aprobată de {orgs}. Toate întrebările sunt originale și acoperă temele publicate ale testului. Verifică mereu informațiile oficiale.',
+      'disclaimer': 'Aceasta este o aplicație de studiu independentă. Nu este afiliată și nu este aprobată de {orgs}. Toate întrebările sunt originale și acoperă temele publicate ale testului. Verifică mereu informațiile oficiale.',
       'version': 'Versiunea conținutului {v}',
       'obDateQ': 'Când ai testul?',
       'obDateHint': 'Îți facem un plan zilnic ca să fii pregătit la timp.',
@@ -666,8 +664,7 @@ class S {
       'reminderTime': 'Ora mementoului',
       'notSet': 'Nesetat',
       'clear': 'Șterge',
-      'notifBody':
-          'E timpul să înveți! Răspunde azi la {n} întrebări ca să nu pierzi seria.',
+      'notifBody': 'E timpul să înveți! Răspunde azi la {n} întrebări ca să nu pierzi seria.',
     },
     'pl': {
       'readiness': 'Gotowość do egzaminu',
@@ -700,8 +697,7 @@ class S {
       'explanation': 'Wyjaśnienie',
       'showHelper': 'Pokaż: {lang}',
       'readAloud': 'Czytaj na głos',
-      'noVoice':
-          'Brak głosu: {lang} w telefonie. Zainstaluj w Ustawieniach → Zamiana tekstu na mowę.',
+      'noVoice': 'Brak głosu: {lang} w telefonie. Zainstaluj w Ustawieniach → Zamiana tekstu na mowę.',
       'timeLeft': 'Pozostały czas',
       'submitTitle': 'Oddać egzamin?',
       'submitBody': 'Liczba pytań bez odpowiedzi: {n}.',
@@ -740,13 +736,14 @@ class S {
       'resetConfirm':
           'Usunąć wszystkie odpowiedzi, zapisane pytania i wyniki egzaminów?',
       'reset': 'Resetuj',
+      'officialSources': 'Oficjalne źródła',
+      'officialSourcesNote': 'Pytania opierają się na tych oficjalnych źródłach. Aplikacja nie jest powiązana z żadnym urzędem – zawsze sprawdzaj aktualne przepisy.',
       'privacy': 'Polityka prywatności',
       'adChoices': 'Prywatność i reklamy',
       'support': 'Kontakt z pomocą',
       'rate': 'Oceń aplikację',
       'disclaimerTitle': 'Uwaga',
-      'disclaimer':
-          'To niezależne narzędzie do nauki. Nie jest powiązane z {orgs} ani przez nie zatwierdzone. Wszystkie pytania są autorskie i obejmują opublikowane tematy egzaminu. Zawsze sprawdzaj oficjalne informacje.',
+      'disclaimer': 'To niezależne narzędzie do nauki. Nie jest powiązane z {orgs} ani przez nie zatwierdzone. Wszystkie pytania są autorskie i obejmują opublikowane tematy egzaminu. Zawsze sprawdzaj oficjalne informacje.',
       'version': 'Wersja treści {v}',
       'obDateQ': 'Kiedy masz egzamin?',
       'obDateHint': 'Ułożymy plan dnia, żebyś zdążył się przygotować.',

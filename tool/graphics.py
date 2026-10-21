@@ -198,8 +198,7 @@ def draw_mark(size: int, app: dict, transparent: bool, safe: float = 1.0) -> Ima
     label = icon.get("label", "")
     glyph_cy = c - k * 0.1 if label else c
     _glyph(d, icon.get("glyph", ""), c, glyph_cy, k * (0.24 if label else 0.3), (255, 255, 255), shade(base, 0.85))
-    if label:
-        _check_badge(d, c + k * 0.22, glyph_cy + k * 0.2, k * 0.1, shade(base, 0.9))
+    # No check-mark badge: Play (Metadata policy) reads it as a "verified/award" claim.
     if label:
         f = font(int(k * 0.13))
         tw = d.textlength(label, font=f)

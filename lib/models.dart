@@ -23,6 +23,7 @@ class AppConfig {
     required this.privacyPolicyUrl,
     required this.supportEmail,
     required this.examBodies,
+    this.officialSources = const [],
   });
 
   final String id;
@@ -49,6 +50,10 @@ class AppConfig {
   /// Organizations named in the "not affiliated with" disclaimer, per UI
   /// language.
   final Map<String, String> examBodies;
+
+  /// Government pages the questions are based on (label, url). Shown on the
+  /// home screen and in Settings (Play: Misleading Claims policy).
+  final List<(String, String)> officialSources;
 
   String examBodiesFor(String lang) =>
       examBodies[lang] ?? examBodies['en'] ?? 'any exam provider';
@@ -80,15 +85,19 @@ class AppConfig {
       privacyPolicyUrl: j['privacyPolicyUrl'] as String,
       supportEmail: j['supportEmail'] as String,
       examBodies: Map<String, String>.from(j['examBodies'] as Map? ?? {}),
+      officialSources: [
+        for (final e in j['officialSources'] as List? ?? const [])
+          (e['label'] as String, e['url'] as String),
+      ],
     );
   }
 
   /// Which app this binary is: `--dart-define=APP_ID=x` wins (web/tests),
   /// otherwise the Android flavor, otherwise the first app.
   static Future<AppConfig> load() async {
-    final all =
-        jsonDecode(await rootBundle.loadString('assets/apps.json'))
-            as Map<String, dynamic>;
+    final all = jsonDecode(
+      await rootBundle.loadString('assets/apps.json'),
+    ) as Map<String, dynamic>;
     const fromDefine = String.fromEnvironment('APP_ID');
     // Web builds (store screenshots) can switch app with ?app=<id>.
     final fromUrl = kIsWeb ? Uri.base.queryParameters['app'] : null;

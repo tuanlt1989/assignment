@@ -5,6 +5,7 @@ import '../app_state.dart';
 import '../i18n.dart';
 import '../reminders.dart';
 import 'paywall_screen.dart';
+import 'sources_card.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -139,6 +140,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 },
               ),
               const Divider(),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8),
+                child: SourcesCard(app: app),
+              ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
                 child: Text(

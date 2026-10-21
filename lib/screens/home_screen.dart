@@ -7,6 +7,7 @@ import 'flashcard_screen.dart';
 import 'paywall_screen.dart';
 import 'quiz_screen.dart';
 import 'settings_screen.dart';
+import 'sources_card.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -153,15 +154,16 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 24),
               Text(
                 s.t('topics'),
-                style: Theme.of(
-                  context,
-                ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+                style: Theme.of(context).textTheme.titleMedium
+                    ?.copyWith(fontWeight: FontWeight.w700),
               ),
               const SizedBox(height: 8),
               for (final c in app.bank.categories) ...[
                 _TopicTile(app: app, category: c),
                 const SizedBox(height: 8),
               ],
+              const SizedBox(height: 8),
+              SourcesCard(app: app),
             ],
           ),
         );

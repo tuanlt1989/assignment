@@ -51,5 +51,31 @@
     "all-questions",
     "insurance-exam",
     "mock-tests"
+  ],
+  "officialSources": [
+    {
+      "label": "Medicare basics (medicare.gov)",
+      "url": "https://www.medicare.gov/basics/get-started-with-medicare"
+    },
+    {
+      "label": "Medigap (medicare.gov)",
+      "url": "https://www.medicare.gov/health-drug-plans/medigap"
+    },
+    {
+      "label": "Retirement plans & taxation (irs.gov)",
+      "url": "https://www.irs.gov/retirement-plans"
+    },
+    {
+      "label": "Social Security disability (ssa.gov)",
+      "url": "https://www.ssa.gov/disability"
+    },
+    {
+      "label": "Health insurance (usa.gov)",
+      "url": "https://www.usa.gov/health-insurance"
+    },
+    {
+      "label": "Health coverage (healthcare.gov)",
+      "url": "https://www.healthcare.gov/"
+    }
   ]
 }
