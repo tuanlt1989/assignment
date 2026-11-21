@@ -57,19 +57,32 @@ var picks: Array = []
 var needs: Array = []
 var current: int = 0
 var rng := RandomNumberGenerator.new()
+var base_order: Array[int] = []
+
+
+func _ready() -> void:
+	shuffle_order()
+
+
+## Xáo thứ tự chọn trước, để màn chọn đội hiện được lượt của từng đội.
+func shuffle_order() -> void:
+	base_order.clear()
+	for i in TEAMS.size():
+		base_order.append(i)
+	base_order.shuffle()
+
+
+func first_pick_of(team: int) -> int:
+	return base_order.find(team) + 1
 
 
 func new_draft(num_rounds: int, team: int) -> void:
 	rng.randomize()
 	rounds = num_rounds
 	user_team = team
-	var base: Array[int] = []
-	for i in TEAMS.size():
-		base.append(i)
-	base.shuffle()
 	order.clear()
 	for r in rounds:
-		order.append_array(base)
+		order.append_array(base_order)
 	needs.clear()
 	for i in TEAMS.size():
 		var n: Array = []
@@ -207,10 +220,10 @@ func verdict(p: Dictionary) -> String:
 	var d: float = true_rating(p) - p.grade
 	if d >= 3.0:
 		return "Steal"
-	if d >= -1.5:
+	if d >= -3.0:
 		return "Solid"
-	if d >= -4.5:
-		return "Reach"
+	if d >= -6.0:
+		return "Disappointment"
 	return "Bust"
 
 

@@ -10,6 +10,8 @@ const TEXT := Color("f1f5f9")
 const MUTED := Color("a3adbf")
 const ACCENT := Color("ffb020")
 const GOOD := Color("4ade80")
+const INFO := Color("2dd4bf")
+const WARN := Color("fb923c")
 const BAD := Color("f87171")
 
 
@@ -45,6 +47,25 @@ static func button(text: String, bg: Color, fg: Color, h: float = 88, fs: int = 
 		b.create_tween().tween_property(b, "scale", Vector2(0.98, 0.98), 0.05))
 	b.button_up.connect(func(): b.create_tween().tween_property(b, "scale", Vector2.ONE, 0.08))
 	return b
+
+
+## Nhãn dạng viên thuốc: nền tô nhạt 12%, có thể có viền.
+static func pill(text: String, color: Color, fs: int = 18, outline: bool = false) -> PanelContainer:
+	var pc := PanelContainer.new()
+	var sb := box(Color(color, 0.0 if outline else 0.12), 8, 0)
+	sb.content_margin_left = 10
+	sb.content_margin_right = 10
+	sb.content_margin_top = 3
+	sb.content_margin_bottom = 3
+	if outline:
+		sb.set_border_width_all(2)
+		sb.border_color = Color(color, 0.7)
+	pc.add_theme_stylebox_override("panel", sb)
+	pc.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	pc.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	pc.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	pc.add_child(label(text, fs, color))
+	return pc
 
 
 static func label(text: String, fs: int, color: Color = TEXT, regular: bool = false) -> Label:
