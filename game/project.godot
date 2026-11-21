@@ -9,6 +9,7 @@ config/features=PackedStringArray("4.3", "Mobile")
 [autoload]
 GameState="*res://scripts/game_state.gd"
 Monetization="*res://scripts/monetization.gd"
+Sfx="*res://scripts/sfx.gd"
 
 [display]
 window/size/viewport_width=720

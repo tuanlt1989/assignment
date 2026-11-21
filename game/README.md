@@ -8,6 +8,14 @@ Game idle/merge cozy cho Android. Đây là **khung** để thử vòng chơi, c
 - Lưu local (`user://save.json`), tự lưu khi ghép/thoát/tạm dừng.
 - `Monetization` autoload: **stub** cho quảng cáo rewarded và IAP (starter 4,99$, 9,99$, 19,99$, 49,99$, remove ads). Hiện cấp thưởng giả lập.
 
+## Đợt polish 1
+- 10 loài cá vẽ bằng code (`scripts/item_view.gd`): bơi nhấp nhô, vẫy đuôi, chớp mắt; cấp 5+ có sao, cấp 8+ có vương miện và hào quang.
+- Ghép: nảy, hạt nổ, chữ bay, rung máy; loài mới hiện banner. Chạm ô trống để di chuyển cá.
+- Ô cùng cấp được viền vàng khi chọn; để yên 4 giây sẽ gợi ý một cặp ghép.
+- HUD vàng đếm số mượt, bong bóng nền, nút 3D, popup thu nhập offline (x2 qua quảng cáo), cửa hàng.
+- Âm thanh: thả file `.ogg` vào `audio/` (xem `audio/README.txt`), chưa có file thì game vẫn chạy.
+- Rung máy trên Android cần bật quyền **VIBRATE** trong Export preset.
+
 ## Chạy thử
 Mở thư mục `game/` bằng Godot 4.3+ rồi bấm Play (F5).
 
