@@ -428,7 +428,7 @@ func _show_results() -> void:
 	bc.add_child(sv)
 	sv.add_child(UI.label(story_title, 18, story_col))
 	sv.add_child(UI.label(story_line, 26))
-	lv.add_child(_section("Your class · true ratings", 16))
+	lv.add_child(_section("Your class · true ratings", 32))
 	var delay := 0.5
 	for e in mine:
 		var pl: Dictionary = e.player
@@ -436,7 +436,7 @@ func _show_results() -> void:
 		var vd := Draft.verdict(pl)
 		var vcol: Color = {"Steal": UI.GOOD, "Solid": UI.MUTED, "Miss": UI.WARN, "Bust": UI.BAD}[vd]
 		var card := PanelContainer.new()
-		card.add_theme_stylebox_override("panel", UI.box(UI.CARD, 16, 14))
+		card.add_theme_stylebox_override("panel", UI.box(UI.CARD, 16, 16))
 		lv.add_child(card)
 		var row := HBoxContainer.new()
 		row.add_theme_constant_override("separation", 16)
@@ -464,7 +464,7 @@ func _show_results() -> void:
 		if vd == "Steal":
 			tw.tween_callback(func(): Input.vibrate_handheld(30))
 		delay += 0.08
-	lv.add_child(_section("League leaderboard", 16))
+	lv.add_child(_section("League leaderboard", 32))
 	var ranked := _ranked_teams()
 	var show: Array = ranked.slice(0, 3)
 	if Draft.user_team not in show:
@@ -476,7 +476,7 @@ func _show_results() -> void:
 			dots.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 			lv.add_child(dots)
 		var tc := PanelContainer.new()
-		var tsb := UI.box(UI.CARD, 14, 11)
+		var tsb := UI.box(UI.CARD, 14, 16)
 		if mine_row:
 			tsb.set_border_width_all(2)
 			tsb.border_color = Draft.team_color(t)
