@@ -21,7 +21,24 @@ static func box(c: Color, radius: int = 16, margin: int = 16) -> StyleBoxFlat:
 	sb.set_corner_radius_all(radius)
 	sb.set_content_margin_all(margin)
 	sb.anti_aliasing = true
+	if c == CARD:
+		sb.shadow_color = Color(0, 0, 0, 0.35)
+		sb.shadow_size = 6
+		sb.shadow_offset = Vector2(0, 3)
+		sb.border_width_top = 1
+		sb.border_color = Color(1, 1, 1, 0.06)
 	return sb
+
+
+## Nút phụ: nền trong suốt, viền mảnh.
+static func outline_button(text: String, fg: Color, h: float = 72, fs: int = 24) -> Button:
+	var b := button(text, Color(0, 0, 0, 0), fg, h, fs)
+	for st in ["normal", "hover", "pressed"]:
+		var sb := box(Color(1, 1, 1, 0.0 if st == "normal" else 0.05))
+		sb.set_border_width_all(2)
+		sb.border_color = Color(fg, 0.45)
+		b.add_theme_stylebox_override(st, sb)
+	return b
 
 
 static func style(b: Button, bg: Color, fg: Color) -> void:

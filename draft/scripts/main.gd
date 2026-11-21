@@ -84,6 +84,9 @@ func _show_team_select() -> void:
 	vb.add_child(_segmented(["1 round", "3 rounds", "7 rounds"], [1, 3, 7].find(rounds_choice), func(i: int):
 		rounds_choice = [1, 3, 7][i]
 		_show_team_select()))
+	var rnd := UI.outline_button("Random team", UI.TEXT, 72, 24)
+	rnd.pressed.connect(func(): _confirm_team(randi() % Draft.TEAMS.size()))
+	vb.add_child(rnd)
 	var sc := _scroll()
 	vb.add_child(sc)
 	var col := VBoxContainer.new()
@@ -95,14 +98,14 @@ func _show_team_select() -> void:
 		var team: int = i
 		var b := _row_button(92)
 		var row := _row_box(b)
-		row.add_child(_badge(team, 44))
+		row.add_child(_badge(team, 52))
 		var tv := VBoxContainer.new()
 		tv.add_theme_constant_override("separation", 0)
 		tv.mouse_filter = MOUSE_FILTER_IGNORE
 		row.add_child(_expand(tv))
 		tv.add_child(UI.label(Draft.team_name(team), 27))
 		tv.add_child(UI.label("Needs " + ", ".join(Draft.team_needs_preview(team)), 21, UI.MUTED, true))
-		var fp := UI.label("Pick #%d" % Draft.first_pick_of(team), 21, UI.MUTED, true)
+		var fp := UI.label("Picks %s" % _ordinal(Draft.first_pick_of(team)), 22, Color(UI.TEXT, 0.85))
 		fp.size_flags_vertical = SIZE_SHRINK_CENTER
 		row.add_child(fp)
 		b.add_theme_stylebox_override("pressed", UI.box(Color(Draft.team_color(team), 0.25)))
@@ -125,7 +128,7 @@ func _confirm_team(team: int) -> void:
 	hv.add_child(UI.label(Draft.TEAMS[team][1], 38))
 	var nd: Array = Draft.needs[team]
 	vb.add_child(_stats([
-		["#%d" % fp, "First pick of 32"],
+		[_ordinal(fp), "Picks first"],
 		["%d" % rounds_choice, "Rounds"],
 		[", ".join(nd), "Team needs"],
 	]))
@@ -194,6 +197,9 @@ func _refresh_room() -> void:
 	var p := Draft.current
 	if not Draft.is_done():
 		round_label.text = "Pick %d  ·  Round %d" % [p % Draft.PICKS_PER_ROUND + 1, p / Draft.PICKS_PER_ROUND + 1]
+		var nx := Draft.next_user_pick()
+		if not Draft.is_user_turn() and nx >= 0:
+			round_label.text += "   ·   Your next pick: #%d (%d away)" % [nx + 1, nx - p]
 	picks_label.text = "Your picks %d/%d" % [Draft.team_picks(Draft.user_team).size(), Draft.rounds]
 	if Draft.is_user_turn():
 		clock_label.text = "You're on the clock"
@@ -252,10 +258,13 @@ func _player_row(p: Dictionary, need: bool) -> Button:
 	info.add_child(meta)
 	meta.add_child(UI.label("%s  ·  %s" % [p.pos, p.college], 22, UI.MUTED, true))
 	if need:
-		meta.add_child(UI.pill("NEED", UI.INFO, 16, true))
-	var g := UI.label("%.1f" % p.grade, 30)
+		meta.add_child(UI.pill("NEED", UI.INFO, 16))
+	var g := UI.label("%.1f" % p.grade, 32, _grade_color(p.grade))
 	g.size_flags_vertical = SIZE_SHRINK_CENTER
 	row.add_child(g)
+	var chev := UI.label("›", 34, Color(UI.MUTED, 0.6))
+	chev.size_flags_vertical = SIZE_SHRINK_CENTER
+	row.add_child(chev)
 	b.pressed.connect(func(): _open_card(p))
 	return b
 
@@ -271,11 +280,22 @@ func _open_card(p: Dictionary) -> void:
 	nh.add_child(UI.label(p.name, 40))
 	if p.pos in Draft.needs[Draft.user_team]:
 		nh.add_child(UI.pill("Fills a need", UI.INFO, 18, true))
-	hv.add_child(UI.label("%s  ·  %s  ·  Age %d  ·  Board #%d" % [p.pos, p.college, p.age, _board_rank(p)], 23, UI.MUTED, true))
+	hv.add_child(UI.label("%s  ·  %s  ·  Age %d  ·  %s" % [p.pos, p.college, p.age, "Best available" if _board_rank(p) == 1 else "%s best available" % _ordinal(_board_rank(p))], 23, UI.MUTED, true))
 	vb.add_child(_stats([["%.1f" % p.grade, "Grade"], [_height(p.ht), "Height"], ["%d lb" % p.wt, "Weight"], ["%.2f" % p.forty, "40 yd"]]))
-	var rep := UI.label(_scout_report(p), 24, UI.TEXT, true)
-	rep.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	vb.add_child(rep)
+	var rep := _scout_report(p)
+	var sg := GridContainer.new()
+	sg.columns = 2
+	sg.add_theme_constant_override("h_separation", 16)
+	sg.add_theme_constant_override("v_separation", 8)
+	vb.add_child(sg)
+	for kv in [["STRENGTH", rep[0], UI.GOOD], ["CONCERN", rep[1], UI.WARN], ["OUTLOOK", rep[2], UI.TEXT]]:
+		var k := UI.label(kv[0], 17, Color(kv[2], 0.9))
+		k.custom_minimum_size = Vector2(130, 0)
+		sg.add_child(k)
+		var v := UI.label(kv[1], 23, UI.TEXT, true)
+		v.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		v.size_flags_horizontal = SIZE_EXPAND_FILL
+		sg.add_child(v)
 	var can := Draft.is_user_turn()
 	var draft_btn := UI.button("Draft %s" % p.name if can else "Not your pick yet", UI.ACCENT, UI.BG, 96, 30)
 	draft_btn.disabled = not can
@@ -283,7 +303,15 @@ func _open_card(p: Dictionary) -> void:
 		_close_card()
 		Draft.make_pick(p)
 		_toast("You drafted %s" % p.name))
-	vb.add_child(draft_btn)
+	var bh := HBoxContainer.new()
+	bh.add_theme_constant_override("separation", 12)
+	vb.add_child(bh)
+	var back := UI.outline_button("Back", UI.TEXT, 96, 28)
+	back.custom_minimum_size.x = 170
+	back.pressed.connect(_close_card)
+	bh.add_child(back)
+	draft_btn.size_flags_horizontal = SIZE_EXPAND_FILL
+	bh.add_child(draft_btn)
 
 
 ## Bottom sheet chung: nền mờ 70%, tay kéo, chạm ngoài để đóng.
@@ -383,11 +411,20 @@ func _show_results() -> void:
 	gh.add_child(gv)
 	gv.add_child(UI.label(Draft.team_name(Draft.user_team), 30))
 	gv.add_child(UI.label("Ranked #%d of 32 classes" % _league_rank(Draft.user_team), 23, UI.MUTED, true))
+	var why := UI.label(_grade_reason(), 21, UI.TEXT, true)
+	why.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	why.custom_minimum_size = Vector2(440, 0)
+	gv.add_child(why)
+	# "đóng dấu": rơi từ to xuống, rung nhẹ
 	letter.pivot_offset = Vector2(40, 80)
-	letter.scale = Vector2(0.3, 0.3)
+	letter.scale = Vector2(2.2, 2.2)
 	letter.modulate.a = 0.0
-	letter.create_tween().tween_property(letter, "modulate:a", 1.0, 0.3)
-	letter.create_tween().tween_property(letter, "scale", Vector2.ONE, 0.45).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	var st := letter.create_tween().set_parallel()
+	st.tween_property(letter, "modulate:a", 1.0, 0.18)
+	st.tween_property(letter, "scale", Vector2.ONE, 0.28).set_trans(Tween.TRANS_QUART).set_ease(Tween.EASE_IN)
+	st.chain().tween_callback(func(): Input.vibrate_handheld(35))
+	st.chain().tween_property(letter, "scale", Vector2(1.06, 1.06), 0.06)
+	st.chain().tween_property(letter, "scale", Vector2.ONE, 0.1)
 
 	var mine := Draft.team_picks(Draft.user_team)
 	var sc := _scroll()
@@ -445,7 +482,13 @@ func _show_results() -> void:
 		info.add_theme_constant_override("separation", 0)
 		row.add_child(_expand(info))
 		info.add_child(UI.label(pl.name, 27))
-		info.add_child(UI.label("Pick %d  ·  %s  ·  Graded %.1f → True %.1f" % [e.pick + 1, pl.pos, pl.grade, tr], 21, UI.MUTED, true))
+		var ml := UI.label("", 21, UI.MUTED, true)
+		info.add_child(ml)
+		var base_txt := "Pick %d  ·  %s  ·  Graded %.1f → True " % [e.pick + 1, pl.pos, pl.grade]
+		ml.text = base_txt + "…"
+		var roll := ml.create_tween()
+		roll.tween_interval(delay)
+		roll.tween_method(func(v: float): ml.text = base_txt + "%.1f" % v, pl.grade, tr, 0.6).set_ease(Tween.EASE_OUT)
 		var vv := VBoxContainer.new()
 		vv.alignment = BoxContainer.ALIGNMENT_CENTER
 		vv.add_theme_constant_override("separation", 4)
@@ -490,7 +533,7 @@ func _show_results() -> void:
 		th.add_child(_expand(UI.label(("You · " + Draft.TEAMS[t][1]) if mine_row else Draft.team_name(t), 23)))
 		var tl: String = Draft.team_grade(t).letter
 		th.add_child(UI.label(tl, 26, _tier_color(tl)))
-	var same := UI.button("Same team again", Color(0, 0, 0, 0), UI.MUTED, 56, 24)
+	var same := UI.outline_button("Same team again", UI.TEXT, 72, 24)
 	same.pressed.connect(func():
 		Draft.shuffle_order()
 		Draft.new_draft(Draft.rounds, Draft.user_team)
@@ -514,6 +557,46 @@ func _section(text: String, top: int = 24) -> Label:
 	sb.content_margin_bottom = 4
 	l.add_theme_stylebox_override("normal", sb)
 	return l
+
+
+func _ordinal(n: int) -> String:
+	var suf := "th"
+	if n % 100 < 11 or n % 100 > 13:
+		suf = ["th", "st", "nd", "rd", "th", "th", "th", "th", "th", "th"][n % 10]
+	return "%d%s" % [n, suf]
+
+
+func _grade_color(g: float) -> Color:
+	if g >= 85.0:
+		return UI.GOOD
+	if g >= 72.0:
+		return UI.TEXT
+	return UI.MUTED
+
+
+## Một dòng giải thích vì sao ra điểm này.
+func _grade_reason() -> String:
+	var mine := Draft.team_picks(Draft.user_team)
+	var value := 0.0
+	var counts := {"Steal": 0, "Solid": 0, "Miss": 0, "Bust": 0}
+	for e in mine:
+		value += float(e.pick + 1 - e.player.rank)
+		counts[Draft.verdict(e.player)] += 1
+	value /= maxf(1.0, mine.size())
+	var spots := absi(int(round(value)))
+	var slot := "Drafted right on value" if spots == 0 else "Found value %d spot%s later than the board on average" % [spots, "" if spots == 1 else "s"] if value > 0 else "Reached %d spot%s early on average" % [spots, "" if spots == 1 else "s"]
+	var good: int = counts.Steal
+	var bad: int = counts.Miss + counts.Bust
+	var tail := ""
+	if good > 0 and bad > 0:
+		tail = "%d steal%s vs. %d miss%s" % [good, "" if good == 1 else "s", bad, "" if bad == 1 else "es"]
+	elif good > 0:
+		tail = "%d steal%s, no misses" % [good, "" if good == 1 else "s"]
+	elif bad > 0:
+		tail = "%d miss%s, no steals" % [bad, "" if bad == 1 else "es"]
+	else:
+		tail = "every pick held its grade"
+	return slot + ". " + tail.capitalize().substr(0, 1) + tail.substr(1) + "."
 
 
 func _tier_color(l: String) -> Color:
@@ -646,26 +729,26 @@ func _height(inches: int) -> String:
 	return "%d'%d\"" % [inches / 12, inches % 12]
 
 
-func _scout_report(p: Dictionary) -> String:
+## Trả về [điểm mạnh, điểm yếu, triển vọng].
+func _scout_report(p: Dictionary) -> Array:
 	var body: Array = Draft.POS_BODY[p.pos]
-	var parts: Array[String] = []
+	var notes: Array = POS_NOTES[p.pos]
+	var strength: String = notes[int(p.id) % notes.size()]
+	var concern := "No major red flags"
 	var fd: float = p.forty - float(body[2])
 	if fd <= -0.06:
-		parts.append("Elite speed for the position")
+		strength += ", elite speed"
 	elif fd >= 0.06:
-		parts.append("Lacks top-end speed")
+		concern = "Lacks top-end speed"
 	if p.ht - int(body[0]) >= 2:
-		parts.append("Prototypical length")
+		strength += ", prototypical length"
 	elif p.ht - int(body[0]) <= -2:
-		parts.append("Undersized frame")
-	var notes: Array = POS_NOTES[p.pos]
-	parts.append(notes[int(p.id) % notes.size()])
+		concern = "Undersized frame" if concern == "No major red flags" else concern + ", undersized"
+	var outlook := "Depth and special teams contributor"
 	if p.grade >= 80.0:
-		parts.append("Day\u00a01 starter with Pro\u00a0Bowl upside")
+		outlook = "Day\u00a01 starter with Pro\u00a0Bowl upside"
 	elif p.grade >= 70.0:
-		parts.append("Projects as a quality starter")
+		outlook = "Projects as a quality starter"
 	elif p.grade >= 62.0:
-		parts.append("Developmental prospect with traits")
-	else:
-		parts.append("Depth and special teams contributor")
-	return ". ".join(parts) + "."
+		outlook = "Developmental prospect with traits"
+	return [strength, concern, outlook]
