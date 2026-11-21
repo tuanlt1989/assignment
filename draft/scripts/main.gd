@@ -1,9 +1,15 @@
 extends Control
-## Màn hình: chọn đội -> phòng draft -> kết quả. Thiết kế tối giản, một màu nhấn.
+## Màn hình: chọn đội -> phòng draft -> kết quả (+ chia sẻ). UI dựng bằng code.
 
 const UI := preload("res://scripts/ui.gd")
 const PICK_DELAY := 0.45
 const PAD := 24
+const TICKER_LEN := 6
+const POS_COLORS := {
+	"QB": Color("f59e0b"), "RB": Color("22c55e"), "WR": Color("3b82f6"), "TE": Color("14b8a6"),
+	"OT": Color("a78bfa"), "IOL": Color("8b5cf6"), "EDGE": Color("ef4444"), "DL": Color("f97316"),
+	"LB": Color("eab308"), "CB": Color("06b6d4"), "S": Color("6366f1"),
+}
 const POS_NOTES := {
 	"QB": ["Accurate from a clean pocket", "Big arm who creates off script"],
 	"RB": ["Patient runner with burst", "Three-down back with reliable hands"],
@@ -17,20 +23,24 @@ const POS_NOTES := {
 	"CB": ["Sticky in man coverage", "Ball hawk in zone"],
 	"S": ["Rangy center fielder", "Box safety who tackles well"],
 }
+const VERDICT_COLORS := {
+	"Steal": Color("4ade80"), "Solid": Color("94a3b8"), "Miss": Color("fbbf24"), "Bust": Color("f87171"),
+}
 
 var screen: Control
 var state: String = ""
 var rounds_choice: int = 3
-var show_needs: bool = false
+var filter: String = "ALL"
 var fast: bool = false
 var _timer: float = 0.0
 
 var round_label: Label
-var picks_label: Label
 var clock_label: Label
 var last_label: Label
+var picks_label: Label
 var skip_btn: Button
-var tabs_box: Control
+var ticker: HBoxContainer
+var chips_box: HBoxContainer
 var list: VBoxContainer
 var sheet: Control
 
@@ -69,37 +79,32 @@ func _process(delta: float) -> void:
 		Draft.make_pick(Draft.ai_choose())
 
 
-# ---------- chọn đội ----------
+# ================= chọn đội =================
 
 func _show_team_select() -> void:
 	state = "select"
 	var vb := _page()
 	var hv := VBoxContainer.new()
-	hv.add_theme_constant_override("separation", 6)
+	hv.add_theme_constant_override("separation", 4)
 	vb.add_child(hv)
-	hv.add_child(UI.display("Mock Draft GM", 84, UI.TEXT))
-	var how := UI.label("Pick a team. Draft on your turn. Get graded.", 24, UI.MUTED, true)
-	how.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	hv.add_child(how)
+	hv.add_child(UI.display("Mock Draft GM", 84))
+	hv.add_child(UI.label("Pick a team. Draft on your turn. Get graded.", 24, UI.MUTED, true))
 	vb.add_child(_segmented(["1 round", "3 rounds", "7 rounds"], [1, 3, 7].find(rounds_choice), func(i: int):
 		rounds_choice = [1, 3, 7][i]
 		_show_team_select()))
-
+	var quick := UI.outline_button("Quick draft  ·  random team", UI.ACCENT, 80, 26)
+	quick.pressed.connect(func(): _confirm_team(randi() % Draft.TEAMS.size()))
+	vb.add_child(quick)
 	var sc := _scroll()
 	vb.add_child(sc)
 	var col := VBoxContainer.new()
 	col.size_flags_horizontal = SIZE_EXPAND_FILL
 	col.add_theme_constant_override("separation", 8)
 	sc.add_child(col)
-	var sh := HBoxContainer.new()
-	col.add_child(sh)
-	sh.add_child(_expand(_section("Teams · by first pick", 8)))
-	var rnd := UI.button("Random", Color(0, 0, 0, 0), UI.ACCENT, 48, 22)
-	rnd.pressed.connect(func(): _confirm_team(randi() % Draft.TEAMS.size()))
-	sh.add_child(rnd)
+	col.add_child(_section("Teams · by draft slot", 0))
 	for i in Draft.base_order:
 		var team: int = i
-		var b := _row_button(92)
+		var b := _row_button(96, Draft.team_color(team))
 		var row := _row_box(b)
 		row.add_child(_badge(team, 52))
 		var tv := VBoxContainer.new()
@@ -108,9 +113,7 @@ func _show_team_select() -> void:
 		row.add_child(_expand(tv))
 		tv.add_child(UI.label(Draft.team_name(team), 27))
 		tv.add_child(UI.label("Needs " + ", ".join(Draft.team_needs_preview(team)), 21, UI.MUTED, true))
-		var fp := UI.label("Picks %s" % _ordinal(Draft.first_pick_of(team)), 22, Color(UI.TEXT, 0.85))
-		fp.size_flags_vertical = SIZE_SHRINK_CENTER
-		row.add_child(fp)
+		row.add_child(UI.pill("#%d" % Draft.first_pick_of(team), UI.TEXT, 20))
 		b.add_theme_stylebox_override("pressed", UI.box(Color(Draft.team_color(team), 0.25)))
 		b.pressed.connect(func(): _confirm_team(team))
 		col.add_child(b)
@@ -118,73 +121,94 @@ func _show_team_select() -> void:
 
 func _confirm_team(team: int) -> void:
 	Draft.new_draft(rounds_choice, team)
-	var vb := _sheet()
-	var fp := Draft.next_user_pick() + 1
+	var vb := _sheet(Draft.team_color(team))
 	var hb := HBoxContainer.new()
 	hb.add_theme_constant_override("separation", 18)
 	vb.add_child(hb)
-	hb.add_child(_badge(team, 72))
+	hb.add_child(_badge(team, 84))
 	var hv := VBoxContainer.new()
-	hv.add_theme_constant_override("separation", 0)
+	hv.add_theme_constant_override("separation", -6)
 	hb.add_child(_expand(hv))
 	hv.add_child(UI.label(Draft.TEAMS[team][0], 23, UI.MUTED, true))
-	hv.add_child(UI.display(Draft.TEAMS[team][1], 60))
-	var nd: Array = Draft.needs[team]
+	hv.add_child(UI.display(Draft.TEAMS[team][1], 64))
 	vb.add_child(_stats([
-		[_ordinal(fp), "Picks first"],
+		["#%d" % (Draft.next_user_pick() + 1), "First pick"],
 		["%d" % rounds_choice, "Rounds"],
-		[", ".join(nd), "Team needs"],
+		[", ".join(Draft.needs[team]), "Team needs"],
 	]))
 	var go := UI.button("Start draft", UI.ACCENT, UI.BG, 96, 30)
 	go.pressed.connect(func():
 		_close_card()
-		show_needs = false
+		filter = "ALL"
 		fast = false
 		_timer = 0.0
 		_show_draft_room())
 	vb.add_child(go)
 
 
-# ---------- phòng draft ----------
+# ================= phòng draft =================
 
 func _show_draft_room() -> void:
 	state = "room"
 	var vb := _page()
-	var team_row := HBoxContainer.new()
-	team_row.add_theme_constant_override("separation", 12)
-	vb.add_child(team_row)
-	team_row.add_child(_badge(Draft.user_team, 40))
-	team_row.add_child(_expand(UI.label(Draft.team_name(Draft.user_team), 24)))
-	picks_label = UI.label("", 22, UI.MUTED, true)
-	picks_label.size_flags_vertical = SIZE_SHRINK_CENTER
-	team_row.add_child(picks_label)
-	var head := HBoxContainer.new()
+	vb.add_theme_constant_override("separation", 14)
+	# header có màu đội
+	var head := PanelContainer.new()
+	head.add_theme_stylebox_override("panel", UI.box(_tint(Draft.team_color(Draft.user_team), 0.16), 22, 18))
 	vb.add_child(head)
 	var hv := VBoxContainer.new()
 	hv.add_theme_constant_override("separation", 2)
-	head.add_child(_expand(hv))
+	head.add_child(hv)
+	var tr := HBoxContainer.new()
+	tr.add_theme_constant_override("separation", 12)
+	hv.add_child(tr)
+	tr.add_child(_badge(Draft.user_team, 40))
+	tr.add_child(_expand(UI.label(Draft.team_name(Draft.user_team), 24)))
+	picks_label = UI.label("", 22, UI.MUTED, true)
+	picks_label.size_flags_vertical = SIZE_SHRINK_CENTER
+	tr.add_child(picks_label)
+	var cr := HBoxContainer.new()
+	hv.add_child(cr)
+	var cv := VBoxContainer.new()
+	cv.add_theme_constant_override("separation", -4)
+	cr.add_child(_expand(cv))
 	round_label = UI.label("", 22, UI.MUTED, true)
-	hv.add_child(round_label)
+	cv.add_child(round_label)
 	clock_label = UI.display("", 58)
-	hv.add_child(clock_label)
+	cv.add_child(clock_label)
 	skip_btn = UI.button("Skip ›", Color(0, 0, 0, 0), UI.ACCENT, 64, 26)
 	skip_btn.size_flags_vertical = SIZE_SHRINK_CENTER
 	skip_btn.pressed.connect(func(): fast = true)
-	head.add_child(skip_btn)
+	cr.add_child(skip_btn)
+	# dải lượt chọn sắp tới
+	ticker = HBoxContainer.new()
+	ticker.add_theme_constant_override("separation", 8)
+	vb.add_child(ticker)
 	last_label = UI.label("", 22, UI.MUTED, true)
 	last_label.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 	vb.add_child(last_label)
-	tabs_box = VBoxContainer.new()
-	vb.add_child(tabs_box)
+	# chip lọc vị trí
+	var cs := ScrollContainer.new()
+	cs.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	cs.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_SHOW_NEVER
+	cs.custom_minimum_size = Vector2(0, 60)
+	vb.add_child(cs)
+	chips_box = HBoxContainer.new()
+	chips_box.add_theme_constant_override("separation", 8)
+	cs.add_child(chips_box)
+	# tiêu đề cột
 	var cm := MarginContainer.new()
 	cm.add_theme_constant_override("margin_left", 20)
 	cm.add_theme_constant_override("margin_right", 20)
-	cm.add_theme_constant_override("margin_bottom", -10)
 	vb.add_child(cm)
 	var cols := HBoxContainer.new()
+	cols.add_theme_constant_override("separation", 14)
 	cm.add_child(cols)
+	var h1 := _section("#", 0)
+	h1.custom_minimum_size = Vector2(44, 0)
+	cols.add_child(h1)
 	cols.add_child(_expand(_section("Player", 0)))
-	cols.add_child(_section("Grade", 0))
+	cols.add_child(_section("Scout grade", 0))
 	var sc := _scroll()
 	vb.add_child(sc)
 	list = VBoxContainer.new()
@@ -198,18 +222,18 @@ func _refresh_room() -> void:
 	if state != "room":
 		return
 	var p := Draft.current
+	picks_label.text = "Your picks %d/%d" % [Draft.team_picks(Draft.user_team).size(), Draft.rounds]
 	if not Draft.is_done():
-		round_label.text = "Pick %d  ·  Round %d" % [p % Draft.PICKS_PER_ROUND + 1, p / Draft.PICKS_PER_ROUND + 1]
+		round_label.text = "Pick %d  ·  Round %d" % [p + 1, p / Draft.PICKS_PER_ROUND + 1]
 		var nx := Draft.next_user_pick()
 		if not Draft.is_user_turn() and nx >= 0:
-			round_label.text += "   ·   Your next pick: #%d (%d away)" % [nx + 1, nx - p]
-	picks_label.text = "Your picks %d/%d" % [Draft.team_picks(Draft.user_team).size(), Draft.rounds]
+			round_label.text += "  ·  You pick in %d" % (nx - p)
 	if Draft.is_user_turn():
-		clock_label.text = "You're on the clock"
+		clock_label.text = "YOU'RE ON THE CLOCK"
 		clock_label.add_theme_color_override("font_color", UI.ACCENT)
 		skip_btn.visible = false
 	elif not Draft.is_done():
-		clock_label.text = "%s picking…" % Draft.TEAMS[Draft.team_on_clock()][1]
+		clock_label.text = "%s ON THE CLOCK" % Draft.TEAMS[Draft.team_on_clock()][1].to_upper()
 		clock_label.add_theme_color_override("font_color", UI.TEXT)
 		skip_btn.visible = Draft.next_user_pick() >= 0
 	if Draft.picks.is_empty():
@@ -217,41 +241,84 @@ func _refresh_room() -> void:
 	else:
 		var e: Dictionary = Draft.picks[-1]
 		last_label.text = "Last pick: %s took %s, %s" % [Draft.TEAMS[e.team][1], e.player.name, e.player.pos]
-
-	var nd: Array = Draft.needs[Draft.user_team]
-	for c in tabs_box.get_children():
-		c.queue_free()
-	var needs_txt := "Team needs" + ("" if nd.is_empty() else "  ·  %d" % nd.size())
-	tabs_box.add_child(_segmented(["All players", needs_txt], 1 if show_needs else 0, func(i: int):
-		show_needs = i == 1
-		_refresh_room()))
+	_refresh_ticker()
+	_refresh_chips()
 	_refresh_list()
+
+
+func _refresh_ticker() -> void:
+	for c in ticker.get_children():
+		c.queue_free()
+	for i in range(Draft.current, mini(Draft.current + TICKER_LEN, Draft.order.size())):
+		var t: int = Draft.order[i]
+		var mine := t == Draft.user_team
+		var pc := PanelContainer.new()
+		var sb := UI.box(Color(1, 1, 1, 0.08) if i == Draft.current else Color(1, 1, 1, 0.03), 14, 8)
+		if mine:
+			sb.set_border_width_all(2)
+			sb.border_color = UI.ACCENT
+		pc.add_theme_stylebox_override("panel", sb)
+		ticker.add_child(_expand(pc))
+		var v := VBoxContainer.new()
+		v.add_theme_constant_override("separation", 0)
+		pc.add_child(v)
+		var bd := _badge(t, 40)
+		bd.size_flags_horizontal = SIZE_SHRINK_CENTER
+		v.add_child(bd)
+		var l := UI.label("YOU" if mine else "#%d" % (i + 1), 18, UI.ACCENT if mine else UI.MUTED)
+		l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		v.add_child(l)
+
+
+func _refresh_chips() -> void:
+	for c in chips_box.get_children():
+		c.queue_free()
+	var nd: Array = Draft.needs[Draft.user_team]
+	var opts: Array = ["ALL", "NEEDS"] + Draft.POSITIONS
+	for o in opts:
+		var key: String = o
+		var on := key == filter
+		var txt := "All" if key == "ALL" else ("Needs · %d" % nd.size() if key == "NEEDS" else key)
+		var col: Color = POS_COLORS.get(key, UI.TEXT)
+		var b := UI.button(txt, col if on else Color(1, 1, 1, 0.06), UI.BG if on else UI.TEXT, 56, 22)
+		b.custom_minimum_size.x = 76
+		b.pressed.connect(func():
+			filter = key
+			_refresh_chips()
+			_refresh_list())
+		chips_box.add_child(b)
 
 
 func _refresh_list() -> void:
 	for c in list.get_children():
 		c.queue_free()
 	var nd: Array = Draft.needs[Draft.user_team]
-	var shown := 0
 	var pool: Array = Draft.available.duplicate()
 	pool.sort_custom(func(a, b): return a.grade > b.grade)
+	var shown := 0
 	for p in pool:
-		if show_needs and p.pos not in nd:
+		if filter == "NEEDS" and p.pos not in nd:
 			continue
-		list.add_child(_player_row(p, p.pos in nd))
+		if filter != "ALL" and filter != "NEEDS" and p.pos != filter:
+			continue
 		shown += 1
+		list.add_child(_player_row(p, shown, p.pos in nd))
 		if shown >= 40:
 			break
 	if shown == 0:
-		list.add_child(UI.label("No players left at your needs.", 24, UI.MUTED, true))
+		list.add_child(UI.label("No players left here.", 24, UI.MUTED, true))
 
 
-func _player_row(p: Dictionary, need: bool) -> Button:
-	var b := _row_button(84)
+func _player_row(p: Dictionary, idx: int, need: bool) -> Button:
+	var b := _row_button(88)
 	var row := _row_box(b)
+	var rk := UI.label("%d" % idx, 24, UI.MUTED, true)
+	rk.custom_minimum_size = Vector2(44, 0)
+	rk.size_flags_vertical = SIZE_SHRINK_CENTER
+	row.add_child(rk)
 	var info := VBoxContainer.new()
 	info.alignment = BoxContainer.ALIGNMENT_CENTER
-	info.add_theme_constant_override("separation", 0)
+	info.add_theme_constant_override("separation", 2)
 	info.mouse_filter = MOUSE_FILTER_IGNORE
 	row.add_child(_expand(info))
 	info.add_child(UI.label(p.name, 28))
@@ -259,7 +326,8 @@ func _player_row(p: Dictionary, need: bool) -> Button:
 	meta.add_theme_constant_override("separation", 10)
 	meta.mouse_filter = MOUSE_FILTER_IGNORE
 	info.add_child(meta)
-	meta.add_child(UI.label("%s  ·  %s" % [p.pos, p.college], 22, UI.MUTED, true))
+	meta.add_child(_pos_pill(p.pos, 17))
+	meta.add_child(UI.label(p.college, 21, UI.MUTED, true))
 	if need:
 		meta.add_child(UI.pill("NEED", UI.ACCENT, 16))
 	var g := UI.label("%.1f" % p.grade, 32)
@@ -272,21 +340,28 @@ func _player_row(p: Dictionary, need: bool) -> Button:
 func _open_card(p: Dictionary) -> void:
 	var vb := _sheet()
 	var hv := VBoxContainer.new()
-	hv.add_theme_constant_override("separation", 2)
+	hv.add_theme_constant_override("separation", 0)
 	vb.add_child(hv)
 	var nh := HBoxContainer.new()
-	nh.add_theme_constant_override("separation", 14)
+	nh.add_theme_constant_override("separation", 12)
 	hv.add_child(nh)
 	nh.add_child(UI.display(p.name, 58))
+	nh.add_child(_pos_pill(p.pos, 20))
 	if p.pos in Draft.needs[Draft.user_team]:
-		nh.add_child(UI.pill("NEED", UI.ACCENT, 18))
-	hv.add_child(UI.label("%s  ·  %s  ·  Age %d  ·  %s" % [p.pos, p.college, p.age, "Best available" if _board_rank(p) == 1 else "%s best available" % _ordinal(_board_rank(p))], 23, UI.MUTED, true))
-	vb.add_child(_stats([["%.1f" % p.grade, "Grade"], [_height(p.ht), "Height"], ["%d lb" % p.wt, "Weight"], ["%.2f" % p.forty, "40 yd"]]))
+		nh.add_child(UI.pill("FILLS NEED", UI.ACCENT, 18))
+	hv.add_child(UI.label("%s  ·  Age %d  ·  #%d %s in class" % [p.college, p.age, Draft.pos_rank(p), p.pos], 23, UI.MUTED, true))
+	vb.add_child(_stats([["%.1f" % p.grade, "Scout grade"], [_height(p.ht), "Height"], ["%d lb" % p.wt, "Weight"], ["%.2f" % p.forty, "40 yd"]]))
+	# thanh kỹ năng
+	var bars := VBoxContainer.new()
+	bars.add_theme_constant_override("separation", 10)
+	vb.add_child(bars)
+	for tr in Draft.traits(p):
+		bars.add_child(_trait_bar(tr[0], tr[1], POS_COLORS[p.pos]))
 	var rep := _scout_report(p)
 	var sg := GridContainer.new()
 	sg.columns = 2
 	sg.add_theme_constant_override("h_separation", 16)
-	sg.add_theme_constant_override("v_separation", 8)
+	sg.add_theme_constant_override("v_separation", 6)
 	vb.add_child(sg)
 	for kv in [["STRENGTH", rep[0]], ["CONCERN", rep[1]], ["OUTLOOK", rep[2]]]:
 		var k := UI.label(kv[0], 17, UI.MUTED)
@@ -296,77 +371,45 @@ func _open_card(p: Dictionary) -> void:
 		v.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 		v.size_flags_horizontal = SIZE_EXPAND_FILL
 		sg.add_child(v)
+	var bh := HBoxContainer.new()
+	bh.add_theme_constant_override("separation", 12)
+	vb.add_child(bh)
+	var back := UI.button("Back", Color(1, 1, 1, 0.08), UI.TEXT, 96, 28)
+	back.size_flags_horizontal = SIZE_EXPAND_FILL
+	back.size_flags_stretch_ratio = 0.45
+	back.pressed.connect(_close_card)
+	bh.add_child(back)
 	var can := Draft.is_user_turn()
-	var draft_btn := UI.button("Draft %s" % p.name if can else "Not your pick yet", UI.ACCENT, UI.BG, 96, 30)
+	var draft_btn := UI.button("Draft %s" % p.name.get_slice(" ", 1) if can else "Not your pick yet", UI.ACCENT, UI.BG, 96, 30)
 	draft_btn.disabled = not can
+	draft_btn.size_flags_horizontal = SIZE_EXPAND_FILL
 	draft_btn.pressed.connect(func():
 		_close_card()
 		Draft.make_pick(p)
 		_toast("You drafted %s" % p.name))
-	var bh := HBoxContainer.new()
-	bh.add_theme_constant_override("separation", 12)
-	vb.add_child(bh)
-	var back := UI.button("Back", Color(0, 0, 0, 0), UI.MUTED, 96, 26)
-	back.custom_minimum_size.x = 120
-	back.pressed.connect(_close_card)
-	bh.add_child(back)
-	draft_btn.size_flags_horizontal = SIZE_EXPAND_FILL
 	bh.add_child(draft_btn)
 
 
-## Bottom sheet chung: nền mờ 70%, tay kéo, chạm ngoài để đóng.
-func _sheet() -> VBoxContainer:
-	_close_card()
-	var dim := ColorRect.new()
-	dim.color = Color(0, 0, 0, 0.7)
-	dim.set_anchors_preset(PRESET_FULL_RECT)
-	dim.gui_input.connect(func(ev: InputEvent):
-		if ev is InputEventMouseButton and ev.pressed:
-			_close_card())
-	dim.z_index = 5
-	add_child(dim)
-	sheet = dim
-	var panel := PanelContainer.new()
-	panel.set_anchors_preset(PRESET_BOTTOM_WIDE)
-	panel.grow_vertical = Control.GROW_DIRECTION_BEGIN
-	var pb := UI.box(UI.CARD, 28, 28)
-	pb.corner_radius_bottom_left = 0
-	pb.corner_radius_bottom_right = 0
-	pb.content_margin_top = 16
-	pb.content_margin_bottom = 36
-	panel.add_theme_stylebox_override("panel", pb)
-	dim.add_child(panel)
-	var vb := VBoxContainer.new()
-	vb.add_theme_constant_override("separation", 20)
-	panel.add_child(vb)
-	var handle := Panel.new()
-	handle.custom_minimum_size = Vector2(56, 6)
-	handle.size_flags_horizontal = SIZE_SHRINK_CENTER
-	handle.add_theme_stylebox_override("panel", UI.box(Color(1, 1, 1, 0.2), 3, 0))
-	vb.add_child(handle)
-	dim.modulate.a = 0.0
-	dim.create_tween().tween_property(dim, "modulate:a", 1.0, 0.15)
-	return vb
-
-
-func _stats(items: Array) -> HBoxContainer:
-	var grid := HBoxContainer.new()
-	grid.add_theme_constant_override("separation", 12)
-	for kv in items:
-		var cell := VBoxContainer.new()
-		cell.add_theme_constant_override("separation", 0)
-		grid.add_child(_expand(cell))
-		var v := UI.label(kv[0], 30)
-		v.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-		cell.add_child(v)
-		cell.add_child(UI.label(kv[1], 20, UI.MUTED, true))
-	return grid
-
-
-func _close_card() -> void:
-	if is_instance_valid(sheet):
-		sheet.queue_free()
-	sheet = null
+func _trait_bar(trait_name: String, val: int, col: Color) -> HBoxContainer:
+	var h := HBoxContainer.new()
+	h.add_theme_constant_override("separation", 14)
+	var l := UI.label(trait_name, 21, UI.MUTED, true)
+	l.custom_minimum_size = Vector2(150, 0)
+	h.add_child(l)
+	var bar := Control.new()
+	bar.custom_minimum_size = Vector2(0, 12)
+	bar.size_flags_horizontal = SIZE_EXPAND_FILL
+	bar.size_flags_vertical = SIZE_SHRINK_CENTER
+	var frac := float(val) / 99.0
+	bar.draw.connect(func():
+		bar.draw_rect(Rect2(Vector2.ZERO, bar.size), Color(1, 1, 1, 0.08))
+		bar.draw_rect(Rect2(Vector2.ZERO, Vector2(bar.size.x * frac, bar.size.y)), col))
+	h.add_child(bar)
+	var v := UI.label("%d" % val, 22)
+	v.custom_minimum_size = Vector2(40, 0)
+	v.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
+	h.add_child(v)
+	return h
 
 
 func _on_pick_made(_pick: int, team: int, player: Dictionary) -> void:
@@ -390,107 +433,70 @@ func _on_clock_fx() -> void:
 	Input.vibrate_handheld(40)
 
 
-# ---------- kết quả ----------
+# ================= kết quả =================
 
 func _show_results() -> void:
 	state = "results"
 	_close_card()
 	var g := Draft.team_grade(Draft.user_team)
-	var vb := _page()
-	var gh := HBoxContainer.new()
-	gh.add_theme_constant_override("separation", 24)
-	vb.add_child(gh)
 	var lt: String = g.letter
-	var letter := UI.display(lt, 200, _tier_color(lt))
+	var vb := _page()
+	vb.add_theme_constant_override("separation", 14)
+	var mine := Draft.team_picks(Draft.user_team)
+	# hero: nền pha màu đội
+	var hero := PanelContainer.new()
+	hero.add_theme_stylebox_override("panel", UI.box(_tint(Draft.team_color(Draft.user_team), 0.18), 28, 22))
+	vb.add_child(hero)
+	var gh := HBoxContainer.new()
+	gh.add_theme_constant_override("separation", 22)
+	hero.add_child(gh)
+	var letter := UI.display(lt, 190, _tier_color(lt))
 	gh.add_child(letter)
 	var gv := VBoxContainer.new()
-	gv.alignment = BoxContainer.ALIGNMENT_BEGIN
+	gv.alignment = BoxContainer.ALIGNMENT_CENTER
 	gv.add_theme_constant_override("separation", 2)
-	var gtop := Control.new()
-	gtop.custom_minimum_size = Vector2(0, 30)
-	gv.add_child(gtop)
-	gh.add_child(gv)
-	gv.add_child(UI.label(Draft.team_name(Draft.user_team), 30))
-	gv.add_child(UI.label("Ranked #%d of 32 classes" % _league_rank(Draft.user_team), 23, UI.MUTED, true))
+	gh.add_child(_expand(gv))
+	gv.add_child(UI.display(Draft.TEAMS[Draft.user_team][1], 48))
+	gv.add_child(UI.label("Class ranked #%d of 32" % _league_rank(Draft.user_team), 23, UI.MUTED, true))
 	var why := UI.label(_grade_reason(), 23, UI.TEXT, true)
 	why.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	why.custom_minimum_size = Vector2(440, 0)
 	gv.add_child(why)
-	# "đóng dấu": rơi từ to xuống, rung nhẹ
-	letter.pivot_offset = Vector2(40, 80)
-	letter.scale = Vector2(2.2, 2.2)
-	letter.modulate.a = 0.0
-	var st := letter.create_tween().set_parallel()
-	st.tween_property(letter, "modulate:a", 1.0, 0.18)
-	st.tween_property(letter, "scale", Vector2.ONE, 0.28).set_trans(Tween.TRANS_QUART).set_ease(Tween.EASE_IN)
-	st.chain().tween_callback(func(): Input.vibrate_handheld(35))
-	st.chain().tween_property(letter, "scale", Vector2(1.06, 1.06), 0.06)
-	st.chain().tween_property(letter, "scale", Vector2.ONE, 0.1)
+	_stamp(letter)
 
-	var mine := Draft.team_picks(Draft.user_team)
 	var sc := _scroll()
 	vb.add_child(sc)
 	var lv := VBoxContainer.new()
 	lv.size_flags_horizontal = SIZE_EXPAND_FILL
 	lv.add_theme_constant_override("separation", 8)
 	sc.add_child(lv)
-	var best: Dictionary = mine[0]
-	for e in mine:
-		if Draft.true_rating(e.player) - e.player.grade >= Draft.true_rating(best.player) - best.player.grade:
-			best = e
-	var bp: Dictionary = best.player
-	var worst: Dictionary = mine[0]
-	for e in mine:
-		if Draft.true_rating(e.player) - e.player.grade < Draft.true_rating(worst.player) - worst.player.grade:
-			worst = e
-	var wp: Dictionary = worst.player
-	lv.add_child(_section("Your class · true ratings", 8))
+	lv.add_child(_section("Your class", 4))
+	var note := UI.label("Scout grade = pre-draft board. True rating = revealed. Solid = within 3 points.", 19, UI.MUTED, true)
+	note.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	lv.add_child(note)
 	var delay := 0.5
 	for e in mine:
-		var pl: Dictionary = e.player
-		var tr := Draft.true_rating(pl)
-		var vd := Draft.verdict(pl)
-		var vcol: Color = {"Steal": UI.GOOD, "Solid": UI.MUTED, "Miss": UI.WARN, "Bust": UI.BAD}[vd]
-		var card := PanelContainer.new()
-		var csb := UI.box(UI.CARD, 16, 16)
-		if vd == "Steal" or vd == "Bust":
-			csb.border_width_left = 6
-			csb.border_color = vcol
-		card.add_theme_stylebox_override("panel", csb)
-		lv.add_child(card)
-		var row := HBoxContainer.new()
-		row.add_theme_constant_override("separation", 16)
-		card.add_child(row)
-		var info := VBoxContainer.new()
-		info.add_theme_constant_override("separation", 0)
-		row.add_child(_expand(info))
-		info.add_child(UI.label(pl.name, 27))
-		var ml := UI.label("", 21, UI.MUTED, true)
-		info.add_child(ml)
-		var base_txt := "Pick %d  ·  %s  ·  True rating " % [e.pick + 1, pl.pos]
-		ml.text = base_txt + "…"
-		var roll := ml.create_tween()
-		roll.tween_interval(delay)
-		roll.tween_method(func(v: float): ml.text = base_txt + "%.1f" % v, pl.grade, tr, 0.6).set_ease(Tween.EASE_OUT)
-		var vv := VBoxContainer.new()
-		vv.alignment = BoxContainer.ALIGNMENT_CENTER
-		vv.add_theme_constant_override("separation", 4)
-		row.add_child(vv)
-		var pill := UI.pill(vd, vcol, 18)
-		pill.size_flags_horizontal = SIZE_SHRINK_END
-		vv.add_child(pill)
-		var dl := UI.label("%+.1f" % (tr - pl.grade), 20, vcol, true)
-		dl.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
-		vv.add_child(dl)
-		# lộ diện lần lượt
-		card.modulate.a = 0.0
-		var tw := card.create_tween()
-		tw.tween_interval(delay)
-		tw.tween_property(card, "modulate:a", 1.0, 0.25)
-		if vd == "Steal":
-			tw.tween_callback(func(): Input.vibrate_handheld(30))
+		lv.add_child(_class_row(e, delay))
 		delay += 0.08
-	lv.add_child(_section("League leaderboard", 32))
+	# mồi Pro (chưa mở bán)
+	var pro := PanelContainer.new()
+	var psb := UI.box(Color(1, 1, 1, 0.05), 20, 18)
+	psb.set_border_width_all(1)
+	psb.border_color = Color(UI.ACCENT, 0.4)
+	pro.add_theme_stylebox_override("panel", psb)
+	lv.add_child(pro)
+	var ph := HBoxContainer.new()
+	ph.add_theme_constant_override("separation", 14)
+	pro.add_child(ph)
+	ph.add_child(UI.pill("PRO", UI.ACCENT, 18, false, true))
+	var pt := UI.label("See every team's full class and the picks that would have earned you an A.", 21, UI.TEXT, true)
+	pt.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	ph.add_child(_expand(pt))
+	var unlock := UI.button("Unlock", Color(UI.ACCENT, 0.15), UI.ACCENT, 56, 22)
+	unlock.custom_minimum_size.x = 120
+	unlock.size_flags_vertical = SIZE_SHRINK_CENTER
+	unlock.pressed.connect(func(): _toast("Pro is coming soon"))
+	ph.add_child(unlock)
+	lv.add_child(_section("League leaderboard", 20))
 	var ranked := _ranked_teams()
 	var show: Array = ranked.slice(0, 3)
 	if Draft.user_team not in show:
@@ -502,7 +508,7 @@ func _show_results() -> void:
 			dots.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 			lv.add_child(dots)
 		var tc := PanelContainer.new()
-		var tsb := UI.box(UI.CARD, 14, 16)
+		var tsb := UI.box(UI.CARD, 14, 14)
 		if mine_row:
 			tsb.set_border_width_all(2)
 			tsb.border_color = Draft.team_color(t)
@@ -516,99 +522,147 @@ func _show_results() -> void:
 		th.add_child(_expand(UI.label(("You · " + Draft.TEAMS[t][1]) if mine_row else Draft.team_name(t), 23)))
 		var tl: String = Draft.team_grade(t).letter
 		th.add_child(UI.label(tl, 26, _tier_color(tl)))
-	var same := UI.outline_button("Same team again", UI.TEXT, 72, 24)
+	# hành động
+	var share := UI.button("Share grade", UI.ACCENT, UI.BG, 96, 30)
+	share.pressed.connect(_open_share)
+	vb.add_child(share)
+	var bh := HBoxContainer.new()
+	bh.add_theme_constant_override("separation", 12)
+	vb.add_child(bh)
+	var same := UI.outline_button("Same team", UI.TEXT, 72, 24)
+	same.size_flags_horizontal = SIZE_EXPAND_FILL
 	same.pressed.connect(func():
 		Draft.shuffle_order()
 		Draft.new_draft(Draft.rounds, Draft.user_team)
-		show_needs = false
+		filter = "ALL"
 		fast = false
 		_timer = 0.0
 		_show_draft_room())
-	vb.add_child(same)
-	var again := UI.button("New draft", UI.ACCENT, UI.BG, 96, 30)
+	bh.add_child(same)
+	var again := UI.outline_button("New draft", UI.TEXT, 72, 24)
+	again.size_flags_horizontal = SIZE_EXPAND_FILL
 	again.pressed.connect(func():
 		Draft.shuffle_order()
 		_show_team_select())
-	vb.add_child(again)
+	bh.add_child(again)
 
 
-## Tiêu đề mục: chữ hoa, cách trên 24px / dưới 12px (trừ separation của VBox).
-func _section(text: String, top: int = 24) -> Label:
-	var l := UI.label(text.to_upper(), 18, UI.MUTED)
-	var sb := StyleBoxEmpty.new()
-	sb.content_margin_top = maxi(0, top - 8)
-	sb.content_margin_bottom = 4
-	l.add_theme_stylebox_override("normal", sb)
-	return l
+func _class_row(e: Dictionary, delay: float) -> PanelContainer:
+	var pl: Dictionary = e.player
+	var tr := Draft.true_rating(pl)
+	var vd := Draft.verdict(pl)
+	var vcol: Color = VERDICT_COLORS[vd]
+	var card := PanelContainer.new()
+	var csb := UI.box(UI.CARD, 16, 16)
+	if vd == "Steal" or vd == "Bust":
+		csb.border_width_left = 6
+		csb.border_color = vcol
+	card.add_theme_stylebox_override("panel", csb)
+	var row := HBoxContainer.new()
+	row.add_theme_constant_override("separation", 14)
+	card.add_child(row)
+	var info := VBoxContainer.new()
+	info.add_theme_constant_override("separation", 2)
+	row.add_child(_expand(info))
+	var nr := HBoxContainer.new()
+	nr.add_theme_constant_override("separation", 10)
+	info.add_child(nr)
+	nr.add_child(UI.label(pl.name, 26))
+	nr.add_child(_pos_pill(pl.pos, 16))
+	var ml := UI.label("", 21, UI.MUTED, true)
+	info.add_child(ml)
+	var base_txt := "Pick %d  ·  Scout %.1f → True " % [e.pick + 1, pl.grade]
+	ml.text = base_txt + "…"
+	var vv := VBoxContainer.new()
+	vv.alignment = BoxContainer.ALIGNMENT_CENTER
+	vv.add_theme_constant_override("separation", 4)
+	row.add_child(vv)
+	var pill := UI.pill(vd.to_upper(), vcol, 17, false, true)
+	pill.size_flags_horizontal = SIZE_SHRINK_END
+	vv.add_child(pill)
+	var dl := UI.label("%+.1f" % (tr - pl.grade), 20, vcol, true)
+	dl.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
+	vv.add_child(dl)
+	# lộ diện lần lượt + số chạy
+	card.modulate.a = 0.0
+	var tw := card.create_tween()
+	tw.tween_interval(delay)
+	tw.tween_property(card, "modulate:a", 1.0, 0.25)
+	tw.tween_method(func(v: float): ml.text = base_txt + "%.1f" % v, pl.grade, tr, 0.6).set_ease(Tween.EASE_OUT)
+	if vd == "Steal":
+		tw.tween_callback(func(): Input.vibrate_handheld(30))
+	return card
 
 
-func _ordinal(n: int) -> String:
-	var suf := "th"
-	if n % 100 < 11 or n % 100 > 13:
-		suf = ["th", "st", "nd", "rd", "th", "th", "th", "th", "th", "th"][n % 10]
-	return "%d%s" % [n, suf]
+func _stamp(letter: Label) -> void:
+	letter.pivot_offset = Vector2(50, 100)
+	letter.scale = Vector2(2.2, 2.2)
+	letter.modulate.a = 0.0
+	var st := letter.create_tween().set_parallel()
+	st.tween_property(letter, "modulate:a", 1.0, 0.18)
+	st.tween_property(letter, "scale", Vector2.ONE, 0.28).set_trans(Tween.TRANS_QUART).set_ease(Tween.EASE_IN)
+	st.chain().tween_callback(func(): Input.vibrate_handheld(35))
+	st.chain().tween_property(letter, "scale", Vector2(1.06, 1.06), 0.06)
+	st.chain().tween_property(letter, "scale", Vector2.ONE, 0.1)
 
 
-func _grade_color(g: float) -> Color:
-	if g >= 85.0:
-		return UI.GOOD
-	if g >= 72.0:
-		return UI.TEXT
-	return UI.MUTED
+# ================= chia sẻ =================
+
+func _share_text() -> String:
+	var g := Draft.team_grade(Draft.user_team)
+	var lines: Array[String] = []
+	lines.append("I drafted for the %s and got a %s (class #%d of 32) in Mock Draft GM." % [
+		Draft.team_name(Draft.user_team), g.letter, _league_rank(Draft.user_team)])
+	for e in Draft.team_picks(Draft.user_team):
+		lines.append("#%d %s, %s — %s" % [e.pick + 1, e.player.name, e.player.pos, Draft.verdict(e.player)])
+	return "\n".join(lines)
 
 
-## Một dòng giải thích vì sao ra điểm này.
-func _grade_reason() -> String:
-	var mine := Draft.team_picks(Draft.user_team)
-	var value := 0.0
-	var counts := {"Steal": 0, "Solid": 0, "Miss": 0, "Bust": 0}
-	for e in mine:
-		value += float(e.pick + 1 - e.player.rank)
-		counts[Draft.verdict(e.player)] += 1
-	value /= maxf(1.0, mine.size())
-	var good: int = counts.Steal
-	var bad: int = counts.Miss + counts.Bust
-	var head := "You beat the board" if value >= 2.0 else ("You reached" if value <= -2.0 else "Right on value")
-	var bits: Array[String] = []
-	var solid: int = counts.Solid
-	if good > 0:
-		bits.append("%d steal%s" % [good, "" if good == 1 else "s"])
-	if bad > 0:
-		bits.append("%d miss%s" % [bad, "" if bad == 1 else "es"])
-	if solid > 0:
-		bits.append("%d solid" % solid)
-	return "%s. %s." % [head, ", ".join(bits).capitalize().substr(0, 1) + ", ".join(bits).substr(1)]
+func _open_share() -> void:
+	var vb := _sheet()
+	vb.add_child(UI.display("Share your grade", 52))
+	# thẻ xem trước
+	var card := PanelContainer.new()
+	var col := Draft.team_color(Draft.user_team)
+	card.add_theme_stylebox_override("panel", UI.box(_tint(col, 0.3), 24, 28))
+	vb.add_child(card)
+	var cv := VBoxContainer.new()
+	cv.add_theme_constant_override("separation", 6)
+	card.add_child(cv)
+	cv.add_child(UI.display("Mock Draft GM", 30, UI.MUTED))
+	var gr := HBoxContainer.new()
+	gr.add_theme_constant_override("separation", 20)
+	cv.add_child(gr)
+	gr.add_child(_badge(Draft.user_team, 96))
+	var lt: String = Draft.team_grade(Draft.user_team).letter
+	gr.add_child(UI.display(lt, 150, _tier_color(lt)))
+	cv.add_child(UI.display(Draft.team_name(Draft.user_team), 44))
+	cv.add_child(UI.label("Class ranked #%d of 32" % _league_rank(Draft.user_team), 22, UI.MUTED, true))
+	for e in Draft.team_picks(Draft.user_team).slice(0, 4):
+		var r := HBoxContainer.new()
+		r.add_theme_constant_override("separation", 10)
+		cv.add_child(r)
+		r.add_child(UI.label("#%d" % (e.pick + 1), 21, UI.MUTED, true))
+		r.add_child(_expand(UI.label(e.player.name, 23)))
+		var vd := Draft.verdict(e.player)
+		r.add_child(UI.pill(vd.to_upper(), VERDICT_COLORS[vd], 16, false, true))
+	var bh := HBoxContainer.new()
+	bh.add_theme_constant_override("separation", 12)
+	vb.add_child(bh)
+	var copy := UI.button("Copy", Color(1, 1, 1, 0.08), UI.TEXT, 88, 26)
+	copy.size_flags_horizontal = SIZE_EXPAND_FILL
+	copy.size_flags_stretch_ratio = 0.5
+	copy.pressed.connect(func():
+		DisplayServer.clipboard_set(_share_text())
+		_toast("Copied to clipboard"))
+	bh.add_child(copy)
+	var post := UI.button("Post on X", UI.ACCENT, UI.BG, 88, 28)
+	post.size_flags_horizontal = SIZE_EXPAND_FILL
+	post.pressed.connect(func(): OS.shell_open("https://x.com/intent/post?text=" + _share_text().uri_encode()))
+	bh.add_child(post)
 
 
-func _tier_color(l: String) -> Color:
-	if l.begins_with("A"):
-		return UI.GOOD
-	if l.begins_with("B"):
-		return UI.TEXT
-	if l.begins_with("C"):
-		return Color("c9b48a")
-	return UI.BAD
-
-
-func _ranked_teams() -> Array:
-	var ts: Array = range(Draft.TEAMS.size())
-	ts.sort_custom(func(a, b): return Draft.team_grade(a).score > Draft.team_grade(b).score)
-	return ts
-
-
-func _league_rank(t: int) -> int:
-	return _ranked_teams().find(t) + 1
-
-
-func _board_rank(p: Dictionary) -> int:
-	var n := 1
-	for q in Draft.available:
-		if q.grade > p.grade:
-			n += 1
-	return n
-
-
-# ---------- tiện ích ----------
+# ================= tiện ích =================
 
 func _page() -> VBoxContainer:
 	if is_instance_valid(screen):
@@ -617,14 +671,72 @@ func _page() -> VBoxContainer:
 	m.set_anchors_preset(PRESET_FULL_RECT)
 	m.add_theme_constant_override("margin_left", PAD)
 	m.add_theme_constant_override("margin_right", PAD)
-	m.add_theme_constant_override("margin_top", 36)
+	m.add_theme_constant_override("margin_top", 32)
 	m.add_theme_constant_override("margin_bottom", 28)
 	add_child(m)
 	screen = m
 	var vb := VBoxContainer.new()
-	vb.add_theme_constant_override("separation", 20)
+	vb.add_theme_constant_override("separation", 18)
 	m.add_child(vb)
 	return vb
+
+
+## Bottom sheet chung: nền mờ 70%, tay kéo, chạm ngoài để đóng. tint = viền màu đội phía trên.
+func _sheet(tint: Color = Color(0, 0, 0, 0)) -> VBoxContainer:
+	_close_card()
+	var dim := ColorRect.new()
+	dim.color = Color(0, 0, 0, 0.7)
+	dim.set_anchors_preset(PRESET_FULL_RECT)
+	dim.gui_input.connect(func(ev: InputEvent):
+		if ev is InputEventMouseButton and ev.pressed:
+			_close_card())
+	dim.z_index = 5
+	add_child(dim)
+	sheet = dim
+	var panel := PanelContainer.new()
+	panel.set_anchors_preset(PRESET_BOTTOM_WIDE)
+	panel.grow_vertical = Control.GROW_DIRECTION_BEGIN
+	var pb := UI.box(UI.CARD if tint.a == 0 else _tint(tint, 0.2), 32, 28)
+	pb.corner_radius_bottom_left = 0
+	pb.corner_radius_bottom_right = 0
+	pb.content_margin_top = 16
+	pb.content_margin_bottom = 36
+	if tint.a > 0:
+		pb.border_width_top = 4
+		pb.border_color = tint
+	panel.add_theme_stylebox_override("panel", pb)
+	dim.add_child(panel)
+	var vb := VBoxContainer.new()
+	vb.add_theme_constant_override("separation", 20)
+	panel.add_child(vb)
+	var handle := Panel.new()
+	handle.custom_minimum_size = Vector2(56, 6)
+	handle.size_flags_horizontal = SIZE_SHRINK_CENTER
+	handle.add_theme_stylebox_override("panel", UI.box(Color(1, 1, 1, 0.2), 3, 0))
+	vb.add_child(handle)
+	dim.modulate.a = 0.0
+	dim.create_tween().tween_property(dim, "modulate:a", 1.0, 0.15)
+	return vb
+
+
+func _close_card() -> void:
+	if is_instance_valid(sheet):
+		sheet.queue_free()
+	sheet = null
+
+
+func _stats(items: Array) -> HBoxContainer:
+	var grid := HBoxContainer.new()
+	grid.add_theme_constant_override("separation", 12)
+	for kv in items:
+		var cell := VBoxContainer.new()
+		cell.add_theme_constant_override("separation", 0)
+		grid.add_child(_expand(cell))
+		var v := UI.label(kv[0], 30)
+		v.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		cell.add_child(v)
+		cell.add_child(UI.label(kv[1], 20, UI.MUTED, true))
+	return grid
 
 
 func _segmented(options: Array, selected: int, on_select: Callable) -> PanelContainer:
@@ -644,12 +756,17 @@ func _segmented(options: Array, selected: int, on_select: Callable) -> PanelCont
 	return pc
 
 
-func _row_button(h: float) -> Button:
+func _row_button(h: float, edge: Color = Color(0, 0, 0, 0)) -> Button:
 	var b := Button.new()
 	b.custom_minimum_size = Vector2(0, h)
 	b.focus_mode = FOCUS_NONE
 	b.size_flags_horizontal = SIZE_EXPAND_FILL
 	UI.style(b, UI.CARD, UI.TEXT)
+	if edge.a > 0:
+		var sb: StyleBoxFlat = b.get_theme_stylebox("normal").duplicate()
+		sb.border_width_left = 5
+		sb.border_color = edge
+		b.add_theme_stylebox_override("normal", sb)
 	return b
 
 
@@ -658,7 +775,7 @@ func _row_box(b: Button) -> HBoxContainer:
 	row.set_anchors_preset(PRESET_FULL_RECT)
 	row.offset_left = 20
 	row.offset_right = -20
-	row.add_theme_constant_override("separation", 16)
+	row.add_theme_constant_override("separation", 14)
 	row.mouse_filter = MOUSE_FILTER_IGNORE
 	b.add_child(row)
 	return row
@@ -699,6 +816,20 @@ func _scroll() -> ScrollContainer:
 	return sc
 
 
+## Tiêu đề mục: chữ hoa, cách trên `top` px.
+func _section(text: String, top: int = 24) -> Label:
+	var l := UI.label(text.to_upper(), 18, UI.MUTED)
+	var sb := StyleBoxEmpty.new()
+	sb.content_margin_top = maxi(0, top - 8)
+	sb.content_margin_bottom = 4
+	l.add_theme_stylebox_override("normal", sb)
+	return l
+
+
+func _pos_pill(pos: String, fs: int) -> PanelContainer:
+	return UI.pill(pos, POS_COLORS.get(pos, UI.TEXT), fs)
+
+
 ## Logo đội dạng khiên: màu đội, dải sáng phía trên, chữ viết tắt font thể thao.
 func _badge(t: int, d: float) -> Control:
 	var c := Control.new()
@@ -713,10 +844,7 @@ func _badge(t: int, d: float) -> Control:
 		var pts := PackedVector2Array([
 			Vector2(x0, d * 0.06), Vector2(x0 + w, d * 0.06), Vector2(x0 + w, d * 0.55),
 			Vector2(d / 2.0, d * 0.97), Vector2(x0, d * 0.55)])
-		var outer := PackedVector2Array()
-		for p in pts:
-			outer.append(Vector2(d / 2.0, d / 2.0) + (p - Vector2(d / 2.0, d / 2.0)) * 1.0)
-		c.draw_colored_polygon(outer, col.darkened(0.45))
+		c.draw_colored_polygon(pts, col.darkened(0.45))
 		var inner := PackedVector2Array()
 		for p in pts:
 			inner.append(Vector2(d / 2.0, d * 0.48) + (p - Vector2(d / 2.0, d * 0.48)) * 0.86)
@@ -741,8 +869,53 @@ func _toast(msg: String) -> void:
 	tw.tween_callback(l.queue_free)
 
 
+func _tint(c: Color, amount: float) -> Color:
+	return UI.CARD.lerp(c, amount)
+
+
 func _height(inches: int) -> String:
 	return "%d'%d\"" % [inches / 12, inches % 12]
+
+
+## Một dòng giải thích vì sao ra điểm này.
+func _grade_reason() -> String:
+	var mine := Draft.team_picks(Draft.user_team)
+	var value := 0.0
+	var counts := {"Steal": 0, "Solid": 0, "Miss": 0, "Bust": 0}
+	for e in mine:
+		value += float(e.pick + 1 - e.player.rank)
+		counts[Draft.verdict(e.player)] += 1
+	value /= maxf(1.0, mine.size())
+	var head := "Beat the board" if value >= 2.0 else ("Reached early" if value <= -2.0 else "Drafted on value")
+	var bits: Array[String] = []
+	for k in ["Steal", "Solid", "Miss", "Bust"]:
+		var n: int = counts[k]
+		if n > 0:
+			var word: String = k.to_lower()
+			if n > 1 and k != "Solid":
+				word += "es" if k == "Miss" else "s"
+			bits.append("%d %s" % [n, word])
+	return "%s · %s" % [head, ", ".join(bits)]
+
+
+func _tier_color(l: String) -> Color:
+	if l.begins_with("A"):
+		return UI.GOOD
+	if l.begins_with("B"):
+		return Color("7dd3fc")
+	if l.begins_with("C"):
+		return UI.ACCENT
+	return UI.BAD
+
+
+func _ranked_teams() -> Array:
+	var ts: Array = range(Draft.TEAMS.size())
+	ts.sort_custom(func(a, b): return Draft.team_grade(a).score > Draft.team_grade(b).score)
+	return ts
+
+
+func _league_rank(t: int) -> int:
+	return _ranked_teams().find(t) + 1
 
 
 ## Trả về [điểm mạnh, điểm yếu, triển vọng].
@@ -762,7 +935,7 @@ func _scout_report(p: Dictionary) -> Array:
 		concern = "Undersized frame" if concern == "No major red flags" else concern + ", undersized"
 	var outlook := "Depth and special teams contributor"
 	if p.grade >= 80.0:
-		outlook = "Day\u00a01 starter with Pro\u00a0Bowl upside"
+		outlook = "Day 1 starter with Pro Bowl upside"
 	elif p.grade >= 70.0:
 		outlook = "Projects as a quality starter"
 	elif p.grade >= 62.0:

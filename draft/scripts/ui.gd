@@ -68,9 +68,9 @@ static func button(text: String, bg: Color, fg: Color, h: float = 88, fs: int = 
 
 
 ## Nhãn dạng viên thuốc: nền tô nhạt 12%, có thể có viền.
-static func pill(text: String, color: Color, fs: int = 18, outline: bool = false) -> PanelContainer:
+static func pill(text: String, color: Color, fs: int = 18, outline: bool = false, filled: bool = false) -> PanelContainer:
 	var pc := PanelContainer.new()
-	var sb := box(Color(color, 0.0 if outline else 0.12), 8, 0)
+	var sb := box(Color(color, 0.0 if outline else (0.95 if filled else 0.16)), 8, 0)
 	sb.content_margin_left = 10
 	sb.content_margin_right = 10
 	sb.content_margin_top = 3
@@ -82,7 +82,7 @@ static func pill(text: String, color: Color, fs: int = 18, outline: bool = false
 	pc.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
 	pc.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	pc.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	pc.add_child(label(text, fs, color))
+	pc.add_child(label(text, fs, BG if filled else color))
 	return pc
 
 

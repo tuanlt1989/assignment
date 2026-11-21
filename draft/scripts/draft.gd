@@ -234,6 +234,30 @@ func verdict(p: Dictionary) -> String:
 	return "Bust"
 
 
+## Thứ hạng của cầu thủ trong vị trí của mình (theo điểm scout, cả lớp draft).
+func pos_rank(p: Dictionary) -> int:
+	var n := 1
+	for q in prospects:
+		if q.pos == p.pos and q.grade > p.grade:
+			n += 1
+	return n
+
+
+## Chỉ số kỹ năng 30–99 suy ra từ số đo và điểm scout.
+func traits(p: Dictionary) -> Array:
+	var body: Array = POS_BODY[p.pos]
+	var base: float = (p.grade - 70.0) * 0.6
+	var h := hash(p.id)
+	var speed: float = 62.0 + (float(body[2]) - p.forty) / 0.12 * 14.0 + base
+	var power: float = 62.0 + (p.wt - float(body[1])) / 15.0 * 12.0 + base
+	var size: float = 62.0 + (p.ht - float(body[0])) / 2.0 * 12.0 + base
+	var iq: float = 62.0 + base * 1.4 + float(h % 17) - 8.0
+	var out := []
+	for kv in [["Speed", speed], ["Power", power], ["Size", size], ["Football IQ", iq]]:
+		out.append([kv[0], clampi(int(kv[1]), 30, 99)])
+	return out
+
+
 func team_name(t: int) -> String:
 	return "%s %s" % [TEAMS[t][0], TEAMS[t][1]]
 
