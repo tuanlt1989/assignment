@@ -197,15 +197,21 @@ func team_grade(t: int) -> Dictionary:
 	return {"letter": "F", "score": s}
 
 
-## Lộ diện sau draft: giá trị thật so với đánh giá của scout.
+## Chỉ số thật (lộ diện sau draft).
+func true_rating(p: Dictionary) -> float:
+	return snappedf(p.ovr * 0.55 + p.pot * 0.45, 0.1)
+
+
+## So sánh chỉ số thật với điểm scout lúc draft.
 func verdict(p: Dictionary) -> String:
-	var true_val: float = p.ovr * 0.55 + p.pot * 0.45
-	var d: float = true_val - p.grade
-	if d >= 4.0:
-		return "STEAL"
-	if d <= -4.0:
-		return "BUST RISK"
-	return "SOLID"
+	var d: float = true_rating(p) - p.grade
+	if d >= 3.0:
+		return "Steal"
+	if d >= -1.5:
+		return "Solid"
+	if d >= -4.5:
+		return "Reach"
+	return "Bust"
 
 
 func team_name(t: int) -> String:
