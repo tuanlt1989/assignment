@@ -12,6 +12,7 @@ const NAMES := [
 const INK := Color("1b2633")
 
 var level: int = 0: set = _set_level
+var show_badge: bool = true
 var _t: float = 0.0
 
 
@@ -95,6 +96,8 @@ func _draw() -> void:
 		_star(Vector2(0, -r * 1.12), r * 0.32, r * 0.14, Color("ffe066"))
 
 	draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
+	if not show_badge:
+		return
 	# huy hiệu cấp
 	var bc := Vector2(size.x - s * 0.17, size.y - s * 0.17)
 	draw_circle(bc, s * 0.12, Color(0, 0, 0, 0.45))
