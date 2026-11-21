@@ -372,11 +372,14 @@ func _show_results() -> void:
 	gh.add_theme_constant_override("separation", 24)
 	vb.add_child(gh)
 	var lt: String = g.letter
-	var lcol := UI.GOOD if lt.begins_with("A") else (UI.TEXT if lt.begins_with("B") else (Color("c9b48a") if lt.begins_with("C") else UI.BAD))
-	var letter := UI.label(lt, 128, lcol)
+	var letter := UI.label(lt, 128, _tier_color(lt))
 	gh.add_child(letter)
 	var gv := VBoxContainer.new()
-	gv.alignment = BoxContainer.ALIGNMENT_CENTER
+	gv.alignment = BoxContainer.ALIGNMENT_BEGIN
+	gv.add_theme_constant_override("separation", 2)
+	var gtop := Control.new()
+	gtop.custom_minimum_size = Vector2(0, 30)
+	gv.add_child(gtop)
 	gh.add_child(gv)
 	gv.add_child(UI.label(Draft.team_name(Draft.user_team), 30))
 	gv.add_child(UI.label("Ranked #%d of 32 classes" % _league_rank(Draft.user_team), 23, UI.MUTED, true))
@@ -398,18 +401,33 @@ func _show_results() -> void:
 		if Draft.true_rating(e.player) - e.player.grade >= Draft.true_rating(best.player) - best.player.grade:
 			best = e
 	var bp: Dictionary = best.player
-	if mine.size() > 1 and Draft.true_rating(bp) > bp.grade:
-		var bc := PanelContainer.new()
-		var bsb := UI.box(UI.CARD, 14, 18)
-		bsb.border_width_left = 6
-		bsb.border_color = UI.GOOD
-		bc.add_theme_stylebox_override("panel", bsb)
-		lv.add_child(bc)
-		var sv := VBoxContainer.new()
-		sv.add_theme_constant_override("separation", 2)
-		bc.add_child(sv)
-		sv.add_child(UI.label("STEAL OF YOUR DRAFT", 18, UI.GOOD))
-		sv.add_child(UI.label("%s  ·  %.1f → %.1f" % [bp.name, bp.grade, Draft.true_rating(bp)], 26))
+	var worst: Dictionary = mine[0]
+	for e in mine:
+		if Draft.true_rating(e.player) - e.player.grade < Draft.true_rating(worst.player) - worst.player.grade:
+			worst = e
+	var wp: Dictionary = worst.player
+	var story_title := "EVERY PICK HELD ITS GRADE"
+	var story_line := "Your board was spot on."
+	var story_col := UI.MUTED
+	if Draft.true_rating(bp) - bp.grade >= 3.0:
+		story_title = "STEAL OF YOUR DRAFT"
+		story_line = "%s  ·  %.1f → %.1f" % [bp.name, bp.grade, Draft.true_rating(bp)]
+		story_col = UI.GOOD
+	elif Draft.true_rating(wp) - wp.grade <= -3.0:
+		story_title = "TOUGHEST MISS"
+		story_line = "%s  ·  %.1f → %.1f" % [wp.name, wp.grade, Draft.true_rating(wp)]
+		story_col = UI.BAD
+	var bc := PanelContainer.new()
+	var bsb := UI.box(UI.CARD, 14, 18)
+	bsb.border_width_left = 6
+	bsb.border_color = story_col
+	bc.add_theme_stylebox_override("panel", bsb)
+	lv.add_child(bc)
+	var sv := VBoxContainer.new()
+	sv.add_theme_constant_override("separation", 2)
+	bc.add_child(sv)
+	sv.add_child(UI.label(story_title, 18, story_col))
+	sv.add_child(UI.label(story_line, 26))
 	lv.add_child(_section("Your class · true ratings"))
 	var delay := 0.5
 	for e in mine:
@@ -464,7 +482,7 @@ func _show_results() -> void:
 		var tsb := UI.box(UI.CARD, 14, 14)
 		if mine_row:
 			tsb.set_border_width_all(2)
-			tsb.border_color = Color(1, 1, 1, 0.25)
+			tsb.border_color = Draft.team_color(t)
 		tc.add_theme_stylebox_override("panel", tsb)
 		lv.add_child(tc)
 		var th := HBoxContainer.new()
@@ -473,7 +491,17 @@ func _show_results() -> void:
 		th.add_child(UI.label("#%d" % (ranked.find(t) + 1), 22, UI.MUTED, true))
 		th.add_child(_badge(t, 36))
 		th.add_child(_expand(UI.label(("You · " + Draft.TEAMS[t][1]) if mine_row else Draft.team_name(t), 23)))
-		th.add_child(UI.label(Draft.team_grade(t).letter, 26))
+		var tl: String = Draft.team_grade(t).letter
+		th.add_child(UI.label(tl, 26, _tier_color(tl)))
+	var same := UI.button("Same team again", Color(0, 0, 0, 0), UI.MUTED, 56, 24)
+	same.pressed.connect(func():
+		Draft.shuffle_order()
+		Draft.new_draft(Draft.rounds, Draft.user_team)
+		show_needs = false
+		fast = false
+		_timer = 0.0
+		_show_draft_room())
+	vb.add_child(same)
 	var again := UI.button("New draft", UI.ACCENT, UI.BG, 96, 30)
 	again.pressed.connect(func():
 		Draft.shuffle_order()
@@ -489,6 +517,16 @@ func _section(text: String, top: int = 24) -> Label:
 	sb.content_margin_bottom = 4
 	l.add_theme_stylebox_override("normal", sb)
 	return l
+
+
+func _tier_color(l: String) -> Color:
+	if l.begins_with("A"):
+		return UI.GOOD
+	if l.begins_with("B"):
+		return UI.TEXT
+	if l.begins_with("C"):
+		return Color("c9b48a")
+	return UI.BAD
 
 
 func _ranked_teams() -> Array:
@@ -626,7 +664,7 @@ func _scout_report(p: Dictionary) -> String:
 	var notes: Array = POS_NOTES[p.pos]
 	parts.append(notes[int(p.id) % notes.size()])
 	if p.grade >= 80.0:
-		parts.append("Day 1 starter with Pro Bowl upside")
+		parts.append("Day\u00a01 starter with Pro\u00a0Bowl upside")
 	elif p.grade >= 70.0:
 		parts.append("Projects as a quality starter")
 	elif p.grade >= 62.0:
