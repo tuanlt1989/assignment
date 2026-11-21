@@ -24,7 +24,7 @@ const POS_NOTES := {
 	"S": ["Rangy center fielder", "Box safety who tackles well"],
 }
 const VERDICT_COLORS := {
-	"Steal": Color("4ade80"), "Solid": Color("94a3b8"), "Miss": Color("fbbf24"), "Bust": Color("f87171"),
+	"Steal": Color("4ade80"), "Solid": Color("94a3b8"), "Miss": Color("f26b3a"), "Bust": Color("ef4444"),
 }
 
 var screen: Control
@@ -92,7 +92,7 @@ func _show_team_select() -> void:
 	vb.add_child(_segmented(["1 round", "3 rounds", "7 rounds"], [1, 3, 7].find(rounds_choice), func(i: int):
 		rounds_choice = [1, 3, 7][i]
 		_show_team_select()))
-	var quick := UI.outline_button("Quick draft  ·  random team", UI.ACCENT, 80, 26)
+	var quick := UI.outline_button("Quick draft  ·  random team", UI.TEXT, 80, 26)
 	quick.pressed.connect(func(): _confirm_team(randi() % Draft.TEAMS.size()))
 	vb.add_child(quick)
 	var sc := _scroll()
@@ -153,12 +153,11 @@ func _show_draft_room() -> void:
 	var vb := _page()
 	vb.add_theme_constant_override("separation", 14)
 	# header có màu đội
-	var head := PanelContainer.new()
-	head.add_theme_stylebox_override("panel", UI.box(_tint(Draft.team_color(Draft.user_team), 0.16), 22, 18))
-	vb.add_child(head)
+	var tp := _team_panel(Draft.team_color(Draft.user_team), 22, 18)
+	vb.add_child(tp[0])
 	var hv := VBoxContainer.new()
 	hv.add_theme_constant_override("separation", 2)
-	head.add_child(hv)
+	tp[1].add_child(hv)
 	var tr := HBoxContainer.new()
 	tr.add_theme_constant_override("separation", 12)
 	hv.add_child(tr)
@@ -196,6 +195,7 @@ func _show_draft_room() -> void:
 	chips_box = HBoxContainer.new()
 	chips_box.add_theme_constant_override("separation", 8)
 	cs.add_child(chips_box)
+	_edge_fade(cs, true)
 	# tiêu đề cột
 	var cm := MarginContainer.new()
 	cm.add_theme_constant_override("margin_left", 20)
@@ -265,7 +265,7 @@ func _refresh_ticker() -> void:
 		var bd := _badge(t, 40)
 		bd.size_flags_horizontal = SIZE_SHRINK_CENTER
 		v.add_child(bd)
-		var l := UI.label("YOU" if mine else "#%d" % (i + 1), 18, UI.ACCENT if mine else UI.MUTED)
+		var l := UI.label(("#%d YOU" if mine else "#%d") % (i + 1), 18, UI.ACCENT if mine else UI.MUTED)
 		l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		v.add_child(l)
 
@@ -329,7 +329,7 @@ func _player_row(p: Dictionary, idx: int, need: bool) -> Button:
 	meta.add_child(_pos_pill(p.pos, 17))
 	meta.add_child(UI.label(p.college, 21, UI.MUTED, true))
 	if need:
-		meta.add_child(UI.pill("NEED", UI.ACCENT, 16))
+		meta.add_child(UI.pill("NEED", UI.INFO, 16, true))
 	var g := UI.label("%.1f" % p.grade, 32)
 	g.size_flags_vertical = SIZE_SHRINK_CENTER
 	row.add_child(g)
@@ -348,7 +348,9 @@ func _open_card(p: Dictionary) -> void:
 	nh.add_child(UI.display(p.name, 58))
 	nh.add_child(_pos_pill(p.pos, 20))
 	if p.pos in Draft.needs[Draft.user_team]:
-		nh.add_child(UI.pill("FILLS NEED", UI.ACCENT, 18))
+		nh.add_child(UI.pill("FILLS NEED", UI.INFO, 18, true))
+	else:
+		nh.add_child(UI.label("Doesn't fill a need", 20, UI.MUTED, true))
 	hv.add_child(UI.label("%s  ·  Age %d  ·  #%d %s in class" % [p.college, p.age, Draft.pos_rank(p), p.pos], 23, UI.MUTED, true))
 	vb.add_child(_stats([["%.1f" % p.grade, "Scout grade"], [_height(p.ht), "Height"], ["%d lb" % p.wt, "Weight"], ["%.2f" % p.forty, "40 yd"]]))
 	# thanh kỹ năng
@@ -356,7 +358,8 @@ func _open_card(p: Dictionary) -> void:
 	bars.add_theme_constant_override("separation", 10)
 	vb.add_child(bars)
 	for tr in Draft.traits(p):
-		bars.add_child(_trait_bar(tr[0], tr[1], POS_COLORS[p.pos]))
+		var tv: int = tr[1]
+		bars.add_child(_trait_bar(tr[0], tv, UI.GOOD if tv >= 75 else (Color("60a5fa") if tv >= 60 else Color("64748b"))))
 	var rep := _scout_report(p)
 	var sg := GridContainer.new()
 	sg.columns = 2
@@ -444,19 +447,18 @@ func _show_results() -> void:
 	vb.add_theme_constant_override("separation", 14)
 	var mine := Draft.team_picks(Draft.user_team)
 	# hero: nền pha màu đội
-	var hero := PanelContainer.new()
-	hero.add_theme_stylebox_override("panel", UI.box(_tint(Draft.team_color(Draft.user_team), 0.18), 28, 22))
-	vb.add_child(hero)
+	var hp := _team_panel(Draft.team_color(Draft.user_team), 28, 18)
+	vb.add_child(hp[0])
 	var gh := HBoxContainer.new()
 	gh.add_theme_constant_override("separation", 22)
-	hero.add_child(gh)
-	var letter := UI.display(lt, 190, _tier_color(lt))
+	hp[1].add_child(gh)
+	var letter := UI.display(lt, 150, _tier_color(lt))
 	gh.add_child(letter)
 	var gv := VBoxContainer.new()
 	gv.alignment = BoxContainer.ALIGNMENT_CENTER
 	gv.add_theme_constant_override("separation", 2)
 	gh.add_child(_expand(gv))
-	gv.add_child(UI.display(Draft.TEAMS[Draft.user_team][1], 48))
+	gv.add_child(UI.display(Draft.TEAMS[Draft.user_team][1], 44))
 	gv.add_child(UI.label("Class ranked #%d of 32" % _league_rank(Draft.user_team), 23, UI.MUTED, true))
 	var why := UI.label(_grade_reason(), 23, UI.TEXT, true)
 	why.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
@@ -470,7 +472,7 @@ func _show_results() -> void:
 	lv.add_theme_constant_override("separation", 8)
 	sc.add_child(lv)
 	lv.add_child(_section("Your class", 4))
-	var note := UI.label("Scout grade = pre-draft board. True rating = revealed. Solid = within 3 points.", 19, UI.MUTED, true)
+	var note := UI.label("Scout grade is the pre-draft board; true rating is revealed now. Scouting is noisy: nearly half of prospects land 3+ points off their grade.", 19, UI.MUTED, true)
 	note.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	lv.add_child(note)
 	var delay := 0.5
@@ -481,47 +483,34 @@ func _show_results() -> void:
 	var pro := PanelContainer.new()
 	var psb := UI.box(Color(1, 1, 1, 0.05), 20, 18)
 	psb.set_border_width_all(1)
-	psb.border_color = Color(UI.ACCENT, 0.4)
+	psb.border_color = Color(1, 1, 1, 0.15)
 	pro.add_theme_stylebox_override("panel", psb)
 	lv.add_child(pro)
 	var ph := HBoxContainer.new()
 	ph.add_theme_constant_override("separation", 14)
 	pro.add_child(ph)
-	ph.add_child(UI.pill("PRO", UI.ACCENT, 18, false, true))
+	ph.add_child(UI.pill("PRO", UI.TEXT, 18, true))
 	var pt := UI.label("See every team's full class and the picks that would have earned you an A.", 21, UI.TEXT, true)
 	pt.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	ph.add_child(_expand(pt))
-	var unlock := UI.button("Unlock", Color(UI.ACCENT, 0.15), UI.ACCENT, 56, 22)
-	unlock.custom_minimum_size.x = 120
+	var on_list := _pro_interest()
+	var unlock := UI.button("On the list" if on_list else "Notify me", Color(1, 1, 1, 0.08), UI.TEXT, 56, 22)
+	unlock.custom_minimum_size.x = 150
+	unlock.disabled = on_list
 	unlock.size_flags_vertical = SIZE_SHRINK_CENTER
-	unlock.pressed.connect(func(): _toast("Pro is coming soon"))
+	unlock.pressed.connect(func():
+		_set_pro_interest()
+		unlock.text = "On the list"
+		unlock.disabled = true
+		_toast("We'll let you know when Pro launches"))
 	ph.add_child(unlock)
 	lv.add_child(_section("League leaderboard", 20))
 	var ranked := _ranked_teams()
-	var show: Array = ranked.slice(0, 3)
-	if Draft.user_team not in show:
-		show.append(Draft.user_team)
-	for t in show:
-		var mine_row: bool = t == Draft.user_team
-		if mine_row and ranked.find(t) > 3:
-			var dots := UI.label("···", 24, UI.MUTED)
-			dots.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-			lv.add_child(dots)
-		var tc := PanelContainer.new()
-		var tsb := UI.box(UI.CARD, 14, 14)
-		if mine_row:
-			tsb.set_border_width_all(2)
-			tsb.border_color = Draft.team_color(t)
-		tc.add_theme_stylebox_override("panel", tsb)
-		lv.add_child(tc)
-		var th := HBoxContainer.new()
-		th.add_theme_constant_override("separation", 14)
-		tc.add_child(th)
-		th.add_child(UI.label("#%d" % (ranked.find(t) + 1), 22, UI.MUTED, true))
-		th.add_child(_badge(t, 36))
-		th.add_child(_expand(UI.label(("You · " + Draft.TEAMS[t][1]) if mine_row else Draft.team_name(t), 23)))
-		var tl: String = Draft.team_grade(t).letter
-		th.add_child(UI.label(tl, 26, _tier_color(tl)))
+	for t in ranked.slice(0, 3):
+		lv.add_child(_board_row(t, ranked))
+	# dòng của bạn luôn hiện (ghim ngoài vùng cuộn)
+	if ranked.find(Draft.user_team) >= 3:
+		vb.add_child(_board_row(Draft.user_team, ranked))
 	# hành động
 	var share := UI.button("Share grade", UI.ACCENT, UI.BG, 96, 30)
 	share.pressed.connect(_open_share)
@@ -545,6 +534,25 @@ func _show_results() -> void:
 		Draft.shuffle_order()
 		_show_team_select())
 	bh.add_child(again)
+
+
+func _board_row(t: int, ranked: Array) -> PanelContainer:
+	var mine_row: bool = t == Draft.user_team
+	var tc := PanelContainer.new()
+	var tsb := UI.box(UI.CARD, 14, 14)
+	if mine_row:
+		tsb.set_border_width_all(2)
+		tsb.border_color = Draft.team_color(t)
+	tc.add_theme_stylebox_override("panel", tsb)
+	var th := HBoxContainer.new()
+	th.add_theme_constant_override("separation", 14)
+	tc.add_child(th)
+	th.add_child(UI.label("#%d" % (ranked.find(t) + 1), 22, UI.MUTED, true))
+	th.add_child(_badge(t, 36))
+	th.add_child(_expand(UI.label(("You · " + Draft.team_name(t)) if mine_row else Draft.team_name(t), 23)))
+	var tl: String = Draft.team_grade(t).letter
+	th.add_child(UI.label(tl, 26, _tier_color(tl)))
+	return tc
 
 
 func _class_row(e: Dictionary, delay: float) -> PanelContainer:
@@ -696,19 +704,38 @@ func _sheet(tint: Color = Color(0, 0, 0, 0)) -> VBoxContainer:
 	var panel := PanelContainer.new()
 	panel.set_anchors_preset(PRESET_BOTTOM_WIDE)
 	panel.grow_vertical = Control.GROW_DIRECTION_BEGIN
-	var pb := UI.box(UI.CARD if tint.a == 0 else _tint(tint, 0.2), 32, 28)
+	var pb := UI.box(UI.CARD, 32, 0)
 	pb.corner_radius_bottom_left = 0
 	pb.corner_radius_bottom_right = 0
-	pb.content_margin_top = 16
-	pb.content_margin_bottom = 36
+	pb.shadow_size = 0
 	if tint.a > 0:
 		pb.border_width_top = 4
 		pb.border_color = tint
+		panel.clip_children = CanvasItem.CLIP_CHILDREN_AND_DRAW
+		var g := Gradient.new()
+		g.set_color(0, Color(tint, 0.30))
+		g.set_color(1, Color(tint, 0.0))
+		var gt := GradientTexture2D.new()
+		gt.gradient = g
+		gt.fill_from = Vector2(0, 0)
+		gt.fill_to = Vector2(0.6, 1)
+		var tex := TextureRect.new()
+		tex.texture = gt
+		tex.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		tex.stretch_mode = TextureRect.STRETCH_SCALE
+		tex.mouse_filter = MOUSE_FILTER_IGNORE
+		panel.add_child(tex)
 	panel.add_theme_stylebox_override("panel", pb)
 	dim.add_child(panel)
+	var pm := MarginContainer.new()
+	pm.add_theme_constant_override("margin_left", 28)
+	pm.add_theme_constant_override("margin_right", 28)
+	pm.add_theme_constant_override("margin_top", 16)
+	pm.add_theme_constant_override("margin_bottom", 36)
+	panel.add_child(pm)
 	var vb := VBoxContainer.new()
 	vb.add_theme_constant_override("separation", 20)
-	panel.add_child(vb)
+	pm.add_child(vb)
 	var handle := Panel.new()
 	handle.custom_minimum_size = Vector2(56, 6)
 	handle.size_flags_horizontal = SIZE_SHRINK_CENTER
@@ -763,10 +790,13 @@ func _row_button(h: float, edge: Color = Color(0, 0, 0, 0)) -> Button:
 	b.size_flags_horizontal = SIZE_EXPAND_FILL
 	UI.style(b, UI.CARD, UI.TEXT)
 	if edge.a > 0:
-		var sb: StyleBoxFlat = b.get_theme_stylebox("normal").duplicate()
-		sb.border_width_left = 5
-		sb.border_color = edge
-		b.add_theme_stylebox_override("normal", sb)
+		b.clip_children = CanvasItem.CLIP_CHILDREN_AND_DRAW
+		var stripe := ColorRect.new()
+		stripe.color = edge
+		stripe.mouse_filter = MOUSE_FILTER_IGNORE
+		stripe.anchor_bottom = 1.0
+		stripe.offset_right = 6
+		b.add_child(stripe)
 	return b
 
 
@@ -792,14 +822,19 @@ func _scroll() -> ScrollContainer:
 	sc.size_flags_vertical = SIZE_EXPAND_FILL
 	sc.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	sc.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_SHOW_NEVER
-	# mờ dần ở đáy danh sách
+	_edge_fade(sc, false)
+	return sc
+
+
+## Mờ dần ở mép cuối của vùng cuộn (đáy, hoặc mép phải nếu horizontal).
+func _edge_fade(sc: ScrollContainer, horizontal: bool) -> void:
 	var g := Gradient.new()
 	g.set_color(0, Color(UI.BG, 0.0))
 	g.set_color(1, UI.BG)
 	var gt := GradientTexture2D.new()
 	gt.gradient = g
 	gt.fill_from = Vector2(0, 0)
-	gt.fill_to = Vector2(0, 1)
+	gt.fill_to = Vector2(1, 0) if horizontal else Vector2(0, 1)
 	var fade := TextureRect.new()
 	fade.texture = gt
 	fade.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
@@ -809,11 +844,45 @@ func _scroll() -> ScrollContainer:
 	fade.z_index = 1
 	sc.add_child(fade)
 	var place := func():
-		fade.global_position = sc.global_position + Vector2(0, sc.size.y - 64)
-		fade.size = Vector2(sc.size.x, 64)
+		if horizontal:
+			fade.global_position = sc.global_position + Vector2(sc.size.x - 40, 0)
+			fade.size = Vector2(40, sc.size.y)
+		else:
+			fade.global_position = sc.global_position + Vector2(0, sc.size.y - 64)
+			fade.size = Vector2(sc.size.x, 64)
 	sc.resized.connect(place)
 	sc.item_rect_changed.connect(place)
-	return sc
+
+
+## Thẻ có lớp màu đội: nền navy + gradient màu đội 28%→0% + viền trên, được cắt theo góc bo.
+func _team_panel(col: Color, radius: int, margin: int) -> Array:
+	var pc := PanelContainer.new()
+	var sb := StyleBoxFlat.new()
+	sb.bg_color = UI.CARD
+	sb.set_corner_radius_all(radius)
+	sb.border_width_top = 3
+	sb.border_color = col
+	sb.anti_aliasing = true
+	pc.add_theme_stylebox_override("panel", sb)
+	pc.clip_children = CanvasItem.CLIP_CHILDREN_AND_DRAW
+	var g := Gradient.new()
+	g.set_color(0, Color(col, 0.30))
+	g.set_color(1, Color(col, 0.0))
+	var gt := GradientTexture2D.new()
+	gt.gradient = g
+	gt.fill_from = Vector2(0, 0)
+	gt.fill_to = Vector2(0.9, 1)
+	var tex := TextureRect.new()
+	tex.texture = gt
+	tex.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	tex.stretch_mode = TextureRect.STRETCH_SCALE
+	tex.mouse_filter = MOUSE_FILTER_IGNORE
+	pc.add_child(tex)
+	var m := MarginContainer.new()
+	for k in ["margin_left", "margin_right", "margin_top", "margin_bottom"]:
+		m.add_theme_constant_override(k, margin)
+	pc.add_child(m)
+	return [pc, m]
 
 
 ## Tiêu đề mục: chữ hoa, cách trên `top` px.
@@ -877,16 +946,26 @@ func _height(inches: int) -> String:
 	return "%d'%d\"" % [inches / 12, inches % 12]
 
 
-## Một dòng giải thích vì sao ra điểm này.
+## Một dòng giải thích vì sao ra điểm này: giá trị so với bảng xếp hạng + kết quả thật.
 func _grade_reason() -> String:
 	var mine := Draft.team_picks(Draft.user_team)
-	var value := 0.0
+	var value := 0
+	var reach := 0
 	var counts := {"Steal": 0, "Solid": 0, "Miss": 0, "Bust": 0}
 	for e in mine:
-		value += float(e.pick + 1 - e.player.rank)
+		var d: int = e.pick + 1 - int(e.player.rank)
+		if d >= 5:
+			value += 1
+		elif d <= -5:
+			reach += 1
 		counts[Draft.verdict(e.player)] += 1
-	value /= maxf(1.0, mine.size())
-	var head := "Beat the board" if value >= 2.0 else ("Reached early" if value <= -2.0 else "Drafted on value")
+	var parts: Array[String] = []
+	if value > 0:
+		parts.append("Value on %d pick%s" % [value, "" if value == 1 else "s"])
+	if reach > 0:
+		parts.append("reached on %d" % reach if value > 0 else "Reached on %d pick%s" % [reach, "" if reach == 1 else "s"])
+	if parts.is_empty():
+		parts.append("Picked on the board")
 	var bits: Array[String] = []
 	for k in ["Steal", "Solid", "Miss", "Bust"]:
 		var n: int = counts[k]
@@ -895,7 +974,19 @@ func _grade_reason() -> String:
 			if n > 1 and k != "Solid":
 				word += "es" if k == "Miss" else "s"
 			bits.append("%d %s" % [n, word])
-	return "%s · %s" % [head, ", ".join(bits)]
+	return "%s\n%s" % [", ".join(parts), " · ".join(bits)]
+
+
+func _pro_interest() -> bool:
+	var cf := ConfigFile.new()
+	return cf.load("user://prefs.cfg") == OK and bool(cf.get_value("pro", "notify", false))
+
+
+func _set_pro_interest() -> void:
+	var cf := ConfigFile.new()
+	cf.load("user://prefs.cfg")
+	cf.set_value("pro", "notify", true)
+	cf.save("user://prefs.cfg")
 
 
 func _tier_color(l: String) -> Color:
