@@ -3,6 +3,7 @@ extends RefCounted
 
 const BOLD := preload("res://fonts/Roboto-Bold.ttf")
 const REGULAR := preload("res://fonts/Roboto-Regular.ttf")
+const DISPLAY := preload("res://fonts/BebasNeue.woff2")
 const BG := Color("0b1220")
 const CARD := Color("141c2f")
 const LINE := Color(1, 1, 1, 0.08)
@@ -83,6 +84,13 @@ static func pill(text: String, color: Color, fs: int = 18, outline: bool = false
 	pc.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	pc.add_child(label(text, fs, color))
 	return pc
+
+
+## Chữ tiêu đề kiểu thể thao (Bebas Neue, chữ hoa condensed).
+static func display(text: String, fs: int, color: Color = TEXT) -> Label:
+	var l := label(text.to_upper(), fs, color)
+	l.add_theme_font_override("font", DISPLAY)
+	return l
 
 
 static func label(text: String, fs: int, color: Color = TEXT, regular: bool = false) -> Label:

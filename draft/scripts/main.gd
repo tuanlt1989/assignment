@@ -77,23 +77,26 @@ func _show_team_select() -> void:
 	var hv := VBoxContainer.new()
 	hv.add_theme_constant_override("separation", 6)
 	vb.add_child(hv)
-	hv.add_child(UI.label("Mock Draft GM", 52))
-	var how := UI.label("AI teams pick in order. When you're on the clock, choose your player. Get graded at the end.", 23, UI.MUTED, true)
+	hv.add_child(UI.display("Mock Draft GM", 84, UI.TEXT))
+	var how := UI.label("Pick a team. Draft on your turn. Get graded.", 24, UI.MUTED, true)
 	how.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	hv.add_child(how)
 	vb.add_child(_segmented(["1 round", "3 rounds", "7 rounds"], [1, 3, 7].find(rounds_choice), func(i: int):
 		rounds_choice = [1, 3, 7][i]
 		_show_team_select()))
-	var rnd := UI.outline_button("Random team", UI.TEXT, 72, 24)
-	rnd.pressed.connect(func(): _confirm_team(randi() % Draft.TEAMS.size()))
-	vb.add_child(rnd)
+
 	var sc := _scroll()
 	vb.add_child(sc)
 	var col := VBoxContainer.new()
 	col.size_flags_horizontal = SIZE_EXPAND_FILL
 	col.add_theme_constant_override("separation", 8)
 	sc.add_child(col)
-	col.add_child(_section("Teams · sorted by first pick"))
+	var sh := HBoxContainer.new()
+	col.add_child(sh)
+	sh.add_child(_expand(_section("Teams · by first pick", 8)))
+	var rnd := UI.button("Random", Color(0, 0, 0, 0), UI.ACCENT, 48, 22)
+	rnd.pressed.connect(func(): _confirm_team(randi() % Draft.TEAMS.size()))
+	sh.add_child(rnd)
 	for i in Draft.base_order:
 		var team: int = i
 		var b := _row_button(92)
@@ -125,7 +128,7 @@ func _confirm_team(team: int) -> void:
 	hv.add_theme_constant_override("separation", 0)
 	hb.add_child(_expand(hv))
 	hv.add_child(UI.label(Draft.TEAMS[team][0], 23, UI.MUTED, true))
-	hv.add_child(UI.label(Draft.TEAMS[team][1], 38))
+	hv.add_child(UI.display(Draft.TEAMS[team][1], 60))
 	var nd: Array = Draft.needs[team]
 	vb.add_child(_stats([
 		[_ordinal(fp), "Picks first"],
@@ -162,7 +165,7 @@ func _show_draft_room() -> void:
 	head.add_child(_expand(hv))
 	round_label = UI.label("", 22, UI.MUTED, true)
 	hv.add_child(round_label)
-	clock_label = UI.label("", 42)
+	clock_label = UI.display("", 58)
 	hv.add_child(clock_label)
 	skip_btn = UI.button("Skip ›", Color(0, 0, 0, 0), UI.ACCENT, 64, 26)
 	skip_btn.size_flags_vertical = SIZE_SHRINK_CENTER
@@ -258,13 +261,10 @@ func _player_row(p: Dictionary, need: bool) -> Button:
 	info.add_child(meta)
 	meta.add_child(UI.label("%s  ·  %s" % [p.pos, p.college], 22, UI.MUTED, true))
 	if need:
-		meta.add_child(UI.pill("NEED", UI.INFO, 16))
-	var g := UI.label("%.1f" % p.grade, 32, _grade_color(p.grade))
+		meta.add_child(UI.pill("NEED", UI.ACCENT, 16))
+	var g := UI.label("%.1f" % p.grade, 32)
 	g.size_flags_vertical = SIZE_SHRINK_CENTER
 	row.add_child(g)
-	var chev := UI.label("›", 34, Color(UI.MUTED, 0.6))
-	chev.size_flags_vertical = SIZE_SHRINK_CENTER
-	row.add_child(chev)
 	b.pressed.connect(func(): _open_card(p))
 	return b
 
@@ -277,9 +277,9 @@ func _open_card(p: Dictionary) -> void:
 	var nh := HBoxContainer.new()
 	nh.add_theme_constant_override("separation", 14)
 	hv.add_child(nh)
-	nh.add_child(UI.label(p.name, 40))
+	nh.add_child(UI.display(p.name, 58))
 	if p.pos in Draft.needs[Draft.user_team]:
-		nh.add_child(UI.pill("Fills a need", UI.INFO, 18, true))
+		nh.add_child(UI.pill("NEED", UI.ACCENT, 18))
 	hv.add_child(UI.label("%s  ·  %s  ·  Age %d  ·  %s" % [p.pos, p.college, p.age, "Best available" if _board_rank(p) == 1 else "%s best available" % _ordinal(_board_rank(p))], 23, UI.MUTED, true))
 	vb.add_child(_stats([["%.1f" % p.grade, "Grade"], [_height(p.ht), "Height"], ["%d lb" % p.wt, "Weight"], ["%.2f" % p.forty, "40 yd"]]))
 	var rep := _scout_report(p)
@@ -288,8 +288,8 @@ func _open_card(p: Dictionary) -> void:
 	sg.add_theme_constant_override("h_separation", 16)
 	sg.add_theme_constant_override("v_separation", 8)
 	vb.add_child(sg)
-	for kv in [["STRENGTH", rep[0], UI.GOOD], ["CONCERN", rep[1], UI.WARN], ["OUTLOOK", rep[2], UI.TEXT]]:
-		var k := UI.label(kv[0], 17, Color(kv[2], 0.9))
+	for kv in [["STRENGTH", rep[0]], ["CONCERN", rep[1]], ["OUTLOOK", rep[2]]]:
+		var k := UI.label(kv[0], 17, UI.MUTED)
 		k.custom_minimum_size = Vector2(130, 0)
 		sg.add_child(k)
 		var v := UI.label(kv[1], 23, UI.TEXT, true)
@@ -306,8 +306,8 @@ func _open_card(p: Dictionary) -> void:
 	var bh := HBoxContainer.new()
 	bh.add_theme_constant_override("separation", 12)
 	vb.add_child(bh)
-	var back := UI.outline_button("Back", UI.TEXT, 96, 28)
-	back.custom_minimum_size.x = 170
+	var back := UI.button("Back", Color(0, 0, 0, 0), UI.MUTED, 96, 26)
+	back.custom_minimum_size.x = 120
 	back.pressed.connect(_close_card)
 	bh.add_child(back)
 	draft_btn.size_flags_horizontal = SIZE_EXPAND_FILL
@@ -323,6 +323,7 @@ func _sheet() -> VBoxContainer:
 	dim.gui_input.connect(func(ev: InputEvent):
 		if ev is InputEventMouseButton and ev.pressed:
 			_close_card())
+	dim.z_index = 5
 	add_child(dim)
 	sheet = dim
 	var panel := PanelContainer.new()
@@ -400,7 +401,7 @@ func _show_results() -> void:
 	gh.add_theme_constant_override("separation", 24)
 	vb.add_child(gh)
 	var lt: String = g.letter
-	var letter := UI.label(lt, 128, _tier_color(lt))
+	var letter := UI.display(lt, 200, _tier_color(lt))
 	gh.add_child(letter)
 	var gv := VBoxContainer.new()
 	gv.alignment = BoxContainer.ALIGNMENT_BEGIN
@@ -411,7 +412,7 @@ func _show_results() -> void:
 	gh.add_child(gv)
 	gv.add_child(UI.label(Draft.team_name(Draft.user_team), 30))
 	gv.add_child(UI.label("Ranked #%d of 32 classes" % _league_rank(Draft.user_team), 23, UI.MUTED, true))
-	var why := UI.label(_grade_reason(), 21, UI.TEXT, true)
+	var why := UI.label(_grade_reason(), 23, UI.TEXT, true)
 	why.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	why.custom_minimum_size = Vector2(440, 0)
 	gv.add_child(why)
@@ -443,29 +444,7 @@ func _show_results() -> void:
 		if Draft.true_rating(e.player) - e.player.grade < Draft.true_rating(worst.player) - worst.player.grade:
 			worst = e
 	var wp: Dictionary = worst.player
-	var story_title := "EVERY PICK HELD ITS GRADE"
-	var story_line := "Your board was spot on."
-	var story_col := UI.MUTED
-	if Draft.true_rating(bp) - bp.grade >= 3.0:
-		story_title = "STEAL OF YOUR DRAFT"
-		story_line = "%s  ·  %.1f → %.1f  (pick %d)" % [bp.name, bp.grade, Draft.true_rating(bp), best.pick + 1]
-		story_col = UI.GOOD
-	elif Draft.true_rating(wp) - wp.grade <= -3.0:
-		story_title = "TOUGHEST MISS"
-		story_line = "%s  ·  %.1f → %.1f  (pick %d)" % [wp.name, wp.grade, Draft.true_rating(wp), worst.pick + 1]
-		story_col = UI.BAD
-	var bc := PanelContainer.new()
-	var bsb := UI.box(UI.CARD, 14, 18)
-	bsb.border_width_left = 6
-	bsb.border_color = story_col
-	bc.add_theme_stylebox_override("panel", bsb)
-	lv.add_child(bc)
-	var sv := VBoxContainer.new()
-	sv.add_theme_constant_override("separation", 2)
-	bc.add_child(sv)
-	sv.add_child(UI.label(story_title, 18, story_col))
-	sv.add_child(UI.label(story_line, 26))
-	lv.add_child(_section("Your class · true ratings", 32))
+	lv.add_child(_section("Your class · true ratings", 8))
 	var delay := 0.5
 	for e in mine:
 		var pl: Dictionary = e.player
@@ -473,7 +452,11 @@ func _show_results() -> void:
 		var vd := Draft.verdict(pl)
 		var vcol: Color = {"Steal": UI.GOOD, "Solid": UI.MUTED, "Miss": UI.WARN, "Bust": UI.BAD}[vd]
 		var card := PanelContainer.new()
-		card.add_theme_stylebox_override("panel", UI.box(UI.CARD, 16, 16))
+		var csb := UI.box(UI.CARD, 16, 16)
+		if vd == "Steal" or vd == "Bust":
+			csb.border_width_left = 6
+			csb.border_color = vcol
+		card.add_theme_stylebox_override("panel", csb)
 		lv.add_child(card)
 		var row := HBoxContainer.new()
 		row.add_theme_constant_override("separation", 16)
@@ -484,7 +467,7 @@ func _show_results() -> void:
 		info.add_child(UI.label(pl.name, 27))
 		var ml := UI.label("", 21, UI.MUTED, true)
 		info.add_child(ml)
-		var base_txt := "Pick %d  ·  %s  ·  Graded %.1f → True " % [e.pick + 1, pl.pos, pl.grade]
+		var base_txt := "Pick %d  ·  %s  ·  True rating " % [e.pick + 1, pl.pos]
 		ml.text = base_txt + "…"
 		var roll := ml.create_tween()
 		roll.tween_interval(delay)
@@ -583,20 +566,18 @@ func _grade_reason() -> String:
 		value += float(e.pick + 1 - e.player.rank)
 		counts[Draft.verdict(e.player)] += 1
 	value /= maxf(1.0, mine.size())
-	var spots := absi(int(round(value)))
-	var slot := "Drafted right on value" if spots == 0 else "Found value %d spot%s later than the board on average" % [spots, "" if spots == 1 else "s"] if value > 0 else "Reached %d spot%s early on average" % [spots, "" if spots == 1 else "s"]
 	var good: int = counts.Steal
 	var bad: int = counts.Miss + counts.Bust
-	var tail := ""
-	if good > 0 and bad > 0:
-		tail = "%d steal%s vs. %d miss%s" % [good, "" if good == 1 else "s", bad, "" if bad == 1 else "es"]
-	elif good > 0:
-		tail = "%d steal%s, no misses" % [good, "" if good == 1 else "s"]
-	elif bad > 0:
-		tail = "%d miss%s, no steals" % [bad, "" if bad == 1 else "es"]
-	else:
-		tail = "every pick held its grade"
-	return slot + ". " + tail.capitalize().substr(0, 1) + tail.substr(1) + "."
+	var head := "You beat the board" if value >= 2.0 else ("You reached" if value <= -2.0 else "Right on value")
+	var bits: Array[String] = []
+	var solid: int = counts.Solid
+	if good > 0:
+		bits.append("%d steal%s" % [good, "" if good == 1 else "s"])
+	if bad > 0:
+		bits.append("%d miss%s" % [bad, "" if bad == 1 else "es"])
+	if solid > 0:
+		bits.append("%d solid" % solid)
+	return "%s. %s." % [head, ", ".join(bits).capitalize().substr(0, 1) + ", ".join(bits).substr(1)]
 
 
 func _tier_color(l: String) -> Color:
@@ -694,21 +675,55 @@ func _scroll() -> ScrollContainer:
 	sc.size_flags_vertical = SIZE_EXPAND_FILL
 	sc.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	sc.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_SHOW_NEVER
+	# mờ dần ở đáy danh sách
+	var g := Gradient.new()
+	g.set_color(0, Color(UI.BG, 0.0))
+	g.set_color(1, UI.BG)
+	var gt := GradientTexture2D.new()
+	gt.gradient = g
+	gt.fill_from = Vector2(0, 0)
+	gt.fill_to = Vector2(0, 1)
+	var fade := TextureRect.new()
+	fade.texture = gt
+	fade.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	fade.stretch_mode = TextureRect.STRETCH_SCALE
+	fade.mouse_filter = MOUSE_FILTER_IGNORE
+	fade.top_level = true
+	fade.z_index = 1
+	sc.add_child(fade)
+	var place := func():
+		fade.global_position = sc.global_position + Vector2(0, sc.size.y - 64)
+		fade.size = Vector2(sc.size.x, 64)
+	sc.resized.connect(place)
+	sc.item_rect_changed.connect(place)
 	return sc
 
 
+## Logo đội dạng khiên: màu đội, dải sáng phía trên, chữ viết tắt font thể thao.
 func _badge(t: int, d: float) -> Control:
 	var c := Control.new()
 	c.custom_minimum_size = Vector2(d, d)
 	c.size_flags_vertical = SIZE_SHRINK_CENTER
 	c.mouse_filter = MOUSE_FILTER_IGNORE
-	var col := Draft.team_color(t).darkened(0.25)
+	var col := Draft.team_color(t).darkened(0.2)
 	var ab := Draft.team_abbr(t)
 	c.draw.connect(func():
-		var r := d / 2.0
-		c.draw_circle(Vector2(r, r), r, col)
-		var fs := int(d * 0.3)
-		c.draw_string(UI.BOLD, Vector2(0, r + fs * 0.36), ab, HORIZONTAL_ALIGNMENT_CENTER, d, fs, Color.WHITE))
+		var w := d * 0.86
+		var x0 := (d - w) / 2.0
+		var pts := PackedVector2Array([
+			Vector2(x0, d * 0.06), Vector2(x0 + w, d * 0.06), Vector2(x0 + w, d * 0.55),
+			Vector2(d / 2.0, d * 0.97), Vector2(x0, d * 0.55)])
+		var outer := PackedVector2Array()
+		for p in pts:
+			outer.append(Vector2(d / 2.0, d / 2.0) + (p - Vector2(d / 2.0, d / 2.0)) * 1.0)
+		c.draw_colored_polygon(outer, col.darkened(0.45))
+		var inner := PackedVector2Array()
+		for p in pts:
+			inner.append(Vector2(d / 2.0, d * 0.48) + (p - Vector2(d / 2.0, d * 0.48)) * 0.86)
+		c.draw_colored_polygon(inner, col)
+		c.draw_rect(Rect2(x0 + w * 0.07, d * 0.11, w * 0.86, d * 0.1), col.lightened(0.25))
+		var fs := int(d * 0.38)
+		c.draw_string(UI.DISPLAY, Vector2(0, d * 0.62), ab, HORIZONTAL_ALIGNMENT_CENTER, d, fs, Color.WHITE))
 	return c
 
 
@@ -716,6 +731,7 @@ func _toast(msg: String) -> void:
 	var l := UI.label(msg, 26)
 	l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	l.add_theme_stylebox_override("normal", UI.box(Color("1f2a40"), 16, 18))
+	l.z_index = 6
 	add_child(l)
 	l.size = Vector2(size.x - 2 * PAD, 0)
 	l.position = Vector2(PAD, size.y - 140)
