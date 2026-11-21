@@ -177,8 +177,8 @@ func _show_draft_room() -> void:
 	vb.add_child(cm)
 	var cols := HBoxContainer.new()
 	cm.add_child(cols)
-	cols.add_child(_expand(_section("Player")))
-	cols.add_child(_section("Grade"))
+	cols.add_child(_expand(_section("Player", 0)))
+	cols.add_child(_section("Grade", 0))
 	var sc := _scroll()
 	vb.add_child(sc)
 	list = VBoxContainer.new()
@@ -265,17 +265,17 @@ func _open_card(p: Dictionary) -> void:
 	var hv := VBoxContainer.new()
 	hv.add_theme_constant_override("separation", 2)
 	vb.add_child(hv)
-	hv.add_child(UI.label(p.name, 40))
-	hv.add_child(UI.label("%s  ·  %s  ·  Age %d  ·  Board #%d" % [p.pos, p.college, p.age, _board_rank(p)], 23, UI.MUTED, true))
+	var nh := HBoxContainer.new()
+	nh.add_theme_constant_override("separation", 14)
+	hv.add_child(nh)
+	nh.add_child(UI.label(p.name, 40))
 	if p.pos in Draft.needs[Draft.user_team]:
-		vb.add_child(UI.pill("Fills a team need", UI.INFO, 20, true))
+		nh.add_child(UI.pill("Fills a need", UI.INFO, 18, true))
+	hv.add_child(UI.label("%s  ·  %s  ·  Age %d  ·  Board #%d" % [p.pos, p.college, p.age, _board_rank(p)], 23, UI.MUTED, true))
 	vb.add_child(_stats([["%.1f" % p.grade, "Grade"], [_height(p.ht), "Height"], ["%d lb" % p.wt, "Weight"], ["%.2f" % p.forty, "40 yd"]]))
 	var rep := UI.label(_scout_report(p), 24, UI.TEXT, true)
 	rep.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	vb.add_child(rep)
-	var gap := Control.new()
-	gap.custom_minimum_size = Vector2(0, 4)
-	vb.add_child(gap)
 	var can := Draft.is_user_turn()
 	var draft_btn := UI.button("Draft %s" % p.name if can else "Not your pick yet", UI.ACCENT, UI.BG, 96, 30)
 	draft_btn.disabled = not can
@@ -368,11 +368,12 @@ func _show_results() -> void:
 	_close_card()
 	var g := Draft.team_grade(Draft.user_team)
 	var vb := _page()
-	vb.add_child(UI.label("Draft complete", 24, UI.MUTED, true))
 	var gh := HBoxContainer.new()
 	gh.add_theme_constant_override("separation", 24)
 	vb.add_child(gh)
-	var letter := UI.label(g.letter, 128, UI.ACCENT)
+	var lt: String = g.letter
+	var lcol := UI.GOOD if lt.begins_with("A") else (UI.TEXT if lt.begins_with("B") else (Color("c9b48a") if lt.begins_with("C") else UI.BAD))
+	var letter := UI.label(lt, 128, lcol)
 	gh.add_child(letter)
 	var gv := VBoxContainer.new()
 	gv.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -404,16 +405,18 @@ func _show_results() -> void:
 		bsb.border_color = UI.GOOD
 		bc.add_theme_stylebox_override("panel", bsb)
 		lv.add_child(bc)
-		var story := UI.label("Steal of your draft: %s was graded %.1f and is really %.1f." % [bp.name, bp.grade, Draft.true_rating(bp)], 24, UI.TEXT, true)
-		story.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-		bc.add_child(story)
+		var sv := VBoxContainer.new()
+		sv.add_theme_constant_override("separation", 2)
+		bc.add_child(sv)
+		sv.add_child(UI.label("STEAL OF YOUR DRAFT", 18, UI.GOOD))
+		sv.add_child(UI.label("%s  ·  %.1f → %.1f" % [bp.name, bp.grade, Draft.true_rating(bp)], 26))
 	lv.add_child(_section("Your class · true ratings"))
 	var delay := 0.5
 	for e in mine:
 		var pl: Dictionary = e.player
 		var tr := Draft.true_rating(pl)
 		var vd := Draft.verdict(pl)
-		var vcol: Color = {"Steal": UI.GOOD, "Solid": UI.MUTED, "Disappointment": UI.WARN, "Bust": UI.BAD}[vd]
+		var vcol: Color = {"Steal": UI.GOOD, "Solid": UI.MUTED, "Miss": UI.WARN, "Bust": UI.BAD}[vd]
 		var card := PanelContainer.new()
 		card.add_theme_stylebox_override("panel", UI.box(UI.CARD, 16, 18))
 		lv.add_child(card)
@@ -453,6 +456,10 @@ func _show_results() -> void:
 		show.append(Draft.user_team)
 	for t in show:
 		var mine_row: bool = t == Draft.user_team
+		if mine_row and ranked.find(t) > 3:
+			var dots := UI.label("···", 24, UI.MUTED)
+			dots.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+			lv.add_child(dots)
 		var tc := PanelContainer.new()
 		var tsb := UI.box(UI.CARD, 14, 14)
 		if mine_row:
@@ -465,7 +472,7 @@ func _show_results() -> void:
 		tc.add_child(th)
 		th.add_child(UI.label("#%d" % (ranked.find(t) + 1), 22, UI.MUTED, true))
 		th.add_child(_badge(t, 36))
-		th.add_child(_expand(UI.label(("You · " if mine_row else "") + Draft.team_name(t), 23)))
+		th.add_child(_expand(UI.label(("You · " + Draft.TEAMS[t][1]) if mine_row else Draft.team_name(t), 23)))
 		th.add_child(UI.label(Draft.team_grade(t).letter, 26))
 	var again := UI.button("New draft", UI.ACCENT, UI.BG, 96, 30)
 	again.pressed.connect(func():
@@ -474,8 +481,14 @@ func _show_results() -> void:
 	vb.add_child(again)
 
 
-func _section(text: String) -> Label:
-	return UI.label(text.to_upper(), 18, UI.MUTED)
+## Tiêu đề mục: chữ hoa, cách trên 24px / dưới 12px (trừ separation của VBox).
+func _section(text: String, top: int = 24) -> Label:
+	var l := UI.label(text.to_upper(), 18, UI.MUTED)
+	var sb := StyleBoxEmpty.new()
+	sb.content_margin_top = maxi(0, top - 8)
+	sb.content_margin_bottom = 4
+	l.add_theme_stylebox_override("normal", sb)
+	return l
 
 
 func _ranked_teams() -> Array:

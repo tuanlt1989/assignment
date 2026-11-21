@@ -230,7 +230,7 @@ func verdict(p: Dictionary) -> String:
 	if d >= -3.0:
 		return "Solid"
 	if d >= -6.0:
-		return "Disappointment"
+		return "Miss"
 	return "Bust"
 
 
