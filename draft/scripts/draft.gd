@@ -72,6 +72,18 @@ func shuffle_order() -> void:
 	base_order.shuffle()
 
 
+## Nhu cầu đội cố định theo đội (để hiện ở màn chọn đội trước khi draft).
+func team_needs_preview(team: int) -> Array:
+	var r := RandomNumberGenerator.new()
+	r.seed = hash(str(team) + str(base_order))
+	var n: Array = []
+	while n.size() < 3:
+		var p: String = POSITIONS[r.randi() % POSITIONS.size()]
+		if p not in n:
+			n.append(p)
+	return n
+
+
 func first_pick_of(team: int) -> int:
 	return base_order.find(team) + 1
 
@@ -85,12 +97,7 @@ func new_draft(num_rounds: int, team: int) -> void:
 		order.append_array(base_order)
 	needs.clear()
 	for i in TEAMS.size():
-		var n: Array = []
-		while n.size() < 3:
-			var p: String = POSITIONS.pick_random()
-			if p not in n:
-				n.append(p)
-		needs.append(n)
+		needs.append(team_needs_preview(i))
 	_generate(rounds * PICKS_PER_ROUND + 64)
 	picks.clear()
 	current = 0

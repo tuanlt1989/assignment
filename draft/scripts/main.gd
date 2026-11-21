@@ -90,12 +90,18 @@ func _show_team_select() -> void:
 	col.size_flags_horizontal = SIZE_EXPAND_FILL
 	col.add_theme_constant_override("separation", 8)
 	sc.add_child(col)
-	for i in Draft.TEAMS.size():
+	col.add_child(_section("Teams · sorted by first pick"))
+	for i in Draft.base_order:
 		var team: int = i
-		var b := _row_button(84)
+		var b := _row_button(92)
 		var row := _row_box(b)
 		row.add_child(_badge(team, 44))
-		row.add_child(_expand(UI.label(Draft.team_name(team), 27)))
+		var tv := VBoxContainer.new()
+		tv.add_theme_constant_override("separation", 0)
+		tv.mouse_filter = MOUSE_FILTER_IGNORE
+		row.add_child(_expand(tv))
+		tv.add_child(UI.label(Draft.team_name(team), 27))
+		tv.add_child(UI.label("Needs " + ", ".join(Draft.team_needs_preview(team)), 21, UI.MUTED, true))
 		var fp := UI.label("Pick #%d" % Draft.first_pick_of(team), 21, UI.MUTED, true)
 		fp.size_flags_vertical = SIZE_SHRINK_CENTER
 		row.add_child(fp)
@@ -107,6 +113,7 @@ func _show_team_select() -> void:
 func _confirm_team(team: int) -> void:
 	Draft.new_draft(rounds_choice, team)
 	var vb := _sheet()
+	var fp := Draft.next_user_pick() + 1
 	var hb := HBoxContainer.new()
 	hb.add_theme_constant_override("separation", 18)
 	vb.add_child(hb)
@@ -118,7 +125,7 @@ func _confirm_team(team: int) -> void:
 	hv.add_child(UI.label(Draft.TEAMS[team][1], 38))
 	var nd: Array = Draft.needs[team]
 	vb.add_child(_stats([
-		["#%d" % (Draft.next_user_pick() + 1), "First pick"],
+		["#%d" % fp, "First pick of 32"],
 		["%d" % rounds_choice, "Rounds"],
 		[", ".join(nd), "Team needs"],
 	]))
@@ -170,8 +177,8 @@ func _show_draft_room() -> void:
 	vb.add_child(cm)
 	var cols := HBoxContainer.new()
 	cm.add_child(cols)
-	cols.add_child(_expand(UI.label("Player", 19, UI.MUTED, true)))
-	cols.add_child(UI.label("Grade", 19, UI.MUTED, true))
+	cols.add_child(_expand(_section("Player")))
+	cols.add_child(_section("Grade"))
 	var sc := _scroll()
 	vb.add_child(sc)
 	list = VBoxContainer.new()
@@ -205,7 +212,7 @@ func _refresh_room() -> void:
 	var nd: Array = Draft.needs[Draft.user_team]
 	for c in tabs_box.get_children():
 		c.queue_free()
-	var needs_txt := "Team needs" + ("" if nd.is_empty() else " (%s)" % ", ".join(nd))
+	var needs_txt := "Team needs" + ("" if nd.is_empty() else "  ·  %d" % nd.size())
 	tabs_box.add_child(_segmented(["All players", needs_txt], 1 if show_needs else 0, func(i: int):
 		show_needs = i == 1
 		_refresh_room()))
@@ -374,32 +381,34 @@ func _show_results() -> void:
 	gv.add_child(UI.label("Ranked #%d of 32 classes" % _league_rank(Draft.user_team), 23, UI.MUTED, true))
 	letter.pivot_offset = Vector2(40, 80)
 	letter.scale = Vector2(0.3, 0.3)
+	letter.modulate.a = 0.0
+	letter.create_tween().tween_property(letter, "modulate:a", 1.0, 0.3)
 	letter.create_tween().tween_property(letter, "scale", Vector2.ONE, 0.45).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 
 	var mine := Draft.team_picks(Draft.user_team)
+	var sc := _scroll()
+	vb.add_child(sc)
+	var lv := VBoxContainer.new()
+	lv.size_flags_horizontal = SIZE_EXPAND_FILL
+	lv.add_theme_constant_override("separation", 10)
+	sc.add_child(lv)
 	var best: Dictionary = mine[0]
 	for e in mine:
 		if Draft.true_rating(e.player) - e.player.grade >= Draft.true_rating(best.player) - best.player.grade:
 			best = e
 	var bp: Dictionary = best.player
-	var bc := PanelContainer.new()
-	var bsb := UI.box(UI.CARD, 14, 18)
-	bsb.border_width_left = 6
-	bsb.border_color = UI.GOOD
-	bc.add_theme_stylebox_override("panel", bsb)
-	vb.add_child(bc)
-	var bv := VBoxContainer.new()
-	bv.add_theme_constant_override("separation", 0)
-	bc.add_child(bv)
-	bv.add_child(UI.label("Best value", 19, UI.MUTED, true))
-	bv.add_child(UI.label("%s at pick %d  (%+.1f vs. grade)" % [bp.name, best.pick + 1, Draft.true_rating(bp) - bp.grade], 25))
-	vb.add_child(UI.label("Your class", 19, UI.MUTED, true))
-	var sc := _scroll()
-	vb.add_child(sc)
-	var lv := VBoxContainer.new()
-	lv.size_flags_horizontal = SIZE_EXPAND_FILL
-	lv.add_theme_constant_override("separation", 8)
-	sc.add_child(lv)
+	if mine.size() > 1 and Draft.true_rating(bp) > bp.grade:
+		var bc := PanelContainer.new()
+		var bsb := UI.box(UI.CARD, 14, 18)
+		bsb.border_width_left = 6
+		bsb.border_color = UI.GOOD
+		bc.add_theme_stylebox_override("panel", bsb)
+		lv.add_child(bc)
+		var story := UI.label("Steal of your draft: %s was graded %.1f and is really %.1f." % [bp.name, bp.grade, Draft.true_rating(bp)], 24, UI.TEXT, true)
+		story.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		bc.add_child(story)
+	lv.add_child(_section("Your class · true ratings"))
+	var delay := 0.5
 	for e in mine:
 		var pl: Dictionary = e.player
 		var tr := Draft.true_rating(pl)
@@ -426,25 +435,47 @@ func _show_results() -> void:
 		var dl := UI.label("%+.1f" % (tr - pl.grade), 20, vcol, true)
 		dl.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 		vv.add_child(dl)
-	vb.add_child(UI.label("Top classes", 19, UI.MUTED, true))
-	var tops := HBoxContainer.new()
-	tops.add_theme_constant_override("separation", 10)
-	vb.add_child(tops)
-	for t in _ranked_teams().slice(0, 3):
+		# lộ diện lần lượt
+		card.modulate.a = 0.0
+		var tw := card.create_tween()
+		tw.tween_interval(delay)
+		tw.tween_property(card, "modulate:a", 1.0, 0.25)
+		if vd == "Steal":
+			tw.tween_callback(func(): Input.vibrate_handheld(30))
+		delay += 0.08
+	var gap := Control.new()
+	gap.custom_minimum_size = Vector2(0, 12)
+	lv.add_child(gap)
+	lv.add_child(_section("League leaderboard"))
+	var ranked := _ranked_teams()
+	var show: Array = ranked.slice(0, 3)
+	if Draft.user_team not in show:
+		show.append(Draft.user_team)
+	for t in show:
+		var mine_row: bool = t == Draft.user_team
 		var tc := PanelContainer.new()
-		tc.add_theme_stylebox_override("panel", UI.box(UI.CARD, 14, 14))
-		tops.add_child(_expand(tc))
+		var tsb := UI.box(UI.CARD, 14, 14)
+		if mine_row:
+			tsb.set_border_width_all(2)
+			tsb.border_color = Color(1, 1, 1, 0.25)
+		tc.add_theme_stylebox_override("panel", tsb)
+		lv.add_child(tc)
 		var th := HBoxContainer.new()
-		th.add_theme_constant_override("separation", 10)
+		th.add_theme_constant_override("separation", 14)
 		tc.add_child(th)
+		th.add_child(UI.label("#%d" % (ranked.find(t) + 1), 22, UI.MUTED, true))
 		th.add_child(_badge(t, 36))
-		th.add_child(_expand(UI.label(Draft.TEAMS[t][1], 21)))
-		th.add_child(UI.label(Draft.team_grade(t).letter, 26, UI.TEXT))
+		th.add_child(_expand(UI.label(("You · " if mine_row else "") + Draft.team_name(t), 23)))
+		th.add_child(UI.label(Draft.team_grade(t).letter, 26))
 	var again := UI.button("New draft", UI.ACCENT, UI.BG, 96, 30)
 	again.pressed.connect(func():
 		Draft.shuffle_order()
 		_show_team_select())
 	vb.add_child(again)
+
+
+func _section(text: String) -> Label:
+	return UI.label(text.to_upper(), 18, UI.MUTED)
 
 
 func _ranked_teams() -> Array:
