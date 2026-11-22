@@ -42,11 +42,11 @@ static func outline_button(text: String, fg: Color, h: float = 72, fs: int = 24)
 	return b
 
 
-static func style(b: Button, bg: Color, fg: Color) -> void:
-	b.add_theme_stylebox_override("normal", box(bg))
-	b.add_theme_stylebox_override("hover", box(bg.lightened(0.04) if bg.a > 0 else Color(1, 1, 1, 0.03)))
-	b.add_theme_stylebox_override("pressed", box(bg.darkened(0.1) if bg.a > 0 else Color(1, 1, 1, 0.06)))
-	b.add_theme_stylebox_override("disabled", box(bg.darkened(0.5) if bg.a > 0 else Color(0, 0, 0, 0)))
+static func style(b: Button, bg: Color, fg: Color, radius: int = 16) -> void:
+	b.add_theme_stylebox_override("normal", box(bg, radius))
+	b.add_theme_stylebox_override("hover", box(bg.lightened(0.04) if bg.a > 0 else Color(1, 1, 1, 0.03), radius))
+	b.add_theme_stylebox_override("pressed", box(bg.darkened(0.1) if bg.a > 0 else Color(1, 1, 1, 0.06), radius))
+	b.add_theme_stylebox_override("disabled", box(bg.darkened(0.5) if bg.a > 0 else Color(0, 0, 0, 0), radius))
 	b.add_theme_stylebox_override("focus", StyleBoxEmpty.new())
 	for k in ["font_color", "font_hover_color", "font_pressed_color"]:
 		b.add_theme_color_override(k, fg)
@@ -61,6 +61,7 @@ static func button(text: String, bg: Color, fg: Color, h: float = 88, fs: int = 
 	b.add_theme_font_size_override("font_size", fs)
 	style(b, bg, fg)
 	b.button_down.connect(func():
+		click()
 		b.pivot_offset = b.size / 2.0
 		b.create_tween().tween_property(b, "scale", Vector2(0.98, 0.98), 0.05))
 	b.button_up.connect(func(): b.create_tween().tween_property(b, "scale", Vector2.ONE, 0.08))
@@ -91,6 +92,13 @@ static func display(text: String, fs: int, color: Color = TEXT) -> Label:
 	var l := label(text.to_upper(), fs, color)
 	l.add_theme_font_override("font", DISPLAY)
 	return l
+
+
+## Tiếng bấm nhẹ (qua autoload Sfx nếu có).
+static func click() -> void:
+	var sfx: Node = (Engine.get_main_loop() as SceneTree).root.get_node_or_null("Sfx")
+	if sfx:
+		sfx.play("tap", -8.0)
 
 
 static func label(text: String, fs: int, color: Color = TEXT, regular: bool = false) -> Label:

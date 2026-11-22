@@ -2,6 +2,7 @@ extends Control
 ## Màn hình: chọn đội -> phòng draft -> kết quả (+ chia sẻ). UI dựng bằng code.
 
 const UI := preload("res://scripts/ui.gd")
+const GLASS := preload("res://scripts/glass.gdshader")
 const PICK_DELAY := 0.45
 const PAD := 24
 const TICKER_LEN := 6
@@ -153,7 +154,7 @@ func _show_draft_room() -> void:
 	var vb := _page()
 	vb.add_theme_constant_override("separation", 14)
 	# header có màu đội
-	var tp := _team_panel(Draft.team_color(Draft.user_team), 22, 18)
+	var tp := _team_panel(Draft.team_color(Draft.user_team), 32, 18)
 	vb.add_child(tp[0])
 	var hv := VBoxContainer.new()
 	hv.add_theme_constant_override("separation", 2)
@@ -281,6 +282,7 @@ func _refresh_chips() -> void:
 		var txt := "All" if key == "ALL" else ("Needs · %d" % nd.size() if key == "NEEDS" else key)
 		var col: Color = POS_COLORS.get(key, UI.TEXT)
 		var b := UI.button(txt, col if on else Color(1, 1, 1, 0.06), UI.BG if on else UI.TEXT, 56, 22)
+		UI.style(b, col if on else Color(1, 1, 1, 0.06), UI.BG if on else UI.TEXT, 28)
 		b.custom_minimum_size.x = 76
 		b.pressed.connect(func():
 			filter = key
@@ -302,7 +304,7 @@ func _refresh_list() -> void:
 		if filter != "ALL" and filter != "NEEDS" and p.pos != filter:
 			continue
 		shown += 1
-		list.add_child(_player_row(p, shown, p.pos in nd))
+		list.add_child(_featured_row(p, p.pos in nd) if shown == 1 else _player_row(p, shown, p.pos in nd))
 		if shown >= 40:
 			break
 	if shown == 0:
@@ -331,6 +333,43 @@ func _player_row(p: Dictionary, idx: int, need: bool) -> Button:
 	if need:
 		meta.add_child(UI.pill("NEED", UI.INFO, 16, true))
 	var g := UI.label("%.1f" % p.grade, 32)
+	g.size_flags_vertical = SIZE_SHRINK_CENTER
+	row.add_child(g)
+	b.pressed.connect(func(): _open_card(p))
+	return b
+
+
+## Dòng nổi bật cho cầu thủ tốt nhất còn lại: to hơn, bo góc lớn, tên kiểu display.
+func _featured_row(p: Dictionary, need: bool) -> Button:
+	var b := Button.new()
+	b.custom_minimum_size = Vector2(0, 124)
+	b.focus_mode = FOCUS_NONE
+	b.size_flags_horizontal = SIZE_EXPAND_FILL
+	UI.style(b, Color("1a2540"), UI.TEXT, 28)
+	var nsb: StyleBoxFlat = b.get_theme_stylebox("normal").duplicate()
+	nsb.set_border_width_all(1)
+	nsb.border_color = Color(POS_COLORS[p.pos], 0.5)
+	b.add_theme_stylebox_override("normal", nsb)
+	b.button_down.connect(UI.click)
+	var row := _row_box(b)
+	row.offset_left = 24
+	row.offset_right = -24
+	var info := VBoxContainer.new()
+	info.alignment = BoxContainer.ALIGNMENT_CENTER
+	info.add_theme_constant_override("separation", 0)
+	info.mouse_filter = MOUSE_FILTER_IGNORE
+	row.add_child(_expand(info))
+	info.add_child(UI.label("BEST AVAILABLE", 17, Color(POS_COLORS[p.pos], 0.95)))
+	info.add_child(UI.display(p.name, 46))
+	var meta := HBoxContainer.new()
+	meta.add_theme_constant_override("separation", 10)
+	meta.mouse_filter = MOUSE_FILTER_IGNORE
+	info.add_child(meta)
+	meta.add_child(_pos_pill(p.pos, 17))
+	meta.add_child(UI.label(p.college, 21, UI.MUTED, true))
+	if need:
+		meta.add_child(UI.pill("NEED", UI.INFO, 16, true))
+	var g := UI.display("%.1f" % p.grade, 64)
 	g.size_flags_vertical = SIZE_SHRINK_CENTER
 	row.add_child(g)
 	b.pressed.connect(func(): _open_card(p))
@@ -418,6 +457,7 @@ func _trait_bar(trait_name: String, val: int, col: Color) -> HBoxContainer:
 func _on_pick_made(_pick: int, team: int, player: Dictionary) -> void:
 	if fast or state != "room":
 		return
+	Sfx.play("pick" if team == Draft.user_team else "tick", 0.0 if team == Draft.user_team else -14.0)
 	if is_instance_valid(sheet) and team != Draft.user_team:
 		_close_card()
 		_toast("%s was just taken" % player.name)
@@ -429,6 +469,7 @@ func _on_pick_made(_pick: int, team: int, player: Dictionary) -> void:
 func _on_clock_fx() -> void:
 	if not Draft.is_user_turn():
 		return
+	Sfx.play("clock", -4.0)
 	clock_label.pivot_offset = Vector2(0, clock_label.size.y / 2.0)
 	var tw := clock_label.create_tween()
 	tw.tween_property(clock_label, "scale", Vector2(1.05, 1.05), 0.12)
@@ -447,7 +488,7 @@ func _show_results() -> void:
 	vb.add_theme_constant_override("separation", 14)
 	var mine := Draft.team_picks(Draft.user_team)
 	# hero: nền pha màu đội
-	var hp := _team_panel(Draft.team_color(Draft.user_team), 28, 18)
+	var hp := _team_panel(Draft.team_color(Draft.user_team), 40, 20)
 	vb.add_child(hp[0])
 	var gh := HBoxContainer.new()
 	gh.add_theme_constant_override("separation", 22)
@@ -598,7 +639,9 @@ func _class_row(e: Dictionary, delay: float) -> PanelContainer:
 	tw.tween_property(card, "modulate:a", 1.0, 0.25)
 	tw.tween_method(func(v: float): ml.text = base_txt + "%.1f" % v, pl.grade, tr, 0.6).set_ease(Tween.EASE_OUT)
 	if vd == "Steal":
-		tw.tween_callback(func(): Input.vibrate_handheld(30))
+		tw.tween_callback(func():
+			Sfx.play("steal", -4.0)
+			Input.vibrate_handheld(30))
 	return card
 
 
@@ -609,7 +652,9 @@ func _stamp(letter: Label) -> void:
 	var st := letter.create_tween().set_parallel()
 	st.tween_property(letter, "modulate:a", 1.0, 0.18)
 	st.tween_property(letter, "scale", Vector2.ONE, 0.28).set_trans(Tween.TRANS_QUART).set_ease(Tween.EASE_IN)
-	st.chain().tween_callback(func(): Input.vibrate_handheld(35))
+	st.chain().tween_callback(func():
+		Sfx.play("stamp")
+		Input.vibrate_handheld(35))
 	st.chain().tween_property(letter, "scale", Vector2(1.06, 1.06), 0.06)
 	st.chain().tween_property(letter, "scale", Vector2.ONE, 0.1)
 
@@ -693,7 +738,10 @@ func _page() -> VBoxContainer:
 func _sheet(tint: Color = Color(0, 0, 0, 0)) -> VBoxContainer:
 	_close_card()
 	var dim := ColorRect.new()
-	dim.color = Color(0, 0, 0, 0.7)
+	dim.color = Color(1, 1, 1, 1)
+	var gm := ShaderMaterial.new()
+	gm.shader = GLASS
+	dim.material = gm
 	dim.set_anchors_preset(PRESET_FULL_RECT)
 	dim.gui_input.connect(func(ev: InputEvent):
 		if ev is InputEventMouseButton and ev.pressed:
@@ -743,6 +791,13 @@ func _sheet(tint: Color = Color(0, 0, 0, 0)) -> VBoxContainer:
 	vb.add_child(handle)
 	dim.modulate.a = 0.0
 	dim.create_tween().tween_property(dim, "modulate:a", 1.0, 0.15)
+	# trượt lên kiểu lò xo sau khi bố cục xong
+	get_tree().process_frame.connect(func():
+		if not is_instance_valid(panel):
+			return
+		var y := panel.position.y
+		panel.position.y = y + 220.0
+		panel.create_tween().tween_property(panel, "position:y", y, 0.5).set_trans(Tween.TRANS_SPRING).set_ease(Tween.EASE_OUT), CONNECT_ONE_SHOT)
 	return vb
 
 
@@ -789,6 +844,7 @@ func _row_button(h: float, edge: Color = Color(0, 0, 0, 0)) -> Button:
 	b.focus_mode = FOCUS_NONE
 	b.size_flags_horizontal = SIZE_EXPAND_FILL
 	UI.style(b, UI.CARD, UI.TEXT)
+	b.button_down.connect(UI.click)
 	if edge.a > 0:
 		b.clip_children = CanvasItem.CLIP_CHILDREN_AND_DRAW
 		var stripe := ColorRect.new()

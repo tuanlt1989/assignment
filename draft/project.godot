@@ -9,6 +9,7 @@ config/icon="res://icon.png"
 
 [autoload]
 Draft="*res://scripts/draft.gd"
+Sfx="*res://scripts/sfx.gd"
 
 [display]
 window/size/viewport_width=720
