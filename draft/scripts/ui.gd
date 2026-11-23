@@ -4,16 +4,19 @@ extends RefCounted
 const BOLD := preload("res://fonts/Roboto-Bold.ttf")
 const REGULAR := preload("res://fonts/Roboto-Regular.ttf")
 const DISPLAY := preload("res://fonts/BebasNeue.woff2")
-const BG := Color("0b1220")
-const CARD := Color("141c2f")
-const LINE := Color(1, 1, 1, 0.08)
-const TEXT := Color("f1f5f9")
-const MUTED := Color("a3adbf")
-const ACCENT := Color("ffb020")
-const GOOD := Color("4ade80")
-const INFO := Color("2dd4bf")
-const WARN := Color("fb923c")
-const BAD := Color("f87171")
+## Phong cách sáng: nền trắng ngà, xanh sân cỏ làm màu chính, vàng làm điểm nhấn.
+const BG := Color("f3f4ee")
+const CARD := Color("ffffff")
+const INK := Color("11261b")
+const LINE := Color(0.07, 0.15, 0.1, 0.08)
+const TEXT := Color("11261b")
+const MUTED := Color("6b7a71")
+const ACCENT := Color("1f5c3a")
+const GOLD := Color("e8a20c")
+const GOOD := Color("15803d")
+const INFO := Color("0f766e")
+const WARN := Color("c2410c")
+const BAD := Color("dc2626")
 
 
 static func box(c: Color, radius: int = 16, margin: int = 16) -> StyleBoxFlat:
@@ -23,11 +26,11 @@ static func box(c: Color, radius: int = 16, margin: int = 16) -> StyleBoxFlat:
 	sb.set_content_margin_all(margin)
 	sb.anti_aliasing = true
 	if c == CARD:
-		sb.shadow_color = Color(0, 0, 0, 0.35)
-		sb.shadow_size = 6
-		sb.shadow_offset = Vector2(0, 3)
-		sb.border_width_top = 1
-		sb.border_color = Color(1, 1, 1, 0.06)
+		sb.shadow_color = Color(0, 0, 0, 0.05)
+		sb.shadow_size = 8
+		sb.shadow_offset = Vector2(0, 2)
+		sb.set_border_width_all(1)
+		sb.border_color = LINE
 	return sb
 
 
@@ -44,8 +47,8 @@ static func outline_button(text: String, fg: Color, h: float = 72, fs: int = 24)
 
 static func style(b: Button, bg: Color, fg: Color, radius: int = 16) -> void:
 	b.add_theme_stylebox_override("normal", box(bg, radius))
-	b.add_theme_stylebox_override("hover", box(bg.lightened(0.04) if bg.a > 0 else Color(1, 1, 1, 0.03), radius))
-	b.add_theme_stylebox_override("pressed", box(bg.darkened(0.1) if bg.a > 0 else Color(1, 1, 1, 0.06), radius))
+	b.add_theme_stylebox_override("hover", box(bg.lightened(0.04) if bg.a > 0 else Color(INK, 0.03), radius))
+	b.add_theme_stylebox_override("pressed", box(bg.darkened(0.1) if bg.a > 0 else Color(INK, 0.06), radius))
 	b.add_theme_stylebox_override("disabled", box(bg.darkened(0.5) if bg.a > 0 else Color(0, 0, 0, 0), radius))
 	b.add_theme_stylebox_override("focus", StyleBoxEmpty.new())
 	for k in ["font_color", "font_hover_color", "font_pressed_color"]:

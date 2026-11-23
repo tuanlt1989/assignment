@@ -4,7 +4,7 @@ extends Control
 const UI := preload("res://scripts/ui.gd")
 const GLASS := preload("res://scripts/glass.gdshader")
 const PICK_DELAY := 0.45
-const PAD := 24
+const PAD := 28
 const TICKER_LEN := 6
 const POS_COLORS := {
 	"QB": Color("f59e0b"), "RB": Color("22c55e"), "WR": Color("3b82f6"), "TE": Color("14b8a6"),
@@ -25,7 +25,7 @@ const POS_NOTES := {
 	"S": ["Rangy center fielder", "Box safety who tackles well"],
 }
 const VERDICT_COLORS := {
-	"Steal": Color("4ade80"), "Solid": Color("94a3b8"), "Miss": Color("f26b3a"), "Bust": Color("ef4444"),
+	"Steal": Color("15803d"), "Solid": Color("64748b"), "Miss": Color("c2410c"), "Bust": Color("dc2626"),
 }
 
 var screen: Control
@@ -214,7 +214,7 @@ func _show_draft_room() -> void:
 	vb.add_child(sc)
 	list = VBoxContainer.new()
 	list.size_flags_horizontal = SIZE_EXPAND_FILL
-	list.add_theme_constant_override("separation", 8)
+	list.add_theme_constant_override("separation", 10)
 	sc.add_child(list)
 	_refresh_room()
 
@@ -254,7 +254,7 @@ func _refresh_ticker() -> void:
 		var t: int = Draft.order[i]
 		var mine := t == Draft.user_team
 		var pc := PanelContainer.new()
-		var sb := UI.box(Color(1, 1, 1, 0.08) if i == Draft.current else Color(1, 1, 1, 0.03), 14, 8)
+		var sb := UI.box(Color(UI.INK, 0.08) if i == Draft.current else Color(UI.INK, 0.03), 14, 8)
 		if mine:
 			sb.set_border_width_all(2)
 			sb.border_color = UI.ACCENT
@@ -281,8 +281,8 @@ func _refresh_chips() -> void:
 		var on := key == filter
 		var txt := "All" if key == "ALL" else ("Needs · %d" % nd.size() if key == "NEEDS" else key)
 		var col: Color = POS_COLORS.get(key, UI.TEXT)
-		var b := UI.button(txt, col if on else Color(1, 1, 1, 0.06), UI.BG if on else UI.TEXT, 56, 22)
-		UI.style(b, col if on else Color(1, 1, 1, 0.06), UI.BG if on else UI.TEXT, 28)
+		var b := UI.button(txt, col if on else Color(UI.INK, 0.06), UI.BG if on else UI.TEXT, 56, 22)
+		UI.style(b, col if on else Color(UI.INK, 0.06), UI.BG if on else UI.TEXT, 28)
 		b.custom_minimum_size.x = 76
 		b.pressed.connect(func():
 			filter = key
@@ -312,7 +312,7 @@ func _refresh_list() -> void:
 
 
 func _player_row(p: Dictionary, idx: int, need: bool) -> Button:
-	var b := _row_button(88)
+	var b := _row_button(96)
 	var row := _row_box(b)
 	var rk := UI.label("%d" % idx, 24, UI.MUTED, true)
 	rk.custom_minimum_size = Vector2(44, 0)
@@ -345,7 +345,7 @@ func _featured_row(p: Dictionary, need: bool) -> Button:
 	b.custom_minimum_size = Vector2(0, 124)
 	b.focus_mode = FOCUS_NONE
 	b.size_flags_horizontal = SIZE_EXPAND_FILL
-	UI.style(b, Color("1a2540"), UI.TEXT, 28)
+	UI.style(b, Color("eaf2ec"), UI.TEXT, 28)
 	var nsb: StyleBoxFlat = b.get_theme_stylebox("normal").duplicate()
 	nsb.set_border_width_all(1)
 	nsb.border_color = Color(POS_COLORS[p.pos], 0.5)
@@ -398,7 +398,7 @@ func _open_card(p: Dictionary) -> void:
 	vb.add_child(bars)
 	for tr in Draft.traits(p):
 		var tv: int = tr[1]
-		bars.add_child(_trait_bar(tr[0], tv, UI.GOOD if tv >= 75 else (Color("60a5fa") if tv >= 60 else Color("64748b"))))
+		bars.add_child(_trait_bar(tr[0], tv, UI.GOOD if tv >= 75 else (Color("2563eb") if tv >= 60 else Color("94a3b8"))))
 	var rep := _scout_report(p)
 	var sg := GridContainer.new()
 	sg.columns = 2
@@ -416,7 +416,7 @@ func _open_card(p: Dictionary) -> void:
 	var bh := HBoxContainer.new()
 	bh.add_theme_constant_override("separation", 12)
 	vb.add_child(bh)
-	var back := UI.button("Back", Color(1, 1, 1, 0.08), UI.TEXT, 96, 28)
+	var back := UI.button("Back", Color(UI.INK, 0.08), UI.TEXT, 96, 28)
 	back.size_flags_horizontal = SIZE_EXPAND_FILL
 	back.size_flags_stretch_ratio = 0.45
 	back.pressed.connect(_close_card)
@@ -444,7 +444,7 @@ func _trait_bar(trait_name: String, val: int, col: Color) -> HBoxContainer:
 	bar.size_flags_vertical = SIZE_SHRINK_CENTER
 	var frac := float(val) / 99.0
 	bar.draw.connect(func():
-		bar.draw_rect(Rect2(Vector2.ZERO, bar.size), Color(1, 1, 1, 0.08))
+		bar.draw_rect(Rect2(Vector2.ZERO, bar.size), Color(UI.INK, 0.08))
 		bar.draw_rect(Rect2(Vector2.ZERO, Vector2(bar.size.x * frac, bar.size.y)), col))
 	h.add_child(bar)
 	var v := UI.label("%d" % val, 22)
@@ -522,9 +522,9 @@ func _show_results() -> void:
 		delay += 0.08
 	# mồi Pro (chưa mở bán)
 	var pro := PanelContainer.new()
-	var psb := UI.box(Color(1, 1, 1, 0.05), 20, 18)
+	var psb := UI.box(Color(UI.INK, 0.05), 20, 18)
 	psb.set_border_width_all(1)
-	psb.border_color = Color(1, 1, 1, 0.15)
+	psb.border_color = Color(UI.INK, 0.15)
 	pro.add_theme_stylebox_override("panel", psb)
 	lv.add_child(pro)
 	var ph := HBoxContainer.new()
@@ -535,7 +535,7 @@ func _show_results() -> void:
 	pt.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	ph.add_child(_expand(pt))
 	var on_list := _pro_interest()
-	var unlock := UI.button("On the list" if on_list else "Notify me", Color(1, 1, 1, 0.08), UI.TEXT, 56, 22)
+	var unlock := UI.button("On the list" if on_list else "Notify me", Color(UI.INK, 0.08), UI.TEXT, 56, 22)
 	unlock.custom_minimum_size.x = 150
 	unlock.disabled = on_list
 	unlock.size_flags_vertical = SIZE_SHRINK_CENTER
@@ -677,32 +677,35 @@ func _open_share() -> void:
 	# thẻ xem trước
 	var card := PanelContainer.new()
 	var col := Draft.team_color(Draft.user_team)
-	card.add_theme_stylebox_override("panel", UI.box(_tint(col, 0.3), 24, 28))
+	var csb := UI.box(Color("123d27"), 24, 30)
+	csb.set_border_width_all(3)
+	csb.border_color = UI.GOLD
+	card.add_theme_stylebox_override("panel", csb)
 	vb.add_child(card)
 	var cv := VBoxContainer.new()
 	cv.add_theme_constant_override("separation", 6)
 	card.add_child(cv)
-	cv.add_child(UI.display("Mock Draft GM", 30, UI.MUTED))
+	cv.add_child(UI.display("Mock Draft GM  ·  Football Draft", 28, UI.GOLD))
 	var gr := HBoxContainer.new()
 	gr.add_theme_constant_override("separation", 20)
 	cv.add_child(gr)
 	gr.add_child(_badge(Draft.user_team, 96))
 	var lt: String = Draft.team_grade(Draft.user_team).letter
-	gr.add_child(UI.display(lt, 150, _tier_color(lt)))
-	cv.add_child(UI.display(Draft.team_name(Draft.user_team), 44))
-	cv.add_child(UI.label("Class ranked #%d of 32" % _league_rank(Draft.user_team), 22, UI.MUTED, true))
+	gr.add_child(UI.display(lt, 150, Color.WHITE))
+	cv.add_child(UI.display(Draft.team_name(Draft.user_team), 44, UI.GOLD))
+	cv.add_child(UI.label("Class ranked #%d of 32  ·  Can you beat my draft?" % _league_rank(Draft.user_team), 22, Color(1, 1, 1, 0.7), true))
 	for e in Draft.team_picks(Draft.user_team).slice(0, 4):
 		var r := HBoxContainer.new()
 		r.add_theme_constant_override("separation", 10)
 		cv.add_child(r)
-		r.add_child(UI.label("#%d" % (e.pick + 1), 21, UI.MUTED, true))
-		r.add_child(_expand(UI.label(e.player.name, 23)))
+		r.add_child(UI.label("#%d" % (e.pick + 1), 21, Color(1, 1, 1, 0.6), true))
+		r.add_child(_expand(UI.label(e.player.name, 23, Color.WHITE)))
 		var vd := Draft.verdict(e.player)
 		r.add_child(UI.pill(vd.to_upper(), VERDICT_COLORS[vd], 16, false, true))
 	var bh := HBoxContainer.new()
 	bh.add_theme_constant_override("separation", 12)
 	vb.add_child(bh)
-	var copy := UI.button("Copy", Color(1, 1, 1, 0.08), UI.TEXT, 88, 26)
+	var copy := UI.button("Copy", Color(UI.INK, 0.08), UI.TEXT, 88, 26)
 	copy.size_flags_horizontal = SIZE_EXPAND_FILL
 	copy.size_flags_stretch_ratio = 0.5
 	copy.pressed.connect(func():
@@ -738,7 +741,7 @@ func _page() -> VBoxContainer:
 func _sheet(tint: Color = Color(0, 0, 0, 0)) -> VBoxContainer:
 	_close_card()
 	var dim := ColorRect.new()
-	dim.color = Color(1, 1, 1, 1)
+	dim.color = Color(UI.INK, 1)
 	var gm := ShaderMaterial.new()
 	gm.shader = GLASS
 	dim.material = gm
@@ -787,7 +790,7 @@ func _sheet(tint: Color = Color(0, 0, 0, 0)) -> VBoxContainer:
 	var handle := Panel.new()
 	handle.custom_minimum_size = Vector2(56, 6)
 	handle.size_flags_horizontal = SIZE_SHRINK_CENTER
-	handle.add_theme_stylebox_override("panel", UI.box(Color(1, 1, 1, 0.2), 3, 0))
+	handle.add_theme_stylebox_override("panel", UI.box(Color(UI.INK, 0.2), 3, 0))
 	vb.add_child(handle)
 	dim.modulate.a = 0.0
 	dim.create_tween().tween_property(dim, "modulate:a", 1.0, 0.15)
@@ -830,7 +833,7 @@ func _segmented(options: Array, selected: int, on_select: Callable) -> PanelCont
 	for i in options.size():
 		var idx: int = i
 		var on := idx == selected
-		var b := UI.button(options[idx], UI.TEXT if on else Color(0, 0, 0, 0), UI.BG if on else UI.MUTED, 60, 22)
+		var b := UI.button(options[idx], UI.ACCENT if on else Color(0, 0, 0, 0), UI.BG if on else UI.MUTED, 60, 22)
 		b.size_flags_horizontal = SIZE_EXPAND_FILL
 		b.clip_text = true
 		b.pressed.connect(func(): on_select.call(idx))
@@ -983,7 +986,8 @@ func _badge(t: int, d: float) -> Control:
 func _toast(msg: String) -> void:
 	var l := UI.label(msg, 26)
 	l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	l.add_theme_stylebox_override("normal", UI.box(Color("1f2a40"), 16, 18))
+	l.add_theme_stylebox_override("normal", UI.box(UI.INK, 16, 18))
+	l.add_theme_color_override("font_color", UI.BG)
 	l.z_index = 6
 	add_child(l)
 	l.size = Vector2(size.x - 2 * PAD, 0)
@@ -1049,9 +1053,9 @@ func _tier_color(l: String) -> Color:
 	if l.begins_with("A"):
 		return UI.GOOD
 	if l.begins_with("B"):
-		return Color("7dd3fc")
+		return Color("2563eb")
 	if l.begins_with("C"):
-		return UI.ACCENT
+		return Color("b7791f")
 	return UI.BAD
 
 
