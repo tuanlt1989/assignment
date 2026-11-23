@@ -44,6 +44,7 @@ var ticker: HBoxContainer
 var chips_box: HBoxContainer
 var list: VBoxContainer
 var sheet: Control
+var field: Control
 
 
 func _ready() -> void:
@@ -181,12 +182,13 @@ func _show_draft_room() -> void:
 	skip_btn.pressed.connect(func(): fast = true)
 	cr.add_child(skip_btn)
 	# dải lượt chọn sắp tới
+	field = _field_card(250)
+	vb.add_child(field)
 	ticker = HBoxContainer.new()
 	ticker.add_theme_constant_override("separation", 8)
 	vb.add_child(ticker)
 	last_label = UI.label("", 22, UI.MUTED, true)
-	last_label.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
-	vb.add_child(last_label)
+	last_label.visible = false
 	# chip lọc vị trí
 	var cs := ScrollContainer.new()
 	cs.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
@@ -205,9 +207,6 @@ func _show_draft_room() -> void:
 	var cols := HBoxContainer.new()
 	cols.add_theme_constant_override("separation", 14)
 	cm.add_child(cols)
-	var h1 := _section("#", 0)
-	h1.custom_minimum_size = Vector2(44, 0)
-	cols.add_child(h1)
 	cols.add_child(_expand(_section("Player", 0)))
 	cols.add_child(_section("Scout grade", 0))
 	var sc := _scroll()
@@ -247,28 +246,106 @@ func _refresh_room() -> void:
 	_refresh_list()
 
 
+## Thanh tiến trình các vòng: xong = xanh, đang chạy = viền vàng, chưa tới = xám.
 func _refresh_ticker() -> void:
 	for c in ticker.get_children():
 		c.queue_free()
-	for i in range(Draft.current, mini(Draft.current + TICKER_LEN, Draft.order.size())):
-		var t: int = Draft.order[i]
-		var mine := t == Draft.user_team
-		var pc := PanelContainer.new()
-		var sb := UI.box(Color(UI.INK, 0.08) if i == Draft.current else Color(UI.INK, 0.03), 14, 8)
-		if mine:
-			sb.set_border_width_all(2)
-			sb.border_color = UI.ACCENT
-		pc.add_theme_stylebox_override("panel", sb)
-		ticker.add_child(_expand(pc))
-		var v := VBoxContainer.new()
-		v.add_theme_constant_override("separation", 0)
-		pc.add_child(v)
-		var bd := _badge(t, 40)
-		bd.size_flags_horizontal = SIZE_SHRINK_CENTER
-		v.add_child(bd)
-		var l := UI.label(("#%d YOU" if mine else "#%d") % (i + 1), 18, UI.ACCENT if mine else UI.MUTED)
-		l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-		v.add_child(l)
+	if is_instance_valid(field):
+		field.queue_redraw()
+	var cur_round := mini(Draft.current / Draft.PICKS_PER_ROUND, Draft.rounds - 1)
+	for r in Draft.rounds:
+		if r > 0:
+			var line := ColorRect.new()
+			line.color = UI.ACCENT if r <= cur_round else Color(UI.INK, 0.12)
+			line.custom_minimum_size = Vector2(0, 3)
+			ticker.add_child(_expand(line))
+		var step := VBoxContainer.new()
+		step.add_theme_constant_override("separation", 2)
+		ticker.add_child(step)
+		var dot := PanelContainer.new()
+		var done := r < cur_round
+		var now := r == cur_round
+		var sb := UI.box(UI.ACCENT if done else (UI.CARD if now else Color(UI.INK, 0.06)), 20, 0)
+		if now:
+			sb.set_border_width_all(3)
+			sb.border_color = UI.GOLD
+		dot.add_theme_stylebox_override("panel", sb)
+		dot.custom_minimum_size = Vector2(40, 40)
+		dot.size_flags_horizontal = SIZE_SHRINK_CENTER
+		var n := UI.label("%d" % (r + 1), 20, UI.BG if done else (UI.TEXT if now else UI.MUTED))
+		n.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		n.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+		dot.add_child(n)
+		step.add_child(dot)
+		if Draft.rounds <= 4:
+			var l := UI.label("ROUND %d" % (r + 1), 15, UI.TEXT if now else UI.MUTED)
+			l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+			step.add_child(l)
+
+
+## Sân cỏ với áo đấu xếp theo đội hình: vị trí đã chọn = áo màu đội + họ cầu thủ,
+## vị trí đang cần = áo viền vàng, còn lại = áo mờ.
+const FORMATION := [
+	["WR", 0.1, 0.15], ["OT", 0.3, 0.15], ["IOL", 0.5, 0.15], ["TE", 0.7, 0.15], ["WR", 0.9, 0.15],
+	["QB", 0.38, 0.37], ["RB", 0.62, 0.37],
+	["EDGE", 0.14, 0.62], ["DL", 0.38, 0.62], ["LB", 0.62, 0.62], ["EDGE", 0.86, 0.62],
+	["CB", 0.2, 0.84], ["S", 0.5, 0.84], ["CB", 0.8, 0.84],
+]
+
+
+func _field_card(h: float) -> Control:
+	var c := Control.new()
+	c.custom_minimum_size = Vector2(0, h)
+	c.mouse_filter = MOUSE_FILTER_IGNORE
+	c.draw.connect(func(): _draw_field(c))
+	return c
+
+
+func _draw_field(c: Control) -> void:
+	var w := c.size.x
+	var h := c.size.y
+	var field_box := UI.box(Color("2f7a46"), 24, 0)
+	c.draw_style_box(field_box, Rect2(Vector2.ZERO, c.size))
+	for i in 6:
+		if i % 2 == 0:
+			c.draw_rect(Rect2(Vector2(w * i / 6.0, 0), Vector2(w / 6.0, h)), Color(1, 1, 1, 0.05))
+	c.draw_line(Vector2(16, h * 0.5), Vector2(w - 16, h * 0.5), Color(1, 1, 1, 0.35), 2.0)
+	# cầu thủ của bạn theo vị trí
+	var mine := {}
+	for e in Draft.team_picks(Draft.user_team):
+		var pos: String = e.player.pos
+		if not mine.has(pos):
+			mine[pos] = []
+		mine[pos].append(e.player.name.get_slice(" ", 1))
+	var used := {}
+	var needs: Array = Draft.needs[Draft.user_team]
+	var team_col := Draft.team_color(Draft.user_team)
+	var jw := minf(w * 0.055, h * 0.1)
+	for slot in FORMATION:
+		var pos: String = slot[0]
+		var ctr := Vector2(w * float(slot[1]), h * float(slot[2]))
+		var k: int = used.get(pos, 0)
+		used[pos] = k + 1
+		var names: Array = mine.get(pos, [])
+		var filled := k < names.size()
+		var col := team_col if filled else Color(1, 1, 1, 0.22)
+		_draw_jersey(c, ctr, jw, col, pos in needs and not filled)
+		var txt: String = names[k] if filled else pos
+		var fs := int(clampf(h * 0.06, 13.0, 18.0))
+		c.draw_string(UI.BOLD, ctr + Vector2(-60, jw * 0.75 + fs), txt, HORIZONTAL_ALIGNMENT_CENTER, 120, fs,
+			Color.WHITE if filled else Color(1, 1, 1, 0.75))
+
+
+func _draw_jersey(c: Control, ctr: Vector2, s: float, col: Color, need: bool) -> void:
+	var pts := PackedVector2Array()
+	for p in [[-0.28, -0.5], [-0.1, -0.5], [0.0, -0.4], [0.1, -0.5], [0.28, -0.5], [0.5, -0.28],
+			[0.38, -0.1], [0.28, -0.18], [0.28, 0.5], [-0.28, 0.5], [-0.28, -0.18], [-0.38, -0.1], [-0.5, -0.28]]:
+		pts.append(ctr + Vector2(p[0], p[1]) * s * 1.4)
+	c.draw_colored_polygon(pts, col)
+	if need:
+		var loop := pts.duplicate()
+		loop.append(pts[0])
+		c.draw_polyline(loop, UI.GOLD, 3.0, true)
 
 
 func _refresh_chips() -> void:
@@ -314,10 +391,6 @@ func _refresh_list() -> void:
 func _player_row(p: Dictionary, idx: int, need: bool) -> Button:
 	var b := _row_button(96)
 	var row := _row_box(b)
-	var rk := UI.label("%d" % idx, 24, UI.MUTED, true)
-	rk.custom_minimum_size = Vector2(44, 0)
-	rk.size_flags_vertical = SIZE_SHRINK_CENTER
-	row.add_child(rk)
 	var info := VBoxContainer.new()
 	info.alignment = BoxContainer.ALIGNMENT_CENTER
 	info.add_theme_constant_override("separation", 2)
@@ -512,7 +585,8 @@ func _show_results() -> void:
 	lv.size_flags_horizontal = SIZE_EXPAND_FILL
 	lv.add_theme_constant_override("separation", 8)
 	sc.add_child(lv)
-	lv.add_child(_section("Your class", 4))
+	lv.add_child(_field_card(280))
+	lv.add_child(_section("Your class", 12))
 	var note := UI.label("Scout grade is the pre-draft board; true rating is revealed now. Scouting is noisy: nearly half of prospects land 3+ points off their grade.", 19, UI.MUTED, true)
 	note.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	lv.add_child(note)
